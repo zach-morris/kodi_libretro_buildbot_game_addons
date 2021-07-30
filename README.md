@@ -4,15 +4,15 @@ This is a script that generates [Kodi](http://kodi.tv) game addons from the [lib
 This is experimental at this point.  The addons should auto build (if an update is found) using Github Actions once every 24 hours.
 
 To install the game addons, choose the appropriate repository:
-- Kodi App users on Windows, Linux, Mac OSX (x86_64) and Android (armv7 and aarch64) can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/master/repository.kodi_libretro_buildbot_game_addons.zip)
-- LibreElec x86_64 users can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/master/repository.kodi_libretro_buildbot_game_addons_le_generic.zip)
-- LibreElec or Raspbian OS / RPi users can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/master/repository.kodi_libretro_buildbot_game_addons_le_armhf.zip)
+- Kodi App users on Windows, Linux, Mac OSX (x86_64) and Android (armv7 and aarch64) can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/main/repository.kodi_libretro_buildbot_game_addons.zip)
+- LibreElec x86_64 users can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/main/repository.kodi_libretro_buildbot_game_addons_le_generic.zip)
+- LibreElec or Raspbian OS / RPi users can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/main/repository.kodi_libretro_buildbot_game_addons_le_armhf.zip)
 
 You will also need the Libretro Compatability addon ([game.libretro](https://kodi.wiki/view/Add-on:Libretro_Compatibility)) installed, which is available in the official Kodi repository / Kodi ppa.
 
 Help Needed:
 
-If you want to support this repository, help is needed in getting the files in [this folder](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/tree/master/resources/addon_resources) in order:
+If you want to support this repository, help is needed in getting the files in [this folder](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/tree/main/resources/addon_resources) in order:
 - Adding assets for new cores (icons, etc)
 - Adding / editing buttonmap and topology xml files so they will utilize the correct controllers in Kodi
 
