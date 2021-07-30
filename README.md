@@ -19,7 +19,7 @@ If you want to support this repository, help is needed in getting the files in [
 
 Cloning:
 
-Since this repository is constantly automatically updating binaries, cloning can be problematic.  Suggest you use the no_binary branch for any cloning or proposed code updates.
+Since this repository is constantly automatically updating binaries, cloning can be problematic.  Suggest you use the no_binary branch for any cloning or proposed code updates.  The size of that branch is manageable since, as the name implies, there are no binaries included in it.
 
 Game Addon Status:
 
