@@ -15,6 +15,11 @@ Help Needed:
 If you want to support this repository, help is needed in getting the files in [this folder](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/tree/main/resources/addon_resources) in order:
 - Adding assets for new cores (icons, etc)
 - Adding / editing buttonmap and topology xml files so they will utilize the correct controllers in Kodi
+- Help needed in figuring out how to extract settings automatically from cores using the new API
+
+Cloning:
+
+Since this repository is constantly automatically updating binaries, cloning can be problematic.  Suggest you use the no_binary branch for any cloning or proposed code updates.
 
 Game Addon Status:
 
