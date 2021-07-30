@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD">
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <!-- A -->
+    <feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <!-- B -->
+    <feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <!-- C -->
+    <feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+    <!-- Pause -->
+    <feature name="back" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+    <!-- Option -->
+    <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <!-- Button 0 -->
+    <feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <!-- Button 1 -->
+    <feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+    <!-- Button 2 -->
+    <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    <!-- Button 3 -->
+    <feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+    <!-- Button 4 -->
+    <feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+    <!-- Button 5 -->
+    <feature name="leftthumb" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+    <!-- Button 6 -->
+    <feature name="rightthumb" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+  </controller>
+</buttonmap>

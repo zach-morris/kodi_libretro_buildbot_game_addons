@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<controller id="game.controller.nes" type="RETRO_DEVICE_JOYPAD" subclass="0">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+	</controller>
+	<!-- TODO
+	<controller id="game.controller.nes.zapper" type="RETRO_DEVICE_MOUSE" subclass="0"/>
+	<controller id="game.controller.nes.arkanoid" type="RETRO_DEVICE_MOUSE" subclass="1"/>
+	<controller id="game.controller.famicom.arkanoid" type="RETRO_DEVICE_MOUSE" subclass="2"/>
+	<controller id="game.controller.famicom.oeka.kids" type="RETRO_DEVICE_MOUSE" subclass="3"/>
+	<controller id="game.controller.famicom.hyper.shot" type="RETRO_DEVICE_MOUSE" subclass="4"/>
+	-->
+</buttonmap>

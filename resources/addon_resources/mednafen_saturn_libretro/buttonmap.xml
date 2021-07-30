@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<controller id="game.controller.saturn" type="RETRO_DEVICE_JOYPAD" subclass="0">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="c" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="z" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+	</controller>
+	<controller id="game.controller.saturn.3d.western" type="RETRO_DEVICE_ANALOG" subclass="0">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="c" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="z" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="analogstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+	</controller>
+	<controller id="game.controller.saturn.arcade.racer" type="RETRO_DEVICE_ANALOG" subclass="1">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="c" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="z" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="wheel" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT" axis="RETRO_DEVICE_ID_ANALOG_X"/>
+		<feature name="leftshift" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="rightshift" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+	</controller>
+	<controller id="game.controller.saturn.mission.stick" type="RETRO_DEVICE_ANALOG" subclass="2">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="c" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="z" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="l" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="r" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="joystick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="throttle" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT" axis="RETRO_DEVICE_ID_ANALOG_Y"/>
+		<feature name="throttlelatch" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+	</controller>
+	<controller id="game.controller.saturn.mission.sticks" type="RETRO_DEVICE_ANALOG" subclass="3">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="c" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="z" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="l" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="r" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="leftjoystick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="rightjoystick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+	</controller>
+	<controller id="game.controller.saturn.mouse" type="RETRO_DEVICE_MOUSE" subclass="0">
+		<feature name="left" mapto="RETRO_DEVICE_ID_MOUSE_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_MOUSE_RIGHT"/>
+		<feature name="middle" mapto="RETRO_DEVICE_ID_MOUSE_MIDDLE"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="pointer" mapto="RETRO_DEVICE_MOUSE"/>
+	</controller>
+	<controller id="game.controller.saturn.twin.stick" type="RETRO_DEVICE_ANALOG" subclass="4">
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="leftbutton" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+		<feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="rightbutton" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+	</controller>
+	<!-- TODO: Absolute lightgun coordinates -->
+	<controller id="game.controller.saturn.virtua.gun.us" type="RETRO_DEVICE_LIGHTGUN">
+		<models>
+			<model name="japanese" subclass="0"/>
+			<model name="us" subclass="1"/>
+			<!-- TODO
+			<model name="eu" subclass="2"/>
+			-->
+		</models>
+		<feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_LIGHTGUN_START"/>
+		<feature name="reload" mapto="RETRO_DEVICE_ID_LIGHTGUN_RELOAD"/>
+		<feature name="offscreen" mapto="RETRO_DEVICE_ID_LIGHTGUN_OFFSCREEN"/>
+		<feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
+	</controller>
+	-->
+</buttonmap>

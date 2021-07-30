@@ -1,0 +1,4 @@
+Python bindings to libretro API, implemented in Python with ctypes.
+Attempting to match the old python-snes API as closely as possible.
+The code here is currently far from organized or complete, but is usable.
+
