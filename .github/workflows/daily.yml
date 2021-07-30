@@ -1,0 +1,25 @@
+name: Build Addons Dailly
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      - name: Starting Buildbot Builder
+        run: |
+          echo Starting Buildbot Builder
+          sudo apt-get install python3-lxml
+          python -c "import sys; print(sys.version)"
+          python build_and_update_addons.py
+      - name: Update addons in the repository
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Addons via GA ${{ steps.date.outputs.date }}
+          repository: .
+          commit_user_name: GitHub Actions Bot
