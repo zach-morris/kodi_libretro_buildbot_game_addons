@@ -179,7 +179,7 @@ for ii,platforms in enumerate(build_data['kodi_platforms']):
 		for jj,addon_data in enumerate(build_data['addon_xml'][ii]):
 			if addon_data is not None and build_data['settings_xml'][ii][jj] is None:  #Settings xml is not yet built
 				if build_data['addon_xml'][ii][jj]['build_addon']: #Attempt to build addon from buildbot, getting latest settings data
-					print(build_data['addon_xml'][ii][jj]['build_addon'])
+					print('Attempting to build addon %(core_name)s' % {'core_name': build_data['addon_xml'][ii][jj]['@id']})
 					success,build_data['settings_xml'][ii][jj],supporting_data = download_binary_and_generate_settings(source=get_addon_source_from_addon_xml(build_data['addon_xml'][ii][jj]),current_platform=build_data['kodi_platforms'][ii],wrapper_platform=script_settings['wrapper_platform'],download_folder_path=script_settings['temp_directory'])
 					if supporting_data is not None: #Populate vfs and standalone info
 						if supporting_data['opengl_linkage'] is not None:
@@ -203,6 +203,8 @@ for ii,platforms in enumerate(build_data['kodi_platforms']):
 				else: #Do not attempt to build from buildbot, but if there's an existing addon, grab settings and addon data from that
 					if build_data['addon_xml'][ii][jj]['current_build'] is not None:
 						current_build_addon_xml = extract_addonxml_from_current_build(current_build=build_data['addon_xml'][ii][jj]['current_build'],platform=platforms,include_path_and_size=False)
+						print(build_data['addon_xml'][ii][jj]['current_build'])
+						
 						build_data['settings_xml'][ii][jj] = extract_settings_from_current_build(current_build=build_data['addon_xml'][ii][jj]['current_build'])
 						if 'extension' in build_data['addon_xml'][ii][jj].keys():
 							for kk,extensions in enumerate(build_data['addon_xml'][ii][jj]['extension']):

@@ -357,14 +357,18 @@ def get_settings_xml_from_binary(binary_in=None):
 
 def extract_settings_from_current_build(current_build=None):
 	print('Gettings existing settings from %(core_name)s' % {'core_name': os.path.basename(current_build)})
+	print(current_build)
 	dict_out = None
 
 	settings_xml_text = None
-	with zipfile.ZipFile(current_build,'r') as z:
-		for fn in z.namelist():
-			if 'settings.xml' in fn:
-				with z.open(fn) as settings_xml_file:
-					settings_xml_text = settings_xml_file.read()
+	try:
+		with zipfile.ZipFile(current_build,'r') as z:
+			for fn in z.namelist():
+				if 'settings.xml' in fn:
+					with z.open(fn) as settings_xml_file:
+						settings_xml_text = settings_xml_file.read()
+	except Exception as exc:
+		print('There was an error getting current settings from the file.  %(exc)s' % {'exc':exc})
 
 	if settings_xml_text is not None:
 		# dict_out=etree_to_dict(ET.parse(os.path.join(self.mame_path,filename)).getroot())
