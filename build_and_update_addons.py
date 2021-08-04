@@ -176,10 +176,12 @@ for ii,platforms in enumerate(build_data['kodi_platforms']):
 #First build addons for wrapper platform to get proper settings data
 for ii,platforms in enumerate(build_data['kodi_platforms']):
 	if platforms == script_settings['wrapper_platform']:
+		print('Building addons for platform %(platform)s'%{'platform':platforms})
 		for jj,addon_data in enumerate(build_data['addon_xml'][ii]):
+			print('Attempting to build addon %(core_name)s' % {'core_name': build_data['addon_xml'][ii][jj]['@id']})
 			if addon_data is not None and build_data['settings_xml'][ii][jj] is None:  #Settings xml is not yet built
 				if build_data['addon_xml'][ii][jj]['build_addon']: #Attempt to build addon from buildbot, getting latest settings data
-					print('Attempting to build addon %(core_name)s' % {'core_name': build_data['addon_xml'][ii][jj]['@id']})
+					print('Building %(core_name)s from buildbot'% {'core_name': build_data['addon_xml'][ii][jj]['@id']})
 					success,build_data['settings_xml'][ii][jj],supporting_data = download_binary_and_generate_settings(source=get_addon_source_from_addon_xml(build_data['addon_xml'][ii][jj]),current_platform=build_data['kodi_platforms'][ii],wrapper_platform=script_settings['wrapper_platform'],download_folder_path=script_settings['temp_directory'])
 					if supporting_data is not None: #Populate vfs and standalone info
 						if supporting_data['opengl_linkage'] is not None:
@@ -202,11 +204,12 @@ for ii,platforms in enumerate(build_data['kodi_platforms']):
 							build_data['build_report'][ii][jj]=build_addon(addon_dict_in=build_data['addon_xml'][ii][jj],settings_dict_in=build_data['settings_xml'][ii][jj],temp_folder=script_settings['temp_directory'],binary_folder=script_settings['temp_directory'],platform_folder=os.path.join(os.getcwd(),build_data['kodi_platforms'][ii]),icon_path=script_settings['icon_common'])
 				else: #Do not attempt to build from buildbot, but if there's an existing addon, grab settings and addon data from that
 					if build_data['addon_xml'][ii][jj]['current_build'] is not None:
+						print('Building %(core_name)s from current build info'% {'core_name': build_data['addon_xml'][ii][jj]['@id']})
 						current_build_addon_xml = extract_addonxml_from_current_build(current_build=build_data['addon_xml'][ii][jj]['current_build'],platform=platforms,include_path_and_size=False)
 						print(build_data['addon_xml'][ii][jj]['current_build'])
-						
+
 						build_data['settings_xml'][ii][jj] = extract_settings_from_current_build(current_build=build_data['addon_xml'][ii][jj]['current_build'])
-						if 'extension' in build_data['addon_xml'][ii][jj].keys():
+						if current_build_addon_xml and 'extension' in build_data['addon_xml'][ii][jj].keys():
 							for kk,extensions in enumerate(build_data['addon_xml'][ii][jj]['extension']):
 								if 'supports_vfs' in extensions.keys():
 									build_data['addon_xml'][ii][jj]['extension'][kk]['supports_vfs'] = current_build_addon_xml['extension'][kk]['supports_vfs']

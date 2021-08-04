@@ -15,6 +15,7 @@ jobs:
         run: |
           echo Starting Buildbot Builder
           sudo apt-get install python3-lxml
+          sudo apt-get install libglu1
           python -c "import sys; print(sys.version)"
           python build_and_update_addons.py
       - name: Update addons in the repository
