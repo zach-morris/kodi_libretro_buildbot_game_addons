@@ -406,9 +406,10 @@ def extract_addonxml_from_current_build(current_build=None,include_path_and_size
 						dict_out['addon']['extension'][ii]['size'] = str(os.path.getsize(current_build))
 						if platform is not None:
 							dict_out['addon']['extension'][ii]['path'] = os.path.join(platform,os.path.basename(current_build))
+		return dict_out['addon']
 	else:
 		print('No addon.xml found for %(core_name)s' % {'core_name': os.path.basename(current_build)})
-	return dict_out['addon']
+		return None
 
 def build_addon(addon_dict_in=None,settings_dict_in=None,temp_folder=None,binary_folder=None,platform_folder=None,icon_path=None):
 	build_report = dict()
