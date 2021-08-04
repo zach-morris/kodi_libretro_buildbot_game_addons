@@ -178,7 +178,6 @@ for ii,platforms in enumerate(build_data['kodi_platforms']):
 	if platforms == script_settings['wrapper_platform']:
 		print('Building addons for platform %(platform)s'%{'platform':platforms})
 		for jj,addon_data in enumerate(build_data['addon_xml'][ii]):
-			print('Attempting to build addon %(core_name)s' % {'core_name': build_data['addon_xml'][ii][jj]['@id']})
 			if addon_data is not None and build_data['settings_xml'][ii][jj] is None:  #Settings xml is not yet built
 				if build_data['addon_xml'][ii][jj]['build_addon']: #Attempt to build addon from buildbot, getting latest settings data
 					print('Building %(core_name)s from buildbot'% {'core_name': build_data['addon_xml'][ii][jj]['@id']})
