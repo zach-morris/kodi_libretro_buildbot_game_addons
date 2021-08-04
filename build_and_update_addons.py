@@ -69,7 +69,7 @@ script_settings['buildbot_settings']['bb_urls'] = [ 'http://buildbot.libretro.co
 													]
 
 #To be updated based on what works and what doesn't at some point at the platform level
-script_settings['buildbot_settings']['dont_install_these_cores'] = [script_settings['ignore_these_cores_common'], #OSX x86_64
+script_settings['buildbot_settings']['dont_install_these_cores'] = [script_settings['ignore_these_cores_common']+['mame_libretro'], #OSX x86_64
 																# [x for x in script_settings['all_cores_common'] if x not in script_settings['android_cores_test']], #Android 64
 																# [x for x in script_settings['all_cores_common'] if x not in script_settings['android_cores_test']], #Android v7a
 																script_settings['ignore_these_cores_common']+['mame_libretro'], #Android 64
