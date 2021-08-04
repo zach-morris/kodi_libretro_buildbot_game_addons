@@ -384,13 +384,18 @@ def extract_settings_from_current_build(current_build=None):
 
 def extract_addonxml_from_current_build(current_build=None,include_path_and_size=True,platform=None):
 	print('Gettings existing addon.xml from %(core_name)s' % {'core_name': os.path.basename(current_build)})
+	print(current_build)
+
 	dict_out = None
 	addon_xml_text = None
-	with zipfile.ZipFile(current_build,'r') as z:
-		for fn in z.namelist():
-			if 'addon.xml' in fn:
-				with z.open(fn) as addon_xml_file:
-					addon_xml_text = addon_xml_file.read()
+	try:
+		with zipfile.ZipFile(current_build,'r') as z:
+			for fn in z.namelist():
+				if 'addon.xml' in fn:
+					with z.open(fn) as addon_xml_file:
+						addon_xml_text = addon_xml_file.read()
+	except Exception as exc:
+		print('There was an error getting current addon xml from the file.  %(exc)s' % {'exc':exc})
 
 	if addon_xml_text is not None:
 		dict_out = etree_to_dict(ET.fromstring(addon_xml_text))
