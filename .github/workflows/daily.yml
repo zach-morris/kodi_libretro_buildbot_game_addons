@@ -1,8 +1,8 @@
-name: Build Addons Dailly
+name: Build Addons Weekly
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * 6"
 jobs:
   build:
     runs-on: ubuntu-latest
