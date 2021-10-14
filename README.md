@@ -1,7 +1,7 @@
 # kodi_libretro_buildbot_game_addons for Kodi
 
 This is a script that generates [Kodi](http://kodi.tv) game addons from the [libretro buildbot](http://buildbot.libretro.com) binaries.
-This is experimental at this point.  The addons should auto build (if an update is found) using Github Actions once every 24 hours.
+This is experimental at this point.  The addons should auto build (if an update is found) using Github Actions once every week.
 
 To install the game addons, choose the appropriate repository:
 - Kodi App users on Windows, Linux, Mac OSX (x86_64) and Android (armv7 and aarch64) can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/main/repository.kodi_libretro_buildbot_game_addons.zip)
