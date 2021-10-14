@@ -6,7 +6,7 @@ This is experimental at this point.  The addons should auto build (if an update 
 To install the game addons, choose the appropriate repository:
 - Kodi App users on Windows, Linux, Mac OSX (x86_64) and Android (armv7 and aarch64) can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/main/repository.kodi_libretro_buildbot_game_addons.zip)
 - LibreElec x86_64 users can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/main/repository.kodi_libretro_buildbot_game_addons_le_generic.zip)
-- LibreElec or Raspbian OS / RPi users can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/main/repository.kodi_libretro_buildbot_game_addons_le_armhf.zip)
+- LibreElec or Raspbian OS on RPi / OSMC users can install [this repository](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/raw/main/repository.kodi_libretro_buildbot_game_addons_le_armhf.zip)
 
 You will also need the Libretro Compatability addon ([game.libretro](https://kodi.wiki/view/Add-on:Libretro_Compatibility)) installed, which is available in the official Kodi repository / Kodi ppa.
 
