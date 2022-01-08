@@ -850,6 +850,34 @@
       <path>linux_le_armhf/game.libretro.mednafen_gba_libretro_buildbot-1.2020.18554.zip</path>
     </extension>
   </addon>
+  <addon id="game.libretro.chailove_libretro_buildbot" name="ChaiLove" version="1.2020.18501" provider-name="http://buildbot.libretro.com/">
+    <requires>
+      <import addon="game.libretro" version="1.0.0"/>
+      <import addon="game.controller.default"/>
+      <import addon="game.controller.keyboard"/>
+      <import addon="game.controller.mouse"/>
+    </requires>
+    <extension point="kodi.gameclient" library_linux="chailove_libretro.so">
+      <platforms>ChaiLove</platforms>
+      <extensions>chai|chailove</extensions>
+      <supports_vfs>false</supports_vfs>
+      <supports_standalone>false</supports_standalone>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">ChaiLove</summary>
+      <description lang="en_GB">Game engine for ChaiLove by Rob Loach[CR]Supported files: chai|chailove</description>
+      <license>MIT</license>
+      <platform>all</platform>
+      <source>http://buildbot.libretro.com/nightly/linux/armhf/latest/chailove_libretro.so.zip</source>
+      <news>Built from libretro buildbot commit c5a6d764 (2020-08-27)</news>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+      <size>1408273</size>
+      <path>linux_le_armhf/game.libretro.chailove_libretro_buildbot-1.2020.18501.zip</path>
+    </extension>
+  </addon>
   <addon id="game.libretro.sameboy_libretro_buildbot" name="Nintendo - Game Boy / Color (SameBoy)" version="1.2020.18551" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
