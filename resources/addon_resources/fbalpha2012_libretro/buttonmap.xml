@@ -10,7 +10,7 @@
     <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
     <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
     <feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
-    <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+    <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
     <feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
     <feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
     <feature name="leftthumb" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>

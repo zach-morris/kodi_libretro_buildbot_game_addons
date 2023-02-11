@@ -19,15 +19,15 @@
     <feature name="right" mapto="RETRO_DEVICE_ID_MOUSE_RIGHT"/>
     <feature name="pointer" mapto="RETRO_DEVICE_MOUSE"/>
   </controller>
-  <controller id="game.controller.snes.multitap" type="RETRO_DEVICE_JOYPAD" class="0"/>
-  <controller id="game.controller.snes.super.scope" type="RETRO_DEVICE_LIGHTGUN" class="0">
+  <controller id="game.controller.snes.multitap" type="RETRO_DEVICE_JOYPAD" subclass="0"/>
+  <controller id="game.controller.snes.super.scope" type="RETRO_DEVICE_LIGHTGUN" subclass="0">
     <feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
     <feature name="cursor" mapto="RETRO_DEVICE_ID_LIGHTGUN_CURSOR"/>
     <feature name="turbo" mapto="RETRO_DEVICE_ID_LIGHTGUN_TURBO"/>
     <feature name="pause" mapto="RETRO_DEVICE_ID_LIGHTGUN_PAUSE"/>
     <feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
   </controller>
-  <controller id="game.controller.konami.justifier.snes" type="RETRO_DEVICE_LIGHTGUN" class="1">
+  <controller id="game.controller.konami.justifier.snes" type="RETRO_DEVICE_LIGHTGUN" subclass="1">
     <feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
     <feature name="start" mapto="RETRO_DEVICE_ID_LIGHTGUN_PAUSE"/>
     <feature name="offscreen" mapto="RETRO_DEVICE_ID_LIGHTGUN_TURBO"/>

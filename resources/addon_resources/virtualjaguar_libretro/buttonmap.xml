@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buttonmap version="2">
+  <!-- TODO: Add support for Atari Jaguar controller --->
   <controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD">
     <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
     <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>

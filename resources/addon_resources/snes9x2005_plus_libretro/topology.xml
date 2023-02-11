@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <logicaltopology>
-  <port id="1">
+  <port type="controller" id="1" connectionPort="0">
     <accepts controller="game.controller.snes"/>
     <accepts controller="game.controller.snes.mouse"/>
     <accepts controller="game.controller.snes.multitap">
-      <port id="1">
+      <port type="controller" id="1" connectionPort="-1" forceConnected="true">
         <accepts controller="game.controller.snes"/>
       </port>
-      <port id="2">
+      <port type="controller" id="2" connectionPort="-1" forceConnected="true">
         <accepts controller="game.controller.snes"/>
       </port>
-      <port id="3">
+      <port type="controller" id="3" connectionPort="-1" forceConnected="true">
         <accepts controller="game.controller.snes"/>
       </port>
-      <port id="4">
+      <port type="controller" id="4" connectionPort="-1" forceConnected="true">
         <accepts controller="game.controller.snes"/>
       </port>
     </accepts>
   </port>
-  <port id="2">
+  <port type="controller" id="2" connectionPort="1">
     <accepts controller="game.controller.snes"/>
     <accepts controller="game.controller.snes.mouse"/>
     <accepts controller="game.controller.snes.multitap">
-      <port id="1">
+      <port type="controller" id="1" connectionPort="-1" forceConnected="true">
         <accepts controller="game.controller.snes"/>
       </port>
-      <port id="2">
+      <port type="controller" id="2" connectionPort="-1" forceConnected="true">
         <accepts controller="game.controller.snes"/>
       </port>
-      <port id="3">
+      <port type="controller" id="3" connectionPort="-1" forceConnected="true">
         <accepts controller="game.controller.snes"/>
       </port>
-      <port id="4">
+      <port type="controller" id="4" connectionPort="-1" forceConnected="true">
         <accepts controller="game.controller.snes"/>
       </port>
     </accepts>

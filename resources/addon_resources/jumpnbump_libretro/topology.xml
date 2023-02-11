@@ -3,4 +3,13 @@
   <port type="controller" id="1">
     <accepts controller="game.controller.default"/>
   </port>
+  <port type="controller" id="2">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port type="controller" id="3">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port type="controller" id="4">
+    <accepts controller="game.controller.default"/>
+  </port>
 </logicaltopology>
