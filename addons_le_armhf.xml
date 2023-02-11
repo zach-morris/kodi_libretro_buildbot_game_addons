@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons>
+  <addon id="game.libretro.nestopia_libretro_buildbot" name="Nintendo - NES / Famicom (Nestopia UE)" version="1.2020.18547" provider-name="http://buildbot.libretro.com/">
+    <requires>
+      <import addon="game.libretro" version="1.0.0"/>
+      <import addon="game.controller.default"/>
+      <import addon="game.controller.nes"/>
+    </requires>
+    <extension point="kodi.gameclient" library_linux="nestopia_libretro.so">
+      <platforms>Nintendo Entertainment System</platforms>
+      <extensions>nes|fds|unf|unif</extensions>
+      <supports_vfs>true</supports_vfs>
+      <supports_standalone>false</supports_standalone>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Nintendo - NES / Famicom (Nestopia UE)</summary>
+      <description lang="en_GB">Emulator for Nintendo Entertainment System by Martin Freij|R. Belmont|R. Danbrook[CR]Supported files: nes|fds|unf|unif[CR][CR]Game Addon Notes: (!) disksys.rom (md5): ca30b50f880eb660a320674ed365ef7a|Press Retropad L1 to switch disk side.</description>
+      <license>GPLv2</license>
+      <platform>all</platform>
+      <source>http://buildbot.libretro.com/nightly/linux/armhf/latest/nestopia_libretro.so.zip</source>
+      <news>Built from libretro buildbot commit 1e9c8cd7 (2020-10-12)</news>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+      <size>693142</size>
+      <path>linux_le_armhf/game.libretro.nestopia_libretro_buildbot-1.2020.18547.zip</path>
+    </extension>
+  </addon>
+</addons>

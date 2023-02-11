@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<controller id="game.controller.ps.gamepad" type="RETRO_DEVICE_JOYPAD" subclass="0">
+		<feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="triangle" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="l3" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+		<feature name="r3" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+		<feature name="strongmotor" mapto="RETRO_RUMBLE_STRONG"/>
+		<feature name="weakmotor" mapto="RETRO_RUMBLE_WEAK"/>
+	</controller>
+	<controller id="game.controller.ps.dualshock" type="RETRO_DEVICE_ANALOG" subclass="1">
+		<feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="triangle" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="l3" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+		<feature name="r3" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+		<feature name="strongmotor" mapto="RETRO_RUMBLE_STRONG"/>
+		<feature name="weakmotor" mapto="RETRO_RUMBLE_WEAK"/>
+	</controller>
+	<controller id="game.controller.ps.dualanalog" type="RETRO_DEVICE_ANALOG" subclass="2">
+		<feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="triangle" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="l3" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+		<feature name="r3" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+		<feature name="strongmotor" mapto="RETRO_RUMBLE_STRONG"/>
+		<feature name="weakmotor" mapto="RETRO_RUMBLE_WEAK"/>
+	</controller>
+	<controller id="game.controller.ps.guncon.western" type="RETRO_DEVICE_LIGHTGUN" subclass="0">
+		<feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
+		<feature name="a" mapto="RETRO_DEVICE_ID_LIGHTGUN_AUX_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_LIGHTGUN_AUX_B"/>
+		<feature name="offscreen" mapto="RETRO_DEVICE_ID_LIGHTGUN_IS_OFFSCREEN"/>
+		<feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
+	</controller>
+	<controller id="game.controller.ps.guncon.japan"  type="RETRO_DEVICE_LIGHTGUN" subclass="0">
+		<feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
+		<feature name="a" mapto="RETRO_DEVICE_ID_LIGHTGUN_AUX_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_LIGHTGUN_AUX_B"/>
+		<feature name="offscreen" mapto="RETRO_DEVICE_ID_LIGHTGUN_IS_OFFSCREEN"/>
+		<feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
+	</controller>
+	<controller id="game.controller.konami.justifier.ps" type="RETRO_DEVICE_LIGHTGUN" subclass="1">
+		<feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_LIGHTGUN_START"/>
+		<feature name="aux" mapto="RETRO_DEVICE_ID_LIGHTGUN_AUX_A"/>
+		<feature name="offscreen" mapto="RETRO_DEVICE_ID_LIGHTGUN_IS_OFFSCREEN"/>
+		<feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
+	</controller>
+	<controller id="game.controller.konami.justifier.player2" type="RETRO_DEVICE_LIGHTGUN" subclass="1">
+		<feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_LIGHTGUN_START"/>
+		<feature name="aux" mapto="RETRO_DEVICE_ID_LIGHTGUN_AUX_A"/>
+		<feature name="offscreen" mapto="RETRO_DEVICE_ID_LIGHTGUN_IS_OFFSCREEN"/>
+		<feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
+	</controller>
+	<controller id="game.controller.ps.mouse" type="RETRO_DEVICE_MOUSE" subclass="0">
+		<feature name="left" mapto="RETRO_DEVICE_ID_MOUSE_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_MOUSE_RIGHT"/>
+		<feature name="pointer" mapto="RETRO_DEVICE_MOUSE"/>
+	</controller>
+	<!-- TODO
+	<controller id="game.controller.ps.negcon" type="RETRO_DEVICE_ANALOG" subclass="3"/>
+	-->
+</buttonmap>

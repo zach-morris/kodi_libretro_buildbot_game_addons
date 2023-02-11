@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<controller id="game.controller.atari.lynx" type="RETRO_DEVICE_JOYPAD">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="option1" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="option2" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="pause" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+	</controller>
+</buttonmap>
