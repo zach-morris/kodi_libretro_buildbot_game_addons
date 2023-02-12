@@ -22,5 +22,6 @@ jobs:
         with:
           commit_message: Update Addons ${{ steps.date.outputs.date }}
           repository: .
+          push_options: '--force'
           commit_options: '--amend'
           commit_user_name: GitHub Actions Bot
