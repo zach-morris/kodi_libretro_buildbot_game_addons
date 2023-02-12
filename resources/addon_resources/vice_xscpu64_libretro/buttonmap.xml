@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buttonmap version="2">
-  <!-- TODO: Add support for Atari 2600 controller --->
   <controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD" subclass="1">
     <!-- Fire / Mouse button 1 -->
     <feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
