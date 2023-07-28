@@ -148,11 +148,19 @@ Game Addon Status:
 | Uzebox                                   | uzem_libretro                      | ![Nope](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/blob/main/resources/red.png) `Nope` | "Hard crash, crashes for me in Retroarch too though"                                                                                                                      | 
 | ZX Spectrum                              | fuse_libretro                      | ![works](https://github.com/zach-morris/kodi_libretro_buildbot_game_addons/blob/main/resources/green.png) `Works` | No other setup required                                                                                                                                                   | 
 
-Credits:
+
+Licenses
+-------------
+
+This buildbot repository is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+Addons built with this code contain their own licenses as applicable and the license can be found in the individual addon.xml contained therin.
+
 Images created procedurally using retroarch systematic icons that can be found [here](https://github.com/libretro/retroarch-assets/tree/master/xmb/systematic/png), and are covered by the CC Attribution 4.0 International license.
 
 
-To do:
+To Do
+-------------
 - Update scripting for logging purposes
 - Add additional platforms
 - Update database for controller requirements and mapping where needed
