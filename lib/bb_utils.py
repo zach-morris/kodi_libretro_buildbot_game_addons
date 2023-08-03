@@ -408,6 +408,61 @@ def extract_addonxml_from_current_build(current_build=None,include_path_and_size
 		print('No addon.xml found for %(core_name)s' % {'core_name': os.path.basename(current_build)})
 		return None
 
+
+def configure_git_lfs(new_path, previous_path=None):
+	"""Configure Git-LFS if required for the new path.
+
+	GitHub requires Git-LFS for files with size > 100MiB.
+
+	Args:
+		new_path: New file version path.
+		previous_path: Previous file version path.
+			Remove the Git-LFS configuration for this file if any.
+	"""
+	size = os.path.getsize(new_path)
+	require_git_lfs = size > 104857600  # 100MiB
+
+	if require_git_lfs or previous_path:
+		git_attributes_path = os.path.join(os.path.dirname(new_path), ".gitattributes")
+		git_attributes_changed = False
+
+		if os.path.isfile(git_attributes_path):
+			with open(git_attributes_path, "rt") as file:
+				lines = file.readlines()
+
+			if previous_path:
+				previous_filename = os.path.basename(previous_path)
+				for line in lines:
+					if line.startswith(previous_filename):
+						git_attributes_changed = True
+						lines.remove(line)
+						print(f"{previous_filename}: removing Git-LFS configuration")
+						break
+		else:
+			lines = []
+
+		new_filename = os.path.basename(new_path)
+		if require_git_lfs and not any(line.startswith(new_filename) for line in lines):
+			git_attributes_changed = True
+			lines.append(f"{new_filename} filter=lfs diff=lfs merge=lfs -text\n")
+			print(
+				f"{new_filename}: size is {size // 1048576}MiB, "
+				f"adding Git-LFS configuration"
+			)
+
+		if git_attributes_changed:
+			if lines:
+				with open(git_attributes_path, "wt") as file:
+					file.writelines(sorted(lines))
+				print(f"Updating {git_attributes_path} with Git-LFS configuration")
+			else:
+				os.remove(git_attributes_path)
+				print(
+					f"Removing {git_attributes_path}, "
+					f"no more Git-LFS configuration inside"
+				)
+
+
 def build_addon(addon_dict_in=None,settings_dict_in=None,temp_folder=None,binary_folder=None,platform_folder=None,icon_path=None):
 	build_report = dict()
 	build_report['success'] = False
@@ -466,6 +521,7 @@ def build_addon(addon_dict_in=None,settings_dict_in=None,temp_folder=None,binary
 					os.remove(addon_current_build)
 				print('New addon %(addon_current_build)s created for platform: %(current_platform)s' % {'addon_current_build': current_build_zipname,'current_platform':os.path.split(platform_folder)[-1]})
 				shutil.move(current_build_fullpath,os.path.join(platform_folder,current_build_zipname))
+				configure_git_lfs(os.path.join(platform_folder,current_build_zipname), addon_current_build)
 				build_report['file'] = current_build_zipname
 				if addon_current_build is not None:
 					build_report['old_file'] = os.path.basename(addon_current_build)
