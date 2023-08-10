@@ -73,18 +73,18 @@ script_settings['buildbot_settings']['bb_urls'] = [ 'http://buildbot.libretro.co
 													]
 
 #To be updated based on what works and what doesn't at some point at the platform level
-script_settings['buildbot_settings']['dont_install_these_cores'] = [script_settings['ignore_these_cores_common']+['mame_libretro'], #OSX x86_64
+script_settings['buildbot_settings']['dont_install_these_cores'] = [script_settings['ignore_these_cores_common'], #OSX x86_64
 																# [x for x in script_settings['all_cores_common'] if x not in script_settings['android_cores_test']], #Android 64
 																# [x for x in script_settings['all_cores_common'] if x not in script_settings['android_cores_test']], #Android v7a
-																script_settings['ignore_these_cores_common']+['mame_libretro'], #Android 64
-																script_settings['ignore_these_cores_common']+['mame_libretro'], #Android v7a
-																script_settings['ignore_these_cores_common']+['mame_libretro'], #Linux x86_64
-																script_settings['ignore_these_cores_common']+['mame_libretro'], #Windows x86, MAME is too big for github
-																script_settings['ignore_these_cores_common']+['mame_libretro'], #Windows x86_64, MAME is too big for github
+																script_settings['ignore_these_cores_common'], #Android 64
+																script_settings['ignore_these_cores_common'], #Android v7a
+																script_settings['ignore_these_cores_common'], #Linux x86_64
+																script_settings['ignore_these_cores_common'], #Windows x86
+																script_settings['ignore_these_cores_common'], #Windows x86_64
 																# [x for x in script_settings['all_cores_common'] if x not in script_settings['cores_test']], #LE x86_64
-																# [x for x in script_settings['all_cores_common'] if x not in script_settings['cores_test']], #LE ARMHF, MAME is too big for github
-																script_settings['ignore_these_cores_common']+['mame_libretro'], #LE x86_64
-																script_settings['ignore_these_cores_common']+['mame_libretro'], #LE ARMHF, MAME is too big for github
+																# [x for x in script_settings['all_cores_common'] if x not in script_settings['cores_test']], #LE ARMHF
+																script_settings['ignore_these_cores_common'], #LE x86_64
+																script_settings['ignore_these_cores_common'], #LE ARMHF
 																]
 
 script_settings['buildbot_settings']['build_platform_addons'] = [True,
