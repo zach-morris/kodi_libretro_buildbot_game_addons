@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <!--
+  This contains a subset of the default controller so that the remaining
+  buttons are passed to Kodi instead of being captured unused by the game.
+
+  TODO: Add a dedicated Dinothawr controller
+  -->
+  <controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD">
+    <!-- Menu -->
+    <feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <!-- Push -->
+    <feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <!-- Reset -->
+    <feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+  </controller>
+</buttonmap>

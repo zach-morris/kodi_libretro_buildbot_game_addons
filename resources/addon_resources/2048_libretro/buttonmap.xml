@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <!--
+    This contains a subset of the default controller so that the remaining
+    buttons are passed to Kodi instead of being captured unused by the game.
+  -->
+  <controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD">
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    <!-- Pause -->
+    <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <!-- New game -->
+    <feature name="back" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+  </controller>
+</buttonmap>
