@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port id="1">
+    <accepts controller="game.controller.saturn"/>
+    <accepts controller="game.controller.saturn.3d"/>
+    <accepts controller="game.controller.saturn.multitap">
+      <port id="1">
+        <accepts controller="game.controller.saturn" type="RETRO_DEVICE_JOYPAD" subclass="0"/>
+        <accepts controller="game.controller.saturn.3d" type="RETRO_DEVICE_ANALOG" subclass="0"/>
+      </port>
+      <port id="2">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+      <port id="3">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+      <port id="4">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+      <port id="5">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+      <port id="6">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+    </accepts>
+  </port>
+  <port id="2">
+    <accepts controller="game.controller.saturn"/>
+    <accepts controller="game.controller.saturn.3d"/>
+    <accepts controller="game.controller.saturn.multitap">
+      <port id="1">
+        <accepts controller="game.controller.saturn" type="RETRO_DEVICE_JOYPAD" subclass="0"/>
+        <accepts controller="game.controller.saturn.3d" type="RETRO_DEVICE_ANALOG" subclass="0"/>
+      </port>
+      <port id="2">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+      <port id="3">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+      <port id="4">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+      <port id="5">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+      <port id="6">
+        <accepts controller="game.controller.saturn"/>
+        <accepts controller="game.controller.saturn.3d"/>
+      </port>
+    </accepts>
+  </port>
+</logicaltopology>

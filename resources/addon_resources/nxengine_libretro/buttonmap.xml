@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD">
+    <!-- Jump -->
+    <feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <!-- Fire -->
+    <feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <!-- Show/Hide Map -->
+    <feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <!-- Previous Weapon -->
+    <feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+    <!-- Next Weapon -->
+    <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    <!-- Inventory -->
+    <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <!-- Settings -->
+    <feature name="back" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+    <!-- Directions -->
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+  </controller>
+</buttonmap>
