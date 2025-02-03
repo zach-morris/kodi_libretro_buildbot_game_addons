@@ -142,7 +142,8 @@ def read_text_url(url_in):
 	return r.text
 
 def parse_index_data(index_text_in):
-	split_text = [x for x in sorted(index_text_in.split('\n')) if '.zip' in x.lower()]
+	# date hash filename\n...
+	split_text = [x for x in sorted(index_text_in.split('\n')) if '.zip' in x.lower() and x.count(" ") >= 2]
 	index_data_out = dict()
 	index_data_out['filename'] = [x.split(' ')[-1].strip() for x in split_text]
 	index_data_out['filename_no_ext'] = [x.split('.')[0] for x in index_data_out['filename']]
