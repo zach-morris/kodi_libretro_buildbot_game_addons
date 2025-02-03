@@ -32,6 +32,8 @@ script_settings['buildbot_info_folder'] = 'libretro-core-info-master'
 script_settings['main_repo_platforms'] = ['osx-x86_64','android-aarch64','android-armv7','linux','windows-i686','windows-x86_64',] #Platforms for the main repository
 script_settings['le_generic_repo_platforms'] = ['linux_le_generic',] #Platforms for the LE generic repository
 script_settings['le_armhf_repo_platforms'] = ['linux_le_armhf',] #Platforms for the LE ARMHF repository
+script_settings['aarch64_repo_platforms'] = ['linux_aarch64'] #Platforms for linux ARM64 repository
+script_settings['armhf_repo_platforms'] = ['linux_armhf'] #Platforms for linux ARM repository
 
 script_settings['buildbot_settings']['kodi_platforms'] = [  'osx-x86_64', #Only 64 bit osx now available
 															'android-aarch64',
@@ -41,6 +43,8 @@ script_settings['buildbot_settings']['kodi_platforms'] = [  'osx-x86_64', #Only 
 															'windows-x86_64', #64 bit windows
 															'linux_le_generic', #64 bit LE generic, will be listed as all in the addon.xml
 															'linux_le_armhf', #ARMHF (RPI) LE, will be listed as all in the addon.xml
+															'linux_aarch64', #aarch64 linux, will be listed as all in the addon.xml
+															'linux_armhf', #aarch64 linux, will be listed as all in the addon.xml
 															]
 #Not included at this point
 # 'android-i686',
@@ -57,6 +61,8 @@ script_settings['buildbot_settings']['kodi_libraries'] = [  '@library_osx',
 															'@library_windows',
 															'@library_linux',
 															'@library_linux',
+															'@library_linux',
+															'@library_linux',
 															]
 #Not included at this point
 # library_freebsd  #freebsd platform
@@ -70,6 +76,8 @@ script_settings['buildbot_settings']['bb_urls'] = [ 'http://buildbot.libretro.co
 													'http://buildbot.libretro.com/nightly/windows/x86_64/latest/',
 													'http://buildbot.libretro.com/nightly/linux/x86_64/latest/',
 													'http://buildbot.libretro.com/nightly/linux/armhf/latest/',
+													'https://github.com/christianhaitian/retroarch-cores/raw/refs/heads/master/aarch64/',
+													'https://github.com/christianhaitian/retroarch-cores/raw/refs/heads/master/arm7hf/'
 													]
 
 #To be updated based on what works and what doesn't at some point at the platform level
@@ -85,6 +93,8 @@ script_settings['buildbot_settings']['dont_install_these_cores'] = [script_setti
 																# [x for x in script_settings['all_cores_common'] if x not in script_settings['cores_test']], #LE ARMHF
 																script_settings['ignore_these_cores_common'], #LE x86_64
 																script_settings['ignore_these_cores_common'], #LE ARMHF
+																script_settings['ignore_these_cores_common'], #aarch64 linux
+																script_settings['ignore_these_cores_common'], #armhf linux
 																]
 
 script_settings['buildbot_settings']['build_platform_addons'] = [True,
@@ -92,6 +102,8 @@ script_settings['buildbot_settings']['build_platform_addons'] = [True,
 																True,
 																True,
 																False,
+																True,
+																True,
 																True,
 																True,
 																True,
@@ -322,6 +334,27 @@ for ii,addons in enumerate(repo_addons_xml_le_armhf['addons']['addon']):
 print('Writing repository addons.xml and md5 file for LE ARMHF Repo')
 pretty_write_xml(repo_addons_xml_le_armhf,os.path.join(os.getcwd(),'addons_le_armhf.xml'))
 generate_md5_file(os.path.join(os.getcwd(),'addons_le_armhf.xml'))
+
+
+#Now generate the repository addons.xml and md5 for the ARM Repos
+for armarch in ["aarch64", "armhf"]:
+	repo_addons_xml_arm = dict()
+	repo_addons_xml_arm['addons'] = dict()
+	repo_addons_xml_arm['addons']['addon'] = list()
+	for ii,platforms in enumerate(build_data['kodi_platforms']):
+		if platforms in script_settings["%s_repo_platforms" % armarch]:
+			repo_addons_xml_arm['addons']['addon'] = repo_addons_xml_arm['addons']['addon']+[extract_addonxml_from_current_build(current_build=x,platform=platforms) for x in glob.glob(os.path.join(os.getcwd(),platforms,'*.zip'))]
+	
+	#Mark addons broken if necessary
+	for ii,addons in enumerate(repo_addons_xml_arm['addons']['addon']):
+		if isinstance(addons,dict) and 'extension' in addons.keys():
+			for kk,extensions in enumerate(addons['extension']):
+				if isinstance(extensions,dict) and 'source' in extensions.keys() and addons.get('@id') in script_settings['addons_to_mark_as_broken']:
+					repo_addons_xml_arm['addons']['addon'][ii]['extension'][kk]['broken'] = broken_tag
+	
+	print('Writing repository addons.xml and md5 file for ARM Repo')
+	pretty_write_xml(repo_addons_xml_arm,os.path.join(os.getcwd(),'addons_%s.xml' % armarch))
+	generate_md5_file(os.path.join(os.getcwd(),'addons_%s.xml' % armarch))
 
 
 # print('Sanity check - verify addons have same vfs flags')
