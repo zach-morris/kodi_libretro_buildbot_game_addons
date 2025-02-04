@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<!-- TODO: Create Pokemon Mini controller profile
+	<controller id="game.controller.pokemon.mini" type="RETRO_DEVICE_JOYPAD">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="c" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="power" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="shake" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+	</controller>
+	-->
+	<controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+	</controller>
+</buttonmap>
