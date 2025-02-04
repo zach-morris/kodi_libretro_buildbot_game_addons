@@ -1,0 +1,30 @@
+name: Build Addons Weekly
+
+on:
+  schedule:
+    - cron: "0 0 * * 6"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get current date
+        id: date
+        run: echo "builddate=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      - name: Starting Buildbot Builder
+        run: |
+          echo Starting Buildbot Builder
+          sudo apt-get install python3-lxml
+          sudo apt-get install libglu1
+          python -c "import sys; print(sys.version)"
+          python build_and_update_addons.py
+      - name: Update addons in the repository
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Addons ${{ steps.date.outputs.builddate }}
+          repository: .
+          push_options: '--force'
+          commit_options: '--amend'
+          commit_user_name: GitHub Actions Bot

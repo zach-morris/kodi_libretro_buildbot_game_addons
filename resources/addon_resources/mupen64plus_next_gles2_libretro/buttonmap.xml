@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<controller id="game.controller.n64" type="RETRO_DEVICE_ANALOG">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="cup" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT" direction="up"/>
+		<feature name="cdown" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT" direction="down"/>
+		<feature name="cright" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT" direction="right"/>
+		<feature name="cleft" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT" direction="left"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="z" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="analogstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+        <feature name="motor" mapto="RETRO_RUMBLE_WEAK"/>
+	</controller>
+</buttonmap>
