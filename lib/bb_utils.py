@@ -217,7 +217,7 @@ def create_addon_xml_dict(kodi_platform=None,addon_id=None,addon_name=None,addon
 						'description': {'@lang': 'en_GB',
 						'#text': addon_description},
 						'license': addon_license,
-						'platform': kodi_platform.replace('linux_le_generic','all').replace('linux_le_armhf','all'),
+						'platform': "all" if not kodi_platform or "_" in kodi_platform else kodi_platform,
 						'source': buildbot_source_url,
 						'news': 'Built from libretro buildbot commit %(addon_commit)s (%(addon_date)s)' % {'addon_commit': addon_commit, 'addon_date': addon_date},
 						'assets':assets_dict,
