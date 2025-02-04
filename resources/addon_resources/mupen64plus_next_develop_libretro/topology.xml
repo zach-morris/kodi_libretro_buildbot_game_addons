@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port type="controller" id="1">
+    <accepts controller="game.controller.n64"/>
+  </port>
+  <port type="controller" id="2">
+    <accepts controller="game.controller.n64"/>
+  </port>
+  <port type="controller" id="3">
+    <accepts controller="game.controller.n64"/>
+  </port>
+  <port type="controller" id="4">
+    <accepts controller="game.controller.n64"/>
+  </port>
+</logicaltopology>

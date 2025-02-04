@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <controller id="game.controller.snes" type="RETRO_DEVICE_JOYPAD">
+    <feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+    <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    <feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+  </controller>
+  <controller id="game.controller.snes.mouse" type="RETRO_DEVICE_MOUSE" subclass="0">
+    <feature name="left" mapto="RETRO_DEVICE_ID_MOUSE_LEFT"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_MOUSE_RIGHT"/>
+    <feature name="pointer" mapto="RETRO_DEVICE_MOUSE"/>
+  </controller>
+  <controller id="game.controller.snes.super.scope" type="RETRO_DEVICE_LIGHTGUN" subclass="0">
+    <feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
+    <feature name="cursor" mapto="RETRO_DEVICE_ID_LIGHTGUN_CURSOR"/>
+    <feature name="turbo" mapto="RETRO_DEVICE_ID_LIGHTGUN_TURBO"/>
+    <feature name="pause" mapto="RETRO_DEVICE_ID_LIGHTGUN_PAUSE"/>
+    <feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
+  </controller>
+  <controller id="game.controller.konami.justifier.snes" type="RETRO_DEVICE_LIGHTGUN" subclass="1">
+    <feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
+    <feature name="start" mapto="RETRO_DEVICE_ID_LIGHTGUN_START"/>
+    <feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
+  </controller>
+  <controller id="game.controller.konami.justifier.player2" type="RETRO_DEVICE_LIGHTGUN" subclass="2">
+    <feature name="trigger" mapto="RETRO_DEVICE_ID_LIGHTGUN_TRIGGER"/>
+    <feature name="start" mapto="RETRO_DEVICE_ID_LIGHTGUN_START"/>
+    <feature name="crosshair" mapto="RETRO_DEVICE_LIGHTGUN"/>
+  </controller>
+</buttonmap>
