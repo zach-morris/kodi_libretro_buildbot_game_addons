@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+    <controller id="game.controller.odyssey2" type="RETRO_DEVICE_JOYPAD">
+        <feature name="action" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    </controller>
+    <controller id="game.controller.keyboard" type="RETRO_DEVICE_KEYBOARD">
+        <feature name="1" mapto="RETROK_1"/>
+        <feature name="2" mapto="RETROK_2"/>
+        <feature name="3" mapto="RETROK_3"/>
+        <feature name="4" mapto="RETROK_4"/>
+        <feature name="5" mapto="RETROK_5"/>
+        <feature name="6" mapto="RETROK_6"/>
+        <feature name="7" mapto="RETROK_7"/>
+        <feature name="8" mapto="RETROK_8"/>
+        <feature name="9" mapto="RETROK_9"/>
+        <feature name="0" mapto="RETROK_0"/>
+        <feature name="a" mapto="RETROK_a"/>
+        <feature name="b" mapto="RETROK_b"/>
+        <feature name="c" mapto="RETROK_c"/>
+        <feature name="d" mapto="RETROK_d"/>
+        <feature name="e" mapto="RETROK_e"/>
+        <feature name="f" mapto="RETROK_f"/>
+        <feature name="g" mapto="RETROK_g"/>
+        <feature name="h" mapto="RETROK_h"/>
+        <feature name="i" mapto="RETROK_i"/>
+        <feature name="j" mapto="RETROK_j"/>
+        <feature name="k" mapto="RETROK_k"/>
+        <feature name="l" mapto="RETROK_l"/>
+        <feature name="m" mapto="RETROK_m"/>
+        <feature name="n" mapto="RETROK_n"/>
+        <feature name="o" mapto="RETROK_o"/>
+        <feature name="p" mapto="RETROK_p"/>
+        <feature name="q" mapto="RETROK_q"/>
+        <feature name="r" mapto="RETROK_r"/>
+        <feature name="s" mapto="RETROK_s"/>
+        <feature name="t" mapto="RETROK_t"/>
+        <feature name="u" mapto="RETROK_u"/>
+        <feature name="v" mapto="RETROK_v"/>
+        <feature name="w" mapto="RETROK_w"/>
+        <feature name="x" mapto="RETROK_x"/>
+        <feature name="y" mapto="RETROK_y"/>
+        <feature name="z" mapto="RETROK_z"/>
+        <!-- TODO: Make Odyssey2 keyboard -->
+        <feature name="space" mapto="RETROK_SPACE"/>
+        <feature name="question" mapto="RETROK_QUESTION"/>
+        <feature name="period" mapto="RETROK_PERIOD"/>
+        <feature name="clear" mapto="RETROK_END"/>
+        <feature name="enter" mapto="RETROK_RETURN"/>
+        <feature name="minus" mapto="RETROK_MINUS"/>
+        <feature name="multiply" mapto="RETROK_ASTERISK"/>
+        <feature name="divide" mapto="RETROK_SLASH"/>
+        <feature name="equals" mapto="RETROK_EQUALS"/>
+        <feature name="plus" mapto="RETROK_PLUS"/>
+    </controller>
+</buttonmap>

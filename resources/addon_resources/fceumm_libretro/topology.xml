@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology playerlimit="4">
+  <port id="1">
+    <accepts controller="game.controller.nes"/>
+    <accepts controller="game.controller.nes.arkanoid"/>
+    <accepts controller="game.controller.nes.zapper"/>
+    <accepts controller="game.controller.nes.four.square">
+      <port id="1">
+        <accepts controller="game.controller.nes"/>
+      </port>
+      <port id="2">
+        <accepts controller="game.controller.nes"/>
+      </port>
+      <port id="3">
+        <accepts controller="game.controller.nes"/>
+      </port>
+      <port id="4">
+        <accepts controller="game.controller.nes"/>
+      </port>
+    </accepts>
+    <!-- TODO
+    <accepts controller="game.controller.famicom.arkanoid"/>
+    <accepts controller="game.controller.famicom.oeka.kids"/>
+    <accepts controller="game.controller.famicom.hyper.shot"/>
+    -->
+  </port>
+  <port id="2">
+    <accepts controller="game.controller.nes"/>
+    <accepts controller="game.controller.nes.arkanoid"/>
+    <accepts controller="game.controller.nes.zapper"/>
+  </port>
+</logicaltopology>

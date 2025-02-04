@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+    <controller id="game.controller.atari.7800.proline" type="RETRO_DEVICE_JOYPAD" subclass="0">
+        <feature name="button1" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+        <feature name="button2" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+        <feature name="reset" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+        <feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+        <feature name="pause" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+        <feature name="leftdifficulty" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+        <feature name="rightdifficulty" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    </controller>
+    <controller id="game.controller.atari.7800.gamepad" type="RETRO_DEVICE_JOYPAD" subclass="0">
+        <feature name="button1" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+        <feature name="button2" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+        <feature name="reset" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+        <feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+        <feature name="pause" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+        <feature name="leftdifficulty" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+        <feature name="rightdifficulty" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    </controller>
+</buttonmap>

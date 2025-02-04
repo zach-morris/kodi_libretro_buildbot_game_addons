@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port id="1">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port id="2">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port id="3">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port id="4">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port id="5">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port id="6">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port id="7">
+    <accepts controller="game.controller.default"/>
+  </port>
+  <port id="8">
+    <accepts controller="game.controller.default"/>
+  </port>
+</logicaltopology>

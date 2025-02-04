@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD">
+    <!-- Fire -->
+    <feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <!-- Up -->
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <!-- Right -->
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <!-- Down -->
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <!-- Left -->
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    <!-- Pause -->
+    <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <!-- End (not hooked up) -->
+    <!--<feature name="back" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>-->
+  </controller>
+</buttonmap>

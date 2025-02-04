@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port type="keyboard">
+    <accepts controller="game.controller.keyboard"/>
+  </port>
+  <port type="mouse">
+    <accepts controller="game.controller.mouse"/>
+  </port>
+  <port type="controller" id="1">
+    <accepts controller="game.controller.default"/>
+  </port>
+</logicaltopology>

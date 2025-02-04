@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD">
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <feature name="back" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+    <feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+    <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+  </controller>
+</buttonmap>

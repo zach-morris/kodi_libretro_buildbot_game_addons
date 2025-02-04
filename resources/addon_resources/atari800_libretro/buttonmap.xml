@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="1">
+  <controller id="game.controller.atari.2600" type="RETRO_DEVICE_JOYPAD" subclass="0">
+    <feature name="fire" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    <feature name="reset" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+    <feature name="color" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+    <feature name="bw" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+    <feature name="leftdifficultya" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+    <feature name="leftdifficultyb" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+    <feature name="rightdifficultya" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    <feature name="rightdifficultyb" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+  </controller>
+</buttonmap>
