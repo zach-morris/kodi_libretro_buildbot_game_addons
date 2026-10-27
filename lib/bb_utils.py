@@ -413,58 +413,40 @@ def extract_addonxml_from_current_build(current_build=None,include_path_and_size
 		return None
 
 
-def configure_git_lfs(new_path, previous_path=None):
-	"""Configure Git-LFS if required for the new path.
+GITHUB_FILE_SIZE_LIMIT = 104857600  # 100MiB, the largest file GitHub takes without Git-LFS
+GIT_LFS_POINTER = b'version https://git-lfs'
 
-	GitHub requires Git-LFS for files with size > 100MiB.
+
+def drop_oversized_addons(platform_folder):
+	"""Leave add-ons that are too large for GitHub out of a platform folder.
+
+	Git-LFS is billed, and once its budget runs out GitHub refuses every push
+	that carries an LFS file, so an add-on over GitHub's file size limit is
+	left out of the repository instead. A checkout without Git-LFS has an
+	earlier one as a small pointer file, which goes too.
 
 	Args:
-		new_path: New file version path.
-		previous_path: Previous file version path.
-			Remove the Git-LFS configuration for this file if any.
+		platform_folder: The folder holding one platform's add-on zips.
 	"""
-	size = os.path.getsize(new_path)
-	require_git_lfs = size > 104857600  # 100MiB
+	for filename in sorted(os.listdir(platform_folder)):
+		path = os.path.join(platform_folder, filename)
+		if not filename.endswith('.zip') or not os.path.isfile(path):
+			continue
+		with open(path, 'rb') as file:
+			is_lfs_pointer = file.read(len(GIT_LFS_POINTER)) == GIT_LFS_POINTER
+		if is_lfs_pointer or os.path.getsize(path) > GITHUB_FILE_SIZE_LIMIT:
+			print(f"Warning!  Leaving {filename} out of the repository, it is too big for GitHub")
+			os.remove(path)
 
-	if require_git_lfs or previous_path:
-		git_attributes_path = os.path.join(os.path.dirname(new_path), ".gitattributes")
-		git_attributes_changed = False
-
-		if os.path.isfile(git_attributes_path):
-			with open(git_attributes_path, "rt") as file:
-				lines = file.readlines()
-
-			if previous_path:
-				previous_filename = os.path.basename(previous_path)
-				for line in lines:
-					if line.startswith(previous_filename):
-						git_attributes_changed = True
-						lines.remove(line)
-						print(f"{previous_filename}: removing Git-LFS configuration")
-						break
+	git_attributes_path = os.path.join(platform_folder, ".gitattributes")
+	if os.path.isfile(git_attributes_path):
+		with open(git_attributes_path, "rt") as file:
+			lines = [line for line in file if "filter=lfs" not in line]
+		if lines:
+			with open(git_attributes_path, "wt") as file:
+				file.writelines(lines)
 		else:
-			lines = []
-
-		new_filename = os.path.basename(new_path)
-		if require_git_lfs and not any(line.startswith(new_filename) for line in lines):
-			git_attributes_changed = True
-			lines.append(f"{new_filename} filter=lfs diff=lfs merge=lfs -text\n")
-			print(
-				f"{new_filename}: size is {size // 1048576}MiB, "
-				f"adding Git-LFS configuration"
-			)
-
-		if git_attributes_changed:
-			if lines:
-				with open(git_attributes_path, "wt") as file:
-					file.writelines(sorted(lines))
-				print(f"Updating {git_attributes_path} with Git-LFS configuration")
-			else:
-				os.remove(git_attributes_path)
-				print(
-					f"Removing {git_attributes_path}, "
-					f"no more Git-LFS configuration inside"
-				)
+			os.remove(git_attributes_path)
 
 
 def build_addon(addon_dict_in=None,settings_dict_in=None,temp_folder=None,binary_folder=None,platform_folder=None,icon_path=None):
@@ -525,7 +507,6 @@ def build_addon(addon_dict_in=None,settings_dict_in=None,temp_folder=None,binary
 					os.remove(addon_current_build)
 				print('New addon %(addon_current_build)s created for platform: %(current_platform)s' % {'addon_current_build': current_build_zipname,'current_platform':os.path.split(platform_folder)[-1]})
 				shutil.move(current_build_fullpath,os.path.join(platform_folder,current_build_zipname))
-				configure_git_lfs(os.path.join(platform_folder,current_build_zipname), addon_current_build)
 				build_report['file'] = current_build_zipname
 				if addon_current_build is not None:
 					build_report['old_file'] = os.path.basename(addon_current_build)

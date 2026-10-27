@@ -260,6 +260,10 @@ for ii,platforms in enumerate(build_data['kodi_platforms']):
 						build_data['build_report'][ii][jj]=build_addon(addon_dict_in=build_data['addon_xml'][ii][jj],settings_dict_in=build_data['settings_xml'][ii][jj],temp_folder=script_settings['temp_directory'],binary_folder=script_settings['temp_directory'],platform_folder=os.path.join(os.getcwd(),build_data['kodi_platforms'][ii]),icon_path=script_settings['icon_common'])
 
 
+#Leave out add-ons too big for GitHub, rather than store them with Git-LFS
+for platforms in build_data['kodi_platforms']:
+	drop_oversized_addons(os.path.join(os.getcwd(),platforms))
+
 #Now generate the repository addons.xml and md5 for the main repo
 repo_addons_xml = dict()
 repo_addons_xml['addons'] = dict()
