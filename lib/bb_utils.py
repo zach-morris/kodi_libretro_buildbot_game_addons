@@ -176,7 +176,7 @@ def get_addon_resources_data(core_name=None,resources_dir=None):
 
 	return dict_out
 
-def create_addon_xml_dict(kodi_platform=None,addon_id=None,addon_name=None,addon_version=None,addon_commit=None,addon_date=None,addon_supported_extensions=None,addon_supported_standalone='false',addon_supported_vfs='true',addon_license='Unknown',addon_description=None,addon_system_description=None,addon_library_key=None,addon_library_value=None,buildbot_source_url=None,addon_resources_data=None,game_libretro_requires_version='1.0.0',build_addon=True,current_build=None):
+def create_addon_xml_dict(kodi_platform=None,addon_id=None,addon_name=None,addon_version=None,addon_commit=None,addon_date=None,addon_supported_extensions=None,addon_supported_standalone='false',addon_supported_vfs='true',addon_license='Unknown',addon_description=None,addon_system_description=None,addon_library_key=None,addon_library_value=None,buildbot_source_url=None,addon_resources_data=None,game_libretro_requires_version='1.0.0',build_addon=True,current_build=None,addon_libretro_core=None):
 	buttonmap_path = None
 	topology_path = None
 	icon_path = None
@@ -210,6 +210,7 @@ def create_addon_xml_dict(kodi_platform=None,addon_id=None,addon_name=None,addon
 						'extensions': addon_supported_extensions,
 						'supports_vfs': addon_supported_vfs,
 						'supports_standalone': addon_supported_standalone,
+						'libretro_core': addon_libretro_core,
 						'@point': 'kodi.gameclient',
 						addon_library_key: addon_library_value,
 						},
@@ -236,6 +237,8 @@ def create_addon_xml_dict(kodi_platform=None,addon_id=None,addon_name=None,addon
 						'icon_path':icon_path, #For build purposes only, will be popped later
 						'fanart_path':fanart_path, #For build purposes only, will be popped later
 						}
+	if addon_libretro_core is None:
+		dict_out['extension'][0].pop('libretro_core')
 	return dict_out
 
 def get_addon_source_from_addon_xml(addon_dict_in=None):
