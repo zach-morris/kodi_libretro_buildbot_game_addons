@@ -21,11 +21,32 @@ jobs:
           python build_and_update_addons.py
       - name: Increase Git HTTP Post Buffer
         run: git config --global http.postBuffer 524288000
-      - name: Update addons in the repository
+      - name: Update addons in the repository commit 1
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update Addons ${{ steps.date.outputs.builddate }}
+          commit_message: Update Addons 1 ${{ steps.date.outputs.builddate }}
           repository: .
+          file_pattern: |
+             .
+             !linux_le_armhf/**
+             !linux_le_generic/**
+             !repository.kodi_libretro_buildbot_game_addons_le_armhf/**
+             !repository.kodi_libretro_buildbot_game_addons_le_generic/**
+          disable_globbing: true
+          push_options: '--force'
+          commit_options: '--amend'
+          commit_user_name: GitHub Actions Bot
+      - name: Update addons in the repository commit 2
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Addons 2 ${{ steps.date.outputs.builddate }}
+          repository: .
+          file_pattern: |
+             linux_le_armhf/**
+             linux_le_generic/**
+             repository.kodi_libretro_buildbot_game_addons_le_armhf/**
+             repository.kodi_libretro_buildbot_game_addons_le_generic/**
+          disable_globbing: true
           push_options: '--force'
           commit_options: '--amend'
           commit_user_name: GitHub Actions Bot
