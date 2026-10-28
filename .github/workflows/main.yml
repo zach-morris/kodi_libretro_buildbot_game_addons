@@ -19,6 +19,8 @@ jobs:
           sudo apt-get install libglu1
           python -c "import sys; print(sys.version)"
           python build_and_update_addons.py
+      - name: Increase Git HTTP Post Buffer
+        run: git config --global http.postBuffer 524288000
       - name: Update addons in the repository
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
