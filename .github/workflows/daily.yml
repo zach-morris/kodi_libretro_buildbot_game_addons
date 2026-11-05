@@ -21,10 +21,4 @@ jobs:
           python -c "import sys; print(sys.version)"
           python build_and_update_addons.py
       - name: Update addons in the repository
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update Addons ${{ steps.date.outputs.builddate }}
-          repository: .
-          push_options: '--force'
-          commit_options: '--amend'
-          commit_user_name: GitHub Actions Bot
+        run: bash .github/push_addons.sh "Update Addons ${{ steps.date.outputs.builddate }}"
