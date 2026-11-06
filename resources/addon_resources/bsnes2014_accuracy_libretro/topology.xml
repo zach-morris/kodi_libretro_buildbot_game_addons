@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port id="1">
+    <accepts controller="game.controller.snes"/>
+    <accepts controller="game.controller.snes.mouse"/>
+  </port>
+  <port id="2">
+    <accepts controller="game.controller.snes"/>
+    <accepts controller="game.controller.snes.mouse"/>
+    <accepts controller="game.controller.snes.multitap" type="RETRO_DEVICE_JOYPAD" subclass="0">
+      <port id="1">
+        <accepts controller="game.controller.snes"/>
+      </port>
+      <port id="2">
+        <accepts controller="game.controller.snes"/>
+      </port>
+      <port id="3">
+        <accepts controller="game.controller.snes"/>
+      </port>
+      <port id="4">
+        <accepts controller="game.controller.snes"/>
+      </port>
+    </accepts>
+    <accepts controller="game.controller.snes.super.scope"/>
+    <accepts controller="game.controller.konami.justifier.snes">
+      <port id="1" buttonmap_offset="4">
+        <accepts controller="game.controller.konami.justifier.player2"/>
+      </port>
+    </accepts>
+  </port>
+</logicaltopology>

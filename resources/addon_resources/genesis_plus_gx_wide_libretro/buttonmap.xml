@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <controller id="game.controller.genesis.6button" type="RETRO_DEVICE_JOYPAD" subclass="4">
+    <feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+    <feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <feature name="c" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+    <feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <feature name="z" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <feature name="mode" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+  </controller>
+  <controller id="game.controller.genesis.mouse" type="RETRO_DEVICE_MOUSE">
+    <feature name="left" mapto="RETRO_DEVICE_ID_MOUSE_LEFT"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_MOUSE_RIGHT"/>
+    <feature name="middle" mapto="RETRO_DEVICE_ID_MOUSE_WHEELDOWN"/>
+    <feature name="start" mapto="RETRO_DEVICE_ID_MOUSE_MIDDLE"/>
+    <feature name="pointer" mapto="RETRO_DEVICE_MOUSE"/>
+  </controller>
+</buttonmap>
