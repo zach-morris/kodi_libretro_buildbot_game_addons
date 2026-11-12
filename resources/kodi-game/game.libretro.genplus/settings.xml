@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.genplus">
+		<category id="system" label="30063" help="30064">
+			<group id="1">
+				<setting id="genesis_plus_gx_system_hw" type="string" label="30001" help="30065">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30066">auto</option>
+							<option label="30067">sg-1000</option>
+							<option label="30068">sg-1000 II</option>
+							<option label="30069">sg-1000 II + ram ext.</option>
+							<option label="30070">mark-III</option>
+							<option label="30071">master system</option>
+							<option label="30072">master system II</option>
+							<option label="30073">game gear</option>
+							<option label="30074">mega drive / genesis</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_region_detect" type="string" label="30002" help="30075">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30066">auto</option>
+							<option label="30076">ntsc-u</option>
+							<option label="30077">pal</option>
+							<option label="30078">ntsc-j</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_vdp_mode" type="string" label="30060" help="30079">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30080">auto</option>
+							<option label="30081">60hz</option>
+							<option label="30082">50hz</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_bios" type="string" label="30003" help="30083">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_system_bram" type="string" label="30004" help="30084">
+					<level>0</level>
+					<default>per bios</default>
+					<constraints>
+						<options>
+							<option label="30085">per bios</option>
+							<option label="30086">per game</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_cart_bram" type="string" label="30005" help="30087">
+					<level>0</level>
+					<default>per cart</default>
+					<constraints>
+						<options>
+							<option label="30088">per cart</option>
+							<option label="30086">per game</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_cart_size" type="string" label="30006" help="30089">
+					<level>0</level>
+					<default>4meg</default>
+					<constraints>
+						<options>
+							<option label="30080">disabled</option>
+							<option label="30090">128k</option>
+							<option label="30091">256k</option>
+							<option label="30092">512k</option>
+							<option label="30093">1meg</option>
+							<option label="30094">2meg</option>
+							<option label="30095">4meg</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_add_on" type="string" label="30007" help="30096">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30066">auto</option>
+							<option label="30097">sega/mega cd</option>
+							<option label="30098">megasd</option>
+							<option label="30099">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_lock_on" type="string" label="30008" help="30100">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30101">game genie</option>
+							<option label="30102">action replay (pro)</option>
+							<option label="30103">sonic &amp; knuckles</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30104" help="30105">
+			<group id="1">
+				<setting id="genesis_plus_gx_aspect_ratio" type="string" label="30009" help="30106">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30066">auto</option>
+							<option label="30209">NTSC PAR</option>
+							<option label="30210">PAL PAR</option>
+							<option label="30211">4:3</option>
+							<option label="30212">Uncorrected</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_overscan" type="string" label="30010" help="30107">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30108">top/bottom</option>
+							<option label="30109">left/right</option>
+							<option label="30110">full</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_left_border" type="string" label="30011" help="30111">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30112">left border</option>
+							<option label="30113">left &amp; right borders</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_gg_extra" type="string" label="30012" help="30114">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_blargg_ntsc_filter" type="string" label="30013" help="30115">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30116">monochrome</option>
+							<option label="30117">composite</option>
+							<option label="30118">svideo</option>
+							<option label="30119">rgb</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_lcd_filter" type="string" label="30014" help="30120">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_render" type="string" label="30015" help="30121">
+					<level>0</level>
+					<default>single field</default>
+					<constraints>
+						<options>
+							<option label="30122">single field</option>
+							<option label="30123">double field</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_frameskip" type="string" label="30016" help="30124">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30066">auto</option>
+							<option label="30125">manual</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_frameskip_threshold" type="string" label="30017" help="30126">
+					<level>0</level>
+					<default>33</default>
+					<constraints>
+						<options>
+							<option>15</option>
+							<option>18</option>
+							<option>21</option>
+							<option>24</option>
+							<option>27</option>
+							<option>30</option>
+							<option>33</option>
+							<option>36</option>
+							<option>39</option>
+							<option>42</option>
+							<option>45</option>
+							<option>48</option>
+							<option>51</option>
+							<option>54</option>
+							<option>57</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30127" help="30128">
+			<group id="1">
+				<setting id="genesis_plus_gx_ym2413" type="string" label="30018" help="30129">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30066">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_ym2413_core" type="string" label="30019" help="30130">
+					<level>0</level>
+					<default>mame</default>
+					<constraints>
+						<options>
+							<option label="30131">mame</option>
+							<option label="30132">nuked</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_ym2612" type="string" label="30020" help="30133">
+					<level>0</level>
+					<default>mame (ym2612)</default>
+					<constraints>
+						<options>
+							<option label="30134">mame (ym2612)</option>
+							<option label="30135">mame (asic ym3438)</option>
+							<option label="30136">mame (enhanced ym3438)</option>
+							<option label="30137">nuked (ym2612)</option>
+							<option label="30138">nuked (ym3438)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sound_output" type="string" label="30021" help="30139">
+					<level>0</level>
+					<default>stereo</default>
+					<constraints>
+						<options>
+							<option label="30140">stereo</option>
+							<option label="30141">mono</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_audio_filter" type="string" label="30022" help="30142">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30143">low-pass</option>
+							<option label="30213">EQ</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_lowpass_range" type="string" label="30023" help="30144">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<options>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_psg_preamp" type="string" label="30024" help="30145">
+					<level>0</level>
+					<default>150</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+							<option>105</option>
+							<option>110</option>
+							<option>115</option>
+							<option>120</option>
+							<option>125</option>
+							<option>130</option>
+							<option>135</option>
+							<option>140</option>
+							<option>145</option>
+							<option>150</option>
+							<option>155</option>
+							<option>160</option>
+							<option>165</option>
+							<option>170</option>
+							<option>175</option>
+							<option>180</option>
+							<option>185</option>
+							<option>190</option>
+							<option>195</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_fm_preamp" type="string" label="30025" help="30146">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+							<option>105</option>
+							<option>110</option>
+							<option>115</option>
+							<option>120</option>
+							<option>125</option>
+							<option>130</option>
+							<option>135</option>
+							<option>140</option>
+							<option>145</option>
+							<option>150</option>
+							<option>155</option>
+							<option>160</option>
+							<option>165</option>
+							<option>170</option>
+							<option>175</option>
+							<option>180</option>
+							<option>185</option>
+							<option>190</option>
+							<option>195</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_cdda_volume" type="string" label="30026" help="30147">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_pcm_volume" type="string" label="30027" help="30148">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_audio_eq_low" type="string" label="30028" help="30149">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_audio_eq_mid" type="string" label="30029" help="30150">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_audio_eq_high" type="string" label="30030" help="30151">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30152" help="30153">
+			<group id="1">
+				<setting id="genesis_plus_gx_gun_input" type="string" label="30031" help="30154">
+					<level>0</level>
+					<default>lightgun</default>
+					<constraints>
+						<options>
+							<option label="30155">lightgun</option>
+							<option label="30156">touchscreen</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_gun_cursor" type="string" label="30032" help="30157">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_invert_mouse" type="string" label="30033" help="30158">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30159" help="30160">
+			<group id="1">
+				<setting id="genesis_plus_gx_no_sprite_limit" type="string" label="30034" help="30161">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_enhanced_vscroll" type="string" label="30035" help="30162">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_enhanced_vscroll_limit" type="string" label="30036" help="30163">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_overclock" type="string" label="30037" help="30164">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30165">100</option>
+							<option label="30166">125</option>
+							<option label="30167">150</option>
+							<option label="30168">175</option>
+							<option label="30169">200</option>
+							<option label="30170">225</option>
+							<option label="30171">250</option>
+							<option label="30172">275</option>
+							<option label="30173">300</option>
+							<option label="30174">325</option>
+							<option label="30175">350</option>
+							<option label="30176">375</option>
+							<option label="30177">400</option>
+							<option label="30178">425</option>
+							<option label="30179">450</option>
+							<option label="30180">475</option>
+							<option label="30181">500</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_force_dtack" type="string" label="30038" help="30182">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_addr_error" type="string" label="30039" help="30183">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_cd_latency" type="string" label="30061" help="30184">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_cd_precache" type="string" label="30062" help="30185">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="channel_volume" label="30186" help="30187">
+			<group id="1">
+				<setting id="genesis_plus_gx_show_advanced_audio_settings" type="string" label="30188" help="30189">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_psg_channel_0_volume" type="string" label="30041" help="30190">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_psg_channel_1_volume" type="string" label="30042" help="30191">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_psg_channel_2_volume" type="string" label="30043" help="30192">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_psg_channel_3_volume" type="string" label="30044" help="30193">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_md_channel_0_volume" type="string" label="30045" help="30194">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_md_channel_1_volume" type="string" label="30046" help="30195">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_md_channel_2_volume" type="string" label="30047" help="30196">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_md_channel_3_volume" type="string" label="30048" help="30197">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_md_channel_4_volume" type="string" label="30049" help="30198">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_md_channel_5_volume" type="string" label="30050" help="30199">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_0_volume" type="string" label="30051" help="30200">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_1_volume" type="string" label="30052" help="30201">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_2_volume" type="string" label="30053" help="30202">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_3_volume" type="string" label="30054" help="30203">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_4_volume" type="string" label="30055" help="30204">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_5_volume" type="string" label="30056" help="30205">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_6_volume" type="string" label="30057" help="30206">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_7_volume" type="string" label="30058" help="30207">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="genesis_plus_gx_sms_fm_channel_8_volume" type="string" label="30059" help="30208">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

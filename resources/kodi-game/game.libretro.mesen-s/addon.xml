@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mesen-s"
+		name="Nintendo - SNES / SFC / Game Boy / Color (Mesen-S)"
+		version="0.4.0.28"
+		provider-name="M. Bibaud (aka Sour)">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC / Game Boy / Color</platforms>
+		<extensions>sfc|smc|fig|swc|gb|gbc|bs</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mesen-s_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mesen-s</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC / Game Boy / Color (Mesen-S)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC / Game Boy / Farve (Mesen-S)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC / Game Boy / Color (Mesen-S)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC / Game Boy / Color (Mesen-S)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC / Game Boy / Color (Mesen-S)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC / Game Boy / Color (Mesen-S)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC / Game Boy / Color (Mesen-S)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC / Game Boy / Color (Mesen-S)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC / Game Boy / Color (Mesen-S)</summary>
+		<description lang="cs_CZ">Mesen-S je multiplatformní emulátor SNES pro Windows a Linux vytvořený v C++ a C#.</description>
+		<description lang="da_DK">Mesen-S er en SNES-emulator på tværs af platforme til Windows og Linux, der er bygget i C++ og C#.</description>
+		<description lang="en_GB">Mesen-S is a cross-platform SNES emulator for Windows and Linux built in C++ and C#.</description>
+		<description lang="es_ES">Mesen-S es un emulador multiplataforma de SNES para Windows y Linux construido en C++ y C#.</description>
+		<description lang="ga">Is aithriseoir SNES tras-ardáin é Mesen-S do Windows agus Linux atá tógtha i C++ agus C#.</description>
+		<description lang="it_IT">Mesen-S è un emulatore SNES multipiattaforma per Windows e Linux costruito in C++ e C#.</description>
+		<description lang="ru_RU">Mesen-S — это кроссплатформенный эмулятор SNES для Windows и Linux, написанный на C++ и C#.</description>
+		<description lang="sv_SE">Mesen-S är en plattformsoberoende SNES-emulator för Windows och Linux byggd i C++ och C#.</description>
+		<description lang="zh_CN">Mesen-S 是一个以 C++ 和 C# 创建的用于 Windows 和 Linux 的跨平台 SNES 模拟器。</description>
+	</extension>
+</addon>

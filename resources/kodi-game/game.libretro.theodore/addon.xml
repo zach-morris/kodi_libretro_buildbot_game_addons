@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.theodore"
+		name="Thomson - MO/TO (Theodore)"
+		version="0.0.1.49"
+		provider-name="T. Lorblanches">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Thomson - MO/TO</platforms>
+		<extensions>fd|sap|k7|m7|m5|rom</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>theodore_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.theodore</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Thomson - MO/TO (Theodore)</summary>
+		<description lang="cs_CZ">Theodore je emulátor počítačů Thomson MO/TO.[CR][CR]Thomson MO/TO je řada 8bitových domácích počítačů vyráběných francouzskou společností Thomson SA v letech 1982 až 1989.</description>
+		<description lang="da_DK">Theodore er en emulator til Thomson MO/TO-computere.[CR][CR]Thomson MO/TO er en familie af 8-bit hjemmecomputere produceret af det franske firma Thomson SA mellem 1982 og 1989.</description>
+		<description lang="en_GB">Theodore is an emulator for Thomson MO/TO computers.[CR][CR]Thomson MO/TO is a family of 8-bit home computers produced by French company Thomson SA between 1982 and 1989.</description>
+		<description lang="es_ES">Theodore es un emulador para ordenadores Thomson MO/TO.[CR][CR]Thomson MO/TO es una familia de ordenadores domésticos de 8 bits producidos por la empresa francesa Thomson SA entre 1982 y 1989.</description>
+		<description lang="ga">Is aithriseoir é Theodore do ríomhairí Thomson MO/TO.[CR][CR]Is teaghlach ríomhairí baile 8-giotán é Thomson MO/TO arna dtáirgeadh ag an gcomhlacht Francach Thomson SA idir 1982 agus 1989.</description>
+		<description lang="it_IT">Theodore è un emulatore per i computer Thomson MO/TO.[CR][CR]Thomson MO/TO è una famiglia di computer domestici a 8 bit prodotti dall&apos;azienda francese Thomson SA tra il 1982 e il 1989.</description>
+		<description lang="ru_RU">Theodore — это эмулятор компьютеров Thomson MO/TO.[CR][CR]Thomson MO/TO — это семейство 8-битных домашних компьютеров, выпускавшихся французской компанией Thomson SA с 1982 по 1989 год.</description>
+		<description lang="sl_SI">Theodore je emulator za računalnike Thomson MO/TO.[CR][CR]Thomson MO/TO je družina 8-bitnih domačih računalnikov, ki jih je proizvajalo francosko podjetje Thomson SA med letoma 1982 in 1989.</description>
+		<description lang="sv_SE">Theodore är en emulator för Thomson MO/TO-datorer.[CR][CR]Thomson MO/TO är en familj av 8-bitars hemdatorer som tillverkades av det franska företaget Thomson SA mellan 1982 och 1989.</description>
+		<description lang="zh_CN">Theodore 是 Thomson MO/TO 计算机的仿真器。Thomson MO/TO 是由法国汤姆森公司于1982年至1989年间生产的一系列8位家用电脑。</description>
+	</extension>
+</addon>

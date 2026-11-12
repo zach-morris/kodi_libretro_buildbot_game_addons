@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="128">
+		<setting label="30001" type="select" id="mame2016_read_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30002" type="select" id="mame2016_write_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="mame2016_saves" values="game|system" default="game"/>
+		<setting label="30004" type="select" id="mame2016_auto_save" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="mame2016_mouse_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="mame2016_throttle" values="disabled|enabled" default="disabled"/>
+		<setting label="30007" type="select" id="mame2016_cheats_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="mame2016_cpu_overclock" values="default|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|60|65|70|75|80|85|90|95|100|105|110|115|120|125|130|135|140|145|150" default="default"/>
+		<setting label="30009" type="select" id="mame2016_alternate_renderer" values="disabled|enabled" default="disabled"/>
+		<setting label="30010" type="select" id="mame2016_softlists_enable" values="enabled|disabled" default="enabled"/>
+		<setting label="30011" type="select" id="mame2016_softlists_auto_media" values="enabled|disabled" default="enabled"/>
+		<setting label="30012" type="select" id="mame2016_media_type" values="rom|cart|flop|cdrm|cass|hard|serl|prin" default="rom"/>
+		<setting label="30013" type="select" id="mame2016_boot_to_bios" values="disabled|enabled" default="disabled"/>
+		<setting label="30014" type="select" id="mame2016_boot_to_osd" values="disabled|enabled" default="disabled"/>
+		<setting label="30015" type="select" id="mame2016_boot_from_cli" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

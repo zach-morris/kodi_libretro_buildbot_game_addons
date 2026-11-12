@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.bsnes-hd"
+		name="Nintendo - SNES / SFC (bsnes-hd beta)"
+		version="10.6.0.20"
+		provider-name="Near, DerKoun">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+		<import addon="game.controller.snes.multitap" version="1.0.0"/>
+		<import addon="game.controller.snes.super.scope" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.player2" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|sfc|gb|gbc|bs</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>bsnes_hd_beta_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bsnes-hd</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (BSNES -HD Beta)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC (bsnes-hd бета)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (bsnes-hd beta)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC (bsnes-hd beta)</summary>
+		<description lang="cs_CZ">bsnes-hd je verze odvozená od bsnes, která přidává funkce HD videa.</description>
+		<description lang="da_DK">bsnes-hd er en forgrening af bsnes, der tilføjer HD-videofunktioner.</description>
+		<description lang="en_GB">bsnes-hd is a fork of bsnes that adds HD video features.</description>
+		<description lang="es_ES">bsnes-hd es un fork de bsnes que añade funcionalidades de video HD.</description>
+		<description lang="ga">Is forc de BSNES é BSNES-HD a chuireann gnéithe físe HD leis.</description>
+		<description lang="it_IT">bsnes-hd è un fork di bsnes che aggiunge funzionalità video HD.</description>
+		<description lang="ru_RU">bsnes-hd — это форк bsnes, добавляющий функции HD-видео.</description>
+		<description lang="sv_SE">bsnes-hd är en förgrening av bsnes som lägger till HD-videofunktioner.</description>
+		<description lang="zh_CN">bsnes-hd 是 bsnes 的一个分支，它添加了高清视频功能。</description>
+		<disclaimer lang="cs_CZ">S láskou na památku Near / Byuu</disclaimer>
+		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
+		<disclaimer lang="de_DE">In liebevoller Erinnerung an Near / Byuu</disclaimer>
+		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
+		<disclaimer lang="es_ES">En cariñoso recuerdo de Near / Byuu</disclaimer>
+		<disclaimer lang="ga">I ngrá le Near / Byuu</disclaimer>
+		<disclaimer lang="it_IT">In amorevole ricordo di Near / Byuu</disclaimer>
+		<disclaimer lang="ko_KR">Near / Byuu의 사랑을 기억하며</disclaimer>
+		<disclaimer lang="ru_RU">В память о Near / Byuu</disclaimer>
+		<disclaimer lang="sv_SE">Till kärleksfullt minne av Near / Byuu</disclaimer>
+		<disclaimer lang="zh_CN">怀念 Near / Byuu</disclaimer>
+	</extension>
+</addon>

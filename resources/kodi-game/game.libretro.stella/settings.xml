@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.stella">
+		<category id="system" label="30027">
+			<group id="1">
+				<setting id="stella_reload" type="string" label="30012">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="16041">on</option>
+							<option label="351">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_messages" type="string" label="30026">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30028">
+			<group id="1">
+				<setting id="stella_console" type="string" label="30001">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30031">ntsc</option>
+							<option label="30032">pal</option>
+							<option label="30033">secam</option>
+							<option label="30034">ntsc50</option>
+							<option label="30035">pal60</option>
+							<option label="30036">secam60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_palette" type="string" label="30002">
+					<level>0</level>
+					<default>standard</default>
+					<constraints>
+						<options>
+							<option>standard</option>
+							<option>z26</option>
+							<option>user</option>
+							<option>custom</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_filter" type="string" label="30003">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30037">composite</option>
+							<option label="30038">s-video</option>
+							<option label="30039">rgb</option>
+							<option label="30040">badly adjusted</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_crop_hoverscan" type="string" label="30006">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_crop_voverscan" type="string" label="30013">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_ntsc_aspect" type="string" label="30004">
+					<level>0</level>
+					<default>par</default>
+					<constraints>
+						<options>
+							<option>par</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_pal_aspect" type="string" label="30005">
+					<level>0</level>
+					<default>par</default>
+					<constraints>
+						<options>
+							<option>par</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_phosphor" type="string" label="30008">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="16041">on</option>
+							<option label="351">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_phosphor_blend" type="string" label="30009">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_detect_pal60" type="string" label="30018">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_detect_ntsc50" type="string" label="30019">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_pal_contrast" type="string" label="30020">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_pal_brightness" type="string" label="30021">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_pal_hue" type="string" label="30022">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_pal_saturation" type="string" label="30023">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_pal_gamma" type="string" label="30024">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30029">
+			<group id="1">
+				<setting id="stella_stereo" type="string" label="30007">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="16041">on</option>
+							<option label="351">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_dpc_pitch" type="string" label="30025">
+					<level>0</level>
+					<default>20000</default>
+					<constraints>
+						<options>
+							<option>20000</option>
+							<option>10000</option>
+							<option>11000</option>
+							<option>12000</option>
+							<option>13000</option>
+							<option>14000</option>
+							<option>15000</option>
+							<option>16000</option>
+							<option>17000</option>
+							<option>18000</option>
+							<option>19000</option>
+							<option>21000</option>
+							<option>22000</option>
+							<option>23000</option>
+							<option>24000</option>
+							<option>25000</option>
+							<option>26000</option>
+							<option>27000</option>
+							<option>28000</option>
+							<option>29000</option>
+							<option>30000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30030">
+			<group id="1">
+				<setting id="stella_paddle_mouse_sensitivity" type="string" label="30014">
+					<level>0</level>
+					<default>10</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_paddle_joypad_sensitivity" type="string" label="30010">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_paddle_analog_sensitivity" type="string" label="30011">
+					<level>0</level>
+					<default>20</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_paddle_analog_deadzone" type="string" label="30015">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_paddle_analog_absolute" type="string" label="30016">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="stella_lightgun_crosshair" type="string" label="30017">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

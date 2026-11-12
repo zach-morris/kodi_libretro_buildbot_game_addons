@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.pcsx-rearmed"
+		name="Sony - PlayStation (PCSX ReARMed)"
+		version="26.0.0.84"
+		provider-name="PCSX Team, notaz, Exophase">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ps.dualanalog" version="1.0.0"/>
+		<import addon="game.controller.ps.dualshock" version="1.0.0"/>
+		<import addon="game.controller.ps.gamepad" version="1.0.0"/>
+		<import addon="game.controller.ps.guncon.japan" version="1.0.0"/>
+		<import addon="game.controller.ps.guncon.western" version="1.0.0"/>
+		<import addon="game.controller.ps.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sony - PlayStation</platforms>
+		<extensions>bin|cue|img|mdf|pbp|toc|cbn|m3u|chd|iso|exe</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>pcsx_rearmed_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.pcsx-rearmed</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="da_DK">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="en_GB">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="es_ES">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="ga">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="it_IT">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="ru_RU">Sony — PlayStation (PCSX ReARMed)</summary>
+		<summary lang="sv_SE">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="zh_CN">Sony - PlayStation (PCSX ReARMed)</summary>
+		<description lang="cs_CZ">PCSX ReARMed je další fork PCSX založený na projektu PCSX-Reloaded, který sám obsahuje kód z PCSX, PCSX-df a PCSX-Revolution.[CR][CR]Tato verze obsahuje rekompilátor MIPS-na-ARM, kód NEON GTE a další výkonnostní vylepšení.</description>
+		<description lang="da_DK">PCSX ReARMed er en PCSX-fork baseret på PCSX-Reloaded-projektet, som i sig selv indeholder kode fra PCSX, PCSX-df og PCSX-Revolution.[CR][CR]Denne version har en MIPS-til-ARM-recompiler, NEON GTE-kode og flere ydelsesforbedringer.</description>
+		<description lang="de_DE">PCSX ReARMed ist ein weiterer PCSX-Ableger, der auf dem Projekt PCSX-Reloaded basiert, das seinerseits Code aus PCSX, PCSX-df und PCSX-Revolution enthält, sowie einen MIPS-to-ARM-Recompiler, NEON-GTE-Code und weitere Leistungsverbesserungen.</description>
+		<description lang="en_GB">PCSX ReARMed is another PCSX fork based on the PCSX-Reloaded project, which itself contains code from PCSX, PCSX-df and PCSX-Revolution.[CR][CR]This version features a MIPS-to-ARM recompiler, NEON GTE code and more performance improvements.</description>
+		<description lang="es_ES">PCSX ReARMed es otra bifurcación de PCSX basado en el proyecto PCSX-Reloaded, que a su vez contiene código de PCSX, PCSX-df y PCSX-Revolution[CR][CR]Esta versión incluye un recompilador de MIPS a ARM, código NEON GTE y más mejoras de rendimiento.</description>
+		<description lang="fi_FI">PCSX ReARMed on PCSX-haara, joka perustuu PCSX-Reloaded-projektiin, joka itsessään sisältää koodia PCSX:stä, PCSX-df:stä ja PCSX-Revolutionista.[CR][CR]Tässä versiossa on MIPS-to-ARM-uudelleenkääntäjä, NEON GTE -koodi ja muita suorituskykyparannuksia.</description>
+		<description lang="ga">Is forc PCSX eile é PCSX ReARMed atá bunaithe ar an tionscadal PCSX-Reloaded, ina bhfuil cód ó PCSX, PCSX-df agus PCSX-Revolution féin.[CR][CR]Tá ath-thiomsaitheoir MIPS-go-ARM, cód NEON GTE agus tuilleadh feabhsuithe feidhmíochta sa leagan seo.</description>
+		<description lang="id_ID">PCSX ReARMed adalah fork PCSX lain berdasarkan proyek PCSX-Reloaded, yang berisi kode dari PCSX, PCSX-df, dan PCSX-Revolution.[CR][CR]Versi ini menampilkan rekompiler MIPS-ke-ARM, kode NEON GTE, dan lebih banyak peningkatan kinerja.</description>
+		<description lang="it_IT">PCSX ReARMed è un altro fork di PCSX basato sul progetto PCSX-Reloaded, che a sua volta contiene codice proveniente da PCSX, PCSX-df e PCSX-Revolution.[CR][CR]Questa versione include un ricompilatore da MIPS ad ARM, codice NEON GTE e ulteriori miglioramenti delle prestazioni.</description>
+		<description lang="ru_RU">PCSX ReARMed — это еще один форк PCSX, основанный на проекте PCSX-Reloaded, содержащий в себе код из PCSX, PCSX-df и PCSX-Revolution.[CR][CR]Эта версия включает рекомпилятор MIPS-to-ARM, код NEON GTE и больше улучшений производительности.</description>
+		<description lang="sv_SE">PCSX ReARMed är en annan PCSX-fork baserad på PCSX-Reloaded-projektet, som i sig innehåller kod från PCSX, PCSX-df och PCSX-Revolution.[CR][CR]Denna version innehåller en MIPS-to-ARM-omkompilator, NEON GTE-kod och fler prestandaförbättringar.</description>
+		<description lang="zh_CN">PCSX ReARMed 是基于 PCSX-Reloaded 项目的另一个 PCSX 分叉，该项目本身包含来自 PCSX、PCSX-df 和 PCSX-Revolution 的代码。[CR][CR]此版本具有 MIPS-to-ARM 重新编译、NEON GTE 代码和更多性能改进。</description>
+	</extension>
+</addon>

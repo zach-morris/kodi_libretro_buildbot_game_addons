@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.bk"
+		name="Elektronika - BK-0010/BK-0011(M)"
+		version="1.0.0.39"
+		provider-name="Eric A. Edwards, Leonid A. Broukhis, emestee, arcade-mini, phcoder">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.elektronika.bk" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Elektronika - BK-0010/BK-0011</platforms>
+		<extensions>bin|img|dsk|bkd</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>bk_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>HPND</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bk</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Elektronika - BK-0010/BK-0011(M)</summary>
+		<summary lang="da_DK">Elektronika - BK-0010/BK-0011(M)</summary>
+		<summary lang="en_GB">Elektronika - BK-0010/BK-0011(M)</summary>
+		<summary lang="es_ES">Elektronika - BK-0010/BK-0011(M)</summary>
+		<summary lang="ga">Elektronika - BK-0010/BK-0011(M)</summary>
+		<summary lang="it_IT">Elektronika - BK-0010/BK-0011(M)</summary>
+		<summary lang="ru_RU">Электроника БK-0010/БK-0011(M)</summary>
+		<summary lang="sv_SE">Elektronika - BK-0010/BK-0011(M)</summary>
+		<summary lang="zh_CN">Elektronika - BK-0010/BK-0011(M)</summary>
+		<description lang="cs_CZ">BK je emulátor sovětské řady počítačů Elektronika BK: БК-0010, БК-0010.01 a БК-0011(M).</description>
+		<description lang="da_DK">BK er en emulator til den sovjetiske Electronica BK-serie: БК-0010, БК-0010.01 og БК-0011(M).</description>
+		<description lang="en_GB">BK is an emulator for the Soviet Electronica BK series: БК-0010, БК-0010.01, and БК-0011(M).</description>
+		<description lang="es_ES">BK es un emulador de la serie Soviet Electronica BK: БК-0010, БК-0010.01, y БК-0011(M).</description>
+		<description lang="ga">Is aithriseoir é BK don tsraith Soviet Electronica BK: БК-0010, БК-0010.01, agus БК-0011(M).</description>
+		<description lang="it_IT">BK è un emulatore per la serie Soviet Electronica BK: БК-0010, БК-0010.01 e БК-0011(M).</description>
+		<description lang="ru_RU">БК — эмулятор советских БК серии «Электроника»: БК-0010, БК-0010.01 и БК-0011(М).</description>
+		<description lang="sl_SI">BK je emulator za serijo BK sovjetske elektronike: БК-0010, БК-0010.01 in БК-0011(M).</description>
+		<description lang="sv_SE">BK är en emulator för Soviet Electronica BK-serien: БК-0010, БК-0010.01 och БК-0011(M).</description>
+		<description lang="zh_CN">BK 是苏联 Electronica BK 系列的仿真器：Бκ-0010、Бκ-0010.01 和 Бκ-0011（M）。</description>
+	</extension>
+</addon>

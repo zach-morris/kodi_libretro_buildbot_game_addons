@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.thepowdertoy"
+		name="The Powder Toy"
+		version="92.5.336.40"
+		provider-name="jselby, Original TPT Contributors">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>cps</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>thepowdertoy_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.thepowdertoy</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">The Powder Toy</summary>
+		<summary lang="da_DK">The Powder Toy</summary>
+		<summary lang="en_GB">The Powder Toy</summary>
+		<summary lang="es_ES">The Powder Toy</summary>
+		<summary lang="ga">The Powder Toy</summary>
+		<summary lang="it_IT">Il Powder Toy</summary>
+		<summary lang="ko_KR">파우더 토이</summary>
+		<summary lang="ru_RU">The Powder Toy</summary>
+		<summary lang="sv_SE">The Powder Toy</summary>
+		<summary lang="zh_CN">沙盘玩具</summary>
+		<description lang="cs_CZ">The Powder Toy je desktopová verze klasické fyzikální hry „falling sand“. Simuluje tlak a rychlost vzduchu i teplo!</description>
+		<description lang="da_DK">The Powder Toy er en desktopversion af det klassiske fysikspil &quot;faldende sand&quot;. Det simulerer lufttryk og hastighed samt varme!</description>
+		<description lang="de_DE">Das Powder Toy ist eine Desktop-Version des klassischen Physikspiels &quot;Fallender Sand&quot;. Es simuliert sowohl Luftdruck und -geschwindigkeit als auch Wärme!</description>
+		<description lang="en_GB">The Powder Toy is a desktop version of the classic &quot;falling sand&quot; physics game. It simulates air pressure and velocity as well as heat!</description>
+		<description lang="es_ES">The Powder Toy es una versión de sobremesa del clásico juego de física &quot;falling sand&quot;. Simula la presión y la velocidad del aire, ¡así como el calor!</description>
+		<description lang="it_IT">Il Powder Toy è una versione desktop del classico gioco di fisica &quot;sabbia che cade&quot;. Simula la pressione e la velocità dell&apos;aria, oltre al calore!</description>
+		<description lang="ko_KR">파우더 토이는 클래식 &apos;떨어지는 모래&apos;의 데스크탑 버전입니다. 물리학 게임. 이것은 열뿐만 아니라 기압과 속도를 시뮬레이션합니다!</description>
+		<description lang="ru_RU">Powder Toy — настольная версия классической физической игры «Падающий песок». Она имитирует давление и скорость воздуха, а также тепло!</description>
+		<description lang="sv_SE">The Powder Toy är en datorversion av det klassiska fysikspelet ”fallande sand”. Det simulerar lufttryck och hastighet samt värme!</description>
+		<description lang="zh_CN">沙盘玩具（The Powder Toy） 是经典的“落沙”物理游戏的桌面版。它模拟气压和速度以及热量！</description>
+	</extension>
+</addon>

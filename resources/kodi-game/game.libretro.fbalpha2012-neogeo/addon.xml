@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.fbalpha2012-neogeo"
+		name="Arcade (FB Alpha 2012 Neo Geo)"
+		version="0.2.97.29"
+		provider-name="Team FB Alpha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>iso|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbalpha2012_neogeo_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha2012-neogeo</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="da_DK">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="en_GB">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Alpha 2012 Neo Geo)</summary>
+		<summary lang="ga">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="it_IT">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="ko_KR">아케이드 (FB 알파 2012 Neo Geo)</summary>
+		<summary lang="ru_RU">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="sv_SE">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="zh_CN">街机（FB Alpha 2012 Neo Geo）</summary>
+		<description lang="cs_CZ">Port FinalBurn Alpha 2012 pro Libretro. Jde o samostatné jádro pro Neo Geo.</description>
+		<description lang="da_DK">En port af FinalBurn Alpha 2012 til Libretro. Dette er den selvstændige kerne til Neo Geo.</description>
+		<description lang="de_DE">Eine Portierung von FinalBurn Alpha 2012 auf Libretro. Dies ist der eigenständige Core für Neo Geo.</description>
+		<description lang="en_GB">A port of FinalBurn Alpha 2012 to Libretro. This is the standalone core for Neo Geo.</description>
+		<description lang="es_ES">Una adaptación de FinalBurn Alpha 2012 a Libretro. Este es el núcleo independiente para Neo Geo.</description>
+		<description lang="ga">Port de FinalBurn Alpha 2012 chuig Libretro. Seo croílár neamhspleách Neo Geo.</description>
+		<description lang="it_IT">Un porting di FinalBurn Alpha 2012 su Libretro. Questo è il core autonomo per Neo Geo.</description>
+		<description lang="ko_KR">FinalBurn Alpha 2012를 Libretro로 이식. Neo Geo의 독립형 코어입니다.</description>
+		<description lang="ru_RU">Порт FinalBurn Alpha 2012 для Libretro. Это автономное ядро для Neo Geo.</description>
+		<description lang="sv_SE">En portning av FinalBurn Alpha 2012 till Libretro. Detta är den fristående kärnan för Neo Geo.</description>
+		<description lang="zh_CN">FinalBurn Alpha 2012 的 Libretro 实现。这是 Neo Geo 的独立核心。</description>
+	</extension>
+</addon>

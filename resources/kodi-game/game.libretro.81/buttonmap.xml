@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<controller id="game.controller.default" type="RETRO_DEVICE_JOYPAD" subclass="0">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="back" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+	</controller>
+	<controller id="game.controller.keyboard" type="RETRO_DEVICE_KEYBOARD" subclass="0">
+		<feature name="1" mapto="RETROK_1"/>
+		<feature name="2" mapto="RETROK_2"/>
+		<feature name="3" mapto="RETROK_3"/>
+		<feature name="4" mapto="RETROK_4"/>
+		<feature name="5" mapto="RETROK_5"/>
+		<feature name="6" mapto="RETROK_6"/>
+		<feature name="7" mapto="RETROK_7"/>
+		<feature name="8" mapto="RETROK_8"/>
+		<feature name="9" mapto="RETROK_9"/>
+		<feature name="0" mapto="RETROK_0"/>
+		<feature name="q" mapto="RETROK_q"/>
+		<feature name="w" mapto="RETROK_w"/>
+		<feature name="e" mapto="RETROK_e"/>
+		<feature name="r" mapto="RETROK_r"/>
+		<feature name="t" mapto="RETROK_t"/>
+		<feature name="y" mapto="RETROK_y"/>
+		<feature name="u" mapto="RETROK_u"/>
+		<feature name="i" mapto="RETROK_i"/>
+		<feature name="o" mapto="RETROK_o"/>
+		<feature name="p" mapto="RETROK_p"/>
+		<feature name="a" mapto="RETROK_a"/>
+		<feature name="s" mapto="RETROK_s"/>
+		<feature name="d" mapto="RETROK_d"/>
+		<feature name="f" mapto="RETROK_f"/>
+		<feature name="g" mapto="RETROK_g"/>
+		<feature name="h" mapto="RETROK_h"/>
+		<feature name="j" mapto="RETROK_j"/>
+		<feature name="k" mapto="RETROK_k"/>
+		<feature name="l" mapto="RETROK_l"/>
+		<feature name="enter" mapto="RETROK_RETURN"/>
+		<feature name="leftshift" mapto="RETROK_LSHIFT"/>
+		<feature name="z" mapto="RETROK_z"/>
+		<feature name="x" mapto="RETROK_x"/>
+		<feature name="c" mapto="RETROK_c"/>
+		<feature name="v" mapto="RETROK_v"/>
+		<feature name="b" mapto="RETROK_b"/>
+		<feature name="n" mapto="RETROK_n"/>
+		<feature name="m" mapto="RETROK_m"/>
+		<feature name="period" mapto="RETROK_PERIOD"/>
+		<feature name="space" mapto="RETROK_SPACE"/>
+		<feature name="backspace" mapto="RETROK_BACKSPACE"/>
+		<feature name="comma" mapto="RETROK_COMMA"/>
+	</controller>
+</buttonmap>

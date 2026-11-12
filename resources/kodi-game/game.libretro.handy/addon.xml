@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.handy"
+		name="Atari - Lynx (Handy)"
+		version="0.97.0.51"
+		provider-name="K. Wilkins">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.atari.lynx" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Atari - Lynx</platforms>
+		<extensions>lnx|lyx|o</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>handy_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Zlib</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.handy</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Atari - Lynx (Handy)</summary>
+		<summary lang="da_DK">Atari - Lynx (Handy)</summary>
+		<summary lang="en_GB">Atari - Lynx (Handy)</summary>
+		<summary lang="es_ES">Atari - Lynx (Handy)</summary>
+		<summary lang="ga">Atari - Lynx (Handy)</summary>
+		<summary lang="it_IT">Atari - Lynx (Handy)</summary>
+		<summary lang="ru_RU">Atari — Lynx (Handy)</summary>
+		<summary lang="sv_SE">Atari - Lynx (Handy)</summary>
+		<summary lang="zh_CN">雅达利 - Lynx (Handy)</summary>
+		<description lang="cs_CZ">Handy je emulátor Atari Lynx od K. Wilkinse pro Windows 95/98/NT/2000/XP.</description>
+		<description lang="da_DK">Handy er en Atari Lynx-emulator af K. Wilkins til Windows 95/98/NT/2000/XP.</description>
+		<description lang="de_DE">Handy ist ein Atari-Lynx-Emulator von K. Wilkins für Windows 95/98/NT/2000/XP.</description>
+		<description lang="en_GB">Handy is an Atari Lynx emulator by K. Wilkins for Windows 95/98/NT/2000/XP.</description>
+		<description lang="es_ES">Handy es un emulador de Atari Lynx creado por K. Wilkins para Windows 95/98/NT/2000/XP.</description>
+		<description lang="ga">Is aithriseoir Atari Lynx é Handy le K. Wilkins do Windows 95/98/NT/2000/XP.</description>
+		<description lang="it_IT">Handy è un emulatore Atari Lynx di K. Wilkins per Windows 95/98/NT/2000/XP.</description>
+		<description lang="ru_RU">Handy — это эмулятор Atari Lynx от K. Wilkins для Windows 95/98/NT/2000/XP.</description>
+		<description lang="sl_SI">Handy je emulator Atari Lynx K. Wilkinsa za Windows 95/98/NT/2000/XP.</description>
+		<description lang="sv_SE">Handy är en Atari Lynx-emulator av K. Wilkins för Windows 95/98/NT/2000/XP.</description>
+		<description lang="zh_CN">Handy 是 K.Wilkins 为 Windows 95/98/NT/2000/XP 开发的雅达利 Lynx 模拟器。</description>
+	</extension>
+</addon>

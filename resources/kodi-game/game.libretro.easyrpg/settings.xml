@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="128">
+		<setting label="30001" type="select" id="easyrpg_debug_mode" values="Disabled|Enabled" default="Disabled"/>
+	</category>
+</settings>

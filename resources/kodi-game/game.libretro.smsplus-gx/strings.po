@@ -1,0 +1,126 @@
+# game.libretro.smsplus-gx language file
+# Addon Name: game.libretro.smsplus-gx
+# Addon id: game.libretro.smsplus-gx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.smsplus-gx\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-10-19 06:19i\n"
+"PO-Revision-Date: 2024-12-27 22:08+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-smsplus-gx/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sega - MS/GG (SMS Plus GX)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "SMS Plus GX is a port of the original Sega Master System emulator for the Nintendo GameCube."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Ported to libretro by gameblabla"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Master System BIOS (Restart Required)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Hardware (Restart Required)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Region (Restart Required)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Use FM (YM2413) (Restart Required)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Hide SMS Left Border"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Blargg NTSC Filter"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Use official BIOS/bootloader for emulated hardware, if present in RetroArch's system directory. Displays console-specific start-up sequence/animation."
+msgstr ""
+
+msgctxt "#30008"
+msgid "Emulates which system hardware to use."
+msgstr ""
+
+msgctxt "#30009"
+msgid "Runs console at a specific video timing based on region."
+msgstr ""
+
+msgctxt "#30010"
+msgid "Use FM Sound for some Master System games to enable enhanced music. Some games will only enable YM2413 sound if the Region option is also set to ntsc-j (e.g. Wonder Boy III)."
+msgstr ""
+
+msgctxt "#30011"
+msgid "Hides left border and center image onscreen."
+msgstr ""
+
+msgctxt "#30012"
+msgid "Enable blargg NTSC filter."
+msgstr ""
+
+msgctxt "#30013"
+msgid "master system"
+msgstr ""
+
+msgctxt "#30014"
+msgid "master system II"
+msgstr ""
+
+msgctxt "#30015"
+msgid "game gear"
+msgstr ""
+
+msgctxt "#30016"
+msgid "game gear (sms compatibility)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "coleco"
+msgstr ""
+
+msgctxt "#30018"
+msgid "ntsc-u"
+msgstr ""
+
+msgctxt "#30019"
+msgid "pal"
+msgstr ""
+
+msgctxt "#30020"
+msgid "ntsc-j"
+msgstr ""
+
+msgctxt "#30021"
+msgid "composite"
+msgstr ""
+
+msgctxt "#30022"
+msgid "svideo"
+msgstr ""
+
+msgctxt "#30023"
+msgid "rgb"
+msgstr ""
+
+msgctxt "#30024"
+msgid "monochrome"
+msgstr ""

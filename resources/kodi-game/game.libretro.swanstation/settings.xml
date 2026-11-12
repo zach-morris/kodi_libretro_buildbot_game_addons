@@ -1,0 +1,4140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.swanstation">
+		<category id="console" label="30125" help="30126">
+			<group id="1">
+				<setting id="swanstation_Console_Region" type="string" label="30001" help="30127">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="30128">Auto</option>
+							<option label="30129">NTSC-J</option>
+							<option label="30130">NTSC-U</option>
+							<option label="30131">PAL</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_BIOS_PathNTSCJ" type="string" label="30002" help="30132">
+					<level>0</level>
+					<default>scph5500.bin</default>
+					<constraints>
+						<options>
+							<option label="30133">scph5500.bin</option>
+							<option label="30134">psxonpsp660.bin</option>
+							<option label="30135">ps1_rom.bin</option>
+							<option label="30493">openbios.bin</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_BIOS_PathNTSCU" type="string" label="30003" help="30136">
+					<level>0</level>
+					<default>scph5501.bin</default>
+					<constraints>
+						<options>
+							<option label="30137">scph5501.bin</option>
+							<option label="30134">psxonpsp660.bin</option>
+							<option label="30135">ps1_rom.bin</option>
+							<option label="30493">openbios.bin</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_BIOS_PathPAL" type="string" label="30004" help="30138">
+					<level>0</level>
+					<default>scph5502.bin</default>
+					<constraints>
+						<options>
+							<option label="30139">scph5502.bin</option>
+							<option label="30134">psxonpsp660.bin</option>
+							<option label="30135">ps1_rom.bin</option>
+							<option label="30493">openbios.bin</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_BIOS_PatchFastBoot" type="string" label="30005" help="30140">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CDROM_RegionCheck" type="string" label="30006" help="30143">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CDROM_ReadThread" type="string" label="30007" help="30144">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CDROM_LoadImagePatches" type="string" label="30008" help="30145">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CDROM_LoadImageToRAM" type="string" label="30009" help="30146">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CDROM_PreCacheCHD" type="string" label="30010" help="30147">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CDROM_MuteCDAudio" type="string" label="30011" help="30148">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CDROM_ReadSpeedup" type="string" label="30012" help="30149">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30150">1</option>
+							<option label="30151">2</option>
+							<option label="30152">3</option>
+							<option label="30153">4</option>
+							<option label="30154">5</option>
+							<option label="30155">6</option>
+							<option label="30156">7</option>
+							<option label="30157">8</option>
+							<option label="30158">9</option>
+							<option label="30159">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CDROM_SeekSpeedup" type="string" label="30013" help="30160">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30161">0</option>
+							<option label="30150">1</option>
+							<option label="30151">2</option>
+							<option label="30152">3</option>
+							<option label="30153">4</option>
+							<option label="30154">5</option>
+							<option label="30155">6</option>
+							<option label="30156">7</option>
+							<option label="30157">8</option>
+							<option label="30158">9</option>
+							<option label="30159">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CPU_ExecutionMode" type="string" label="30014" help="30162">
+					<level>0</level>
+					<default>Recompiler</default>
+					<constraints>
+						<options>
+							<option label="30491">Interpreter</option>
+							<option label="30163">CachedInterpreter</option>
+							<option label="30492">Recompiler</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="enhancement" label="30164" help="30165">
+			<group id="1">
+				<setting id="swanstation_GPU_Renderer" type="string" label="30015" help="30166">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="30167">Auto</option>
+							<option label="30168">OpenGL</option>
+							<option label="30169">Vulkan</option>
+							<option label="30170">Software</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_ResolutionScale" type="string" label="30016" help="30171">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30172">1</option>
+							<option label="30173">2</option>
+							<option label="30174">3</option>
+							<option label="30175">4</option>
+							<option label="30176">5</option>
+							<option label="30177">6</option>
+							<option label="30178">7</option>
+							<option label="30179">8</option>
+							<option label="30180">9</option>
+							<option label="30181">10</option>
+							<option label="30182">11</option>
+							<option label="30183">12</option>
+							<option label="30184">13</option>
+							<option label="30185">14</option>
+							<option label="30186">15</option>
+							<option label="30187">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_UseThread" type="string" label="30017" help="30188">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_UseSoftwareRendererForReadbacks" type="string" label="30018" help="30189">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_MSAA" type="string" label="30019" help="30190">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30142">1</option>
+							<option label="30191">2</option>
+							<option label="30192">4</option>
+							<option label="30193">8</option>
+							<option label="30194">16</option>
+							<option label="30195">32</option>
+							<option label="30196">2-ssaa</option>
+							<option label="30197">4-ssaa</option>
+							<option label="30198">8-ssaa</option>
+							<option label="30199">16-ssaa</option>
+							<option label="30200">32-ssaa</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_TrueColor" type="string" label="30020" help="30201">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_ScaledDithering" type="string" label="30021" help="30202">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_DisableInterlacing" type="string" label="30022" help="30203">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_ForceNTSCTimings" type="string" label="30023" help="30204">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_Force4_3For24Bit" type="string" label="30024" help="30205">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_ChromaSmoothing24Bit" type="string" label="30025" help="30206">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_TextureFilter" type="string" label="30026" help="30207">
+					<level>0</level>
+					<default>Nearest</default>
+					<constraints>
+						<options>
+							<option label="30208">Nearest</option>
+							<option label="30209">Bilinear</option>
+							<option label="30210">BilinearBinAlpha</option>
+							<option label="30211">JINC2</option>
+							<option label="30212">JINC2BinAlpha</option>
+							<option label="30213">xBR</option>
+							<option label="30214">xBRBinAlpha</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_WidescreenHack" type="string" label="30027" help="30215">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPEnable" type="string" label="30028" help="30216">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPCulling" type="string" label="30029" help="30217">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPTextureCorrection" type="string" label="30030" help="30218">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPColorCorrection" type="string" label="30031" help="30219">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPDepthBuffer" type="string" label="30032" help="30220">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPVertexCache" type="string" label="30033" help="30221">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPCPU" type="string" label="30034" help="30222">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPPreserveProjFP" type="string" label="30035" help="30223">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPTolerance" type="string" label="30036" help="30224">
+					<level>0</level>
+					<default>-1.0</default>
+					<constraints>
+						<options>
+							<option label="30225">-1.0</option>
+							<option label="30226">0.5</option>
+							<option label="30227">1.0</option>
+							<option label="30228">1.5</option>
+							<option label="30229">2.0</option>
+							<option label="30230">2.5</option>
+							<option label="30231">3.0</option>
+							<option label="30232">3.5</option>
+							<option label="30233">4.0</option>
+							<option label="30234">4.5</option>
+							<option label="30235">5.0</option>
+							<option label="30236">5.5</option>
+							<option label="30237">6.0</option>
+							<option label="30238">6.5</option>
+							<option label="30239">7.0</option>
+							<option label="30240">7.5</option>
+							<option label="30241">8.0</option>
+							<option label="30242">8.5</option>
+							<option label="30243">9.0</option>
+							<option label="30243">9.5</option>
+							<option label="30244">10.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_PGXPDepthClearThreshold" type="string" label="30037" help="30245">
+					<level>0</level>
+					<default>300</default>
+					<constraints>
+						<options>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+							<option>105</option>
+							<option>110</option>
+							<option>115</option>
+							<option>120</option>
+							<option>125</option>
+							<option>130</option>
+							<option>135</option>
+							<option>140</option>
+							<option>145</option>
+							<option>150</option>
+							<option>155</option>
+							<option>160</option>
+							<option>165</option>
+							<option>170</option>
+							<option>175</option>
+							<option>180</option>
+							<option>185</option>
+							<option>190</option>
+							<option>195</option>
+							<option>200</option>
+							<option>205</option>
+							<option>210</option>
+							<option>215</option>
+							<option>220</option>
+							<option>225</option>
+							<option>230</option>
+							<option>235</option>
+							<option>240</option>
+							<option>245</option>
+							<option>250</option>
+							<option>255</option>
+							<option>260</option>
+							<option>265</option>
+							<option>270</option>
+							<option>275</option>
+							<option>280</option>
+							<option>285</option>
+							<option>290</option>
+							<option>295</option>
+							<option>300</option>
+							<option>305</option>
+							<option>310</option>
+							<option>315</option>
+							<option>320</option>
+							<option>325</option>
+							<option>330</option>
+							<option>335</option>
+							<option>340</option>
+							<option>345</option>
+							<option>350</option>
+							<option>355</option>
+							<option>360</option>
+							<option>365</option>
+							<option>370</option>
+							<option>375</option>
+							<option>380</option>
+							<option>385</option>
+							<option>390</option>
+							<option>395</option>
+							<option>400</option>
+							<option>405</option>
+							<option>410</option>
+							<option>415</option>
+							<option>420</option>
+							<option>425</option>
+							<option>430</option>
+							<option>435</option>
+							<option>440</option>
+							<option>445</option>
+							<option>450</option>
+							<option>455</option>
+							<option>460</option>
+							<option>465</option>
+							<option>470</option>
+							<option>475</option>
+							<option>480</option>
+							<option>485</option>
+							<option>490</option>
+							<option>495</option>
+							<option>500</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="display" label="30246" help="30247">
+			<group id="1">
+				<setting id="swanstation_Display_AspectRatio" type="string" label="30038" help="30248">
+					<level>0</level>
+					<default>4:3</default>
+					<constraints>
+						<options>
+							<option label="30249">4:3</option>
+							<option label="30250">16:9</option>
+							<option label="30251">19:9</option>
+							<option label="30252">20:9</option>
+							<option label="30253">Custom</option>
+							<option label="30254">Auto</option>
+							<option label="30255">Native</option>
+							<option label="30256">PAR 1:1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_CustomAspectRatioNumerator" type="string" label="30039" help="30257">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_CustomAspectRatioDenominator" type="string" label="30040" help="30258">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_CropMode" type="string" label="30041" help="30259">
+					<level>0</level>
+					<default>Borders</default>
+					<constraints>
+						<options>
+							<option label="30225">None</option>
+							<option label="30260">Overscan</option>
+							<option label="30261">Borders</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_DownsampleMode" type="string" label="30042" help="30262">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="30263">Box</option>
+							<option label="30264">Adaptive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_GPU_ShaderPrecompile" type="string" label="30494" help="30495">
+					<level>0</level>
+					<default>Lazy</default>
+					<constraints>
+						<options>
+							<option label="30496">Lazy</option>
+							<option label="30497">Enabled</option>
+							<option label="30498">Disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_ShowOSDMessages" type="string" label="30043" help="30265">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_ActiveStartOffset" type="string" label="30044" help="30266">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-30</option>
+							<option>-29</option>
+							<option>-28</option>
+							<option>-27</option>
+							<option>-26</option>
+							<option>-25</option>
+							<option>-24</option>
+							<option>-23</option>
+							<option>-22</option>
+							<option>-21</option>
+							<option>-20</option>
+							<option>-19</option>
+							<option>-18</option>
+							<option>-17</option>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_ActiveEndOffset" type="string" label="30045" help="30267">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-30</option>
+							<option>-29</option>
+							<option>-28</option>
+							<option>-27</option>
+							<option>-26</option>
+							<option>-25</option>
+							<option>-24</option>
+							<option>-23</option>
+							<option>-22</option>
+							<option>-21</option>
+							<option>-20</option>
+							<option>-19</option>
+							<option>-18</option>
+							<option>-17</option>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_LineStartOffset" type="string" label="30046" help="30268">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-30</option>
+							<option>-29</option>
+							<option>-28</option>
+							<option>-27</option>
+							<option>-26</option>
+							<option>-25</option>
+							<option>-24</option>
+							<option>-23</option>
+							<option>-22</option>
+							<option>-21</option>
+							<option>-20</option>
+							<option>-19</option>
+							<option>-18</option>
+							<option>-17</option>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Display_LineEndOffset" type="string" label="30047" help="30269">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-30</option>
+							<option>-29</option>
+							<option>-28</option>
+							<option>-27</option>
+							<option>-26</option>
+							<option>-25</option>
+							<option>-24</option>
+							<option>-23</option>
+							<option>-22</option>
+							<option>-21</option>
+							<option>-20</option>
+							<option>-19</option>
+							<option>-18</option>
+							<option>-17</option>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="port" label="30270" help="30271">
+			<group id="1">
+				<setting id="swanstation_MemoryCards_Card1Type" type="string" label="30048" help="30272">
+					<level>0</level>
+					<default>Libretro</default>
+					<constraints>
+						<options>
+							<option label="30273">Libretro</option>
+							<option label="30274">Shared</option>
+							<option label="30275">PerGame</option>
+							<option label="30276">PerGameTitle</option>
+							<option label="30277">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_MemoryCards_Card2Type" type="string" label="30049" help="30278">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="30277">None</option>
+							<option label="30274">Shared</option>
+							<option label="30275">PerGame</option>
+							<option label="30276">PerGameTitle</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_MemoryCards_UsePlaylistTitle" type="string" label="30050" help="30279">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_ControllerPorts_MultitapMode" type="string" label="30051" help="30280">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="30281">Port1Only</option>
+							<option label="30282">Port2Only</option>
+							<option label="30283">BothPorts</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller_AnalogCombo" type="string" label="30499" help="30284">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option label="30285">1</option>
+							<option label="30286">2</option>
+							<option label="30287">3</option>
+							<option label="30288">4</option>
+							<option label="30289">5</option>
+							<option label="30290">6</option>
+							<option label="30291">7</option>
+							<option label="30292">8</option>
+							<option label="30293">9</option>
+							<option label="30294">10</option>
+							<option label="30295">11</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller_EnableRumble" type="string" label="30500" help="30501">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller_ShowCrosshair" type="string" label="30111" help="30297">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller1_ForceAnalog" type="string" label="30112" help="30298">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller1_AnalogDPadInDigitalMode" type="string" label="30055" help="30299">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller1_AxisScale" type="string" label="30056" help="30300">
+					<level>0</level>
+					<default>1.33</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller1_VibrationBias" type="string" label="30057" help="30301">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller1_XScale" type="string" label="30058" help="30302">
+					<level>0</level>
+					<default>1.00</default>
+					<constraints>
+						<options>
+							<option>0.50</option>
+							<option>0.51</option>
+							<option>0.52</option>
+							<option>0.53</option>
+							<option>0.54</option>
+							<option>0.55</option>
+							<option>0.56</option>
+							<option>0.57</option>
+							<option>0.58</option>
+							<option>0.59</option>
+							<option>0.60</option>
+							<option>0.61</option>
+							<option>0.62</option>
+							<option>0.63</option>
+							<option>0.64</option>
+							<option>0.65</option>
+							<option>0.66</option>
+							<option>0.67</option>
+							<option>0.68</option>
+							<option>0.69</option>
+							<option>0.70</option>
+							<option>0.71</option>
+							<option>0.72</option>
+							<option>0.73</option>
+							<option>0.74</option>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller1_YScale" type="string" label="30059" help="30303">
+					<level>0</level>
+					<default>1.00</default>
+					<constraints>
+						<options>
+							<option>0.50</option>
+							<option>0.51</option>
+							<option>0.52</option>
+							<option>0.53</option>
+							<option>0.54</option>
+							<option>0.55</option>
+							<option>0.56</option>
+							<option>0.57</option>
+							<option>0.58</option>
+							<option>0.59</option>
+							<option>0.60</option>
+							<option>0.61</option>
+							<option>0.62</option>
+							<option>0.63</option>
+							<option>0.64</option>
+							<option>0.65</option>
+							<option>0.66</option>
+							<option>0.67</option>
+							<option>0.68</option>
+							<option>0.69</option>
+							<option>0.70</option>
+							<option>0.71</option>
+							<option>0.72</option>
+							<option>0.73</option>
+							<option>0.74</option>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller1_SteeringDeadzone" type="string" label="30060" help="30304">
+					<level>0</level>
+					<default>0.10</default>
+					<constraints>
+						<options>
+							<option>0.00</option>
+							<option>0.01</option>
+							<option>0.02</option>
+							<option>0.03</option>
+							<option>0.04</option>
+							<option>0.05</option>
+							<option>0.06</option>
+							<option>0.07</option>
+							<option>0.08</option>
+							<option>0.09</option>
+							<option>0.10</option>
+							<option>0.11</option>
+							<option>0.12</option>
+							<option>0.13</option>
+							<option>0.14</option>
+							<option>0.15</option>
+							<option>0.16</option>
+							<option>0.17</option>
+							<option>0.18</option>
+							<option>0.19</option>
+							<option>0.20</option>
+							<option>0.21</option>
+							<option>0.22</option>
+							<option>0.23</option>
+							<option>0.24</option>
+							<option>0.25</option>
+							<option>0.26</option>
+							<option>0.27</option>
+							<option>0.28</option>
+							<option>0.29</option>
+							<option>0.30</option>
+							<option>0.31</option>
+							<option>0.32</option>
+							<option>0.33</option>
+							<option>0.34</option>
+							<option>0.35</option>
+							<option>0.36</option>
+							<option>0.37</option>
+							<option>0.38</option>
+							<option>0.39</option>
+							<option>0.40</option>
+							<option>0.41</option>
+							<option>0.42</option>
+							<option>0.43</option>
+							<option>0.44</option>
+							<option>0.45</option>
+							<option>0.46</option>
+							<option>0.47</option>
+							<option>0.48</option>
+							<option>0.49</option>
+							<option>0.50</option>
+							<option>0.51</option>
+							<option>0.52</option>
+							<option>0.53</option>
+							<option>0.54</option>
+							<option>0.55</option>
+							<option>0.56</option>
+							<option>0.57</option>
+							<option>0.58</option>
+							<option>0.59</option>
+							<option>0.60</option>
+							<option>0.61</option>
+							<option>0.62</option>
+							<option>0.63</option>
+							<option>0.64</option>
+							<option>0.65</option>
+							<option>0.66</option>
+							<option>0.67</option>
+							<option>0.68</option>
+							<option>0.69</option>
+							<option>0.70</option>
+							<option>0.71</option>
+							<option>0.72</option>
+							<option>0.73</option>
+							<option>0.74</option>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller1_TwistResponse" type="string" label="30061" help="30305">
+					<level>0</level>
+					<default>linear</default>
+					<constraints>
+						<options>
+							<option label="30306">linear</option>
+							<option label="30307">quadratic</option>
+							<option label="30308">cubic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller2_ForceAnalog" type="string" label="30113" help="30298">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller2_AnalogDPadInDigitalMode" type="string" label="30063" help="30299">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller2_AxisScale" type="string" label="30064" help="30300">
+					<level>0</level>
+					<default>1.33</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller2_VibrationBias" type="string" label="30065" help="30301">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller2_XScale" type="string" label="30066" help="30302">
+					<level>0</level>
+					<default>1.00</default>
+					<constraints>
+						<options>
+							<option>0.50</option>
+							<option>0.51</option>
+							<option>0.52</option>
+							<option>0.53</option>
+							<option>0.54</option>
+							<option>0.55</option>
+							<option>0.56</option>
+							<option>0.57</option>
+							<option>0.58</option>
+							<option>0.59</option>
+							<option>0.60</option>
+							<option>0.61</option>
+							<option>0.62</option>
+							<option>0.63</option>
+							<option>0.64</option>
+							<option>0.65</option>
+							<option>0.66</option>
+							<option>0.67</option>
+							<option>0.68</option>
+							<option>0.69</option>
+							<option>0.70</option>
+							<option>0.71</option>
+							<option>0.72</option>
+							<option>0.73</option>
+							<option>0.74</option>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller2_YScale" type="string" label="30067" help="30303">
+					<level>0</level>
+					<default>1.00</default>
+					<constraints>
+						<options>
+							<option>0.50</option>
+							<option>0.51</option>
+							<option>0.52</option>
+							<option>0.53</option>
+							<option>0.54</option>
+							<option>0.55</option>
+							<option>0.56</option>
+							<option>0.57</option>
+							<option>0.58</option>
+							<option>0.59</option>
+							<option>0.60</option>
+							<option>0.61</option>
+							<option>0.62</option>
+							<option>0.63</option>
+							<option>0.64</option>
+							<option>0.65</option>
+							<option>0.66</option>
+							<option>0.67</option>
+							<option>0.68</option>
+							<option>0.69</option>
+							<option>0.70</option>
+							<option>0.71</option>
+							<option>0.72</option>
+							<option>0.73</option>
+							<option>0.74</option>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller2_SteeringDeadzone" type="string" label="30068" help="30304">
+					<level>0</level>
+					<default>0.10</default>
+					<constraints>
+						<options>
+							<option>0.00</option>
+							<option>0.01</option>
+							<option>0.02</option>
+							<option>0.03</option>
+							<option>0.04</option>
+							<option>0.05</option>
+							<option>0.06</option>
+							<option>0.07</option>
+							<option>0.08</option>
+							<option>0.09</option>
+							<option>0.10</option>
+							<option>0.11</option>
+							<option>0.12</option>
+							<option>0.13</option>
+							<option>0.14</option>
+							<option>0.15</option>
+							<option>0.16</option>
+							<option>0.17</option>
+							<option>0.18</option>
+							<option>0.19</option>
+							<option>0.20</option>
+							<option>0.21</option>
+							<option>0.22</option>
+							<option>0.23</option>
+							<option>0.24</option>
+							<option>0.25</option>
+							<option>0.26</option>
+							<option>0.27</option>
+							<option>0.28</option>
+							<option>0.29</option>
+							<option>0.30</option>
+							<option>0.31</option>
+							<option>0.32</option>
+							<option>0.33</option>
+							<option>0.34</option>
+							<option>0.35</option>
+							<option>0.36</option>
+							<option>0.37</option>
+							<option>0.38</option>
+							<option>0.39</option>
+							<option>0.40</option>
+							<option>0.41</option>
+							<option>0.42</option>
+							<option>0.43</option>
+							<option>0.44</option>
+							<option>0.45</option>
+							<option>0.46</option>
+							<option>0.47</option>
+							<option>0.48</option>
+							<option>0.49</option>
+							<option>0.50</option>
+							<option>0.51</option>
+							<option>0.52</option>
+							<option>0.53</option>
+							<option>0.54</option>
+							<option>0.55</option>
+							<option>0.56</option>
+							<option>0.57</option>
+							<option>0.58</option>
+							<option>0.59</option>
+							<option>0.60</option>
+							<option>0.61</option>
+							<option>0.62</option>
+							<option>0.63</option>
+							<option>0.64</option>
+							<option>0.65</option>
+							<option>0.66</option>
+							<option>0.67</option>
+							<option>0.68</option>
+							<option>0.69</option>
+							<option>0.70</option>
+							<option>0.71</option>
+							<option>0.72</option>
+							<option>0.73</option>
+							<option>0.74</option>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller2_TwistResponse" type="string" label="30069" help="30305">
+					<level>0</level>
+					<default>linear</default>
+					<constraints>
+						<options>
+							<option label="30306">linear</option>
+							<option label="30307">quadratic</option>
+							<option label="30308">cubic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller3_ForceAnalog" type="string" label="30114" help="30298">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller3_AnalogDPadInDigitalMode" type="string" label="30071" help="30299">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller3_AxisScale" type="string" label="30072" help="30300">
+					<level>0</level>
+					<default>1.33</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller3_VibrationBias" type="string" label="30073" help="30301">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller3_SteeringDeadzone" type="string" label="30074" help="30304">
+					<level>0</level>
+					<default>0.10</default>
+					<constraints>
+						<options>
+							<option>0.00</option>
+							<option>0.01</option>
+							<option>0.02</option>
+							<option>0.03</option>
+							<option>0.04</option>
+							<option>0.05</option>
+							<option>0.06</option>
+							<option>0.07</option>
+							<option>0.08</option>
+							<option>0.09</option>
+							<option>0.10</option>
+							<option>0.11</option>
+							<option>0.12</option>
+							<option>0.13</option>
+							<option>0.14</option>
+							<option>0.15</option>
+							<option>0.16</option>
+							<option>0.17</option>
+							<option>0.18</option>
+							<option>0.19</option>
+							<option>0.20</option>
+							<option>0.21</option>
+							<option>0.22</option>
+							<option>0.23</option>
+							<option>0.24</option>
+							<option>0.25</option>
+							<option>0.26</option>
+							<option>0.27</option>
+							<option>0.28</option>
+							<option>0.29</option>
+							<option>0.30</option>
+							<option>0.31</option>
+							<option>0.32</option>
+							<option>0.33</option>
+							<option>0.34</option>
+							<option>0.35</option>
+							<option>0.36</option>
+							<option>0.37</option>
+							<option>0.38</option>
+							<option>0.39</option>
+							<option>0.40</option>
+							<option>0.41</option>
+							<option>0.42</option>
+							<option>0.43</option>
+							<option>0.44</option>
+							<option>0.45</option>
+							<option>0.46</option>
+							<option>0.47</option>
+							<option>0.48</option>
+							<option>0.49</option>
+							<option>0.50</option>
+							<option>0.51</option>
+							<option>0.52</option>
+							<option>0.53</option>
+							<option>0.54</option>
+							<option>0.55</option>
+							<option>0.56</option>
+							<option>0.57</option>
+							<option>0.58</option>
+							<option>0.59</option>
+							<option>0.60</option>
+							<option>0.61</option>
+							<option>0.62</option>
+							<option>0.63</option>
+							<option>0.64</option>
+							<option>0.65</option>
+							<option>0.66</option>
+							<option>0.67</option>
+							<option>0.68</option>
+							<option>0.69</option>
+							<option>0.70</option>
+							<option>0.71</option>
+							<option>0.72</option>
+							<option>0.73</option>
+							<option>0.74</option>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller3_TwistResponse" type="string" label="30075" help="30305">
+					<level>0</level>
+					<default>linear</default>
+					<constraints>
+						<options>
+							<option label="30306">linear</option>
+							<option label="30307">quadratic</option>
+							<option label="30308">cubic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller4_ForceAnalog" type="string" label="30115" help="30298">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller4_AnalogDPadInDigitalMode" type="string" label="30077" help="30299">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller4_AxisScale" type="string" label="30078" help="30300">
+					<level>0</level>
+					<default>1.33</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller4_VibrationBias" type="string" label="30079" help="30301">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller4_SteeringDeadzone" type="string" label="30080" help="30304">
+					<level>0</level>
+					<default>0.10</default>
+					<constraints>
+						<options>
+							<option>0.00</option>
+							<option>0.01</option>
+							<option>0.02</option>
+							<option>0.03</option>
+							<option>0.04</option>
+							<option>0.05</option>
+							<option>0.06</option>
+							<option>0.07</option>
+							<option>0.08</option>
+							<option>0.09</option>
+							<option>0.10</option>
+							<option>0.11</option>
+							<option>0.12</option>
+							<option>0.13</option>
+							<option>0.14</option>
+							<option>0.15</option>
+							<option>0.16</option>
+							<option>0.17</option>
+							<option>0.18</option>
+							<option>0.19</option>
+							<option>0.20</option>
+							<option>0.21</option>
+							<option>0.22</option>
+							<option>0.23</option>
+							<option>0.24</option>
+							<option>0.25</option>
+							<option>0.26</option>
+							<option>0.27</option>
+							<option>0.28</option>
+							<option>0.29</option>
+							<option>0.30</option>
+							<option>0.31</option>
+							<option>0.32</option>
+							<option>0.33</option>
+							<option>0.34</option>
+							<option>0.35</option>
+							<option>0.36</option>
+							<option>0.37</option>
+							<option>0.38</option>
+							<option>0.39</option>
+							<option>0.40</option>
+							<option>0.41</option>
+							<option>0.42</option>
+							<option>0.43</option>
+							<option>0.44</option>
+							<option>0.45</option>
+							<option>0.46</option>
+							<option>0.47</option>
+							<option>0.48</option>
+							<option>0.49</option>
+							<option>0.50</option>
+							<option>0.51</option>
+							<option>0.52</option>
+							<option>0.53</option>
+							<option>0.54</option>
+							<option>0.55</option>
+							<option>0.56</option>
+							<option>0.57</option>
+							<option>0.58</option>
+							<option>0.59</option>
+							<option>0.60</option>
+							<option>0.61</option>
+							<option>0.62</option>
+							<option>0.63</option>
+							<option>0.64</option>
+							<option>0.65</option>
+							<option>0.66</option>
+							<option>0.67</option>
+							<option>0.68</option>
+							<option>0.69</option>
+							<option>0.70</option>
+							<option>0.71</option>
+							<option>0.72</option>
+							<option>0.73</option>
+							<option>0.74</option>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller4_TwistResponse" type="string" label="30081" help="30305">
+					<level>0</level>
+					<default>linear</default>
+					<constraints>
+						<options>
+							<option label="30306">linear</option>
+							<option label="30307">quadratic</option>
+							<option label="30308">cubic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller5_ForceAnalog" type="string" label="30116" help="30298">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller5_AnalogDPadInDigitalMode" type="string" label="30083" help="30299">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller5_AxisScale" type="string" label="30084" help="30300">
+					<level>0</level>
+					<default>1.33</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller5_VibrationBias" type="string" label="30085" help="30301">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller6_ForceAnalog" type="string" label="30117" help="30298">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller6_AnalogDPadInDigitalMode" type="string" label="30087" help="30299">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller6_AxisScale" type="string" label="30088" help="30300">
+					<level>0</level>
+					<default>1.33</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller6_VibrationBias" type="string" label="30089" help="30301">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller7_ForceAnalog" type="string" label="30118" help="30298">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller7_AnalogDPadInDigitalMode" type="string" label="30091" help="30299">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller7_AxisScale" type="string" label="30092" help="30300">
+					<level>0</level>
+					<default>1.33</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller7_VibrationBias" type="string" label="30093" help="30301">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller8_ForceAnalog" type="string" label="30119" help="30298">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller8_AnalogDPadInDigitalMode" type="string" label="30095" help="30299">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller8_AxisScale" type="string" label="30096" help="30300">
+					<level>0</level>
+					<default>1.33</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Controller8_VibrationBias" type="string" label="30097" help="30301">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30309" help="30310">
+			<group id="1">
+				<setting id="swanstation_CDROM_ReadaheadSectors" type="string" label="30098" help="30311">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option label="30312">0</option>
+							<option label="30313">1</option>
+							<option label="30314">2</option>
+							<option label="30315">3</option>
+							<option label="30316">4</option>
+							<option label="30317">5</option>
+							<option label="30318">6</option>
+							<option label="30319">7</option>
+							<option label="30320">8</option>
+							<option label="30321">9</option>
+							<option label="30322">10</option>
+							<option label="30323">11</option>
+							<option label="30324">12</option>
+							<option label="30325">13</option>
+							<option label="30326">14</option>
+							<option label="30327">15</option>
+							<option label="30328">16</option>
+							<option label="30329">17</option>
+							<option label="30330">18</option>
+							<option label="30331">19</option>
+							<option label="30332">20</option>
+							<option label="30333">21</option>
+							<option label="30334">22</option>
+							<option label="30335">23</option>
+							<option label="30336">24</option>
+							<option label="30337">25</option>
+							<option label="30338">26</option>
+							<option label="30339">27</option>
+							<option label="30340">28</option>
+							<option label="30341">29</option>
+							<option label="30342">30</option>
+							<option label="30343">31</option>
+							<option label="30344">32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CPU_Overclock" type="string" label="30099" help="30345">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30346">50</option>
+							<option label="30347">55</option>
+							<option label="30348">60</option>
+							<option label="30349">65</option>
+							<option label="30350">70</option>
+							<option label="30351">75</option>
+							<option label="30352">80</option>
+							<option label="30353">85</option>
+							<option label="30354">90</option>
+							<option label="30355">95</option>
+							<option label="30356">100</option>
+							<option label="30357">105</option>
+							<option label="30358">110</option>
+							<option label="30359">115</option>
+							<option label="30360">120</option>
+							<option label="30361">125</option>
+							<option label="30362">130</option>
+							<option label="30363">135</option>
+							<option label="30364">140</option>
+							<option label="30365">145</option>
+							<option label="30366">150</option>
+							<option label="30367">155</option>
+							<option label="30368">160</option>
+							<option label="30369">165</option>
+							<option label="30370">170</option>
+							<option label="30371">175</option>
+							<option label="30372">180</option>
+							<option label="30373">185</option>
+							<option label="30374">190</option>
+							<option label="30375">195</option>
+							<option label="30376">200</option>
+							<option label="30377">210</option>
+							<option label="30378">220</option>
+							<option label="30379">230</option>
+							<option label="30380">240</option>
+							<option label="30381">250</option>
+							<option label="30382">260</option>
+							<option label="30383">270</option>
+							<option label="30384">280</option>
+							<option label="30385">290</option>
+							<option label="30386">300</option>
+							<option label="30387">310</option>
+							<option label="30388">320</option>
+							<option label="30389">330</option>
+							<option label="30390">340</option>
+							<option label="30391">350</option>
+							<option label="30392">360</option>
+							<option label="30393">370</option>
+							<option label="30394">380</option>
+							<option label="30395">390</option>
+							<option label="30396">400</option>
+							<option label="30397">410</option>
+							<option label="30398">420</option>
+							<option label="30399">430</option>
+							<option label="30400">440</option>
+							<option label="30401">450</option>
+							<option label="30402">460</option>
+							<option label="30403">470</option>
+							<option label="30404">480</option>
+							<option label="30405">490</option>
+							<option label="30406">500</option>
+							<option label="30407">510</option>
+							<option label="30408">520</option>
+							<option label="30409">530</option>
+							<option label="30410">540</option>
+							<option label="30411">550</option>
+							<option label="30412">560</option>
+							<option label="30413">570</option>
+							<option label="30414">580</option>
+							<option label="30415">590</option>
+							<option label="30416">600</option>
+							<option label="30417">610</option>
+							<option label="30418">620</option>
+							<option label="30419">630</option>
+							<option label="30420">640</option>
+							<option label="30421">650</option>
+							<option label="30422">660</option>
+							<option label="30423">670</option>
+							<option label="30424">680</option>
+							<option label="30425">690</option>
+							<option label="30426">700</option>
+							<option label="30427">710</option>
+							<option label="30428">720</option>
+							<option label="30429">730</option>
+							<option label="30430">740</option>
+							<option label="30431">750</option>
+							<option label="30432">760</option>
+							<option label="30433">770</option>
+							<option label="30434">780</option>
+							<option label="30435">790</option>
+							<option label="30436">800</option>
+							<option label="30437">810</option>
+							<option label="30438">820</option>
+							<option label="30439">830</option>
+							<option label="30440">840</option>
+							<option label="30441">850</option>
+							<option label="30442">860</option>
+							<option label="30443">870</option>
+							<option label="30444">880</option>
+							<option label="30444">890</option>
+							<option label="30445">900</option>
+							<option label="30446">910</option>
+							<option label="30447">920</option>
+							<option label="30448">930</option>
+							<option label="30449">940</option>
+							<option label="30450">950</option>
+							<option label="30451">960</option>
+							<option label="30452">970</option>
+							<option label="30453">980</option>
+							<option label="30454">990</option>
+							<option label="30455">1000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Main_ApplyGameSettings" type="string" label="30100" help="30456">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Logging_LogLevel" type="string" label="30101" help="30457">
+					<level>0</level>
+					<default>Info</default>
+					<constraints>
+						<options>
+							<option label="30225">None</option>
+							<option label="30458">Error</option>
+							<option label="30459">Warning</option>
+							<option label="30460">Perf</option>
+							<option label="30461">Success</option>
+							<option label="30462">Info</option>
+							<option label="30463">Dev</option>
+							<option label="30464">Profile</option>
+							<option label="30465">Debug</option>
+							<option label="30466">Trace</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CPU_RecompilerICache" type="string" label="30102" help="30467">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CPU_RecompilerBlockLinking" type="string" label="30103" help="30468">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CPU_FastmemMode" type="string" label="30104" help="30469">
+					<level>0</level>
+					<default>LUT</default>
+					<constraints>
+						<options>
+							<option label="30470">Disabled</option>
+							<option label="30471">LUT</option>
+							<option label="30502">MMap</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_CPU_FastmemRewrite" type="string" label="30105" help="30473">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_TextureReplacements_EnableVRAMWriteReplacements" type="string" label="30106" help="30503">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_TextureReplacements_PreloadTextures" type="string" label="30107" help="30475">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Main_RunaheadFrameCount" type="string" label="30108" help="30504">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30477">0</option>
+							<option label="30478">1</option>
+							<option label="30479">2</option>
+							<option label="30480">3</option>
+							<option label="30481">4</option>
+							<option label="30482">5</option>
+							<option label="30483">6</option>
+							<option label="30484">7</option>
+							<option label="30485">8</option>
+							<option label="30486">9</option>
+							<option label="30487">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Console_Enable8MBRAM" type="string" label="30109" help="30488">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Hacks_OldMDECRoutines" type="string" label="30110" help="30505">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="swanstation_Audio_FastHook" type="string" label="30506" help="30507">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30141">true</option>
+							<option label="30142">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

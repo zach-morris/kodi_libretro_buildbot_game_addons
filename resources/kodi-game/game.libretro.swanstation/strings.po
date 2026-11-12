@@ -1,0 +1,1970 @@
+# game.libretro.swanstation language file
+# Addon Name: game.libretro.swanstation
+# Addon id: game.libretro.swanstation
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.swanstation\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-01-19 19:00i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-swanstation/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sony - PlayStation (SwanStation)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Swanstation is a fast PlayStation 1 emulator for PC and Android."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Console Region"
+msgstr ""
+
+msgctxt "#30002"
+msgid "NTSC-J BIOS (Restart)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "NTSC-U BIOS (Restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "PAL BIOS (Restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Fast Boot"
+msgstr ""
+
+msgctxt "#30006"
+msgid "CD-ROM Region Check"
+msgstr ""
+
+msgctxt "#30007"
+msgid "CD-ROM Read Thread"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Apply Image Patches (Restart)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Preload CD-ROM Image To RAM"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Pre-cache CHD Images To RAM"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Mute CD Audio"
+msgstr ""
+
+msgctxt "#30012"
+msgid "CD-ROM Read Speedup"
+msgstr ""
+
+msgctxt "#30013"
+msgid "CD-ROM Seek Speedup"
+msgstr ""
+
+msgctxt "#30014"
+msgid "CPU Execution Mode"
+msgstr ""
+
+msgctxt "#30015"
+msgid "GPU Renderer"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Internal Resolution Scale"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Threaded Rendering (Software)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Use Software Renderer For Readbacks (Restart)"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Multisample Antialiasing"
+msgstr ""
+
+msgctxt "#30020"
+msgid "True Color Rendering"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Scaled Dithering"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Disable Interlacing"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Force NTSC Timings"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Force 4:3 For 24-Bit Display"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Chroma Smoothing For 24-Bit Display"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Texture Filtering"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Widescreen Hack"
+msgstr ""
+
+msgctxt "#30028"
+msgid "PGXP Geometry Correction"
+msgstr ""
+
+msgctxt "#30029"
+msgid "PGXP Culling Correction"
+msgstr ""
+
+msgctxt "#30030"
+msgid "PGXP Perspective Correct Textures"
+msgstr ""
+
+msgctxt "#30031"
+msgid "PGXP Perspective Correct Colors"
+msgstr ""
+
+msgctxt "#30032"
+msgid "PGXP Depth Buffer"
+msgstr ""
+
+msgctxt "#30033"
+msgid "PGXP Vertex Cache"
+msgstr ""
+
+msgctxt "#30034"
+msgid "PGXP CPU Mode"
+msgstr ""
+
+msgctxt "#30035"
+msgid "PGXP Preserve Projection Precision"
+msgstr ""
+
+msgctxt "#30036"
+msgid "PGXP Geometry Tolerance"
+msgstr ""
+
+msgctxt "#30037"
+msgid "PGXP Depth Clear Threshold"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Core Provided Aspect Ratio"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Custom Aspect Ratio Numerator"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Custom Aspect Ratio Denominator"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Crop Mode"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Downsampling"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Display OSD Messages"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Display Active Start Offset"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Display Active End Offset"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Display Line Start Offset"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Display Line End Offset"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Memory Card 1 Type (Restart)"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Memory Card 2 Type"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Use Single Card For Playlist"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Multitap Mode"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Controller 1 Use Analog Sticks for D-Pad in Digital Mode"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Controller 1 Analog Axis Scale"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Controller 1 Vibration Bias"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Controller 1 Lightgun X Scale"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Controller 1 Lightgun Y Scale"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Controller 1 NeGcon Steering Axis Deadzone"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Controller 1 NeGcon Twist Response"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Controller 2 Use Analog Sticks for D-Pad in Digital Mode"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Controller 2 Analog Axis Scale"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Controller 2 Vibration Bias"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Controller 2 Lightgun X Scale"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Controller 2 Lightgun Y Scale"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Controller 2 NeGcon Steering Axis Deadzone"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Controller 2 NeGcon Twist Response"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Controller 3 Use Analog Sticks for D-Pad in Digital Mode"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Controller 3 Analog Axis Scale"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Controller 3 Vibration Bias"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Controller 3 NeGcon Steering Axis Deadzone"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Controller 3 NeGcon Twist Response"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Controller 4 Use Analog Sticks for D-Pad in Digital Mode"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Controller 4 Analog Axis Scale"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Controller 4 Vibration Bias"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Controller 4 NeGcon Steering Axis Deadzone"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Controller 4 NeGcon Twist Response"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Controller 5 Use Analog Sticks for D-Pad in Digital Mode"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Controller 5 Analog Axis Scale"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Controller 5 Vibration Bias"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Controller 6 Use Analog Sticks for D-Pad in Digital Mode"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Controller 6 Analog Axis Scale"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Controller 6 Vibration Bias"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Controller 7 Use Analog Sticks for D-Pad in Digital Mode"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Controller 7 Analog Axis Scale"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Controller 7 Vibration Bias"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Controller 8 Use Analog Sticks for D-Pad in Digital Mode"
+msgstr ""
+
+msgctxt "#30096"
+msgid "Controller 8 Analog Axis Scale"
+msgstr ""
+
+msgctxt "#30097"
+msgid "Controller 8 Vibration Bias"
+msgstr ""
+
+msgctxt "#30098"
+msgid "CD-ROM Async Readahead"
+msgstr ""
+
+msgctxt "#30099"
+msgid "CPU Overclocking"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Apply Compatibility Settings"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Log Level"
+msgstr ""
+
+msgctxt "#30102"
+msgid "CPU Recompiler ICache"
+msgstr ""
+
+msgctxt "#30103"
+msgid "CPU Recompiler Block Linking"
+msgstr ""
+
+msgctxt "#30104"
+msgid "CPU Recompiler Fast Memory Access"
+msgstr ""
+
+msgctxt "#30105"
+msgid "CPU Recompiler Fast Memory Access Rewrite"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Enable VRAM Write Texture Replacement"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Preload Texture Replacements"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Internal Run-Ahead"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Enable 8MB RAM (Dev Console)"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Use Old MDEC Routines"
+msgstr ""
+
+msgctxt "#30111"
+msgid "GunCon Show Crosshair"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Controller 1 Force Analog Mode"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Controller 2 Force Analog Mode"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Controller 3 Force Analog Mode"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Controller 4 Force Analog Mode"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Controller 5 Force Analog Mode"
+msgstr ""
+
+msgctxt "#30117"
+msgid "Controller 6 Force Analog Mode"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Controller 7 Force Analog Mode"
+msgstr ""
+
+msgctxt "#30119"
+msgid "Controller 8 Force Analog Mode"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Console Settings"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Settings which control behavior of the various elements of the console."
+msgstr ""
+
+msgctxt "#30127"
+msgid "Determines which region/hardware to emulate. Auto-Detect will use the region of the disc inserted."
+msgstr ""
+
+msgctxt "#30128"
+msgid "Auto-Detect"
+msgstr ""
+
+msgctxt "#30129"
+msgid "NTSC-J (Japan)"
+msgstr ""
+
+msgctxt "#30130"
+msgid "NTSC-U (US, Canada)"
+msgstr ""
+
+msgctxt "#30131"
+msgid "PAL (Europe, Australia)"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Select which standard BIOS to use for NTSC-J."
+msgstr ""
+
+msgctxt "#30133"
+msgid "SCPH5500"
+msgstr ""
+
+msgctxt "#30134"
+msgid "PSP"
+msgstr ""
+
+msgctxt "#30135"
+msgid "PS3"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Select which standard BIOS to use for NTSC-U."
+msgstr ""
+
+msgctxt "#30137"
+msgid "SCPH5501"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Select which standard BIOS to use for PAL."
+msgstr ""
+
+msgctxt "#30139"
+msgid "SCPH5502"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Skips the BIOS shell/intro, booting directly into the game. Usually safe to enable, but some games break."
+msgstr ""
+
+msgctxt "#30141"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30143"
+msgid "Prevents discs from incorrect regions being read by the emulator. Usually safe to disable."
+msgstr ""
+
+msgctxt "#30144"
+msgid "Reads CD-ROM sectors ahead asynchronously, reducing the risk of frame time spikes."
+msgstr ""
+
+msgctxt "#30145"
+msgid "Automatically applies patches to disc images when they are present in the same directory. Currently only PPF patches are supported with this option. Requires the core to be restarted to apply."
+msgstr ""
+
+msgctxt "#30146"
+msgid "Loads the disc image to RAM before starting emulation. May reduce hitching if you are running off a network share, at a cost of a greater startup time. As libretro provides no way to draw overlays, the emulator will appear to lock up while the image is preloaded."
+msgstr ""
+
+msgctxt "#30147"
+msgid "Pre-caches CHD CD-ROM images to RAM without decompressing them. Unlike the preload option, this option supports M3U files. It is also faster and requires less RAM compared to preloading as it doesn't decompress the CHD."
+msgstr ""
+
+msgctxt "#30148"
+msgid "Forcibly mutes both CD-DA and XA audio from the CD-ROM. Can be used to disable background music in some games."
+msgstr ""
+
+msgctxt "#30149"
+msgid "Speeds up CD-ROM reads by the specified factor. Only applies to double-speed reads, and is ignored when audio is playing. May improve loading speeds in some games, at the cost of breaking others."
+msgstr ""
+
+msgctxt "#30150"
+msgid "None (Double Speed)"
+msgstr ""
+
+msgctxt "#30151"
+msgid "2x (Quad Speed)"
+msgstr ""
+
+msgctxt "#30152"
+msgid "3x (6x Speed)"
+msgstr ""
+
+msgctxt "#30153"
+msgid "4x (8x Speed)"
+msgstr ""
+
+msgctxt "#30154"
+msgid "5x (10x Speed)"
+msgstr ""
+
+msgctxt "#30155"
+msgid "6x (12x Speed)"
+msgstr ""
+
+msgctxt "#30156"
+msgid "7x (14x Speed)"
+msgstr ""
+
+msgctxt "#30157"
+msgid "8x (16x Speed)"
+msgstr ""
+
+msgctxt "#30158"
+msgid "9x (18x Speed)"
+msgstr ""
+
+msgctxt "#30159"
+msgid "10x (20x Speed)"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Speeds up CD-ROM seeks by the specified factor. May improve loading speeds in some game, at the cost of breaking others."
+msgstr ""
+
+msgctxt "#30161"
+msgid "Infinite/Instantaneous"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Which mode to use for CPU emulation. Recompiler provides the best performance."
+msgstr ""
+
+msgctxt "#30163"
+msgid "Cached Interpreter"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Enhancement Settings"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Settings which control graphical rendering and enhancements."
+msgstr ""
+
+msgctxt "#30166"
+msgid "Which renderer to use to emulate the GPU."
+msgstr ""
+
+msgctxt "#30167"
+msgid "Hardware (Auto)"
+msgstr ""
+
+msgctxt "#30168"
+msgid "Hardware (OpenGL)"
+msgstr ""
+
+msgctxt "#30169"
+msgid "Hardware (Vulkan)"
+msgstr ""
+
+msgctxt "#30170"
+msgid "Software"
+msgstr ""
+
+msgctxt "#30171"
+msgid "Scales internal VRAM resolution by the specified multiplier for the hardware renderer. Larger values are slower.  Some games require 1x VRAM resolution or they will have rendering issues."
+msgstr ""
+
+msgctxt "#30172"
+msgid "1x"
+msgstr ""
+
+msgctxt "#30173"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30174"
+msgid "3x (for 720p)"
+msgstr ""
+
+msgctxt "#30175"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30176"
+msgid "5x (for 1080p)"
+msgstr ""
+
+msgctxt "#30177"
+msgid "6x (for 1440p)"
+msgstr ""
+
+msgctxt "#30178"
+msgid "7x"
+msgstr ""
+
+msgctxt "#30179"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30180"
+msgid "9x (for 4K)"
+msgstr ""
+
+msgctxt "#30181"
+msgid "10x"
+msgstr ""
+
+msgctxt "#30182"
+msgid "11x"
+msgstr ""
+
+msgctxt "#30183"
+msgid "12x"
+msgstr ""
+
+msgctxt "#30184"
+msgid "13x"
+msgstr ""
+
+msgctxt "#30185"
+msgid "14x"
+msgstr ""
+
+msgctxt "#30186"
+msgid "15x"
+msgstr ""
+
+msgctxt "#30187"
+msgid "16x"
+msgstr ""
+
+msgctxt "#30188"
+msgid "Uses a second thread for drawing graphics. Currently only available for the software renderer."
+msgstr ""
+
+msgctxt "#30189"
+msgid "Runs the software renderer in parallel for VRAM readbacks. Some games may require this to be enabled to produce proper framebuffer effects (e.g. motion blur, battle swirls ect.), or otherwise fix corrupted textures when using the hardware renderers. Requires the core to be restarted to apply."
+msgstr ""
+
+msgctxt "#30190"
+msgid "Uses multisample antialiasing for rendering 3D objects. Can smooth out jagged edges on polygons at a lower cost to performance compared to increasing the resolution scale, but may be more likely to cause rendering errors in some games."
+msgstr ""
+
+msgctxt "#30191"
+msgid "2x MSAA"
+msgstr ""
+
+msgctxt "#30192"
+msgid "4x MSAA"
+msgstr ""
+
+msgctxt "#30193"
+msgid "8x MSAA"
+msgstr ""
+
+msgctxt "#30194"
+msgid "16x MSAA"
+msgstr ""
+
+msgctxt "#30195"
+msgid "32x MSAA"
+msgstr ""
+
+msgctxt "#30196"
+msgid "2x SSAA"
+msgstr ""
+
+msgctxt "#30197"
+msgid "4x SSAA"
+msgstr ""
+
+msgctxt "#30198"
+msgid "8x SSAA"
+msgstr ""
+
+msgctxt "#30199"
+msgid "16x SSAA"
+msgstr ""
+
+msgctxt "#30200"
+msgid "32x SSAA"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Disables dithering and uses the full 8 bits per channel of color information. May break rendering in some games."
+msgstr ""
+
+msgctxt "#30202"
+msgid "Scales the dithering pattern with the internal rendering resolution, making it less noticeable. Usually safe to enable."
+msgstr ""
+
+msgctxt "#30203"
+msgid "Disables interlaced rendering and display in the GPU. Some games can render in 480p this way, but others will break."
+msgstr ""
+
+msgctxt "#30204"
+msgid "Forces PAL games to run at NTSC timings, i.e. 60hz. Some PAL games will run at their \"normal\" speeds, while others will break."
+msgstr ""
+
+msgctxt "#30205"
+msgid "Switches back to 4:3 display aspect ratio when displaying 24-bit content, usually FMVs."
+msgstr ""
+
+msgctxt "#30206"
+msgid "Smooths out blockyness between colour transitions in 24-bit content, usually FMVs. Only applies to the hardware renderers."
+msgstr ""
+
+msgctxt "#30207"
+msgid "Smooths out the blockyness of magnified textures on 3D object by using bilinear filtering. Will have a greater effect on higher resolution scales. Only applies to the hardware renderers."
+msgstr ""
+
+msgctxt "#30208"
+msgid "Nearest-Neighbor"
+msgstr ""
+
+msgctxt "#30209"
+msgid "Bilinear"
+msgstr ""
+
+msgctxt "#30210"
+msgid "Bilinear (No Edge Blending)"
+msgstr ""
+
+msgctxt "#30211"
+msgid "JINC2"
+msgstr ""
+
+msgctxt "#30212"
+msgid "JINC2 (No Edge Blending)"
+msgstr ""
+
+msgctxt "#30213"
+msgid "xBR"
+msgstr ""
+
+msgctxt "#30214"
+msgid "xBR (No Edge Blending)"
+msgstr ""
+
+msgctxt "#30215"
+msgid "Increases the field of view from 4:3 to the chosen display aspect ratio in 3D games. For 2D games, or games which use pre-rendered backgrounds, this enhancement will not work as expected."
+msgstr ""
+
+msgctxt "#30216"
+msgid "Reduces \"wobbly\" polygons by attempting to preserve the fractional component through memory transfers. Only works with the hardware renderers, and may not be compatible with all games."
+msgstr ""
+
+msgctxt "#30217"
+msgid "Increases the precision of polygon culling, reducing the number of holes in geometry. Requires geometry correction enabled."
+msgstr ""
+
+msgctxt "#30218"
+msgid "Uses perspective-correct interpolation for texture coordinates, straightening out warped textures. Requires geometry correction enabled."
+msgstr ""
+
+msgctxt "#30219"
+msgid "Uses perspective-correct interpolation for vertex colors, which can improve visuals in some games, but cause rendering errors in others. Requires geometry correction enabled."
+msgstr ""
+
+msgctxt "#30220"
+msgid "Attempts to reduce polygon Z-fighting by testing pixels against the depth values from PGXP. Low compatibility, but can work well in some games. Requires geometry correction enabled."
+msgstr ""
+
+msgctxt "#30221"
+msgid "Uses screen coordinates as a fallback when tracking vertices through memory fails. May improve PGXP compatibility."
+msgstr ""
+
+msgctxt "#30222"
+msgid "Tries to track vertex manipulation through the CPU. Some games require this option for PGXP to be effective. Very slow, and incompatible with the recompiler."
+msgstr ""
+
+msgctxt "#30223"
+msgid "Enables additional precision for PGXP. May improve visuals in some games but break others."
+msgstr ""
+
+msgctxt "#30224"
+msgid "Ignores precise positions if the difference exceeds this threshold."
+msgstr ""
+
+msgctxt "#30225"
+msgid "None"
+msgstr ""
+
+msgctxt "#30226"
+msgid "0.5 pixels"
+msgstr ""
+
+msgctxt "#30227"
+msgid "1.0 pixels"
+msgstr ""
+
+msgctxt "#30228"
+msgid "1.5 pixels"
+msgstr ""
+
+msgctxt "#30229"
+msgid "2.0 pixels"
+msgstr ""
+
+msgctxt "#30230"
+msgid "2.5 pixels"
+msgstr ""
+
+msgctxt "#30231"
+msgid "3.0 pixels"
+msgstr ""
+
+msgctxt "#30232"
+msgid "3.5 pixels"
+msgstr ""
+
+msgctxt "#30233"
+msgid "4.0 pixels"
+msgstr ""
+
+msgctxt "#30234"
+msgid "4.5 pixels"
+msgstr ""
+
+msgctxt "#30235"
+msgid "5.0 pixels"
+msgstr ""
+
+msgctxt "#30236"
+msgid "5.5 pixels"
+msgstr ""
+
+msgctxt "#30237"
+msgid "6.0 pixels"
+msgstr ""
+
+msgctxt "#30238"
+msgid "6.5 pixels"
+msgstr ""
+
+msgctxt "#30239"
+msgid "7.0 pixels"
+msgstr ""
+
+msgctxt "#30240"
+msgid "7.5 pixels"
+msgstr ""
+
+msgctxt "#30241"
+msgid "8.0 pixels"
+msgstr ""
+
+msgctxt "#30242"
+msgid "8.5 pixels"
+msgstr ""
+
+msgctxt "#30243"
+msgid "9.0 pixels"
+msgstr ""
+
+msgctxt "#30244"
+msgid "10.0 pixels"
+msgstr ""
+
+msgctxt "#30245"
+msgid "Sets the threshold for the PGXP Depth Buffer."
+msgstr ""
+
+msgctxt "#30246"
+msgid "Display Settings"
+msgstr ""
+
+msgctxt "#30247"
+msgid "Settings which control how the image is displayed on the screen."
+msgstr ""
+
+msgctxt "#30248"
+msgid "Sets the preferred aspect ratio. Will only work when the 'Core Provided' aspect ratio is selected inside RetroArch's Video settings. Will be forced to 'Corrected (NTSC)' when using a Namco GunCon controller"
+msgstr ""
+
+msgctxt "#30249"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30250"
+msgid "16:9"
+msgstr ""
+
+msgctxt "#30251"
+msgid "19:9"
+msgstr ""
+
+msgctxt "#30252"
+msgid "20:9"
+msgstr ""
+
+msgctxt "#30253"
+msgid "Custom"
+msgstr ""
+
+msgctxt "#30254"
+msgid "Corrected (NTSC)"
+msgstr ""
+
+msgctxt "#30255"
+msgid "Corrected (Region Native)"
+msgstr ""
+
+msgctxt "#30256"
+msgid "Uncorrected (PAR 1:1)"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Sets the numerator for the custom aspect ratio, e.g. 4 in 4:3."
+msgstr ""
+
+msgctxt "#30258"
+msgid "Sets the denominator for the custom aspect ratio, e.g. 3 in 4:3."
+msgstr ""
+
+msgctxt "#30259"
+msgid "Changes how much of the image is cropped. Some games display garbage in the overscan area which is typically hidden."
+msgstr ""
+
+msgctxt "#30260"
+msgid "Only Overscan Area"
+msgstr ""
+
+msgctxt "#30261"
+msgid "All Borders"
+msgstr ""
+
+msgctxt "#30262"
+msgid "Downsamples the rendered image prior to displaying it. Can improve overall image quality in mixed 2D/3D games, but should be disabled for pure 3D games. Only applies to the hardware renderers."
+msgstr ""
+
+msgctxt "#30263"
+msgid "Box (Downsample 3D/Smooth All)"
+msgstr ""
+
+msgctxt "#30264"
+msgid "Adaptive (Preserve 3D/Smooth 2D)"
+msgstr ""
+
+msgctxt "#30265"
+msgid "Shows on-screen messages generated by the core."
+msgstr ""
+
+msgctxt "#30266"
+msgid "Pads or crops off lines from the left of the displayed image."
+msgstr ""
+
+msgctxt "#30267"
+msgid "Pads or crops off lines from the right of the displayed image."
+msgstr ""
+
+msgctxt "#30268"
+msgid "Pads or crops off lines from the top of the displayed image."
+msgstr ""
+
+msgctxt "#30269"
+msgid "Pads or crops off lines from the bottom of the displayed image."
+msgstr ""
+
+msgctxt "#30270"
+msgid "Port Settings"
+msgstr ""
+
+msgctxt "#30271"
+msgid "Settings which control controller and memory card behavior."
+msgstr ""
+
+msgctxt "#30272"
+msgid "Sets the type of memory card for Slot 1. Restart the core when switching formats. 'Shared Between All Games' and both 'Separate Card Per Game' options may be used for legacy purposes, and are unsupported. 'Libretro' (.srm) and 'Separate Card Per Game (Game Title)' (.mcd) saves have internally identical formats and can be converted between one another via renaming the extension and removing/adding the slot number (_1)"
+msgstr ""
+
+msgctxt "#30273"
+msgid "Libretro (Default)"
+msgstr ""
+
+msgctxt "#30274"
+msgid "Shared Between All Games"
+msgstr ""
+
+msgctxt "#30275"
+msgid "Separate Card Per Game (Game Code)"
+msgstr ""
+
+msgctxt "#30276"
+msgid "Separate Card Per Game (Game Title)"
+msgstr ""
+
+msgctxt "#30277"
+msgid "No Memory Card"
+msgstr ""
+
+msgctxt "#30278"
+msgid "Sets the type of memory card for Slot 2."
+msgstr ""
+
+msgctxt "#30279"
+msgid "When using a playlist (m3u) and per-game (title) memory cards, a single memory card will be used for all discs. If unchecked, a separate card will be used for each disc."
+msgstr ""
+
+msgctxt "#30280"
+msgid "Sets the mode for the multitap."
+msgstr ""
+
+msgctxt "#30281"
+msgid "Enable on Port 1 Only"
+msgstr ""
+
+msgctxt "#30282"
+msgid "Enable on Port 2 Only"
+msgstr ""
+
+msgctxt "#30283"
+msgid "Enable on Ports 1 and 2"
+msgstr ""
+
+msgctxt "#30284"
+msgid "Sets the combo used to toggle analog mode."
+msgstr ""
+
+msgctxt "#30285"
+msgid "L1 + R1 + L3 + R3"
+msgstr ""
+
+msgctxt "#30286"
+msgid "L1 + L2 + R1 + R2 + Start + Select"
+msgstr ""
+
+msgctxt "#30287"
+msgid "L1 + R1 + Select"
+msgstr ""
+
+msgctxt "#30288"
+msgid "L1 + R1 + Start"
+msgstr ""
+
+msgctxt "#30289"
+msgid "L1 + R1 + L3"
+msgstr ""
+
+msgctxt "#30290"
+msgid "L1 + R1 + R3"
+msgstr ""
+
+msgctxt "#30291"
+msgid "L2 + R2 + Select"
+msgstr ""
+
+msgctxt "#30292"
+msgid "L2 + R2 + Start"
+msgstr ""
+
+msgctxt "#30293"
+msgid "L2 + R2 + L3"
+msgstr ""
+
+msgctxt "#30294"
+msgid "L2 + R2 + R3"
+msgstr ""
+
+msgctxt "#30295"
+msgid "L3 + R3"
+msgstr ""
+
+msgctxt "#30297"
+msgid "Show a crosshair when the input device is set to 'Namco GunCon'."
+msgstr ""
+
+msgctxt "#30298"
+msgid "Forces analog mode to be always on. May cause issues with some games. Only use this option for games that support analog mode but do not automatically enable it themselves. When disabled, analog mode can be toggled by pressing and holding the DualShock Analog Mode Combo."
+msgstr ""
+
+msgctxt "#30299"
+msgid "Allows you to use the analog sticks to control the d-pad in digital mode, as well as the buttons."
+msgstr ""
+
+msgctxt "#30300"
+msgid "Sets the analog stick axis scaling factor."
+msgstr ""
+
+msgctxt "#30301"
+msgid "Applies an offset to vibration intensities, higher values will make smaller vibrations more noticable."
+msgstr ""
+
+msgctxt "#30302"
+msgid "Scales X coordinates relative to the center of the screen."
+msgstr ""
+
+msgctxt "#30303"
+msgid "Scales Y coordinates relative to the center of the screen."
+msgstr ""
+
+msgctxt "#30304"
+msgid "Sets deadzone size for steering axis."
+msgstr ""
+
+msgctxt "#30305"
+msgid "Sets the twist response type for the left analog stick. 'Quadratic' allows for greater precision than 'Linear' when making small movements, and is more suited for modern controllers, While 'Cubic' further increases small movement precision, but 'exaggerates' larger movements. 'Linear' is generally only useful when using racing wheel peripherals."
+msgstr ""
+
+msgctxt "#30306"
+msgid "Linear"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Quadratic"
+msgstr ""
+
+msgctxt "#30308"
+msgid "Cubic"
+msgstr ""
+
+msgctxt "#30309"
+msgid "Advanced Settings"
+msgstr ""
+
+msgctxt "#30310"
+msgid "Settings which control internal emulator behavior. Use with care."
+msgstr ""
+
+msgctxt "#30311"
+msgid "Determines how far the CD-ROM thread will read ahead. Can reduce hitches on slow storage mediums or with compressed games."
+msgstr ""
+
+msgctxt "#30312"
+msgid "Disabled (Synchronous)"
+msgstr ""
+
+msgctxt "#30313"
+msgid "1 Sector (7KB / 2ms)"
+msgstr ""
+
+msgctxt "#30314"
+msgid "2 Sectors (13KB / 4ms)"
+msgstr ""
+
+msgctxt "#30315"
+msgid "3 Sectors (20KB / 6ms)"
+msgstr ""
+
+msgctxt "#30316"
+msgid "4 Sectors (27KB / 8ms)"
+msgstr ""
+
+msgctxt "#30317"
+msgid "5 Sectors (33KB / 10ms)"
+msgstr ""
+
+msgctxt "#30318"
+msgid "6 Sectors (40KB / 12ms)"
+msgstr ""
+
+msgctxt "#30319"
+msgid "7 Sectors (47KB / 14ms)"
+msgstr ""
+
+msgctxt "#30320"
+msgid "8 Sectors (53KB / 16ms)"
+msgstr ""
+
+msgctxt "#30321"
+msgid "9 Sectors (60KB / 18ms)"
+msgstr ""
+
+msgctxt "#30322"
+msgid "10 Sectors (67KB / 20ms)"
+msgstr ""
+
+msgctxt "#30323"
+msgid "11 Sectors (73KB / 22ms)"
+msgstr ""
+
+msgctxt "#30324"
+msgid "12 Sectors (80KB / 24ms)"
+msgstr ""
+
+msgctxt "#30325"
+msgid "13 Sectors (87KB / 26ms)"
+msgstr ""
+
+msgctxt "#30326"
+msgid "14 Sectors (93KB / 28ms)"
+msgstr ""
+
+msgctxt "#30327"
+msgid "15 Sectors (100KB / 30ms)"
+msgstr ""
+
+msgctxt "#30328"
+msgid "16 Sectors (107KB / 32ms)"
+msgstr ""
+
+msgctxt "#30329"
+msgid "17 Sectors (113KB / 34ms)"
+msgstr ""
+
+msgctxt "#30330"
+msgid "18 Sectors (120KB / 36ms)"
+msgstr ""
+
+msgctxt "#30331"
+msgid "19 Sectors (127KB / 38ms)"
+msgstr ""
+
+msgctxt "#30332"
+msgid "20 Sectors (133KB / 40ms)"
+msgstr ""
+
+msgctxt "#30333"
+msgid "21 Sectors (140KB / 42ms)"
+msgstr ""
+
+msgctxt "#30334"
+msgid "22 Sectors (147KB / 44ms)"
+msgstr ""
+
+msgctxt "#30335"
+msgid "23 Sectors (153KB / 46ms)"
+msgstr ""
+
+msgctxt "#30336"
+msgid "24 Sectors (160KB / 48ms)"
+msgstr ""
+
+msgctxt "#30337"
+msgid "25 Sectors (167KB / 50ms)"
+msgstr ""
+
+msgctxt "#30338"
+msgid "26 Sectors (173KB / 52ms)"
+msgstr ""
+
+msgctxt "#30339"
+msgid "27 Sectors (180KB / 54ms)"
+msgstr ""
+
+msgctxt "#30340"
+msgid "28 Sectors (187KB / 56ms)"
+msgstr ""
+
+msgctxt "#30341"
+msgid "29 Sectors (193KB / 58ms)"
+msgstr ""
+
+msgctxt "#30342"
+msgid "30 Sectors (200KB / 60ms)"
+msgstr ""
+
+msgctxt "#30343"
+msgid "31 Sectors (207KB / 62ms)"
+msgstr ""
+
+msgctxt "#30344"
+msgid "32 Sectors (213KB / 64ms)"
+msgstr ""
+
+msgctxt "#30345"
+msgid "Runs the emulated CPU faster or slower than native speed, which can improve framerates in some games. Will break other games and increase system requirements, use with caution."
+msgstr ""
+
+msgctxt "#30346"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30347"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30348"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30349"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30350"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30351"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30352"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30353"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30354"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30355"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30356"
+msgid "100% (Default)"
+msgstr ""
+
+msgctxt "#30357"
+msgid "105%"
+msgstr ""
+
+msgctxt "#30358"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30359"
+msgid "115%"
+msgstr ""
+
+msgctxt "#30360"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30361"
+msgid "125%"
+msgstr ""
+
+msgctxt "#30362"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30363"
+msgid "135%"
+msgstr ""
+
+msgctxt "#30364"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30365"
+msgid "145%"
+msgstr ""
+
+msgctxt "#30366"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30367"
+msgid "155%"
+msgstr ""
+
+msgctxt "#30368"
+msgid "160%"
+msgstr ""
+
+msgctxt "#30369"
+msgid "165%"
+msgstr ""
+
+msgctxt "#30370"
+msgid "170%"
+msgstr ""
+
+msgctxt "#30371"
+msgid "175%"
+msgstr ""
+
+msgctxt "#30372"
+msgid "180%"
+msgstr ""
+
+msgctxt "#30373"
+msgid "185%"
+msgstr ""
+
+msgctxt "#30374"
+msgid "190%"
+msgstr ""
+
+msgctxt "#30375"
+msgid "195%"
+msgstr ""
+
+msgctxt "#30376"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30377"
+msgid "210%"
+msgstr ""
+
+msgctxt "#30378"
+msgid "220%"
+msgstr ""
+
+msgctxt "#30379"
+msgid "230%"
+msgstr ""
+
+msgctxt "#30380"
+msgid "240%"
+msgstr ""
+
+msgctxt "#30381"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30382"
+msgid "260%"
+msgstr ""
+
+msgctxt "#30383"
+msgid "270%"
+msgstr ""
+
+msgctxt "#30384"
+msgid "280%"
+msgstr ""
+
+msgctxt "#30385"
+msgid "290%"
+msgstr ""
+
+msgctxt "#30386"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30387"
+msgid "310%"
+msgstr ""
+
+msgctxt "#30388"
+msgid "320%"
+msgstr ""
+
+msgctxt "#30389"
+msgid "330%"
+msgstr ""
+
+msgctxt "#30390"
+msgid "340%"
+msgstr ""
+
+msgctxt "#30391"
+msgid "350%"
+msgstr ""
+
+msgctxt "#30392"
+msgid "360%"
+msgstr ""
+
+msgctxt "#30393"
+msgid "370%"
+msgstr ""
+
+msgctxt "#30394"
+msgid "380%"
+msgstr ""
+
+msgctxt "#30395"
+msgid "390%"
+msgstr ""
+
+msgctxt "#30396"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30397"
+msgid "410%"
+msgstr ""
+
+msgctxt "#30398"
+msgid "420%"
+msgstr ""
+
+msgctxt "#30399"
+msgid "430%"
+msgstr ""
+
+msgctxt "#30400"
+msgid "440%"
+msgstr ""
+
+msgctxt "#30401"
+msgid "450%"
+msgstr ""
+
+msgctxt "#30402"
+msgid "460%"
+msgstr ""
+
+msgctxt "#30403"
+msgid "470%"
+msgstr ""
+
+msgctxt "#30404"
+msgid "480%"
+msgstr ""
+
+msgctxt "#30405"
+msgid "490%"
+msgstr ""
+
+msgctxt "#30406"
+msgid "500%"
+msgstr ""
+
+msgctxt "#30407"
+msgid "510%"
+msgstr ""
+
+msgctxt "#30408"
+msgid "520%"
+msgstr ""
+
+msgctxt "#30409"
+msgid "530%"
+msgstr ""
+
+msgctxt "#30410"
+msgid "540%"
+msgstr ""
+
+msgctxt "#30411"
+msgid "550%"
+msgstr ""
+
+msgctxt "#30412"
+msgid "560%"
+msgstr ""
+
+msgctxt "#30413"
+msgid "570%"
+msgstr ""
+
+msgctxt "#30414"
+msgid "580%"
+msgstr ""
+
+msgctxt "#30415"
+msgid "590%"
+msgstr ""
+
+msgctxt "#30416"
+msgid "600%"
+msgstr ""
+
+msgctxt "#30417"
+msgid "610%"
+msgstr ""
+
+msgctxt "#30418"
+msgid "620%"
+msgstr ""
+
+msgctxt "#30419"
+msgid "630%"
+msgstr ""
+
+msgctxt "#30420"
+msgid "640%"
+msgstr ""
+
+msgctxt "#30421"
+msgid "650%"
+msgstr ""
+
+msgctxt "#30422"
+msgid "660%"
+msgstr ""
+
+msgctxt "#30423"
+msgid "670%"
+msgstr ""
+
+msgctxt "#30424"
+msgid "680%"
+msgstr ""
+
+msgctxt "#30425"
+msgid "690%"
+msgstr ""
+
+msgctxt "#30426"
+msgid "700%"
+msgstr ""
+
+msgctxt "#30427"
+msgid "710%"
+msgstr ""
+
+msgctxt "#30428"
+msgid "720%"
+msgstr ""
+
+msgctxt "#30429"
+msgid "730%"
+msgstr ""
+
+msgctxt "#30430"
+msgid "740%"
+msgstr ""
+
+msgctxt "#30431"
+msgid "750%"
+msgstr ""
+
+msgctxt "#30432"
+msgid "760%"
+msgstr ""
+
+msgctxt "#30433"
+msgid "770%"
+msgstr ""
+
+msgctxt "#30434"
+msgid "780%"
+msgstr ""
+
+msgctxt "#30435"
+msgid "790%"
+msgstr ""
+
+msgctxt "#30436"
+msgid "800%"
+msgstr ""
+
+msgctxt "#30437"
+msgid "810%"
+msgstr ""
+
+msgctxt "#30438"
+msgid "820%"
+msgstr ""
+
+msgctxt "#30439"
+msgid "830%"
+msgstr ""
+
+msgctxt "#30440"
+msgid "840%"
+msgstr ""
+
+msgctxt "#30441"
+msgid "850%"
+msgstr ""
+
+msgctxt "#30442"
+msgid "860%"
+msgstr ""
+
+msgctxt "#30443"
+msgid "870%"
+msgstr ""
+
+msgctxt "#30444"
+msgid "880%"
+msgstr ""
+
+msgctxt "#30445"
+msgid "900%"
+msgstr ""
+
+msgctxt "#30446"
+msgid "910%"
+msgstr ""
+
+msgctxt "#30447"
+msgid "920%"
+msgstr ""
+
+msgctxt "#30448"
+msgid "930%"
+msgstr ""
+
+msgctxt "#30449"
+msgid "940%"
+msgstr ""
+
+msgctxt "#30450"
+msgid "950%"
+msgstr ""
+
+msgctxt "#30451"
+msgid "960%"
+msgstr ""
+
+msgctxt "#30452"
+msgid "970%"
+msgstr ""
+
+msgctxt "#30453"
+msgid "980%"
+msgstr ""
+
+msgctxt "#30454"
+msgid "990%"
+msgstr ""
+
+msgctxt "#30455"
+msgid "1000%"
+msgstr ""
+
+msgctxt "#30456"
+msgid "Automatically disables enhancements on games which are incompatible."
+msgstr ""
+
+msgctxt "#30457"
+msgid "Sets the level of information logged by the core."
+msgstr ""
+
+msgctxt "#30458"
+msgid "Error"
+msgstr ""
+
+msgctxt "#30459"
+msgid "Warning"
+msgstr ""
+
+msgctxt "#30460"
+msgid "Performance"
+msgstr ""
+
+msgctxt "#30461"
+msgid "Success"
+msgstr ""
+
+msgctxt "#30462"
+msgid "Information"
+msgstr ""
+
+msgctxt "#30463"
+msgid "Developer"
+msgstr ""
+
+msgctxt "#30464"
+msgid "Profile"
+msgstr ""
+
+msgctxt "#30465"
+msgid "Debug"
+msgstr ""
+
+msgctxt "#30466"
+msgid "Trace"
+msgstr ""
+
+msgctxt "#30467"
+msgid "Determines whether the CPU's instruction cache is simulated in the recompiler. Improves accuracy at a small cost to performance. If games are running too fast, try enabling this option."
+msgstr ""
+
+msgctxt "#30468"
+msgid "Enables the generated code to directly jump between blocks without going through the dispatcher. Provides a measurable speed boost."
+msgstr ""
+
+msgctxt "#30469"
+msgid "Uses page faults to determine hardware memory accesses at runtime. Can provide a significant performance improvement in some games, but make the core more difficult to debug."
+msgstr ""
+
+msgctxt "#30470"
+msgid "Disabled (Slower)"
+msgstr ""
+
+msgctxt "#30471"
+msgid "LUT (Faster)"
+msgstr ""
+
+msgctxt "#30473"
+msgid "Enables rewrites when CPU Recompiler Fast Memory Access is enabled. Can provide a measurable speed boost, but may cause the core to segfault on certain platforms."
+msgstr ""
+
+msgctxt "#30475"
+msgid "Preload VRAM write replacement textures to RAM"
+msgstr ""
+
+msgctxt "#30477"
+msgid "0 Frames (Disabled)"
+msgstr ""
+
+msgctxt "#30478"
+msgid "1 Frame"
+msgstr ""
+
+msgctxt "#30479"
+msgid "2 Frames"
+msgstr ""
+
+msgctxt "#30480"
+msgid "3 Frames"
+msgstr ""
+
+msgctxt "#30481"
+msgid "4 Frames"
+msgstr ""
+
+msgctxt "#30482"
+msgid "5 Frames"
+msgstr ""
+
+msgctxt "#30483"
+msgid "6 Frames"
+msgstr ""
+
+msgctxt "#30484"
+msgid "7 Frames"
+msgstr ""
+
+msgctxt "#30485"
+msgid "8 Frames"
+msgstr ""
+
+msgctxt "#30486"
+msgid "9 Frames"
+msgstr ""
+
+msgctxt "#30487"
+msgid "10 Frames"
+msgstr ""
+
+msgctxt "#30488"
+msgid "Enabled an additional 6MB of RAM, usually present on dev consoles. Games have to use a larger heap size for this additional RAM to be usable, and may break games which rely on memory mirroring, so it should only be used with compatible mods."
+msgstr ""
+
+msgctxt "#30491"
+msgid "Interpreter"
+msgstr ""
+
+msgctxt "#30492"
+msgid "Recompiler"
+msgstr ""
+
+msgctxt "#30493"
+msgid "OpenBIOS"
+msgstr ""
+
+msgctxt "#30494"
+msgid "Shader Precompilation"
+msgstr ""
+
+msgctxt "#30495"
+msgid "Controls when the hardware renderer's batch fragment shaders are compiled. 'Lazy' (default) compiles them on a background thread while gameplay starts immediately; the previous frontend-blocking behaviour is preserved as 'Enabled'. 'Disabled' skips precompilation entirely and compiles each shader on the main thread the first time the game actually dispatches a draw using it - lowest startup latency, but brief stutters can occur during early gameplay when new shader permutations are encountered. Changing the texture filter recompiles the matrix and pays this cost again."
+msgstr ""
+
+msgctxt "#30496"
+msgid "Lazy (background thread, default)"
+msgstr ""
+
+msgctxt "#30497"
+msgid "Enabled (block until done, like old behaviour)"
+msgstr ""
+
+msgctxt "#30498"
+msgid "Disabled (compile on first use)"
+msgstr ""
+
+msgctxt "#30499"
+msgid "Analog Mode Combo"
+msgstr ""
+
+msgctxt "#30500"
+msgid "Enable Rumble"
+msgstr ""
+
+msgctxt "#30501"
+msgid "Enable haptic feedback when using a rumble-equipped gamepad with a supported input device."
+msgstr ""
+
+msgctxt "#30502"
+msgid "MMap (Hardware, Faster, 64-Bit Only)"
+msgstr ""
+
+msgctxt "#30503"
+msgid "Replace 'VRAM write textures' with DuckStation-formatted texture packs from the 'swanstation/textures' folder inside the frontend's system directory. This only works with the Vulkan and D3D11 (where available) renderers."
+msgstr ""
+
+msgctxt "#30504"
+msgid "Simulates the system ahead of time and rolls back/replays to reduce input lag. Has very high system requirements. Most libretro frontends (including RetroArch) provide their own run-ahead implementation in their settings; the frontend version is generally more efficient and supports both single- and second-instance modes, so prefer it when available and leave this option at 0. Only enable this internal version if the frontend does not offer its own run-ahead, or to test against it."
+msgstr ""
+
+msgctxt "#30505"
+msgid "Use old routines for MDEC content. The newer routines may look better with some games, worse with others. As VRAM write texture replacements require either the old or new routines to function, it's adviced to toggle this setting to the routines required."
+msgstr ""
+
+msgctxt "#30506"
+msgid "Use Per-Frame Audio Batching (Restart)"
+msgstr ""
+
+msgctxt "#30507"
+msgid "Drains all SPU samples to the frontend once per emulated frame, instead of pushing each chunk as the SPU produces it. This is faster and produces more even audio batching, and is the right choice for almost every game. A small number of titles (notably Formula 1 / Formula 1 '97) hang at boot if audio is not delivered to the frontend mid-frame; the core auto-disables this option for those known titles, but if a game freezes at startup with audio enabled, try disabling this manually."
+msgstr ""

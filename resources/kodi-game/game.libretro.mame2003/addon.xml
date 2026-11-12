@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mame2003"
+		name="Arcade (MAME 2003)"
+		version="0.78.0.72"
+		provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2003_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2003</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2003)</summary>
+		<summary lang="da_DK">Arcade (MAME 2003)</summary>
+		<summary lang="en_GB">Arcade (MAME 2003)</summary>
+		<summary lang="es_ES">Arcade (MAME 2003)</summary>
+		<summary lang="ga">Arcade (MAME 2003)</summary>
+		<summary lang="it_IT">Arcade (MAME 2003)</summary>
+		<summary lang="ko_KR">아케이드 (MAME 2003)</summary>
+		<summary lang="ru_RU">Arcade (MAME 2003)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2003)</summary>
+		<summary lang="zh_CN">街机（MAME 2003）</summary>
+		<description lang="cs_CZ">MAME 0.78 pro Libretro. Kompatibilní se sadami MAME 0.78.</description>
+		<description lang="da_DK">MAME 0.78 til libretro. Kompatibel med MAME 0.78 sæt.</description>
+		<description lang="de_DE">MAME 0.78 für libretro. Kompatibel mit MAME 0.78 Sets.</description>
+		<description lang="en_GB">MAME 0.78 for libretro. Compatible with MAME 0.78 sets.</description>
+		<description lang="es_ES">MAME 0.78 para libretro. Compatible con los juegos de MAME 0.78.</description>
+		<description lang="ga">MAME 0.78 do libretro. Comhoiriúnach le tacair MAME 0.78.</description>
+		<description lang="it_IT">MAME 0,78 per libretro. Compatibile con i set MAME 0,78.</description>
+		<description lang="ko_KR">libretro용 MAME 0.78. MAME 0.78 세트와 호환됩니다.</description>
+		<description lang="ru_RU">MAME 0.78 для libretro. Совместимо с наборами MAME 0.78.</description>
+		<description lang="sv_SE">MAME 0.78 för libretro. Kompatibel med MAME 0.78-uppsättningar.</description>
+		<description lang="zh_CN">libretro 的 MAME 0.78。兼容 MAME 0.78 系列。</description>
+	</extension>
+</addon>

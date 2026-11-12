@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.beetle-pce">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="pce_show_advanced_input_settings" type="string" label="30010" help="30043">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30044" help="30045">
+			<group id="1">
+				<setting id="pce_palette" type="string" label="30001" help="30046">
+					<level>0</level>
+					<default>RGB</default>
+					<constraints>
+						<options>
+							<option>RGB</option>
+							<option>Composite</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_aspect_ratio" type="string" label="30002" help="30047">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30048">auto</option>
+							<option label="30091">6:5</option>
+							<option label="30092">4:3</option>
+							<option label="30049">uncorrected</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_scaling" type="string" label="30003" help="30050">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30048">auto</option>
+							<option label="30051">lores</option>
+							<option label="30052">hires</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_hires_blend" type="string" label="30004" help="30053">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30093">1</option>
+							<option label="30094">2</option>
+							<option label="30095">3</option>
+							<option label="30096">4</option>
+							<option label="30097">5</option>
+							<option label="30098">6</option>
+							<option label="30099">7</option>
+							<option label="30100">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_h_overscan" type="string" label="30005" help="30054">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30048">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_initial_scanline" type="string" label="30006" help="30055">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option label="30101">0</option>
+							<option label="30093">1</option>
+							<option label="30094">2</option>
+							<option label="30056">3</option>
+							<option label="30096">4</option>
+							<option label="30097">5</option>
+							<option label="30098">6</option>
+							<option label="30099">7</option>
+							<option label="30100">8</option>
+							<option label="30102">9</option>
+							<option label="30103">10</option>
+							<option label="30104">11</option>
+							<option label="30105">12</option>
+							<option label="30106">13</option>
+							<option label="30107">14</option>
+							<option label="30108">15</option>
+							<option label="30109">16</option>
+							<option label="30110">17</option>
+							<option label="30111">18</option>
+							<option label="30112">19</option>
+							<option label="30113">20</option>
+							<option label="30114">21</option>
+							<option label="30115">22</option>
+							<option label="30116">23</option>
+							<option label="30117">24</option>
+							<option label="30118">25</option>
+							<option label="30119">26</option>
+							<option label="30120">27</option>
+							<option label="30121">28</option>
+							<option label="30122">29</option>
+							<option label="30123">30</option>
+							<option label="30124">31</option>
+							<option label="30125">32</option>
+							<option label="30126">33</option>
+							<option label="30127">34</option>
+							<option label="30128">35</option>
+							<option label="30129">36</option>
+							<option label="30130">37</option>
+							<option label="30131">38</option>
+							<option label="30132">39</option>
+							<option label="30133">40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_last_scanline" type="string" label="30007" help="30057">
+					<level>0</level>
+					<default>242</default>
+					<constraints>
+						<options>
+							<option label="30134">208</option>
+							<option label="30135">209</option>
+							<option label="30136">210</option>
+							<option label="30137">211</option>
+							<option label="30138">212</option>
+							<option label="30139">213</option>
+							<option label="30140">214</option>
+							<option label="30141">215</option>
+							<option label="30142">216</option>
+							<option label="30143">217</option>
+							<option label="30144">218</option>
+							<option label="30145">219</option>
+							<option label="30146">220</option>
+							<option label="30147">221</option>
+							<option label="30148">222</option>
+							<option label="30149">223</option>
+							<option label="30150">224</option>
+							<option label="30151">225</option>
+							<option label="30152">226</option>
+							<option label="30153">227</option>
+							<option label="30154">228</option>
+							<option label="30155">229</option>
+							<option label="30156">230</option>
+							<option label="30157">231</option>
+							<option label="30158">232</option>
+							<option label="30159">233</option>
+							<option label="30160">234</option>
+							<option label="30161">235</option>
+							<option label="30162">236</option>
+							<option label="30163">237</option>
+							<option label="30164">238</option>
+							<option label="30165">239</option>
+							<option label="30166">240</option>
+							<option label="30167">241</option>
+							<option label="30058">242</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30059" help="30060">
+			<group id="1">
+				<setting id="pce_psgrevision" type="string" label="30008" help="30061">
+					<level>0</level>
+					<default>HuC6280A</default>
+					<constraints>
+						<options>
+							<option label="30168">HuC6280</option>
+							<option label="30169">HuC6280A</option>
+							<option label="30048">auto</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_resamp_quality" type="string" label="30009" help="30062">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30101">0</option>
+							<option label="30093">1</option>
+							<option label="30094">2</option>
+							<option label="30056">3</option>
+							<option label="30096">4</option>
+							<option label="30097">5</option>
+							<option label="30098">6</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30063" help="30064">
+			<group id="1">
+				<setting id="pce_mouse_sensitivity" type="string" label="30011" help="30065">
+					<level>0</level>
+					<default>1.25</default>
+					<constraints>
+						<options>
+							<option>0.125</option>
+							<option>0.250</option>
+							<option>0.375</option>
+							<option>0.500</option>
+							<option>0.625</option>
+							<option>0.750</option>
+							<option>0.875</option>
+							<option>1.000</option>
+							<option>1.125</option>
+							<option>1.25</option>
+							<option>1.50</option>
+							<option>1.75</option>
+							<option>2.00</option>
+							<option>2.25</option>
+							<option>2.50</option>
+							<option>2.75</option>
+							<option>3.00</option>
+							<option>3.25</option>
+							<option>3.50</option>
+							<option>3.75</option>
+							<option>4.00</option>
+							<option>4.25</option>
+							<option>4.50</option>
+							<option>4.75</option>
+							<option>5.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_up_down_allowed" type="string" label="30012" help="30066">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_disable_softreset" type="string" label="30013" help="30067">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_multitap" type="string" label="30014" help="30068">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_default_joypad_type_p1" type="string" label="30015" help="30069">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_default_joypad_type_p2" type="string" label="30016" help="30070">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_default_joypad_type_p3" type="string" label="30017" help="30071">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_default_joypad_type_p4" type="string" label="30018" help="30072">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_default_joypad_type_p5" type="string" label="30019" help="30073">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_Turbo_Toggling" type="string" label="30020" help="30074">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30075">toggle</option>
+							<option label="30076">always</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_turbo_toggle_hotkey" type="string" label="30021" help="30077">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_Turbo_Delay" type="string" label="30022" help="30078">
+					<level>0</level>
+					<default>Fast</default>
+					<constraints>
+						<options>
+							<option>Fast</option>
+							<option>Medium</option>
+							<option>Slow</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p0_turbo_I_enable" type="string" label="30023">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p0_turbo_II_enable" type="string" label="30024">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p1_turbo_I_enable" type="string" label="30025">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p1_turbo_II_enable" type="string" label="30026">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p2_turbo_I_enable" type="string" label="30027">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p2_turbo_II_enable" type="string" label="30028">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p3_turbo_I_enable" type="string" label="30029">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p3_turbo_II_enable" type="string" label="30030">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p4_turbo_I_enable" type="string" label="30031">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_p4_turbo_II_enable" type="string" label="30032">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30079" help="30080">
+			<group id="1">
+				<setting id="pce_nospritelimit" type="string" label="30041" help="30081">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_ocmultiplier" type="string" label="30042" help="30082">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="cd" label="30083" help="30084">
+			<group id="1">
+				<setting id="pce_cdimagecache" type="string" label="30033" help="30085">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_cdbios" type="string" label="30034" help="30086">
+					<level>0</level>
+					<default>System Card 3</default>
+					<constraints>
+						<options>
+							<option>Games Express</option>
+							<option>System Card 1</option>
+							<option>System Card 2</option>
+							<option>System Card 3</option>
+							<option>System Card 2 US</option>
+							<option>System Card 3 US</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_arcadecard" type="string" label="30035" help="30087">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_cdspeed" type="string" label="30036" help="30088">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>4</option>
+							<option>8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_adpcmextraprec" type="string" label="30037" help="30089">
+					<level>0</level>
+					<default>10-bit</default>
+					<constraints>
+						<options>
+							<option>10-bit</option>
+							<option>12-bit</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_adpcmvolume" type="string" label="30038" help="30090">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_cddavolume" type="string" label="30039" help="30090">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pce_cdpsgvolume" type="string" label="30040" help="30090">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<!--
+	    Azahar reads Home from L3. It moves a touchscreen pointer with the
+	    right stick and touches with R3.
+	-->
+	<controller id="game.controller.3ds" type="RETRO_DEVICE_JOYPAD">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="home" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="l" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="r" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="zl" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="zr" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="circlepad" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="cstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+		<feature name="touchscreen" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+	</controller>
+</buttonmap>

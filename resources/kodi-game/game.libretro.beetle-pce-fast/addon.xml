@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-pce-fast"
+		name="NEC - PC Engine / CD (Beetle PCE FAST)"
+		version="1.31.0.70"
+		provider-name="Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.pce" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>NEC - PC Engine / CD</platforms>
+		<extensions>pce|cue|ccd|chd|toc|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mednafen_pce_fast_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-pce-fast</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="bs_BA">NEC - PC Engine / CD (Beetle PCE FAST)</summary>
+		<summary lang="cs_CZ">NEC - PC Engine / CD (Beetle PCE FAST)</summary>
+		<summary lang="da_DK">NEC - PC Engine / CD (Beetle PCE FAST)</summary>
+		<summary lang="en_GB">NEC - PC Engine / CD (Beetle PCE FAST)</summary>
+		<summary lang="es_ES">NEC - PC Engine / CD (Beetle PCE RÁPIDO)</summary>
+		<summary lang="ga">NEC - PC Engine / CD (Beetle PCE FAST)</summary>
+		<summary lang="it_IT">NEC - PC Engine / CD (Beetle PCE FAST)</summary>
+		<summary lang="ru_RU">NEC — PC Engine / CD (Beetle PCE FAST)</summary>
+		<summary lang="sv_SE">NEC - PC Engine / CD (Beetle PCE FAST)</summary>
+		<summary lang="zh_CN">NEC - PC 引擎 / CD (Beetle PCE FAST)</summary>
+		<description lang="bs_BA">Beetle PC Engine Fast je fork Mednafenovog PC Engine Fast drajvera.[CR][CR]U poređenju sa Beetle PC Engine-om, brza verzija žrtvuje obično nepotrebnu tačnost u korist brzine.</description>
+		<description lang="cs_CZ">Beetle PC Engine Fast je odvozen od jádra PC Engine Fast z Mednafenu.[CR][CR]Oproti Beetle PC Engine rychlá verze obětuje obvykle nepotřebnou přesnost ve prospěch vyšší rychlosti.</description>
+		<description lang="da_DK">Beetle PC Engine Fast er en fork af Mednafens PC Engine Fast-driver.[CR][CR]Sammenlignet med Beetle PC Engine bytter den hurtige version typisk unødvendig nøjagtighed væk til fordel for hastighed.</description>
+		<description lang="de_DE">Beetle PC Engine Fast ist ein Fork des Treibers PC Engine Fast von Mednafen.[CR][CR]Im Vergleich zu Beetle PC Engine verzichtet die schnelle Version auf typischerweise unnötige Genauigkeit zu Gunsten von Geschwindigkeit.</description>
+		<description lang="en_GB">Beetle PC Engine Fast is a fork of Mednafen&apos;s PC Engine Fast driver.[CR][CR]Compared to Beetle PC Engine, the fast version trades away typically unnecessary accuracy in favor of speed.</description>
+		<description lang="es_ES">Beetle PC Engine Fast es una bifurcación del controlador PC Engine Fast de Mednafen[CR][CR]En comparación con Beetle PC Engine, la versión rápida sustituye la precisión innecesaria por la velocidad.</description>
+		<description lang="ga">Is forc de thiománaí Mednafen PC Engine Fast é Beetle PC Engine Fast.[CR][CR]I gcomparáid le Beetle PC Engine, cuireann an leagan tapa cruinneas neamhriachtanach ar leataobh ar mhaithe le luas.</description>
+		<description lang="it_IT">Beetle PC Engine Fast è un fork del driver PC Engine Fast di Mednafen.[CR][CR]Rispetto a Beetle PC Engine, la versione veloce rinuncia alla precisione solitamente non necessaria in favore della velocità.</description>
+		<description lang="ru_RU">Beetle PC Engine Fast — это форк драйвера PC Engine Fast от Mednafen.[CR][CR]По сравнению с Beetle PC Engine, быстрая версия жертвует обычно ненужной точностью в пользу скорости.</description>
+		<description lang="sv_SE">Beetle PC Engine Fast är en förgrening av Mednafens PC Engine Fast-drivrutin.[CR][CR]Jämfört med Beetle PC Engine byter den snabba versionen bort typiskt onödig noggrannhet till förmån för hastighet.</description>
+		<description lang="zh_CN">Beetle PC Engine Fast 是 Mednafen 的 PC Engine Fast 驱动程序的一个分支。[CR][CR]与 Beetle PC Engine 相比，Fast 版本关注速度而非精确性。</description>
+	</extension>
+</addon>

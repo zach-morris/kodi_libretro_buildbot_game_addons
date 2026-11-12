@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.melonds">
+		<category id="system" label="30026" help="30027">
+			<group id="1">
+				<setting id="melonds_console_mode" type="string" label="30001">
+					<level>0</level>
+					<default>DS</default>
+					<constraints>
+						<options>
+							<option>DS</option>
+							<option>DSi</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_boot_directly" type="string" label="30002" help="30028">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_use_fw_settings" type="string" label="30003" help="30029">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_language" type="string" label="30004" help="30030">
+					<level>0</level>
+					<default>English</default>
+					<constraints>
+						<options>
+							<option>Japanese</option>
+							<option>English</option>
+							<option>French</option>
+							<option>German</option>
+							<option>Italian</option>
+							<option>Spanish</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_randomize_mac_address" type="string" label="30005">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_dsi_sdcard" type="string" label="30006">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30031" help="30032">
+			<group id="1">
+				<setting id="melonds_threaded_renderer" type="string" label="30007">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_opengl_renderer" type="string" label="30008">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_opengl_resolution" type="string" label="30009">
+					<level>0</level>
+					<default>1x native (256x192)</default>
+					<constraints>
+						<options>
+							<option>1x native (256x192)</option>
+							<option>2x native (512x384)</option>
+							<option>3x native (768x576)</option>
+							<option>4x native (1024x768)</option>
+							<option>5x native (1280x960)</option>
+							<option>6x native (1536x1152)</option>
+							<option>7x native (1792x1344)</option>
+							<option>8x native (2048x1536)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_opengl_better_polygons" type="string" label="30010">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_opengl_filtering" type="string" label="30011">
+					<level>0</level>
+					<default>nearest</default>
+					<constraints>
+						<options>
+							<option>nearest</option>
+							<option>linear</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30033" help="30034">
+			<group id="1">
+				<setting id="melonds_mic_input" type="string" label="30012" help="30035">
+					<level>0</level>
+					<default>Blow Noise</default>
+					<constraints>
+						<options>
+							<option>Blow Noise</option>
+							<option>White Noise</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_audio_bitrate" type="string" label="30013">
+					<level>0</level>
+					<default>Automatic</default>
+					<constraints>
+						<options>
+							<option>Automatic</option>
+							<option>10-bit</option>
+							<option>16-bit</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_audio_interpolation" type="string" label="30014">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30045">Linear</option>
+							<option label="30046">Cosine</option>
+							<option label="30047">Cubic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="screen" label="30036" help="30037">
+			<group id="1">
+				<setting id="melonds_touch_mode" type="string" label="30015" help="30038">
+					<level>0</level>
+					<default>Mouse</default>
+					<constraints>
+						<options>
+							<option label="30048">Mouse</option>
+							<option label="30049">Touch</option>
+							<option label="30050">Joystick</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_swapscreen_mode" type="string" label="30016" help="30039">
+					<level>0</level>
+					<default>Toggle</default>
+					<constraints>
+						<options>
+							<option>Toggle</option>
+							<option>Hold</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_screen_layout" type="string" label="30017" help="30040">
+					<level>0</level>
+					<default>Top/Bottom</default>
+					<constraints>
+						<options>
+							<option>Top/Bottom</option>
+							<option>Bottom/Top</option>
+							<option>Left/Right</option>
+							<option>Right/Left</option>
+							<option>Top Only</option>
+							<option>Bottom Only</option>
+							<option>Hybrid Top</option>
+							<option>Hybrid Bottom</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_screen_gap" type="string" label="30018" help="30041">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+							<option>121</option>
+							<option>122</option>
+							<option>123</option>
+							<option>124</option>
+							<option>125</option>
+							<option>126</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_hybrid_small_screen" type="string" label="30019" help="30042">
+					<level>0</level>
+					<default>Bottom</default>
+					<constraints>
+						<options>
+							<option>Bottom</option>
+							<option>Top</option>
+							<option>Duplicate</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_hybrid_ratio" type="string" label="30020">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option>2</option>
+							<option>3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="cpu" label="30043" help="30044">
+			<group id="1">
+				<setting id="melonds_jit_enable" type="string" label="30021">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_jit_block_size" type="string" label="30022">
+					<level>0</level>
+					<default>32</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_jit_branch_optimisations" type="string" label="30023">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_jit_literal_optimisations" type="string" label="30024">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="melonds_jit_fast_memory" type="string" label="30025">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

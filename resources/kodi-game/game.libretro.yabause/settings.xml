@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.yabause">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="yabause_frameskip" type="string" label="30001" help="30007">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="yabause_force_hle_bios" type="string" label="30002" help="30008">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="yabause_addon_cartridge" type="string" label="30003" help="30009">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30010">none</option>
+							<option label="30011">1M_ram</option>
+							<option label="30012">4M_ram</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="yabause_multitap_port1" type="string" label="30004" help="30013">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="yabause_multitap_port2" type="string" label="30005" help="30014">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="yabause_numthreads" type="string" label="30006" help="30015">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>4</option>
+							<option>8</option>
+							<option>16</option>
+							<option>32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

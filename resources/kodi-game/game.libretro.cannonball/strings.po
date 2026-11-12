@@ -1,0 +1,430 @@
+# game.libretro.cannonball language file
+# Addon Name: game.libretro.cannonball
+# Addon id: game.libretro.cannonball
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.cannonball\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 03:30i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-cannonball/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Cannonball"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Cannonball is an enhanced version of the seminal arcade racer OutRun designed by Yu Suzuki in 1986.[CR][CR]Note: OutRun Revision B files are needed. See the file [I]roms needed.txt[/I]."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Menu > Show at Start"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Menu > Road Scroll Speed"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Video > Frame Rate"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Video > Widescreen Mode"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Video > High-Resolution Mode"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Audio > Enable"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Audio > Advertise Sound (Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Audio > Preview Music (Restart)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Audio > Fix Samples (Restart)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Input > Gear Mode"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Input > Analog Controls"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Input > Digital Steer Speed (Restart)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Input > Digital Pedal Speed (Restart)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Input > Haptic Feedback Strength"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Engine > Use Japanese Tracks (Restart)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Engine > Freeplay Mode"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Engine > Force AI to Play"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Engine > Time Limit (Restart)"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Engine > Traffic Difficulty (Restart)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Engine > Extra Level Objects (Restart)"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Engine > Use Prototype Stage 1 (Restart)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Engine > New Attract Mode (Restart)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Engine > Randomize Traffic Patterns (Restart)"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Engine > Fix Game Bugs (Restart)"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Engine > Fix Timing Bugs (Restart)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Engine > Time Trial Laps (Restart)"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Engine > Time Trial Traffic Level (Restart)"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Engine > Continuous Mode Traffic Level (Restart)"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Engine > Display Debug Info (Restart)"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Audio > Custom WAV Volume"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Engine > Grippy Tyres"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Engine > Offroad Tyres"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Engine > Strong Bumper"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Engine > Faster Car"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Engine > Car Color"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Game Menu"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Configure the in-game menu."
+msgstr ""
+
+msgctxt "#30038"
+msgid "Display main menu when launching the core. When disabled, core will boot directly into attract mode."
+msgstr ""
+
+msgctxt "#30039"
+msgid "Set speed of the scrolling road animation shown behind the main menu."
+msgstr ""
+
+msgctxt "#30040"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Configure frame rate, widescreen and resolution settings."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Set internal frame rate. In 'Original' mode, game logic, road scrolling and sprite zooming update at 30fps, but the horizon scrolls at 60fps."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Extend the play area to a widescreen aspect. Base internal resolution is set to 398x224, increasing the screen width by 25%."
+msgstr ""
+
+msgctxt "#30044"
+msgid "Double the game's internal resolution from the original 320x224 to 640x448 (768x448 in widescreen mode). Increases the fidelity of rendered sprites and the road."
+msgstr ""
+
+msgctxt "#30045"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Configure sound and music settings."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Allow playback of music and sound effects."
+msgstr ""
+
+msgctxt "#30048"
+msgid "Set playback volume of custom WAV music tracks. Does not affect original arcade music or external BIN music. 50% matches the historical SDL attenuation; values above 100% may clip when mixed with sound effects."
+msgstr ""
+
+msgctxt "#30049"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30050"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30051"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30052"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30053"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30054"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30055"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30056"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30057"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30058"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30059"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30060"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30061"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30062"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30063"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30064"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30065"
+msgid "160%"
+msgstr ""
+
+msgctxt "#30066"
+msgid "170%"
+msgstr ""
+
+msgctxt "#30067"
+msgid "180%"
+msgstr ""
+
+msgctxt "#30068"
+msgid "190%"
+msgstr ""
+
+msgctxt "#30069"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Enable audio while core is in attract mode."
+msgstr ""
+
+msgctxt "#30071"
+msgid "Play music tracks in the pre-race song selection screen. In the original game, playback of the selected track would not start until the race began."
+msgstr ""
+
+msgctxt "#30072"
+msgid "Replace distorted audio samples present in the original game (caused by corrupt ROM data) with corrected versions. Requires the patched audio ROM 'opr-10188.71f' in the game content directory."
+msgstr ""
+
+msgctxt "#30073"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Configure gear shift behaviour, analog input and haptic feedback settings."
+msgstr ""
+
+msgctxt "#30075"
+msgid "Set gear shift behaviour. 'Manual': press Gear button to toggle low/high. 'Manual Cabinet': hold Gear button to shift low (high by default). 'Manual 2 Buttons': separate Gear buttons for low/high. 'Automatic': no gear shift required."
+msgstr ""
+
+msgctxt "#30076"
+msgid "Enable analog steering, acceleration and breaking via the left stick and triggers of an analog gamepad (with D-Pad, 'Accelerate' and 'Brake' buttons producing a purely digital response). When disabled, analog input is simulated based on the duration of digital button presses."
+msgstr ""
+
+msgctxt "#30077"
+msgid "Set rate of change of simulated analog input when using a digital D-Pad for steering. Ignored when 'Input > Analog Controls' is enabled."
+msgstr ""
+
+msgctxt "#30078"
+msgid "Set rate of change of simulated analog input when using digital buttons for acceleration/braking. Ignored when 'Input > Analog Controls' is enabled."
+msgstr ""
+
+msgctxt "#30079"
+msgid "Set intensity of gamepad rumble effects."
+msgstr ""
+
+msgctxt "#30080"
+msgid "Game Engine"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Configure settings that change or enhance the base functionality of the original game engine."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Select track layouts from the Japanese version of the game instead of those from the final Western release. Increases game difficulty by introducing sharper unforgiving hills and more aggressive turns."
+msgstr ""
+
+msgctxt "#30083"
+msgid "Enable the 'freeplay' mode of the original arcade machine, where no coins are required to play."
+msgstr ""
+
+msgctxt "#30084"
+msgid "Enable computer control of the car during all races."
+msgstr ""
+
+msgctxt "#30085"
+msgid "Increase tyre grip to reduce lateral sliding while cornering."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Prevent the usual speed reduction when driving away from the road surface."
+msgstr ""
+
+msgctxt "#30087"
+msgid "Reduce the effect of collisions with traffic vehicles."
+msgstr ""
+
+msgctxt "#30088"
+msgid "Increase engine torque and raise the maximum vehicle speed."
+msgstr ""
+
+msgctxt "#30089"
+msgid "Select the Ferrari body colour."
+msgstr ""
+
+msgctxt "#30090"
+msgid "Set initial time limit when starting Stage 1. Associated difficulty rating also affects how much time is added by the 'Extend Time' feature at the end of each stage."
+msgstr ""
+
+msgctxt "#30091"
+msgid "Set density of on-screen traffic. Higher difficulty levels cause more traffic objects to spawn. Varies on a per-stage basis."
+msgstr ""
+
+msgctxt "#30092"
+msgid "Remove the object slot limit present in the original game. Prevents the disappearance of random elements in 'busy' levels, e.g. archway segments in the Gateway stage."
+msgstr ""
+
+msgctxt "#30093"
+msgid "Replace Stage 1 (Coconut Beach) with an early, unused prototype contained in the original game data. Considered more difficult than the final Japanese and western versions of the track, and contains some scenery errors."
+msgstr ""
+
+msgctxt "#30094"
+msgid "Replace the original attract mode with an enhanced version featuring improved AI and cycling camera views."
+msgstr ""
+
+msgctxt "#30095"
+msgid "Spawn traffic objects randomly. When disabled, the fixed patterns of the original game are used."
+msgstr ""
+
+msgctxt "#30096"
+msgid "Correct a number of minor graphical and base engine errors present in the original game. Includes fixes for shadow/sprite rendering glitches, wrong millisecond values shown when passing checkpoints and improper centering of the steering wheel."
+msgstr ""
+
+msgctxt "#30097"
+msgid "Correct a number of timing-related errors present in the original game. Includes fixes for the stage time counter decreasing ~7% slower than actual clock time, and the game over state occurring one second after the timer reaches zero."
+msgstr ""
+
+msgctxt "#30098"
+msgid "Set number of laps to race on any track in 'Time Trial' mode."
+msgstr ""
+
+msgctxt "#30099"
+msgid "Set maximum number of traffic objects that can appear on-screen simultaneously in 'Time Trial' mode."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Set maximum number of traffic objects that can appear on-screen simultaneously in 'Continuous' mode."
+msgstr ""
+
+msgctxt "#30101"
+msgid "Show debug information in the on-screen HUD: level position, height pattern, sprite pattern."
+msgstr ""

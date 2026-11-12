@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="128">
+		<setting label="30001" type="select" id="4do_bios" values="disabled" default="disabled"/>
+		<setting label="30002" type="select" id="4do_font" values="disabled" default="disabled"/>
+		<setting label="30003" type="select" id="4do_cpu_overclock" values="1.0x (12.50Mhz)|1.1x (13.75Mhz)|1.2x (15.00Mhz)|1.5x (18.75Mhz)|1.6x (20.00Mhz)|1.8x (22.50Mhz)|2.0x (25.00Mhz)" default="1.0x (12.50Mhz)"/>
+		<setting label="30010" type="select" id="4do_dsp_threaded" values="disabled|enabled" default="disabled"/>
+		<setting label="30023" type="select" id="4do_high_resolution" values="disabled|enabled" default="disabled"/>
+		<setting label="30011" type="select" id="4do_nvram_storage" values="per game|shared" default="per game"/>
+		<setting label="30013" type="select" id="4do_active_devices" values="1|0|2|3|4|5|6|7|8" default="1"/>
+		<setting label="30014" type="select" id="4do_hack_timing_1" values="disabled|enabled" default="disabled"/>
+		<setting label="30015" type="select" id="4do_hack_timing_3" values="disabled|enabled" default="disabled"/>
+		<setting label="30016" type="select" id="4do_hack_timing_5" values="disabled|enabled" default="disabled"/>
+		<setting label="30017" type="select" id="4do_hack_timing_6" values="disabled|enabled" default="disabled"/>
+		<setting label="30018" type="select" id="4do_hack_graphics_step_y" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="4do_madam_matrix_engine" values="hardware|software" default="hardware"/>
+		<setting label="30009" type="select" id="4do_swi_hle" values="disabled|enabled" default="disabled"/>
+		<setting label="30024" type="select" id="4do_kprint" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

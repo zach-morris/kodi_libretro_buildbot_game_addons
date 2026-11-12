@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.gearboy"
+		name="Nintendo - Game Boy / Color / Super Game Boy (Gearboy)"
+		version="3.8.20.46"
+		provider-name="Nacho Sanchez">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Game Boy / Color / Super Game Boy</platforms>
+		<extensions>gb|dmg|gbc|cgb|sgb</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>gearboy_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.gearboy</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Game Boy / Color (Gearboy)</summary>
+		<summary lang="da_DK">Nintendo - Game Boy / Farve (Gearboy)</summary>
+		<summary lang="en_GB">Nintendo - Game Boy / Color / Super Game Boy (Gearboy)</summary>
+		<summary lang="es_ES">Nintendo - Game Boy / Color (Gearboy)</summary>
+		<summary lang="ga">Nintendo - Game Boy / Color (Gearboy)</summary>
+		<summary lang="it_IT">Nintendo - Game Boy / Color (Gearboy)</summary>
+		<summary lang="ru_RU">Nintendo — Game Boy / Color (Gearboy)</summary>
+		<summary lang="sv_SE">Nintendo - Game Boy / Color (Gearboy)</summary>
+		<summary lang="zh_CN">任天堂 - Game Boy / Color (Gearboy)</summary>
+		<description lang="cs_CZ">Gearboy je emulátor Nintendo Game Boy / Game Boy Color pro iOS, Raspberry Pi, Mac, Windows, Linux a RetroArch.</description>
+		<description lang="da_DK">Gearboy er en Nintendo Game Boy/Game Boy Color emulator, der kører på iOS, Raspberry Pi, Mac, Windows, Linux og RetroArch.</description>
+		<description lang="de_DE">Gearboy ist ein Emulator für Nintendo Game Boy / Game Boy Color, der auf iOS, Raspberry Pi, Mac, Windows, Linux und RetroArch läuft.</description>
+		<description lang="en_GB">Gearboy is a Nintendo Game Boy / Game Boy Color emulator that runs on iOS, Raspberry Pi, Mac, Windows, Linux and RetroArch.</description>
+		<description lang="es_ES">Gearboy es un emulador de Nintendo Game Boy / Game Boy Color que funciona en iOS, Raspberry Pi, Mac, Windows, Linux y RetroArch.</description>
+		<description lang="ga">Is aithriseoir Nintendo Game Boy / Game Boy Color é Gearboy a ritheann ar iOS, Raspberry Pi, Mac, Windows, Linux agus RetroArch.</description>
+		<description lang="it_IT">Gearboy è un emulatore di Nintendo Game Boy / Game Boy Color che funziona su iOS, Raspberry Pi, Mac, Windows, Linux e RetroArch.</description>
+		<description lang="ru_RU">Gearboy — эмулятор Nintendo Game Boy/Game Boy Color, работающий на iOS, Raspberry Pi, Mac, Windows, Linux и RetroArch.</description>
+		<description lang="sl_SI">Gearboy je Nintendo Game Boy / Game Boy Color emulator, ki deluje v sistemih iOS, Raspberry Pi, Mac, Windows, Linux in RetroArch.</description>
+		<description lang="sv_SE">Gearboy är en Nintendo Game Boy / Game Boy Color-emulator som körs på iOS, Raspberry Pi, Mac, Windows, Linux och RetroArch.</description>
+		<description lang="zh_CN">Gearboy 是一款任天堂 Game Boy/Game Boy Color模拟器，在iOS、Raspberry Pi、Mac、Windows、Linux 和 RetroArch 上运行。</description>
+	</extension>
+</addon>

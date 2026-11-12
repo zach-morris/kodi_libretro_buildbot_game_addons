@@ -1,0 +1,30 @@
+# game.libretro.galaxy language file
+# Addon Name: game.libretro.galaxy
+# Addon id: game.libretro.galaxy
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.galaxy\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-01-19 02:14i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-galaxy/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Elektronika Inženjering - Galaksija (Galaksija)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Galaxy emulates the [I]Galaksija[/I] built-it-yourself computer designed by Voja Antonićin in Yogoslavia in 1983."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Image credit: Tomaž Šolc"
+msgstr ""

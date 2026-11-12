@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.pokemini">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="pokemini_video_scale" type="string" label="30001" help="30014">
+					<level>0</level>
+					<default>4x</default>
+					<constraints>
+						<options>
+							<option>1x</option>
+							<option>2x</option>
+							<option>3x</option>
+							<option>4x</option>
+							<option>5x</option>
+							<option>6x</option>
+							<option>7x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_60hz_mode" type="string" label="30002" help="30015">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_lcdfilter" type="string" label="30003" help="30016">
+					<level>0</level>
+					<default>dotmatrix</default>
+					<constraints>
+						<options>
+							<option label="30017">dotmatrix</option>
+							<option label="30018">scanline</option>
+							<option label="30019">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_lcdmode" type="string" label="30004" help="30020">
+					<level>0</level>
+					<default>analog</default>
+					<constraints>
+						<options>
+							<option label="30021">analog</option>
+							<option label="30022">3shades</option>
+							<option label="30023">2shades</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_lcdcontrast" type="string" label="30005" help="30024">
+					<level>0</level>
+					<default>64</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>16</option>
+							<option>32</option>
+							<option>48</option>
+							<option>64</option>
+							<option>80</option>
+							<option>96</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_lcdbright" type="string" label="30006" help="30025">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-80</option>
+							<option>-60</option>
+							<option>-40</option>
+							<option>-20</option>
+							<option>0</option>
+							<option>20</option>
+							<option>40</option>
+							<option>60</option>
+							<option>80</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_palette" type="string" label="30007" help="30026">
+					<level>0</level>
+					<default>Default</default>
+					<constraints>
+						<options>
+							<option label="30027">Default</option>
+							<option label="30028">Old</option>
+							<option label="30029">Monochrome</option>
+							<option label="30030">Green</option>
+							<option label="30031">Green Vector</option>
+							<option label="30032">Red</option>
+							<option label="30033">Red Vector</option>
+							<option label="30034">Blue LCD</option>
+							<option label="30035">LEDBacklight</option>
+							<option label="30036">Girl Power</option>
+							<option label="30037">Blue</option>
+							<option label="30038">Blue Vector</option>
+							<option label="30039">Sepia</option>
+							<option label="30040">Monochrome Vector</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_piezofilter" type="string" label="30008" help="30041">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_lowpass_filter" type="string" label="30009" help="30042">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_lowpass_range" type="string" label="30010" help="30043">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<options>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_screen_shake_lv" type="string" label="30011" help="30044">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_rumble_lv" type="string" label="30012" help="30045">
+					<level>0</level>
+					<default>10</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pokemini_turbo_period" type="string" label="30013" help="30046">
+					<level>0</level>
+					<default>18</default>
+					<constraints>
+						<options>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

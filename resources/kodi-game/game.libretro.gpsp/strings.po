@@ -1,0 +1,210 @@
+# game.libretro.gpsp language file
+# Addon Name: game.libretro.gpsp
+# Addon id: game.libretro.gpsp
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.gpsp\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 11:29i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-gpsp/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy Advance (gpSP)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "gpSP is a Game Boy Advance emulator based on notaz's fork of gpSP with additional codebase improvements."
+msgstr ""
+
+msgctxt "#30001"
+msgid "BIOS"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Boot mode"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Frameskip Interval"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Color Correction"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Interframe Blending"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Dynamic Recompiler"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Turbo Button Period"
+msgstr ""
+
+msgctxt "#30011"
+msgid "No Sprite Limit"
+msgstr ""
+
+msgctxt "#30012"
+msgid "RTC support"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Rumble support"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Link Cable Connectivity"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Sound Output Rate (Hz)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Choose the BIOS image to use. The official BIOS must be provided by the user. Using a non-official (or builtin) BIOS might result in incompatibility problems with some games. Best results are to be achieved with the official Nintendo BIOS."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Auto select"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Builtin BIOS"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Original BIOS"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Choose whether to boot the BIOS before the game or not. There's not much difference in either modes."
+msgstr ""
+
+msgctxt "#30021"
+msgid "Boot to game"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Boot to BIOS"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Dynamically recompile CPU instructions to native instructions. Greatly improves performance, but may reduce accuracy."
+msgstr ""
+
+msgctxt "#30024"
+msgid "Removes the original sprite-per-scanline hardware limit. Some games might rely on the hardware limit for proper rendering (ie. hiding some sprites)."
+msgstr ""
+
+msgctxt "#30025"
+msgid "Sets the RTC support for the emulated cartridge. Autodetect uses a ROM database that works with most commercial titles. You might need to force RTC when using homebrew or ROM hacks."
+msgstr ""
+
+msgctxt "#30026"
+msgid "RTC Time Source"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Selects the clock used by RTC-enabled cartridges. Deterministic advances with emulated frames and is preserved in save states. System Clock follows the host clock, including time elapsed while content is not running."
+msgstr ""
+
+msgctxt "#30028"
+msgid "Deterministic"
+msgstr ""
+
+msgctxt "#30029"
+msgid "System Clock"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Configures the serial (Link Cable) connection. Automatic will pick up a reasonable support for most known games."
+msgstr ""
+
+msgctxt "#30031"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30033"
+msgid "GBA Wireless Adapter"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Link Cable - Pokemon Gen3 mode"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Link Cable - Advance Wars 1 mode"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Link Cable - Advance Wars 2 mode"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Sets the Rumble support for the emulated cartridge. Autodetect uses a ROM database that works with most commercial titles. You might want to force Rumble when using homebrew or ROM hacks that support it. You can also force-disable it if you don't like it."
+msgstr ""
+
+msgctxt "#30038"
+msgid "Internal audio rendering rate. Both values keep audio timing exact. 65536 renders the full mixer bandwidth; 32768 matches the bandwidth of real hardware's default PWM output and halves audio mixing work."
+msgstr ""
+
+msgctxt "#30039"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Auto (Threshold)' utilises the 'Frameskip Threshold (%)' setting. 'Fixed Interval' utilises the 'Frameskip Interval' setting."
+msgstr ""
+
+msgctxt "#30040"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Auto (Threshold)"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Fixed Interval"
+msgstr ""
+
+msgctxt "#30043"
+msgid "When 'Frameskip' is set to 'Auto (Threshold)', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""
+
+msgctxt "#30044"
+msgid "When 'Frameskip' is set to 'Fixed Interval', the value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc."
+msgstr ""
+
+msgctxt "#30045"
+msgid "Adjusts output colors to match the display of real GBA hardware."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Simulates LCD ghosting effects by performing a 50:50 mix of the current and previous frames. Required for correct operation when playing games that exploit LCD ghosting for transparency effects (F-Zero, the Boktai series, etc.)."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Specify the repeat interval (in frames) when holding down the Turbo A/B buttons."
+msgstr ""

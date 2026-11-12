@@ -1,0 +1,2590 @@
+# game.libretro.beetle-psx language file
+# Addon Name: game.libretro.beetle-psx
+# Addon id: game.libretro.beetle-psx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-psx\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-08-24 22:21i\n"
+"PO-Revision-Date: 2024-12-27 21:46+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-psx-hw/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sony - PlayStation (Beetle PSX HW)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Beetle PSX is the PlayStation module of Beetle, a port of Madnafen."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Internal GPU Resolution"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Internal Color Depth"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Dithering Pattern"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Texture Filtering"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Display Internal FPS"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Display Full VRAM (Debug)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Analog Self-Calibration"
+msgstr ""
+
+msgctxt "#30011"
+msgid "DualShock Analog Mode Combo"
+msgstr ""
+
+msgctxt "#30012"
+msgid "DualShock Analog Mode Combo Hold Delay"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Gun Input Mode"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Gun Cursor"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30020"
+msgid "neGcon Twist Response"
+msgstr ""
+
+msgctxt "#30021"
+msgid "neGcon Twist Deadzone"
+msgstr ""
+
+msgctxt "#30027"
+msgid "PGXP Operation Mode"
+msgstr ""
+
+msgctxt "#30028"
+msgid "PGXP 2D Geometry Tolerance"
+msgstr ""
+
+msgctxt "#30029"
+msgid "PGXP Primitive Culling"
+msgstr ""
+
+msgctxt "#30030"
+msgid "PGXP Vertex Cache"
+msgstr ""
+
+msgctxt "#30031"
+msgid "PGXP Perspective Correct Texturing"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Line-to-Quad Hack"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Widescreen Mode Hack"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Widescreen Mode Hack Aspect Ratio"
+msgstr ""
+
+msgctxt "#30035"
+msgid "CPU Frequency Scaling (Overclock)"
+msgstr ""
+
+msgctxt "#30036"
+msgid "GTE Overclock"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Skip BIOS"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Software Framebuffer"
+msgstr ""
+
+msgctxt "#30041"
+msgid "CPU Dynarec"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Dynarec Code Invalidation"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Dynarec DMA/GPU/MDEC/Timer Event Cycles"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Dynarec SPU Samples"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Core-Reported FPS Timing"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Crop Overscan"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Additional Cropping"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Offset Cropped Image"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Horizontal Image Offset (GPU Cycles)"
+msgstr ""
+
+msgctxt "#30051"
+msgid "GPU Rasterizer Overclock"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Core Aspect Ratio"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Initial Scan Line - NTSC"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Last Scan Line - NTSC"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Initial Scan Line - PAL"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Last Scan Line - PAL"
+msgstr ""
+
+msgctxt "#30058"
+msgid "CD Loading Speed"
+msgstr ""
+
+msgctxt "#30059"
+msgid "DualShock Analog Mode Toggle"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Display OSD Messages"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Deinterlace Method"
+msgstr ""
+
+msgctxt "#30062"
+msgid "CD Access Method"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Override BIOS"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Renderer"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Multitap on Port 1"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Multitap on Port 2"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Gun Crosshair Color: Port 1"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Gun Crosshair Color: Port 2"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Memory Card Method"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Memory Card Slot 2"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Shared Memory Cards"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Memory Card Slot 1 Index"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Memory Card Slot 2 Index"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Frame Duping"
+msgstr ""
+
+msgctxt "#30075"
+msgid "PAL Video Timing Override"
+msgstr ""
+
+msgctxt "#30076"
+msgid "System Region"
+msgstr ""
+
+msgctxt "#30077"
+msgid "System"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Change system and overclocking options."
+msgstr ""
+
+msgctxt "#30079"
+msgid "Overclock (or underclock) the emulated PSX CPU. Overclocking can eliminate slowdown and improve frame rates in certain games at the expense of increased performance requirements. Note that some games have an internal frame rate limiter and may not benefit from overclocking. May cause certain effects to animate faster than intended in some titles when overclocked."
+msgstr ""
+
+msgctxt "#30080"
+msgid "100% (Native)"
+msgstr ""
+
+msgctxt "#30081"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30082"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30083"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30084"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30085"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30086"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30087"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30088"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30089"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30090"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30091"
+msgid "160%"
+msgstr ""
+
+msgctxt "#30092"
+msgid "170%"
+msgstr ""
+
+msgctxt "#30093"
+msgid "180%"
+msgstr ""
+
+msgctxt "#30094"
+msgid "190%"
+msgstr ""
+
+msgctxt "#30095"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30096"
+msgid "210%"
+msgstr ""
+
+msgctxt "#30097"
+msgid "220%"
+msgstr ""
+
+msgctxt "#30098"
+msgid "230%"
+msgstr ""
+
+msgctxt "#30099"
+msgid "240%"
+msgstr ""
+
+msgctxt "#30100"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30101"
+msgid "260%"
+msgstr ""
+
+msgctxt "#30102"
+msgid "270%"
+msgstr ""
+
+msgctxt "#30103"
+msgid "280%"
+msgstr ""
+
+msgctxt "#30104"
+msgid "290%"
+msgstr ""
+
+msgctxt "#30105"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30106"
+msgid "310%"
+msgstr ""
+
+msgctxt "#30107"
+msgid "320%"
+msgstr ""
+
+msgctxt "#30108"
+msgid "330%"
+msgstr ""
+
+msgctxt "#30109"
+msgid "340%"
+msgstr ""
+
+msgctxt "#30110"
+msgid "350%"
+msgstr ""
+
+msgctxt "#30111"
+msgid "360%"
+msgstr ""
+
+msgctxt "#30112"
+msgid "370%"
+msgstr ""
+
+msgctxt "#30113"
+msgid "380%"
+msgstr ""
+
+msgctxt "#30114"
+msgid "390%"
+msgstr ""
+
+msgctxt "#30115"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30116"
+msgid "410%"
+msgstr ""
+
+msgctxt "#30117"
+msgid "420%"
+msgstr ""
+
+msgctxt "#30118"
+msgid "430%"
+msgstr ""
+
+msgctxt "#30119"
+msgid "440%"
+msgstr ""
+
+msgctxt "#30120"
+msgid "450%"
+msgstr ""
+
+msgctxt "#30121"
+msgid "460%"
+msgstr ""
+
+msgctxt "#30122"
+msgid "470%"
+msgstr ""
+
+msgctxt "#30123"
+msgid "480%"
+msgstr ""
+
+msgctxt "#30124"
+msgid "490%"
+msgstr ""
+
+msgctxt "#30125"
+msgid "500%"
+msgstr ""
+
+msgctxt "#30126"
+msgid "510%"
+msgstr ""
+
+msgctxt "#30127"
+msgid "520%"
+msgstr ""
+
+msgctxt "#30128"
+msgid "530%"
+msgstr ""
+
+msgctxt "#30129"
+msgid "540%"
+msgstr ""
+
+msgctxt "#30130"
+msgid "550%"
+msgstr ""
+
+msgctxt "#30131"
+msgid "560%"
+msgstr ""
+
+msgctxt "#30132"
+msgid "570%"
+msgstr ""
+
+msgctxt "#30133"
+msgid "580%"
+msgstr ""
+
+msgctxt "#30134"
+msgid "590%"
+msgstr ""
+
+msgctxt "#30135"
+msgid "600%"
+msgstr ""
+
+msgctxt "#30136"
+msgid "610%"
+msgstr ""
+
+msgctxt "#30137"
+msgid "620%"
+msgstr ""
+
+msgctxt "#30138"
+msgid "630%"
+msgstr ""
+
+msgctxt "#30139"
+msgid "640%"
+msgstr ""
+
+msgctxt "#30140"
+msgid "650%"
+msgstr ""
+
+msgctxt "#30141"
+msgid "660%"
+msgstr ""
+
+msgctxt "#30142"
+msgid "670%"
+msgstr ""
+
+msgctxt "#30143"
+msgid "680%"
+msgstr ""
+
+msgctxt "#30144"
+msgid "690%"
+msgstr ""
+
+msgctxt "#30145"
+msgid "700%"
+msgstr ""
+
+msgctxt "#30146"
+msgid "710%"
+msgstr ""
+
+msgctxt "#30147"
+msgid "720%"
+msgstr ""
+
+msgctxt "#30148"
+msgid "730%"
+msgstr ""
+
+msgctxt "#30149"
+msgid "740%"
+msgstr ""
+
+msgctxt "#30150"
+msgid "750%"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Enable overclocking of the 2D rasterizer contained within the emulated PSX's GPU. Does not improve 3D rendering, and in general has little effect."
+msgstr ""
+
+msgctxt "#30152"
+msgid "1x (Native)"
+msgstr ""
+
+msgctxt "#30153"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30154"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30155"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30156"
+msgid "16x"
+msgstr ""
+
+msgctxt "#30157"
+msgid "32x"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Lower all emulated GTE (CPU coprocessor for 3D graphics) operations to a constant one-cycle latency. For games that make heavy use of the GTE, this can greatly improve frame rate and frame time stability."
+msgstr ""
+
+msgctxt "#30159"
+msgid "'Synchronous' mimics original hardware. 'Asynchronous' can reduce stuttering on devices with slow storage. 'Pre-Cache' loads the entire disk image into memory when launching content, which may improve in-game loading times at the cost of an initial delay at startup. 'Pre-Cache' may cause issues on systems with low RAM, and will fall back to 'Synchronous' for physical media. Restart required."
+msgstr ""
+
+msgctxt "#30160"
+msgid "Synchronous"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Asynchronous"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Pre-Cache"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Values higher than '2x (Native)' can greatly reduce in-game loading times, but may introduce timing errors. Some games may not function properly above a certain value."
+msgstr ""
+
+msgctxt "#30164"
+msgid "2x (Native)"
+msgstr ""
+
+msgctxt "#30165"
+msgid "6x"
+msgstr ""
+
+msgctxt "#30166"
+msgid "10x"
+msgstr ""
+
+msgctxt "#30167"
+msgid "12x"
+msgstr ""
+
+msgctxt "#30168"
+msgid "14x"
+msgstr ""
+
+msgctxt "#30169"
+msgid "Skip the PlayStation BIOS boot animation normally displayed when loading content. Note: Enabling this causes compatibility issues with a number of games (PAL copy protected games, Saga Frontier, etc.)."
+msgstr ""
+
+msgctxt "#30170"
+msgid "Override the standard region specific BIOS with a region-free one if found. Restart required."
+msgstr ""
+
+msgctxt "#30171"
+msgid "PSP PS1 BIOS"
+msgstr ""
+
+msgctxt "#30172"
+msgid "PS3 PS1 BIOS"
+msgstr ""
+
+msgctxt "#30173"
+msgid "OpenBIOS"
+msgstr ""
+
+msgctxt "#30174"
+msgid "Sets the fallback region used when content cannot be auto-detected (e.g. raw PS-X EXE files). Disc-based games still use the region embedded on the disc. Restart required."
+msgstr ""
+
+msgctxt "#30175"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30176"
+msgid "NTSC-J (Japan)"
+msgstr ""
+
+msgctxt "#30177"
+msgid "NTSC-U (North America)"
+msgstr ""
+
+msgctxt "#30178"
+msgid "PAL (Europe)"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30180"
+msgid "Change aspect ratio, display cropping, video filter and frame skipping settings."
+msgstr ""
+
+msgctxt "#30181"
+msgid "Resolutions higher than '1x (Native)' improve fidelity of 3D models at the expense of increased performance requirements. 2D elements are generally unaffected by this setting."
+msgstr ""
+
+msgctxt "#30182"
+msgid "The software renderer is the most accurate but has steep performance requirements when running at increased internal GPU resolutions. The hardware renderers, while less accurate, improve performance over the software renderer at increased internal resolutions and enable various graphical enhancements. 'Hardware (Auto)' automatically selects the Vulkan or OpenGL renderer, depending upon the current libretro frontend video driver. If the provided video driver is not Vulkan or OpenGL 3.3-compatible, then the core will fall back to the software renderer. Restart required."
+msgstr ""
+
+msgctxt "#30183"
+msgid "Hardware (Auto)"
+msgstr ""
+
+msgctxt "#30184"
+msgid "Hardware (OpenGL)"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Software"
+msgstr ""
+
+msgctxt "#30186"
+msgid "Enable accurate emulation of framebuffer effects (e.g. motion blur, FF7 battle swirl) when using hardware renderers by running a copy of the software renderer at native resolution in the background. If disabled, these operations are omitted (OpenGL) or rendered on the GPU (Vulkan). Disabling can improve performance but may cause severe graphical errors. Leave enabled if unsure."
+msgstr ""
+
+msgctxt "#30187"
+msgid "Color Format"
+msgstr ""
+
+msgctxt "#30188"
+msgid "Selects the output color depth. '24-bit (Standard)' is the historical 8-bit-per-channel output. '30-bit Color (HDR)' outputs 10-bit-per-channel, PQ-encoded Rec.2020 (HDR10) for display on an HDR-capable screen: the renderer already carries more than 8 bits of internal precision, so this both reduces banding on upscaled gradients and lets emissive content sit above SDR white. Takes effect with the Vulkan and OpenGL hardware renderers and requires frontend HDR support; it falls back to 24-bit on the Software renderer or when the frontend cannot present HDR10. Restart required."
+msgstr ""
+
+msgctxt "#30189"
+msgid "24-bit (Standard)"
+msgstr ""
+
+msgctxt "#30190"
+msgid "30-bit Color (HDR)"
+msgstr ""
+
+msgctxt "#30191"
+msgid "HDR Highlight Roll-Off"
+msgstr ""
+
+msgctxt "#30192"
+msgid "Selects how additive highlights that rise above SDR white are compressed toward the HDR peak, when 'Color Format' is set to '30-bit Color (HDR)'. 'Reinhard (Soft Knee)' is a gentle, gradual roll-off. 'ACES (Filmic)' uses a shoulder that rises faster and reaches the peak sooner, giving punchier highlights. Only affects over-white emissive/additive content on the hardware-renderer HDR path; ordinary colour and everything in the standard range are identical either way. Has no effect on the Software renderer or in 24-bit mode."
+msgstr ""
+
+msgctxt "#30193"
+msgid "Reinhard (Soft Knee)"
+msgstr ""
+
+msgctxt "#30194"
+msgid "ACES (Filmic)"
+msgstr ""
+
+msgctxt "#30195"
+msgid "Source Colour Primaries"
+msgstr ""
+
+msgctxt "#30196"
+msgid "Selects the chromaticities the game's colours are interpreted against. PSX content was not authored on a modern Rec.709 display, and which real colours a given RGB value stands for depends on the monitor it was made on. This is independent of 'Analog Video Cable' - primaries belong to the authoring display, not the wire - so it applies to RGB output as well. 'Rec.709' (default) leaves the picture matching the 24-bit path. 'SMPTE-C' is the NTSC-era studio standard and shifts colour by around 6%. 'EBU' is the PAL equivalent and differs from Rec.709 in green alone, by about 4%. 'NTSC 1953' is the original FCC standard, dramatically wider - its green sits 40% outside Rec.709 and is only representable at all on a wide-gamut HDR display. 'Auto' picks SMPTE-C or EBU from the disc region. Works in 24-bit mode too, though every option maps some colours outside Rec.709 and a standard display clips those - 'NTSC 1953' in particular only shows properly on a wide-gamut HDR screen."
+msgstr ""
+
+msgctxt "#30197"
+msgid "Rec.709 (Match 24-bit)"
+msgstr ""
+
+msgctxt "#30198"
+msgid "Auto (By Region)"
+msgstr ""
+
+msgctxt "#30199"
+msgid "SMPTE-C (NTSC Studio)"
+msgstr ""
+
+msgctxt "#30200"
+msgid "EBU (PAL)"
+msgstr ""
+
+msgctxt "#30201"
+msgid "NTSC 1953 (Wide)"
+msgstr ""
+
+msgctxt "#30202"
+msgid "NTSC Black Setup"
+msgstr ""
+
+msgctxt "#30203"
+msgid "Simulates a mismatch in where black sits in the signal. NTSC-M, as used in North America, places black 7.5 IRE above blanking; NTSC-J in Japan and PAL everywhere else place it at 0. A console and television from the same market cancel out and look correct, so this does nothing by default - it only matters when a disc crossed between them, which is the better documented difference between NTSC-J and NTSC-M hardware. 'Lifted' reads a North American signal without the compensation, raising black to about 7.5% so the picture looks washed out. 'Crushed' reads a Japanese signal as though it carried the pedestal, clipping everything below 7.5% to black and raising contrast. Only affects 'Analog Video Cable' modes other than RGB, which carries no pedestal, and has no effect on PAL discs."
+msgstr ""
+
+msgctxt "#30204"
+msgid "Matched (No Shift)"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Lifted (NTSC-M Signal, 0 IRE Display)"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Crushed (NTSC-J Signal, 7.5 IRE Display)"
+msgstr ""
+
+msgctxt "#30207"
+msgid "Analog Carrier Phase Error"
+msgstr ""
+
+msgctxt "#30208"
+msgid "Misaligns the decoder's colour carrier by the given number of degrees, as a mistuned or drifting television would be. Zero on a direct cable; a real effect over RF, where the modulator and channel introduce it. The two systems fail very differently, which is the point: on NTSC the whole picture shifts hue and stays shifted, while on PAL the error lands opposite on alternate lines and the decoder's delay line averages most of it back out, trading a little saturation for it. Only affects 'Analog Video Cable' modes other than RGB."
+msgstr ""
+
+msgctxt "#30209"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30210"
+msgid "5 degrees"
+msgstr ""
+
+msgctxt "#30211"
+msgid "10 degrees"
+msgstr ""
+
+msgctxt "#30212"
+msgid "25 degrees"
+msgstr ""
+
+msgctxt "#30213"
+msgid "45 degrees"
+msgstr ""
+
+msgctxt "#30214"
+msgid "Analog Video Cable"
+msgstr ""
+
+msgctxt "#30215"
+msgid "Simulates the cable between the console and the television, including the colour encoding and the television's decoder. 'No Simulation' switches the chain off entirely and hands the framebuffer straight to the display (default). 'RGB (SCART)' is the sharpest output the PSX could produce: the multi-out carries analog RGB, so nothing is modulated and none of the encoding artifacts below can occur - but it is still an analog wire, so it is band-limited by the console's video amplifier and the set's input stage rather than being infinitely sharp. 'S-Video' band-limits colour heavily but keeps luma and colour on separate wires, so fine detail stays clean. 'Composite' sums them onto one wire, which the decoder then has to pull apart again, costing luma detail and adding colour smearing and rainbow fringing on fine patterns. 'RF' models an external modulator - the console itself has none, only a DC jack to power one - narrowing luma further and adding the beat pattern the sound carrier makes against the colour subcarrier, which is strongest on saturated colour. Works at any internal resolution: the extra samples are resolved down before the signal is generated, so higher settings act as supersampling into the cable rather than a wider signal, and the output still carries the sub-pixel detail the decoder produces. Supported by the Vulkan and OpenGL renderers, and ignored by the Software renderer. On OpenGL the filter that removes 'hanging dots' - the fine dotted pattern along horizontal colour edges - needs GL 4.3 or GLES 3.1; on an older driver the simulation still runs, but 'Composite' and 'RF' will show those dots. Applies immediately; no restart needed."
+msgstr ""
+
+msgctxt "#30216"
+msgid "No Simulation"
+msgstr ""
+
+msgctxt "#30217"
+msgid "RGB (SCART)"
+msgstr ""
+
+msgctxt "#30218"
+msgid "S-Video"
+msgstr ""
+
+msgctxt "#30219"
+msgid "Composite"
+msgstr ""
+
+msgctxt "#30220"
+msgid "RF"
+msgstr ""
+
+msgctxt "#30221"
+msgid "Reference Display Gamma"
+msgstr ""
+
+msgctxt "#30222"
+msgid "Selects the display gamma the console's output is assumed to be viewed through. Used in two places: to linearise the picture before re-encoding it for HDR, and to decide what 'average' means when supersampled or multisampled samples are combined - those estimate how much light a pixel emits, so they are averaged as light rather than as stored values. This decides whether HDR lands at the same brightness the standard path did on your screen - it does not change accuracy, only the match between the two. 'BT.1886 (Gamma 2.4)' is the default and matches the frontend's own SDR-to-HDR conversion and a TV-like reference. 'Gamma 2.2' suits a PC monitor tracking sRGB's nominal gamma. 'sRGB (Piecewise)' matches how Windows composites standard content onto an HDR desktop and lifts shadow detail. If HDR looks dimmer or more contrasty than 24-bit on the same display, try 'Gamma 2.2' or 'sRGB (Piecewise)'. Has no effect on the Software renderer."
+msgstr ""
+
+msgctxt "#30223"
+msgid "BT.1886 (Gamma 2.4)"
+msgstr ""
+
+msgctxt "#30224"
+msgid "Gamma 2.2"
+msgstr ""
+
+msgctxt "#30225"
+msgid "sRGB (Piecewise)"
+msgstr ""
+
+msgctxt "#30226"
+msgid "HDR Additive Overbright"
+msgstr ""
+
+msgctxt "#30227"
+msgid "Controls whether additive and subtractive blend sources may exceed reference white on the hardware-renderer HDR path, when 'Color Format' is set to '30-bit Color (HDR)'. On the OpenGL renderer this affects additive sources only. 'Off' clamps each source to reference white before blending (matching real hardware), so highlights only rise above white where translucent layers stack - accurate and controlled. 'On' lets bright modulated sources push additive/subtractive effects roughly twice as hard for punchier single-layer glow (lasers, lightning, flames), at the cost of accuracy. Opaque surfaces are clamped either way. No effect on the Software renderer or in 24-bit mode."
+msgstr ""
+
+msgctxt "#30228"
+msgid "Off (Reference White Sources)"
+msgstr ""
+
+msgctxt "#30229"
+msgid "On (Boosted Sources)"
+msgstr ""
+
+msgctxt "#30230"
+msgid "HDR True Multi-Pass Blending"
+msgstr ""
+
+msgctxt "#30231"
+msgid "Selects how subtractive semi-transparency is blended on the Vulkan HDR path, when 'Color Format' is set to '30-bit Color (HDR)'. Both settings floor the result at zero exactly as real hardware does. 'Off' uses fixed-function blending followed by a single cheap floor pass per batch - hardware-accurate at almost no cost. 'On' instead routes every subtractive primitive through the same per-primitive programmable blend path used for mask-tested draws; this additionally lets 'HDR Additive Overbright' boost subtractive sources (deeper single-layer cuts), at a per-primitive synchronisation cost that can add up in subtractive-heavy scenes such as drop shadows and screen fades. No effect on the OpenGL/Software renderers or in 24-bit mode."
+msgstr ""
+
+msgctxt "#30232"
+msgid "Higher color depth can reduce color banding effects without the use of dithering. 16 bpp emulates original hardware but may have visible banding if dithering is not enabled. 'Dithering Pattern' is recommended to be disabled when this option is set to 32 bpp."
+msgstr ""
+
+msgctxt "#30233"
+msgid "16 bpp (Native)"
+msgstr ""
+
+msgctxt "#30234"
+msgid "32 bpp"
+msgstr ""
+
+msgctxt "#30235"
+msgid "'1x (Native)' emulates native low resolution dithering used by original hardware to smooth out color banding artifacts visible at native color depth. 'Internal Resolution' scales dithering granularity to the configured internal resolution for cleaner results. Recommended to be disabled when running at 32 bpp color depth. Note: On Vulkan, enabling this will force downsampling to native color depth, while disabling will automatically enable output at higher color depth."
+msgstr ""
+
+msgctxt "#30236"
+msgid "Internal Resolution"
+msgstr ""
+
+msgctxt "#30237"
+msgid "'Nearest' emulates original hardware. 'Bilinear' and '3-Point' are smoothing filters, which reduce pixelation via blurring. 'SABR', 'xBR', and 'JINC2' are upscaling filters that may improve texture fidelity/sharpness at the expense of increased performance requirements. Only supported by the hardware renderers."
+msgstr ""
+
+msgctxt "#30238"
+msgid "Nearest"
+msgstr ""
+
+msgctxt "#30239"
+msgid "Bilinear"
+msgstr ""
+
+msgctxt "#30240"
+msgid "3-Point"
+msgstr ""
+
+msgctxt "#30241"
+msgid "SABR"
+msgstr ""
+
+msgctxt "#30242"
+msgid "xBR"
+msgstr ""
+
+msgctxt "#30243"
+msgid "JINC2"
+msgstr ""
+
+msgctxt "#30244"
+msgid "Automatic Toggling allows the core to switch between progressive and interlaced rates."
+msgstr ""
+
+msgctxt "#30245"
+msgid "Automatic Toggling"
+msgstr ""
+
+msgctxt "#30246"
+msgid "Force Progressive Rate"
+msgstr ""
+
+msgctxt "#30247"
+msgid "Force Interlaced Rate"
+msgstr ""
+
+msgctxt "#30248"
+msgid "'Weave' shows both fields on the same frame for full high resolution still image, 'Bob' sacrificies resolution clarity for motion clarity. 'Bob (Offset)' is Bob with the current field doubled into the full surface height with a one-line offset between fields, preserving the libretro output resolution while keeping Bob-style smooth motion. 'FastMAD (Motion Adaptive)' weaves still pixels and vertically-interpolates moving pixels per-pixel, full output height with neither weave's comb on motion nor bob's halved resolution. 'Off' makes the software renderer match the hardware (Vulkan/OpenGL) renderer behaviour by rasterising to all VRAM lines every frame and deferring scanout to the end of the frame, eliminating comb-on-motion in interlaced games. Note: programs that DMA to VRAM during scanout (some demos using >512-line PAL framebuffer-wrap tricks), or that update moving sprites via CPU-to-VRAM image transfers tied to the displayed field (e.g. Pro Pinball), may show stale rows or sprite ghosting under 'Off'; use 'Weave', 'Bob', 'Bob (Offset)', or 'FastMAD' for those."
+msgstr ""
+
+msgctxt "#30249"
+msgid "Weave"
+msgstr ""
+
+msgctxt "#30250"
+msgid "Bob"
+msgstr ""
+
+msgctxt "#30251"
+msgid "Bob (Offset)"
+msgstr ""
+
+msgctxt "#30252"
+msgid "FastMAD (Motion Adaptive)"
+msgstr ""
+
+msgctxt "#30253"
+msgid "Repeat the previous frame if the core has nothing new to display."
+msgstr ""
+
+msgctxt "#30254"
+msgid "Due to different standards, PAL games often appear slowed down compared to the American or Japanese NTSC releases. This option can be used to override PAL timings in order to attempt to run these games with the NTSC framerate."
+msgstr ""
+
+msgctxt "#30255"
+msgid "This setting is ignored when the Widescreen Mode Hack or Display Full VRAM options are enabled."
+msgstr ""
+
+msgctxt "#30256"
+msgid "Corrected"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Uncorrected"
+msgstr ""
+
+msgctxt "#30258"
+msgid "Force 4:3"
+msgstr ""
+
+msgctxt "#30259"
+msgid "Force NTSC"
+msgstr ""
+
+msgctxt "#30260"
+msgid "Force 16:9"
+msgstr ""
+
+msgctxt "#30261"
+msgid "Full native image or no borders."
+msgstr ""
+
+msgctxt "#30262"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30263"
+msgid "Horizontal"
+msgstr ""
+
+msgctxt "#30264"
+msgid "Horizontal + Vertical"
+msgstr ""
+
+msgctxt "#30265"
+msgid "Reduce the width of the cropped image by the specified number of pixels."
+msgstr ""
+
+msgctxt "#30266"
+msgid "0"
+msgstr ""
+
+msgctxt "#30267"
+msgid "1px"
+msgstr ""
+
+msgctxt "#30268"
+msgid "2px"
+msgstr ""
+
+msgctxt "#30269"
+msgid "3px"
+msgstr ""
+
+msgctxt "#30270"
+msgid "4px"
+msgstr ""
+
+msgctxt "#30271"
+msgid "5px"
+msgstr ""
+
+msgctxt "#30272"
+msgid "6px"
+msgstr ""
+
+msgctxt "#30273"
+msgid "7px"
+msgstr ""
+
+msgctxt "#30274"
+msgid "8px"
+msgstr ""
+
+msgctxt "#30275"
+msgid "9px"
+msgstr ""
+
+msgctxt "#30276"
+msgid "10px"
+msgstr ""
+
+msgctxt "#30277"
+msgid "11px"
+msgstr ""
+
+msgctxt "#30278"
+msgid "12px"
+msgstr ""
+
+msgctxt "#30279"
+msgid "13px"
+msgstr ""
+
+msgctxt "#30280"
+msgid "14px"
+msgstr ""
+
+msgctxt "#30281"
+msgid "15px"
+msgstr ""
+
+msgctxt "#30282"
+msgid "16px"
+msgstr ""
+
+msgctxt "#30283"
+msgid "17px"
+msgstr ""
+
+msgctxt "#30284"
+msgid "18px"
+msgstr ""
+
+msgctxt "#30285"
+msgid "19px"
+msgstr ""
+
+msgctxt "#30286"
+msgid "20px"
+msgstr ""
+
+msgctxt "#30287"
+msgid "Offset horizontally to the right (positive) or left (negative) by the specified number of pixels. May be used to correct alignment issues. Only supported by the software renderer."
+msgstr ""
+
+msgctxt "#30288"
+msgid "-12px"
+msgstr ""
+
+msgctxt "#30289"
+msgid "-11px"
+msgstr ""
+
+msgctxt "#30290"
+msgid "-10px"
+msgstr ""
+
+msgctxt "#30291"
+msgid "-9px"
+msgstr ""
+
+msgctxt "#30292"
+msgid "-8px"
+msgstr ""
+
+msgctxt "#30293"
+msgid "-7px"
+msgstr ""
+
+msgctxt "#30294"
+msgid "-6px"
+msgstr ""
+
+msgctxt "#30295"
+msgid "-5px"
+msgstr ""
+
+msgctxt "#30296"
+msgid "-4px"
+msgstr ""
+
+msgctxt "#30297"
+msgid "-3px"
+msgstr ""
+
+msgctxt "#30298"
+msgid "-2px"
+msgstr ""
+
+msgctxt "#30299"
+msgid "-1px"
+msgstr ""
+
+msgctxt "#30300"
+msgid "+1px"
+msgstr ""
+
+msgctxt "#30301"
+msgid "+2px"
+msgstr ""
+
+msgctxt "#30302"
+msgid "+3px"
+msgstr ""
+
+msgctxt "#30303"
+msgid "+4px"
+msgstr ""
+
+msgctxt "#30304"
+msgid "+5px"
+msgstr ""
+
+msgctxt "#30305"
+msgid "+6px"
+msgstr ""
+
+msgctxt "#30306"
+msgid "+7px"
+msgstr ""
+
+msgctxt "#30307"
+msgid "+8px"
+msgstr ""
+
+msgctxt "#30308"
+msgid "+9px"
+msgstr ""
+
+msgctxt "#30309"
+msgid "+10px"
+msgstr ""
+
+msgctxt "#30310"
+msgid "+11px"
+msgstr ""
+
+msgctxt "#30311"
+msgid "+12px"
+msgstr ""
+
+msgctxt "#30312"
+msgid "Positive values move image to the right, negative values move image to the left. Only supported by the hardware renderers."
+msgstr ""
+
+msgctxt "#30313"
+msgid "-40"
+msgstr ""
+
+msgctxt "#30314"
+msgid "-39"
+msgstr ""
+
+msgctxt "#30315"
+msgid "-38"
+msgstr ""
+
+msgctxt "#30316"
+msgid "-37"
+msgstr ""
+
+msgctxt "#30317"
+msgid "-36"
+msgstr ""
+
+msgctxt "#30318"
+msgid "-35"
+msgstr ""
+
+msgctxt "#30319"
+msgid "-34"
+msgstr ""
+
+msgctxt "#30320"
+msgid "-33"
+msgstr ""
+
+msgctxt "#30321"
+msgid "-32"
+msgstr ""
+
+msgctxt "#30322"
+msgid "-31"
+msgstr ""
+
+msgctxt "#30323"
+msgid "-30"
+msgstr ""
+
+msgctxt "#30324"
+msgid "-29"
+msgstr ""
+
+msgctxt "#30325"
+msgid "-28"
+msgstr ""
+
+msgctxt "#30326"
+msgid "-27"
+msgstr ""
+
+msgctxt "#30327"
+msgid "-26"
+msgstr ""
+
+msgctxt "#30328"
+msgid "-25"
+msgstr ""
+
+msgctxt "#30329"
+msgid "-24"
+msgstr ""
+
+msgctxt "#30330"
+msgid "-23"
+msgstr ""
+
+msgctxt "#30331"
+msgid "-22"
+msgstr ""
+
+msgctxt "#30332"
+msgid "-21"
+msgstr ""
+
+msgctxt "#30333"
+msgid "-20"
+msgstr ""
+
+msgctxt "#30334"
+msgid "-19"
+msgstr ""
+
+msgctxt "#30335"
+msgid "-18"
+msgstr ""
+
+msgctxt "#30336"
+msgid "-17"
+msgstr ""
+
+msgctxt "#30337"
+msgid "-16"
+msgstr ""
+
+msgctxt "#30338"
+msgid "-15"
+msgstr ""
+
+msgctxt "#30339"
+msgid "-14"
+msgstr ""
+
+msgctxt "#30340"
+msgid "-13"
+msgstr ""
+
+msgctxt "#30341"
+msgid "-12"
+msgstr ""
+
+msgctxt "#30342"
+msgid "-11"
+msgstr ""
+
+msgctxt "#30343"
+msgid "-10"
+msgstr ""
+
+msgctxt "#30344"
+msgid "-9"
+msgstr ""
+
+msgctxt "#30345"
+msgid "-8"
+msgstr ""
+
+msgctxt "#30346"
+msgid "-7"
+msgstr ""
+
+msgctxt "#30347"
+msgid "-6"
+msgstr ""
+
+msgctxt "#30348"
+msgid "-5"
+msgstr ""
+
+msgctxt "#30349"
+msgid "-4"
+msgstr ""
+
+msgctxt "#30350"
+msgid "-3"
+msgstr ""
+
+msgctxt "#30351"
+msgid "-2"
+msgstr ""
+
+msgctxt "#30352"
+msgid "-1"
+msgstr ""
+
+msgctxt "#30353"
+msgid "+1"
+msgstr ""
+
+msgctxt "#30354"
+msgid "+2"
+msgstr ""
+
+msgctxt "#30355"
+msgid "+3"
+msgstr ""
+
+msgctxt "#30356"
+msgid "+4"
+msgstr ""
+
+msgctxt "#30357"
+msgid "+5"
+msgstr ""
+
+msgctxt "#30358"
+msgid "+6"
+msgstr ""
+
+msgctxt "#30359"
+msgid "+7"
+msgstr ""
+
+msgctxt "#30360"
+msgid "+8"
+msgstr ""
+
+msgctxt "#30361"
+msgid "+9"
+msgstr ""
+
+msgctxt "#30362"
+msgid "+10"
+msgstr ""
+
+msgctxt "#30363"
+msgid "+11"
+msgstr ""
+
+msgctxt "#30364"
+msgid "+12"
+msgstr ""
+
+msgctxt "#30365"
+msgid "+13"
+msgstr ""
+
+msgctxt "#30366"
+msgid "+14"
+msgstr ""
+
+msgctxt "#30367"
+msgid "+15"
+msgstr ""
+
+msgctxt "#30368"
+msgid "+16"
+msgstr ""
+
+msgctxt "#30369"
+msgid "+17"
+msgstr ""
+
+msgctxt "#30370"
+msgid "+18"
+msgstr ""
+
+msgctxt "#30371"
+msgid "+19"
+msgstr ""
+
+msgctxt "#30372"
+msgid "+20"
+msgstr ""
+
+msgctxt "#30373"
+msgid "+21"
+msgstr ""
+
+msgctxt "#30374"
+msgid "+22"
+msgstr ""
+
+msgctxt "#30375"
+msgid "+23"
+msgstr ""
+
+msgctxt "#30376"
+msgid "+24"
+msgstr ""
+
+msgctxt "#30377"
+msgid "+25"
+msgstr ""
+
+msgctxt "#30378"
+msgid "+26"
+msgstr ""
+
+msgctxt "#30379"
+msgid "+27"
+msgstr ""
+
+msgctxt "#30380"
+msgid "+28"
+msgstr ""
+
+msgctxt "#30381"
+msgid "+29"
+msgstr ""
+
+msgctxt "#30382"
+msgid "+30"
+msgstr ""
+
+msgctxt "#30383"
+msgid "+31"
+msgstr ""
+
+msgctxt "#30384"
+msgid "+32"
+msgstr ""
+
+msgctxt "#30385"
+msgid "+33"
+msgstr ""
+
+msgctxt "#30386"
+msgid "+34"
+msgstr ""
+
+msgctxt "#30387"
+msgid "+35"
+msgstr ""
+
+msgctxt "#30388"
+msgid "+36"
+msgstr ""
+
+msgctxt "#30389"
+msgid "+37"
+msgstr ""
+
+msgctxt "#30390"
+msgid "+38"
+msgstr ""
+
+msgctxt "#30391"
+msgid "+39"
+msgstr ""
+
+msgctxt "#30392"
+msgid "+40"
+msgstr ""
+
+msgctxt "#30393"
+msgid "First displayed scan line when running NTSC content. Values greater than zero will reduce the height of output images by cropping pixels from the topmost edge. May be used to counteract letterboxing."
+msgstr ""
+
+msgctxt "#30394"
+msgid "0 (Default)"
+msgstr ""
+
+msgctxt "#30395"
+msgid "1"
+msgstr ""
+
+msgctxt "#30396"
+msgid "2"
+msgstr ""
+
+msgctxt "#30397"
+msgid "3"
+msgstr ""
+
+msgctxt "#30398"
+msgid "4"
+msgstr ""
+
+msgctxt "#30399"
+msgid "5"
+msgstr ""
+
+msgctxt "#30400"
+msgid "6"
+msgstr ""
+
+msgctxt "#30401"
+msgid "7"
+msgstr ""
+
+msgctxt "#30402"
+msgid "8"
+msgstr ""
+
+msgctxt "#30403"
+msgid "9"
+msgstr ""
+
+msgctxt "#30404"
+msgid "10"
+msgstr ""
+
+msgctxt "#30405"
+msgid "11"
+msgstr ""
+
+msgctxt "#30406"
+msgid "12"
+msgstr ""
+
+msgctxt "#30407"
+msgid "13"
+msgstr ""
+
+msgctxt "#30408"
+msgid "14"
+msgstr ""
+
+msgctxt "#30409"
+msgid "15"
+msgstr ""
+
+msgctxt "#30410"
+msgid "16"
+msgstr ""
+
+msgctxt "#30411"
+msgid "17"
+msgstr ""
+
+msgctxt "#30412"
+msgid "18"
+msgstr ""
+
+msgctxt "#30413"
+msgid "19"
+msgstr ""
+
+msgctxt "#30414"
+msgid "20"
+msgstr ""
+
+msgctxt "#30415"
+msgid "21"
+msgstr ""
+
+msgctxt "#30416"
+msgid "22"
+msgstr ""
+
+msgctxt "#30417"
+msgid "23"
+msgstr ""
+
+msgctxt "#30418"
+msgid "24"
+msgstr ""
+
+msgctxt "#30419"
+msgid "25"
+msgstr ""
+
+msgctxt "#30420"
+msgid "26"
+msgstr ""
+
+msgctxt "#30421"
+msgid "27"
+msgstr ""
+
+msgctxt "#30422"
+msgid "28"
+msgstr ""
+
+msgctxt "#30423"
+msgid "29"
+msgstr ""
+
+msgctxt "#30424"
+msgid "30"
+msgstr ""
+
+msgctxt "#30425"
+msgid "31"
+msgstr ""
+
+msgctxt "#30426"
+msgid "32"
+msgstr ""
+
+msgctxt "#30427"
+msgid "33"
+msgstr ""
+
+msgctxt "#30428"
+msgid "34"
+msgstr ""
+
+msgctxt "#30429"
+msgid "35"
+msgstr ""
+
+msgctxt "#30430"
+msgid "36"
+msgstr ""
+
+msgctxt "#30431"
+msgid "37"
+msgstr ""
+
+msgctxt "#30432"
+msgid "38"
+msgstr ""
+
+msgctxt "#30433"
+msgid "39"
+msgstr ""
+
+msgctxt "#30434"
+msgid "40"
+msgstr ""
+
+msgctxt "#30435"
+msgid "Last displayed scan line when running NTSC content. Values less than 239 will reduce the height of output images by cropping pixels from the bottommost edge. May be used to counteract letterboxing."
+msgstr ""
+
+msgctxt "#30436"
+msgid "239 (Default)"
+msgstr ""
+
+msgctxt "#30437"
+msgid "210"
+msgstr ""
+
+msgctxt "#30438"
+msgid "211"
+msgstr ""
+
+msgctxt "#30439"
+msgid "212"
+msgstr ""
+
+msgctxt "#30440"
+msgid "213"
+msgstr ""
+
+msgctxt "#30441"
+msgid "214"
+msgstr ""
+
+msgctxt "#30442"
+msgid "215"
+msgstr ""
+
+msgctxt "#30443"
+msgid "216"
+msgstr ""
+
+msgctxt "#30444"
+msgid "217"
+msgstr ""
+
+msgctxt "#30445"
+msgid "218"
+msgstr ""
+
+msgctxt "#30446"
+msgid "219"
+msgstr ""
+
+msgctxt "#30447"
+msgid "220"
+msgstr ""
+
+msgctxt "#30448"
+msgid "221"
+msgstr ""
+
+msgctxt "#30449"
+msgid "222"
+msgstr ""
+
+msgctxt "#30450"
+msgid "223"
+msgstr ""
+
+msgctxt "#30451"
+msgid "224"
+msgstr ""
+
+msgctxt "#30452"
+msgid "225"
+msgstr ""
+
+msgctxt "#30453"
+msgid "226"
+msgstr ""
+
+msgctxt "#30454"
+msgid "227"
+msgstr ""
+
+msgctxt "#30455"
+msgid "228"
+msgstr ""
+
+msgctxt "#30456"
+msgid "229"
+msgstr ""
+
+msgctxt "#30457"
+msgid "230"
+msgstr ""
+
+msgctxt "#30458"
+msgid "231"
+msgstr ""
+
+msgctxt "#30459"
+msgid "232"
+msgstr ""
+
+msgctxt "#30460"
+msgid "233"
+msgstr ""
+
+msgctxt "#30461"
+msgid "234"
+msgstr ""
+
+msgctxt "#30462"
+msgid "235"
+msgstr ""
+
+msgctxt "#30463"
+msgid "236"
+msgstr ""
+
+msgctxt "#30464"
+msgid "237"
+msgstr ""
+
+msgctxt "#30465"
+msgid "238"
+msgstr ""
+
+msgctxt "#30466"
+msgid "First displayed scan line when running PAL content. Values greater than zero will reduce the height of output images by cropping pixels from the topmost edge. May be used to counteract letterboxing."
+msgstr ""
+
+msgctxt "#30467"
+msgid "Last displayed scan line when running PAL content. Values below 287 will reduce the height of output images by cropping pixels from the bottommost edge. May be used to counteract letterboxing."
+msgstr ""
+
+msgctxt "#30468"
+msgid "287 (Default)"
+msgstr ""
+
+msgctxt "#30469"
+msgid "239"
+msgstr ""
+
+msgctxt "#30470"
+msgid "240"
+msgstr ""
+
+msgctxt "#30471"
+msgid "241"
+msgstr ""
+
+msgctxt "#30472"
+msgid "242"
+msgstr ""
+
+msgctxt "#30473"
+msgid "243"
+msgstr ""
+
+msgctxt "#30474"
+msgid "244"
+msgstr ""
+
+msgctxt "#30475"
+msgid "245"
+msgstr ""
+
+msgctxt "#30476"
+msgid "246"
+msgstr ""
+
+msgctxt "#30477"
+msgid "247"
+msgstr ""
+
+msgctxt "#30478"
+msgid "248"
+msgstr ""
+
+msgctxt "#30479"
+msgid "249"
+msgstr ""
+
+msgctxt "#30480"
+msgid "250"
+msgstr ""
+
+msgctxt "#30481"
+msgid "251"
+msgstr ""
+
+msgctxt "#30482"
+msgid "252"
+msgstr ""
+
+msgctxt "#30483"
+msgid "253"
+msgstr ""
+
+msgctxt "#30484"
+msgid "254"
+msgstr ""
+
+msgctxt "#30485"
+msgid "255"
+msgstr ""
+
+msgctxt "#30486"
+msgid "256"
+msgstr ""
+
+msgctxt "#30487"
+msgid "257"
+msgstr ""
+
+msgctxt "#30488"
+msgid "258"
+msgstr ""
+
+msgctxt "#30489"
+msgid "259"
+msgstr ""
+
+msgctxt "#30490"
+msgid "260"
+msgstr ""
+
+msgctxt "#30491"
+msgid "261"
+msgstr ""
+
+msgctxt "#30492"
+msgid "262"
+msgstr ""
+
+msgctxt "#30493"
+msgid "263"
+msgstr ""
+
+msgctxt "#30494"
+msgid "264"
+msgstr ""
+
+msgctxt "#30495"
+msgid "265"
+msgstr ""
+
+msgctxt "#30496"
+msgid "266"
+msgstr ""
+
+msgctxt "#30497"
+msgid "267"
+msgstr ""
+
+msgctxt "#30498"
+msgid "268"
+msgstr ""
+
+msgctxt "#30499"
+msgid "269"
+msgstr ""
+
+msgctxt "#30500"
+msgid "270"
+msgstr ""
+
+msgctxt "#30501"
+msgid "271"
+msgstr ""
+
+msgctxt "#30502"
+msgid "272"
+msgstr ""
+
+msgctxt "#30503"
+msgid "273"
+msgstr ""
+
+msgctxt "#30504"
+msgid "274"
+msgstr ""
+
+msgctxt "#30505"
+msgid "275"
+msgstr ""
+
+msgctxt "#30506"
+msgid "276"
+msgstr ""
+
+msgctxt "#30507"
+msgid "277"
+msgstr ""
+
+msgctxt "#30508"
+msgid "278"
+msgstr ""
+
+msgctxt "#30509"
+msgid "279"
+msgstr ""
+
+msgctxt "#30510"
+msgid "280"
+msgstr ""
+
+msgctxt "#30511"
+msgid "281"
+msgstr ""
+
+msgctxt "#30512"
+msgid "282"
+msgstr ""
+
+msgctxt "#30513"
+msgid "283"
+msgstr ""
+
+msgctxt "#30514"
+msgid "284"
+msgstr ""
+
+msgctxt "#30515"
+msgid "285"
+msgstr ""
+
+msgctxt "#30516"
+msgid "286"
+msgstr ""
+
+msgctxt "#30517"
+msgid "PGXP (Precision Geometry Transform Pipeline)"
+msgstr ""
+
+msgctxt "#30518"
+msgid "These options control enhancements which can improve graphics compared to the original console. PGXP can get rid of warping textures and Z-fighting issues."
+msgstr ""
+
+msgctxt "#30519"
+msgid "Render 3D objects with subpixel precision, minimizing distortion and jitter of 3D objects seen on original hardware due to the usage of fixed point vertex coordinates. 'Memory Only' mode has minimal compatibility issues and is recommended for general use. 'Memory + CPU (Buggy)' mode can reduce jitter even further but has high performance requirements and may cause various geometry errors."
+msgstr ""
+
+msgctxt "#30520"
+msgid "Memory Only"
+msgstr ""
+
+msgctxt "#30521"
+msgid "Memory + CPU (Buggy)"
+msgstr ""
+
+msgctxt "#30522"
+msgid "Hide more glaring errors in PGXP operations: the value specifies the tolerance in which PGXP values will be kept in case of geometries without proper depth information."
+msgstr ""
+
+msgctxt "#30523"
+msgid "0px"
+msgstr ""
+
+msgctxt "#30524"
+msgid "Use PGXP's NCLIP implementation. Improves appearance by reducing holes in geometries with PGXP coordinates. Known to cause some games to lock up in various circumstances."
+msgstr ""
+
+msgctxt "#30525"
+msgid "Cache PGXP-enhanced vertex positions for re-use across polygon draws. Can potentially improve object alignment and reduce visible seams when rendering textures, but false positives when querying the cache may produce graphical glitches. It is currently recommended to leave this option disabled. This option is applied only when PGXP Operation Mode is enabled. Only supported by the hardware renderers."
+msgstr ""
+
+msgctxt "#30526"
+msgid "Replace native PSX affine texture mapping with perspective correct texture mapping. Eliminates position-dependent distortion and warping of textures, resulting in properly aligned textures. This option is applied only when PGXP Operation Mode is enabled. Supported by the hardware renderers and the software renderer."
+msgstr ""
+
+msgctxt "#30527"
+msgid "On-Screen Display"
+msgstr ""
+
+msgctxt "#30528"
+msgid "Change notifications being shown on-screen."
+msgstr ""
+
+msgctxt "#30529"
+msgid "Display the internal frame rate at which the emulated PlayStation system is rendering content. Note: Requires onscreen notifications to be enabled in the libretro frontend."
+msgstr ""
+
+msgctxt "#30530"
+msgid "Display OSD messages generated by the core."
+msgstr ""
+
+msgctxt "#30531"
+msgid "Visualize the entire emulated console's VRAM. Only supported by the OpenGL and Vulkan hardware renderers. Note: This is for debugging purposes, and should normally be disabled."
+msgstr ""
+
+msgctxt "#30532"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30533"
+msgid "Change light gun, mouse and neGcon settings."
+msgstr ""
+
+msgctxt "#30534"
+msgid "Enable dynamic calibration of analog inputs when the device is set to DualShock, Analog Controller, Analog Joystick, or neGcon. Maximum registered input values are monitored in real time and used to scale analog coordinates passed to the emulator. This should be used for games such as Mega Man Legends 2 that expect larger values than what modern controllers provide. For best results, analog sticks should be rotated at full extent to tune the calibration algorithm each time content is loaded."
+msgstr ""
+
+msgctxt "#30535"
+msgid "When the input device type is DualShock, this option allows the emulated DualShock to be toggled between DIGITAL and ANALOG mode like original hardware. Mode can also be toggled by using the selected button combination."
+msgstr ""
+
+msgctxt "#30536"
+msgid "Default-Analog"
+msgstr ""
+
+msgctxt "#30537"
+msgid "The button combination that will be used to toggle between DIGITAL and ANALOG mode for the emulated DualShock."
+msgstr ""
+
+msgctxt "#30538"
+msgid "L1 + L2 + R1 + R2 + Start + Select"
+msgstr ""
+
+msgctxt "#30539"
+msgid "L1 + R1 + Select"
+msgstr ""
+
+msgctxt "#30540"
+msgid "L1 + R1 + Start"
+msgstr ""
+
+msgctxt "#30541"
+msgid "L1 + R1 + L3"
+msgstr ""
+
+msgctxt "#30542"
+msgid "L1 + R1 + R3"
+msgstr ""
+
+msgctxt "#30543"
+msgid "L2 + R2 + Select"
+msgstr ""
+
+msgctxt "#30544"
+msgid "L2 + R2 + Start"
+msgstr ""
+
+msgctxt "#30545"
+msgid "L2 + R2 + L3"
+msgstr ""
+
+msgctxt "#30546"
+msgid "L2 + R2 + R3"
+msgstr ""
+
+msgctxt "#30547"
+msgid "L3 + R3"
+msgstr ""
+
+msgctxt "#30548"
+msgid "Hold time for the analog mode combo buttons."
+msgstr ""
+
+msgctxt "#30549"
+msgid "0 Second Delay"
+msgstr ""
+
+msgctxt "#30550"
+msgid "1 Second Delay"
+msgstr ""
+
+msgctxt "#30551"
+msgid "2 Second Delay"
+msgstr ""
+
+msgctxt "#30552"
+msgid "3 Second Delay"
+msgstr ""
+
+msgctxt "#30553"
+msgid "4 Second Delay"
+msgstr ""
+
+msgctxt "#30554"
+msgid "5 Second Delay"
+msgstr ""
+
+msgctxt "#30555"
+msgid "Enable multitap functionality on port 1."
+msgstr ""
+
+msgctxt "#30556"
+msgid "Enable multitap functionality on port 2."
+msgstr ""
+
+msgctxt "#30557"
+msgid "Use mouse-controlled 'Light Gun' or 'Touchscreen' input when device type is set to 'Guncon/G-Con 45' or 'Justifier'."
+msgstr ""
+
+msgctxt "#30558"
+msgid "Light Gun"
+msgstr ""
+
+msgctxt "#30559"
+msgid "Touchscreen"
+msgstr ""
+
+msgctxt "#30560"
+msgid "Draw a cursor on screen while using the 'Guncon/G-Con 45' and 'Justifier' input device types."
+msgstr ""
+
+msgctxt "#30561"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30562"
+msgid "Cross"
+msgstr ""
+
+msgctxt "#30563"
+msgid "Dot"
+msgstr ""
+
+msgctxt "#30564"
+msgid "Light gun crosshair color for port 1."
+msgstr ""
+
+msgctxt "#30565"
+msgid "Red"
+msgstr ""
+
+msgctxt "#30566"
+msgid "Blue"
+msgstr ""
+
+msgctxt "#30567"
+msgid "Green"
+msgstr ""
+
+msgctxt "#30568"
+msgid "Orange"
+msgstr ""
+
+msgctxt "#30569"
+msgid "Yellow"
+msgstr ""
+
+msgctxt "#30570"
+msgid "Cyan"
+msgstr ""
+
+msgctxt "#30571"
+msgid "Pink"
+msgstr ""
+
+msgctxt "#30572"
+msgid "Purple"
+msgstr ""
+
+msgctxt "#30573"
+msgid "Black"
+msgstr ""
+
+msgctxt "#30574"
+msgid "White"
+msgstr ""
+
+msgctxt "#30575"
+msgid "Light gun crosshair color for port 2."
+msgstr ""
+
+msgctxt "#30576"
+msgid "Responsiveness of the 'Mouse' input device type."
+msgstr ""
+
+msgctxt "#30577"
+msgid "Left analog stick response type when simulating the 'twist' action of emulated 'neGcon' input devices. Analog stick displacement may be mapped to neGcon rotation angle either linearly, quadratically or cubically. 'Quadratic' allows for greater precision than 'Linear' when making small movements. 'Cubic' further increases small movement precision, but 'exaggerates' larger movements. Note: 'Linear' is only recommended when using racing wheel peripherals. Conventional controllers implement analog input in a manner fundamentally different from the neGcon 'twist' mechanism, such that linear mapping over-amplifies small movements, impairing fine control. In most cases, 'Quadratic' provides the closest approximation of real hardware."
+msgstr ""
+
+msgctxt "#30578"
+msgid "Linear"
+msgstr ""
+
+msgctxt "#30579"
+msgid "Quadratic"
+msgstr ""
+
+msgctxt "#30580"
+msgid "Cubic"
+msgstr ""
+
+msgctxt "#30581"
+msgid "Left analog stick deadzone when simulating the 'twist' action of emulated 'neGcon' input devices. Used to eliminate controller drift. Note: Most neGcon-compatible titles provide in-game options for setting a 'twist' deadzone value. To avoid loss of precision, the in-game deadzone should *always* be set to zero. Any required adjustments should *only* be applied via this core option. This is particularly important when 'neGcon Twist Response' is set to 'Quadratic' or 'Cubic'."
+msgstr ""
+
+msgctxt "#30582"
+msgid "Memory Card"
+msgstr ""
+
+msgctxt "#30583"
+msgid "Change virtual memory card related settings."
+msgstr ""
+
+msgctxt "#30584"
+msgid "Save data format used for the left memory card slot. 'Mednafen' may be used for compatibility with the stand-alone version of Mednafen. When used with Beetle PSX, Libretro (.srm) and Mednafen (.mcr) saves have internally identical formats and can be converted between one another via renaming. Restart required."
+msgstr ""
+
+msgctxt "#30585"
+msgid "Libretro"
+msgstr ""
+
+msgctxt "#30586"
+msgid "Mednafen"
+msgstr ""
+
+msgctxt "#30587"
+msgid "Emulate a second memory card in the right memory card slot. Note: Some games require this option to be disabled for correct operation (e.g. Codename Tenka). Note: Memory Card Slot 2 uses the Mednafen (.mcr) save format. Restart required."
+msgstr ""
+
+msgctxt "#30588"
+msgid "Use shared memory cards instead of separate cards for each content. Note: if 'Memory Card Method' is set to 'Libretro', only memory card slot 2 will be affected. Restart required."
+msgstr ""
+
+msgctxt "#30589"
+msgid "Memory card currently loaded in the left slot. This option will only work if Memory Card Method is set to Mednafen."
+msgstr ""
+
+msgctxt "#30590"
+msgid "41"
+msgstr ""
+
+msgctxt "#30591"
+msgid "42"
+msgstr ""
+
+msgctxt "#30592"
+msgid "43"
+msgstr ""
+
+msgctxt "#30593"
+msgid "44"
+msgstr ""
+
+msgctxt "#30594"
+msgid "45"
+msgstr ""
+
+msgctxt "#30595"
+msgid "46"
+msgstr ""
+
+msgctxt "#30596"
+msgid "47"
+msgstr ""
+
+msgctxt "#30597"
+msgid "48"
+msgstr ""
+
+msgctxt "#30598"
+msgid "49"
+msgstr ""
+
+msgctxt "#30599"
+msgid "50"
+msgstr ""
+
+msgctxt "#30600"
+msgid "51"
+msgstr ""
+
+msgctxt "#30601"
+msgid "52"
+msgstr ""
+
+msgctxt "#30602"
+msgid "53"
+msgstr ""
+
+msgctxt "#30603"
+msgid "54"
+msgstr ""
+
+msgctxt "#30604"
+msgid "55"
+msgstr ""
+
+msgctxt "#30605"
+msgid "56"
+msgstr ""
+
+msgctxt "#30606"
+msgid "57"
+msgstr ""
+
+msgctxt "#30607"
+msgid "58"
+msgstr ""
+
+msgctxt "#30608"
+msgid "59"
+msgstr ""
+
+msgctxt "#30609"
+msgid "60"
+msgstr ""
+
+msgctxt "#30610"
+msgid "61"
+msgstr ""
+
+msgctxt "#30611"
+msgid "62"
+msgstr ""
+
+msgctxt "#30612"
+msgid "63"
+msgstr ""
+
+msgctxt "#30613"
+msgid "Memory card currently loaded in the right slot. This option will only work if Memory Card Slot 2 is enabled."
+msgstr ""
+
+msgctxt "#30614"
+msgid "1 (Default)"
+msgstr ""
+
+msgctxt "#30615"
+msgid "Emulation Hacks"
+msgstr ""
+
+msgctxt "#30616"
+msgid "Change emulation accuracy settings affecting low-level performance and compatibility."
+msgstr ""
+
+msgctxt "#30617"
+msgid "Some games (e.g. Doom, Hexen, Soul Blade, etc.) draw horizontal lines by stretching single-pixel-high triangles across the screen, which are rasterized as a row of pixels on original hardware. This hack detects these small triangles and converts them to quads as required, allowing them to be displayed properly on the hardware renderers and at upscaled internal resolutions. 'Aggressive' is required for some titles (e.g. Dark Forces, Duke Nukem) but may otherwise introduce graphical glitches. Leave at 'Default' if unsure."
+msgstr ""
+
+msgctxt "#30618"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30619"
+msgid "Aggressive"
+msgstr ""
+
+msgctxt "#30620"
+msgid "Render 3D content anamorphically and output the emulated framebuffer at a widescreen aspect ratio. Produces best results with fully 3D games. 2D elements will be horizontally stretched and may be misaligned."
+msgstr ""
+
+msgctxt "#30621"
+msgid "Aspect ratio to be used by the Widescreen Mode Hack."
+msgstr ""
+
+msgctxt "#30622"
+msgid "SPU Silent Voice Optimization"
+msgstr ""
+
+msgctxt "#30623"
+msgid "Skip the per-sample processing of voices whose envelope has fully released. Audio output is identical; the optimization automatically disables itself while the SPU IRQ is in use. Saves roughly 5-10% of frame time. Disable for fully accurate SPU register state."
+msgstr ""
+
+msgctxt "#30624"
+msgid "Dynamically recompile CPU instructions to native instructions. Much faster than interpreter, but CPU timing is less accurate, and may have bugs."
+msgstr ""
+
+msgctxt "#30625"
+msgid "Disabled (Beetle Interpreter)"
+msgstr ""
+
+msgctxt "#30626"
+msgid "Max Performance"
+msgstr ""
+
+msgctxt "#30627"
+msgid "Lightrec Interpreter"
+msgstr ""
+
+msgctxt "#30628"
+msgid "Some games require 'Full' invalidation, some require 'DMA Only'."
+msgstr ""
+
+msgctxt "#30629"
+msgid "Full"
+msgstr ""
+
+msgctxt "#30630"
+msgid "DMA Only (Slightly Faster)"
+msgstr ""
+
+msgctxt "#30631"
+msgid "Dynarec Cycles Per Instruction"
+msgstr ""
+
+msgctxt "#30632"
+msgid "Cycles the dynarec charges per CPU instruction. '2' is faster, but the emulated CPU appears half-speed to games that pace themselves against it - set '1' for games whose CD streaming stalls or hangs under the dynarec (e.g. Parasite Eve 2). The '1' setting charges memory accesses two cycles and everything else one, close to the real CPU."
+msgstr ""
+
+msgctxt "#30633"
+msgid "2 (Default)"
+msgstr ""
+
+msgctxt "#30634"
+msgid "1 (Accurate, Fixes Parasite Eve 2 etc.)"
+msgstr ""
+
+msgctxt "#30635"
+msgid "Max cycles run by CPU before a GPU/DMA/MDEC/Timer Update is checked, higher number will be faster, has much less impact on beetle interpreter than dynarec."
+msgstr ""
+
+msgctxt "#30636"
+msgid "128 (Default)"
+msgstr ""
+
+msgctxt "#30637"
+msgid "384"
+msgstr ""
+
+msgctxt "#30638"
+msgid "512"
+msgstr ""
+
+msgctxt "#30639"
+msgid "640"
+msgstr ""
+
+msgctxt "#30640"
+msgid "768"
+msgstr ""
+
+msgctxt "#30641"
+msgid "896"
+msgstr ""
+
+msgctxt "#30642"
+msgid "1024"
+msgstr ""
+
+msgctxt "#30643"
+msgid "1152"
+msgstr ""
+
+msgctxt "#30644"
+msgid "1280"
+msgstr ""
+
+msgctxt "#30645"
+msgid "1408"
+msgstr ""
+
+msgctxt "#30646"
+msgid "1536"
+msgstr ""
+
+msgctxt "#30647"
+msgid "1664"
+msgstr ""
+
+msgctxt "#30648"
+msgid "1792"
+msgstr ""
+
+msgctxt "#30649"
+msgid "1920"
+msgstr ""
+
+msgctxt "#30650"
+msgid "2048"
+msgstr ""
+
+msgctxt "#30651"
+msgid "Max SPU samples to run before a SPU Update is checked, higher number will be faster, but will cause sound glitches in some games with anything other than 1."
+msgstr ""
+
+msgctxt "#30652"
+msgid "Dynarec SP GP Hit RAM Optimization"
+msgstr ""
+
+msgctxt "#30653"
+msgid "Enabled will generate faster code, but potentially crash, by assuming sp and gp registers always point to ram, disabled is more widely compatible"
+msgstr ""
+
+msgctxt "#30654"
+msgid "Compatibility Settings"
+msgstr ""
+
+msgctxt "#30655"
+msgid "Apply compatibility settings per game and per setting. Disable to allow user-selected settings to override them."
+msgstr ""
+
+msgctxt "#30656"
+msgid "Enabled (Recommended)"
+msgstr ""
+
+msgctxt "#30657"
+msgid "Disabled (Allow Overrides)"
+msgstr ""

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-supergrafx"
+		name="NEC - PC Engine SuperGrafx (Beetle SuperGrafx)"
+		version="1.29.0.54"
+		provider-name="Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.pce" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>NEC - PC Engine SuperGrafx</platforms>
+		<extensions>pce|sgx|cue|ccd|chd|toc|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>mednafen_supergrafx_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-supergrafx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">NEC - PC Engine SuperGrafx (Beetle SuperGrafx)</summary>
+		<summary lang="da_DK">NEC - PC Engine SuperGrafx (Beetle SuperGrafx)</summary>
+		<summary lang="en_GB">NEC - PC Engine SuperGrafx (Beetle SuperGrafx)</summary>
+		<summary lang="es_ES">NEC - PC Engine SuperGrafx (Beetle SuperGrafx)</summary>
+		<summary lang="ga">NEC - PC Engine SuperGrafx (Beetle SuperGrafx)</summary>
+		<summary lang="it_IT">NEC - PC Engine SuperGrafx (Beetle SuperGrafx)</summary>
+		<summary lang="ru_RU">NEC — PC Engine SuperGrafx (Beetle SuperGrafx)</summary>
+		<summary lang="sv_SE">NEC - PC Engine SuperGrafx (Beetle SuperGrafx)</summary>
+		<summary lang="zh_CN">NEC - PC 引擎 SuperGrafx (Beetle SuperGrafx)</summary>
+		<description lang="cs_CZ">Beetle SuperGrafx je emulátor PC Engine. Byl portován z Mednafen PCE Fast do libretro.</description>
+		<description lang="da_DK">Beetle SuperGrafx er en PC Engine-emulator. Det blev overført fra Mednafen PCE Fast til libretro.</description>
+		<description lang="de_DE">Beetle SuperGrafx ist ein PC-Engine-Emulator. Er wurde von Mednafen PCE Fast auf libretro portiert.</description>
+		<description lang="en_GB">Beetle SuperGrafx is a PC Engine emulator. It was ported from Mednafen PCE Fast to libretro.</description>
+		<description lang="es_ES">Beetle SuperGrafx es un emulador de PC Engine. Fue adaptado de Mednafen PCE Fast a libretro.</description>
+		<description lang="ga">Is aithriseoir inneall ríomhaire é Beetle SuperGrafx. Aistríodh é ó Mednafen PCE Fast go libretro.</description>
+		<description lang="it_IT">Beetle SuperGrafx è un emulatore di PC Engine. È stato convertito da Mednafen PCE Fast a libretro.</description>
+		<description lang="ru_RU">Beetle SuperGrafx — это эмулятор PC Engine. Он был перенесён с Mednafen PCE Fast на libretro.</description>
+		<description lang="sv_SE">Beetle SuperGrafx är en PC Engine-emulator. Den portades från Mednafen PCE Fast till libretro.</description>
+		<description lang="zh_CN">Beetle SuperGrafx 是一款 PC 引擎模拟器。它是从 Mednafen PCE Fast 移植到 libretro 的。</description>
+	</extension>
+</addon>

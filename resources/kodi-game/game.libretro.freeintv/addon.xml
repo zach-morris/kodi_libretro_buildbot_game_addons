@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.freeintv"
+		name="Mattel - Intellivision (FreeIntv)"
+		version="1.2.0.42"
+		provider-name="David Richardson">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.intellivision" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Mattel - Intellivision</platforms>
+		<extensions>int|bin|rom</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>freeintv_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2+</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.freeintv</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Mattel - Intellivision (FreeIntv)</summary>
+		<summary lang="da_DK">Mattel - Intellivision (FreeIntv)</summary>
+		<summary lang="en_GB">Mattel - Intellivision (FreeIntv)</summary>
+		<summary lang="es_ES">Mattel - Intellivision (FreeIntv)</summary>
+		<summary lang="ga">Mattel - Intellivision (FreeIntv)</summary>
+		<summary lang="it_IT">Mattel - Intellivision (FreeIntv)</summary>
+		<summary lang="ko_KR">마텔 - 인텔리버전 (FreeIntv)</summary>
+		<summary lang="ru_RU">Mattel - Intellivision (FreeIntv)</summary>
+		<summary lang="sv_SE">Mattel - Intellivision (FreeIntv)</summary>
+		<summary lang="zh_CN">美泰 - Intellivision (FreeIntv)</summary>
+		<description lang="cs_CZ">FreeIntv je emulační jádro Libretro pro Mattel Intellivision navržené pro kompatibilitu s gamepady.</description>
+		<description lang="da_DK">FreeIntv er en libretro-emuleringskerne til Mattel Intellivision designet til joypad-kompatibilitet.</description>
+		<description lang="de_DE">FreeIntv ist ein Libretro-Emulationskern für das Mattel Intellivision, der für Joypad-Kompatibilität entwickelt wurde.</description>
+		<description lang="en_GB">FreeIntv is a libretro emulation core for the Mattel Intellivision designed for joypad compatibility.</description>
+		<description lang="es_ES">FreeIntv es un núcleo de emulación libretro para Mattel Intellivision diseñado para ser compatible con joypad.</description>
+		<description lang="ga">Croílár aithrise libretro is ea FreeIntv don Mattel Intellivision atá deartha le haghaidh comhoiriúnacht ceap cluiche.</description>
+		<description lang="it_IT">FreeIntv è un core di emulazione libretro per Mattel Intellivision progettato per la compatibilità con i joypad.</description>
+		<description lang="ko_KR">FreeIntv는 조이패드 호환성을 위해 설계된 Mattel Intellivision용 라이브러리 에뮬레이션 코어입니다.</description>
+		<description lang="ru_RU">FreeIntv — ядро эмуляции libretro для Mattel Intellivision, разработанное для совместимости с джойстиками.</description>
+		<description lang="sv_SE">FreeIntv är en libretro-emuleringskärna för Mattel Intellivision som är utformad för joypad-kompatibilitet.</description>
+		<description lang="zh_CN">FreeIntv 是美泰 Intellivision 的 libretro 仿真核心，专为游戏手柄兼容性而设计。</description>
+	</extension>
+</addon>

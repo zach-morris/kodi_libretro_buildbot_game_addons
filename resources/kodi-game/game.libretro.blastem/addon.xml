@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.blastem"
+		name="Sega - MS/GG/MD/CD/32X (BlastEm)"
+		version="1.0.1.43"
+		provider-name="Mike Pavone">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.genesis.6button" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - MS/GG/MD/CD/32X</platforms>
+		<extensions>md|gen|smd|32x|sms|gg|sg|sg1|sc|sc3|sf7|col|cue|toc|iso|chd|vgm|vgz|flac|wav|bin|rom|gz</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>blastem_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.blastem</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sega - Mega Drive - Genesis (BlastEm)</summary>
+		<summary lang="da_DK">Sega - Mega Drive - Genesis (BlastEm)</summary>
+		<summary lang="en_GB">Sega - MS/GG/MD/CD/32X (BlastEm)</summary>
+		<summary lang="es_ES">Sega - Mega Drive - Genesis (BlastEm)</summary>
+		<summary lang="ga">Sega - Mega Drive - Genesis (BlastEm)</summary>
+		<summary lang="it_IT">Sega - Mega Drive - Genesis (BlastEm)</summary>
+		<summary lang="ko_KR">세가 - 메가 드라이브 - 제네시스(BlastEm)</summary>
+		<summary lang="ru_RU">Sega - Mega Drive - Genesis (BlastEm)</summary>
+		<summary lang="sv_SE">Sega - Mega Drive - Genesis (BlastEm)</summary>
+		<summary lang="zh_CN">世嘉 - Mega Drive - Genesis (BlastEm)</summary>
+		<description lang="cs_CZ">BlastEm je velmi přesný emulátor Genesis/Mega Drive s otevřeným zdrojovým kódem, který běží i na skromném hardwaru.</description>
+		<description lang="da_DK">BlastEm er en åben kildekode, meget nøjagtig emulator til Genesis/Megadrive, der kører på beskeden hardware.</description>
+		<description lang="de_DE">BlastEm ist ein quelloffener, hochpräziser Emulator für den Genesis/Megadrive, der auf anspruchsloser Hardware läuft.</description>
+		<description lang="en_GB">BlastEm is an open source, higly accurate emulator for the Genesis/Megadrive that runs on modest hardware.</description>
+		<description lang="es_ES">BlastEm es un emulador de código abierto de gran precisión para Genesis/Megadrive que funciona con hardware modesto.</description>
+		<description lang="fr_FR">BlastEm est un émulateur open source très précis pour Genesis/Megadrive qui fonctionne sur un matériel modeste.</description>
+		<description lang="ga">Is aithriseoir foinse oscailte, an-chruinn é BlastEm don Genesis/Megadrive a ritheann ar chrua-earraí measartha.</description>
+		<description lang="it_IT">BlastEm è un emulatore open source altamente accurato per Genesis/Megadrive che gira su hardware modesto.</description>
+		<description lang="ko_KR">BlastEm은 평범한 하드웨어에서 실행되는 Genesis/Megadrive를 위한 매우 정확한 오픈 소스 에뮬레이터입니다.</description>
+		<description lang="ru_RU">BlastEm — эмулятор для Genesis/Megadrive с открытым исходным кодом , работающий даже на слабом &quot;железе&quot;.</description>
+		<description lang="sv_SE">BlastEm är en emulator med öppen källkod och hög noggrannhet för Genesis/Megadrive som körs på blygsam hårdvara.</description>
+		<description lang="zh_CN">BlastEm 是一款开源、高精度的模拟器，适用于在普通硬件上运行 Genesis/Megadrive。</description>
+	</extension>
+</addon>

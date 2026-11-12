@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.scummvm"
+		name="ScummVM"
+		version="0.0.1.53"
+		provider-name="SCUMMVMdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions></extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<requires_opengl>true</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.scummvm</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">ScummVM</summary>
+		<summary lang="da_DK">ScummVM</summary>
+		<summary lang="en_GB">ScummVM</summary>
+		<summary lang="es_ES">ScummVM</summary>
+		<summary lang="it_IT">ScummVM</summary>
+		<summary lang="ru_RU">ScummVM</summary>
+		<summary lang="sv_SE">ScummVM</summary>
+		<summary lang="zh_CN">ScummVM</summary>
+		<description lang="cs_CZ">ScummVM je sada reimplementací herních enginů. ScummVM emuluje několik systémů, včetně systému SCUMM pro adventury LucasArts.</description>
+		<description lang="da_DK">ScummVM er en samling af spilmotorer. ScummVM emulerer flere systemer, inklusiv SCUMM-systemet til LucasArts eventyrspil.</description>
+		<description lang="de_DE">ScummVM ist eine Sammlung von Spiel-Engine-Nachbildungen. ScummVM emuliert mehrere Systeme, darunter das SCUMM-System für Adventure-Games von LucasArts.</description>
+		<description lang="en_GB">ScummVM is a collection of game engine recreations. ScummVM emulates several systems, including the SCUMM system for LucasArts adventure games.</description>
+		<description lang="es_ES">ScummVM es una colección de recreaciones de motores de juegos. ScummVM emula varios sistemas, entre ellos el sistema SCUMM de las aventuras gráficas de LucasArts.</description>
+		<description lang="it_IT">ScummVM è una raccolta di ricostruzioni di motori grafici per videogiochi. ScummVM emula diversi sistemi, tra cui il sistema SCUMM per i giochi d&apos;avventura di LucasArts.</description>
+		<description lang="ru_RU">ScummVM — это коллекция игровых движков, созданных заново. ScummVM эмулирует несколько систем, в том числе систему SCUMM для приключенческих игр LucasArts.</description>
+		<description lang="sl_SI">ScummVM je zbirka rekreacij igralnih mehanizmov. ScummVM posnema več sistemov, vključno s sistemom SCUMM za pustolovske igre LucasArts.</description>
+		<description lang="sv_SE">ScummVM är en samling återskapade spelmotorer. ScummVM emulerar flera system, bland annat SCUMM-systemet för LucasArts äventyrsspel.</description>
+		<description lang="zh_CN">ScummVM 是游戏引擎娱乐的集合。ScummVM 模拟了几个系统，包括卢卡斯艺术冒险游戏的 SCUMM 系统。</description>
+	</extension>
+</addon>

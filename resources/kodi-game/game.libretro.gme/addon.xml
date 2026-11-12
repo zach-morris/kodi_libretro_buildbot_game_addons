@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.gme"
+		name="Game Music Emu"
+		version="0.6.1.12"
+		provider-name="Blargg">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>ay|gbs|gym|hes|kss|nsf|nsfe|sap|spc|vgm|vgz|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>gme_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.gme</source>
+		<summary lang="cs_CZ">Game Music Emu</summary>
+		<summary lang="en_GB">Game Music Emu</summary>
+		<summary lang="es_ES">Game Music Emu</summary>
+		<summary lang="ga">Emu Ceol Cluiche</summary>
+		<summary lang="it_IT">Game Music Emu</summary>
+		<summary lang="ru_RU">Game Music Emu</summary>
+		<summary lang="sv_SE">Game Music Emu</summary>
+		<summary lang="zh_CN">游戏音乐 Emu</summary>
+		<description lang="cs_CZ">Port knihovny Game Music Emu od blargga.</description>
+		<description lang="en_GB">Port of blargg&apos;s Game Music Emu library.</description>
+		<description lang="es_ES">Adaptación de la biblioteca Game Music Emu de blargg.</description>
+		<description lang="ga">Leabharlann Emu Ceoil Cluiche Calafoirt blargg.</description>
+		<description lang="it_IT">Porta della libreria Game Music Emu di blargg.</description>
+		<description lang="ru_RU">Порт библиотеки Game Music Emu от blargg.</description>
+		<description lang="sv_SE">Port av blarggs Game Music Emu-bibliotek.</description>
+		<description lang="zh_CN">blargg 游戏音乐 Emu 库的移植。</description>
+	</extension>
+</addon>

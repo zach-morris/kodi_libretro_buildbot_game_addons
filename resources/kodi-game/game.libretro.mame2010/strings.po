@@ -1,0 +1,306 @@
+# game.libretro.mame2010 language file
+# Addon Name: game.libretro.mame2010
+# Addon id: game.libretro.mame2010
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mame2010\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2018-09-02 20:26i\n"
+"PO-Revision-Date: 2024-12-27 21:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mame2010/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (MAME 2010)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Late 2010 version of MAME (0.139) for libretro. Compatible with MAME 0.139 sets."
+msgstr ""
+
+msgctxt "#30001"
+msgid "XY device type (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Video approach 1 Enabled"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Hide nag screen"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Hide game info screen"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Hide warning screen"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Core provided aspect ratio"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Enable autofire"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Set autofire pulse speed"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Set frameskip"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Set brightness"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Set contrast"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Set gamma"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Use external hiscore.dat"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Enable multithreading (Restart)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "QSound HLE spatial filter (Restart)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Sample rate hint (Restart)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "mouse"
+msgstr ""
+
+msgctxt "#30019"
+msgid "lightgun"
+msgstr ""
+
+msgctxt "#30020"
+msgid "button 1"
+msgstr ""
+
+msgctxt "#30021"
+msgid "button 2"
+msgstr ""
+
+msgctxt "#30022"
+msgid "R2 to button 1 mapping"
+msgstr ""
+
+msgctxt "#30023"
+msgid "R2 to button 2 mapping"
+msgstr ""
+
+msgctxt "#30024"
+msgid "48000Hz"
+msgstr ""
+
+msgctxt "#30025"
+msgid "44100Hz"
+msgstr ""
+
+msgctxt "#30026"
+msgid "32000Hz"
+msgstr ""
+
+msgctxt "#30027"
+msgid "22050Hz"
+msgstr ""
+
+msgctxt "#30028"
+msgid "11025Hz"
+msgstr ""
+
+msgctxt "#30029"
+msgid "8000Hz"
+msgstr ""
+
+msgctxt "#30030"
+msgid "96000Hz"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30032"
+msgid "+1%"
+msgstr ""
+
+msgctxt "#30033"
+msgid "+2%"
+msgstr ""
+
+msgctxt "#30034"
+msgid "+3%"
+msgstr ""
+
+msgctxt "#30035"
+msgid "+4%"
+msgstr ""
+
+msgctxt "#30036"
+msgid "+5%"
+msgstr ""
+
+msgctxt "#30037"
+msgid "+6%"
+msgstr ""
+
+msgctxt "#30038"
+msgid "+7%"
+msgstr ""
+
+msgctxt "#30039"
+msgid "+8%"
+msgstr ""
+
+msgctxt "#30040"
+msgid "+9%"
+msgstr ""
+
+msgctxt "#30041"
+msgid "+10%"
+msgstr ""
+
+msgctxt "#30042"
+msgid "+11%"
+msgstr ""
+
+msgctxt "#30043"
+msgid "+12%"
+msgstr ""
+
+msgctxt "#30044"
+msgid "+13%"
+msgstr ""
+
+msgctxt "#30045"
+msgid "+14%"
+msgstr ""
+
+msgctxt "#30046"
+msgid "+15%"
+msgstr ""
+
+msgctxt "#30047"
+msgid "+16%"
+msgstr ""
+
+msgctxt "#30048"
+msgid "+17%"
+msgstr ""
+
+msgctxt "#30049"
+msgid "+18%"
+msgstr ""
+
+msgctxt "#30050"
+msgid "+19%"
+msgstr ""
+
+msgctxt "#30051"
+msgid "+20%"
+msgstr ""
+
+msgctxt "#30052"
+msgid "-20%"
+msgstr ""
+
+msgctxt "#30053"
+msgid "-19%"
+msgstr ""
+
+msgctxt "#30054"
+msgid "-18%"
+msgstr ""
+
+msgctxt "#30055"
+msgid "-17%"
+msgstr ""
+
+msgctxt "#30056"
+msgid "-16%"
+msgstr ""
+
+msgctxt "#30057"
+msgid "-15%"
+msgstr ""
+
+msgctxt "#30058"
+msgid "-14%"
+msgstr ""
+
+msgctxt "#30059"
+msgid "-13%"
+msgstr ""
+
+msgctxt "#30060"
+msgid "-12%"
+msgstr ""
+
+msgctxt "#30061"
+msgid "-11%"
+msgstr ""
+
+msgctxt "#30062"
+msgid "-10%"
+msgstr ""
+
+msgctxt "#30063"
+msgid "-9%"
+msgstr ""
+
+msgctxt "#30064"
+msgid "-8%"
+msgstr ""
+
+msgctxt "#30065"
+msgid "-7%"
+msgstr ""
+
+msgctxt "#30066"
+msgid "-6%"
+msgstr ""
+
+msgctxt "#30067"
+msgid "-5%"
+msgstr ""
+
+msgctxt "#30068"
+msgid "-4%"
+msgstr ""
+
+msgctxt "#30069"
+msgid "-3%"
+msgstr ""
+
+msgctxt "#30070"
+msgid "-2%"
+msgstr ""
+
+msgctxt "#30071"
+msgid "-1%"
+msgstr ""

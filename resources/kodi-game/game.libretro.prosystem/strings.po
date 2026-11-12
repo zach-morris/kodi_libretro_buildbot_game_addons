@@ -1,0 +1,154 @@
+# game.libretro.prosystem language file
+# Addon Name: game.libretro.prosystem
+# Addon id: game.libretro.prosystem
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.prosystem\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-05-02 01:16i\n"
+"PO-Revision-Date: 2024-12-27 22:03+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-prosystem/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Atari - 7800 (ProSystem)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "ProSystem is an Atari 7800 emulator.[CR][CR]Place [I]7800 BIOS (U).rom[/I] (optional) in the emulator's userdata folder."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Color Depth (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Audio Filter"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Audio Filter Level"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Dual Stick Controller"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Specifies number of colors to display on-screen. 24-bit may increase performance overheads on some platforms."
+msgstr ""
+
+msgctxt "#30007"
+msgid "Thousands (16-bit)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Millions (24-bit)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Enables a low pass audio filter to soften the 'harsh' sound produced by the Atari 7800's TIA chip."
+msgstr ""
+
+msgctxt "#30011"
+msgid "Specifies the cut-off frequency of the low pass audio filter. A higher value increases the perceived 'strength' of the filter, since a wider range of the high frequency spectrum is attenuated."
+msgstr ""
+
+msgctxt "#30012"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30013"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30014"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30015"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30016"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30017"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30018"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30019"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30020"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30021"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30022"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30023"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30024"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30025"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30026"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30027"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30028"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30029"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30030"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Maps Player 2's joystick to the right analog stick of Player 1's RetroPad. Enables dual stick control in supported games (e.g. Robotron: 2084, T:ME Salvo)."
+msgstr ""

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.smsplus-gx"
+		name="Sega - MS/GG (SMS Plus GX)"
+		version="1.8.0.43"
+		provider-name="Charles MacDonald, gameblabla">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - MS/GG</platforms>
+		<extensions>sms|bin|rom|col|gg|sg</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>smsplus_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.smsplus-gx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sega - MS/GG (SMS Plus GX)</summary>
+		<summary lang="da_DK">Sega - MS/GG (SMS Plus GX)</summary>
+		<summary lang="en_GB">Sega - MS/GG (SMS Plus GX)</summary>
+		<summary lang="es_ES">Sega - MS/GG (SMS Plus GX)</summary>
+		<summary lang="ga">Sega - MS/GG (SMS Plus GX)</summary>
+		<summary lang="it_IT">Sega - MS/GG (SMS Plus GX)</summary>
+		<summary lang="ru_RU">Sega — MS/GG (SMS Plus GX)</summary>
+		<summary lang="sv_SE">Sega - MS/GG (SMS Plus GX)</summary>
+		<summary lang="zh_CN">世嘉 - MS/GG (SMS Plus GX)</summary>
+		<description lang="cs_CZ">SMS Plus GX je port původního emulátoru Sega Master System pro Nintendo GameCube.</description>
+		<description lang="da_DK">SMS Plus GX er en port af den originale Sega Master System-emulator til Nintendo GameCube.</description>
+		<description lang="en_GB">SMS Plus GX is a port of the original Sega Master System emulator for the Nintendo GameCube.</description>
+		<description lang="es_ES">SMS Plus GX es una adaptación del emulador original de Sega Master System para Nintendo GameCube.</description>
+		<description lang="ga">Is port den aithriseoir bunaidh Sega Master System don Nintendo GameCube é SMS Plus GX.</description>
+		<description lang="it_IT">SMS Plus GX è un port dell&apos;emulatore originale Sega Master System per Nintendo GameCube.</description>
+		<description lang="ru_RU">SMS Plus GX — это порт оригинального эмулятора Sega Master System для Nintendo GameCube.</description>
+		<description lang="sl_SI">SMS Plus GX je pristanišče originalnega emulatorja Sega Master System za Nintendo GameCube.</description>
+		<description lang="sv_SE">SMS Plus GX är en portning av den ursprungliga Sega Master System-emulatorn för Nintendo GameCube.</description>
+		<description lang="zh_CN">SMS Plus GX 是任天堂 GameCube 上的原始世嘉 Master System 模拟器的一个移植。</description>
+		<disclaimer lang="cs_CZ">Do libretro portoval gameblabla</disclaimer>
+		<disclaimer lang="da_DK">Udviklet til libretro af gameblabla</disclaimer>
+		<disclaimer lang="en_GB">Ported to libretro by gameblabla</disclaimer>
+		<disclaimer lang="es_ES">Adaptado a libretro por gameblabla</disclaimer>
+		<disclaimer lang="ga">Iompórtáilte chuig libretro ag gameblabla</disclaimer>
+		<disclaimer lang="it_IT">Portato su libretro da gameblabla</disclaimer>
+		<disclaimer lang="ru_RU">Портирован на libretro gameblabla</disclaimer>
+		<disclaimer lang="sl_SI">Gameblabla prenesla v libretro</disclaimer>
+		<disclaimer lang="sv_SE">Portad till libretro av gameblabla</disclaimer>
+		<disclaimer lang="zh_CN">gameblabla 将其移植到 libretro</disclaimer>
+	</extension>
+</addon>

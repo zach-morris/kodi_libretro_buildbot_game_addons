@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.snes9x">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="snes9x_region" type="string" label="30001" help="30052">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30053">auto</option>
+							<option label="30054">ntsc</option>
+							<option label="30055">pal</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_aspect" type="string" label="30002" help="30056">
+					<level>0</level>
+					<default>4:3</default>
+					<constraints>
+						<options>
+							<option label="30115">4:3</option>
+							<option label="30057">4:3 scaled</option>
+							<option label="30058">uncorrected</option>
+							<option label="30053">auto</option>
+							<option label="30054">ntsc</option>
+							<option label="30055">pal</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_overscan" type="string" label="30003" help="30059">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30060">enabled</option>
+							<option label="30061">12_pixels</option>
+							<option label="30062">16_pixels</option>
+							<option label="30063">auto</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_mode7_hires" type="string" label="30047" help="30064">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30065">2x</option>
+							<option label="30066">4x</option>
+							<option label="30067">2x_hv</option>
+							<option label="30068">4x_hv</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_mode7_hires_bilinear" type="string" label="30048" help="30069">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30070">stable</option>
+							<option label="30071">smooth</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_hires_blend" type="string" label="30004" help="30072">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30073">merge</option>
+							<option label="30074">blur</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_blargg" type="string" label="30005" help="30075">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30076">monochrome</option>
+							<option label="30077">rf</option>
+							<option label="30078">composite</option>
+							<option label="30079">s-video</option>
+							<option label="30080">rgb</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_audio_interpolation" type="string" label="30006" help="30081">
+					<level>0</level>
+					<default>gaussian</default>
+					<constraints>
+						<options>
+							<option label="30082">gaussian</option>
+							<option label="30083">cubic</option>
+							<option label="30084">sinc</option>
+							<option label="30085">none</option>
+							<option label="30086">linear</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_up_down_allowed" type="string" label="30007" help="30087">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_show_lightgun_settings" type="string" label="30088" help="30089">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_msu1_enhanced_audio" type="string" label="30050" help="30090">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_show_advanced_av_settings" type="string" label="30091" help="30092">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30093" help="30094">
+			<group id="1">
+				<setting id="snes9x_overclock_superfx" type="string" label="30008" help="30095">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>50%</option>
+							<option>60%</option>
+							<option>70%</option>
+							<option>80%</option>
+							<option>90%</option>
+							<option>100%</option>
+							<option>150%</option>
+							<option>200%</option>
+							<option>250%</option>
+							<option>300%</option>
+							<option>350%</option>
+							<option>400%</option>
+							<option>450%</option>
+							<option>500%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_superfx_timing" type="string" label="30051" help="30096">
+					<level>0</level>
+					<default>compat</default>
+					<constraints>
+						<options>
+							<option label="30097">compat</option>
+							<option label="30098">hardware</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_overclock_cycles" type="string" label="30009" help="30099">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30100">light</option>
+							<option label="30101">compatible</option>
+							<option label="30102">max</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_reduce_sprite_flicker" type="string" label="30010" help="30103">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_randomize_memory" type="string" label="30011" help="30104">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_block_invalid_vram_access" type="string" label="30012" help="30105">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_echo_buffer_hack" type="string" label="30013" help="30106">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="lightgun" label="30107" help="30108">
+			<group id="1">
+				<setting id="snes9x_lightgun_mode" type="string" label="30014" help="30109">
+					<level>0</level>
+					<default>Lightgun</default>
+					<constraints>
+						<options>
+							<option label="30107">Lightgun</option>
+							<option label="30116">Touchscreen</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_superscope_reverse_buttons" type="string" label="30015" help="30110">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_superscope_crosshair" type="string" label="30016" help="30111">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_superscope_color" type="string" label="30017" help="30112">
+					<level>0</level>
+					<default>White</default>
+					<constraints>
+						<options>
+							<option>White</option>
+							<option>White (blend)</option>
+							<option>Red</option>
+							<option>Red (blend)</option>
+							<option>Orange</option>
+							<option>Orange (blend)</option>
+							<option>Yellow</option>
+							<option>Yellow (blend)</option>
+							<option>Green</option>
+							<option>Green (blend)</option>
+							<option>Cyan</option>
+							<option>Cyan (blend)</option>
+							<option>Sky</option>
+							<option>Sky (blend)</option>
+							<option>Blue</option>
+							<option>Blue (blend)</option>
+							<option>Violet</option>
+							<option>Violet (blend)</option>
+							<option>Pink</option>
+							<option>Pink (blend)</option>
+							<option>Purple</option>
+							<option>Purple (blend)</option>
+							<option>Black</option>
+							<option>Black (blend)</option>
+							<option>25% Grey</option>
+							<option>25% Grey (blend)</option>
+							<option>50% Grey</option>
+							<option>50% Grey (blend)</option>
+							<option>75% Grey</option>
+							<option>75% Grey (blend)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_justifier1_crosshair" type="string" label="30018" help="30111">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_justifier1_color" type="string" label="30019" help="30112">
+					<level>0</level>
+					<default>Blue</default>
+					<constraints>
+						<options>
+							<option>Blue</option>
+							<option>Blue (blend)</option>
+							<option>Violet</option>
+							<option>Violet (blend)</option>
+							<option>Pink</option>
+							<option>Pink (blend)</option>
+							<option>Purple</option>
+							<option>Purple (blend)</option>
+							<option>Black</option>
+							<option>Black (blend)</option>
+							<option>25% Grey</option>
+							<option>25% Grey (blend)</option>
+							<option>50% Grey</option>
+							<option>50% Grey (blend)</option>
+							<option>75% Grey</option>
+							<option>75% Grey (blend)</option>
+							<option>White</option>
+							<option>White (blend)</option>
+							<option>Red</option>
+							<option>Red (blend)</option>
+							<option>Orange</option>
+							<option>Orange (blend)</option>
+							<option>Yellow</option>
+							<option>Yellow (blend)</option>
+							<option>Green</option>
+							<option>Green (blend)</option>
+							<option>Cyan</option>
+							<option>Cyan (blend)</option>
+							<option>Sky</option>
+							<option>Sky (blend)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_justifier2_crosshair" type="string" label="30020" help="30111">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_justifier2_color" type="string" label="30021" help="30112">
+					<level>0</level>
+					<default>Pink</default>
+					<constraints>
+						<options>
+							<option>Pink</option>
+							<option>Pink (blend)</option>
+							<option>Purple</option>
+							<option>Purple (blend)</option>
+							<option>Black</option>
+							<option>Black (blend)</option>
+							<option>25% Grey</option>
+							<option>25% Grey (blend)</option>
+							<option>50% Grey</option>
+							<option>50% Grey (blend)</option>
+							<option>75% Grey</option>
+							<option>75% Grey (blend)</option>
+							<option>White</option>
+							<option>White (blend)</option>
+							<option>Red</option>
+							<option>Red (blend)</option>
+							<option>Orange</option>
+							<option>Orange (blend)</option>
+							<option>Yellow</option>
+							<option>Yellow (blend)</option>
+							<option>Green</option>
+							<option>Green (blend)</option>
+							<option>Cyan</option>
+							<option>Cyan (blend)</option>
+							<option>Sky</option>
+							<option>Sky (blend)</option>
+							<option>Blue</option>
+							<option>Blue (blend)</option>
+							<option>Violet</option>
+							<option>Violet (blend)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_rifle_crosshair" type="string" label="30022" help="30111">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_rifle_color" type="string" label="30023" help="30112">
+					<level>0</level>
+					<default>White</default>
+					<constraints>
+						<options>
+							<option>White</option>
+							<option>White (blend)</option>
+							<option>Red</option>
+							<option>Red (blend)</option>
+							<option>Orange</option>
+							<option>Orange (blend)</option>
+							<option>Yellow</option>
+							<option>Yellow (blend)</option>
+							<option>Green</option>
+							<option>Green (blend)</option>
+							<option>Cyan</option>
+							<option>Cyan (blend)</option>
+							<option>Sky</option>
+							<option>Sky (blend)</option>
+							<option>Blue</option>
+							<option>Blue (blend)</option>
+							<option>Violet</option>
+							<option>Violet (blend)</option>
+							<option>Pink</option>
+							<option>Pink (blend)</option>
+							<option>Purple</option>
+							<option>Purple (blend)</option>
+							<option>Black</option>
+							<option>Black (blend)</option>
+							<option>25% Grey</option>
+							<option>25% Grey (blend)</option>
+							<option>50% Grey</option>
+							<option>50% Grey (blend)</option>
+							<option>75% Grey</option>
+							<option>75% Grey (blend)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced_av" label="30113" help="30114">
+			<group id="1">
+				<setting id="snes9x_layer_1" type="string" label="30024">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_layer_2" type="string" label="30025">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_layer_3" type="string" label="30026">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_layer_4" type="string" label="30027">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_layer_5" type="string" label="30028">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_gfx_transp" type="string" label="30030">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_sndchan_volume_1" type="string" label="30039">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_sndchan_volume_2" type="string" label="30040">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_sndchan_volume_3" type="string" label="30041">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_sndchan_volume_4" type="string" label="30042">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_sndchan_volume_5" type="string" label="30043">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_sndchan_volume_6" type="string" label="30044">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_sndchan_volume_7" type="string" label="30045">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="snes9x_sndchan_volume_8" type="string" label="30046">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

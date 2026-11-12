@@ -1,0 +1,194 @@
+# game.libretro.cap32 language file
+# Addon Name: game.libretro.cap32
+# Addon id: game.libretro.cap32
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.cap32\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-cap32/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Amstrad - CPC/GX4000 (Caprice32)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Caprice32 is an emulator for the Amstrad CPC 8-bit home computer series. It faithfully imitates the CPC464, CPC664, and CPC6128 models."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Written by Ulrich Doewich"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Model"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Status Bar"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Keyboard Transparency"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Floppy Sound"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Monitor Type"
+msgstr ""
+
+msgctxt "#30017"
+msgid "CPC Language"
+msgstr ""
+
+msgctxt "#30021"
+msgid "System"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Green Phosphor blueish"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Monitor Intensity"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Color Depth"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Crop Screen Borders"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Controls"
+msgstr ""
+
+msgctxt "#30028"
+msgid "User 1 Controller Config"
+msgstr ""
+
+msgctxt "#30029"
+msgid "User 2 Controller Config"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Combo Key"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Use internal Remap DB"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Light Gun"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Show Crosshair"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Autorun"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Ram size"
+msgstr ""
+
+msgctxt "#30038"
+msgid "onloading"
+msgstr ""
+
+msgctxt "#30039"
+msgid "qaop"
+msgstr ""
+
+msgctxt "#30040"
+msgid "incentive"
+msgstr ""
+
+msgctxt "#30041"
+msgid "joystick_port1"
+msgstr ""
+
+msgctxt "#30042"
+msgid "joystick_port2"
+msgstr ""
+
+msgctxt "#30043"
+msgid "select"
+msgstr ""
+
+msgctxt "#30044"
+msgid "y"
+msgstr ""
+
+msgctxt "#30045"
+msgid "b"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Tape Loading Speed"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Fast-forward while the tape is running and the program frequently reads its input. Internal timing is unchanged. Toggle frontend fast-forward off to cancel until the tape stops. Requires frontend fast-forward override support."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30051"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30052"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Maximum"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Amstrad Magnum Phaser"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Gun-Stick"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Loriciel West Phaser"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Trojan Phazer (CPC Plus / GX4000)"
+msgstr ""

@@ -1,0 +1,6 @@
+requests
+urllib3
+pandas
+xmltodict
+libretro.py
+Pillow

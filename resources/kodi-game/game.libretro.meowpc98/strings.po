@@ -1,0 +1,142 @@
+# game.libretro.meowpc98 language file
+# Addon Name: game.libretro.meowpc98
+# Addon id: game.libretro.meowpc98
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.meowpc98\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 12:22i\n"
+"PO-Revision-Date: 2024-12-27 21:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-meowpc98/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "NEC - PC-98 (Neko Project II)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Neko Project II is an excellent PC-98 emulator.[CR][CR]PC-98 is a lineup of Japanese 16-bit and 32-bit personal computers manufactured by NEC from 1982 to 2000."
+msgstr ""
+
+msgctxt "#30001"
+msgid "PC Model (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "CPU Base Clock (Restart)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "CPU Clock Multiplier (Restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "RAM Size (Restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Skipline Revisions"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Sound Board (Restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "JastSound"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Volume FM"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Volume SSG"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Volume ADPCM"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Volume PCM"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Volume RHYTHM"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Floppy Seek Sound (Restart)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Volume Floppy Seek (Restart)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Volume Beep"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Gui Controller"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Gui Joy0 PAS"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Full 255 lines"
+msgstr ""
+
+msgctxt "#30019"
+msgid "PC9801-86"
+msgstr ""
+
+msgctxt "#30020"
+msgid "PC9801-26K + 86"
+msgstr ""
+
+msgctxt "#30021"
+msgid "PC9801-86 + Chibi-Oto"
+msgstr ""
+
+msgctxt "#30022"
+msgid "PC9801-118"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Speak Board"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Spark Board"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Sound Orchestra"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Sound Orchestra-V"
+msgstr ""
+
+msgctxt "#30027"
+msgid "AMD-98"
+msgstr ""
+
+msgctxt "#30028"
+msgid "PC9801-14"
+msgstr ""
+
+msgctxt "#30029"
+msgid "PC9801-26K"
+msgstr ""

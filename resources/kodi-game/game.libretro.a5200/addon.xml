@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.a5200"
+		name="Atari - 5200 (a5200)"
+		version="2.0.2.28"
+		provider-name="Petr Stehlik, zx81, Alekmaul, wavemotion-dave">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.atari.5200" version="1.0.32"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Atari - 5200</platforms>
+		<extensions>a52|bin</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>a5200_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.a5200</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Atari - 5200 (a5200)</summary>
+		<summary lang="da_DK">Atari - 5200 (a5200)</summary>
+		<summary lang="en_GB">Atari - 5200 (a5200)</summary>
+		<summary lang="es_ES">Atari - 5200 (a5200)</summary>
+		<summary lang="ga">Atari - 5200 (a5200)</summary>
+		<summary lang="it_IT">Atari - 5200 (a5200)</summary>
+		<summary lang="ru_RU">Atari — 5200 (a5200)</summary>
+		<summary lang="sv_SE">Atari - 5200 (a5200)</summary>
+		<summary lang="zh_CN">雅达利 - 5200（a5200）</summary>
+		<description lang="cs_CZ">a5200 je port emulátoru Atari 5200 pro libretro.[CR][CR]Toto jádro, původně vyvinuté pro GCW Zero, běží rychle i na méně výkonném hardwaru.</description>
+		<description lang="en_GB">a5200 is a port of the Atari 5200 emulator to libretro.[CR][CR]Originally developed for the GCW Zero, this core runs fast on low-powered hardware.</description>
+		<description lang="es_ES">a5200 es un port del emulador de Atari 5200 de libretro.[CR][CR]Desarrollado originalmente para el GCW Zero, este core es más rápido en dispositivos de baja potencia.</description>
+		<description lang="ga">Is port den aithriseoir Atari 5200 chuig libretro é a5200.[CR][CR]Forbraíodh an croí seo ar dtús don GCW Zero, agus ritheann sé go tapa ar chrua-earraí ísealchumhachta.</description>
+		<description lang="it_IT">a5200 è un port dell&apos;emulatore Atari 5200 su libretro.[CR][CR]Sviluppato originariamente per GCW Zero, questo core funziona velocemente su hardware a bassa potenza.</description>
+		<description lang="ru_RU">a5200 — это порт эмулятора Atari 5200 на libretro.[CR][CR]Изначально разработанный для GCW Zero, это ядро быстро работает на маломощном оборудовании.</description>
+		<description lang="sv_SE">a5200 är en port av Atari 5200-emulatorn till libretro.[CR][CR]Den här kärnan utvecklades ursprungligen för GCW Zero och körs snabbt på maskinvara med låg effekt.</description>
+		<description lang="zh_CN">a5200 是雅达利 5200 模拟器到 libretro 的移植。[CR][CR]最初是为 GCW Zero 开发的，该核心在低功耗硬件上运行速度快。</description>
+	</extension>
+</addon>

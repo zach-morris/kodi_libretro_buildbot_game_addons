@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.tyrquake"
+		name="Quake (TyrQuake)"
+		version="0.62.0.62"
+		provider-name="Kevin Shanahan (Tyrann)">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Quake</platforms>
+		<extensions>pak</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>tyrquake_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.tyrquake</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Quake (TyrQuake)</summary>
+		<summary lang="da_DK">Quake (TyrQuake)</summary>
+		<summary lang="en_GB">Quake (TyrQuake)</summary>
+		<summary lang="es_ES">Quake (TyrQuake)</summary>
+		<summary lang="ga">Quake (TyrQuake)</summary>
+		<summary lang="it_IT">Quake (TyrQuake)</summary>
+		<summary lang="ru_RU">Quake (TyrQuake)</summary>
+		<summary lang="sv_SE">Quake (TyrQuake)</summary>
+		<summary lang="zh_CN">雷神之锤（TyrQuake）</summary>
+		<description lang="cs_CZ">Tyr-Quake je větev zdrojového kódu Quake vydaného společností id Software. Je určena pro podporu Quake a QuakeWorld a zároveň opravuje drobné chyby, které se v průběhu let objevily.</description>
+		<description lang="da_DK">Tyr-Quake er et branch af Quake-kildekoden udgivet af id Software. Det er beregnet til at understøtte Quake og Quakeworld og rette små fejl, der er dukket op gennem årene.</description>
+		<description lang="de_DE">Tyr-Quake ist ein Ableger des Quake-Quellcodes, der von id Software veröffentlicht wurde. Er ist dafür vorgesehen, Quake und Quakeworld zu unterstützen und gleichzeitig kleine Fehler zu beheben, die im Laufe der Jahre aufgetreten sind.</description>
+		<description lang="en_GB">Tyr-Quake is a branch of the Quake source code released by id Software. It is intended to support Quake and Quakeworld while fixing little bugs that have come up over the years.</description>
+		<description lang="es_ES">Tyr-Quake es una rama del código fuente de Quake publicada por id Software. Su objetivo es dar soporte a Quake y Quakeworld al mismo tiempo que se corrigen pequeños errores que han ido apareciendo a lo largo de los años.</description>
+		<description lang="ga">Is brainse den chód foinse Quake é Tyr-Quake arna eisiúint ag id Software. Tá sé beartaithe tacú le Quake agus Quakeworld agus fabhtanna beaga atá tagtha chun cinn thar na blianta a shocrú ag an am céanna.</description>
+		<description lang="it_IT">Tyr-Quake è una derivazione del codice sorgente di Quake rilasciata da id Software. Il suo scopo è supportare Quake e Quakeworld, correggendo al contempo i piccoli bug emersi nel corso degli anni.</description>
+		<description lang="ru_RU">Tyr-Quake — это ветка исходного кода Quake, выпущенного id Software. Она предназначена для поддержки Quake и Quakeworld с исправлением мелких ошибок, возникавших за прошедшие годы.</description>
+		<description lang="sl_SI">Tyr-Quake je veja izvorne kode Quake, ki jo je izdal id Software. Namenjen je podpori Quake in Quakeworld, medtem ko popravlja majhne napake, ki so se pojavile v preteklih letih.</description>
+		<description lang="sv_SE">Tyr-Quake är en gren av Quake-källkoden som släppts av id Software. Den är avsedd att stödja Quake och Quakeworld samtidigt som den fixar små buggar som har dykt upp genom åren.</description>
+		<description lang="zh_CN">Tyr-Quake 是 id 软件发布的 Quake 源代码的一个分支。它旨在支持 Quake 和 Quakeworld，同时修复多年来出现的小错误。</description>
+	</extension>
+</addon>

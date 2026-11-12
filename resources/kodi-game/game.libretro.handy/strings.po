@@ -1,0 +1,146 @@
+# game.libretro.handy language file
+# Addon Name: game.libretro.handy
+# Addon id: game.libretro.handy
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.handy\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-handy/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Atari - Lynx (Handy)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Handy is an Atari Lynx emulator by K. Wilkins for Windows 95/98/NT/2000/XP."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Video Refresh Rate"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Display Rotation"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Color Depth (Restart Required)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "LCD Ghosting Filter"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "CPU Overclock Multiplier"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Set video update frequency. Internally, the Lynx renders at a variable rate from 0 to 75Hz. Frames that occur between video update events will be dropped. Higher rates may increase video smoothness (depending on actual game frame rate) but can cause tearing on 60Hz displays."
+msgstr ""
+
+msgctxt "#30009"
+msgid "50Hz"
+msgstr ""
+
+msgctxt "#30010"
+msgid "60Hz"
+msgstr ""
+
+msgctxt "#30011"
+msgid "75Hz"
+msgstr ""
+
+msgctxt "#30012"
+msgid "100Hz"
+msgstr ""
+
+msgctxt "#30013"
+msgid "120Hz"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Rotate the virtual console screen to achieve the correct layout of 'portrait' oriented games on a conventional (landscape) display."
+msgstr ""
+
+msgctxt "#30015"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Clockwise"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Bottom"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Anticlockwise"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Specify number of colors to display on-screen. 24-bit significantly increases performance overheads and is not available on all platforms."
+msgstr ""
+
+msgctxt "#30021"
+msgid "Thousands (16-bit)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Millions (24-bit)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Apply an image 'ghosting' effect by blending multiple successive video frames. Mimics the display characteristics of the Lynx's LCD panel and helps to smooth the appearance of low frame rate games. Higher frame counts improve the effect at the expense of increased performance overheads."
+msgstr ""
+
+msgctxt "#30024"
+msgid "2 Frames"
+msgstr ""
+
+msgctxt "#30025"
+msgid "3 Frames"
+msgstr ""
+
+msgctxt "#30026"
+msgid "4 Frames"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Higher values can reduce slowdowns in games. WARNING: Can cause glitches and crashes."
+msgstr ""
+
+msgctxt "#30028"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Manual' utilizes the 'Frameskip Threshold (%)' setting."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30030"
+msgid "When 'Frameskip' is set to 'Manual', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.o2em"
+		name="Magnavox - Odyssey2 / Philips Videopac+ (O2EM)"
+		version="1.18.0.59"
+		provider-name="Daniel Boris, Andre de la Rocha, Arlindo M. de Oliveira">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.odyssey2" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Magnavox - Odyssey2 / Philips Videopac+</platforms>
+		<extensions>bin</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>o2em_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Artistic License</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.o2em</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.png</screenshot>
+			<screenshot>resources/screenshot-02.png</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Magnavox - Odyssey2 / Philips Videopac+ (O2EM)</summary>
+		<summary lang="da_DK">Magnavox - Odyssey2 / Philips Videopac+ (O2EM)</summary>
+		<summary lang="en_GB">Magnavox - Odyssey2 / Philips Videopac+ (O2EM)</summary>
+		<summary lang="es_ES">Magnavox - Odyssey2 / Philips Videopac+ (O2EM)</summary>
+		<summary lang="fi_FI">Magnavox - Odyssey2/Philips Videopac+ (O2EM)</summary>
+		<summary lang="ga">Magnavox - Odyssey2 / Philips Videopac+ (O2EM)</summary>
+		<summary lang="it_IT">Magnavox - Odyssey2 / Philips Videopac+ (O2EM)</summary>
+		<summary lang="ru_RU">Magnavox — Odyssey2 / Philips Videopac+ (O2EM)</summary>
+		<summary lang="sv_SE">Magnavox - Odyssey2 / Philips Videopac+ (O2EM)</summary>
+		<summary lang="zh_CN">Magnavox - Odyssey2 / 飞利浦 Videopac+ （O2EM）</summary>
+		<description lang="cs_CZ">O2EM je emulátor Odyssey² / VideoPac.[CR][CR]Umístěte [I]o2rom.bin[/I] (vyžadováno) do složky userdata.</description>
+		<description lang="da_DK">O2EM er en Odyssey² / VideoPac-emulator.[CR][CR]Placer [I]o2rom.bin[/I] (påkrævet) i din userdata mappe.</description>
+		<description lang="en_GB">O2EM is an Odyssey² / VideoPac emulator.[CR][CR]Place [I]o2rom.bin[/I] (required) in your userdata folder.</description>
+		<description lang="es_ES">O2EM es un emulador de Odyssey² / VideoPac.[CR][CR]Coloca [I]o2rom.bin[/I] (requerido) en tu carpeta userdata.</description>
+		<description lang="fi_FI">O2EM on Odyssey²/VideoPac-emulaattori.[CR][CR]Sijoita[I]o2rom.bin[/I] (vaaditaan) userdata-kansioosi.</description>
+		<description lang="ga">Is aithriseoir Odyssey² / VideoPac é O2EM.[CR][CR]Cuir [I]o2rom.bin[/I] (riachtanach) i do fhillteán sonraí úsáideora.</description>
+		<description lang="it_IT">O2EM è un emulatore Odyssey² / VideoPac.[CR][CR]Inserisci [I]o2rom.bin[/I] (obbligatorio) nella cartella userdata.</description>
+		<description lang="ru_RU">O2EM — это эмулятор Odyssey² / VideoPac.[CR][CR]Поместите [I]o2rom.bin[/I] (обязателен) в вашу папку userdata.</description>
+		<description lang="sv_SE">O2EM är en Odyssey² / VideoPac-emulator.[CR][CR]Placera [I]o2rom.bin[/I] (krävs) i din användardatamapp.</description>
+		<description lang="zh_CN">O2EM 是一款 Odyssey² / VideoPac 模拟器。[CR][CR]将 [I]o2rom.bin[/I]（必需）存放到 userdata 文件夹中。</description>
+	</extension>
+</addon>

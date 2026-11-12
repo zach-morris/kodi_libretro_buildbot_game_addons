@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.tgbdual"
+		name="Nintendo - Game Boy / Color (TGB Dual)"
+		version="0.8.3.48"
+		provider-name="GIGO, Hii">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.gameboy" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Game Boy / Color</platforms>
+		<extensions>gb|dmg|gbc|cgb|sgb</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>tgbdual_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.tgbdual</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Game Boy / Game Boy Color (TGB Dual)</summary>
+		<summary lang="da_DK">Nintendo - Game Boy / Farve (TGB Dual)</summary>
+		<summary lang="en_GB">Nintendo - Game Boy / Color (TGB Dual)</summary>
+		<summary lang="es_ES">Nintendo - Game Boy / Color (TGB Dual)</summary>
+		<summary lang="ga">Nintendo - Game Boy / Color (TGB Déach)</summary>
+		<summary lang="it_IT">Nintendo - Game Boy / Colore (TGB Dual)</summary>
+		<summary lang="ko_KR">닌텐도 - 게임보이 / 컬러(TGB 듀얼)</summary>
+		<summary lang="ru_RU">Nintendo - Game Boy / Color (TGB Dual)</summary>
+		<summary lang="sv_SE">Nintendo - Game Boy / Color (TGB Dual)</summary>
+		<summary lang="zh_CN">任天堂 - Game Boy / Color (TGB Dual)</summary>
+		<description lang="cs_CZ">TGB Dual je open source emulátor GB/GBC s podporou propojení přes Link Cable.</description>
+		<description lang="da_DK">TGB Dual er en open source GB/GBC-emulator med game link-kabelunderstøttelse.</description>
+		<description lang="de_DE">TGB Dual ist ein quelloffener GB/GBC-Emulator mit Game-Link-Kabelunterstützung.</description>
+		<description lang="en_GB">TGB Dual is an open source GB/GBC emulator with game link cable support.</description>
+		<description lang="es_ES">TGB Dual es un emulador GB/GBC de código abierto compatible con el cable game link.</description>
+		<description lang="ga">Is aithriseoir GB/GBC foinse oscailte é TGB Dual le tacaíocht do chábla nasc cluiche.</description>
+		<description lang="it_IT">TGB Dual è un emulatore GB/GBC open source con supporto per cavi di collegamento al gioco.</description>
+		<description lang="ko_KR">TGB Dual은 게임 링크 케이블을 지원하는 오픈 소스 GB/GBC 에뮬레이터입니다.</description>
+		<description lang="ru_RU">TGB Dual — эмулятор GB/GBC с открытым исходным кодом и поддержкой игрового кабеля.</description>
+		<description lang="sv_SE">TGB Dual är en GB/GBC-emulator med öppen källkod och stöd för game link-kabel.</description>
+		<description lang="zh_CN">TGB Dual 是一款开源 GB/GBC 模拟器，支持游戏链接电缆。</description>
+	</extension>
+</addon>

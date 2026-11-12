@@ -1,0 +1,94 @@
+# game.libretro.mgba language file
+# Addon Name: game.libretro.mgba
+# Addon id: game.libretro.mgba
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mgba\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mgba/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy Advance (mGBA)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Game Boy Model (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Use BIOS File if Found (Restart)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Skip BIOS Intro (Restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Default Game Boy Palette"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Hardware Preset Game Boy Palettes (Restart)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Use Super Game Boy Borders (Restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Color Correction"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Interframe Blending"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Audio Filter"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Audio Filter Level"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Allow Opposing Directional Input"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Solar Sensor Level"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Game Boy Player Rumble (Restart)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Idle Loop Removal"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Frameskip Interval"
+msgstr ""

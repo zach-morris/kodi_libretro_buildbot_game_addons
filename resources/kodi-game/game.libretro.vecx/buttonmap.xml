@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <controller id="game.controller.vectrex" type="RETRO_DEVICE_JOYPAD">
+    <feature name="button1" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <feature name="button2" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <feature name="button3" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <feature name="button4" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+  </controller>
+</buttonmap>

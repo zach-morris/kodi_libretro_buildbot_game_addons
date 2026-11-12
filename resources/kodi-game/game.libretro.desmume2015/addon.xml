@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.desmume2015"
+		name="Nintendo - DS (DeSmuME 2015)"
+		version="0.0.1.36"
+		provider-name="YopYop156, Zeromus">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nds" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - DS</platforms>
+		<extensions>nds|bin</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>desmume2015_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.desmume2015</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - DS (DeSmuME 2015)</summary>
+		<summary lang="da_DK">Nintendo - DS (DeSmuME 2015)</summary>
+		<summary lang="en_GB">Nintendo - DS (DeSmuME 2015)</summary>
+		<summary lang="es_ES">Nintendo - DS (DeSmuME 2015)</summary>
+		<summary lang="ga">Nintendo - DS (DeSmuME 2015)</summary>
+		<summary lang="it_IT">Nintendo - DS (DeSmuME 2015)</summary>
+		<summary lang="ru_RU">Nintendo — DS (DeSmuME 2015)</summary>
+		<summary lang="sv_SE">Nintendo - DS (DeSmuME 2015)</summary>
+		<summary lang="zh_CN">任天堂 - DS (DeSmuME 2015)</summary>
+		<description lang="cs_CZ">Port DeSmuME pro libretro založený na DeSmuME SVN přibližně z roku 2015.</description>
+		<description lang="da_DK">En port af DeSmuME til libretro baseret på DeSmuME SVN, cirka 2015.</description>
+		<description lang="de_DE">Eine Portierung von DeSmuME nach libretro basierend auf DeSmuME SVN, etwa 2015.</description>
+		<description lang="en_GB">A port of DeSmuME to libretro based on DeSmuME SVN, circa 2015.</description>
+		<description lang="es_ES">Una adaptación de DeSmuME a libretro basada en DeSmuME SVN, alrededor de 2015.</description>
+		<description lang="ga">Port de DeSmuME go libretro bunaithe ar DeSmuME SVN, timpeall na bliana 2015.</description>
+		<description lang="it_IT">Un port di DeSmuME per libretro basato su DeSmuME SVN, circa 2015.</description>
+		<description lang="ru_RU">Порт DeSmuME на libretro, основанный на DeSmuME SVN, примерно 2015 года.</description>
+		<description lang="sv_SE">En portning av DeSmuME till libretro baserad på DeSmuME SVN, cirka 2015.</description>
+		<description lang="zh_CN">大约在2015年，基于 DeSmuME SVN 的 DeSmuME 到 libretro 的移植。</description>
+	</extension>
+</addon>

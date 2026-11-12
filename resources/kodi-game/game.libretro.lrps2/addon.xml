@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.lrps2"
+		name="Sony - PlayStation 2 (LRPS2)"
+		version="2.0.0.15"
+		provider-name="PCSX2 Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ps.dualshock" version="1.0.0"/>
+		<import addon="game.controller.ps.dualanalog" version="1.0.0"/>
+		<import addon="game.controller.ps.gamepad" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sony - PlayStation 2</platforms>
+		<extensions>elf|iso|ciso|cue|gz|chd|cso|zso|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>pcsx2_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.lrps2</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="da_DK">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="en_GB">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="es_ES">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="ga">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="it_IT">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="ko_KR">소니 - 플레이스테이션 2 (LRPS2)</summary>
+		<summary lang="ru_RU">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="sv_SE">Sony - PlayStation 2 (LRPS2)</summary>
+		<summary lang="zh_CN">Sony - PlayStation 2 (LRPS2)</summary>
+		<description lang="cs_CZ">LRPS2 je výrazně upravená odvozená verze PCSX2 určená výhradně pro Libretro.</description>
+		<description lang="da_DK">LRPS2 er en fork af PCSX2, der kun er rettet specifikt mod Libretro.</description>
+		<description lang="de_DE">LRPS2 ist eine scharfe Abspaltung von PCSX2, die nur auf Libretro abzielt.</description>
+		<description lang="en_GB">LRPS2 is a hard fork of PCSX2 that targets only Libretro specifically.</description>
+		<description lang="es_ES">LRPS2 es una bifurcación dura de PCSX2 que se orienta específicamente en Libretro.</description>
+		<description lang="fr_FR">LRPS2 est un hard fork de PCSX2 qui ne cible que spécifiquement Libretro.</description>
+		<description lang="ga">Is forc crua de PCSX2 é LRPS2 atá dírithe ar Libretro amháin go sonrach.</description>
+		<description lang="it_IT">LRPS2 è un hard fork di PCSX2 mirato specificamente solo a Libretro.</description>
+		<description lang="ko_KR">LRPS2는 Libretro만을 대상으로 하는 PCSX2의 하드 포크입니다.</description>
+		<description lang="ru_RU">LRPS2 — это хард-форк PCSX2, нацеленный исключительно на Libretro.</description>
+		<description lang="sv_SE">LRPS2 är en hard fork av PCSX2 som endast riktar sig specifikt till Libretro.</description>
+		<description lang="zh_CN">LRPS2 是 PCSX2 专门针对 Libretro 的一个硬分叉。</description>
+	</extension>
+</addon>

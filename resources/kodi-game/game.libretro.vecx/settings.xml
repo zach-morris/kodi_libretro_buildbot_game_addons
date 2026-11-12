@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.vecx">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="vecx_use_hw" type="string" label="30001">
+					<level>0</level>
+					<default>Hardware</default>
+					<constraints>
+						<options>
+							<option>Hardware</option>
+							<option>Software</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_res_multi" type="string" label="30002">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_res_hw" type="string" label="30003">
+					<level>0</level>
+					<default>824x1024</default>
+					<constraints>
+						<options>
+							<option>824x1024</option>
+							<option>434x540</option>
+							<option>515x640</option>
+							<option>580x720</option>
+							<option>618x768</option>
+							<option>845x1050</option>
+							<option>869x1080</option>
+							<option>966x1200</option>
+							<option>1159x1440</option>
+							<option>1648x2048</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_line_brightness" type="string" label="30004">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>4</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_line_width" type="string" label="30005">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>4</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_line_color" type="string" label="30006">
+					<level>0</level>
+					<default>White</default>
+					<constraints>
+						<options>
+							<option>White</option>
+							<option>Green</option>
+							<option>Cyan</option>
+							<option>Yellow</option>
+							<option>Magenta</option>
+							<option>Red</option>
+							<option>Blue</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_bloom_brightness" type="string" label="30007">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>4</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_bloom_width" type="string" label="30008">
+					<level>0</level>
+					<default>8x</default>
+					<constraints>
+						<options>
+							<option>8x</option>
+							<option>2x</option>
+							<option>3x</option>
+							<option>4x</option>
+							<option>6x</option>
+							<option>10x</option>
+							<option>12x</option>
+							<option>14x</option>
+							<option>16x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_scale_x" type="string" label="30009">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>0.845</option>
+							<option>0.85</option>
+							<option>0.855</option>
+							<option>0.86</option>
+							<option>0.865</option>
+							<option>0.87</option>
+							<option>0.875</option>
+							<option>0.88</option>
+							<option>0.885</option>
+							<option>0.89</option>
+							<option>0.895</option>
+							<option>0.90</option>
+							<option>0.905</option>
+							<option>0.91</option>
+							<option>0.915</option>
+							<option>0.92</option>
+							<option>0.925</option>
+							<option>0.93</option>
+							<option>0.935</option>
+							<option>0.94</option>
+							<option>0.945</option>
+							<option>0.95</option>
+							<option>0.955</option>
+							<option>0.96</option>
+							<option>0.965</option>
+							<option>0.97</option>
+							<option>0.975</option>
+							<option>0.98</option>
+							<option>0.985</option>
+							<option>0.99</option>
+							<option>0.995</option>
+							<option>1.005</option>
+							<option>1.01</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_scale_y" type="string" label="30010">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>0.845</option>
+							<option>0.85</option>
+							<option>0.855</option>
+							<option>0.86</option>
+							<option>0.865</option>
+							<option>0.87</option>
+							<option>0.875</option>
+							<option>0.88</option>
+							<option>0.885</option>
+							<option>0.89</option>
+							<option>0.895</option>
+							<option>0.90</option>
+							<option>0.905</option>
+							<option>0.91</option>
+							<option>0.915</option>
+							<option>0.92</option>
+							<option>0.925</option>
+							<option>0.93</option>
+							<option>0.935</option>
+							<option>0.94</option>
+							<option>0.945</option>
+							<option>0.95</option>
+							<option>0.955</option>
+							<option>0.96</option>
+							<option>0.965</option>
+							<option>0.97</option>
+							<option>0.975</option>
+							<option>0.98</option>
+							<option>0.985</option>
+							<option>0.99</option>
+							<option>0.995</option>
+							<option>1.005</option>
+							<option>1.01</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_shift_x" type="string" label="30011">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>-0.03</option>
+							<option>-0.025</option>
+							<option>-0.02</option>
+							<option>-0.015</option>
+							<option>-0.01</option>
+							<option>-0.005</option>
+							<option>0.005</option>
+							<option>0.01</option>
+							<option>0.015</option>
+							<option>0.02</option>
+							<option>0.025</option>
+							<option>0.03</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vecx_shift_y" type="string" label="30012">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>-0.035</option>
+							<option>-0.03</option>
+							<option>-0.025</option>
+							<option>-0.02</option>
+							<option>-0.015</option>
+							<option>-0.01</option>
+							<option>-0.005</option>
+							<option>0.005</option>
+							<option>0.01</option>
+							<option>0.015</option>
+							<option>0.02</option>
+							<option>0.025</option>
+							<option>0.03</option>
+							<option>0.035</option>
+							<option>0.04</option>
+							<option>0.045</option>
+							<option>0.05</option>
+							<option>0.055</option>
+							<option>0.06</option>
+							<option>0.065</option>
+							<option>0.07</option>
+							<option>0.075</option>
+							<option>0.08</option>
+							<option>0.085</option>
+							<option>0.09</option>
+							<option>0.095</option>
+							<option>0.1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

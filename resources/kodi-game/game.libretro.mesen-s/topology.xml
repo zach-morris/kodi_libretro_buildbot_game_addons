@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port type="controller" id="1" connectionPort="0">
+    <accepts controller="game.controller.snes"/>
+    <accepts controller="game.controller.snes.mouse"/>
+  </port>
+  <port type="controller" id="2" connectionPort="1">
+    <accepts controller="game.controller.snes"/>
+    <accepts controller="game.controller.snes.mouse"/>
+    <accepts controller="game.controller.snes.super.scope"/>
+    <accepts controller="game.controller.snes.multitap">
+      <port type="controller" id="1" connectionPort="-1" forceConnected="true">
+        <accepts controller="game.controller.snes"/>
+      </port>
+      <port type="controller" id="2" connectionPort="-1" forceConnected="true">
+        <accepts controller="game.controller.snes"/>
+      </port>
+      <port type="controller" id="3" connectionPort="-1" forceConnected="true">
+        <accepts controller="game.controller.snes"/>
+      </port>
+      <port type="controller" id="4" connectionPort="-1" forceConnected="true">
+        <accepts controller="game.controller.snes"/>
+      </port>
+    </accepts>
+  </port>
+</logicaltopology>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.quicknes">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="quicknes_aspect_ratio_par" type="string" label="30001" help="30012">
+					<level>0</level>
+					<default>PAR</default>
+					<constraints>
+						<options>
+							<option>PAR</option>
+							<option>4:3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_use_overscan_h" type="string" label="30002" help="30013">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_use_overscan_v" type="string" label="30003" help="30014">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_palette" type="string" label="30004" help="30015">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30016">default</option>
+							<option label="30017">asqrealc</option>
+							<option label="30018">nintendo-vc</option>
+							<option label="30019">rgb</option>
+							<option label="30020">yuv-v3</option>
+							<option label="30021">unsaturated-final</option>
+							<option label="30022">sony-cxa2025as-us</option>
+							<option label="30023">pal</option>
+							<option label="30024">bmf-final2</option>
+							<option label="30025">bmf-final3</option>
+							<option label="30026">smooth-fbx</option>
+							<option label="30027">composite-direct-fbx</option>
+							<option label="30028">pvm-style-d93-fbx</option>
+							<option label="30029">ntsc-hardware-fbx</option>
+							<option label="30030">nes-classic-fbx-fs</option>
+							<option label="30031">nescap</option>
+							<option label="30032">wavebeam</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_no_sprite_limit" type="string" label="30005" help="30033">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_audio_samplerate" type="string" label="30011" help="30034">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30035">auto</option>
+							<option label="30036">32000</option>
+							<option label="30037">44100</option>
+							<option label="30038">48000</option>
+							<option label="30039">96000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_audio_nonlinear" type="string" label="30006" help="30040">
+					<level>0</level>
+					<default>nonlinear</default>
+					<constraints>
+						<options>
+							<option label="30041">nonlinear</option>
+							<option label="30042">linear</option>
+							<option label="30043">stereo panning</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_audio_eq" type="string" label="30007" help="30044">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30016">default</option>
+							<option label="30045">famicom</option>
+							<option label="30046">tv</option>
+							<option label="30047">flat</option>
+							<option label="30048">crisp</option>
+							<option label="30049">tinny</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_turbo_enable" type="string" label="30008" help="30050">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30051">none</option>
+							<option label="30052">player 1</option>
+							<option label="30053">player 2</option>
+							<option label="30054">both</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_turbo_pulse_width" type="string" label="30009" help="30055">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>30</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="quicknes_up_down_allowed" type="string" label="30010" help="30056">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

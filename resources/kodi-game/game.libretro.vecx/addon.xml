@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.vecx"
+		name="GCE - Vectrex (vecx)"
+		version="1.2.0.55"
+		provider-name="Valavan Manohararajah, John Hawthorn, Nikita Zimin, Demeth">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.vectrex" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>GCE - Vectrex</platforms>
+		<extensions>bin|vec</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>vecx_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.vecx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">GCE - Vectrex (vecx)</summary>
+		<summary lang="da_DK">GCE - Vectrex (vecx)</summary>
+		<summary lang="en_GB">GCE - Vectrex (vecx)</summary>
+		<summary lang="es_ES">GCE - Vectrex (vecx)</summary>
+		<summary lang="ga">GCE - Vectrex (vecx)</summary>
+		<summary lang="it_IT">GCE - Vectrex (vecx)</summary>
+		<summary lang="ru_RU">GCE — Vectrex (vecx)</summary>
+		<summary lang="sv_SE">GCE - Vectrex (vecx)</summary>
+		<summary lang="zh_CN">GCE - Vectrex (vecx)</summary>
+		<description lang="cs_CZ">Vecx je emulátor herního systému Vectrex. Dokáže spustit většinu softwaru pro Vectrex.</description>
+		<description lang="da_DK">Vecx er en Vectrex videospilsystem emulator, der kan køre det meste Vectrex-software.</description>
+		<description lang="de_DE">Vecx ist ein Vectrex-Videospielsystem-Emulator. Er kann die meiste Vectrex-Software ausführen.</description>
+		<description lang="en_GB">Vecx is a Vectrex video game system emulator. It can run most Vectrex software.</description>
+		<description lang="es_ES">Vecx es un emulador del sistema de videojuegos Vectrex. Puede ejecutar la mayoría del software de Vectrex.</description>
+		<description lang="ga">Is aithriseoir córais físchluichí Vectrex é Vecx. Is féidir leis formhór na mbogearraí Vectrex a rith.</description>
+		<description lang="it_IT">Vecx è un emulatore per il sistema videoludico Vectrex. È in grado di eseguire la maggior parte del software Vectrex.</description>
+		<description lang="ru_RU">Vecx — это эмулятор видеоигровой системы Vectrex. Он может запускать большинство программ Vectrex.</description>
+		<description lang="sv_SE">Vecx är en emulator för Vectrex videospelsystem. Den kan köra de flesta Vectrex-program.</description>
+		<description lang="zh_CN">Vecx 是 Vectrex 视频游戏系统模拟器。它可以运行大多数 Vectrex 软件。</description>
+		<disclaimer lang="cs_CZ">Napsal Richard Bannister</disclaimer>
+		<disclaimer lang="da_DK">Skrevet af Richard Bannister</disclaimer>
+		<disclaimer lang="de_DE">Geschrieben von Richard Bannister</disclaimer>
+		<disclaimer lang="en_GB">Written by Richard Bannister</disclaimer>
+		<disclaimer lang="es_ES">Escrito por Richard Bannister</disclaimer>
+		<disclaimer lang="ga">Scríofa ag Richard Bannister</disclaimer>
+		<disclaimer lang="it_IT">Scritto da Richard Bannister</disclaimer>
+		<disclaimer lang="ru_RU">Автор: Ричард Баннистер</disclaimer>
+		<disclaimer lang="sv_SE">Skrivet av Richard Bannister</disclaimer>
+		<disclaimer lang="zh_CN">作者：Richard Bannister</disclaimer>
+	</extension>
+</addon>

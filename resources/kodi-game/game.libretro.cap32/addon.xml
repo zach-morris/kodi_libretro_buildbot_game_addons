@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.cap32"
+		name="Amstrad - CPC/GX4000 (Caprice32)"
+		version="4.5.4.54"
+		provider-name="Ulrich Doewich, dantoine">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.amstrad.joystick" version="1.0.0"/>
+		<import addon="game.controller.amstrad.keyboard" version="1.0.28"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Amstrad - CPC/GX4000</platforms>
+		<extensions>dsk|sna|zip|tap|cdt|voc|cpr|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>cap32_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.cap32</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Amstrad - CPC/GX4000 (Caprice32)</summary>
+		<summary lang="da_DK">Amstrad - CPC/GX4000 (Caprice32)</summary>
+		<summary lang="en_GB">Amstrad - CPC/GX4000 (Caprice32)</summary>
+		<summary lang="es_ES">Amstrad - CPC/GX4000 (Caprice32)</summary>
+		<summary lang="ga">Amstrad - CPC/GX4000 (Caprice32)</summary>
+		<summary lang="it_IT">Amstrad - CPC/GX4000 (Caprice32)</summary>
+		<summary lang="ru_RU">Amstrad — CPC/GX4000 (Caprice32)</summary>
+		<summary lang="sv_SE">Amstrad - CPC/GX4000 (Caprice32)</summary>
+		<summary lang="zh_CN">Amstrad - CPC/GX4000 (Caprice32)</summary>
+		<description lang="cs_CZ">Caprice32 je emulátor řady 8bitových domácích počítačů Amstrad CPC. Věrně napodobuje modely CPC464, CPC664 a CPC6128.</description>
+		<description lang="da_DK">Caprice32 er en emulator til Amstrad CPC 8-bit computerserien. Den efterligner trofast CPC464-, CPC664- og CPC6128-modellerne.</description>
+		<description lang="de_DE">Caprice32 ist ein Emulator für die Heimcomputer-Serie Amstrad CPC 8-Bit. Er imitiert originalgetreu die Modelle CPC464, CPC664 und CPC6128.</description>
+		<description lang="en_GB">Caprice32 is an emulator for the Amstrad CPC 8-bit home computer series. It faithfully imitates the CPC464, CPC664, and CPC6128 models.</description>
+		<description lang="es_ES">Caprice32 es un emulador para la serie de ordenadores domésticos Amstrad CPC de 8 bits. Imita fielmente los modelos CPC464, CPC664 y CPC6128.</description>
+		<description lang="ga">Is aithriseoir é Caprice32 do shraith ríomhairí baile 8-giotán Amstrad CPC. Déanann sé aithris dhílis ar na samhlacha CPC464, CPC664, agus CPC6128.</description>
+		<description lang="it_IT">Caprice32 è un emulatore per la serie di computer domestici Amstrad CPC a 8 bit. Imita fedelmente i modelli CPC464, CPC664 e CPC6128.</description>
+		<description lang="ru_RU">Caprice32 — это эмулятор серии 8-битных домашних компьютеров Amstrad CPC. Он точно имитирует модели CPC464, CPC664 и CPC6128.</description>
+		<description lang="sv_SE">Caprice32 är en emulator för Amstrads CPC 8-bitars hemdatorserie. Den imiterar modellerna CPC464, CPC664 och CPC6128 på ett trovärdigt sätt.</description>
+		<description lang="zh_CN">Caprice32 是 Amstrad CPC 8位家用电脑系列的模拟器。它忠实地仿真了 CPC464、CPC664 和 CPC6128 机型。</description>
+		<disclaimer lang="cs_CZ">Napsal Ulrich Doewich</disclaimer>
+		<disclaimer lang="da_DK">Skrevet af Ulrich Doewich</disclaimer>
+		<disclaimer lang="de_DE">Geschrieben von Ulrich Doewich</disclaimer>
+		<disclaimer lang="en_GB">Written by Ulrich Doewich</disclaimer>
+		<disclaimer lang="es_ES">Escrito por Ulrich Doewich</disclaimer>
+		<disclaimer lang="ga">Scríofa ag Ulrich Doewich</disclaimer>
+		<disclaimer lang="it_IT">Scritto da Ulrich Doewich</disclaimer>
+		<disclaimer lang="ru_RU">Автор: Ульрих Доевич</disclaimer>
+		<disclaimer lang="sv_SE">Skriven av Ulrich Doewich</disclaimer>
+		<disclaimer lang="zh_CN">作者：Ulrich Doewich</disclaimer>
+	</extension>
+</addon>
