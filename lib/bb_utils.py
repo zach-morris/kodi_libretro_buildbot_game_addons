@@ -825,38 +825,43 @@ def combine_images(base_path, overlay_path, output_path, padding=10,overlay_size
 	# Open both images and ensure they support transparency (RGBA)
 	result = None
 	if all([isinstance(x,Path) and x.exists() and x.suffix.lower()=='.png' for x in [base_path,overlay_path]]):
-		base_img = Image.open(base_path).convert("RGBA")
-		overlay_img = Image.open(overlay_path).convert("RGBA")
-		
-		base_width, base_height = base_img.size
-		
-		# Calculate target dimensions for image2
-		target_width = int(base_width * overlay_size)
-		target_height = int(base_height * overlay_size)
-		
-		# Resize overlay image while preserving its original aspect ratio
-		overlay_img.thumbnail((target_width, target_height), Image.Resampling.LANCZOS)
-		overlay_width, overlay_height = overlay_img.size
-		
-		# Calculate bottom-right coordinates with optional padding
-		x = base_width - overlay_width - padding
-		y = base_height - overlay_height - padding
-		
-		# Ensure coordinates don't go out of bounds
-		x = max(0, x)
-		y = max(0, y)
-		
-		# Create a copy of the base image so we don't modify the original in-memory object
-		combined = base_img.copy()
-		
-		# Paste overlay using its own alpha channel as a mask for transparency
-		combined.paste(overlay_img, (x, y), overlay_img)
-		
-		# Save if an output path is provided
-		if isinstance(output_path,Path) and output_path.suffix.lower() == '.png':
-			combined.save(output_path, "PNG")
-			print('Overlayed image saved to {}/{}'.format(output_path.parent.name,output_path.name))
-			result = output_path
+		try:
+			base_img = Image.open(base_path).convert("RGBA")
+			overlay_img = Image.open(overlay_path).convert("RGBA")
+		except Exception as exc:
+			print(f'Image open error: {exc}')
+			base_img = None
+			overlay_img = None
+		if base_img is not None and overlay_img is not None:
+			base_width, base_height = base_img.size
+			
+			# Calculate target dimensions for image2
+			target_width = int(base_width * overlay_size)
+			target_height = int(base_height * overlay_size)
+			
+			# Resize overlay image while preserving its original aspect ratio
+			overlay_img.thumbnail((target_width, target_height), Image.Resampling.LANCZOS)
+			overlay_width, overlay_height = overlay_img.size
+			
+			# Calculate bottom-right coordinates with optional padding
+			x = base_width - overlay_width - padding
+			y = base_height - overlay_height - padding
+			
+			# Ensure coordinates don't go out of bounds
+			x = max(0, x)
+			y = max(0, y)
+			
+			# Create a copy of the base image so we don't modify the original in-memory object
+			combined = base_img.copy()
+			
+			# Paste overlay using its own alpha channel as a mask for transparency
+			combined.paste(overlay_img, (x, y), overlay_img)
+			
+			# Save if an output path is provided
+			if isinstance(output_path,Path) and output_path.suffix.lower() == '.png':
+				combined.save(output_path, "PNG")
+				print('Overlayed image saved to {}/{}'.format(output_path.parent.name,output_path.name))
+				result = output_path
 	return result
 
 def delete_addons_too_big(x_in=None):
