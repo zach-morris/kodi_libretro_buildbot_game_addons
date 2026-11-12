@@ -1,0 +1,24 @@
+name: Build Addons Manually
+
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Get current date
+        id: date
+        run: echo "builddate=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      - name: Starting Buildbot Builder
+        run: |
+          echo Starting Buildbot Builder
+          pip install -r requirements.txt
+          python kodi_libretro_buildbot_addons_generator.py
+      - name: Update addons in the repository
+        run: bash .github/push_addons.sh "Update Addons ${{ steps.date.outputs.builddate }}"
