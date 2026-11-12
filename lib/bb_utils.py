@@ -197,6 +197,8 @@ def get_addon_extension_point_dict(x_in=None):
 			supports_standalone = 'true'
 		else:
 			supports_standalone = 'false'
+		
+
 		if x_in.get('disk_control')=='true':
 			supports_disc_control = 'true'
 		else:
@@ -340,7 +342,10 @@ def build_addon(x_in=None,addons_to_build=None,environments_to_build=None,cores_
 								# print('Unable to write addon.xml for {} {}: {}'.format(x_in.get('kodi_platform'),x_in.get('bb_core_name_clean'),exc))
 						#Copy icon
 						if isinstance(x_in.get('asset_icon_filename'),Path) and x_in.get('asset_icon_filename').exists() and make_resources(x_in=x_in):
-							image_gen_success = combine_images(base_path=x_in.get('asset_icon_filename'),overlay_path=x_in.get('default_asset_icon_transparent_filename'),output_path=x_in.get('build_folder_path').joinpath('resources','icon.png'))
+							try:
+								image_gen_success = combine_images(base_path=x_in.get('asset_icon_filename'),overlay_path=x_in.get('default_asset_icon_transparent_filename'),output_path=x_in.get('build_folder_path').joinpath('resources','icon.png'))
+							except Exception as image_exc:
+								print('Unable to generate icon for {}: {}'.format(x_in.get('addon_id'),image_exc))
 							if not image_gen_success:
 								x_in.get('build_folder_path').joinpath('resources','icon.png').write_bytes(x_in.get('asset_icon_filename').read_bytes())
 						else:
