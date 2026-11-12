@@ -1,6 +1,8 @@
 name: Build Addons Manually
 
 on:
+  branches:
+    - main
   workflow_dispatch:
 jobs:
   build:
