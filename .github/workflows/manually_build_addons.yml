@@ -1,12 +1,11 @@
 name: Build Addons Manually
 
 on:
-  branches:
-    - main
   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     permissions:
       contents: write
     steps:
