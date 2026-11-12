@@ -1,0 +1,42 @@
+# game.libretro.chailove language file
+# Addon Name: game.libretro.chailove
+# Addon id: game.libretro.chailove
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.chailove\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2018-03-06 22:29i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-chailove/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "ChaiLove"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "ChaiLove is a 2D game framework inspired by the Love2D API.[CR][CR]See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Alpha Blending"
+msgstr ""
+
+msgctxt "#30002"
+msgid "High Quality"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Whether or not to enable hardware alpha blending. This will improve graphics, but have an impact on performance."
+msgstr ""
+
+msgctxt "#30004"
+msgid "When enabled, will take steps to improve the graphic fidelity. Can have an impact on performance."
+msgstr ""

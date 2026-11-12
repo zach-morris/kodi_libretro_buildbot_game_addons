@@ -1,0 +1,807 @@
+# game.libretro.fceumm language file
+# Addon Name: game.libretro.fceumm
+# Addon id: game.libretro.fceumm
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.fceumm\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 21:24i\n"
+"PO-Revision-Date: 2024-12-27 21:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fceumm/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - NES / Famicom (FCEUmm)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "FCEUmm emulates NES, Famicom, and Famicom Disk System (FDS) platforms.[CR][CR]FCEUmm merges elements from FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE, and FCEU-mm into a single branch of FCEU."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: Anarkhya (anarkhya.deviantart.com)"
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "Show Advanced System Options"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Show advanced system options and tweaks."
+msgstr ""
+
+msgctxt "#30003"
+msgid "Show Advanced Sound Options"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Show advanced sound options and tweaks."
+msgstr ""
+
+msgctxt "#30005"
+msgid "System"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Change region and hardware add-on settings."
+msgstr ""
+
+msgctxt "#30007"
+msgid "Region"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Force core to use NTSC, PAL or Dendy region timings."
+msgstr ""
+
+msgctxt "#30009"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30010"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Dendy"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Game Genie Add-On (Restart Required)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Enable emulation of a Game Genie add-on cartridge, allowing cheat codes to be entered when launching games. The Game Genie ROM file 'gamegenie.nes' must be present in the frontend's system directory. Does not apply to FDS or arcade content."
+msgstr ""
+
+msgctxt "#30014"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Change aspect ratio, display cropping, color palette and video filter options."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Aspect Ratio"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Choose preferred aspect ratio."
+msgstr ""
+
+msgctxt "#30018"
+msgid "Pixel Perfect"
+msgstr ""
+
+msgctxt "#30019"
+msgid "8:7 PAR"
+msgstr ""
+
+msgctxt "#30020"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Crop Horizontal Left Overscan"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Removes pixels from left side of the screen to simulate overscan seen on standard CRT televisions."
+msgstr ""
+
+msgctxt "#30023"
+msgid "Crop Horizontal Right Overscan"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Removes pixels from right side of the screen to simulate overscan seen on standard CRT televisions."
+msgstr ""
+
+msgctxt "#30025"
+msgid "Crop Vertical Top Overscan"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Removes pixels from the top of the screen to simulate overscan seen on standard CRT televisions."
+msgstr ""
+
+msgctxt "#30027"
+msgid "Crop Vertical Bottom Overscan"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Removes pixels from the bottom of the screen to simulate overscan seen on standard CRT televisions."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Color Palette"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Choose from pre-generated palettes, a custom 64x3 palette from file or raw format (needs to use a nes-decoder shader)."
+msgstr ""
+
+msgctxt "#30031"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30032"
+msgid "AspiringSquire's Real"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Restored Wii VC"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Wii Virtual Console"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Nintendo RGB PPU"
+msgstr ""
+
+msgctxt "#30036"
+msgid "FBX's YUV-V3"
+msgstr ""
+
+msgctxt "#30037"
+msgid "FBX's Unsaturated-Final"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Sony CXA2025AS US"
+msgstr ""
+
+msgctxt "#30039"
+msgid "BMF's Final 2"
+msgstr ""
+
+msgctxt "#30040"
+msgid "BMF's Final 3"
+msgstr ""
+
+msgctxt "#30041"
+msgid "FBX's Smooth"
+msgstr ""
+
+msgctxt "#30042"
+msgid "FBX's Composite Direct"
+msgstr ""
+
+msgctxt "#30043"
+msgid "FBX's PVM Style D93"
+msgstr ""
+
+msgctxt "#30044"
+msgid "FBX's NTSC Hardware"
+msgstr ""
+
+msgctxt "#30045"
+msgid "FBX's NES Classic (fixed)"
+msgstr ""
+
+msgctxt "#30046"
+msgid "RGBSource's NESCAP"
+msgstr ""
+
+msgctxt "#30047"
+msgid "nakedarthur's Wavebeam"
+msgstr ""
+
+msgctxt "#30048"
+msgid "FBX's Digital Prime"
+msgstr ""
+
+msgctxt "#30049"
+msgid "FBX's Magnum"
+msgstr ""
+
+msgctxt "#30050"
+msgid "FBX's Smooth V2"
+msgstr ""
+
+msgctxt "#30051"
+msgid "FBX's NES Classic"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Royaltea (PVM-2530)"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Mugicha"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Raw"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Custom"
+msgstr ""
+
+msgctxt "#30056"
+msgid "NTSC Filter"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Blargg's NTSC filters are used to replicate RF, Composite, S-Video, and RGB cable signals."
+msgstr ""
+
+msgctxt "#30058"
+msgid "Composite"
+msgstr ""
+
+msgctxt "#30059"
+msgid "S-Video"
+msgstr ""
+
+msgctxt "#30060"
+msgid "RGB"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Monochrome"
+msgstr ""
+
+msgctxt "#30062"
+msgid "HD Texture Packs (Restart)"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Load Mesen-format HD texture packs from '<system>/HdPacks/<rom name>/hires.txt' when present. Replaces tiles/sprites with high-resolution artwork (PNG, DDS or WebP) and enables the pack's custom backgrounds and OGG/WAV music and sound effects. Requires a frontend that supports XRGB8888 output."
+msgstr ""
+
+msgctxt "#30064"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Change sound quality, volume, channel enable settings."
+msgstr ""
+
+msgctxt "#30066"
+msgid "Sound Samplerate (Hint)"
+msgstr ""
+
+msgctxt "#30067"
+msgid "The NES has no sample-based audio hardware; sound is synthesized in realtime, so there is no fixed output samplerate. Select the rate the core generates audio at. Higher rates lower latency and reduce aliasing and low-pass 'smearing' from frontend resampling, at a small performance cost. 'Auto' picks whichever supported rate is closest to the frontend's target output rate."
+msgstr ""
+
+msgctxt "#30068"
+msgid "32KHz"
+msgstr ""
+
+msgctxt "#30069"
+msgid "44KHz"
+msgstr ""
+
+msgctxt "#30070"
+msgid "48KHz"
+msgstr ""
+
+msgctxt "#30071"
+msgid "96KHz"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Sound Quality"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Enable higher quality sound. Increases performance requirements."
+msgstr ""
+
+msgctxt "#30074"
+msgid "Audio RF Filter"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Apply a low pass audio filter to simulate the 'muted' sound of the NES when connected to a television via the RF modulator."
+msgstr ""
+
+msgctxt "#30076"
+msgid "Reduce Triangle Channel Popping"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Mute the triangle channel when its period drops into the ultrasonic range (period <= 3, > ~12 kHz at NTSC).  Eliminates the audible popping some games (Castlevania II: Simon's Quest, Jackal, etc.) produce in High / Very High sound quality, where the DAC reconstruction filter would otherwise fold the ultrasonic content back into the audible range.  Low quality is unaffected (it already silences ultrasonic triangle output)."
+msgstr ""
+
+msgctxt "#30078"
+msgid "Reduce DMC Channel Popping"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Smooth direct writes to the DMC DAC register ($4011) by stepping the DAC only halfway toward each new value.  Reduces the audible click when games (Castlevania II: Simon's Quest, etc.) pulse the DAC for manual sample playback.  Normal DPCM bit-stream sample playback is unaffected."
+msgstr ""
+
+msgctxt "#30080"
+msgid "Stereo Sound Effect"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Enable a fake stereo sound effect by delaying the right audio channel when upmixing the mono signal output from the NES."
+msgstr ""
+
+msgctxt "#30082"
+msgid "1ms Delay"
+msgstr ""
+
+msgctxt "#30083"
+msgid "2ms Delay"
+msgstr ""
+
+msgctxt "#30084"
+msgid "3ms Delay"
+msgstr ""
+
+msgctxt "#30085"
+msgid "4ms Delay"
+msgstr ""
+
+msgctxt "#30086"
+msgid "5ms Delay"
+msgstr ""
+
+msgctxt "#30087"
+msgid "6ms Delay"
+msgstr ""
+
+msgctxt "#30088"
+msgid "7ms Delay"
+msgstr ""
+
+msgctxt "#30089"
+msgid "8ms Delay"
+msgstr ""
+
+msgctxt "#30090"
+msgid "9ms Delay"
+msgstr ""
+
+msgctxt "#30091"
+msgid "10ms Delay"
+msgstr ""
+
+msgctxt "#30092"
+msgid "11ms Delay"
+msgstr ""
+
+msgctxt "#30093"
+msgid "12ms Delay"
+msgstr ""
+
+msgctxt "#30094"
+msgid "13ms Delay"
+msgstr ""
+
+msgctxt "#30095"
+msgid "14ms Delay"
+msgstr ""
+
+msgctxt "#30096"
+msgid "15ms Delay (Default)"
+msgstr ""
+
+msgctxt "#30097"
+msgid "16ms Delay"
+msgstr ""
+
+msgctxt "#30098"
+msgid "17ms Delay"
+msgstr ""
+
+msgctxt "#30099"
+msgid "18ms Delay"
+msgstr ""
+
+msgctxt "#30100"
+msgid "19ms Delay"
+msgstr ""
+
+msgctxt "#30101"
+msgid "20ms Delay"
+msgstr ""
+
+msgctxt "#30102"
+msgid "21ms Delay"
+msgstr ""
+
+msgctxt "#30103"
+msgid "22ms Delay"
+msgstr ""
+
+msgctxt "#30104"
+msgid "23ms Delay"
+msgstr ""
+
+msgctxt "#30105"
+msgid "24ms Delay"
+msgstr ""
+
+msgctxt "#30106"
+msgid "25ms Delay"
+msgstr ""
+
+msgctxt "#30107"
+msgid "26ms Delay"
+msgstr ""
+
+msgctxt "#30108"
+msgid "27ms Delay"
+msgstr ""
+
+msgctxt "#30109"
+msgid "28ms Delay"
+msgstr ""
+
+msgctxt "#30110"
+msgid "29ms Delay"
+msgstr ""
+
+msgctxt "#30111"
+msgid "30ms Delay"
+msgstr ""
+
+msgctxt "#30112"
+msgid "31ms Delay"
+msgstr ""
+
+msgctxt "#30113"
+msgid "32ms Delay"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Swap Audio Duty Cycles"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Simulates the sound from famiclones that have the pulse wave channels duty cycle bits reversed."
+msgstr ""
+
+msgctxt "#30116"
+msgid "Master Volume"
+msgstr ""
+
+msgctxt "#30117"
+msgid "Change master volume level."
+msgstr ""
+
+msgctxt "#30118"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30119"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30120"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30121"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30122"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30123"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30124"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30125"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30126"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30127"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30128"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Audio Channel 1 (Square 1)"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Enables or disables pulse wave generator audio output 1."
+msgstr ""
+
+msgctxt "#30131"
+msgid "Audio Channel 2 (Square 2)"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Enables or disables pulse wave generator audio output 2."
+msgstr ""
+
+msgctxt "#30133"
+msgid "Audio Channel 3 (Triangle)"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Enables or disables triangle wave generator audio output."
+msgstr ""
+
+msgctxt "#30135"
+msgid "Audio Channel 4 (Noise)"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Enables or disables noise generator audio output."
+msgstr ""
+
+msgctxt "#30137"
+msgid "Audio Channel 5 (PCM)"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Enables or disables delta modulation channel audio output."
+msgstr ""
+
+msgctxt "#30139"
+msgid "Channel Volume (FDS)"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Scale Famicom Disk System 2C33 wavetable expansion-audio output (0 = mute, 100 = unscaled)."
+msgstr ""
+
+msgctxt "#30141"
+msgid "Channel Volume (S5B)"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Scale Sunsoft 5B (YM2149F) expansion-audio output (0 = mute, 100 = unscaled)."
+msgstr ""
+
+msgctxt "#30143"
+msgid "Channel Volume (N163)"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Scale Namco 163 expansion-audio output (0 = mute, 100 = unscaled)."
+msgstr ""
+
+msgctxt "#30145"
+msgid "Channel Volume (VRC6)"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Scale Konami VRC6 expansion-audio output (0 = mute, 100 = unscaled)."
+msgstr ""
+
+msgctxt "#30147"
+msgid "Channel Volume (VRC7)"
+msgstr ""
+
+msgctxt "#30148"
+msgid "Scale Konami VRC7 (YM2413-clone) expansion-audio output (0 = mute, 100 = unscaled)."
+msgstr ""
+
+msgctxt "#30149"
+msgid "Channel Volume (MMC5)"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Scale Nintendo MMC5 PCM + square expansion-audio output (0 = mute, 100 = unscaled)."
+msgstr ""
+
+msgctxt "#30151"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Change turbo, Arkanoid and light gun settings."
+msgstr ""
+
+msgctxt "#30153"
+msgid "Turbo Enable"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Enables or disables turbo buttons."
+msgstr ""
+
+msgctxt "#30155"
+msgid "Player 1"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Player 2"
+msgstr ""
+
+msgctxt "#30157"
+msgid "Both"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Turbo Delay (in frames)"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Repeat rate of turbo buttons in frames."
+msgstr ""
+
+msgctxt "#30160"
+msgid "Zapper Mode"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Selects device to use for Zapper games."
+msgstr ""
+
+msgctxt "#30162"
+msgid "Crosshair light gun"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Sequential Targets light gun"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Touchscreen"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Mouse"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Show Zapper Crosshair"
+msgstr ""
+
+msgctxt "#30167"
+msgid "Shows or hides on-screen crosshairs when using a Zapper."
+msgstr ""
+
+msgctxt "#30168"
+msgid "Zapper Tolerance"
+msgstr ""
+
+msgctxt "#30169"
+msgid "Sets how many pixels from target area is on target."
+msgstr ""
+
+msgctxt "#30170"
+msgid "Invert Zapper Trigger Signal"
+msgstr ""
+
+msgctxt "#30171"
+msgid "Inverts trigger logic when using a Zapper. Disabling it resembles original hardware behavior."
+msgstr ""
+
+msgctxt "#30172"
+msgid "Invert Zapper Sensor Signal"
+msgstr ""
+
+msgctxt "#30173"
+msgid "Inverts sensor logic when using a Zapper (Sequential Targets Light gun mode only). Disabling it resembles original NES/FC hardware behavior."
+msgstr ""
+
+msgctxt "#30174"
+msgid "Arkanoid Mode"
+msgstr ""
+
+msgctxt "#30175"
+msgid "Selects device to use for Arkanoid games."
+msgstr ""
+
+msgctxt "#30176"
+msgid "Absolute mouse"
+msgstr ""
+
+msgctxt "#30177"
+msgid "Stelladaptor"
+msgstr ""
+
+msgctxt "#30178"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Mouse sensitivity in percent."
+msgstr ""
+
+msgctxt "#30180"
+msgid "Allow Opposing Directions"
+msgstr ""
+
+msgctxt "#30181"
+msgid "Allows simultaneous UP+DOWN or LEFT+RIGHT button combinations, which can create different effects in some games."
+msgstr ""
+
+msgctxt "#30182"
+msgid "Emulation Hacks"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Change processor overclocking and emulation accuracy settings affecting low-level performance and compatibility."
+msgstr ""
+
+msgctxt "#30184"
+msgid "No Sprite Limit"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Removes the 8-per-scanline hardware limit. This reduces sprite flickering but can cause some games to glitch since some use this for effects."
+msgstr ""
+
+msgctxt "#30186"
+msgid "Overclock"
+msgstr ""
+
+msgctxt "#30187"
+msgid "Enables or disables overclocking, which can reduce slowdowns in some games. Postrender method is more compatible with every game, Vblank is more effective for games like Contra Force."
+msgstr ""
+
+msgctxt "#30188"
+msgid "2x-Postrender"
+msgstr ""
+
+msgctxt "#30189"
+msgid "2x-VBlank"
+msgstr ""
+
+msgctxt "#30190"
+msgid "RAM Power-On Fill (Restart Required)"
+msgstr ""
+
+msgctxt "#30191"
+msgid "RAM values on power up. Some games rely on initial RAM values for random number generation as an example."
+msgstr ""
+
+msgctxt "#30192"
+msgid "$FF"
+msgstr ""
+
+msgctxt "#30193"
+msgid "$00"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Random"
+msgstr ""

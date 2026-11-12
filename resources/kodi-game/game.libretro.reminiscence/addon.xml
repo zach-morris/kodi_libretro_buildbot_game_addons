@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.reminiscence"
+		name="Flashback (REminiscence)"
+		version="0.3.6.34"
+		provider-name="Gregory Montoir, Stuart Carnie">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Flashback</platforms>
+		<extensions>map</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>reminiscence_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.reminiscence</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Flashback (REminiscence)</summary>
+		<summary lang="da_DK">Flashback (REminiscence)</summary>
+		<summary lang="en_GB">Flashback (REminiscence)</summary>
+		<summary lang="es_ES">Flashback (REminiscence)</summary>
+		<summary lang="ga">Flashback (REminiscence)</summary>
+		<summary lang="it_IT">Flashback (REminiscence)</summary>
+		<summary lang="ko_KR">플래시백 (REminiscence)</summary>
+		<summary lang="ru_RU">Flashback (REminiscence)</summary>
+		<summary lang="sv_SE">Flashback (REminiscence)</summary>
+		<summary lang="zh_CN">闪回（REminiscence）</summary>
+		<description lang="cs_CZ">REminiscence je přepsaná implementace enginu použitého ve hře Flashback z roku 1992 od Delphine Software.[CR][CR]Jsou vyžadovány datové soubory hry (DOS, PC-CD, Amiga, Macintosh).</description>
+		<description lang="da_DK">REminiscence er en omskrivning af den motor, der blev brugt i 1992 i spillet Flashback fra Delphine Software.[CR][CR]Spildatafilerne (DOS, PC-CD, Amiga, Macintosh) er påkrævede.</description>
+		<description lang="de_DE">REminiscence ist eine Überarbeitung der Engine des Spiels Flashback von Delphine Software aus dem Jahr 1992[CR][CR]Die Spieldatendateien (DOS, PC-CD, Amiga, Macintosh) werden benötigt.</description>
+		<description lang="en_GB">REminiscence is a rewrite of the engine used in the 1992 game Flashback from Delphine Software.[CR][CR]The game data files (DOS, PC-CD, Amiga, Macintosh) are required.</description>
+		<description lang="es_ES">REminiscence es una reescritura del motor utilizado en el juego Flashback de 1992 de Delphine Software.[CR][CR]Se necesitan los archivos de datos del juego (DOS, PC-CD, Amiga, Macintosh).</description>
+		<description lang="ga">Is athscríobh é REminiscence ar an inneall a úsáideadh sa chluiche Flashback ó Delphine Software sa bhliain 1992.[CR][CR]Tá na comhaid sonraí cluiche (DOS, PC-CD, Amiga, Macintosh) riachtanach.</description>
+		<description lang="it_IT">REminiscence è una riscrittura del motore usato nel gioco Flashback di Delphine Software.[CR][CR]Sono richiesti i file di dati del gioco (DOS, PC-CD, Amiga, Macintosh).</description>
+		<description lang="ko_KR">REminiscence는 Delphine Software의 Flashback 게임에 사용된 엔진을 재작성한 것입니다.[CR][CR]게임 데이터 파일(DOS, PC-CD, Amiga, Macintosh)이 필요합니다.</description>
+		<description lang="ru_RU">REminiscence — переписанный движок, использовавшийся в игре Flashback 1992 года от Delphine Software.[CR][CR]Требуются файлы данных игры (DOS, PC-CD, Amiga, Macintosh).</description>
+		<description lang="sv_SE">REminiscence är en omskrivning av den motor som användes i spelet Flashback från 1992 från Delphine Software.[CR][CR]Speldatafilerna (DOS, PC-CD, Amiga, Macintosh) krävs.</description>
+		<description lang="zh_CN">REminiscence 是对 Delphine 软件公司在游戏《闪回（Delphine）》中使用的引擎的重写。[CR][CR]需要游戏数据文件（DOS、PC-CD、Amiga、Macintosh）。</description>
+	</extension>
+</addon>

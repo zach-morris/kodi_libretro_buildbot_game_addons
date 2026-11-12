@@ -1,0 +1,30 @@
+# game.libretro.bsnes2014-balanced language file
+# Addon Name: game.libretro.bsnes2014-balanced
+# Addon id: game.libretro.bsnes2014-balanced
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.bsnes2014-balanced\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 22:01i\n"
+"PO-Revision-Date: 2024-12-27 21:45+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-bsnes2014-balanced/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (bsnes 2014 Balanced)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A libretro fork of bSNES. As close to upstream as possible.[CR][CR]The [I]Balanced[/I] profile is a good compromise between accuracy and performance."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "In loving memory of Near / Byuu"
+msgstr ""

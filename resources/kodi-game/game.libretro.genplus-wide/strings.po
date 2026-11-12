@@ -1,0 +1,958 @@
+# game.libretro.genplus-wide language file
+# Addon Name: game.libretro.genplus-wide
+# Addon id: game.libretro.genplus-wide
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.genplus-wide\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-06-03 20:42i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-genplus-wide/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sega - MS/GG/MD/CD (Genesis Plus GX Wide)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A widescreen modification of Genesis Plus GX, a Sega/Genesis/Mega CD emulator that originally ran on the GameCube."
+msgstr ""
+
+msgctxt "#30001"
+msgid "System Hardware"
+msgstr ""
+
+msgctxt "#30002"
+msgid "System Region"
+msgstr ""
+
+msgctxt "#30003"
+msgid "System Boot ROM"
+msgstr ""
+
+msgctxt "#30004"
+msgid "CD System BRAM (Requires Restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "CD Backup Cart BRAM (Requires Restart)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "CD Backup Cart BRAM Size (Requires Restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "CD add-on (MD mode) (Requires Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Cartridge Lock-On"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Core-Provided Aspect Ratio"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Borders"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Extra columns to draw in H40 for widescreen"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Fix VDP DMA boundary bug"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Hide Master System Side Borders"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Game Gear Extended Screen"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Blargg NTSC Filter"
+msgstr ""
+
+msgctxt "#30016"
+msgid "LCD Ghosting Filter"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Interlaced Mode 2 Output"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Master System FM (YM2413)"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Master System FM (YM2413) Core"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Mega Drive/Genesis FM"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Sound Output"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Audio Filter"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Low-Pass Filter %"
+msgstr ""
+
+msgctxt "#30026"
+msgid "PSG Preamp Level"
+msgstr ""
+
+msgctxt "#30027"
+msgid "FM Preamp Level"
+msgstr ""
+
+msgctxt "#30028"
+msgid "CD-DA Volume"
+msgstr ""
+
+msgctxt "#30029"
+msgid "PCM Volume"
+msgstr ""
+
+msgctxt "#30030"
+msgid "EQ Low"
+msgstr ""
+
+msgctxt "#30031"
+msgid "EQ Mid"
+msgstr ""
+
+msgctxt "#30032"
+msgid "EQ High"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Light Gun Input"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Show Light Gun Crosshair"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Invert Mouse Y-Axis"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Remove Per-Line Sprite Limit"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Enhanced per-tile vertical scroll"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Enhanced per-tile vertical scroll limit"
+msgstr ""
+
+msgctxt "#30039"
+msgid "CPU Speed"
+msgstr ""
+
+msgctxt "#30040"
+msgid "System Lock-Ups"
+msgstr ""
+
+msgctxt "#30041"
+msgid "68K Address Error"
+msgstr ""
+
+msgctxt "#30043"
+msgid "PSG Tone Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30044"
+msgid "PSG Tone Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30045"
+msgid "PSG Tone Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30046"
+msgid "PSG Noise Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Mega Drive/Genesis FM Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Mega Drive/Genesis FM Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Mega Drive/Genesis FM Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Mega Drive/Genesis FM Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Mega Drive/Genesis FM Channel 4 Volume %"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Mega Drive/Genesis FM Channel 5 Volume %"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Master System FM (YM2413) Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Master System FM (YM2413) Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Master System FM (YM2413) Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Master System FM (YM2413) Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Master System FM (YM2413) Channel 4 Volume %"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Master System FM (YM2413) Channel 5 Volume %"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Master System FM (YM2413) Channel 6 Volume %"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Master System FM (YM2413) Channel 7 Volume %"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Master System FM (YM2413) Channel 8 Volume %"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Force VDP Mode"
+msgstr ""
+
+msgctxt "#30063"
+msgid "CD Access Time"
+msgstr ""
+
+msgctxt "#30064"
+msgid "CD Image Cache"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Extra columns alpha %"
+msgstr ""
+
+msgctxt "#30066"
+msgid "FM Enhancement"
+msgstr ""
+
+msgctxt "#30067"
+msgid "FM Voice-Steal Recovery (Experimental)"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Sound Samplerate (Hint)"
+msgstr ""
+
+msgctxt "#30069"
+msgid "System"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Change base hardware selection, region, BIOS and Sega CD/Mega-CD save file settings."
+msgstr ""
+
+msgctxt "#30071"
+msgid "Runs loaded content with a specific emulated console. 'Auto' will select the most appropriate system for the current game."
+msgstr ""
+
+msgctxt "#30072"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30073"
+msgid "SG-1000"
+msgstr ""
+
+msgctxt "#30074"
+msgid "SG-1000 II"
+msgstr ""
+
+msgctxt "#30075"
+msgid "SG-1000 II + RAM Ext."
+msgstr ""
+
+msgctxt "#30076"
+msgid "Mark III"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Master System"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Master System II"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Game Gear"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Mega Drive/Genesis"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Specify which region the system is from. For consoles other than the Game Gear, 'PAL' is 50 Hz, while 'NTSC' is 60 Hz. Games may run faster or slower than normal if the incorrect region is selected."
+msgstr ""
+
+msgctxt "#30082"
+msgid "NTSC-U"
+msgstr ""
+
+msgctxt "#30083"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30084"
+msgid "NTSC-J"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Overrides the VDP mode to force it to run at either NTSC 60Hz or PAL 50Hz, regardless of system region."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30087"
+msgid "NTSC (60Hz)"
+msgstr ""
+
+msgctxt "#30088"
+msgid "PAL (50Hz)"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Use official BIOS/bootloader for emulated hardware, if present in RetroArch's system directory. Displays console-specific start-up sequence/animation, then runs loaded content."
+msgstr ""
+
+msgctxt "#30090"
+msgid "When running Sega CD/Mega-CD content, specifies whether to share a single save file between all games from a specific region (Per-BIOS) or to create a separate save file for each game (Per-Game). Note that the Sega CD/Mega-CD has limited internal storage, sufficient only for a handful of titles. To avoid running out of space, the 'Per-Game' setting is recommended."
+msgstr ""
+
+msgctxt "#30091"
+msgid "Per-BIOS"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Per-Game"
+msgstr ""
+
+msgctxt "#30093"
+msgid "When running Sega CD/Mega-CD content, specifies whether to share a single backup ram cart for all games (Per-Cart) or to create a separate backup ram cart for each game (Per-Game)."
+msgstr ""
+
+msgctxt "#30094"
+msgid "Per-Cart"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Sets the backup ram cart size when running Sega CD/Mega-CD content. Useful when setting the backup ram cart to Per-Game to avoid multiple larger cart sizes."
+msgstr ""
+
+msgctxt "#30096"
+msgid "128Kbit"
+msgstr ""
+
+msgctxt "#30097"
+msgid "256Kbit"
+msgstr ""
+
+msgctxt "#30098"
+msgid "512Kbit"
+msgstr ""
+
+msgctxt "#30099"
+msgid "1Mbit"
+msgstr ""
+
+msgctxt "#30100"
+msgid "2Mbit"
+msgstr ""
+
+msgctxt "#30101"
+msgid "4Mbit"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Specify which add-on to use for CD audio playback with supported Mega Drive/Genesis games."
+msgstr ""
+
+msgctxt "#30103"
+msgid "Sega/Mega CD"
+msgstr ""
+
+msgctxt "#30104"
+msgid "MegaSD"
+msgstr ""
+
+msgctxt "#30105"
+msgid "None"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Lock-On Technology is a Mega Drive/Genesis feature that allowed an older game to connect to the pass-through port of a special cartridge for extended or altered gameplay. This option specifies which type of special 'lock-on' cartridge to emulate. A corresponding bios file must be present in RetroArch's system directory."
+msgstr ""
+
+msgctxt "#30107"
+msgid "Game Genie"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Action Replay (Pro)"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Sonic & Knuckles"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Change aspect ratio, display cropping, video filter and frame skipping settings."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Choose the preferred content aspect ratio. This will only apply when RetroArch's aspect ratio is set to 'Core provided' in the Video settings."
+msgstr ""
+
+msgctxt "#30113"
+msgid "Enable this to display the overscan regions at the top/bottom and/or left/right of the screen. These would normally be hidden by the bezel around the edge of a standard-definition television."
+msgstr ""
+
+msgctxt "#30114"
+msgid "Top/Bottom"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Left/Right"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Full"
+msgstr ""
+
+msgctxt "#30117"
+msgid "Set the amount of extra colums to draw for widescreen"
+msgstr ""
+
+msgctxt "#30118"
+msgid "If extra columns are enabled, this option allows to specify their translucency."
+msgstr ""
+
+msgctxt "#30119"
+msgid "Enable this to fix the VDP DMA boundary bug"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Cuts off 8 pixels from either the left side of the screen, or both left and right sides when running Master System games."
+msgstr ""
+
+msgctxt "#30121"
+msgid "Left Border Only"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Left & Right Borders"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Forces Game Gear titles to run in SMS mode, with an increased resolution of 256x192. May show additional content, but typically displays a border of corrupt/unwanted image data."
+msgstr ""
+
+msgctxt "#30124"
+msgid "Apply a video filter to mimic various NTSC TV signals."
+msgstr ""
+
+msgctxt "#30125"
+msgid "Monochrome"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Composite"
+msgstr ""
+
+msgctxt "#30127"
+msgid "S-Video"
+msgstr ""
+
+msgctxt "#30128"
+msgid "RGB"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Apply an image 'ghosting' filter to mimic the display characteristics of the Game Gear and Genesis Nomad LCD panels."
+msgstr ""
+
+msgctxt "#30130"
+msgid "Interlaced Mode 2 allows the Mega Drive/Genesis to output a double height (high resolution) 320x448 image by drawing alternate scan lines each frame (this is used by Sonic the Hedgehog 2 and Combat Cars multiplayer modes). 'Double Field' mimics original hardware, producing a sharp image with flickering/interlacing artifacts. 'Single Field' applies a deinterlacing filter, which stabilizes the image but causes mild blurring."
+msgstr ""
+
+msgctxt "#30131"
+msgid "Single Field"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Double Field"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Manual' utilizes the 'Frameskip Threshold (%)' setting."
+msgstr ""
+
+msgctxt "#30134"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30135"
+msgid "When 'Frameskip' is set to 'Manual', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""
+
+msgctxt "#30136"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Change audio device settings."
+msgstr ""
+
+msgctxt "#30138"
+msgid "Enable emulation of the FM Sound Unit used by certain Sega Mark III/Master System games for enhanced audio output."
+msgstr ""
+
+msgctxt "#30139"
+msgid "Select method used to emulate the FM Sound Unit of the Sega Mark III/Master System. 'MAME' option is fast, and runs full speed on most systems. 'Nuked' option is cycle accurate, very high quality, and has substantial CPU requirements."
+msgstr ""
+
+msgctxt "#30140"
+msgid "MAME"
+msgstr ""
+
+msgctxt "#30141"
+msgid "Nuked"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Select method used to emulate the FM synthesizer (main sound generator) of the Mega Drive/Genesis. 'MAME' options are fast, and run full speed on most systems. 'Nuked' options are cycle accurate, very high quality, and have substantial CPU requirements. The YM2612 chip is used by the original Model 1 Mega Drive/Genesis. The YM3438 is used in later Mega Drive/Genesis revisions."
+msgstr ""
+
+msgctxt "#30143"
+msgid "MAME (YM2612)"
+msgstr ""
+
+msgctxt "#30144"
+msgid "MAME (ASIC YM3438)"
+msgstr ""
+
+msgctxt "#30145"
+msgid "MAME (Enhanced YM3438)"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Nuked (YM2612)"
+msgstr ""
+
+msgctxt "#30147"
+msgid "Nuked (YM3438)"
+msgstr ""
+
+msgctxt "#30148"
+msgid "Optional, deliberately non-authentic post-processing applied only to the FM (YM2612/YM3438) bus: a stereo widener to spread the hard-panned FM image, a fixed-point reverb send, and a gentle analog-style low-pass with soft saturation. Adds width and depth to the FM voice at the cost of accuracy; PSG, PCM and CD-DA are left untouched. Fully integer/deterministic. 'Off' leaves the original sound bit-identical."
+msgstr ""
+
+msgctxt "#30149"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Light"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Rich"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Experimental. When a sound effect commandeers an FM (YM2612) channel mid-song, the displaced musical note is snapshotted onto a hidden shadow voice that keeps sounding and is faded out smoothly with a synthetic decay so the stolen background note finishes instead of being cut dead. 'Conservative' uses fewer shadow voices and a shorter fade; 'Aggressive' recovers more. The trigger is gated by note age and audibility so it fires sparingly. Deterministic; 'Off' is bit-exact."
+msgstr ""
+
+msgctxt "#30153"
+msgid "Conservative"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Aggressive"
+msgstr ""
+
+msgctxt "#30155"
+msgid "Select the audio output sample rate. The Mega Drive/Genesis has no sample-based audio hardware and no fixed output rate (sound is synthesised in real time), so this is a free choice. Higher rates raise the Nyquist limit, reducing aliasing and high-frequency low-pass 'smearing', and give better time-domain resolution, at the cost of more CPU for resampling. 'Auto' queries the frontend's target rate and selects the supported rate closest to it, which avoids extra frontend resampling."
+msgstr ""
+
+msgctxt "#30156"
+msgid "32KHz"
+msgstr ""
+
+msgctxt "#30157"
+msgid "44KHz"
+msgstr ""
+
+msgctxt "#30158"
+msgid "48KHz"
+msgstr ""
+
+msgctxt "#30159"
+msgid "96KHz"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Select stereo or mono sound playback."
+msgstr ""
+
+msgctxt "#30161"
+msgid "Stereo"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Mono"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Enable a low pass audio filter to better simulate the characteristic sound of a Model 1 Mega Drive/Genesis."
+msgstr ""
+
+msgctxt "#30164"
+msgid "Low-Pass"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Specify the cut-off frequency of the audio low pass filter. A higher value increases the perceived 'strength' of the filter, since a wider range of the high frequency spectrum is attenuated."
+msgstr ""
+
+msgctxt "#30166"
+msgid "Set the audio preamplifier level of the emulated SN76496 4-channel Programmable Sound Generator found in the SG-1000, Sega Mark III, Master System, Game Gear and Mega Drive/Genesis."
+msgstr ""
+
+msgctxt "#30167"
+msgid "Set the audio preamplifier level of the emulated Mega Drive/Genesis FM sound synthesizer or Sega Mark III/Master System FM Sound Unit."
+msgstr ""
+
+msgctxt "#30168"
+msgid "Adjust the mixing volume of the emulated CD audio playback output."
+msgstr ""
+
+msgctxt "#30169"
+msgid "Adjust the mixing volume of the emulated Sega CD/Mega-CD RF5C164 PCM sound generator output."
+msgstr ""
+
+msgctxt "#30170"
+msgid "Adjust the low range band of the internal audio equalizer."
+msgstr ""
+
+msgctxt "#30171"
+msgid "Adjust the middle range band of the internal audio equalizer."
+msgstr ""
+
+msgctxt "#30172"
+msgid "Adjust the high range band of the internal audio equalizer."
+msgstr ""
+
+msgctxt "#30173"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30174"
+msgid "Change light gun and/or mouse input settings."
+msgstr ""
+
+msgctxt "#30175"
+msgid "Use a mouse-controlled 'Light Gun' or 'Touchscreen' input."
+msgstr ""
+
+msgctxt "#30176"
+msgid "Light Gun"
+msgstr ""
+
+msgctxt "#30177"
+msgid "Touchscreen"
+msgstr ""
+
+msgctxt "#30178"
+msgid "Display light gun crosshairs when using the MD Menacer, MD Justifiers and MS Light Phaser input device types."
+msgstr ""
+
+msgctxt "#30179"
+msgid "Inverts the Y-axis of the MD Mouse input device type."
+msgstr ""
+
+msgctxt "#30180"
+msgid "Emulation Hacks"
+msgstr ""
+
+msgctxt "#30181"
+msgid "Change processor overclocking and emulation accuracy settings that affect low-level performance and compatibility."
+msgstr ""
+
+msgctxt "#30182"
+msgid "Removes the original sprite-per-scanline hardware limit. This reduces flickering but can cause visual glitches, as some games exploit the hardware limit to generate special effects."
+msgstr ""
+
+msgctxt "#30183"
+msgid "Allows each individual cell to be scrolled vertically, instead of 16px 2-cell, by averaging out with the vscroll value of the neighbouring cell. This hack only applies to few games that use 2-cell vertical scroll mode."
+msgstr ""
+
+msgctxt "#30184"
+msgid "Only when Enhanced per-tile vertical scroll is enabled. Adjusts the limit of the vertical scroll enhancement. When the vscroll difference between neighbouring tiles is bigger than this limit, the enhancement is disabled."
+msgstr ""
+
+msgctxt "#30185"
+msgid "Overclock the emulated CPU. Can reduce slowdown, but may cause glitches."
+msgstr ""
+
+msgctxt "#30186"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30187"
+msgid "125%"
+msgstr ""
+
+msgctxt "#30188"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30189"
+msgid "175%"
+msgstr ""
+
+msgctxt "#30190"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30191"
+msgid "225%"
+msgstr ""
+
+msgctxt "#30192"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30193"
+msgid "275%"
+msgstr ""
+
+msgctxt "#30194"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30195"
+msgid "325%"
+msgstr ""
+
+msgctxt "#30196"
+msgid "350%"
+msgstr ""
+
+msgctxt "#30197"
+msgid "375%"
+msgstr ""
+
+msgctxt "#30198"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30199"
+msgid "425%"
+msgstr ""
+
+msgctxt "#30200"
+msgid "450%"
+msgstr ""
+
+msgctxt "#30201"
+msgid "475%"
+msgstr ""
+
+msgctxt "#30202"
+msgid "500%"
+msgstr ""
+
+msgctxt "#30203"
+msgid "Emulate system lock-ups that occur on real hardware when performing illegal address access. This should only be disabled when playing certain demos and homebrew that rely on illegal behavior for correct operation."
+msgstr ""
+
+msgctxt "#30204"
+msgid "The Mega Drive/Genesis main CPU (Motorola 68000) generates an Address Error exception (crash) when attempting to perform unaligned memory access. Enabling this will simulate this behavior. It should only be disabled when playing ROM hacks, since these are typically developed using less accurate emulators and may rely on invalid RAM access for correct operation."
+msgstr ""
+
+msgctxt "#30205"
+msgid "Simulate original CD hardware latency when initiating a read or seeking to a specific location on loaded disc. This is required by a few CD games that crash if CD data is available too soon and also fixes CD audio desync issues in some games. Disabling this can be useful with MSU-MD games as it makes CD audio tracks loops more seamless."
+msgstr ""
+
+msgctxt "#30206"
+msgid "Load CD image to memory on startup. CHD supported only. Restart Required."
+msgstr ""
+
+msgctxt "#30207"
+msgid "Advanced Channel Volume Settings"
+msgstr ""
+
+msgctxt "#30208"
+msgid "Change the volume of individual hardware audio channels."
+msgstr ""
+
+msgctxt "#30209"
+msgid "Show Advanced Audio Volume Settings (Reopen menu)"
+msgstr ""
+
+msgctxt "#30210"
+msgid "Enable configuration of low-level audio channel parameters. NOTE: Quick Menu must be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30211"
+msgid "Reduce the volume of the PSG Tone Channel 0."
+msgstr ""
+
+msgctxt "#30212"
+msgid "Reduce the volume of the PSG Tone Channel 1."
+msgstr ""
+
+msgctxt "#30213"
+msgid "Reduce the volume of the PSG Tone Channel 2."
+msgstr ""
+
+msgctxt "#30214"
+msgid "Reduce the volume of the PSG Noise Channel 3."
+msgstr ""
+
+msgctxt "#30215"
+msgid "Reduce the volume of the Mega Drive/Genesis FM Channel 0. Only works with MAME FM emulators."
+msgstr ""
+
+msgctxt "#30216"
+msgid "Reduce the volume of the Mega Drive/Genesis FM Channel 1. Only works with MAME FM emulators."
+msgstr ""
+
+msgctxt "#30217"
+msgid "Reduce the volume of the Mega Drive/Genesis FM Channel 2. Only works with MAME FM emulators."
+msgstr ""
+
+msgctxt "#30218"
+msgid "Reduce the volume of the Mega Drive/Genesis FM Channel 3. Only works with MAME FM emulators."
+msgstr ""
+
+msgctxt "#30219"
+msgid "Reduce the volume of the Mega Drive/Genesis FM Channel 4. Only works with MAME FM emulators."
+msgstr ""
+
+msgctxt "#30220"
+msgid "Reduce the volume of the Mega Drive/Genesis FM Channel 5. Only works with MAME FM emulators."
+msgstr ""
+
+msgctxt "#30221"
+msgid "Reduce the volume of the Master System FM Channel 0."
+msgstr ""
+
+msgctxt "#30222"
+msgid "Reduce the volume of the Master System FM Channel 1."
+msgstr ""
+
+msgctxt "#30223"
+msgid "Reduce the volume of the Master System FM Channel 2."
+msgstr ""
+
+msgctxt "#30224"
+msgid "Reduce the volume of the Master System FM Channel 3."
+msgstr ""
+
+msgctxt "#30225"
+msgid "Reduce the volume of the Master System FM Channel 4."
+msgstr ""
+
+msgctxt "#30226"
+msgid "Reduce the volume of the Master System FM Channel 5."
+msgstr ""
+
+msgctxt "#30227"
+msgid "Reduce the volume of the Master System FM Channel 6."
+msgstr ""
+
+msgctxt "#30228"
+msgid "Reduce the volume of the Master System FM Channel 7."
+msgstr ""
+
+msgctxt "#30229"
+msgid "Reduce the volume of the Master System FM Channel 8."
+msgstr ""
+
+msgctxt "#30230"
+msgid "NTSC PAR"
+msgstr ""
+
+msgctxt "#30231"
+msgid "PAL PAR"
+msgstr ""
+
+msgctxt "#30232"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30233"
+msgid "Uncorrected"
+msgstr ""
+
+msgctxt "#30234"
+msgid "EQ"
+msgstr ""

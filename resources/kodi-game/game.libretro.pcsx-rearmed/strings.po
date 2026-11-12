@@ -1,0 +1,1186 @@
+# game.libretro.pcsx-rearmed language file
+# Addon Name: game.libretro.pcsx-rearmed
+# Addon id: game.libretro.pcsx-rearmed
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.pcsx-rearmed\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 22:04+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pcsx-rearmed/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sony - PlayStation (PCSX ReARMed)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PCSX ReARMed is another PCSX fork based on the PCSX-Reloaded project, which itself contains code from PCSX, PCSX-df and PCSX-Revolution.[CR][CR]This version features a MIPS-to-ARM recompiler, NEON GTE code and more performance improvements."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Region"
+msgstr ""
+
+msgctxt "#30002"
+msgid "BIOS Selection"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Dynamic Recompiler"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Dithering Pattern"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Threaded Rendering"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Frameskip Interval"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Display Internal FPS"
+msgstr ""
+
+msgctxt "#30014"
+msgid "(GPU) Slow linked list processing"
+msgstr ""
+
+msgctxt "#30015"
+msgid "(GPU) Show Interlaced Video"
+msgstr ""
+
+msgctxt "#30017"
+msgid "(GPU) Enhanced Resolution Speed Hack"
+msgstr ""
+
+msgctxt "#30018"
+msgid "(GPU) Odd/Even Bit Hack"
+msgstr ""
+
+msgctxt "#30019"
+msgid "(GPU) Expand Screen Width"
+msgstr ""
+
+msgctxt "#30020"
+msgid "(GPU) Ignore Brightness Color"
+msgstr ""
+
+msgctxt "#30021"
+msgid "(GPU) Disable Coordinate Check"
+msgstr ""
+
+msgctxt "#30022"
+msgid "(GPU) Lazy Screen Update"
+msgstr ""
+
+msgctxt "#30023"
+msgid "(GPU) Repeat Flat Tex Triangles"
+msgstr ""
+
+msgctxt "#30024"
+msgid "(GPU) Draw Tex-Quads as Triangles"
+msgstr ""
+
+msgctxt "#30025"
+msgid "(GPU) Fake 'GPU Busy' States"
+msgstr ""
+
+msgctxt "#30026"
+msgid "(GPU) Texture Blending"
+msgstr ""
+
+msgctxt "#30027"
+msgid "(GPU) Lighting Effects"
+msgstr ""
+
+msgctxt "#30028"
+msgid "(GPU) Fast Lighting"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Audio Reverb Effects"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Sound Interpolation"
+msgstr ""
+
+msgctxt "#30032"
+msgid "CD Audio"
+msgstr ""
+
+msgctxt "#30033"
+msgid "XA Decoding"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Analog Axis Bounds"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Rumble Effects"
+msgstr ""
+
+msgctxt "#30037"
+msgid "NegCon Twist Deadzone"
+msgstr ""
+
+msgctxt "#30038"
+msgid "NegCon Twist Response"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Guncon X Axis Offset"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Guncon Y Axis Offset"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Guncon X Axis Response"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Guncon Y Axis Response"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Instruction Cache Emulation"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Disable Automatic Compatibility Hacks"
+msgstr ""
+
+msgctxt "#30046"
+msgid "(Speed Hack) Disable SMC Checks"
+msgstr ""
+
+msgctxt "#30047"
+msgid "(Speed Hack) Assume GTE Registers Unneeded"
+msgstr ""
+
+msgctxt "#30048"
+msgid "(Speed Hack) Disable GTE Flags"
+msgstr ""
+
+msgctxt "#30050"
+msgid "(GPU) Screen centering"
+msgstr ""
+
+msgctxt "#30053"
+msgid "(GPU) Enhanced Resolution"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Threaded SPU"
+msgstr ""
+
+msgctxt "#30055"
+msgid "DualShock Analog Mode Toggle Key Combo"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Multitap Mode"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Player 1 Lightgun Crosshair"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Player 2 Lightgun Crosshair"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Konami Gun X Axis Offset"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Konami Gun Y Axis Offset"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Exception and Breakpoint Emulation"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Disable CPU/GTE Stalls"
+msgstr ""
+
+msgctxt "#30063"
+msgid "(GPU) Enhanced Resolution Texture Adjustment"
+msgstr ""
+
+msgctxt "#30065"
+msgid "PSX CPU Clock Speed (%)"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Use fractional frame rate"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Turbo CD"
+msgstr ""
+
+msgctxt "#30070"
+msgid "CD read-ahead"
+msgstr ""
+
+msgctxt "#30071"
+msgid "DynaRec threading"
+msgstr ""
+
+msgctxt "#30072"
+msgid "(GPU) Horizontal overscan"
+msgstr ""
+
+msgctxt "#30073"
+msgid "(GPU) Manual position X"
+msgstr ""
+
+msgctxt "#30074"
+msgid "(GPU) Manual position Y"
+msgstr ""
+
+msgctxt "#30075"
+msgid "(GPU) Old renderer"
+msgstr ""
+
+msgctxt "#30076"
+msgid "RGB32 output"
+msgstr ""
+
+msgctxt "#30077"
+msgid "(GPU) Manual height adjustment"
+msgstr ""
+
+msgctxt "#30078"
+msgid "(GPU) Skip every 2nd line"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Hi-Res Downscaling"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Show BIOS Name/Boot Logo"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Framebuffer readout"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Memory Card 1 Type (Restart)"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Memory Card 2 Type"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Display Informational Notifications"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Show Advanced P.E.Op.S. GPU Settings"
+msgstr ""
+
+msgctxt "#30086"
+msgid "Show low-level configuration options for the P.E.Op.S. GPU plugin. Quick Menu may need to be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30087"
+msgid "Show Advanced UNAI GPU Settings"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Show low-level configuration options for the UNAI GPU plugin. Quick Menu may need to be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30089"
+msgid "Show Input Settings"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Show configuration options for all input devices: analog response, Multitaps, light guns, etc. Quick Menu may need to be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30091"
+msgid "System"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Configure base hardware parameters: region, BIOS selection, memory cards, etc."
+msgstr ""
+
+msgctxt "#30093"
+msgid "Specify which region the system is from. 'NTSC' is 60 Hz while 'PAL' is 50 Hz. 'Auto' will detect the region of the currently loaded content. Games may run faster or slower than normal if the incorrect region is selected."
+msgstr ""
+
+msgctxt "#30094"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Specify which BIOS to use. 'Auto' will attempt to load a real bios file from the frontend 'system' directory, falling back to high level emulation if unavailable. 'HLE' forces high level BIOS emulation. It is recommended to use an official bios file for better compatibility."
+msgstr ""
+
+msgctxt "#30096"
+msgid "When using a custom BIOS file, enables the display of its file name in the OSD. Also specifies whether to show the BIOS logo when starting or selecting Reset. Warning: Enabling the logo may reduce game compatibility."
+msgstr ""
+
+msgctxt "#30097"
+msgid "ON, w/o PCSXtm"
+msgstr ""
+
+msgctxt "#30098"
+msgid "How to emulate the memory card in slot 1. 'Libretro' passes the card data to the frontend (usually saved as .srm). 'Game Code' saves it to a file named based on the serial, such as SCUS-00001_1.mcd, for compatibility with some other emulators."
+msgstr ""
+
+msgctxt "#30099"
+msgid "Libretro (Default)"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Game Code (Serial)"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Shared Between All Games"
+msgstr ""
+
+msgctxt "#30102"
+msgid "No Memory Card"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Same as above, but card in slot 2."
+msgstr ""
+
+msgctxt "#30104"
+msgid "Reads the specified amount of sectors ahead of time to try to avoid later stalls. Affects both physical CD-ROM and CD images. 333000 will try to read the complete disk (requires an additional 750MB of RAM)."
+msgstr ""
+
+msgctxt "#30105"
+msgid "Dynamically recompile PSX CPU instructions to native instructions. Much faster than using an interpreter, but may be less accurate on some platforms."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Run the dynarec on another thread."
+msgstr ""
+
+msgctxt "#30107"
+msgid "Overclock or under-clock the PSX CPU. Should be much less than 100 (something like 57) due to some real hardware slowdowns not being emulated. Usually should be left at 'Auto', else glitches or hangs are likely."
+msgstr ""
+
+msgctxt "#30108"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Configure base display parameters."
+msgstr ""
+
+msgctxt "#30110"
+msgid "Enable emulation of the dithering technique used by the PSX to smooth out color banding artifacts. \"Force\" enables it even if the game turns it off. Increases performance requirements."
+msgstr ""
+
+msgctxt "#30111"
+msgid "Force"
+msgstr ""
+
+msgctxt "#30112"
+msgid "When enabled, runs GPU commands in a secondary thread. 'Auto' enables it if at least 2 CPU cores are detected."
+msgstr ""
+
+msgctxt "#30113"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Auto (Threshold)' utilises the 'Frameskip Threshold (%)' setting. 'Fixed Interval' utilises the 'Frameskip Interval' setting."
+msgstr ""
+
+msgctxt "#30114"
+msgid "Auto (Threshold)"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Fixed Interval"
+msgstr ""
+
+msgctxt "#30116"
+msgid "When 'Frameskip' is set to 'Auto (Threshold)', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""
+
+msgctxt "#30117"
+msgid "Specify the maximum number of frames that can be skipped before a new frame is rendered."
+msgstr ""
+
+msgctxt "#30118"
+msgid "Show the internal frame rate at which the emulated system is rendering content. Note: Requires on-screen notifications to be enabled in the libretro frontend."
+msgstr ""
+
+msgctxt "#30119"
+msgid "Shows things like unsafe hack options that are enabled and the BIOS name that is booting."
+msgstr ""
+
+msgctxt "#30120"
+msgid "Instead of the exact 50 or 60 (maximum) fps for PAL/NTSC the real console runs closer to something like 49.75 and 59.81fps (varies slightly between hw versions). PCSX-ReARMed uses the former \"round\" framerates to better match modern displays, however that may cause audio/video desync in games like DDR and Spyro 2 (intro). With this option you can try to use fractional framerates."
+msgstr ""
+
+msgctxt "#30121"
+msgid "Some games make changes to the framebuffer while it's being sent to the display, which is currently not emulated. However this option allows to choose if the emulator takes the video frame before the emulated PSX active display period ('Early') or after ('Late'). Normally this should be left at 'Auto'."
+msgstr ""
+
+msgctxt "#30122"
+msgid "Early"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Late"
+msgstr ""
+
+msgctxt "#30124"
+msgid "Improves color depth for true color modes (most FMVs and occasional title screens). Causes higher CPU usage due to double memory bandwidth requirement, even in 15bpp modes. Takes effect on game reload only (libretro limitation)."
+msgstr ""
+
+msgctxt "#30125"
+msgid "When enabled, games that run in high resolution video modes (480i, 512i) will be downscaled to 320x240 by skipping lines and/or columns. May be useful on some devices with native 240p display resolutions that lack efficient hardware scaling."
+msgstr ""
+
+msgctxt "#30126"
+msgid "Slower but more accurate GPU linked list processing. Needed by only a few games like Vampire Hunter D. Should be autodetected in most cases."
+msgstr ""
+
+msgctxt "#30127"
+msgid "The PSX can display graphics way into the horizontal borders, even if most screens would crop it. This option tries to display all such graphics. Note that this may result in unusual resolutions that your device might not handle well. The 'Hack' option is intended for the widescreen hacks."
+msgstr ""
+
+msgctxt "#30128"
+msgid "Hack"
+msgstr ""
+
+msgctxt "#30129"
+msgid "The PSX has a feature allowing it to shift the image position on screen. Some (mostly PAL) games used this feature in a strange way making the image miscentered and causing uneven borders to appear. With 'Auto' the emulator tries to correct this miscentering automatically. 'Game-controlled' uses the settings supplied by the game. 'Manual' allows to override those values with the settings below."
+msgstr ""
+
+msgctxt "#30130"
+msgid "Game-controlled"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Borderless"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30133"
+msgid "X offset of the frame buffer. Only effective when 'Screen centering' is set to 'Manual'."
+msgstr ""
+
+msgctxt "#30134"
+msgid "Y offset of the frame buffer. Only effective when 'Screen centering' is set to 'Manual'."
+msgstr ""
+
+msgctxt "#30135"
+msgid "Height adjustment. Only effective when 'Screen centering' is set to 'Manual'."
+msgstr ""
+
+msgctxt "#30136"
+msgid "GPU Plugin"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Configure low-level settings of the NEON GPU plugin."
+msgstr ""
+
+msgctxt "#30138"
+msgid "When enabled, games that run in high resolution video modes (480i, 512i) will produced interlaced video output. While this displays correctly on CRT televisions, it will produce artifacts on modern displays. When disabled, all video is output in progressive format. Note: there are games that will glitch is this is off."
+msgstr ""
+
+msgctxt "#30139"
+msgid "Render games that do not already run in high resolution video modes (480i, 512i) at twice the native internal resolution. Improves the fidelity of 3D models at the expense of increased performance requirements. 2D elements are generally unaffected by this setting."
+msgstr ""
+
+msgctxt "#30140"
+msgid "('Enhanced Resolution' Hack) Improves performance but reduces compatibility and may cause rendering errors."
+msgstr ""
+
+msgctxt "#30141"
+msgid "('Enhanced Resolution' Hack) Solves some texturing issues in some games in Enhanced Resolution mode. May cause a small performance hit."
+msgstr ""
+
+msgctxt "#30142"
+msgid "GPU Plugin (Advanced)"
+msgstr ""
+
+msgctxt "#30143"
+msgid "Configure low-level settings of the P.E.Op.S. GPU plugin."
+msgstr ""
+
+msgctxt "#30144"
+msgid "A hack fix used to correct lock-ups that may occur in games such as Chrono Cross. Disable unless required."
+msgstr ""
+
+msgctxt "#30145"
+msgid "Intended for use only with Capcom 2D fighting games. Enlarges the display area at the right side of the screen to show all background elements without cut-off. May cause rendering errors."
+msgstr ""
+
+msgctxt "#30146"
+msgid "A hack fix used to repair black screens in Lunar Silver Star Story Complete when entering a house or a menu. Disable unless required."
+msgstr ""
+
+msgctxt "#30147"
+msgid "Legacy compatibility mode. May improve games that fail to run correctly on newer GPU hardware. Disable unless required."
+msgstr ""
+
+msgctxt "#30148"
+msgid "A partial fix to prevent text box flickering in Dragon Warrior VII. May also improve Pandemonium 2. Disable unless required."
+msgstr ""
+
+msgctxt "#30149"
+msgid "A hack fix used to correct rendering errors in Star Wars: Dark Forces. Disable unless required."
+msgstr ""
+
+msgctxt "#30150"
+msgid "Corrects graphical distortions that may occur when games utilize Gouraud Shading, at the expense of reduced texture quality. Disable unless required."
+msgstr ""
+
+msgctxt "#30151"
+msgid "Emulate the 'GPU is busy' (drawing primitives) status flag of the original hardware instead of assuming the GPU is always ready for commands. May improve compatibility at the expense of reduced performance. Disable unless required."
+msgstr ""
+
+msgctxt "#30152"
+msgid "Configure low-level settings of the UNAI GPU plugin."
+msgstr ""
+
+msgctxt "#30153"
+msgid "This enables faster, but less accurate code."
+msgstr ""
+
+msgctxt "#30154"
+msgid "Enable alpha-based (and additive) texture blending. Required for various rendering effects, including transparency (e.g. water, shadows). Can be disabled to improve performance at the expense of severe display errors/inaccuracies."
+msgstr ""
+
+msgctxt "#30155"
+msgid "Skips every second scanline. Can be enabled to improve performance at the expense of display inaccuracies (artifacts etc.)."
+msgstr ""
+
+msgctxt "#30156"
+msgid "Enable simulated lighting effects (via vertex coloring combined with texture mapping). Required by almost all 3D games. Can be disabled to improve performance at the expense of severe display errors/inaccuracies (missing shadows, flat textures, etc.)."
+msgstr ""
+
+msgctxt "#30157"
+msgid "Improves performance when 'Lighting Effects' are enabled, but may cause moderate/severe rendering errors."
+msgstr ""
+
+msgctxt "#30158"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Configure sound emulation: reverb, interpolation, CD audio decoding."
+msgstr ""
+
+msgctxt "#30160"
+msgid "Enable emulation of the reverb feature provided by the PSX SPU. Can be disabled to improve performance at the expense of reduced audio quality/authenticity."
+msgstr ""
+
+msgctxt "#30161"
+msgid "Enable emulation of the in-built audio interpolation provided by the PSX SPU. 'Gaussian' sounds closest to original hardware. 'Simple' improves performance but reduces quality. 'Cubic' has the highest performance requirements but produces increased clarity. Can be disabled entirely for maximum performance, at the expense of greatly reduced audio quality."
+msgstr ""
+
+msgctxt "#30162"
+msgid "Simple"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Gaussian"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Cubic"
+msgstr ""
+
+msgctxt "#30165"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Enable playback of CD (CD-DA) audio tracks. Can be disabled to improve performance in games that include CD audio, at the expense of missing music."
+msgstr ""
+
+msgctxt "#30167"
+msgid "Enable playback of XA (eXtended Architecture ADPCM) audio tracks. Can be disabled to improve performance in games that include XA audio, at the expense of missing music."
+msgstr ""
+
+msgctxt "#30168"
+msgid "Emulates the PSX SPU on another CPU thread. May cause audio glitches in some games."
+msgstr ""
+
+msgctxt "#30169"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30170"
+msgid "Configure input devices: analog response, haptic feedback, Multitaps, light guns, etc."
+msgstr ""
+
+msgctxt "#30171"
+msgid "Specify range limits for the left and right analog sticks when input device is set to 'analog' or 'dualshock'. 'Square' bounds improve input response when using controllers with highly circular ranges that are unable to fully saturate the X and Y axes at 45 degree deflections."
+msgstr ""
+
+msgctxt "#30172"
+msgid "Circle"
+msgstr ""
+
+msgctxt "#30173"
+msgid "Square"
+msgstr ""
+
+msgctxt "#30174"
+msgid "Enable haptic feedback when using a rumble-equipped gamepad with input device set to 'dualshock'."
+msgstr ""
+
+msgctxt "#30175"
+msgid "When the input device type is DualShock, this option allows the emulated DualShock to be toggled between DIGITAL and ANALOG mode like original hardware. You can select the button combination for this."
+msgstr ""
+
+msgctxt "#30176"
+msgid "L1 + R1 + Select"
+msgstr ""
+
+msgctxt "#30177"
+msgid "L1 + R1 + Start"
+msgstr ""
+
+msgctxt "#30178"
+msgid "L1 + R1 + L3"
+msgstr ""
+
+msgctxt "#30179"
+msgid "L1 + R1 + R3"
+msgstr ""
+
+msgctxt "#30180"
+msgid "L3 + R3"
+msgstr ""
+
+msgctxt "#30181"
+msgid "Connect a virtual PSX Multitap peripheral to either controller 'Port 1' or controller 'Port 2' for 5 player simultaneous input, or to both 'Ports 1 and 2' for 8 player input. Mutlitap usage requires compatible games."
+msgstr ""
+
+msgctxt "#30182"
+msgid "Port 1"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Port 2"
+msgstr ""
+
+msgctxt "#30184"
+msgid "Ports 1 and 2"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Set the deadzone of the RetroPad left analog stick when simulating the 'twist' action of emulated neGcon Controllers. Used to eliminate drift/unwanted input."
+msgstr ""
+
+msgctxt "#30186"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30187"
+msgid "3%"
+msgstr ""
+
+msgctxt "#30188"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30189"
+msgid "7%"
+msgstr ""
+
+msgctxt "#30190"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30191"
+msgid "13%"
+msgstr ""
+
+msgctxt "#30192"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30193"
+msgid "17%"
+msgstr ""
+
+msgctxt "#30194"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30195"
+msgid "23%"
+msgstr ""
+
+msgctxt "#30196"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30197"
+msgid "27%"
+msgstr ""
+
+msgctxt "#30198"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30199"
+msgid "Specify the analog response when using a RetroPad left analog stick to simulate the 'twist' action of emulated neGcon Controllers."
+msgstr ""
+
+msgctxt "#30200"
+msgid "Linear"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Quadratic"
+msgstr ""
+
+msgctxt "#30202"
+msgid "Adjust responsiveness of emulated 'mouse' input devices."
+msgstr ""
+
+msgctxt "#30203"
+msgid "Toggle player 1's crosshair for the Guncon or Konami Gun. Only works if RGB32 output is off (video options)."
+msgstr ""
+
+msgctxt "#30204"
+msgid "Toggle player 2's crosshair for the Guncon or Konami Gun. Only works if RGB32 output is off (video options)."
+msgstr ""
+
+msgctxt "#30205"
+msgid "Apply an X axis offset to light gun input when emulating a Konami Gun (Hyper Blaster / Justifier) device. Can be used to correct aiming misalignments."
+msgstr ""
+
+msgctxt "#30206"
+msgid "Apply a Y axis offset to light gun input when emulating a Konami Gun (Hyper Blaster / Justifier) device. Can be used to correct aiming misalignments."
+msgstr ""
+
+msgctxt "#30207"
+msgid "Apply an X axis offset to light gun input when emulating a Guncon device. Can be used to correct aiming misalignments."
+msgstr ""
+
+msgctxt "#30208"
+msgid "Apply a Y axis offset to light gun input when emulating a Guncon device. Can be used to correct aiming misalignments."
+msgstr ""
+
+msgctxt "#30209"
+msgid "Adjust relative magnitude of horizontal light gun motion when emulating a Guncon device. Can be used to correct aiming misalignments."
+msgstr ""
+
+msgctxt "#30210"
+msgid "Adjust relative magnitude of vertical light gun motion when emulating a Guncon device. Can be used to correct aiming misalignments."
+msgstr ""
+
+msgctxt "#30211"
+msgid "Compatibility Fixes"
+msgstr ""
+
+msgctxt "#30212"
+msgid "Configure settings/workarounds required for correct operation of specific games."
+msgstr ""
+
+msgctxt "#30213"
+msgid "Enable emulation of the PSX CPU instruction cache. Improves accuracy at the expense of increased performance overheads. Required for Formula One 2001, Formula One Arcade and Formula One 99. [Interpreter only; partial on lightrec and ARM dynarecs]"
+msgstr ""
+
+msgctxt "#30214"
+msgid "Enable emulation of some almost never used PSX's debug features. This causes a performance hit, is not useful for games and is intended for PSX homebrew and romhack developers only. Only enable if you know what you are doing. [Interpreter only]"
+msgstr ""
+
+msgctxt "#30215"
+msgid "By default, PCSX-ReARMed will apply auxiliary compatibility hacks automatically, based on the currently loaded content. This behaviour is required for correct operation, but may be disabled if desired."
+msgstr ""
+
+msgctxt "#30216"
+msgid "Speed Hacks (Advanced)"
+msgstr ""
+
+msgctxt "#30217"
+msgid "Configure hacks that may improve performance at the expense of decreased accuracy/stability."
+msgstr ""
+
+msgctxt "#30218"
+msgid "This makes the emulated CD-ROM extremely fast and can reduce loading times in some cases. Warning: many games were not programmed to handle such a speed. The game (or even the emulator) MAY CRASH at ANY TIME if this is enabled."
+msgstr ""
+
+msgctxt "#30219"
+msgid "Will cause crashes when loading, and lead to memory card failure."
+msgstr ""
+
+msgctxt "#30220"
+msgid "May cause rendering errors."
+msgstr ""
+
+msgctxt "#30221"
+msgid "Will cause rendering errors."
+msgstr ""
+
+msgctxt "#30222"
+msgid "Will cause some games to run too quickly. Should be disabled in almost all cases. Interpreter only."
+msgstr ""
+
+msgctxt "#30223"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30224"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30225"
+msgid "HLE"
+msgstr ""
+
+msgctxt "#30226"
+msgid "30"
+msgstr ""
+
+msgctxt "#30227"
+msgid "31"
+msgstr ""
+
+msgctxt "#30228"
+msgid "32"
+msgstr ""
+
+msgctxt "#30229"
+msgid "33"
+msgstr ""
+
+msgctxt "#30230"
+msgid "34"
+msgstr ""
+
+msgctxt "#30231"
+msgid "35"
+msgstr ""
+
+msgctxt "#30232"
+msgid "36"
+msgstr ""
+
+msgctxt "#30233"
+msgid "37"
+msgstr ""
+
+msgctxt "#30234"
+msgid "38"
+msgstr ""
+
+msgctxt "#30235"
+msgid "39"
+msgstr ""
+
+msgctxt "#30236"
+msgid "40"
+msgstr ""
+
+msgctxt "#30237"
+msgid "41"
+msgstr ""
+
+msgctxt "#30238"
+msgid "42"
+msgstr ""
+
+msgctxt "#30239"
+msgid "43"
+msgstr ""
+
+msgctxt "#30240"
+msgid "44"
+msgstr ""
+
+msgctxt "#30241"
+msgid "45"
+msgstr ""
+
+msgctxt "#30242"
+msgid "46"
+msgstr ""
+
+msgctxt "#30243"
+msgid "47"
+msgstr ""
+
+msgctxt "#30244"
+msgid "48"
+msgstr ""
+
+msgctxt "#30245"
+msgid "49"
+msgstr ""
+
+msgctxt "#30246"
+msgid "50"
+msgstr ""
+
+msgctxt "#30247"
+msgid "51"
+msgstr ""
+
+msgctxt "#30248"
+msgid "52"
+msgstr ""
+
+msgctxt "#30249"
+msgid "53"
+msgstr ""
+
+msgctxt "#30250"
+msgid "54"
+msgstr ""
+
+msgctxt "#30251"
+msgid "55"
+msgstr ""
+
+msgctxt "#30252"
+msgid "56"
+msgstr ""
+
+msgctxt "#30253"
+msgid "57"
+msgstr ""
+
+msgctxt "#30254"
+msgid "58"
+msgstr ""
+
+msgctxt "#30255"
+msgid "59"
+msgstr ""
+
+msgctxt "#30256"
+msgid "60"
+msgstr ""
+
+msgctxt "#30257"
+msgid "61"
+msgstr ""
+
+msgctxt "#30258"
+msgid "62"
+msgstr ""
+
+msgctxt "#30259"
+msgid "63"
+msgstr ""
+
+msgctxt "#30260"
+msgid "64"
+msgstr ""
+
+msgctxt "#30261"
+msgid "65"
+msgstr ""
+
+msgctxt "#30262"
+msgid "66"
+msgstr ""
+
+msgctxt "#30263"
+msgid "67"
+msgstr ""
+
+msgctxt "#30264"
+msgid "68"
+msgstr ""
+
+msgctxt "#30265"
+msgid "69"
+msgstr ""
+
+msgctxt "#30266"
+msgid "70"
+msgstr ""
+
+msgctxt "#30267"
+msgid "71"
+msgstr ""
+
+msgctxt "#30268"
+msgid "72"
+msgstr ""
+
+msgctxt "#30269"
+msgid "73"
+msgstr ""
+
+msgctxt "#30270"
+msgid "74"
+msgstr ""
+
+msgctxt "#30271"
+msgid "75"
+msgstr ""
+
+msgctxt "#30272"
+msgid "76"
+msgstr ""
+
+msgctxt "#30273"
+msgid "77"
+msgstr ""
+
+msgctxt "#30274"
+msgid "78"
+msgstr ""
+
+msgctxt "#30275"
+msgid "79"
+msgstr ""
+
+msgctxt "#30276"
+msgid "80"
+msgstr ""
+
+msgctxt "#30277"
+msgid "81"
+msgstr ""
+
+msgctxt "#30278"
+msgid "82"
+msgstr ""
+
+msgctxt "#30279"
+msgid "83"
+msgstr ""
+
+msgctxt "#30280"
+msgid "84"
+msgstr ""
+
+msgctxt "#30281"
+msgid "85"
+msgstr ""
+
+msgctxt "#30282"
+msgid "86"
+msgstr ""
+
+msgctxt "#30283"
+msgid "87"
+msgstr ""
+
+msgctxt "#30284"
+msgid "88"
+msgstr ""
+
+msgctxt "#30285"
+msgid "89"
+msgstr ""
+
+msgctxt "#30286"
+msgid "90"
+msgstr ""
+
+msgctxt "#30287"
+msgid "91"
+msgstr ""
+
+msgctxt "#30288"
+msgid "92"
+msgstr ""
+
+msgctxt "#30289"
+msgid "93"
+msgstr ""
+
+msgctxt "#30290"
+msgid "94"
+msgstr ""
+
+msgctxt "#30291"
+msgid "95"
+msgstr ""
+
+msgctxt "#30292"
+msgid "96"
+msgstr ""
+
+msgctxt "#30293"
+msgid "97"
+msgstr ""
+
+msgctxt "#30294"
+msgid "98"
+msgstr ""
+
+msgctxt "#30295"
+msgid "99"
+msgstr ""
+
+msgctxt "#30296"
+msgid "100"
+msgstr ""
+
+msgctxt "#30297"
+msgid "extra"
+msgstr ""
+
+msgctxt "#30298"
+msgid "blue"
+msgstr ""
+
+msgctxt "#30299"
+msgid "green"
+msgstr ""
+
+msgctxt "#30300"
+msgid "red"
+msgstr ""
+
+msgctxt "#30301"
+msgid "white"
+msgstr ""
+
+msgctxt "#30302"
+msgid "(Hack) Disable Pipeline Delays"
+msgstr ""
+
+msgctxt "#30303"
+msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
+msgstr ""

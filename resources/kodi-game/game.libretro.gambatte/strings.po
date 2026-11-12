@@ -1,0 +1,370 @@
+# game.libretro.gambatte language file
+# Addon Name: game.libretro.gambatte
+# Addon id: game.libretro.gambatte
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.gambatte\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-gambatte/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy / Color (Gambatte)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color emulator written in C++."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Game Boy and Game Boy Color are registered trademarks of Nintendo of America, Inc. Gambatte is not affiliated with or endorsed by any of the companies mentioned."
+msgstr ""
+
+msgctxt "#30001"
+msgid "GB Colorization"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Internal Palette"
+msgstr ""
+
+msgctxt "#30003"
+msgid "> TWB64 - Pack 1 Palette"
+msgstr ""
+
+msgctxt "#30004"
+msgid "> TWB64 - Pack 2 Palette"
+msgstr ""
+
+msgctxt "#30005"
+msgid "> PixelShift - Pack 1 Palette"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Color Correction"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Color Correction Mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Color Correction - Frontlight Position"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Dark Filter Level (%)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Interframe Blending"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Audio Resampler"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Emulated Hardware (Restart Required)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Use Official Bootloader (Restart Required)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Allow Opposing Directions"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Turbo Button Period"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Controller Rumble Strength"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Game Link Mode"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Network Link Port"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Network Link Server Address Pt. 01: x__.___.___.___"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Network Link Server Address Pt. 02: _x_.___.___.___"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Network Link Server Address Pt. 03: __x.___.___.___"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Network Link Server Address Pt. 04: ___.x__.___.___"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Network Link Server Address Pt. 05: ___._x_.___.___"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Network Link Server Address Pt. 06: ___.__x.___.___"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Network Link Server Address Pt. 07: ___.___.x__.___"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Network Link Server Address Pt. 08: ___.___._x_.___"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Network Link Server Address Pt. 09: ___.___.__x.___"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Network Link Server Address Pt. 10: ___.___.___.x__"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Network Link Server Address Pt. 11: ___.___.___._x_"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Network Link Server Address Pt. 12: ___.___.___.__x"
+msgstr ""
+
+msgctxt "#30031"
+msgid "> TWB64 - Pack 3 Palette"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Enables colorization of Game Boy games. 'Auto' selects the 'best' (most colorful/appropriate) palette. 'GBC' selects game-specific Game Boy Color palette if defined, otherwise 'GBC - Dark Green'. 'SGB' selects game-specific Super Game Boy palette if defined, otherwise 'SGB - 1A'. 'Internal' uses 'Internal Palette' core option. 'Custom' loads user-created palette from system directory."
+msgstr ""
+
+msgctxt "#30033"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30034"
+msgid "GBC"
+msgstr ""
+
+msgctxt "#30035"
+msgid "SGB"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Internal"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Custom"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Selects palette used for colorizing Game Boy games when 'GB Colorization' is set to 'Internal', or when 'GB Colorization' is set to 'Auto' and game has no pre-defined SGB/GBC palette. 'GB' palettes mimic the display of original Game Boy hardware. 'GBC' palettes are identical to the built-in presets of the Game Boy Color. 'SGB' palettes are identical to the built-in presets of the Super Game Boy."
+msgstr ""
+
+msgctxt "#30039"
+msgid "Selects internal colorization palette when 'Internal Palette' is set to 'TWB64 - Pack 1'."
+msgstr ""
+
+msgctxt "#30040"
+msgid "Selects internal colorization palette when 'Internal Palette' is set to 'TWB64 - Pack 2'."
+msgstr ""
+
+msgctxt "#30041"
+msgid "Selects internal colorization palette when 'Internal Palette' is set to 'TWB64 - Pack 3'."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Selects internal colorization palette when 'Internal Palette' is set to 'PixelShift - Pack 1'."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Adjusts output colors to match the display of real Game Boy Color hardware. 'GBC Only' ensures that correction will only be applied when playing Game Boy Color games, or when using a Game Boy Color palette to colorize a Game Boy game. 'Always' applies color correction to all content, and will produce unexpected/suboptimal results when using 'GB' or 'SGB' internal color palettes."
+msgstr ""
+
+msgctxt "#30044"
+msgid "GBC Only"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Always"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Specifies method used when performing color correction. 'Accurate' produces output almost indistinguishable from a real Game Boy Color LCD panel. 'Fast' merely darkens colors and reduces saturation, and may be used on low-end hardware if the 'Accurate' method is too slow."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Accurate"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Fast"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Simulates the physical response of the Game Boy Color LCD panel when illuminated from different angles. 'Central' represents standard color reproduction. 'Above Screen' increases brightness. 'Below Screen' reduces brightness. This setting only applies when 'Color Correction Mode' is set to 'Accurate'."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Central"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Above Screen"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Below Screen"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Enable luminosity-based brightness reduction. May be used to avoid glare/eye strain when playing games with white backgrounds, which are intended for display on a non-backlit Game Boy Color and can therefore appear uncomfortably bright when viewed on a modern backlit screen."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Simulates LCD ghosting effects. 'Simple' performs a 50:50 mix of the current and previous frames. 'LCD Ghosting' mimics natural LCD response times by combining multiple buffered frames. 'Simple' blending is required when playing games that rely on LCD ghosting for transparency effects (Wave Race, Ballistic, Chikyuu Kaihou Gun ZAS...)."
+msgstr ""
+
+msgctxt "#30055"
+msgid "Simple"
+msgstr ""
+
+msgctxt "#30056"
+msgid "LCD Ghosting (Accurate)"
+msgstr ""
+
+msgctxt "#30057"
+msgid "LCD Ghosting (Fast)"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Specify which algorithm to use when resampling generated audio (the Game Boy audio rate is limited only by its CPU write speed, such that 'native' frequencies are impractical on modern sound devices and must be downsampled). 'Sinc' produces the highest quality. 'Cosine' improves performance on low-end hardware."
+msgstr ""
+
+msgctxt "#30059"
+msgid "Sinc"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Cosine"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Specify which type of hardware to emulate. 'Auto' is recommended. Selecting 'GBA' unlocks extra features in certain 'GBA Enhanced' Game Boy Color games (Shantae, Wendy - Every Witch Way, Legend of Zelda: Oracle of Seasons/Ages...)."
+msgstr ""
+
+msgctxt "#30062"
+msgid "Enable support for official Game Boy and Game Boy Color bootloaders, with corresponding start-up logo animations."
+msgstr ""
+
+msgctxt "#30063"
+msgid "Enabling this will allow pressing/quickly alternating/holding both left and right (or up and down) directions at the same time. This may cause movement-based glitches."
+msgstr ""
+
+msgctxt "#30064"
+msgid "Specify the repeat interval (in frames) when holding down the Turbo A/B buttons."
+msgstr ""
+
+msgctxt "#30065"
+msgid "Enables haptic feedback effects for supported games (Pokemon Pinball, Perfect Dark...)."
+msgstr ""
+
+msgctxt "#30066"
+msgid "Show Game Link Settings"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Enable configuration of networked Game Link (multiplayer) options. NOTE: Quick Menu may need to be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30068"
+msgid "Game Link"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Change networked Game Link (multiplayer) settings."
+msgstr ""
+
+msgctxt "#30070"
+msgid "When enabling networked Game Link functionality, specify whether current instance should run as a server or client."
+msgstr ""
+
+msgctxt "#30071"
+msgid "Specify port used for Game Link network communication."
+msgstr ""
+
+msgctxt "#30072"
+msgid "1st digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30073"
+msgid "2nd digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30074"
+msgid "3rd digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30075"
+msgid "4th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30076"
+msgid "5th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30077"
+msgid "6th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30078"
+msgid "7th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30079"
+msgid "8th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30080"
+msgid "9th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30081"
+msgid "10th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30082"
+msgid "11th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30083"
+msgid "12th digit of remote Game Link network server IP address. Only used when 'Game Link Mode' is set to 'Network Client'."
+msgstr ""
+
+msgctxt "#30084"
+msgid "GB"
+msgstr ""
+
+msgctxt "#30085"
+msgid "GBA"
+msgstr ""

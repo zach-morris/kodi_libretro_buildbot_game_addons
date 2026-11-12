@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mame2003_midway"
+		name="Arcade (MAME 2003 Midway)"
+		version="0.78.0.33"
+		provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2003_midway_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2003_midway</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2003 Midway)</summary>
+		<summary lang="da_DK">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="en_GB">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="es_ES">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="ga">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="it_IT">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2003 Midway)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="zh_CN">街机（MAME 2003 Midway）</summary>
+		<description lang="cs_CZ">MAME 2003 se speedhackem pro zvukový hardware Midway používaný ve hrách Mortal Kombat 2, 3 a dalších.</description>
+		<description lang="da_DK">MAME 2003 med speedhack til Midway-lydhardwaren brugt i Mortal Kombat 2, 3 og andre.</description>
+		<description lang="de_DE">MAME 2003 mit Speedhack für die Midway-Sound-Hardware, die in Mortal Kombat 2, 3 und anderen verwendet wurde.</description>
+		<description lang="en_GB">MAME 2003 with speedhack for the Midway sound hardware used in Mortal Kombat 2, 3 and others.</description>
+		<description lang="es_ES">MAME 2003 con speedhack para el hardware de sonido Midway utilizado en Mortal Kombat 2, 3 y otros.</description>
+		<description lang="ga">MAME 2003 le speedhack don chrua-earraí fuaime Midway a úsáideadh i Mortal Kombat 2, 3 agus cluichí eile.</description>
+		<description lang="it_IT">MAME 2003 con speedhack per l&apos;hardware audio Midway usato in Mortal Kombat 2, 3 e altri.</description>
+		<description lang="ru_RU">MAME 2003 с читом на скорость (speedhack) для звукового оборудования Midway, используемого в Mortal Kombat 2, 3 и других играх.</description>
+		<description lang="sv_SE">MAME 2003 med speedhack för Midways ljudhårdvara som används i Mortal Kombat 2, 3 m.fl.</description>
+		<description lang="zh_CN">MAME 2003 加上针对《真人快打2》、《真人快打3》和其他游戏中使用的 Midway 声音硬件的 speedhack。</description>
+	</extension>
+</addon>

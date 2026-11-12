@@ -1,0 +1,1066 @@
+# game.libretro.beetle-saturn language file
+# Addon Name: game.libretro.beetle-saturn
+# Addon id: game.libretro.beetle-saturn
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-saturn\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-05 12:47i\n"
+"PO-Revision-Date: 2024-12-27 21:46+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-saturn/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sega - Saturn (Beetle Saturn)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Beetle Saturn is a port of Mednafen Saturn to the libretro API."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Horizontal Overscan Mask"
+msgstr ""
+
+msgctxt "#30007"
+msgid "6Player Adaptor on Port 1"
+msgstr ""
+
+msgctxt "#30008"
+msgid "6Player Adaptor on Port 2"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Analog Stick Deadzone"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Trigger Deadzone"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Gun Crosshair"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Gun Input Mode"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Cartridge"
+msgstr ""
+
+msgctxt "#30018"
+msgid "System Region"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Mid-frame Input Synchronization"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Initial Scanline"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Last Scanline"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Initial Scanline (PAL)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Last Scanline (PAL)"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Allow Opposite Directions"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Gun Crosshair Color: Port 1"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Gun Crosshair Color: Port 2"
+msgstr ""
+
+msgctxt "#30031"
+msgid "BIOS Language"
+msgstr ""
+
+msgctxt "#30032"
+msgid "CD Image Cache"
+msgstr ""
+
+msgctxt "#30033"
+msgid "RTC Automatic Set"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Deinterlace Method"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Horizontal Blend"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Shared Internal Memory"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Shared Backup Memory"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Improved Mesh Transparencies"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Save Method"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Video CD Card (MPEG Card)"
+msgstr ""
+
+msgctxt "#30041"
+msgid "System"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Configure system options."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Choose which region the system is from."
+msgstr ""
+
+msgctxt "#30044"
+msgid "Also affects language used in some games (e.g. the European release of 'Panzer Dragoon')."
+msgstr ""
+
+msgctxt "#30045"
+msgid "English"
+msgstr ""
+
+msgctxt "#30046"
+msgid "German"
+msgstr ""
+
+msgctxt "#30047"
+msgid "French"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Spanish"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Italian"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Emulate the Saturn Video CD Card, a Japan/Europe-only expansion adding hardware MPEG-1 decoding. Requires the card firmware (mpeg_card.bin) in the system directory. Restart required."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Automatically set the SMPC's emulated Real-Time Clock to the host system's current time and date upon game load."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Load the complete image in memory at startup. Restart required."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Configure aspect ratio / display cropping / video filter / frame skipping parameters."
+msgstr ""
+
+msgctxt "#30056"
+msgid "Adjust the first displayed scanline in NTSC mode."
+msgstr ""
+
+msgctxt "#30057"
+msgid "8 (Default)"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Adjust the last displayed scanline in NTSC mode."
+msgstr ""
+
+msgctxt "#30059"
+msgid "231 (Default)"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Adjust the first displayed scanline in PAL mode."
+msgstr ""
+
+msgctxt "#30061"
+msgid "16 (Default)"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Adjust the last displayed scanline in PAL mode."
+msgstr ""
+
+msgctxt "#30063"
+msgid "271 (Default)"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Reduce horizontal width."
+msgstr ""
+
+msgctxt "#30065"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Enable horizontal blend filter. Has a more noticeable effect with higher horizontal resolution modes (640/704)."
+msgstr ""
+
+msgctxt "#30067"
+msgid "How to combine the two fields of an interlaced signal. 'Weave' shows both the current and previous field together on every frame for full vertical resolution, with combing visible on moving content. 'Bob' shows only the current field, halved in height -- no comb, but half the vertical resolution. 'Bob (Offset)' shows only the current field doubled into full surface height with a one-line offset between fields; preserves the libretro output resolution while giving Bob-style smooth motion. 'FastMAD (Motion Adaptive)' does per-pixel motion detection between the current frame and two frames ago, weaving where the picture is still and interpolating where motion was detected; much higher CPU cost than the other modes but eliminates combing on motion while preserving full resolution where the picture is still. 'Progressive' renders both interlaced fields during the same emulated frame, writing field 0 to even rows and field 1 to odd rows for full-height output. 'Off' has the VDP2 renderer fill both rows of every (even,odd) pair every emulated frame with current-frame content; full resolution, no comb on motion, but doubles the per-frame surface write work compared to the other modes."
+msgstr ""
+
+msgctxt "#30068"
+msgid "Weave"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Bob"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Bob (Offset)"
+msgstr ""
+
+msgctxt "#30071"
+msgid "FastMAD (Motion Adaptive)"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Progressive"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Replace VDP1's hardware-accurate (x ^ y) & 1 stipple, used by mesh-bit primitives, with a 50% blend against the final composited surface. The stipple looks like a visible checker on a flat panel (it relied on CRT phosphor blur). Improves the look of smoke, shadows, water, and fade effects in many games. CPU port of Kronos's GL-side improved mesh: mesh-bit pixels are routed to a parallel side-buffer instead of the main framebuffer, then VDP2 composites the side-buffer over the final surface in a late blend pass. 16-bit framebuffer only -- 8-bit paletted mode keeps the stipple regardless. Known limitation: a few games (e.g. Grandia) can show mesh residue for a frame or two during scene transitions where the game suppresses the VDP1 sprite layer through a path the side-buffer doesn't observe; toggle the option off if this is bothersome."
+msgstr ""
+
+msgctxt "#30075"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Configure lightgun / mouse / NegCon input."
+msgstr ""
+
+msgctxt "#30077"
+msgid "Enable multitap on Saturn port 1."
+msgstr ""
+
+msgctxt "#30078"
+msgid "Enable multitap on Saturn port 2."
+msgstr ""
+
+msgctxt "#30079"
+msgid "Allow pressing up and down or left and right directions at the same time. This may cause glitches."
+msgstr ""
+
+msgctxt "#30080"
+msgid "Mid-frame synchronization can reduce input latency, but it will increase CPU requirements. Disable this when using netplay, run-ahead, or movie recording, where it is incompatible with frame-exact replay."
+msgstr ""
+
+msgctxt "#30081"
+msgid "Inner deadzone applied to the '3D Control Pad' device type's analog stick, in addition to any front-end deadzone already configured in RetroArch's input settings.  Leave at 0% if you want the front-end deadzone to be authoritative; raise this if you want a stricter centre dead-region than RetroArch alone provides.  The two deadzones compound: setting 15% here on top of 15% in RetroArch results in roughly 28% combined dead-region."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Inner deadzone applied to the '3D Control Pad' device type's analog triggers, in addition to any front-end deadzone already configured in RetroArch's input settings.  Leave at 0% if you want the front-end deadzone to be authoritative; raise this if you want a stricter pull threshold before triggers begin to register.  The two deadzones compound."
+msgstr ""
+
+msgctxt "#30083"
+msgid "Configure the sensitivity of the 'Mouse' device type."
+msgstr ""
+
+msgctxt "#30084"
+msgid "Choose the lightgun input mode."
+msgstr ""
+
+msgctxt "#30085"
+msgid "Choose the crosshair for the 'Stunner' and 'Virtua Gun' device types."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Choose the light gun crosshair color for port 1."
+msgstr ""
+
+msgctxt "#30087"
+msgid "Red"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Blue"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Green"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Orange"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Yellow"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Cyan"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Pink"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Purple"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Black"
+msgstr ""
+
+msgctxt "#30096"
+msgid "White"
+msgstr ""
+
+msgctxt "#30097"
+msgid "Choose the light gun crosshair color for port 2."
+msgstr ""
+
+msgctxt "#30098"
+msgid "Cartridge / Memory Card"
+msgstr ""
+
+msgctxt "#30099"
+msgid "This lets you modify settings related to the Saturn cartridge and the virtual Memory Card(s) used by the system."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Certain games require an external cartridge to run (ROM Cart, 1M RAM Cart, 4M RAM Cart)."
+msgstr ""
+
+msgctxt "#30101"
+msgid "Enable shared internal memory. Restart required."
+msgstr ""
+
+msgctxt "#30102"
+msgid "Enable shared backup memory. Restart required."
+msgstr ""
+
+msgctxt "#30103"
+msgid "Format used to persist internal Backup RAM. 'Libretro' (.srm, default) hands save management to the frontend, enabling cloud sync, save-protect and similar. 'Mednafen' (.bkr) is the core's own format and matches saves written by previous versions - select it to use an existing .bkr file, or rename <game>.bkr to <game>.srm once to migrate that save to the Libretro format. The two formats are mutually exclusive. Restart required."
+msgstr ""
+
+msgctxt "#30104"
+msgid "Libretro"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Mednafen"
+msgstr ""
+
+msgctxt "#30106"
+msgid "0"
+msgstr ""
+
+msgctxt "#30107"
+msgid "1"
+msgstr ""
+
+msgctxt "#30108"
+msgid "2"
+msgstr ""
+
+msgctxt "#30109"
+msgid "3"
+msgstr ""
+
+msgctxt "#30110"
+msgid "4"
+msgstr ""
+
+msgctxt "#30111"
+msgid "5"
+msgstr ""
+
+msgctxt "#30112"
+msgid "6"
+msgstr ""
+
+msgctxt "#30113"
+msgid "7"
+msgstr ""
+
+msgctxt "#30114"
+msgid "9"
+msgstr ""
+
+msgctxt "#30115"
+msgid "10"
+msgstr ""
+
+msgctxt "#30116"
+msgid "11"
+msgstr ""
+
+msgctxt "#30117"
+msgid "12"
+msgstr ""
+
+msgctxt "#30118"
+msgid "13"
+msgstr ""
+
+msgctxt "#30119"
+msgid "14"
+msgstr ""
+
+msgctxt "#30120"
+msgid "15"
+msgstr ""
+
+msgctxt "#30121"
+msgid "16"
+msgstr ""
+
+msgctxt "#30122"
+msgid "17"
+msgstr ""
+
+msgctxt "#30123"
+msgid "18"
+msgstr ""
+
+msgctxt "#30124"
+msgid "19"
+msgstr ""
+
+msgctxt "#30125"
+msgid "20"
+msgstr ""
+
+msgctxt "#30126"
+msgid "21"
+msgstr ""
+
+msgctxt "#30127"
+msgid "22"
+msgstr ""
+
+msgctxt "#30128"
+msgid "23"
+msgstr ""
+
+msgctxt "#30129"
+msgid "24"
+msgstr ""
+
+msgctxt "#30130"
+msgid "25"
+msgstr ""
+
+msgctxt "#30131"
+msgid "26"
+msgstr ""
+
+msgctxt "#30132"
+msgid "27"
+msgstr ""
+
+msgctxt "#30133"
+msgid "28"
+msgstr ""
+
+msgctxt "#30134"
+msgid "29"
+msgstr ""
+
+msgctxt "#30135"
+msgid "30"
+msgstr ""
+
+msgctxt "#30136"
+msgid "31"
+msgstr ""
+
+msgctxt "#30137"
+msgid "32"
+msgstr ""
+
+msgctxt "#30138"
+msgid "33"
+msgstr ""
+
+msgctxt "#30139"
+msgid "34"
+msgstr ""
+
+msgctxt "#30140"
+msgid "35"
+msgstr ""
+
+msgctxt "#30141"
+msgid "36"
+msgstr ""
+
+msgctxt "#30142"
+msgid "37"
+msgstr ""
+
+msgctxt "#30143"
+msgid "38"
+msgstr ""
+
+msgctxt "#30144"
+msgid "39"
+msgstr ""
+
+msgctxt "#30145"
+msgid "40"
+msgstr ""
+
+msgctxt "#30146"
+msgid "210"
+msgstr ""
+
+msgctxt "#30147"
+msgid "211"
+msgstr ""
+
+msgctxt "#30148"
+msgid "212"
+msgstr ""
+
+msgctxt "#30149"
+msgid "213"
+msgstr ""
+
+msgctxt "#30150"
+msgid "214"
+msgstr ""
+
+msgctxt "#30151"
+msgid "215"
+msgstr ""
+
+msgctxt "#30152"
+msgid "216"
+msgstr ""
+
+msgctxt "#30153"
+msgid "217"
+msgstr ""
+
+msgctxt "#30154"
+msgid "218"
+msgstr ""
+
+msgctxt "#30155"
+msgid "219"
+msgstr ""
+
+msgctxt "#30156"
+msgid "220"
+msgstr ""
+
+msgctxt "#30157"
+msgid "221"
+msgstr ""
+
+msgctxt "#30158"
+msgid "222"
+msgstr ""
+
+msgctxt "#30159"
+msgid "223"
+msgstr ""
+
+msgctxt "#30160"
+msgid "224"
+msgstr ""
+
+msgctxt "#30161"
+msgid "225"
+msgstr ""
+
+msgctxt "#30162"
+msgid "226"
+msgstr ""
+
+msgctxt "#30163"
+msgid "227"
+msgstr ""
+
+msgctxt "#30164"
+msgid "228"
+msgstr ""
+
+msgctxt "#30165"
+msgid "229"
+msgstr ""
+
+msgctxt "#30166"
+msgid "230"
+msgstr ""
+
+msgctxt "#30167"
+msgid "232"
+msgstr ""
+
+msgctxt "#30168"
+msgid "233"
+msgstr ""
+
+msgctxt "#30169"
+msgid "234"
+msgstr ""
+
+msgctxt "#30170"
+msgid "235"
+msgstr ""
+
+msgctxt "#30171"
+msgid "236"
+msgstr ""
+
+msgctxt "#30172"
+msgid "237"
+msgstr ""
+
+msgctxt "#30173"
+msgid "238"
+msgstr ""
+
+msgctxt "#30174"
+msgid "239"
+msgstr ""
+
+msgctxt "#30175"
+msgid "8"
+msgstr ""
+
+msgctxt "#30176"
+msgid "41"
+msgstr ""
+
+msgctxt "#30177"
+msgid "42"
+msgstr ""
+
+msgctxt "#30178"
+msgid "43"
+msgstr ""
+
+msgctxt "#30179"
+msgid "44"
+msgstr ""
+
+msgctxt "#30180"
+msgid "45"
+msgstr ""
+
+msgctxt "#30181"
+msgid "46"
+msgstr ""
+
+msgctxt "#30182"
+msgid "47"
+msgstr ""
+
+msgctxt "#30183"
+msgid "48"
+msgstr ""
+
+msgctxt "#30184"
+msgid "49"
+msgstr ""
+
+msgctxt "#30185"
+msgid "50"
+msgstr ""
+
+msgctxt "#30186"
+msgid "51"
+msgstr ""
+
+msgctxt "#30187"
+msgid "52"
+msgstr ""
+
+msgctxt "#30188"
+msgid "53"
+msgstr ""
+
+msgctxt "#30189"
+msgid "54"
+msgstr ""
+
+msgctxt "#30190"
+msgid "55"
+msgstr ""
+
+msgctxt "#30191"
+msgid "56"
+msgstr ""
+
+msgctxt "#30192"
+msgid "57"
+msgstr ""
+
+msgctxt "#30193"
+msgid "58"
+msgstr ""
+
+msgctxt "#30194"
+msgid "59"
+msgstr ""
+
+msgctxt "#30195"
+msgid "60"
+msgstr ""
+
+msgctxt "#30196"
+msgid "231"
+msgstr ""
+
+msgctxt "#30197"
+msgid "240"
+msgstr ""
+
+msgctxt "#30198"
+msgid "241"
+msgstr ""
+
+msgctxt "#30199"
+msgid "242"
+msgstr ""
+
+msgctxt "#30200"
+msgid "243"
+msgstr ""
+
+msgctxt "#30201"
+msgid "244"
+msgstr ""
+
+msgctxt "#30202"
+msgid "245"
+msgstr ""
+
+msgctxt "#30203"
+msgid "246"
+msgstr ""
+
+msgctxt "#30204"
+msgid "247"
+msgstr ""
+
+msgctxt "#30205"
+msgid "248"
+msgstr ""
+
+msgctxt "#30206"
+msgid "249"
+msgstr ""
+
+msgctxt "#30207"
+msgid "250"
+msgstr ""
+
+msgctxt "#30208"
+msgid "251"
+msgstr ""
+
+msgctxt "#30209"
+msgid "252"
+msgstr ""
+
+msgctxt "#30210"
+msgid "253"
+msgstr ""
+
+msgctxt "#30211"
+msgid "254"
+msgstr ""
+
+msgctxt "#30212"
+msgid "255"
+msgstr ""
+
+msgctxt "#30213"
+msgid "256"
+msgstr ""
+
+msgctxt "#30214"
+msgid "257"
+msgstr ""
+
+msgctxt "#30215"
+msgid "258"
+msgstr ""
+
+msgctxt "#30216"
+msgid "259"
+msgstr ""
+
+msgctxt "#30217"
+msgid "260"
+msgstr ""
+
+msgctxt "#30218"
+msgid "261"
+msgstr ""
+
+msgctxt "#30219"
+msgid "262"
+msgstr ""
+
+msgctxt "#30220"
+msgid "263"
+msgstr ""
+
+msgctxt "#30221"
+msgid "264"
+msgstr ""
+
+msgctxt "#30222"
+msgid "265"
+msgstr ""
+
+msgctxt "#30223"
+msgid "266"
+msgstr ""
+
+msgctxt "#30224"
+msgid "267"
+msgstr ""
+
+msgctxt "#30225"
+msgid "268"
+msgstr ""
+
+msgctxt "#30226"
+msgid "269"
+msgstr ""
+
+msgctxt "#30227"
+msgid "270"
+msgstr ""
+
+msgctxt "#30228"
+msgid "272"
+msgstr ""
+
+msgctxt "#30229"
+msgid "273"
+msgstr ""
+
+msgctxt "#30230"
+msgid "274"
+msgstr ""
+
+msgctxt "#30231"
+msgid "275"
+msgstr ""
+
+msgctxt "#30232"
+msgid "276"
+msgstr ""
+
+msgctxt "#30233"
+msgid "277"
+msgstr ""
+
+msgctxt "#30234"
+msgid "278"
+msgstr ""
+
+msgctxt "#30235"
+msgid "279"
+msgstr ""
+
+msgctxt "#30236"
+msgid "280"
+msgstr ""
+
+msgctxt "#30237"
+msgid "281"
+msgstr ""
+
+msgctxt "#30238"
+msgid "282"
+msgstr ""
+
+msgctxt "#30239"
+msgid "283"
+msgstr ""
+
+msgctxt "#30240"
+msgid "284"
+msgstr ""
+
+msgctxt "#30241"
+msgid "285"
+msgstr ""
+
+msgctxt "#30242"
+msgid "286"
+msgstr ""
+
+msgctxt "#30243"
+msgid "287"
+msgstr ""
+
+msgctxt "#30244"
+msgid "Cross"
+msgstr ""
+
+msgctxt "#30245"
+msgid "Dot"
+msgstr ""
+
+msgctxt "#30246"
+msgid "Auto Detect"
+msgstr ""
+
+msgctxt "#30247"
+msgid "Backup Memory"
+msgstr ""
+
+msgctxt "#30248"
+msgid "Extended RAM (1MB)"
+msgstr ""
+
+msgctxt "#30249"
+msgid "Extended RAM (4MB)"
+msgstr ""
+
+msgctxt "#30250"
+msgid "The King of Fighters '95"
+msgstr ""
+
+msgctxt "#30251"
+msgid "Ultraman: Hikari no Kyojin Densetsu"
+msgstr ""
+
+msgctxt "#30252"
+msgid "SCU DSP JIT Binary Translator (Restart)"
+msgstr ""
+
+msgctxt "#30253"
+msgid "Use the native JIT binary translator for the SCU DSP. Available on x86, x86-64 and Linux/Android aarch64 builds; elsewhere the interpreter is always used. Restart required."
+msgstr ""
+
+msgctxt "#30254"
+msgid "CPU Cache Emulation (Restart)"
+msgstr ""
+
+msgctxt "#30255"
+msgid "Which SH-2 cache emulation mode to use. 'Auto' takes it from the per-game database: 'Data only' for most titles, 'Full' (instruction cache emulated, slower) for the games known to need it and for all ST-V games. Override only to test; 'Data only' on a game that needs 'Full' can glitch or hang. Restart required."
+msgstr ""
+
+msgctxt "#30256"
+msgid "Auto (per-game database)"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Data only"
+msgstr ""
+
+msgctxt "#30258"
+msgid "Full"
+msgstr ""
+
+msgctxt "#30259"
+msgid "SH-2 CPU Sync Mode (Restart)"
+msgstr ""
+
+msgctxt "#30260"
+msgid "How closely the two SH-2 CPUs are kept in step. 'Exact' alternates them every instruction and reproduces the previous behaviour byte for byte. The 'Fast' modes let the master run a few cycles ahead of the slave before the slave catches up, which avoids alternating the two CPUs' working sets every instruction, and schedule idle DMA controllers by event instead of polling. Each CPU still executes its full instruction count (within 1-2%), so games run at true speed; measured gain about 15% on Daytona USA and Virtua Fighter 2. Larger windows were removed: they starve the slave and only appear faster. Use Exact if a game hangs, desyncs, has audio problems or renders incorrectly in a Fast mode. Restart required."
+msgstr ""
+
+msgctxt "#30261"
+msgid "Exact (Accurate)"
+msgstr ""
+
+msgctxt "#30262"
+msgid "Fast (4 cycles)"
+msgstr ""
+
+msgctxt "#30263"
+msgid "Fast (8 cycles, recommended)"
+msgstr ""
+
+msgctxt "#30264"
+msgid "Fast (16 cycles)"
+msgstr ""
+
+msgctxt "#30265"
+msgid "SH-2 Instruction JIT (Experimental, Restart)"
+msgstr ""
+
+msgctxt "#30266"
+msgid "Run the master SH-2's ordinary instructions through natively compiled per-instruction handlers, keeping the interpreter's exact timing. Only with CPU cache emulation off ('Data only'), x86/x86-64 only. Restart required."
+msgstr ""
+
+msgctxt "#30267"
+msgid "SCSP DSP JIT Binary Translator (Restart)"
+msgstr ""
+
+msgctxt "#30268"
+msgid "Use the native JIT binary translator for the SCSP DSP (MPROG). Available on x86, x86-64 and Linux/Android aarch64 builds; elsewhere the interpreter is always used. Restart required."
+msgstr ""
+
+msgctxt "#30269"
+msgid "Backup Memory Size"
+msgstr ""
+
+msgctxt "#30270"
+msgid "Capacity of the external Backup Memory cartridge, used when Cartridge is Backup Memory or Auto Detect picks it. The 4 MB cart saves to its own .4mb.bcr file, and save states do not carry cart contents between the two sizes. Restart required."
+msgstr ""
+
+msgctxt "#30271"
+msgid "512 KB (4 Mbit)"
+msgstr ""
+
+msgctxt "#30272"
+msgid "4 MB (32 Mbit)"
+msgstr ""

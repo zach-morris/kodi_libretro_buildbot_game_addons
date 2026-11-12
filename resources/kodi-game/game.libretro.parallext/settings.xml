@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="128">
+		<setting label="30001" type="select" id="mupen64plus-cpucore" values="dynamic_recompiler|cached_interpreter|pure_interpreter" default="dynamic_recompiler"/>
+		<setting label="30002" type="select" id="parallel-n64-gfxplugin" values="HLE (OpenGL, GLideN64)|LLE (software, angrylion)" default="HLE (OpenGL, GLideN64)"/>
+		<setting label="30003" type="select" id="parallel-n64-rspplugin" values="cxd4 (interpreter)" default="cxd4 (interpreter)"/>
+		<setting label="30004" type="select" id="parallel-n64-dithering" values="enabled|disabled" default="enabled"/>
+		<setting label="30005" type="select" id="parallel-n64-angrylion-vioverlay" values="Filtered|AA+Blur|AA+Dedither|AA only|Unfiltered|Depth|Coverage" default="Filtered"/>
+		<setting label="30006" type="select" id="parallel-n64-angrylion-multithread" values="enabled|disabled" default="enabled"/>
+		<setting label="30007" type="select" id="parallel-n64-angrylion-overscan" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="parallel-n64-angrylion-sync" values="Low|Medium|High" default="Low"/>
+		<setting label="30009" type="select" id="parallel-n64-screensize" values="640x480|960x720|1280x960|1440x1080|1600x1200|1920x1440|2240x1680|2880x2160|5760x4320|320x240" default="640x480"/>
+		<setting label="30010" type="select" id="mupen64plus-169screensize" values="640x360|960x540|1280x720|1920x1080|2560x1440|3840x2160|4096x2160|7680x4320" default="640x360"/>
+		<setting label="30011" type="select" id="mupen64plus-aspect" values="4:3|16:9|16:9 adjusted" default="4:3"/>
+		<setting label="30012" type="select" id="mupen64plus-BilinearMode" values="standard|3point" default="standard"/>
+		<setting label="30013" type="select" id="mupen64plus-MultiSampling" values="0|2|4|8|16" default="0"/>
+		<setting label="30014" type="select" id="mupen64plus-FXAA" values="0|1" default="0"/>
+		<setting label="30015" type="select" id="mupen64plus-FrameDuping" values="False|True" default="False"/>
+		<setting label="30016" type="select" id="mupen64plus-Framerate" values="Original|Fullspeed" default="Original"/>
+		<setting label="30017" type="select" id="mupen64plus-virefresh" values="Auto|1500|2200" default="Auto"/>
+		<setting label="30018" type="select" id="mupen64plus-NoiseEmulation" values="True|False" default="True"/>
+		<setting label="30019" type="select" id="mupen64plus-EnableFBEmulation" values="True|False" default="True"/>
+		<setting label="30020" type="select" id="mupen64plus-EnableLODEmulation" values="True|False" default="True"/>
+		<setting label="30021" type="select" id="mupen64plus-EnableCopyColorToRDRAM" values="Async|Sync|Off" default="Async"/>
+		<setting label="30022" type="select" id="mupen64plus-EnableCopyDepthToRDRAM" values="Software|FromMem|Off" default="Software"/>
+		<setting label="30023" type="select" id="mupen64plus-BackgroundMode" values="OnePiece|Stripped" default="OnePiece"/>
+		<setting label="30024" type="select" id="mupen64plus-EnableHWLighting" values="False|True" default="False"/>
+		<setting label="30025" type="select" id="mupen64plus-CorrectTexrectCoords" values="Off|Auto|Force" default="Off"/>
+		<setting label="30026" type="select" id="mupen64plus-EnableNativeResTexrects" values="Disabled|Optimized|Unoptimized" default="Disabled"/>
+		<setting label="30027" type="select" id="mupen64plus-EnableLegacyBlending" values="False|True" default="False"/>
+		<setting label="30028" type="select" id="mupen64plus-EnableFragmentDepthWrite" values="True|False" default="True"/>
+		<setting label="30029" type="select" id="mupen64plus-EnableN64DepthCompare" values="False|True" default="False"/>
+		<setting label="30030" type="select" id="mupen64plus-EnableShadersStorage" values="True|False" default="True"/>
+		<setting label="30031" type="select" id="mupen64plus-EnableTextureCache" values="True|False" default="True"/>
+		<setting label="30032" type="select" id="mupen64plus-EnableOverscan" values="Enabled|Disabled" default="Enabled"/>
+		<setting label="30033" type="select" id="mupen64plus-OverscanTop" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50" default="0"/>
+		<setting label="30034" type="select" id="mupen64plus-OverscanLeft" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50" default="0"/>
+		<setting label="30035" type="select" id="mupen64plus-OverscanRight" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50" default="0"/>
+		<setting label="30036" type="select" id="mupen64plus-OverscanBottom" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50" default="0"/>
+		<setting label="30037" type="select" id="mupen64plus-MaxTxCacheSize" values="8000|4000|1500" default="8000"/>
+		<setting label="30038" type="select" id="mupen64plus-txFilterMode" values="None|Smooth filtering 1|Smooth filtering 2|Smooth filtering 3|Smooth filtering 4|Sharp filtering 1|Sharp filtering 2" default="None"/>
+		<setting label="30039" type="select" id="mupen64plus-txEnhancementMode" values="None|As Is|X2|X2SAI|HQ2X|HQ2XS|LQ2X|LQ2XS|HQ4X|2xBRZ|3xBRZ|4xBRZ|5xBRZ|6xBRZ" default="None"/>
+		<setting label="30040" type="select" id="mupen64plus-txFilterIgnoreBG" values="True|False" default="True"/>
+		<setting label="30041" type="select" id="mupen64plus-txHiresEnable" values="False|True" default="False"/>
+		<setting label="30042" type="select" id="mupen64plus-txCacheCompression" values="True|False" default="True"/>
+		<setting label="30043" type="select" id="mupen64plus-txHiresFullAlphaChannel" values="False|True" default="False"/>
+		<setting label="30044" type="select" id="mupen64plus-EnableEnhancedTextureStorage" values="False|True" default="False"/>
+		<setting label="30045" type="select" id="mupen64plus-EnableEnhancedHighResStorage" values="False|True" default="False"/>
+		<setting label="30048" type="select" id="mupen64plus-astick-deadzone" values="15|20|25|30|0|5|10" default="15"/>
+		<setting label="30049" type="select" id="mupen64plus-astick-sensitivity" values="100|105|110|115|120|125|130|135|140|145|150|50|55|60|65|70|75|80|85|90|95" default="100"/>
+		<setting label="30050" type="select" id="mupen64plus-pak1" values="memory|rumble|none" default="memory"/>
+		<setting label="30051" type="select" id="mupen64plus-pak2" values="none|memory|rumble" default="none"/>
+		<setting label="30052" type="select" id="mupen64plus-pak3" values="none|memory|rumble" default="none"/>
+		<setting label="30053" type="select" id="mupen64plus-pak4" values="none|memory|rumble" default="none"/>
+		<setting label="30054" type="select" id="mupen64plus-CountPerOp" values="0|1|2|3" default="0"/>
+	</category>
+</settings>

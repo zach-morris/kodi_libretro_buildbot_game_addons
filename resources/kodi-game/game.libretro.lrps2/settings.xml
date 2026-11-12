@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.lrps2">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="pcsx2_use_external_gameindex" type="string" label="30001" help="30002">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="system" label="30003" help="30004">
+			<group id="1">
+				<setting id="pcsx2_bios" type="string" label="30005">
+					<level>0</level>
+					<default></default>
+					<constraints>
+						<options>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_fastboot" type="string" label="30006" help="30007">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_fastcdvd" type="string" label="30008" help="30009">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_usb_camera" type="string" label="30223" help="30224">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30225">eyetoy</option>
+							<option label="30226">capture_eye</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_shared_memory_cards" type="string" label="30010" help="30011">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_enable_cheats" type="string" label="30012" help="30013">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_hint_language_unlock" type="string" label="30014" help="30015">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_dev9_hdd" type="string" label="30016" help="30017">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_dev9_hdd_size" type="string" label="30018" help="30019">
+					<level>0</level>
+					<default>40 GiB</default>
+					<constraints>
+						<options>
+							<option>8 GiB</option>
+							<option>16 GiB</option>
+							<option>20 GiB</option>
+							<option>40 GiB</option>
+							<option>80 GiB</option>
+							<option>120 GiB</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_dev9_eth" type="string" label="30020" help="30021">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30022" help="30023">
+			<group id="1">
+				<setting id="pcsx2_renderer" type="string" label="30024">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30025">OpenGL</option>
+							<option label="30026">Vulkan</option>
+							<option label="30027">paraLLEl-GS</option>
+							<option label="30028">Software (HW)</option>
+							<option label="30029">Software (SW)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_upscale_multiplier" type="string" label="30030" help="30213">
+					<level>0</level>
+					<default>1x (Native)</default>
+					<constraints>
+						<options>
+							<option>1x (Native)</option>
+							<option>2x</option>
+							<option>4x</option>
+							<option>8x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_native_scaling" type="string" label="30214" help="30215">
+					<level>0</level>
+					<default>Automatic</default>
+					<constraints>
+						<options>
+							<option label="30043">Automatic</option>
+							<option label="13106">disabled</option>
+							<option label="30128">Normal</option>
+							<option label="30129">Aggressive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_pgs_ssaa" type="string" label="30031" help="30216">
+					<level>0</level>
+					<default>Native</default>
+					<constraints>
+						<options>
+							<option>Native</option>
+							<option>2x SSAA</option>
+							<option>4x SSAA (sparse grid)</option>
+							<option>4x SSAA (ordered, can high-res)</option>
+							<option>8x SSAA (can high-res)</option>
+							<option>16x SSAA (can high-res)</option>
+							<option>16x SSAA (ordered, can high-res 4x)</option>
+							<option>32x SSAA (ordered, can high-res 4x full)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_pgs_high_res_scanout" type="string" label="30033" help="30217">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30199">enabled</option>
+							<option label="30200">enabled (4x)</option>
+							<option label="30201">enabled (4x, anti-aliased)</option>
+							<option label="30218">enabled (4x, full field height)</option>
+							<option label="30219">enabled (4x, anti-aliased, full field height)</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_pgs_ss_tex" type="string" label="30035" help="30220">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_pgs_deblur" type="string" label="30037" help="30038">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_pgs_disable_mipmaps" type="string" label="30039" help="30040">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_deinterlace_mode" type="string" label="30041" help="30042">
+					<level>0</level>
+					<default>Automatic</default>
+					<constraints>
+						<options>
+							<option label="30043">Automatic</option>
+							<option label="351">Off</option>
+							<option label="30044">Weave TFF</option>
+							<option label="30045">Weave BFF</option>
+							<option label="30046">Bob TFF</option>
+							<option label="30047">Bob BFF</option>
+							<option label="30048">Blend TFF</option>
+							<option label="30049">Blend BFF</option>
+							<option label="30050">Adaptive TFF</option>
+							<option label="30051">Adaptive BFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_hw_download_mode" type="string" label="30052" help="30053">
+					<level>0</level>
+					<default>Accurate</default>
+					<constraints>
+						<options>
+							<option label="30054">Accurate</option>
+							<option label="30055">Disable Readbacks</option>
+							<option label="30056">Unsynchronized</option>
+							<option label="13106">Disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_nointerlacing_hint" type="string" label="30057" help="30058">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_texture_filtering" type="string" label="30059">
+					<level>0</level>
+					<default>Bilinear (PS2)</default>
+					<constraints>
+						<options>
+							<option>Nearest</option>
+							<option>Bilinear (Forced)</option>
+							<option>Bilinear (PS2)</option>
+							<option>Bilinear (Forced excluding sprite)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_trilinear_filtering" type="string" label="30060">
+					<level>0</level>
+					<default>Automatic</default>
+					<constraints>
+						<options>
+							<option label="30043">Automatic</option>
+							<option label="13106">disabled</option>
+							<option label="30061">Trilinear (PS2)</option>
+							<option label="30062">Trilinear (Forced)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_anisotropic_filtering" type="string" label="30063">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30064">2x</option>
+							<option label="30065">4x</option>
+							<option label="30066">8x</option>
+							<option label="30067">16x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_dithering" type="string" label="30068">
+					<level>0</level>
+					<default>Unscaled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30069">Scaled</option>
+							<option label="30070">Unscaled</option>
+							<option label="30071">Force 32bit</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_blending_accuracy" type="string" label="30072">
+					<level>0</level>
+					<default>Basic</default>
+					<constraints>
+						<options>
+							<option>Minimum</option>
+							<option>Basic</option>
+							<option>Medium</option>
+							<option>High</option>
+							<option>Full</option>
+							<option>Maximum</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_widescreen_hint" type="string" label="30073" help="30074">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30075">enabled (16:9)</option>
+							<option label="30076">enabled (16:10)</option>
+							<option label="30077">enabled (21:9)</option>
+							<option label="30078">enabled (32:9)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vr_mode" type="string" label="30227" help="30228">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30229">disabled</option>
+							<option label="30230">stereoscopic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vr_depth" type="string" label="30231" help="30232">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>25%</option>
+							<option>50%</option>
+							<option>75%</option>
+							<option>100%</option>
+							<option>125%</option>
+							<option>150%</option>
+							<option>200%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_pcrtc_antiblur" type="string" label="30079" help="30080">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_pcrtc_screen_offsets" type="string" label="30081">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_disable_interlace_offset" type="string" label="30082">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_auto_flush_software" type="string" label="30083">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_sw_renderer_threads" type="string" label="30221" help="30222">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_disable_shader_cache" type="string" label="30233" help="30234">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="emulation" label="30084" help="30085">
+			<group id="1">
+				<setting id="pcsx2_vu_accurate_addsub" type="string" label="30086" help="30202">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_ee_accurate_fpu" type="string" label="30088" help="30203">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu_exact_mul" type="string" label="30090" help="30091">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu_exact_div" type="string" label="30092" help="30204">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_fpu_softfloat" type="string" label="30094" help="30095">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu0_softfloat" type="string" label="30205" help="30206">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_vu1_softfloat" type="string" label="30207" help="30208">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_ee_cycle_rate" type="string" label="30096">
+					<level>0</level>
+					<default>100% (Normal Speed)</default>
+					<constraints>
+						<options>
+							<option>50% (Underclock)</option>
+							<option>60% (Underclock)</option>
+							<option>75% (Underclock)</option>
+							<option>100% (Normal Speed)</option>
+							<option>130% (Overclock)</option>
+							<option>180% (Overclock)</option>
+							<option>300% (Overclock)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_ee_cpu" type="string" label="30209" help="30210">
+					<level>0</level>
+					<default>Recompiler</default>
+					<constraints>
+						<options>
+							<option>Recompiler</option>
+							<option>Interpreter</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_fastmem" type="string" label="30211" help="30212">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_mtvu" type="string" label="30097" help="30098">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_instant_vu1" type="string" label="30099" help="30100">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_ee_cycle_skip" type="string" label="30101">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30102">Mild Underclock</option>
+							<option label="30103">Moderate Underclock</option>
+							<option label="30104">Maximum Underclock</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_game_enhancements_hint" type="string" label="30105" help="30106">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_uncapped_framerate_hint" type="string" label="30107" help="30108">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30109">60fps PAL-to-NTSC</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hw_hacks" label="30110" help="30111">
+			<group id="1">
+				<setting id="pcsx2_enable_hw_hacks" type="string" label="30112" help="30113">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_cpu_sprite_size" type="string" label="30114">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30115">0</option>
+							<option label="30116">1</option>
+							<option label="30117">2</option>
+							<option label="30118">3</option>
+							<option label="30119">4</option>
+							<option label="30120">5</option>
+							<option label="30121">6</option>
+							<option label="30122">7</option>
+							<option label="30123">8</option>
+							<option label="30124">9</option>
+							<option label="30125">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_cpu_sprite_level" type="string" label="30126">
+					<level>0</level>
+					<default>Sprites Only</default>
+					<constraints>
+						<options>
+							<option>Sprites Only</option>
+							<option>Sprites/Triangles</option>
+							<option>Blended Sprites/Triangles</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_software_clut_render" type="string" label="30127">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30128">Normal</option>
+							<option label="30129">Aggressive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_auto_flush" type="string" label="30133">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30134">Sprites Only</option>
+							<option label="30135">All Primitives</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_texture_inside_rt" type="string" label="30136">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30137">Inside Target</option>
+							<option label="30138">Merge Targets</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_disable_depth_conversion" type="string" label="30139">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_framebuffer_conversion" type="string" label="30140">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_disable_partial_invalidation" type="string" label="30141">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_gpu_palette_conversion" type="string" label="30142">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_preload_frame_data" type="string" label="30143">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_half_pixel_offset" type="string" label="30144">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30145">Normal (Vertex)</option>
+							<option label="30146">Special (Texture)</option>
+							<option label="30147">Special (Texture - Aggressive)</option>
+							<option label="30148">Align to Native</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_round_sprite" type="string" label="30150">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30151">Half</option>
+							<option label="30152">Full</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_align_sprite" type="string" label="30153">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_merge_sprite" type="string" label="30154">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_unscaled_palette_draw" type="string" label="30155">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_force_sprite_position" type="string" label="30156">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30157" help="30158">
+			<group id="1">
+				<setting id="pcsx2_axis_deadzone1" type="string" label="30159">
+					<level>0</level>
+					<default>15%</default>
+					<constraints>
+						<options>
+							<option>0%</option>
+							<option>1%</option>
+							<option>2%</option>
+							<option>3%</option>
+							<option>4%</option>
+							<option>5%</option>
+							<option>6%</option>
+							<option>7%</option>
+							<option>8%</option>
+							<option>9%</option>
+							<option>10%</option>
+							<option>11%</option>
+							<option>12%</option>
+							<option>13%</option>
+							<option>14%</option>
+							<option>15%</option>
+							<option>16%</option>
+							<option>17%</option>
+							<option>18%</option>
+							<option>19%</option>
+							<option>20%</option>
+							<option>21%</option>
+							<option>22%</option>
+							<option>23%</option>
+							<option>24%</option>
+							<option>25%</option>
+							<option>26%</option>
+							<option>27%</option>
+							<option>28%</option>
+							<option>29%</option>
+							<option>30%</option>
+							<option>31%</option>
+							<option>32%</option>
+							<option>33%</option>
+							<option>34%</option>
+							<option>35%</option>
+							<option>36%</option>
+							<option>37%</option>
+							<option>38%</option>
+							<option>39%</option>
+							<option>40%</option>
+							<option>41%</option>
+							<option>42%</option>
+							<option>43%</option>
+							<option>44%</option>
+							<option>45%</option>
+							<option>46%</option>
+							<option>47%</option>
+							<option>48%</option>
+							<option>49%</option>
+							<option>50%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_button_deadzone1" type="string" label="30160">
+					<level>0</level>
+					<default>0%</default>
+					<constraints>
+						<options>
+							<option>0%</option>
+							<option>1%</option>
+							<option>2%</option>
+							<option>3%</option>
+							<option>4%</option>
+							<option>5%</option>
+							<option>6%</option>
+							<option>7%</option>
+							<option>8%</option>
+							<option>9%</option>
+							<option>10%</option>
+							<option>11%</option>
+							<option>12%</option>
+							<option>13%</option>
+							<option>14%</option>
+							<option>15%</option>
+							<option>16%</option>
+							<option>17%</option>
+							<option>18%</option>
+							<option>19%</option>
+							<option>20%</option>
+							<option>21%</option>
+							<option>22%</option>
+							<option>23%</option>
+							<option>24%</option>
+							<option>25%</option>
+							<option>26%</option>
+							<option>27%</option>
+							<option>28%</option>
+							<option>29%</option>
+							<option>30%</option>
+							<option>31%</option>
+							<option>32%</option>
+							<option>33%</option>
+							<option>34%</option>
+							<option>35%</option>
+							<option>36%</option>
+							<option>37%</option>
+							<option>38%</option>
+							<option>39%</option>
+							<option>40%</option>
+							<option>41%</option>
+							<option>42%</option>
+							<option>43%</option>
+							<option>44%</option>
+							<option>45%</option>
+							<option>46%</option>
+							<option>47%</option>
+							<option>48%</option>
+							<option>49%</option>
+							<option>50%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_axis_scale1" type="string" label="30161">
+					<level>0</level>
+					<default>133%</default>
+					<constraints>
+						<options>
+							<option>80%</option>
+							<option>81%</option>
+							<option>82%</option>
+							<option>83%</option>
+							<option>84%</option>
+							<option>85%</option>
+							<option>86%</option>
+							<option>87%</option>
+							<option>88%</option>
+							<option>89%</option>
+							<option>90%</option>
+							<option>91%</option>
+							<option>92%</option>
+							<option>93%</option>
+							<option>94%</option>
+							<option>95%</option>
+							<option>96%</option>
+							<option>97%</option>
+							<option>98%</option>
+							<option>99%</option>
+							<option>100%</option>
+							<option>101%</option>
+							<option>102%</option>
+							<option>103%</option>
+							<option>104%</option>
+							<option>105%</option>
+							<option>106%</option>
+							<option>107%</option>
+							<option>108%</option>
+							<option>109%</option>
+							<option>110%</option>
+							<option>111%</option>
+							<option>112%</option>
+							<option>113%</option>
+							<option>114%</option>
+							<option>115%</option>
+							<option>116%</option>
+							<option>117%</option>
+							<option>118%</option>
+							<option>119%</option>
+							<option>120%</option>
+							<option>121%</option>
+							<option>122%</option>
+							<option>123%</option>
+							<option>124%</option>
+							<option>125%</option>
+							<option>126%</option>
+							<option>127%</option>
+							<option>128%</option>
+							<option>129%</option>
+							<option>130%</option>
+							<option>131%</option>
+							<option>132%</option>
+							<option>133%</option>
+							<option>134%</option>
+							<option>135%</option>
+							<option>136%</option>
+							<option>137%</option>
+							<option>138%</option>
+							<option>139%</option>
+							<option>140%</option>
+							<option>141%</option>
+							<option>142%</option>
+							<option>143%</option>
+							<option>144%</option>
+							<option>145%</option>
+							<option>146%</option>
+							<option>147%</option>
+							<option>148%</option>
+							<option>149%</option>
+							<option>150%</option>
+							<option>151%</option>
+							<option>152%</option>
+							<option>153%</option>
+							<option>154%</option>
+							<option>155%</option>
+							<option>156%</option>
+							<option>157%</option>
+							<option>158%</option>
+							<option>159%</option>
+							<option>160%</option>
+							<option>161%</option>
+							<option>162%</option>
+							<option>163%</option>
+							<option>164%</option>
+							<option>165%</option>
+							<option>166%</option>
+							<option>167%</option>
+							<option>168%</option>
+							<option>169%</option>
+							<option>170%</option>
+							<option>171%</option>
+							<option>172%</option>
+							<option>173%</option>
+							<option>174%</option>
+							<option>175%</option>
+							<option>176%</option>
+							<option>177%</option>
+							<option>178%</option>
+							<option>179%</option>
+							<option>180%</option>
+							<option>181%</option>
+							<option>182%</option>
+							<option>183%</option>
+							<option>184%</option>
+							<option>185%</option>
+							<option>186%</option>
+							<option>187%</option>
+							<option>188%</option>
+							<option>189%</option>
+							<option>190%</option>
+							<option>191%</option>
+							<option>192%</option>
+							<option>193%</option>
+							<option>194%</option>
+							<option>195%</option>
+							<option>196%</option>
+							<option>197%</option>
+							<option>198%</option>
+							<option>199%</option>
+							<option>200%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_invert_left_stick1" type="string" label="30162">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30163">x_axis</option>
+							<option label="30164">y_axis</option>
+							<option label="30165">all</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_invert_right_stick1" type="string" label="30166">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30163">x_axis</option>
+							<option label="30164">y_axis</option>
+							<option label="30165">all</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_analog_mode1" type="string" label="30167" help="30168">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_enable_rumble1" type="string" label="30169">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30170">5%</option>
+							<option label="30171">10%</option>
+							<option label="30172">15%</option>
+							<option label="30173">20%</option>
+							<option label="30174">25%</option>
+							<option label="30175">30%</option>
+							<option label="30176">35%</option>
+							<option label="30177">40%</option>
+							<option label="30178">45%</option>
+							<option label="30179">50%</option>
+							<option label="30180">55%</option>
+							<option label="30181">60%</option>
+							<option label="30182">65%</option>
+							<option label="30183">70%</option>
+							<option label="30184">75%</option>
+							<option label="30185">80%</option>
+							<option label="30186">85%</option>
+							<option label="30187">90%</option>
+							<option label="30188">95%</option>
+							<option label="30189">100%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_axis_deadzone2" type="string" label="30190">
+					<level>0</level>
+					<default>15%</default>
+					<constraints>
+						<options>
+							<option>0%</option>
+							<option>1%</option>
+							<option>2%</option>
+							<option>3%</option>
+							<option>4%</option>
+							<option>5%</option>
+							<option>6%</option>
+							<option>7%</option>
+							<option>8%</option>
+							<option>9%</option>
+							<option>10%</option>
+							<option>11%</option>
+							<option>12%</option>
+							<option>13%</option>
+							<option>14%</option>
+							<option>15%</option>
+							<option>16%</option>
+							<option>17%</option>
+							<option>18%</option>
+							<option>19%</option>
+							<option>20%</option>
+							<option>21%</option>
+							<option>22%</option>
+							<option>23%</option>
+							<option>24%</option>
+							<option>25%</option>
+							<option>26%</option>
+							<option>27%</option>
+							<option>28%</option>
+							<option>29%</option>
+							<option>30%</option>
+							<option>31%</option>
+							<option>32%</option>
+							<option>33%</option>
+							<option>34%</option>
+							<option>35%</option>
+							<option>36%</option>
+							<option>37%</option>
+							<option>38%</option>
+							<option>39%</option>
+							<option>40%</option>
+							<option>41%</option>
+							<option>42%</option>
+							<option>43%</option>
+							<option>44%</option>
+							<option>45%</option>
+							<option>46%</option>
+							<option>47%</option>
+							<option>48%</option>
+							<option>49%</option>
+							<option>50%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_button_deadzone2" type="string" label="30191">
+					<level>0</level>
+					<default>0%</default>
+					<constraints>
+						<options>
+							<option>0%</option>
+							<option>1%</option>
+							<option>2%</option>
+							<option>3%</option>
+							<option>4%</option>
+							<option>5%</option>
+							<option>6%</option>
+							<option>7%</option>
+							<option>8%</option>
+							<option>9%</option>
+							<option>10%</option>
+							<option>11%</option>
+							<option>12%</option>
+							<option>13%</option>
+							<option>14%</option>
+							<option>15%</option>
+							<option>16%</option>
+							<option>17%</option>
+							<option>18%</option>
+							<option>19%</option>
+							<option>20%</option>
+							<option>21%</option>
+							<option>22%</option>
+							<option>23%</option>
+							<option>24%</option>
+							<option>25%</option>
+							<option>26%</option>
+							<option>27%</option>
+							<option>28%</option>
+							<option>29%</option>
+							<option>30%</option>
+							<option>31%</option>
+							<option>32%</option>
+							<option>33%</option>
+							<option>34%</option>
+							<option>35%</option>
+							<option>36%</option>
+							<option>37%</option>
+							<option>38%</option>
+							<option>39%</option>
+							<option>40%</option>
+							<option>41%</option>
+							<option>42%</option>
+							<option>43%</option>
+							<option>44%</option>
+							<option>45%</option>
+							<option>46%</option>
+							<option>47%</option>
+							<option>48%</option>
+							<option>49%</option>
+							<option>50%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_axis_scale2" type="string" label="30192">
+					<level>0</level>
+					<default>133%</default>
+					<constraints>
+						<options>
+							<option>80%</option>
+							<option>81%</option>
+							<option>82%</option>
+							<option>83%</option>
+							<option>84%</option>
+							<option>85%</option>
+							<option>86%</option>
+							<option>87%</option>
+							<option>88%</option>
+							<option>89%</option>
+							<option>90%</option>
+							<option>91%</option>
+							<option>92%</option>
+							<option>93%</option>
+							<option>94%</option>
+							<option>95%</option>
+							<option>96%</option>
+							<option>97%</option>
+							<option>98%</option>
+							<option>99%</option>
+							<option>100%</option>
+							<option>101%</option>
+							<option>102%</option>
+							<option>103%</option>
+							<option>104%</option>
+							<option>105%</option>
+							<option>106%</option>
+							<option>107%</option>
+							<option>108%</option>
+							<option>109%</option>
+							<option>110%</option>
+							<option>111%</option>
+							<option>112%</option>
+							<option>113%</option>
+							<option>114%</option>
+							<option>115%</option>
+							<option>116%</option>
+							<option>117%</option>
+							<option>118%</option>
+							<option>119%</option>
+							<option>120%</option>
+							<option>121%</option>
+							<option>122%</option>
+							<option>123%</option>
+							<option>124%</option>
+							<option>125%</option>
+							<option>126%</option>
+							<option>127%</option>
+							<option>128%</option>
+							<option>129%</option>
+							<option>130%</option>
+							<option>131%</option>
+							<option>132%</option>
+							<option>133%</option>
+							<option>134%</option>
+							<option>135%</option>
+							<option>136%</option>
+							<option>137%</option>
+							<option>138%</option>
+							<option>139%</option>
+							<option>140%</option>
+							<option>141%</option>
+							<option>142%</option>
+							<option>143%</option>
+							<option>144%</option>
+							<option>145%</option>
+							<option>146%</option>
+							<option>147%</option>
+							<option>148%</option>
+							<option>149%</option>
+							<option>150%</option>
+							<option>151%</option>
+							<option>152%</option>
+							<option>153%</option>
+							<option>154%</option>
+							<option>155%</option>
+							<option>156%</option>
+							<option>157%</option>
+							<option>158%</option>
+							<option>159%</option>
+							<option>160%</option>
+							<option>161%</option>
+							<option>162%</option>
+							<option>163%</option>
+							<option>164%</option>
+							<option>165%</option>
+							<option>166%</option>
+							<option>167%</option>
+							<option>168%</option>
+							<option>169%</option>
+							<option>170%</option>
+							<option>171%</option>
+							<option>172%</option>
+							<option>173%</option>
+							<option>174%</option>
+							<option>175%</option>
+							<option>176%</option>
+							<option>177%</option>
+							<option>178%</option>
+							<option>179%</option>
+							<option>180%</option>
+							<option>181%</option>
+							<option>182%</option>
+							<option>183%</option>
+							<option>184%</option>
+							<option>185%</option>
+							<option>186%</option>
+							<option>187%</option>
+							<option>188%</option>
+							<option>189%</option>
+							<option>190%</option>
+							<option>191%</option>
+							<option>192%</option>
+							<option>193%</option>
+							<option>194%</option>
+							<option>195%</option>
+							<option>196%</option>
+							<option>197%</option>
+							<option>198%</option>
+							<option>199%</option>
+							<option>200%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_invert_left_stick2" type="string" label="30193">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30163">x_axis</option>
+							<option label="30164">y_axis</option>
+							<option label="30165">all</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_invert_right_stick2" type="string" label="30194">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30163">x_axis</option>
+							<option label="30164">y_axis</option>
+							<option label="30165">all</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_analog_mode2" type="string" label="30195" help="30168">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx2_enable_rumble2" type="string" label="30196">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30170">5%</option>
+							<option label="30171">10%</option>
+							<option label="30172">15%</option>
+							<option label="30173">20%</option>
+							<option label="30174">25%</option>
+							<option label="30175">30%</option>
+							<option label="30176">35%</option>
+							<option label="30177">40%</option>
+							<option label="30178">45%</option>
+							<option label="30179">50%</option>
+							<option label="30180">55%</option>
+							<option label="30181">60%</option>
+							<option label="30182">65%</option>
+							<option label="30183">70%</option>
+							<option label="30184">75%</option>
+							<option label="30185">80%</option>
+							<option label="30186">85%</option>
+							<option label="30187">90%</option>
+							<option label="30188">95%</option>
+							<option label="30189">100%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.atari800"
+		name="Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)"
+		version="7.0.0.50"
+		provider-name="Petr Stehlik">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.atari.800" version="1.0.0"/>
+		<import addon="game.controller.atari.5200" version="1.0.32"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Atari - 400/800/600XL/800XL/130XE/5200</platforms>
+		<extensions>xfd|atr|dcm|cas|bin|a52|zip|atx|car|rom|com|xex|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>atari800_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.atari800</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)</summary>
+		<summary lang="da_DK">Atari - 5200 (Atari800)</summary>
+		<summary lang="en_GB">Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)</summary>
+		<summary lang="es_ES">Atari - 5200 (Atari800)</summary>
+		<summary lang="ga">Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)</summary>
+		<summary lang="it_IT">Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)</summary>
+		<summary lang="ru_RU">Atari — 400/800/600XL/800XL/130XE/5200 (Atari800)</summary>
+		<summary lang="sv_SE">Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)</summary>
+		<summary lang="zh_CN">雅达利 - 5200（雅达利800）</summary>
+		<description lang="cs_CZ">Atari800 je emulátor 8bitových počítačových systémů Atari (400, 800, 600 XL, 800XL, 130XE a 5200).</description>
+		<description lang="da_DK">Atari800 er en emulator til Atari 8-bit computersystemer (400, 800, 600 XL, 800XL, 130XE og 5200).</description>
+		<description lang="de_DE">Atari800 ist ein Emulator für Atari 8-Bit-Computersysteme (400, 800, 600 XL, 800XL, 130XE und 5200).</description>
+		<description lang="en_GB">Atari800 is an emulator for Atari 8-bit computer systems (400, 800, 600 XL, 800XL, 130XE and 5200).</description>
+		<description lang="es_ES">Atari800 es un emulador para sistemas informáticos Atari de 8 bits (400, 800, 600 XL, 800XL, 130XE y 5200).</description>
+		<description lang="fi_FI">Atari800 on emulaattori Atarin 8-bittisille tietokonejärjestelmille (400, 800, 600 XL, 800XL, 130XE ja 5200).</description>
+		<description lang="ga">Is aithriseoir é Atari800 do chórais ríomhaireachta 8-giotán Atari (400, 800, 600 XL, 800XL, 130XE agus 5200).</description>
+		<description lang="it_IT">Atari800 è un emulatore per i sistemi informatici Atari a 8 bit (400, 800, 600 XL, 800XL, 130XE e 5200).</description>
+		<description lang="ru_RU">Atari800 — это эмулятор 8-битных компьютерных систем Atari (400, 800, 600 XL, 800XL, 130XE и 5200).</description>
+		<description lang="sv_SE">Atari800 är en emulator för Atari 8-bitars datorsystem (400, 800, 600 XL, 800XL, 130XE och 5200).</description>
+		<description lang="zh_CN">Atari800 是雅达利8位计算机系统（400、800、600XL、800XL、130XE 和 5200）的仿真器。</description>
+	</extension>
+</addon>

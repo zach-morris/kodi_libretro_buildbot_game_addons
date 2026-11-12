@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.same_cdi">
+		<category id="system" label="30017">
+			<group id="1">
+				<setting id="same_cdi_video_standard" type="string" label="30071" help="30072">
+					<level>0</level>
+					<default>pal</default>
+					<constraints>
+						<options>
+							<option label="30073">pal</option>
+							<option label="30074">ntsc</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_read_config" type="string" label="30001">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_write_config" type="string" label="30002">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_saves" type="string" label="30003">
+					<level>0</level>
+					<default>game</default>
+					<constraints>
+						<options>
+							<option>game</option>
+							<option>system</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_nvram_saves" type="string" label="30004">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_auto_save" type="string" label="30005">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_boot_from_cli" type="string" label="30013">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_mame_paths_enable" type="string" label="30015">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30018">
+			<group id="1">
+				<setting id="same_cdi_alternate_renderer" type="string" label="30012">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_altres" type="string" label="30014">
+					<level>0</level>
+					<default>640x480</default>
+					<constraints>
+						<options>
+							<option>640x360</option>
+							<option>640x480</option>
+							<option>800x600</option>
+							<option>800x450</option>
+							<option>960x720</option>
+							<option>960x540</option>
+							<option>1024x768</option>
+							<option>1024x576</option>
+							<option>1280x960</option>
+							<option>1280x720</option>
+							<option>1600x1200</option>
+							<option>1600x900</option>
+							<option>1440x1080</option>
+							<option>1920x1080</option>
+							<option>1920x1440</option>
+							<option>2560x1440</option>
+							<option>2880x2160</option>
+							<option>3840x2160</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30019">
+			<group id="1">
+				<setting id="same_cdi_mouse_enable" type="string" label="30006">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_lightgun_mode" type="string" label="30007">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30021">touchscreen</option>
+							<option label="30022">lightgun</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_buttons_profiles" type="string" label="30008">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_mame_4way_enable" type="string" label="30016">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30023">4way</option>
+							<option label="30024">strict</option>
+							<option label="30025">qbert</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30020">
+			<group id="1">
+				<setting id="same_cdi_throttle" type="string" label="30009">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_cheats_enable" type="string" label="30010">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="same_cdi_cpu_overclock" type="string" label="30011">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="571">default</option>
+							<option label="30026">30</option>
+							<option label="30027">31</option>
+							<option label="30028">32</option>
+							<option label="30029">33</option>
+							<option label="30030">34</option>
+							<option label="30031">35</option>
+							<option label="30032">36</option>
+							<option label="30033">37</option>
+							<option label="30034">38</option>
+							<option label="30035">39</option>
+							<option label="30036">40</option>
+							<option label="30037">41</option>
+							<option label="30038">42</option>
+							<option label="30039">43</option>
+							<option label="30040">44</option>
+							<option label="30041">45</option>
+							<option label="30042">46</option>
+							<option label="30043">47</option>
+							<option label="30044">48</option>
+							<option label="30045">49</option>
+							<option label="30046">50</option>
+							<option label="30047">51</option>
+							<option label="30048">52</option>
+							<option label="30049">53</option>
+							<option label="30050">54</option>
+							<option label="30051">55</option>
+							<option label="30052">60</option>
+							<option label="30053">65</option>
+							<option label="30054">70</option>
+							<option label="30055">75</option>
+							<option label="30056">80</option>
+							<option label="30057">85</option>
+							<option label="30058">90</option>
+							<option label="30059">95</option>
+							<option label="30060">100</option>
+							<option label="30061">105</option>
+							<option label="30062">110</option>
+							<option label="30063">115</option>
+							<option label="30064">120</option>
+							<option label="30065">125</option>
+							<option label="30066">130</option>
+							<option label="30067">135</option>
+							<option label="30068">140</option>
+							<option label="30069">145</option>
+							<option label="30070">150</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

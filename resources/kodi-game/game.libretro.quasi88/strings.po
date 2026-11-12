@@ -1,0 +1,66 @@
+# game.libretro.quasi88 language file
+# Addon Name: game.libretro.quasi88
+# Addon id: game.libretro.quasi88
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.quasi88\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 13:03i\n"
+"PO-Revision-Date: 2024-12-27 22:03+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-quasi88/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "NEC - PC-88 series (QUASI88)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "QUASI88 is an emulator by Showzoh Fukunaga licensed under the BSD 3-Clause license. QUASI88 uses code from MAME, XMAME and fmgen."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Image credit: NEC Retro"
+msgstr ""
+
+msgctxt "#30001"
+msgid "BASIC mode"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Sub-CPU mode"
+msgstr ""
+
+msgctxt "#30003"
+msgid "CPU clock"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Sound board"
+msgstr ""
+
+msgctxt "#30005"
+msgid "FDC-Wait"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Use PCG-8100"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Save to disk image"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Rumble on disk access"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Screen size"
+msgstr ""

@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.fceumm">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="fceumm_show_adv_system_options" type="string" label="30001" help="30002">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_show_adv_sound_options" type="string" label="30003" help="30004">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="system" label="30005" help="30006">
+			<group id="1">
+				<setting id="fceumm_region" type="string" label="30007" help="30008">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30009">NTSC</option>
+							<option label="30010">PAL</option>
+							<option label="30011">Dendy</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_game_genie" type="string" label="30012" help="30013">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30014" help="30015">
+			<group id="1">
+				<setting id="fceumm_aspect" type="string" label="30016" help="30017">
+					<level>0</level>
+					<default>8:7 PAR</default>
+					<constraints>
+						<options>
+							<option label="30019">8:7 PAR</option>
+							<option label="30020">4:3</option>
+							<option label="30018">PP</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_overscan_h_left" type="string" label="30021" help="30022">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_overscan_h_right" type="string" label="30023" help="30024">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_overscan_v_top" type="string" label="30025" help="30026">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_overscan_v_bottom" type="string" label="30027" help="30028">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_palette" type="string" label="30029" help="30030">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30031">default</option>
+							<option label="30032">asqrealc</option>
+							<option label="30033">restored-wii-vc</option>
+							<option label="30034">wii-vc</option>
+							<option label="30035">rgb</option>
+							<option label="30036">yuv-v3</option>
+							<option label="30037">unsaturated-final</option>
+							<option label="30038">sony-cxa2025as-us</option>
+							<option label="30010">pal</option>
+							<option label="30039">bmf-final2</option>
+							<option label="30040">bmf-final3</option>
+							<option label="30041">smooth-fbx</option>
+							<option label="30042">composite-direct-fbx</option>
+							<option label="30043">pvm-style-d93-fbx</option>
+							<option label="30044">ntsc-hardware-fbx</option>
+							<option label="30045">nes-classic-fbx-fs</option>
+							<option label="30046">nescap</option>
+							<option label="30047">wavebeam</option>
+							<option label="30048">digital-prime-fbx</option>
+							<option label="30049">magnum-fbx</option>
+							<option label="30050">smooth-v2-fbx</option>
+							<option label="30051">nes-classic-fbx</option>
+							<option label="30052">royaltea</option>
+							<option label="30053">mugicha</option>
+							<option label="30054">raw</option>
+							<option label="30055">custom</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_ntsc_filter" type="string" label="30056" help="30057">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30058">composite</option>
+							<option label="30059">svideo</option>
+							<option label="30060">rgb</option>
+							<option label="30061">monochrome</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_hdpacks" type="string" label="30062" help="30063">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30064" help="30065">
+			<group id="1">
+				<setting id="fceumm_sndrate_hint" type="string" label="30066" help="30067">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30068">32KHz</option>
+							<option label="30069">44KHz</option>
+							<option label="30070">48KHz</option>
+							<option label="30071">96KHz</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_sndquality" type="string" label="30072" help="30073">
+					<level>0</level>
+					<default>Low</default>
+					<constraints>
+						<options>
+							<option>Low</option>
+							<option>High</option>
+							<option>Very High</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_sndlowpass" type="string" label="30074" help="30075">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_removetrianglenoise" type="string" label="30076" help="30077">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_reducedmcpopping" type="string" label="30078" help="30079">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_sndstereodelay" type="string" label="30080" help="30081">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30082">01_ms_delay</option>
+							<option label="30083">02_ms_delay</option>
+							<option label="30084">03_ms_delay</option>
+							<option label="30085">04_ms_delay</option>
+							<option label="30086">05_ms_delay</option>
+							<option label="30087">06_ms_delay</option>
+							<option label="30088">07_ms_delay</option>
+							<option label="30089">08_ms_delay</option>
+							<option label="30090">09_ms_delay</option>
+							<option label="30091">10_ms_delay</option>
+							<option label="30092">11_ms_delay</option>
+							<option label="30093">12_ms_delay</option>
+							<option label="30094">13_ms_delay</option>
+							<option label="30095">14_ms_delay</option>
+							<option label="30096">15_ms_delay</option>
+							<option label="30097">16_ms_delay</option>
+							<option label="30098">17_ms_delay</option>
+							<option label="30099">18_ms_delay</option>
+							<option label="30100">19_ms_delay</option>
+							<option label="30101">20_ms_delay</option>
+							<option label="30102">21_ms_delay</option>
+							<option label="30103">22_ms_delay</option>
+							<option label="30104">23_ms_delay</option>
+							<option label="30105">24_ms_delay</option>
+							<option label="30106">25_ms_delay</option>
+							<option label="30107">26_ms_delay</option>
+							<option label="30108">27_ms_delay</option>
+							<option label="30109">28_ms_delay</option>
+							<option label="30110">29_ms_delay</option>
+							<option label="30111">30_ms_delay</option>
+							<option label="30112">31_ms_delay</option>
+							<option label="30113">32_ms_delay</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_swapduty" type="string" label="30114" help="30115">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_sndvolume" type="string" label="30116" help="30117">
+					<level>0</level>
+					<default>7</default>
+					<constraints>
+						<options>
+							<option label="30118">0</option>
+							<option label="30119">1</option>
+							<option label="30120">2</option>
+							<option label="30121">3</option>
+							<option label="30122">4</option>
+							<option label="30123">5</option>
+							<option label="30124">6</option>
+							<option label="30125">7</option>
+							<option label="30126">8</option>
+							<option label="30127">9</option>
+							<option label="30128">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_1" type="string" label="30129" help="30130">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_2" type="string" label="30131" help="30132">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_3" type="string" label="30133" help="30134">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_4" type="string" label="30135" help="30136">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_5" type="string" label="30137" help="30138">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_fds" type="string" label="30139" help="30140">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_s5b" type="string" label="30141" help="30142">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_n163" type="string" label="30143" help="30144">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_vrc6" type="string" label="30145" help="30146">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_vrc7" type="string" label="30147" help="30148">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_apu_mmc5" type="string" label="30149" help="30150">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30151" help="30152">
+			<group id="1">
+				<setting id="fceumm_turbo_enable" type="string" label="30153" help="30154">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30155">Player 1</option>
+							<option label="30156">Player 2</option>
+							<option label="30157">Both</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_turbo_delay" type="string" label="30158" help="30159">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>30</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_zapper_mode" type="string" label="30160" help="30161">
+					<level>0</level>
+					<default>clightgun</default>
+					<constraints>
+						<options>
+							<option label="30162">clightgun</option>
+							<option label="30163">stlightgun</option>
+							<option label="30164">touchscreen</option>
+							<option label="30165">mouse</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_show_crosshair" type="string" label="30166" help="30167">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_zapper_tolerance" type="string" label="30168" help="30169">
+					<level>0</level>
+					<default>6</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_zapper_trigger" type="string" label="30170" help="30171">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_zapper_sensor" type="string" label="30172" help="30173">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_arkanoid_mode" type="string" label="30174" help="30175">
+					<level>0</level>
+					<default>mouse</default>
+					<constraints>
+						<options>
+							<option label="30176">abs_mouse</option>
+							<option label="30165">mouse</option>
+							<option label="30177">stelladaptor</option>
+							<option label="30164">touchscreen</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_mouse_sensitivity" type="string" label="30178" help="30179">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_up_down_allowed" type="string" label="30180" help="30181">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30182" help="30183">
+			<group id="1">
+				<setting id="fceumm_nospritelimit" type="string" label="30184" help="30185">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_overclocking" type="string" label="30186" help="30187">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30188">2x-Postrender</option>
+							<option label="30189">2x-VBlank</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fceumm_ramstate" type="string" label="30190" help="30191">
+					<level>0</level>
+					<default>fill $ff</default>
+					<constraints>
+						<options>
+							<option label="30192">fill $ff</option>
+							<option label="30193">fill $00</option>
+							<option label="30194">random</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

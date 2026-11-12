@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.beetle-vb">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="vb_3dmode" type="string" label="30007" help="30022">
+					<level>0</level>
+					<default>anaglyph</default>
+					<constraints>
+						<options>
+							<option>anaglyph</option>
+							<option>cyberscope</option>
+							<option>side-by-side</option>
+							<option>vli</option>
+							<option>hli</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vb_anaglyph_preset" type="string" label="30002" help="30010">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30014">red &amp; blue</option>
+							<option label="30015">red &amp; cyan</option>
+							<option label="30016">red &amp; electric cyan</option>
+							<option label="30017">green &amp; magenta</option>
+							<option label="30018">yellow &amp; blue</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vb_sidebyside_separation" type="string" label="30006" help="30011">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+							<option>28</option>
+							<option>32</option>
+							<option>36</option>
+							<option>40</option>
+							<option>44</option>
+							<option>48</option>
+							<option>52</option>
+							<option>56</option>
+							<option>60</option>
+							<option>64</option>
+							<option>68</option>
+							<option>72</option>
+							<option>76</option>
+							<option>80</option>
+							<option>84</option>
+							<option>88</option>
+							<option>92</option>
+							<option>96</option>
+							<option>100</option>
+							<option>104</option>
+							<option>108</option>
+							<option>112</option>
+							<option>116</option>
+							<option>120</option>
+							<option>124</option>
+							<option>128</option>
+							<option>132</option>
+							<option>136</option>
+							<option>140</option>
+							<option>144</option>
+							<option>148</option>
+							<option>152</option>
+							<option>156</option>
+							<option>160</option>
+							<option>164</option>
+							<option>168</option>
+							<option>172</option>
+							<option>176</option>
+							<option>180</option>
+							<option>184</option>
+							<option>188</option>
+							<option>192</option>
+							<option>196</option>
+							<option>200</option>
+							<option>204</option>
+							<option>208</option>
+							<option>212</option>
+							<option>216</option>
+							<option>220</option>
+							<option>224</option>
+							<option>228</option>
+							<option>232</option>
+							<option>236</option>
+							<option>240</option>
+							<option>244</option>
+							<option>248</option>
+							<option>252</option>
+							<option>256</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vb_color_mode" type="string" label="30003">
+					<level>0</level>
+					<default>black &amp; red</default>
+					<constraints>
+						<options>
+							<option>black &amp; red</option>
+							<option>black &amp; white</option>
+							<option>black &amp; blue</option>
+							<option>black &amp; cyan</option>
+							<option>black &amp; electric cyan</option>
+							<option>black &amp; green</option>
+							<option>black &amp; magenta</option>
+							<option>black &amp; yellow</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vb_right_analog_to_digital" type="string" label="30004">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30019">invert x</option>
+							<option label="30020">invert y</option>
+							<option label="30021">invert both</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vb_opposite_directions" type="string" label="30008" help="30012">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vb_cpu_emulation" type="string" label="30005" help="30013">
+					<level>0</level>
+					<default>fast</default>
+					<constraints>
+						<options>
+							<option>accurate</option>
+							<option>fast</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="vb_vr" type="string" label="30023" help="30024">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

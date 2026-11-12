@@ -1,0 +1,454 @@
+# game.libretro.snes9x language file
+# Addon Name: game.libretro.snes9x
+# Addon id: game.libretro.snes9x
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.snes9x\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-snes9x/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Snes9x)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Snes9x is a portable, freeware SNES and Super Famicom emulator.[CR][CR]Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Console Region (Reload Core)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Preferred Aspect Ratio"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Crop Overscan"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Hi-Res Blending"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Blargg NTSC Filter"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Audio Interpolation"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Allow Opposing Directions"
+msgstr ""
+
+msgctxt "#30008"
+msgid "SuperFX Overclocking"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Reduce Slowdown (Hack, Unsafe)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Reduce Flickering (Hack, Unsafe)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Randomize Memory (Unsafe)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Block Invalid VRAM Access"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Echo Buffer Hack (Unsafe, only enable for old addmusic hacks)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Light Gun Mode"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Super Scope Reverse Trigger Buttons"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Super Scope Crosshair"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Super Scope Color"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Justifier 1 Crosshair"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Justifier 1 Color"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Justifier 2 Crosshair"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Justifier 2 Color"
+msgstr ""
+
+msgctxt "#30022"
+msgid "M.A.C.S. Rifle Crosshair"
+msgstr ""
+
+msgctxt "#30023"
+msgid "M.A.C.S. Rifle Color"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Show Layer 1"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Show Layer 2"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Show Layer 3"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Show Layer 4"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Show Sprite Layer"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Enable Transparency Effects"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Volume % for Sound Channel 1"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Volume % for Sound Channel 2"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Volume % for Sound Channel 3"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Volume % for Sound Channel 4"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Volume % for Sound Channel 5"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Volume % for Sound Channel 6"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Volume % for Sound Channel 7"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Volume % for Sound Channel 8"
+msgstr ""
+
+msgctxt "#30047"
+msgid "HD Mode 7 Scale"
+msgstr ""
+
+msgctxt "#30048"
+msgid "HD Mode 7 Filtering"
+msgstr ""
+
+msgctxt "#30050"
+msgid "MSU-1 Enhanced Audio"
+msgstr ""
+
+msgctxt "#30051"
+msgid "SuperFX Timing Model (Experimental)"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Specify which region the system is from. 'PAL' is 50hz, 'NTSC' is 60hz. Games will run faster or slower than normal if the incorrect region is selected."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30054"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30055"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Choose the preferred content aspect ratio. This will only apply when RetroArch's aspect ratio is set to 'Core provided' in the Video settings."
+msgstr ""
+
+msgctxt "#30057"
+msgid "4:3 (Preserved)"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Uncorrected"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Remove the borders at the top and bottom of the screen, typically unused by games and hidden by the bezel of a standard-definition television. 'Auto' will attempt to detect and crop the ~8 pixel overscan based on the current content."
+msgstr ""
+
+msgctxt "#30060"
+msgid "~8 Pixels"
+msgstr ""
+
+msgctxt "#30061"
+msgid "12 Pixels"
+msgstr ""
+
+msgctxt "#30062"
+msgid "16 Pixels"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Auto (~8 Pixels)"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Render Mode 7 backgrounds at a higher horizontal resolution. 2x/4x sample the rotation matrix at sub-pixel steps; the _hv variants additionally resample vertically for square pixels. From snes9x2010."
+msgstr ""
+
+msgctxt "#30065"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30066"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30067"
+msgid "2x (H+V)"
+msgstr ""
+
+msgctxt "#30068"
+msgid "4x (H+V)"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Texture sampling filter for HD Mode 7. 'Stable' bilinear snaps to texel centres to avoid shimmer; 'Smooth' is full bilinear."
+msgstr ""
+
+msgctxt "#30070"
+msgid "Stable"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Smooth"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Blend adjacent pixels when game switches to hi-res mode (512x448). Required for certain games that use hi-res mode to produce transparency effects (Kirby's Dream Land, Jurassic Park...)."
+msgstr ""
+
+msgctxt "#30073"
+msgid "Merge"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Blur"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Apply a video filter to mimic various NTSC TV signals."
+msgstr ""
+
+msgctxt "#30076"
+msgid "Monochrome"
+msgstr ""
+
+msgctxt "#30077"
+msgid "RF"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Composite"
+msgstr ""
+
+msgctxt "#30079"
+msgid "S-Video"
+msgstr ""
+
+msgctxt "#30080"
+msgid "RGB"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Apply an audio filter. 'Gaussian' reproduces the bass-heavy sound of the original hardware. 'Cubic' and 'Sinc' are less accurate, and preserve more of the high range."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Gaussian"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Cubic"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Sinc"
+msgstr ""
+
+msgctxt "#30085"
+msgid "None"
+msgstr ""
+
+msgctxt "#30086"
+msgid "Linear"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Enabling this will allow pressing / quickly alternating / holding both left and right (or up and down) directions at the same time. This may cause movement-based glitches."
+msgstr ""
+
+msgctxt "#30088"
+msgid "Show Light Gun Settings"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Enable configuration of Super Scope / Justifier / M.A.C.S. rifle input. NOTE: Quick Menu must be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30090"
+msgid "Run the audio pipeline at 44.1 kHz when an MSU-1 game is loaded. When disabled, MSU-1's 44.1 kHz PCM stream is decimated to the SNES's native ~32 kHz output with no anti-alias filtering, folding the track's top octave into the audible band as slight hiss. When enabled, the MSU-1 stream passes through bit-exactly and the SPC sound is upsampled cleanly. Has no effect on non-MSU-1 games. Changing this takes effect on the next content load."
+msgstr ""
+
+msgctxt "#30091"
+msgid "Show Advanced Audio/Video Settings"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Enable configuration of low-level video layer / GFX effect / audio channel parameters. NOTE: Quick Menu must be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30093"
+msgid "Emulation Hacks"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Configure processor overclocking and emulation accuracy parameters affecting low-level performance and compatibility."
+msgstr ""
+
+msgctxt "#30095"
+msgid "SuperFX coprocessor frequency multiplier. Can improve frame rate or cause timing errors. Values under 100% can improve game performance on slow devices."
+msgstr ""
+
+msgctxt "#30096"
+msgid "'Compatibility' runs the GSU with snes9x2010's field-tested per-line budget. 'Hardware-derived' charges each instruction its approximate real GSU cycle cost (cache-aware fetches, 5-cycle memory accesses, amortized plot flushes), matching ares/MiSTer wait states; backported from mainline Snes9x. More accurate, less field-tested. Works together with SuperFX Overclocking."
+msgstr ""
+
+msgctxt "#30097"
+msgid "Compatibility (snes9x2010)"
+msgstr ""
+
+msgctxt "#30098"
+msgid "Hardware-derived"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Overclock SNES CPU. May cause games to crash! Use 'Light' for shorter loading times, 'Compatible' for most games exhibiting slowdown and 'Max' only if absolutely required (Gradius 3, Super R-type...)."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Light"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Compatible"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Max"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Increases number of sprites that can be drawn simultaneously on screen."
+msgstr ""
+
+msgctxt "#30104"
+msgid "Randomizes system RAM upon start-up. Some games such as 'Super Off Road' use system RAM as a random number generator for item placement and AI behavior, to make gameplay more unpredictable."
+msgstr ""
+
+msgctxt "#30105"
+msgid "Some homebrew/ROM hacks require this option to be disabled for correct operation."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Some homebrew/ROM hacks require this option to be enabled for correct operation."
+msgstr ""
+
+msgctxt "#30107"
+msgid "Light Gun"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Configure Super Scope / Justifier / M.A.C.S. rifle input."
+msgstr ""
+
+msgctxt "#30109"
+msgid "Use a mouse-controlled 'Light Gun' or 'Touchscreen' input."
+msgstr ""
+
+msgctxt "#30110"
+msgid "Swap the positions of the Super Scope 'Fire' and 'Cursor' buttons."
+msgstr ""
+
+msgctxt "#30111"
+msgid "Change the crosshair size on screen."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Change the crosshair color on screen."
+msgstr ""
+
+msgctxt "#30113"
+msgid "Advanced Audio/Video Settings"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Configure low-level video layer / GFX effect / audio channel parameters."
+msgstr ""
+
+msgctxt "#30115"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Touchscreen"
+msgstr ""

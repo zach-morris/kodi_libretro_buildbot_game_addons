@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.fuse">
+		<category id="system" label="30040">
+			<group id="1">
+				<setting id="fuse_machine" type="string" label="30001">
+					<level>0</level>
+					<default>Spectrum 48K</default>
+					<constraints>
+						<options>
+							<option>Spectrum 48K</option>
+							<option>Spectrum 48K (NTSC)</option>
+							<option>Spectrum 128K</option>
+							<option>Spectrum +2</option>
+							<option>Spectrum +2A</option>
+							<option>Spectrum +3</option>
+							<option>Spectrum +3e</option>
+							<option>Spectrum SE</option>
+							<option>Timex TC2048</option>
+							<option>Timex TC2068</option>
+							<option>Timex TS2068</option>
+							<option>Spectrum 16K</option>
+							<option>Pentagon 128K</option>
+							<option>Pentagon 512K</option>
+							<option>Pentagon 1024</option>
+							<option>Scorpion 256K</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_auto_machine" type="string" label="30039" help="30041">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_emulation_speed" type="string" label="30025">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>50</option>
+							<option>100</option>
+							<option>150</option>
+							<option>200</option>
+							<option>300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_issue2" type="string" label="30030" help="30042">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_auto_load" type="string" label="30003">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30043">
+			<group id="1">
+				<setting id="fuse_size_border" type="string" label="30002">
+					<level>0</level>
+					<default>full</default>
+					<constraints>
+						<options>
+							<option label="30052">full</option>
+							<option label="30053">medium</option>
+							<option label="30054">small</option>
+							<option label="30055">minimum</option>
+							<option label="231">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_palette" type="string" label="30026">
+					<level>0</level>
+					<default>Fuse Standard</default>
+					<constraints>
+						<options>
+							<option>Fuse Standard</option>
+							<option>ZX Standard</option>
+							<option>B&amp;W TV</option>
+							<option>Green Monochrome</option>
+							<option>Ambar Monochrome</option>
+							<option>C64</option>
+							<option>CGA 4 colours</option>
+							<option>CGA 8 colours</option>
+							<option>CGA 16 colours</option>
+							<option>Inverted colours</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30044">
+			<group id="1">
+				<setting id="fuse_load_sound" type="string" label="30005">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_speaker_type" type="string" label="30006">
+					<level>0</level>
+					<default>tv speaker</default>
+					<constraints>
+						<options>
+							<option>tv speaker</option>
+							<option>beeper</option>
+							<option>unfiltered</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_ay_stereo_separation" type="string" label="30007">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30056">acb</option>
+							<option label="30057">abc</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_turbosound" type="string" label="30029">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_fuller_box" type="string" label="30031" help="30045">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_uspeech" type="string" label="30033" help="30046">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_melodik" type="string" label="30032" help="30047">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_volume_ay" type="string" label="30034" help="30048">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>100</option>
+							<option>90</option>
+							<option>80</option>
+							<option>70</option>
+							<option>60</option>
+							<option>50</option>
+							<option>40</option>
+							<option>30</option>
+							<option>20</option>
+							<option>10</option>
+							<option>0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_volume_beeper" type="string" label="30035" help="30049">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>100</option>
+							<option>90</option>
+							<option>80</option>
+							<option>70</option>
+							<option>60</option>
+							<option>50</option>
+							<option>40</option>
+							<option>30</option>
+							<option>20</option>
+							<option>10</option>
+							<option>0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30050">
+			<group id="1">
+				<setting id="fuse_key_ovrlay_transp" type="string" label="30008">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_key_hold_time" type="string" label="30009">
+					<level>0</level>
+					<default>500</default>
+					<constraints>
+						<options>
+							<option>100</option>
+							<option>300</option>
+							<option>500</option>
+							<option>1000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_mouse_swap_buttons" type="string" label="30038">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_left" type="string" label="30010">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_right" type="string" label="30011">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_up" type="string" label="30012">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_down" type="string" label="30013">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_start" type="string" label="30014">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_a" type="string" label="30015">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_b" type="string" label="30016">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_x" type="string" label="30017">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_y" type="string" label="30018">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_l" type="string" label="30019">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_r" type="string" label="30020">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_l2" type="string" label="30021">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_r2" type="string" label="30022">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_l3" type="string" label="30023">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_joypad_r3" type="string" label="30024">
+					<level>0</level>
+					<default>&lt;none&gt;</default>
+					<constraints>
+						<options>
+							<option>&lt;none&gt;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+							<option>Enter</option>
+							<option>Caps</option>
+							<option>Symbol</option>
+							<option>Space</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30051">
+			<group id="1">
+				<setting id="fuse_fast_load" type="string" label="30004">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_display_joystick_type" type="string" label="30036">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_display_emulation_speed" type="string" label="30037">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="fuse_auto_size_savestate" type="string" label="30028">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

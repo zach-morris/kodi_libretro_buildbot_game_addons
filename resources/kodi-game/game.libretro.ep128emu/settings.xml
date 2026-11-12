@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.ep128emu">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="ep128emu_zoom" type="string" label="30007" help="30011">
+					<level>0</level>
+					<default>R3</default>
+					<constraints>
+						<options>
+							<option label="30012">R3</option>
+							<option label="30013">Start</option>
+							<option label="30014">Select</option>
+							<option label="30015">X</option>
+							<option label="30016">Y</option>
+							<option label="30017">A</option>
+							<option label="30018">B</option>
+							<option label="30019">L</option>
+							<option label="30020">R</option>
+							<option label="30021">L2</option>
+							<option label="30022">R2</option>
+							<option label="30023">L3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ep128emu_info" type="string" label="30008" help="30024">
+					<level>0</level>
+					<default>L3</default>
+					<constraints>
+						<options>
+							<option label="30023">L3</option>
+							<option label="30012">R3</option>
+							<option label="30013">Start</option>
+							<option label="30014">Select</option>
+							<option label="30015">X</option>
+							<option label="30016">Y</option>
+							<option label="30017">A</option>
+							<option label="30018">B</option>
+							<option label="30019">L</option>
+							<option label="30020">R</option>
+							<option label="30021">L2</option>
+							<option label="30022">R2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ep128emu_afbt" type="string" label="30009" help="30025">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="30026">None</option>
+							<option label="30015">X</option>
+							<option label="30016">Y</option>
+							<option label="30017">A</option>
+							<option label="30018">B</option>
+							<option label="30019">L</option>
+							<option label="30020">R</option>
+							<option label="30021">L2</option>
+							<option label="30022">R2</option>
+							<option label="30023">L3</option>
+							<option label="30012">R3</option>
+							<option label="30013">Start</option>
+							<option label="30014">Select</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ep128emu_afsp" type="string" label="30010" help="30027">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option label="30028">1</option>
+							<option label="30029">2</option>
+							<option label="30030">4</option>
+							<option label="30031">8</option>
+							<option label="30032">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="latency" label="30033" help="30034">
+			<group id="1">
+				<setting id="ep128emu_wait" type="string" label="30001" help="30035">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30036">0</option>
+							<option label="30028">1</option>
+							<option label="30037">5</option>
+							<option label="30038">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ep128emu_sdhq" type="string" label="30002" help="30039">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30040">0</option>
+							<option label="30041">1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ep128emu_swfb" type="string" label="30003" help="30042">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30040">0</option>
+							<option label="30041">1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30043" help="30044">
+			<group id="1">
+				<setting id="ep128emu_useh" type="string" label="30004" help="30045">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30040">0</option>
+							<option label="30041">1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ep128emu_brds" type="string" label="30005" help="30046">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30036">0</option>
+							<option label="30029">2</option>
+							<option label="30030">4</option>
+							<option label="30031">8</option>
+							<option label="30038">10</option>
+							<option label="30047">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ep128emu_romv" type="string" label="30006" help="30048">
+					<level>0</level>
+					<default>Original</default>
+					<constraints>
+						<options>
+							<option label="30049">Original</option>
+							<option label="30050">Enhanced</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

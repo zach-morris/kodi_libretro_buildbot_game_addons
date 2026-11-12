@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.dosbox-pure">
+		<category id="General" label="30001" help="30002">
+			<group id="1">
+				<setting id="dosbox_pure_force60fps" type="string" label="30003" help="30004">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30005">false</option>
+							<option label="30006">10</option>
+							<option label="30007">15</option>
+							<option label="30008">20</option>
+							<option label="30009">30</option>
+							<option label="30010">35</option>
+							<option label="30011">50</option>
+							<option label="30012">true</option>
+							<option label="30013">70</option>
+							<option label="30014">90</option>
+							<option label="30015">120</option>
+							<option label="30016">144</option>
+							<option label="30017">240</option>
+							<option label="30018">360</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_savestate" type="string" label="30019" help="30020">
+					<level>0</level>
+					<default>on</default>
+					<constraints>
+						<options>
+							<option label="30021">on</option>
+							<option label="30022">rewind</option>
+							<option label="30023">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_strict_mode" type="string" label="30024" help="30025">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30005">false</option>
+							<option label="30026">true</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_conf" type="string" label="30027" help="30028">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30029">false</option>
+							<option label="30030">inside</option>
+							<option label="30031">outside</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_menu_time" type="string" label="30032" help="30033">
+					<level>0</level>
+					<default>99</default>
+					<constraints>
+						<options>
+							<option label="30034">99</option>
+							<option label="30035">5</option>
+							<option label="30036">3</option>
+							<option label="30037">0</option>
+							<option label="30038">-1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_menu_transparency" type="string" label="30039" help="30040">
+					<level>0</level>
+					<default>70</default>
+					<constraints>
+						<options>
+							<option label="30041">10</option>
+							<option label="30042">20</option>
+							<option label="30043">30</option>
+							<option label="30044">40</option>
+							<option label="30045">50</option>
+							<option label="30046">60</option>
+							<option label="30047">70</option>
+							<option label="30048">80</option>
+							<option label="30049">90</option>
+							<option label="30050">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="Input" label="30051" help="30052">
+			<group id="1">
+				<setting id="dosbox_pure_on_screen_keyboard" type="string" label="30053" help="30054">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30055">true</option>
+							<option label="30056">keyboard</option>
+							<option label="30057">onlyosk</option>
+							<option label="30005">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_mouse_input" type="string" label="30058" help="30059">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30060">true</option>
+							<option label="30061">virtual</option>
+							<option label="30062">direct</option>
+							<option label="30063">pad</option>
+							<option label="30064">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_mouse_wheel" type="string" label="30065" help="30066">
+					<level>0</level>
+					<default>67/68</default>
+					<constraints>
+						<options>
+							<option label="30067">67/68</option>
+							<option label="30068">72/71</option>
+							<option label="30069">79/82</option>
+							<option label="30070">78/81</option>
+							<option label="30071">80/82</option>
+							<option label="30072">64/65</option>
+							<option label="30073">69/70</option>
+							<option label="30074">99/100</option>
+							<option label="30075">97/98</option>
+							<option label="30076">84/85</option>
+							<option label="30077">83/86</option>
+							<option label="30078">11/13</option>
+							<option label="30079">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_mouse_speed_factor" type="string" label="30080" help="30081">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30090">1.1</option>
+							<option label="30091">1.2</option>
+							<option label="30092">1.3</option>
+							<option label="30093">1.4</option>
+							<option label="30094">1.5</option>
+							<option label="30095">1.6</option>
+							<option label="30096">1.7</option>
+							<option label="30097">1.8</option>
+							<option label="30098">1.9</option>
+							<option label="30099">2.0</option>
+							<option label="30100">2.2</option>
+							<option label="30101">2.4</option>
+							<option label="30102">2.6</option>
+							<option label="30103">2.8</option>
+							<option label="30104">3.0</option>
+							<option label="30105">3.2</option>
+							<option label="30106">3.4</option>
+							<option label="30107">3.6</option>
+							<option label="30108">3.8</option>
+							<option label="30109">4.0</option>
+							<option label="30110">4.2</option>
+							<option label="30111">4.4</option>
+							<option label="30112">4.6</option>
+							<option label="30113">4.8</option>
+							<option label="30114">5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_mouse_speed_factor_x" type="string" label="30115" help="30116">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30090">1.1</option>
+							<option label="30091">1.2</option>
+							<option label="30092">1.3</option>
+							<option label="30093">1.4</option>
+							<option label="30094">1.5</option>
+							<option label="30095">1.6</option>
+							<option label="30096">1.7</option>
+							<option label="30097">1.8</option>
+							<option label="30098">1.9</option>
+							<option label="30099">2.0</option>
+							<option label="30100">2.2</option>
+							<option label="30101">2.4</option>
+							<option label="30102">2.6</option>
+							<option label="30103">2.8</option>
+							<option label="30104">3.0</option>
+							<option label="30105">3.2</option>
+							<option label="30106">3.4</option>
+							<option label="30107">3.6</option>
+							<option label="30108">3.8</option>
+							<option label="30109">4.0</option>
+							<option label="30110">4.2</option>
+							<option label="30111">4.4</option>
+							<option label="30112">4.6</option>
+							<option label="30113">4.8</option>
+							<option label="30114">5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_actionwheel_inputs" type="string" label="30117" help="30118">
+					<level>0</level>
+					<default>14</default>
+					<constraints>
+						<options>
+							<option label="30119">14</option>
+							<option label="30120">6</option>
+							<option label="30121">10</option>
+							<option label="30122">2</option>
+							<option label="30123">15</option>
+							<option label="30124">7</option>
+							<option label="30125">11</option>
+							<option label="30126">3</option>
+							<option label="30127">13</option>
+							<option label="30128">5</option>
+							<option label="30129">9</option>
+							<option label="30130">1</option>
+							<option label="30131">12</option>
+							<option label="30132">4</option>
+							<option label="30133">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_auto_mapping" type="string" label="30134" help="30135">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30136">true</option>
+							<option label="30137">notify</option>
+							<option label="30005">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_keyboard_layout" type="string" label="30138" help="30139">
+					<level>0</level>
+					<default>us</default>
+					<constraints>
+						<options>
+							<option label="30140">us</option>
+							<option label="30141">uk</option>
+							<option label="30142">be</option>
+							<option label="30143">br</option>
+							<option label="30144">hr</option>
+							<option label="30145">cz243</option>
+							<option label="30146">dk</option>
+							<option label="30147">su</option>
+							<option label="30148">fr</option>
+							<option label="30149">gr</option>
+							<option label="30150">gk</option>
+							<option label="30151">hu</option>
+							<option label="30152">is161</option>
+							<option label="30153">it</option>
+							<option label="30154">nl</option>
+							<option label="30155">no</option>
+							<option label="30156">pl</option>
+							<option label="30157">po</option>
+							<option label="30158">ru</option>
+							<option label="30159">sk</option>
+							<option label="30160">si</option>
+							<option label="30161">sp</option>
+							<option label="30162">sv</option>
+							<option label="30163">sg</option>
+							<option label="30164">sf</option>
+							<option label="30165">tr</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_joystick_analog_deadzone" type="string" label="30166" help="30167">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option label="30168">0</option>
+							<option label="30169">5</option>
+							<option label="30041">10</option>
+							<option label="30170">15</option>
+							<option label="30042">20</option>
+							<option label="30082">25</option>
+							<option label="30043">30</option>
+							<option label="30083">35</option>
+							<option label="30044">40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_joystick_timed" type="string" label="30171" help="30172">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="30136">true</option>
+							<option label="30005">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="Performance" label="30173" help="30174">
+			<group id="1">
+				<setting id="dosbox_pure_cycles" type="string" label="30175" help="30176">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30177">auto</option>
+							<option label="30178">max</option>
+							<option label="30179">315</option>
+							<option label="30180">1320</option>
+							<option label="30181">2750</option>
+							<option label="30182">4720</option>
+							<option label="30183">7800</option>
+							<option label="30184">13400</option>
+							<option label="30185">26800</option>
+							<option label="30186">77000</option>
+							<option label="30187">200000</option>
+							<option label="30188">500000</option>
+							<option label="30189">1000000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_cycles_max" type="string" label="30190" help="30191">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30192">none</option>
+							<option label="30179">315</option>
+							<option label="30180">1320</option>
+							<option label="30181">2750</option>
+							<option label="30182">4720</option>
+							<option label="30183">7800</option>
+							<option label="30184">13400</option>
+							<option label="30185">26800</option>
+							<option label="30186">77000</option>
+							<option label="30187">200000</option>
+							<option label="30188">500000</option>
+							<option label="30189">1000000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_cycles_scale" type="string" label="30193" help="30194">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30195">1.05</option>
+							<option label="30090">1.1</option>
+							<option label="30196">1.15</option>
+							<option label="30091">1.2</option>
+							<option label="30197">1.25</option>
+							<option label="30092">1.3</option>
+							<option label="30198">1.35</option>
+							<option label="30093">1.4</option>
+							<option label="30199">1.45</option>
+							<option label="30094">1.5</option>
+							<option label="30200">1.55</option>
+							<option label="30095">1.6</option>
+							<option label="30201">1.65</option>
+							<option label="30096">1.7</option>
+							<option label="30202">1.75</option>
+							<option label="30097">1.8</option>
+							<option label="30203">1.85</option>
+							<option label="30098">1.9</option>
+							<option label="30204">1.95</option>
+							<option label="30099">2.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_cycle_limit" type="string" label="30205" help="30206">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30045">0.5</option>
+							<option label="30207">0.51</option>
+							<option label="30208">0.52</option>
+							<option label="30209">0.53</option>
+							<option label="30210">0.54</option>
+							<option label="30085">0.55</option>
+							<option label="30211">0.56</option>
+							<option label="30212">0.57</option>
+							<option label="30213">0.58</option>
+							<option label="30214">0.59</option>
+							<option label="30046">0.6</option>
+							<option label="30215">0.61</option>
+							<option label="30216">0.62</option>
+							<option label="30217">0.63</option>
+							<option label="30218">0.64</option>
+							<option label="30086">0.65</option>
+							<option label="30219">0.66</option>
+							<option label="30220">0.67</option>
+							<option label="30221">0.68</option>
+							<option label="30222">0.69</option>
+							<option label="30047">0.7</option>
+							<option label="30223">0.71</option>
+							<option label="30224">0.72</option>
+							<option label="30225">0.73</option>
+							<option label="30226">0.74</option>
+							<option label="30087">0.75</option>
+							<option label="30227">0.76</option>
+							<option label="30228">0.77</option>
+							<option label="30229">0.78</option>
+							<option label="30230">0.79</option>
+							<option label="30048">0.8</option>
+							<option label="30231">0.81</option>
+							<option label="30232">0.82</option>
+							<option label="30233">0.83</option>
+							<option label="30234">0.84</option>
+							<option label="30088">0.85</option>
+							<option label="30235">0.86</option>
+							<option label="30236">0.87</option>
+							<option label="30237">0.88</option>
+							<option label="30238">0.89</option>
+							<option label="30049">0.9</option>
+							<option label="30239">0.91</option>
+							<option label="30240">0.92</option>
+							<option label="30241">0.93</option>
+							<option label="30242">0.94</option>
+							<option label="30089">0.95</option>
+							<option label="30243">0.96</option>
+							<option label="30244">0.97</option>
+							<option label="30245">0.98</option>
+							<option label="30246">0.99</option>
+							<option label="30050">1.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_perfstats" type="string" label="30247" help="30248">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30023">none</option>
+							<option label="30249">simple</option>
+							<option label="30250">detailed</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="Video" label="30251" help="30252">
+			<group id="1">
+				<setting id="dosbox_pure_machine" type="string" label="30253" help="30254">
+					<level>0</level>
+					<default>svga</default>
+					<constraints>
+						<options>
+							<option label="30255">svga</option>
+							<option label="30256">vga</option>
+							<option label="30257">ega</option>
+							<option label="30258">cga</option>
+							<option label="30259">tandy</option>
+							<option label="30260">hercules</option>
+							<option label="30261">pcjr</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_cga" type="string" label="30262" help="30263">
+					<level>0</level>
+					<default>early_auto</default>
+					<constraints>
+						<options>
+							<option label="30264">early_auto</option>
+							<option label="30265">early_on</option>
+							<option label="30266">early_off</option>
+							<option label="30267">late_auto</option>
+							<option label="30268">late_on</option>
+							<option label="30269">late_off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_hercules" type="string" label="30270" help="30271">
+					<level>0</level>
+					<default>white</default>
+					<constraints>
+						<options>
+							<option label="30272">white</option>
+							<option label="30273">amber</option>
+							<option label="30274">green</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_svga" type="string" label="30275" help="30276">
+					<level>0</level>
+					<default>svga_s3</default>
+					<constraints>
+						<options>
+							<option label="30277">svga_s3</option>
+							<option label="30278">vesa_nolfb</option>
+							<option label="30279">vesa_oldvbe</option>
+							<option label="30280">svga_et3000</option>
+							<option label="30281">svga_et4000</option>
+							<option label="30282">svga_paradise</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_svgamem" type="string" label="30283" help="30284">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option label="30285">0</option>
+							<option label="30286">1</option>
+							<option label="30287">2</option>
+							<option label="30288">3</option>
+							<option label="30289">4</option>
+							<option label="30290">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_voodoo" type="string" label="30291" help="30292">
+					<level>0</level>
+					<default>8mb</default>
+					<constraints>
+						<options>
+							<option label="30293">8mb</option>
+							<option label="30294">12mb</option>
+							<option label="30295">4mb</option>
+							<option label="30023">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_voodoo_perf" type="string" label="30296" help="30297">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30060">auto</option>
+							<option label="30298">4</option>
+							<option label="30299">1</option>
+							<option label="30300">3</option>
+							<option label="30301">2</option>
+							<option label="30302">0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_voodoo_scale" type="string" label="30303" help="30304">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30305">1</option>
+							<option label="30306">2</option>
+							<option label="30307">3</option>
+							<option label="30308">4</option>
+							<option label="30309">5</option>
+							<option label="30310">6</option>
+							<option label="30311">7</option>
+							<option label="30312">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_voodoo_gamma" type="string" label="30313" help="30314">
+					<level>0</level>
+					<default>-2</default>
+					<constraints>
+						<options>
+							<option label="30315">-10</option>
+							<option label="30316">-9</option>
+							<option label="30317">-8</option>
+							<option label="30318">-7</option>
+							<option label="30319">-6</option>
+							<option label="30320">-5</option>
+							<option label="30321">-4</option>
+							<option label="30322">-3</option>
+							<option label="30323">-2</option>
+							<option label="30324">-1</option>
+							<option label="30325">0</option>
+							<option label="30326">1</option>
+							<option label="30327">2</option>
+							<option label="30328">3</option>
+							<option label="30329">4</option>
+							<option label="30330">5</option>
+							<option label="30331">6</option>
+							<option label="30332">7</option>
+							<option label="30333">8</option>
+							<option label="30334">9</option>
+							<option label="30335">10</option>
+							<option label="30336">999</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_aspect_correction" type="string" label="30337" help="30338">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30339">false</option>
+							<option label="30340">true</option>
+							<option label="30341">doublescan</option>
+							<option label="30342">padded</option>
+							<option label="30343">padded-doublescan</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_overscan" type="string" label="30344" help="30345">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30339">0</option>
+							<option label="30346">1</option>
+							<option label="30347">2</option>
+							<option label="30348">3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="System" label="30349" help="30350">
+			<group id="1">
+				<setting id="dosbox_pure_memory_size" type="string" label="30351" help="30352">
+					<level>0</level>
+					<default>16</default>
+					<constraints>
+						<options>
+							<option label="30353">none</option>
+							<option label="30354">4</option>
+							<option label="30355">8</option>
+							<option label="30356">16</option>
+							<option label="30357">24</option>
+							<option label="30358">32</option>
+							<option label="30359">48</option>
+							<option label="30360">64</option>
+							<option label="30361">96</option>
+							<option label="30362">128</option>
+							<option label="30363">224</option>
+							<option label="30364">256</option>
+							<option label="30365">512</option>
+							<option label="30366">1024</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_modem" type="string" label="30367" help="30368">
+					<level>0</level>
+					<default>null</default>
+					<constraints>
+						<options>
+							<option label="30369">null</option>
+							<option label="30370">dial</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_cpu_type" type="string" label="30371" help="30372">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30373">auto</option>
+							<option label="30374">386</option>
+							<option label="30375">386_slow</option>
+							<option label="30376">386_prefetch</option>
+							<option label="30377">486_slow</option>
+							<option label="30378">pentium_slow</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_cpu_core" type="string" label="30379" help="30380">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30381">auto</option>
+							<option label="30382">dynamic</option>
+							<option label="30383">normal</option>
+							<option label="30384">simple</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_bootos_ramdisk" type="string" label="30385" help="30386">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30387">false</option>
+							<option label="30388">true</option>
+							<option label="30389">diff</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_bootos_dfreespace" type="string" label="30390" help="30391">
+					<level>0</level>
+					<default>1024</default>
+					<constraints>
+						<options>
+							<option label="30392">1024</option>
+							<option label="30393">2048</option>
+							<option label="30394">4096</option>
+							<option label="30395">8192</option>
+							<option label="30396">discard</option>
+							<option label="30397">hide</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_bootos_forcenormal" type="string" label="30398" help="30399">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30339">false</option>
+							<option label="30026">true</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="Audio" label="30400" help="30401">
+			<group id="1">
+				<setting id="dosbox_pure_audiorate" type="string" label="30402" help="30403">
+					<level>0</level>
+					<default>48000</default>
+					<constraints>
+						<options>
+							<option>48000</option>
+							<option>44100</option>
+							<option>32000</option>
+							<option>22050</option>
+							<option>16000</option>
+							<option>11025</option>
+							<option>8000</option>
+							<option>49716</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_sblaster_conf" type="string" label="30404" help="30405">
+					<level>0</level>
+					<default>A220 I7 D1 H5</default>
+					<constraints>
+						<options>
+							<option label="30406">A220 I7 D1 H5</option>
+							<option label="30407">A220 I5 D1 H5</option>
+							<option label="30408">A240 I7 D1 H5</option>
+							<option label="30409">A240 I7 D3 H7</option>
+							<option label="30410">A240 I2 D3 H7</option>
+							<option label="30411">A240 I5 D3 H5</option>
+							<option label="30412">A240 I5 D1 H5</option>
+							<option label="30413">A240 I10 D3 H7</option>
+							<option label="30414">A280 I10 D0 H6</option>
+							<option label="30415">A280 I5 D1 H5</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_midi" type="string" label="30416" help="30417">
+					<level>0</level>
+					<default>frontend</default>
+					<constraints>
+						<options>
+							<option label="30418">frontend</option>
+							<option label="30023">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_volume_sb" type="string" label="30419" help="30420">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30169">0.05</option>
+							<option label="30041">0.1</option>
+							<option label="30170">0.15</option>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30090">1.1</option>
+							<option label="30091">1.2</option>
+							<option label="30092">1.3</option>
+							<option label="30093">1.4</option>
+							<option label="30094">1.5</option>
+							<option label="30095">1.6</option>
+							<option label="30096">1.7</option>
+							<option label="30097">1.8</option>
+							<option label="30098">1.9</option>
+							<option label="30099">2.0</option>
+							<option label="30421">2.25</option>
+							<option label="30422">2.5</option>
+							<option label="30423">2.75</option>
+							<option label="30104">3.0</option>
+							<option label="30424">3.25</option>
+							<option label="30425">3.5</option>
+							<option label="30426">3.75</option>
+							<option label="30109">4.0</option>
+							<option label="30427">4.25</option>
+							<option label="30428">4.5</option>
+							<option label="30429">4.75</option>
+							<option label="30114">5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_volume_midi" type="string" label="30430" help="30431">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30169">0.05</option>
+							<option label="30041">0.1</option>
+							<option label="30170">0.15</option>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30090">1.1</option>
+							<option label="30091">1.2</option>
+							<option label="30092">1.3</option>
+							<option label="30093">1.4</option>
+							<option label="30094">1.5</option>
+							<option label="30095">1.6</option>
+							<option label="30096">1.7</option>
+							<option label="30097">1.8</option>
+							<option label="30098">1.9</option>
+							<option label="30099">2.0</option>
+							<option label="30421">2.25</option>
+							<option label="30422">2.5</option>
+							<option label="30423">2.75</option>
+							<option label="30104">3.0</option>
+							<option label="30424">3.25</option>
+							<option label="30425">3.5</option>
+							<option label="30426">3.75</option>
+							<option label="30109">4.0</option>
+							<option label="30427">4.25</option>
+							<option label="30428">4.5</option>
+							<option label="30429">4.75</option>
+							<option label="30114">5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_volume_adlib" type="string" label="30432" help="30433">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30169">0.05</option>
+							<option label="30041">0.1</option>
+							<option label="30170">0.15</option>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30090">1.1</option>
+							<option label="30091">1.2</option>
+							<option label="30092">1.3</option>
+							<option label="30093">1.4</option>
+							<option label="30094">1.5</option>
+							<option label="30095">1.6</option>
+							<option label="30096">1.7</option>
+							<option label="30097">1.8</option>
+							<option label="30098">1.9</option>
+							<option label="30099">2.0</option>
+							<option label="30421">2.25</option>
+							<option label="30422">2.5</option>
+							<option label="30423">2.75</option>
+							<option label="30104">3.0</option>
+							<option label="30424">3.25</option>
+							<option label="30425">3.5</option>
+							<option label="30426">3.75</option>
+							<option label="30109">4.0</option>
+							<option label="30427">4.25</option>
+							<option label="30428">4.5</option>
+							<option label="30429">4.75</option>
+							<option label="30114">5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_volume_speaker" type="string" label="30434" help="30435">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30169">0.05</option>
+							<option label="30041">0.1</option>
+							<option label="30170">0.15</option>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30090">1.1</option>
+							<option label="30091">1.2</option>
+							<option label="30092">1.3</option>
+							<option label="30093">1.4</option>
+							<option label="30094">1.5</option>
+							<option label="30095">1.6</option>
+							<option label="30096">1.7</option>
+							<option label="30097">1.8</option>
+							<option label="30098">1.9</option>
+							<option label="30099">2.0</option>
+							<option label="30421">2.25</option>
+							<option label="30422">2.5</option>
+							<option label="30423">2.75</option>
+							<option label="30104">3.0</option>
+							<option label="30424">3.25</option>
+							<option label="30425">3.5</option>
+							<option label="30426">3.75</option>
+							<option label="30109">4.0</option>
+							<option label="30427">4.25</option>
+							<option label="30428">4.5</option>
+							<option label="30429">4.75</option>
+							<option label="30114">5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_volume_cdrom" type="string" label="30436" help="30437">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30169">0.05</option>
+							<option label="30041">0.1</option>
+							<option label="30170">0.15</option>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30090">1.1</option>
+							<option label="30091">1.2</option>
+							<option label="30092">1.3</option>
+							<option label="30093">1.4</option>
+							<option label="30094">1.5</option>
+							<option label="30095">1.6</option>
+							<option label="30096">1.7</option>
+							<option label="30097">1.8</option>
+							<option label="30098">1.9</option>
+							<option label="30099">2.0</option>
+							<option label="30421">2.25</option>
+							<option label="30422">2.5</option>
+							<option label="30423">2.75</option>
+							<option label="30104">3.0</option>
+							<option label="30424">3.25</option>
+							<option label="30425">3.5</option>
+							<option label="30426">3.75</option>
+							<option label="30109">4.0</option>
+							<option label="30427">4.25</option>
+							<option label="30428">4.5</option>
+							<option label="30429">4.75</option>
+							<option label="30114">5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_volume_other" type="string" label="30438" help="30439">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30169">0.05</option>
+							<option label="30041">0.1</option>
+							<option label="30170">0.15</option>
+							<option label="30042">0.2</option>
+							<option label="30082">0.25</option>
+							<option label="30043">0.3</option>
+							<option label="30083">0.35</option>
+							<option label="30044">0.4</option>
+							<option label="30084">0.45</option>
+							<option label="30045">0.5</option>
+							<option label="30085">0.55</option>
+							<option label="30046">0.6</option>
+							<option label="30086">0.65</option>
+							<option label="30047">0.7</option>
+							<option label="30087">0.75</option>
+							<option label="30048">0.8</option>
+							<option label="30088">0.85</option>
+							<option label="30049">0.9</option>
+							<option label="30089">0.95</option>
+							<option label="30050">1.0</option>
+							<option label="30090">1.1</option>
+							<option label="30091">1.2</option>
+							<option label="30092">1.3</option>
+							<option label="30093">1.4</option>
+							<option label="30094">1.5</option>
+							<option label="30095">1.6</option>
+							<option label="30096">1.7</option>
+							<option label="30097">1.8</option>
+							<option label="30098">1.9</option>
+							<option label="30099">2.0</option>
+							<option label="30421">2.25</option>
+							<option label="30422">2.5</option>
+							<option label="30423">2.75</option>
+							<option label="30104">3.0</option>
+							<option label="30424">3.25</option>
+							<option label="30425">3.5</option>
+							<option label="30426">3.75</option>
+							<option label="30109">4.0</option>
+							<option label="30427">4.25</option>
+							<option label="30428">4.5</option>
+							<option label="30429">4.75</option>
+							<option label="30114">5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_sblaster_type" type="string" label="30440" help="30441">
+					<level>0</level>
+					<default>sb16</default>
+					<constraints>
+						<options>
+							<option label="30442">sb16</option>
+							<option label="30443">sbpro2</option>
+							<option label="30444">sbpro1</option>
+							<option label="30445">sb2</option>
+							<option label="30446">sb1</option>
+							<option label="30447">gb</option>
+							<option label="30448">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_sblaster_adlib_mode" type="string" label="30449" help="30450">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30451">auto</option>
+							<option label="30452">cms</option>
+							<option label="30453">opl2</option>
+							<option label="30454">dualopl2</option>
+							<option label="30455">opl3</option>
+							<option label="30456">opl3gold</option>
+							<option label="30023">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_sblaster_adlib_emu" type="string" label="30457" help="30458">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30459">default</option>
+							<option label="30460">nuked</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_gus" type="string" label="30461" help="30462">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30339">false</option>
+							<option label="30026">true</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_tandysound" type="string" label="30463" help="30464">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30339">auto</option>
+							<option label="30026">on</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pure_swapstereo" type="string" label="30465" help="30466">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="30339">false</option>
+							<option label="30026">true</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

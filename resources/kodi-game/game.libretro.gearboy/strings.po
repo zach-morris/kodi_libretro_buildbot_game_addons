@@ -1,0 +1,322 @@
+# game.libretro.gearboy language file
+# Addon Name: game.libretro.gearboy
+# Addon id: game.libretro.gearboy
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.gearboy\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-29 00:33i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-gearboy/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy / Color / Super Game Boy (Gearboy)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Gearboy is a Nintendo Game Boy / Game Boy Color emulator that runs on iOS, Raspberry Pi, Mac, Windows, Linux and RetroArch."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Game Boy Model (restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Mapper (restart)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "DMG Palette"
+msgstr ""
+
+msgctxt "#30004"
+msgid "DMG Bootrom (restart)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Allow Up+Down / Left+Right"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Super Game Boy (restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Super Game Boy Border"
+msgstr ""
+
+msgctxt "#30009"
+msgid "GBC Bootrom (restart)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Tilt Source (MBC7)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Sensor Sensitivity X (MBC7)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Sensor Sensitivity Y (MBC7)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Sensor Invert X (MBC7)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Sensor Invert Y (MBC7)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Mouse Sensitivity X (MBC7)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Mouse Sensitivity Y (MBC7)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Mouse Invert X (MBC7)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Mouse Invert Y (MBC7)"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Analog Sensitivity X (MBC7)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Analog Sensitivity Y (MBC7)"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Analog Invert X (MBC7)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Analog Invert Y (MBC7)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "GBC Color Correction"
+msgstr ""
+
+msgctxt "#30024"
+msgid "System"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Configure Game Boy model, memory bank controller and bootrom settings."
+msgstr ""
+
+msgctxt "#30026"
+msgid "Select which hardware model is emulated. 'Auto' automatically selects the best model based on the loaded ROM header. 'Game Boy DMG' forces original Game Boy hardware. 'Game Boy Advance' forces Game Boy Advance mode, which enables minor hardware differences present when running Game Boy games on a GBA."
+msgstr ""
+
+msgctxt "#30027"
+msgid "Select which Memory Bank Controller (MBC or mapper) is emulated. 'Auto' automatically selects the best MBC based on the ROM header. Use manual selection only if a game has issues with automatic detection."
+msgstr ""
+
+msgctxt "#30028"
+msgid "When enabled, compatible ROMs will run in Super Game Boy mode. When disabled, SGB-compatible ROMs will run as standard Game Boy (DMG) games."
+msgstr ""
+
+msgctxt "#30029"
+msgid "When enabled, the Super Game Boy border is displayed around the game screen (256x224). When disabled, only the game screen is shown (160x144)."
+msgstr ""
+
+msgctxt "#30030"
+msgid "Enable or disable the original Game Boy (DMG) bootrom. When enabled, the bootrom will execute on startup just like on real hardware, showing the Nintendo logo scroll animation. The 'dmg_boot.bin' file must be present in RetroArch's system directory."
+msgstr ""
+
+msgctxt "#30031"
+msgid "Enable or disable the Game Boy Color bootrom. When enabled, the bootrom will execute on startup just like on real hardware, showing the Game Boy Color boot animation. The 'cgb_boot.bin' file must be present in RetroArch's system directory."
+msgstr ""
+
+msgctxt "#30032"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Configure DMG palette, Game Boy Color correction and sprite limit settings."
+msgstr ""
+
+msgctxt "#30034"
+msgid "Select a color palette for original Game Boy (DMG) games. This setting has no effect on Game Boy Color games, which use their own built-in color palettes."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Apply color correction for Game Boy Color games to simulate the original GBC LCD screen output. When disabled, raw RGB colors are displayed which may appear overly saturated on modern displays."
+msgstr ""
+
+msgctxt "#30036"
+msgid "No Sprite Limit"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Remove the per-line sprite limit. This reduces flickering but may cause glitches in certain games. It's best to keep this option disabled."
+msgstr ""
+
+msgctxt "#30038"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Configure controller behavior and directional input settings."
+msgstr ""
+
+msgctxt "#30040"
+msgid "Select the input source for tilt control in MBC7 games (e.g. Kirby Tilt 'n' Tumble). 'Mouse' uses relative mouse movement. 'Sensor' uses the device's real accelerometer. 'Analog Stick' uses the left analog stick for tilt (D-Pad used for directions)."
+msgstr ""
+
+msgctxt "#30041"
+msgid "Set the horizontal sensor sensitivity for tilt control in MBC7 games."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Set the vertical sensor sensitivity for tilt control in MBC7 games."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Invert horizontal sensor axis for tilt control."
+msgstr ""
+
+msgctxt "#30044"
+msgid "Invert vertical sensor axis for tilt control."
+msgstr ""
+
+msgctxt "#30045"
+msgid "Set the horizontal mouse sensitivity for tilt control in MBC7 games."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Set the vertical mouse sensitivity for tilt control in MBC7 games."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Invert horizontal mouse axis for tilt control."
+msgstr ""
+
+msgctxt "#30048"
+msgid "Invert vertical mouse axis for tilt control."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Set the horizontal analog stick sensitivity for tilt control in MBC7 games."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Set the vertical analog stick sensitivity for tilt control in MBC7 games."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Invert horizontal analog stick axis for tilt control."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Invert vertical analog stick axis for tilt control."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Allow pressing, quickly alternating, or holding both left and right (or up and down) directions at the same time. This may cause movement based glitches in certain games. It's best to keep this option disabled."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Game Boy DMG"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Game Boy Advance"
+msgstr ""
+
+msgctxt "#30056"
+msgid "ROM Only"
+msgstr ""
+
+msgctxt "#30057"
+msgid "MBC 1"
+msgstr ""
+
+msgctxt "#30058"
+msgid "MBC 2"
+msgstr ""
+
+msgctxt "#30059"
+msgid "MBC 3"
+msgstr ""
+
+msgctxt "#30060"
+msgid "MBC 5"
+msgstr ""
+
+msgctxt "#30061"
+msgid "MBC 1 Multicart"
+msgstr ""
+
+msgctxt "#30062"
+msgid "HuC 1"
+msgstr ""
+
+msgctxt "#30063"
+msgid "HuC 3"
+msgstr ""
+
+msgctxt "#30064"
+msgid "MMM01"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Camera"
+msgstr ""
+
+msgctxt "#30066"
+msgid "MBC 7"
+msgstr ""
+
+msgctxt "#30067"
+msgid "TAMA5"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Wisdom Tree"
+msgstr ""
+
+msgctxt "#30069"
+msgid "M161"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Sachen MMC1"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Sachen MMC2"
+msgstr ""
+
+msgctxt "#30072"
+msgid "PKJD"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Bung/EMS"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Poke 2-in-1"
+msgstr ""
+
+msgctxt "#30075"
+msgid "MBC 6"
+msgstr ""

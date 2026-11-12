@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.supafaust"
+		name="Nintendo - SNES / SFC (Beetle Supafaust)"
+		version="1.29.0.47"
+		provider-name="Mednafen team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|swc|sfc|fig</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mednafen_supafaust_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2+</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.supafaust</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (Beetle Supafaust)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (Beetle Supafaust)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Beetle Supafaust)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (Beetle Supafaust)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (Beetle Supafaust)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (Beetle Supafaust)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC (Beetle Supafaust)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (Beetle Supafaust)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC (Beetle Supafaust)</summary>
+		<description lang="cs_CZ">Supafaust je emulátor SNES pro vícejádrové platformy ARM Linux. Je zvlášť vhodný pro méně výkonná zařízení.</description>
+		<description lang="da_DK">Supafaust er en SNES-emulator til multikerne ARM Linux-platforme. Den er især velegnet til enheder, der ikke er kraftige.</description>
+		<description lang="de_DE">Supafaust ist ein SNES-Emulator für Mehrkern-ARM-Linux-Plattformen. Er ist besonders für Low-End-Geräte geeignet.</description>
+		<description lang="en_GB">Supafaust is a SNES emulator for multicore ARM Linux platforms. It is particularly suitable for low-end devices.</description>
+		<description lang="es_ES">Supafaust es un emulador de SNES para plataformas Linux ARM multinúcleo. Está especialmente indicado para dispositivos de gama baja.</description>
+		<description lang="ga">Is aithriseoir SNES é Supafaust do ardáin ilchroí ARM Linux. Tá sé oiriúnach go háirithe do ghléasanna íseal-deireadh.</description>
+		<description lang="it_IT">Supafaust è un emulatore SNES per piattaforme Linux ARM multicore. È particolarmente adatto per dispositivi di fascia bassa.</description>
+		<description lang="ru_RU">Supafaust — это эмулятор SNES для многопроцессорных платформ ARM Linux. Он особенно подходит для маломощных устройств.</description>
+		<description lang="sv_SE">Supafaust är en SNES-emulator för flerkärniga ARM Linux-plattformar. Den är särskilt lämplig för svagare enheter.</description>
+		<description lang="zh_CN">Supafaust 是一个用于多核 ARM Linux 平台的 SNES 模拟器。它特别适用于低端设备。</description>
+	</extension>
+</addon>

@@ -1,0 +1,166 @@
+# game.libretro.supafaust language file
+# Addon Name: game.libretro.supafaust
+# Addon id: game.libretro.supafaust
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.supafaust\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 12:59i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-supafaust/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Beetle Supafaust)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Supafaust is a SNES emulator for multicore ARM Linux platforms. It is particularly suitable for low-end devices."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Pixel format"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Correct pixel aspect ratio"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Horizontal blend/double filter"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Deinterlacer"
+msgstr ""
+
+msgctxt "#30005"
+msgid "First displayed scanline in NTSC mode"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Last displayed scanline in NTSC mode"
+msgstr ""
+
+msgctxt "#30007"
+msgid "First displayed scanline in PAL mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Last displayed scanline in PAL mode"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Region/Type of SNES to emulate"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Begin frame in SNES VBlank to lower latency"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Enable 1-frame run-ahead"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Enable multitap"
+msgstr ""
+
+msgctxt "#30013"
+msgid "CX4 clock rate %"
+msgstr ""
+
+msgctxt "#30014"
+msgid "SuperFX clock rate %"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Emulate SuperFX instruction cache"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Internal resampler(output rate)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Emulation thread affinity mask"
+msgstr ""
+
+msgctxt "#30018"
+msgid "PPU render thread affinity mask"
+msgstr ""
+
+msgctxt "#30019"
+msgid "PPU renderer"
+msgstr ""
+
+msgctxt "#30020"
+msgid "force_ntsc"
+msgstr ""
+
+msgctxt "#30021"
+msgid "force_pal"
+msgstr ""
+
+msgctxt "#30022"
+msgid "ntsc"
+msgstr ""
+
+msgctxt "#30023"
+msgid "pal"
+msgstr ""
+
+msgctxt "#30024"
+msgid "ntsc_lie_auto"
+msgstr ""
+
+msgctxt "#30025"
+msgid "pal_lie_auto"
+msgstr ""
+
+msgctxt "#30026"
+msgid "ntsc_lie_pal"
+msgstr ""
+
+msgctxt "#30027"
+msgid "pal_lie_ntsc"
+msgstr ""
+
+msgctxt "#30028"
+msgid "video"
+msgstr ""
+
+msgctxt "#30029"
+msgid "video+audio"
+msgstr ""
+
+msgctxt "#30030"
+msgid "port1"
+msgstr ""
+
+msgctxt "#30031"
+msgid "port2"
+msgstr ""
+
+msgctxt "#30032"
+msgid "port1+port2"
+msgstr ""
+
+msgctxt "#30033"
+msgid "44100"
+msgstr ""
+
+msgctxt "#30034"
+msgid "48000"
+msgstr ""
+
+msgctxt "#30035"
+msgid "96000"
+msgstr ""

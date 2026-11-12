@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.yabasanshiro"
+		name="Sega - Saturn (YabaSanshiro)"
+		version="3.4.2.21"
+		provider-name="Guillaume Duhammel, Theo Berkau, Anders Montonen, devmiyax">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.saturn" version="1.0.0"/>
+		<import addon="game.controller.saturn.3d.japan" version="1.0.0"/>
+		<import addon="game.controller.saturn.3d.western" version="1.0.0"/>
+		<import addon="game.controller.saturn.multitap" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - Saturn</platforms>
+		<extensions>cue|iso|mds|ccd|chd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>yabasanshiro_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.yabasanshiro</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Sega - Saturn (YabaSanshiro)</summary>
+		<description lang="en_GB">Yaba Sanshiro, also known as uoYabause, is a free and open-source Sega Saturn emulator based on Yabause.[CR][CR]This core is less accurate than Beetle-Saturn, but runs much faster and at higher resolution.</description>
+	</extension>
+</addon>

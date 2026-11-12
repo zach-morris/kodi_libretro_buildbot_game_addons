@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="128">
+		<setting label="30001" type="select" id="mgba_gb_model" values="Autodetect|Game Boy|Super Game Boy|Game Boy Color|Super Game Boy Color|Game Boy Advance" default="Autodetect"/>
+		<setting label="30002" type="select" id="mgba_use_bios" values="ON|OFF" default="ON"/>
+		<setting label="30003" type="select" id="mgba_skip_bios" values="OFF|ON" default="OFF"/>
+		<setting label="30004" type="select" id="mgba_gb_colors" values="Grayscale|DMG Green|GB Pocket|GB Light|GBC Brown ↑|GBC Red ↑A|GBC Dark Brown ↑B|GBC Pale Yellow ↓|GBC Orange ↓A|GBC Yellow ↓B|GBC Blue ←|GBC Dark Blue ←A|GBC Gray ←B|GBC Green →|GBC Dark Green →A|GBC Reverse →B|SGB 1-A|SGB 1-B|SGB 1-C|SGB 1-D|SGB 1-E|SGB 1-F|SGB 1-G|SGB 1-H|SGB 2-A|SGB 2-B|SGB 2-C|SGB 2-D|SGB 2-E|SGB 2-F|SGB 2-G|SGB 2-H|SGB 3-A|SGB 3-B|SGB 3-C|SGB 3-D|SGB 3-E|SGB 3-F|SGB 3-G|SGB 3-H|SGB 4-A|SGB 4-B|SGB 4-C|SGB 4-D|SGB 4-E|SGB 4-F|SGB 4-G|SGB 4-H" default="Grayscale"/>
+		<setting label="30005" type="select" id="mgba_gb_colors_preset" values="0|1|2|3" default="0"/>
+		<setting label="30006" type="select" id="mgba_sgb_borders" values="ON|OFF" default="ON"/>
+		<setting label="30007" type="select" id="mgba_color_correction" values="OFF|GBA|GBC|Auto" default="OFF"/>
+		<setting label="30008" type="select" id="mgba_interframe_blending" values="OFF|mix|mix_smart|lcd_ghosting|lcd_ghosting_fast" default="OFF"/>
+		<setting label="30009" type="select" id="mgba_audio_low_pass_filter" values="disabled|enabled" default="disabled"/>
+		<setting label="30010" type="select" id="mgba_audio_low_pass_range" values="60|5|10|15|20|25|30|35|40|45|50|55|65|70|75|80|85|90|95" default="60"/>
+		<setting label="30011" type="select" id="mgba_allow_opposing_directions" values="no|yes" default="no"/>
+		<setting label="30012" type="select" id="mgba_solar_sensor_level" values="0|sensor|1|2|3|4|5|6|7|8|9|10" default="0"/>
+		<setting label="30013" type="select" id="mgba_force_gbp" values="OFF|ON" default="OFF"/>
+		<setting label="30014" type="select" id="mgba_idle_optimization" values="Remove Known|Detect and Remove|Don&#39;t Remove" default="Remove Known"/>
+		<setting label="30015" type="select" id="mgba_frameskip" values="disabled|auto|auto_threshold|fixed_interval" default="disabled"/>
+		<setting label="30016" type="select" id="mgba_frameskip_threshold" values="33|15|18|21|24|27|30|36|39|42|45|48|51|54|57|60" default="33"/>
+		<setting label="30017" type="select" id="mgba_frameskip_interval" values="0|1|2|3|4|5|6|7|8|9|10" default="0"/>
+	</category>
+</settings>

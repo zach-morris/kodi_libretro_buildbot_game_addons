@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mame2003_plus"
+		name="Arcade (MAME 2003-Plus)"
+		version="0.0.1.105"
+		provider-name="MAMEdev, MAME 2003-Plus Team, et al (see license and changelog)">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2003_plus_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME Noncommercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2003_plus</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Arcade (MAME 2003-Plus)</summary>
+		<description lang="af_ZA">Opgedateerde 2003 weergawe van MAME (0.78) vir libretro, met bygevoegde ondersteuning vir oor die 350 bykomende speletjies plus baie wat reggemaak is en verbeteringe.</description>
+		<description lang="cs_CZ">Aktualizovaná verze MAME z roku 2003 (0.78) pro Libretro s přidanou podporou více než 350 dalších her a mnoha opravami a vylepšeními.</description>
+		<description lang="da_DK">Opdateret 2018-version af MAME (0.78) til libretro, med tilføjet understøttelse af spil plus mange rettelser og forbedringer.</description>
+		<description lang="de_DE">Aktualisierte Version 2018 von MAME (0.78) für libretro, mit zusätzlicher Spieleunterstützung und vielen Korrekturen und Verbesserungen.</description>
+		<description lang="en_GB">Updated 2003 version of MAME (0.78) for libretro, with added support for over 350 additional games plus many fixes and improvements.</description>
+		<description lang="es_ES">Versión 2018 actualizada de MAME (0.78) para libretro, con soporte añadido para juegos además de muchas correcciones y mejoras.</description>
+		<description lang="ga">Leagan nuashonraithe de MAME (0.78) in 2003 do libretro, le tacaíocht bhreise do bhreis is 350 cluiche breise móide go leor socruithe agus feabhsuithe.</description>
+		<description lang="it_IT">Versione 2018 aggiornata di MAME (0.78) per libretro, con supporto di gioco aggiunto oltre a molte correzioni e miglioramenti.</description>
+		<description lang="ko_KR">libretro용 MAME(0.78) 2018 버전이 업데이트되었으며, 게임 지원이 추가되고 많은 수정 및 개선이 이루어졌습니다.</description>
+		<description lang="ru_RU">Обновленная версия MAME 2003 года (0.78) для libretro с дополнительной поддержкой более 350 игр, а также множеством исправлений и улучшений.</description>
+		<description lang="sv_SE">Uppdaterad 2003 års version av MAME (0.78) för libretro, med stöd för över 350 ytterligare spel samt många korrigeringar och förbättringar.</description>
+		<description lang="zh_CN">libretro 的升级2018版 MAME（0.78） 。增加了游戏支持，并进行了许多修正和改进。</description>
+	</extension>
+</addon>

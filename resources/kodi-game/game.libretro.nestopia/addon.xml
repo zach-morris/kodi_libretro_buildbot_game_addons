@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.nestopia"
+		name="Nintendo - NES / Famicom (Nestopia)"
+		version="2.0.0.69"
+		provider-name="Martin Freij, R. Danbrook, Rupert Carmichael">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nes" version="1.0.0"/>
+		<import addon="game.controller.nes.zapper" version="1.0.0" optional="true"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - NES / Famicom</platforms>
+		<extensions>nes|fds|unf|unif|nsf</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>nestopia_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.nestopia</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - NES / Famicom (Nestopia)</summary>
+		<summary lang="da_DK">Nintendo - NES / Famicom (Nestopia)</summary>
+		<summary lang="en_GB">Nintendo - NES / Famicom (Nestopia)</summary>
+		<summary lang="es_ES">Nintendo - NES / Famicom (Nestopia)</summary>
+		<summary lang="ga">Nintendo - NES / Famicom (Nestopia)</summary>
+		<summary lang="it_IT">Nintendo - NES / Famicom (Nestopia)</summary>
+		<summary lang="ru_RU">Nintendo — NES / Famicom (Nestopia)</summary>
+		<summary lang="sv_SE">Nintendo - NES / Famicom (Nestopia)</summary>
+		<summary lang="zh_CN">任天堂 - NES / Famicom (Nestopia)</summary>
+		<description lang="cs_CZ">Nestopia je přenositelný open-source emulátor NES/Famicom. Je navržen tak, aby byl co nejpřesnější, a podporuje velké množství periferií.</description>
+		<description lang="da_DK">Nestopia er en bærbar open source NES-/Famicom-emulator. Den er designet til at være så nøjagtigt som muligt og understøtter et stort antal eksterne enheder.</description>
+		<description lang="de_DE">Nestopia ist ein portabler Open-Source-NES/Famicom-Emulator. Er wurde konzipiert, um so genau wie möglich zu sein und unterstützt eine große Anzahl von Peripheriegeräten.</description>
+		<description lang="en_GB">Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals.</description>
+		<description lang="es_ES">Nestopia es un emulador portátil para NES/Famicom de código abierto. Está diseñado para ser lo más preciso posible y es compatible con un gran número de periféricos.</description>
+		<description lang="ga">Is aithriseoir NES/Famicom foinse oscailte iniompartha é Nestopia. Tá sé deartha chun a bheith chomh cruinn agus is féidir agus tacaíonn sé le líon mór forimeallach.</description>
+		<description lang="it_IT">Nestopia è un emulatore NES/Famicom portabile e open source. È progettato per essere il più accurato possibile e supporta un ampio numero di periferiche.</description>
+		<description lang="ru_RU">Nestopia — это портативный эмулятор NES/Famicom с открытым исходным кодом. Он разработан для максимально возможной точности и поддерживает большое количество периферийных устройств.</description>
+		<description lang="sl_SI">Nestopia je prenosni odprtokodni emulator NES/Famicom. Zasnovan je tako, da je čim bolj natančen in podpira veliko število zunanjih naprav.</description>
+		<description lang="sv_SE">Nestopia är en portabel NES/Famicom-emulator med öppen källkod. Den är utformad för att vara så exakt som möjligt och stöder ett stort antal kringutrustningar.</description>
+		<description lang="zh_CN">Nestopia 是一款便携式开源 NES/Famicom 模拟器。它的设计尽可能精确，并支持大量外围设备。</description>
+		<disclaimer lang="cs_CZ">Autor ikony: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Symbolnachweis: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="ga">Creidmheas deilbhín: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Credito icona: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">아이콘 크레딧: Anarkhya(anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Автор значка: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="sl_SI">Zasluga ikone: Anarhya (anarhya.deviantart.com)</disclaimer>
+		<disclaimer lang="sv_SE">Ikon: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">图标来源：Anarkhya（anarkhya.deviantart.com）</disclaimer>
+	</extension>
+</addon>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mame"
+		name="Arcade (MAME)"
+		version="0.272.0.26"
+		provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>cmd|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2+</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Arcade (MAME)</summary>
+		<summary lang="es_ES">Arcade (MAME)</summary>
+		<summary lang="it_IT">Arcade (MAME)</summary>
+		<description lang="da_DK">MAME står for [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator. MAME kan i øjeblikket efterligne flere tusinde klassiske arkadespil fra slutningen af 1970&apos;erne gennem den moderne æra.</description>
+		<description lang="de_DE">MAME steht für [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator. MAME kann derzeit mehrere tausend klassische Arcade-Spiele der späten 1970er Jahren bis zur Neuzeit emulieren.</description>
+		<description lang="en_GB">MAME stands for [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator. MAME can currently emulate several thousand classic arcade games from the late 1970s through the modern era.</description>
+		<description lang="es_ES">MAME son las siglas de [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator. Actualmente, MAME puede emular varios miles de juegos arcade clásicos desde finales de los 70 hasta la era moderna.</description>
+		<description lang="it_IT">MAME sta per [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator. MAME attualmente può emulare diverse migliaia di giochi arcade classici dalla fine degli anni &apos;70 fino all&apos;era moderna.</description>
+		<description lang="zh_CN">MAME 即 [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator。MAME 目前可以仿真上世纪70年代末到现代的数千款经典街机游戏。</description>
+		<disclaimer lang="da_DK">Billedkreditering: peter-86 (peter-86.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Symbolnachweis: peter-86 (peter-86.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: peter-86 (peter-86.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: peter-86 (peter-86.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Credito icona: peter-86 (peter-86.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">图标来源：peter-86（peter-86.deviantart.com）</disclaimer>
+	</extension>
+</addon>

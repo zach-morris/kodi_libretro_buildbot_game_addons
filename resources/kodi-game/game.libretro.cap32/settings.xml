@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.cap32">
+		<category id="system" label="30021">
+			<group id="1">
+				<setting id="cap32_model" type="string" label="30007">
+					<level>0</level>
+					<default>6128</default>
+					<constraints>
+						<options>
+							<option>464</option>
+							<option>464DDI</option>
+							<option>664</option>
+							<option>6128</option>
+							<option>6128+ (experimental)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_tape_fastload" type="string" label="30048" help="30049">
+					<level>0</level>
+					<default>maximum</default>
+					<constraints>
+						<options>
+							<option label="30050">disabled</option>
+							<option label="30051">4</option>
+							<option label="30052">8</option>
+							<option label="30053">maximum</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_autorun" type="string" label="30036">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_statusbar" type="string" label="30013">
+					<level>0</level>
+					<default>onloading</default>
+					<constraints>
+						<options>
+							<option label="30038">onloading</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_keyboard_transparency" type="string" label="30014">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_floppy_sound" type="string" label="30015">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_lang_layout" type="string" label="30017">
+					<level>0</level>
+					<default>english</default>
+					<constraints>
+						<options>
+							<option>english</option>
+							<option>french</option>
+							<option>spanish</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30022">
+			<group id="1">
+				<setting id="cap32_advanced_green_phosphor" type="string" label="30023">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_scr_intensity" type="string" label="30024">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_gfx_colors" type="string" label="30025">
+					<level>0</level>
+					<default>16bit</default>
+					<constraints>
+						<options>
+							<option>8bit</option>
+							<option>16bit</option>
+							<option>24bit</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_scr_crop" type="string" label="30026">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_scr_tube" type="string" label="30016">
+					<level>0</level>
+					<default>color</default>
+					<constraints>
+						<options>
+							<option>color</option>
+							<option>green</option>
+							<option>white</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="controls" label="30027">
+			<group id="1">
+				<setting id="cap32_retrojoy0" type="string" label="30028">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30039">qaop</option>
+							<option label="30040">incentive</option>
+							<option label="30041">joystick_port1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_retrojoy1" type="string" label="30029">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30039">qaop</option>
+							<option label="30040">incentive</option>
+							<option label="30041">joystick_port1</option>
+							<option label="30042">joystick_port2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_combokey" type="string" label="30030">
+					<level>0</level>
+					<default>select</default>
+					<constraints>
+						<options>
+							<option label="30043">select</option>
+							<option label="30044">y</option>
+							<option label="30045">b</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_db_mapkeys" type="string" label="30031">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="light_gun" label="30032">
+			<group id="1">
+				<setting id="cap32_lightgun_input" type="string" label="30033">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30054">phaser</option>
+							<option label="30055">gunstick</option>
+							<option label="30056">west_phaser</option>
+							<option label="30057">trojan_phazer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cap32_lightgun_show" type="string" label="30034">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30035">
+			<group id="1">
+				<setting id="cap32_ram" type="string" label="30037">
+					<level>0</level>
+					<default>128</default>
+					<constraints>
+						<options>
+							<option>64</option>
+							<option>128</option>
+							<option>192</option>
+							<option>576</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

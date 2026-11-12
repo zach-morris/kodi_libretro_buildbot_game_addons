@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.craft"
+		name="Minecraft (Craft)"
+		version="0.0.1.32"
+		provider-name="Michael Fogleman">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Minecraft</platforms>
+		<extensions></extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>craft_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.craft</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<summary lang="en_GB">Minecraft (Craft)</summary>
+		<description lang="cs_CZ">Craft je jednoduchý klon Minecraftu napsaný v jazyce C s využitím moderního OpenGL.</description>
+		<description lang="da_DK">Craft er en simpel Minecraft-klon skrevet i C ved hjælp af moderne OpenGL.</description>
+		<description lang="de_DE">Craft ist ein einfacher Minecraft-Klon, der in C geschrieben wurde und modernes OpenGL verwendet.</description>
+		<description lang="en_GB">Craft is a simple Minecraft clone written in C using modern OpenGL.</description>
+		<description lang="es_ES">Craft es un simple clon de Minecraft escrito en C usando OpenGL moderno.</description>
+		<description lang="es_MX">Craft es un simple clon de Minecraft escrito en C utilizando OpenGL moderno.</description>
+		<description lang="ga">Is clón simplí Minecraft é Craft atá scríofa i C ag baint úsáide as OpenGL nua-aimseartha.</description>
+		<description lang="it_IT">Craft è un semplice clone di Minecraft scritto in C usando il moderno OpenGL.</description>
+		<description lang="ru_RU">Craft — это простой клон Minecraft, написанный на C с использованием современного OpenGL.</description>
+		<description lang="sv_SE">Craft är en enkel Minecraft-klon som är skriven i C och använder modern OpenGL.</description>
+		<description lang="zh_CN">Craft 是一个用 C 语言编写使用现代 OpenGL 的简单 Minecraft 克隆。</description>
+		<disclaimer lang="cs_CZ">Autor obrázku: Aaron Smith</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: Aaron Smith</disclaimer>
+		<disclaimer lang="de_DE">Bildnachweis: Aaron Smith</disclaimer>
+		<disclaimer lang="en_GB">Image credit: Aaron Smith</disclaimer>
+		<disclaimer lang="es_ES">Créditos de la imagen: Aaron Smith</disclaimer>
+		<disclaimer lang="ga">Creidmheas íomhá: Aaron Smith</disclaimer>
+		<disclaimer lang="it_IT">Credito immagine: Aaron Smith</disclaimer>
+		<disclaimer lang="ru_RU">Изображение предоставлено: Аарон Смит</disclaimer>
+		<disclaimer lang="sv_SE">Bild: Aaron Smith</disclaimer>
+		<disclaimer lang="zh_CN">图片来源：Aaron Smith</disclaimer>
+	</extension>
+</addon>

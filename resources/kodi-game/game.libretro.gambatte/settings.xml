@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.gambatte">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="gambatte_gb_colorization" type="string" label="30001" help="30032">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30033">auto</option>
+							<option label="30034">GBC</option>
+							<option label="30035">SGB</option>
+							<option label="30036">internal</option>
+							<option label="30037">custom</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_internal_palette" type="string" label="30002" help="30038">
+					<level>0</level>
+					<default>GB - DMG</default>
+					<constraints>
+						<options>
+							<option>GB - DMG</option>
+							<option>GB - Pocket</option>
+							<option>GB - Light</option>
+							<option>GBC - Blue</option>
+							<option>GBC - Brown</option>
+							<option>GBC - Dark Blue</option>
+							<option>GBC - Dark Brown</option>
+							<option>GBC - Dark Green</option>
+							<option>GBC - Grayscale</option>
+							<option>GBC - Green</option>
+							<option>GBC - Inverted</option>
+							<option>GBC - Orange</option>
+							<option>GBC - Pastel Mix</option>
+							<option>GBC - Red</option>
+							<option>GBC - Yellow</option>
+							<option>SGB - 1A</option>
+							<option>SGB - 1B</option>
+							<option>SGB - 1C</option>
+							<option>SGB - 1D</option>
+							<option>SGB - 1E</option>
+							<option>SGB - 1F</option>
+							<option>SGB - 1G</option>
+							<option>SGB - 1H</option>
+							<option>SGB - 2A</option>
+							<option>SGB - 2B</option>
+							<option>SGB - 2C</option>
+							<option>SGB - 2D</option>
+							<option>SGB - 2E</option>
+							<option>SGB - 2F</option>
+							<option>SGB - 2G</option>
+							<option>SGB - 2H</option>
+							<option>SGB - 3A</option>
+							<option>SGB - 3B</option>
+							<option>SGB - 3C</option>
+							<option>SGB - 3D</option>
+							<option>SGB - 3E</option>
+							<option>SGB - 3F</option>
+							<option>SGB - 3G</option>
+							<option>SGB - 3H</option>
+							<option>SGB - 4A</option>
+							<option>SGB - 4B</option>
+							<option>SGB - 4C</option>
+							<option>SGB - 4D</option>
+							<option>SGB - 4E</option>
+							<option>SGB - 4F</option>
+							<option>SGB - 4G</option>
+							<option>SGB - 4H</option>
+							<option>Special 1</option>
+							<option>Special 2</option>
+							<option>Special 3</option>
+							<option>Special 4 (TI-83 Legacy)</option>
+							<option>TWB64 - Pack 1</option>
+							<option>TWB64 - Pack 2</option>
+							<option>TWB64 - Pack 3</option>
+							<option>PixelShift - Pack 1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_palette_twb64_1" type="string" label="30003" help="30039">
+					<level>0</level>
+					<default>TWB64 001 - Aqours Blue</default>
+					<constraints>
+						<options>
+							<option>TWB64 001 - Aqours Blue</option>
+							<option>TWB64 002 - Anime Expo Ver.</option>
+							<option>TWB64 003 - SpongeBob Yellow</option>
+							<option>TWB64 004 - Patrick Star Pink</option>
+							<option>TWB64 005 - Neon Red</option>
+							<option>TWB64 006 - Neon Blue</option>
+							<option>TWB64 007 - Neon Yellow</option>
+							<option>TWB64 008 - Neon Green</option>
+							<option>TWB64 009 - Neon Pink</option>
+							<option>TWB64 010 - Mario Red</option>
+							<option>TWB64 011 - Nick Orange</option>
+							<option>TWB64 012 - Virtual Vision</option>
+							<option>TWB64 013 - Golden Wild</option>
+							<option>TWB64 014 - DMG-099</option>
+							<option>TWB64 015 - Classic Blurple</option>
+							<option>TWB64 016 - 765 Production Ver.</option>
+							<option>TWB64 017 - Superball Ivory</option>
+							<option>TWB64 018 - Crunchyroll Orange</option>
+							<option>TWB64 019 - Muse Pink</option>
+							<option>TWB64 020 - School Idol Blue</option>
+							<option>TWB64 021 - Gamate Ver.</option>
+							<option>TWB64 022 - Greenscale Ver.</option>
+							<option>TWB64 023 - Odyssey Gold</option>
+							<option>TWB64 024 - Super Saiyan God</option>
+							<option>TWB64 025 - Super Saiyan Blue</option>
+							<option>TWB64 026 - ANIMAX BLUE</option>
+							<option>TWB64 027 - BMO Ver.</option>
+							<option>TWB64 028 - Game.com Ver.</option>
+							<option>TWB64 029 - Sanrio Pink</option>
+							<option>TWB64 030 - Timmy Turner Pink</option>
+							<option>TWB64 031 - Fairly OddPalette</option>
+							<option>TWB64 032 - Danny Phantom Silver</option>
+							<option>TWB64 033 - Link&apos;s Awakening DX Ver.</option>
+							<option>TWB64 034 - Travel Wood</option>
+							<option>TWB64 035 - Pokemon Ver.</option>
+							<option>TWB64 036 - Game Grump Orange</option>
+							<option>TWB64 037 - Scooby-Doo Mystery Ver.</option>
+							<option>TWB64 038 - Pokemon mini Ver.</option>
+							<option>TWB64 039 - Supervision Ver.</option>
+							<option>TWB64 040 - DMG Ver.</option>
+							<option>TWB64 041 - Pocket Ver.</option>
+							<option>TWB64 042 - Light Ver.</option>
+							<option>TWB64 043 - All Might Hero Palette</option>
+							<option>TWB64 044 - U.A. High School Uniform</option>
+							<option>TWB64 045 - Pikachu Yellow</option>
+							<option>TWB64 046 - Eevee Brown</option>
+							<option>TWB64 047 - Microvision Ver.</option>
+							<option>TWB64 048 - TI-83 Ver.</option>
+							<option>TWB64 049 - Aegis Cherry</option>
+							<option>TWB64 050 - Labo Fawn</option>
+							<option>TWB64 051 - MILLION LIVE GOLD!</option>
+							<option>TWB64 052 - Squidward Sea Foam Green</option>
+							<option>TWB64 053 - VMU Ver.</option>
+							<option>TWB64 054 - Game Master Ver.</option>
+							<option>TWB64 055 - Android Green</option>
+							<option>TWB64 056 - Amazon Vision</option>
+							<option>TWB64 057 - Google Red</option>
+							<option>TWB64 058 - Google Blue</option>
+							<option>TWB64 059 - Google Yellow</option>
+							<option>TWB64 060 - Google Green</option>
+							<option>TWB64 061 - WonderSwan Ver.</option>
+							<option>TWB64 062 - Neo Geo Pocket Ver.</option>
+							<option>TWB64 063 - Dew Green</option>
+							<option>TWB64 064 - Coca-Cola Vision</option>
+							<option>TWB64 065 - GameKing Ver.</option>
+							<option>TWB64 066 - Do The Dew Ver.</option>
+							<option>TWB64 067 - Digivice Ver.</option>
+							<option>TWB64 068 - Bikini Bottom Ver.</option>
+							<option>TWB64 069 - Blossom Pink</option>
+							<option>TWB64 070 - Bubbles Blue</option>
+							<option>TWB64 071 - Buttercup Green</option>
+							<option>TWB64 072 - NASCAR Ver.</option>
+							<option>TWB64 073 - Lemon-Lime Green</option>
+							<option>TWB64 074 - Mega Man V Ver.</option>
+							<option>TWB64 075 - Tamagotchi Ver.</option>
+							<option>TWB64 076 - Phantom Red</option>
+							<option>TWB64 077 - Halloween Ver.</option>
+							<option>TWB64 078 - Christmas Ver.</option>
+							<option>TWB64 079 - Cardcaptor Pink</option>
+							<option>TWB64 080 - Pretty Guardian Gold</option>
+							<option>TWB64 081 - Camouflage Ver.</option>
+							<option>TWB64 082 - Legendary Super Saiyan</option>
+							<option>TWB64 083 - Super Saiyan Rose</option>
+							<option>TWB64 084 - Super Saiyan</option>
+							<option>TWB64 085 - Perfected Ultra Instinct</option>
+							<option>TWB64 086 - Saint Snow Red</option>
+							<option>TWB64 087 - Yellow Banana</option>
+							<option>TWB64 088 - Green Banana</option>
+							<option>TWB64 089 - Super Saiyan 3</option>
+							<option>TWB64 090 - Super Saiyan Blue Evolved</option>
+							<option>TWB64 091 - Pocket Tales Ver.</option>
+							<option>TWB64 092 - Investigation Yellow</option>
+							<option>TWB64 093 - S.E.E.S. Blue</option>
+							<option>TWB64 094 - Ultra Instinct Sign</option>
+							<option>TWB64 095 - Hokage Orange</option>
+							<option>TWB64 096 - Straw Hat Red</option>
+							<option>TWB64 097 - Sword Art Cyan</option>
+							<option>TWB64 098 - Deku Alpha Emerald</option>
+							<option>TWB64 099 - Blue Stripes Ver.</option>
+							<option>TWB64 100 - Precure Marble Raspberry</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_palette_twb64_2" type="string" label="30004" help="30040">
+					<level>0</level>
+					<default>TWB64 101 - 765PRO Pink</default>
+					<constraints>
+						<options>
+							<option>TWB64 101 - 765PRO Pink</option>
+							<option>TWB64 102 - CINDERELLA Blue</option>
+							<option>TWB64 103 - MILLION Yellow!</option>
+							<option>TWB64 104 - SideM Green</option>
+							<option>TWB64 105 - SHINY Sky Blue</option>
+							<option>TWB64 106 - Angry Volcano Ver.</option>
+							<option>TWB64 107 - NBA Vision</option>
+							<option>TWB64 108 - NFL Vision</option>
+							<option>TWB64 109 - MLB Vision</option>
+							<option>TWB64 110 - Anime Digivice Ver.</option>
+							<option>TWB64 111 - Aquatic Iro</option>
+							<option>TWB64 112 - Tea Midori</option>
+							<option>TWB64 113 - Sakura Pink</option>
+							<option>TWB64 114 - Wisteria Murasaki</option>
+							<option>TWB64 115 - Oni Aka</option>
+							<option>TWB64 116 - Golden Kiiro</option>
+							<option>TWB64 117 - Silver Shiro</option>
+							<option>TWB64 118 - Fruity Orange</option>
+							<option>TWB64 119 - AKB48 Pink</option>
+							<option>TWB64 120 - Miku Blue</option>
+							<option>TWB64 121 - Tri Digivice Ver.</option>
+							<option>TWB64 122 - Survey Corps Uniform</option>
+							<option>TWB64 123 - Island Green</option>
+							<option>TWB64 124 - Nogizaka46 Purple</option>
+							<option>TWB64 125 - Ninja Turtle Green</option>
+							<option>TWB64 126 - Slime Blue</option>
+							<option>TWB64 127 - Lime Midori</option>
+							<option>TWB64 128 - Ghostly Aoi</option>
+							<option>TWB64 129 - Retro Bogeda</option>
+							<option>TWB64 130 - Royal Blue</option>
+							<option>TWB64 131 - Neon Purple</option>
+							<option>TWB64 132 - Neon Orange</option>
+							<option>TWB64 133 - Moonlight Vision</option>
+							<option>TWB64 134 - Rising Sun Red</option>
+							<option>TWB64 135 - Burger King Color Combo</option>
+							<option>TWB64 136 - Grand Zeno Coat</option>
+							<option>TWB64 137 - Pac-Man Yellow</option>
+							<option>TWB64 138 - Irish Green</option>
+							<option>TWB64 139 - Goku Gi</option>
+							<option>TWB64 140 - Dragon Ball Orange</option>
+							<option>TWB64 141 - Christmas Gold</option>
+							<option>TWB64 142 - Pepsi Vision</option>
+							<option>TWB64 143 - Bubblun Green</option>
+							<option>TWB64 144 - Bobblun Blue</option>
+							<option>TWB64 145 - Baja Blast Storm</option>
+							<option>TWB64 146 - Olympic Gold</option>
+							<option>TWB64 147 - LisAni Orange!</option>
+							<option>TWB64 148 - Liella Purple!</option>
+							<option>TWB64 149 - Olympic Silver</option>
+							<option>TWB64 150 - Olympic Bronze</option>
+							<option>TWB64 151 - ANA Flight Blue</option>
+							<option>TWB64 152 - Nijigasaki Orange</option>
+							<option>TWB64 153 - Holoblue</option>
+							<option>TWB64 154 - WWE White and Red</option>
+							<option>TWB64 155 - Yoshi Egg Green</option>
+							<option>TWB64 156 - Pokedex Red</option>
+							<option>TWB64 157 - FamilyMart Vision</option>
+							<option>TWB64 158 - Xbox Green</option>
+							<option>TWB64 159 - Sonic Mega Blue</option>
+							<option>TWB64 160 - Sprite Green</option>
+							<option>TWB64 161 - Scarlett Green</option>
+							<option>TWB64 162 - Glitchy Blue</option>
+							<option>TWB64 163 - Classic LCD</option>
+							<option>TWB64 164 - 3DS Virtual Console Ver.</option>
+							<option>TWB64 165 - PocketStation Ver.</option>
+							<option>TWB64 166 - Timeless Gold and Red</option>
+							<option>TWB64 167 - Smurfy Blue</option>
+							<option>TWB64 168 - Swampy Ogre Green</option>
+							<option>TWB64 169 - Sailor Spinach Green</option>
+							<option>TWB64 170 - Shenron Green</option>
+							<option>TWB64 171 - Berserk Blood</option>
+							<option>TWB64 172 - Super Star Pink</option>
+							<option>TWB64 173 - Gamebuino Classic Ver.</option>
+							<option>TWB64 174 - Barbie Pink</option>
+							<option>TWB64 175 - YOASOBI AMARANTH</option>
+							<option>TWB64 176 - Nokia 3310 Ver.</option>
+							<option>TWB64 177 - Clover Green</option>
+							<option>TWB64 178 - Goku GT Gi</option>
+							<option>TWB64 179 - Famicom Disk Yellow</option>
+							<option>TWB64 180 - Team Rocket Uniform</option>
+							<option>TWB64 181 - SEIKO Timely Vision</option>
+							<option>TWB64 182 - PASTEL109</option>
+							<option>TWB64 183 - Doraemon Tricolor</option>
+							<option>TWB64 184 - Fury Blue</option>
+							<option>TWB64 185 - GOOD SMILE VISION</option>
+							<option>TWB64 186 - Puyo Puyo Green</option>
+							<option>TWB64 187 - Circle K Color Combo</option>
+							<option>TWB64 188 - Pizza Hut Red</option>
+							<option>TWB64 189 - Emerald Green</option>
+							<option>TWB64 190 - Grand Ivory</option>
+							<option>TWB64 191 - Demon&apos;s Gold</option>
+							<option>TWB64 192 - SEGA Tokyo Blue</option>
+							<option>TWB64 193 - Champion&apos;s Tunic</option>
+							<option>TWB64 194 - DK Barrel Brown</option>
+							<option>TWB64 195 - EVA-01</option>
+							<option>TWB64 196 - Wild West Vision</option>
+							<option>TWB64 197 - Optimus Prime Palette</option>
+							<option>TWB64 198 - Niconico Sea Green</option>
+							<option>TWB64 199 - Duracell Copper</option>
+							<option>TWB64 200 - TOKYO SKYTREE CLOUDY BLUE</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_palette_twb64_3" type="string" label="30031" help="30041">
+					<level>0</level>
+					<default>TWB64 201 - DMG-GOLD</default>
+					<constraints>
+						<options>
+							<option>TWB64 201 - DMG-GOLD</option>
+							<option>TWB64 202 - LCD Clock Green</option>
+							<option>TWB64 203 - Famicom Frenzy</option>
+							<option>TWB64 204 - DK Arcade Blue</option>
+							<option>TWB64 205 - Advanced Indigo</option>
+							<option>TWB64 206 - Ultra Black</option>
+							<option>TWB64 207 - Chaos Emerald Green</option>
+							<option>TWB64 208 - Blue Bomber Vision</option>
+							<option>TWB64 209 - Krispy Kreme Vision</option>
+							<option>TWB64 210 - Steam Gray</option>
+							<option>TWB64 211 - Dream Land GB Ver.</option>
+							<option>TWB64 212 - Pokemon Pinball Ver.</option>
+							<option>TWB64 213 - Poketch Ver.</option>
+							<option>TWB64 214 - COLLECTION of SaGa Ver.</option>
+							<option>TWB64 215 - Rocky-Valley Holiday</option>
+							<option>TWB64 216 - Giga Kiwi DMG</option>
+							<option>TWB64 217 - DMG Pea Green</option>
+							<option>TWB64 218 - Timing Hero Ver.</option>
+							<option>TWB64 219 - Invincible Yellow and Blue</option>
+							<option>TWB64 220 - Grinchy Green</option>
+							<option>TWB64 221 - Animate Vision</option>
+							<option>TWB64 222 - School Idol Mix</option>
+							<option>TWB64 223 - Green Awakening</option>
+							<option>TWB64 224 - Goomba Brown</option>
+							<option>TWB64 225 - WarioWare MicroBlue</option>
+							<option>TWB64 226 - KonoSuba Sherbet</option>
+							<option>TWB64 227 - Spooky Purple</option>
+							<option>TWB64 228 - Treasure Gold</option>
+							<option>TWB64 229 - Cherry Blossom Pink</option>
+							<option>TWB64 230 - Golden Trophy</option>
+							<option>TWB64 231 - Glacial Winter Blue</option>
+							<option>TWB64 232 - Leprechaun Green</option>
+							<option>TWB64 233 - SAITAMA SUPER BLUE</option>
+							<option>TWB64 234 - SAITAMA SUPER GREEN</option>
+							<option>TWB64 235 - Duolingo Green</option>
+							<option>TWB64 236 - Super Mushroom Vision</option>
+							<option>TWB64 237 - Ancient Hisuian Brown</option>
+							<option>TWB64 238 - Sky Pop Ivory</option>
+							<option>TWB64 239 - LAWSON BLUE</option>
+							<option>TWB64 240 - Anime Expo Red</option>
+							<option>TWB64 241 - Brilliant Diamond Blue</option>
+							<option>TWB64 242 - Shining Pearl Pink</option>
+							<option>TWB64 243 - Funimation Melon</option>
+							<option>TWB64 244 - Teyvat Brown</option>
+							<option>TWB64 245 - Chozo Blue</option>
+							<option>TWB64 246 - Spotify Green</option>
+							<option>TWB64 247 - Dr Pepper Red</option>
+							<option>TWB64 248 - NHK Silver Gray</option>
+							<option>TWB64 249 - Dunkin&apos; Vision</option>
+							<option>TWB64 250 - Deku Gamma Palette</option>
+							<option>TWB64 251 - Universal Studios Blue</option>
+							<option>TWB64 252 - Hogwarts Goldius</option>
+							<option>TWB64 253 - Kentucky Fried Red</option>
+							<option>TWB64 254 - Cheeto Orange</option>
+							<option>TWB64 255 - Namco Idol Pink</option>
+							<option>TWB64 256 - Domino&apos;s Pizza Vision</option>
+							<option>TWB64 257 - Pac-Man Vision</option>
+							<option>TWB64 258 - Bill&apos;s PC Screen</option>
+							<option>TWB64 259 - Ebott Prolouge</option>
+							<option>TWB64 260 - Fool&apos;s Gold and Silver</option>
+							<option>TWB64 261 - UTA VISION</option>
+							<option>TWB64 262 - Metallic Paldea Brass</option>
+							<option>TWB64 263 - Classy Christmas</option>
+							<option>TWB64 264 - Winter Christmas</option>
+							<option>TWB64 265 - IDOL WORLD TRICOLOR!!!</option>
+							<option>TWB64 266 - Inkling Tricolor</option>
+							<option>TWB64 267 - 7-Eleven Color Combo</option>
+							<option>TWB64 268 - PAC-PALETTE</option>
+							<option>TWB64 269 - Vulnerable Blue</option>
+							<option>TWB64 270 - Nightvision Green</option>
+							<option>TWB64 271 - Bandai Namco Tricolor</option>
+							<option>TWB64 272 - Gold, Silver, and Bronze</option>
+							<option>TWB64 273 - Deku Vigilante Palette</option>
+							<option>TWB64 274 - Super Famicom Supreme</option>
+							<option>TWB64 275 - Absorbent and Yellow</option>
+							<option>TWB64 276 - 765PRO TRICOLOR</option>
+							<option>TWB64 277 - GameCube Glimmer</option>
+							<option>TWB64 278 - 1st Vision Pastel</option>
+							<option>TWB64 279 - Perfect Majin Emperor</option>
+							<option>TWB64 280 - J-Pop Idol Sherbet</option>
+							<option>TWB64 281 - Ryuuguu Sunset</option>
+							<option>TWB64 282 - Tropical Starfall</option>
+							<option>TWB64 283 - Colorful Horizons</option>
+							<option>TWB64 284 - BLACKPINK BLINK PINK</option>
+							<option>TWB64 285 - DMG-SWITCH</option>
+							<option>TWB64 286 - POCKET SWITCH</option>
+							<option>TWB64 287 - Sunny Passion Paradise</option>
+							<option>TWB64 288 - Saiyan Beast Silver</option>
+							<option>TWB64 289 - RADIANT SMILE RAMP</option>
+							<option>TWB64 290 - A-RISE BLUE</option>
+							<option>TWB64 291 - TROPICAL TWICE APRICOT</option>
+							<option>TWB64 292 - Odyssey Boy</option>
+							<option>TWB64 293 - Frog Coin Green</option>
+							<option>TWB64 294 - Garfield Vision</option>
+							<option>TWB64 295 - Bedrock Caveman Vision</option>
+							<option>TWB64 296 - BANGTAN ARMY PURPLE</option>
+							<option>TWB64 297 - LE SSERAFIM FEARLESS BLUE</option>
+							<option>TWB64 298 - Baja Blast Beach</option>
+							<option>TWB64 299 - 3DS Virtual Console Green</option>
+							<option>TWB64 300 - Wonder Purple</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_palette_pixelshift_1" type="string" label="30005" help="30042">
+					<level>0</level>
+					<default>PixelShift 01 - Arctic Green</default>
+					<constraints>
+						<options>
+							<option>PixelShift 01 - Arctic Green</option>
+							<option>PixelShift 02 - Arduboy</option>
+							<option>PixelShift 03 - BGB 0.3 Emulator</option>
+							<option>PixelShift 04 - Camouflage</option>
+							<option>PixelShift 05 - Chocolate Bar</option>
+							<option>PixelShift 06 - CMYK</option>
+							<option>PixelShift 07 - Cotton Candy</option>
+							<option>PixelShift 08 - Easy Greens</option>
+							<option>PixelShift 09 - Gamate</option>
+							<option>PixelShift 10 - Game Boy Light</option>
+							<option>PixelShift 11 - Game Boy Pocket</option>
+							<option>PixelShift 12 - Game Boy Pocket Alt</option>
+							<option>PixelShift 13 - Game Pocket Computer</option>
+							<option>PixelShift 14 - Game &amp; Watch Ball</option>
+							<option>PixelShift 15 - GB Backlight Blue</option>
+							<option>PixelShift 16 - GB Backlight Faded</option>
+							<option>PixelShift 17 - GB Backlight Orange</option>
+							<option>PixelShift 18 - GB Backlight White </option>
+							<option>PixelShift 19 - GB Backlight Yellow Dark</option>
+							<option>PixelShift 20 - GB Bootleg</option>
+							<option>PixelShift 21 - GB Hunter</option>
+							<option>PixelShift 22 - GB Kiosk</option>
+							<option>PixelShift 23 - GB Kiosk 2</option>
+							<option>PixelShift 24 - GB New</option>
+							<option>PixelShift 25 - GB Nuked</option>
+							<option>PixelShift 26 - GB Old</option>
+							<option>PixelShift 27 - GBP Bivert</option>
+							<option>PixelShift 28 - GB Washed Yellow Backlight</option>
+							<option>PixelShift 29 - Ghost</option>
+							<option>PixelShift 30 - Glow In The Dark</option>
+							<option>PixelShift 31 - Gold Bar</option>
+							<option>PixelShift 32 - Grapefruit</option>
+							<option>PixelShift 33 - Gray Green Mix</option>
+							<option>PixelShift 34 - Missingno</option>
+							<option>PixelShift 35 - MS-Dos</option>
+							<option>PixelShift 36 - Newspaper</option>
+							<option>PixelShift 37 - Pip-Boy</option>
+							<option>PixelShift 38 - Pocket Girl</option>
+							<option>PixelShift 39 - Silhouette</option>
+							<option>PixelShift 40 - Sunburst</option>
+							<option>PixelShift 41 - Technicolor</option>
+							<option>PixelShift 42 - Tron</option>
+							<option>PixelShift 43 - Vaporwave</option>
+							<option>PixelShift 44 - Virtual Boy</option>
+							<option>PixelShift 45 - Wish</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gbc_color_correction" type="string" label="30006" help="30043">
+					<level>0</level>
+					<default>GBC only</default>
+					<constraints>
+						<options>
+							<option label="30044">GBC only</option>
+							<option label="30045">always</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gbc_color_correction_mode" type="string" label="30007" help="30046">
+					<level>0</level>
+					<default>accurate</default>
+					<constraints>
+						<options>
+							<option label="30047">accurate</option>
+							<option label="30048">fast</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gbc_frontlight_position" type="string" label="30008" help="30049">
+					<level>0</level>
+					<default>central</default>
+					<constraints>
+						<options>
+							<option label="30050">central</option>
+							<option label="30051">above screen</option>
+							<option label="30052">below screen</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_dark_filter_level" type="string" label="30009" help="30053">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_mix_frames" type="string" label="30010" help="30054">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30055">mix</option>
+							<option label="30056">lcd_ghosting</option>
+							<option label="30057">lcd_ghosting_fast</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_audio_resampler" type="string" label="30011" help="30058">
+					<level>0</level>
+					<default>sinc</default>
+					<constraints>
+						<options>
+							<option label="30059">sinc</option>
+							<option label="30060">cc</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_hwmode" type="string" label="30012" help="30061">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30084">GB</option>
+							<option label="30034">GBC</option>
+							<option label="30085">GBA</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_bootloader" type="string" label="30013" help="30062">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_up_down_allowed" type="string" label="30014" help="30063">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_turbo_period" type="string" label="30015" help="30064">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>64</option>
+							<option>65</option>
+							<option>66</option>
+							<option>67</option>
+							<option>68</option>
+							<option>69</option>
+							<option>70</option>
+							<option>71</option>
+							<option>72</option>
+							<option>73</option>
+							<option>74</option>
+							<option>75</option>
+							<option>76</option>
+							<option>77</option>
+							<option>78</option>
+							<option>79</option>
+							<option>80</option>
+							<option>81</option>
+							<option>82</option>
+							<option>83</option>
+							<option>84</option>
+							<option>85</option>
+							<option>86</option>
+							<option>87</option>
+							<option>88</option>
+							<option>89</option>
+							<option>90</option>
+							<option>91</option>
+							<option>92</option>
+							<option>93</option>
+							<option>94</option>
+							<option>95</option>
+							<option>96</option>
+							<option>97</option>
+							<option>98</option>
+							<option>99</option>
+							<option>100</option>
+							<option>101</option>
+							<option>102</option>
+							<option>103</option>
+							<option>104</option>
+							<option>105</option>
+							<option>106</option>
+							<option>107</option>
+							<option>108</option>
+							<option>109</option>
+							<option>110</option>
+							<option>111</option>
+							<option>112</option>
+							<option>113</option>
+							<option>114</option>
+							<option>115</option>
+							<option>116</option>
+							<option>117</option>
+							<option>118</option>
+							<option>119</option>
+							<option>120</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_rumble_level" type="string" label="30016" help="30065">
+					<level>0</level>
+					<default>10</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_show_gb_link_settings" type="string" label="30066" help="30067">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="gb_link" label="30068" help="30069">
+			<group id="1">
+				<setting id="gambatte_gb_link_mode" type="string" label="30017" help="30070">
+					<level>0</level>
+					<default>Not Connected</default>
+					<constraints>
+						<options>
+							<option>Not Connected</option>
+							<option>Network Server</option>
+							<option>Network Client</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_port" type="string" label="30018" help="30071">
+					<level>0</level>
+					<default>56400</default>
+					<constraints>
+						<options>
+							<option>56400</option>
+							<option>56401</option>
+							<option>56402</option>
+							<option>56403</option>
+							<option>56404</option>
+							<option>56405</option>
+							<option>56406</option>
+							<option>56407</option>
+							<option>56408</option>
+							<option>56409</option>
+							<option>56410</option>
+							<option>56411</option>
+							<option>56412</option>
+							<option>56413</option>
+							<option>56414</option>
+							<option>56415</option>
+							<option>56416</option>
+							<option>56417</option>
+							<option>56418</option>
+							<option>56419</option>
+							<option>56420</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_1" type="string" label="30019" help="30072">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_2" type="string" label="30020" help="30073">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_3" type="string" label="30021" help="30074">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_4" type="string" label="30022" help="30075">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_5" type="string" label="30023" help="30076">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_6" type="string" label="30024" help="30077">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_7" type="string" label="30025" help="30078">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_8" type="string" label="30026" help="30079">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_9" type="string" label="30027" help="30080">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_10" type="string" label="30028" help="30081">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_11" type="string" label="30029" help="30082">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gambatte_gb_link_network_server_ip_12" type="string" label="30030" help="30083">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

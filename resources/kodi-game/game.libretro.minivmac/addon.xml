@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.minivmac"
+		name="Mac II (minivmac)"
+		version="0.0.1.19"
+		provider-name="Paul C. Pratt, Philip Cummins, Bernd Schmidt, Weston Pawlowski, Richard F. Bannister, Sam Lantinga, Michael Hanni, Michael Fort, Jesus A. Alvarez, Manuel Alfayate, Christian Bauer, Lazyone">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Mac II</platforms>
+		<extensions>dsk|img|zip|hvf|cmd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>minivmac_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.minivmac</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Mac II (minivmac)</summary>
+		<summary lang="da_DK">Mac II (minivmac)</summary>
+		<summary lang="en_GB">Mac II (minivmac)</summary>
+		<summary lang="es_ES">Mac II (minivmac)</summary>
+		<summary lang="ga">Mac II (minivmac)</summary>
+		<summary lang="it_IT">Mac II (minivmac)</summary>
+		<summary lang="ru_RU">Mac II (minivmac)</summary>
+		<summary lang="sv_SE">Mac II (minivmac)</summary>
+		<summary lang="zh_CN">Mac II (minivmac)</summary>
+		<description lang="cs_CZ">Mini vMac je emulátor počítače Macintosh Plus, který společnost Apple prodávala v letech 1984 až 1996.</description>
+		<description lang="da_DK">Mini vMac er en emulator til Macintosh Plus, en computer solgt af Apple fra 1984 til 1996.</description>
+		<description lang="en_GB">Mini vMac is an emulator for the Macintosh Plus, a computer sold by Apple from 1984 to 1996.</description>
+		<description lang="es_ES">Mini vMac es un emulador de Macintosh Plus, un ordenador vendido por Apple de 1984 a 1996.</description>
+		<description lang="ga">Is aithriseoir é Mini vMac don Macintosh Plus, ríomhaire a dhíol Apple ó 1984 go 1996.</description>
+		<description lang="it_IT">Mini vMac è un emulatore del Macintosh Plus, un computer venduto da Apple dal 1984 al 1996.</description>
+		<description lang="ru_RU">Mini vMac — это эмулятор Macintosh Plus, компьютера, продававшегося компанией Apple с 1984 по 1996 год.</description>
+		<description lang="sl_SI">Mini vMac je emulator za Macintosh Plus, računalnik, ki ga je Apple prodajal od leta 1984 do 1996.</description>
+		<description lang="sv_SE">Mini vMac är en emulator för Macintosh Plus, en dator som såldes av Apple mellan 1984 och 1996.</description>
+		<description lang="zh_CN">Mini vMac 是苹果公司1984年至1996年销售的 Macintosh Plus 电脑的模拟器。</description>
+	</extension>
+</addon>

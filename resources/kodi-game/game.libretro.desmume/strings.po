@@ -1,0 +1,558 @@
+# game.libretro.desmume language file
+# Addon Name: game.libretro.desmume
+# Addon id: game.libretro.desmume
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.desmume\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-desmume/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - DS (DeSmuME)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "DeSmuME is software that allows you to emulate a Nintendo DS system."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Special thanks to yopyop (original author of DeSmuME) and Martin Korth (author of GBATEK)"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Firmware Language"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Use External BIOS/Firmware (restart)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Boot Into BIOS (interpreter and external bios only)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Load Game Into Memory (restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "CPU Cores"
+msgstr ""
+
+msgctxt "#30006"
+msgid "CPU Mode (restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "JIT Block Size"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Enable Advanced Bus-Level Timing"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Internal Resolution"
+msgstr ""
+
+msgctxt "#30011"
+msgid "OpenGL Rasterizer (restart)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "OpenGL: Color Depth (restart)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "OpenGL: Multisampling AA"
+msgstr ""
+
+msgctxt "#30014"
+msgid "OpenGL: Texture Smoothing"
+msgstr ""
+
+msgctxt "#30015"
+msgid "OpenGL: Shadow Polygons"
+msgstr ""
+
+msgctxt "#30016"
+msgid "OpenGL: Special 0 Alpha"
+msgstr ""
+
+msgctxt "#30017"
+msgid "OpenGL: NDS Depth Calculation"
+msgstr ""
+
+msgctxt "#30018"
+msgid "OpenGL: Depth-LEqual Polygon Facing"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Soft3D: High-res Color Interpolation"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Soft3D: Line Hack"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Soft3D: Texture Hack"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Edge Marking"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Texture Scaling (xBrz)"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Texture Deposterization"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Screen Layout"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Screen Gap"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Hybrid Layout: Ratio"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Hybrid Layout: Scale So Small Screen is 1:1px"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Hybrid Layout: Show Both Screens"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Hybrid Layout: Cursor Always on Small Screen"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Mouse/Pointer"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Pointer Type"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Mouse Speed"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Pointer Rotation"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Pointer Mode for Left Analog"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Pointer Mode for Right Analog"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Emulated Pointer Deadzone Percent"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Emulated Pointer Acceleration Modifier Percent"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Emulated Stylus Pressure Modifier Percent"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Pointer Colour"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Microphone Button Noise Type"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Sets what type of noise to use when pressing the microfone button."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Pattern"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Random"
+msgstr ""
+
+msgctxt "#30045"
+msgid "System"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Configure system options."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Set language to use for firmware."
+msgstr ""
+
+msgctxt "#30048"
+msgid "Use official BIOS. Core needs to be restarted for changes to apply."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Boot directly into the BIOS."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Load the game into memory to reduce IO lag."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Set the amount of CPU cores to use."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Enable or disable the use of the dynamic recompiler."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Set the block size of the JIT dynamic recompiler."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Enables the use of Advanced Bus-Level Timing."
+msgstr ""
+
+msgctxt "#30055"
+msgid "Graphics"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Configure graphics options."
+msgstr ""
+
+msgctxt "#30057"
+msgid "Sets the amount of frames to skip."
+msgstr ""
+
+msgctxt "#30058"
+msgid "Sets the internal resolution. Higher resolutions can provide better clarity for 3D scenes & objects, but will increase the performance requirements"
+msgstr ""
+
+msgctxt "#30059"
+msgid "1x (256x192)"
+msgstr ""
+
+msgctxt "#30060"
+msgid "2x (512x384)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "3x (768x576)"
+msgstr ""
+
+msgctxt "#30062"
+msgid "4x (1024x768)"
+msgstr ""
+
+msgctxt "#30063"
+msgid "5x (1280x960)"
+msgstr ""
+
+msgctxt "#30064"
+msgid "6x (1536x1152)"
+msgstr ""
+
+msgctxt "#30065"
+msgid "7x (1792x1344)"
+msgstr ""
+
+msgctxt "#30066"
+msgid "8x (2048x1536)"
+msgstr ""
+
+msgctxt "#30067"
+msgid "9x (2304x1728)"
+msgstr ""
+
+msgctxt "#30068"
+msgid "10x (2560x1920)"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Enable the OpenGL Rasterizer for 3D."
+msgstr ""
+
+msgctxt "#30070"
+msgid "Sets the Color Depth to either 16-bit or 32-bit colors. Requires the OpenGL Rasterizer."
+msgstr ""
+
+msgctxt "#30071"
+msgid "Set the multiplier for Multisampling Anti Aliasing. Requires the OpenGL Rasterizer."
+msgstr ""
+
+msgctxt "#30072"
+msgid "Enables Texture Smoothing. Requires the OpenGL Rasterizer."
+msgstr ""
+
+msgctxt "#30073"
+msgid "Enables Shadow Polygons. Requires the OpenGL Rasterizer."
+msgstr ""
+
+msgctxt "#30074"
+msgid "Enables Special 0 Alpha. Requires the OpenGL Rasterizer."
+msgstr ""
+
+msgctxt "#30075"
+msgid "Enables NDS Depth Calculation. Requires the OpenGL Rasterizer."
+msgstr ""
+
+msgctxt "#30076"
+msgid "Enables Depth-LEqual Polygon Facing. Requires the OpenGL Rasterizer."
+msgstr ""
+
+msgctxt "#30077"
+msgid "Enables High-res Color Interpolation."
+msgstr ""
+
+msgctxt "#30078"
+msgid "Enables Line Hack."
+msgstr ""
+
+msgctxt "#30079"
+msgid "Enables Texture Hack."
+msgstr ""
+
+msgctxt "#30080"
+msgid "Enables Edge Marking."
+msgstr ""
+
+msgctxt "#30081"
+msgid "Sets the multiplier for xBrz texture scaling to use."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Enables Texture Deposterization."
+msgstr ""
+
+msgctxt "#30083"
+msgid "Screen"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Configure screen options."
+msgstr ""
+
+msgctxt "#30085"
+msgid "Select the screen layout to use."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Top/Bottom"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Bottom/Top"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Left/Right"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Right/Left"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Top only"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Bottom only"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Hybrid/Top"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Hybrid/Bottom"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Sets the amout of space between the top and bottom screens."
+msgstr ""
+
+msgctxt "#30095"
+msgid "Sets the screen ratio for the hybrid screen(s) to use."
+msgstr ""
+
+msgctxt "#30096"
+msgid "Force the small screen to render at 1:1px."
+msgstr ""
+
+msgctxt "#30097"
+msgid "Show both top & bottom small screens."
+msgstr ""
+
+msgctxt "#30098"
+msgid "Only display the cursor on the small bottom screen."
+msgstr ""
+
+msgctxt "#30099"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Configure input options."
+msgstr ""
+
+msgctxt "#30101"
+msgid "Enables the NDS pointer."
+msgstr ""
+
+msgctxt "#30102"
+msgid "Select what type of input to use for the pointer."
+msgstr ""
+
+msgctxt "#30103"
+msgid "Mouse"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Touchscreen"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Sets the speed multiplier to use for the mouse pointer."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Sets the rotation of the pointer."
+msgstr ""
+
+msgctxt "#30107"
+msgid "Sets the pointer mode for the left analog stick."
+msgstr ""
+
+msgctxt "#30108"
+msgid "None"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Emulated"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Absolute"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Pressed"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Sets the pointer mode for the right analog stick."
+msgstr ""
+
+msgctxt "#30113"
+msgid "Sets the stick deadzone for the emulated pointer."
+msgstr ""
+
+msgctxt "#30114"
+msgid "Sets the percent for the Pointer Acceleration Modifier."
+msgstr ""
+
+msgctxt "#30115"
+msgid "Sets the percent for the Emulated Stylus Pressure Modifier."
+msgstr ""
+
+msgctxt "#30116"
+msgid "Sets what color to use for the pointer."
+msgstr ""
+
+msgctxt "#30117"
+msgid "White"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Black"
+msgstr ""
+
+msgctxt "#30119"
+msgid "Red"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Blue"
+msgstr ""
+
+msgctxt "#30121"
+msgid "Yellow"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30123"
+msgid "English"
+msgstr ""
+
+msgctxt "#30124"
+msgid "French"
+msgstr ""
+
+msgctxt "#30125"
+msgid "German"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Italian"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Spanish"
+msgstr ""
+
+msgctxt "#30128"
+msgid "2"
+msgstr ""
+
+msgctxt "#30129"
+msgid "4"
+msgstr ""
+
+msgctxt "#30130"
+msgid "8"
+msgstr ""
+
+msgctxt "#30131"
+msgid "16"
+msgstr ""
+
+msgctxt "#30132"
+msgid "32"
+msgstr ""

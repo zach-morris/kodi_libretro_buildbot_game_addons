@@ -1,0 +1,66 @@
+# game.libretro.beetle-cygne language file
+# Addon Name: game.libretro.beetle-cygne
+# Addon id: game.libretro.beetle-cygne
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-cygne\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-02-05 20:27i\n"
+"PO-Revision-Date: 2024-12-27 21:11+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-cygne/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Bandai - WonderSwan/Color (Beetle Cygne)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Standalone port of Mednafen WonderSwan to libretro, itself a fork of Cygne."
+msgstr ""
+
+msgctxt "Addon Lifecyclestate"
+msgid "This add-on has been renamed from Cygne to Beetle Wonderswan."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Display Rotation"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Rotate Button Mappings"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Color Palette"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Color Depth (Restart Required)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "60Hz Mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Sound Output Sample Rate"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Audio Filter"
+msgstr ""

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.gambatte"
+		name="Nintendo - Game Boy / Color (Gambatte)"
+		version="0.5.0.73"
+		provider-name="Sinamas">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.gameboy" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Game Boy / Color</platforms>
+		<extensions>gb|gbc|dmg</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>gambatte_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.gambatte</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Game Boy / Color (Gambatte)</summary>
+		<summary lang="da_DK">Nintendo - Game Boy / Farve (Gambatte)</summary>
+		<summary lang="en_GB">Nintendo - Game Boy / Color (Gambatte)</summary>
+		<summary lang="es_ES">Nintendo - Game Boy / Color (Gambatte)</summary>
+		<summary lang="ga">Nintendo - Game Boy / Color (Gambatte)</summary>
+		<summary lang="it_IT">Nintendo - Game Boy / Color (Gambatte)</summary>
+		<summary lang="ru_RU">Nintendo — Game Boy / Color (Gambatte)</summary>
+		<summary lang="sv_SE">Nintendo - Game Boy / Color (Gambatte)</summary>
+		<summary lang="zh_CN">任天堂 - Game Boy / Color (Gambatte)</summary>
+		<description lang="cs_CZ">Gambatte je multiplatformní open-source emulátor Game Boy Color napsaný v C++, zaměřený na přesnost.</description>
+		<description lang="da_DK">Gambatte er fokuseret på nøjagtighed og er en open source Game Boy Color-emulator på tværs af platforme skrevet i C++.</description>
+		<description lang="de_DE">Gambatte ist ein auf Genauigkeit ausgerichteter, quelloffener, plattformübergreifender Game Boy Color-Emulator, der in C++ geschrieben wurde.</description>
+		<description lang="en_GB">Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color emulator written in C++.</description>
+		<description lang="es_ES">Gambatte es un emulador de Game Boy Color centrado en la precisión, de código abierto y multiplataforma escrito en C++.</description>
+		<description lang="ga">Is aithriseoir Game Boy Color tras-ardán, foinse oscailte, dírithe ar chruinneas é Gambatte, scríofa i C++.</description>
+		<description lang="it_IT">Gambatte è un emulatore di Game Boy Color incentrato sulla precisione, open source e multipiattaforma scritto in C++.</description>
+		<description lang="ru_RU">Gambatte — это кроссплатформенный эмулятор Game Boy Color с открытым исходным кодом, написанный на C++, ориентированный на точность.</description>
+		<description lang="sv_SE">Gambatte är en noggrann, öppen källkod, plattformsoberoende Game Boy Color-emulator skriven i C++.</description>
+		<description lang="zh_CN">Gambatte 是一个用 C++ 编写，聚焦精准性的开源跨平台 Game Boy Color 模拟器。</description>
+		<disclaimer lang="cs_CZ">Game Boy a Game Boy Color jsou registrované ochranné známky společnosti Nintendo of America, Inc. Gambatte není spojen s žádnou z uvedených společností ani jimi není podporován.</disclaimer>
+		<disclaimer lang="da_DK">Game Boy og Game Boy Color er registrerede varemærker tilhørende Nintendo of America, Inc. Gambatte er ikke tilknyttet eller godkendt af nogen af de nævnte virksomheder.</disclaimer>
+		<disclaimer lang="de_DE">Game Boy und Game Boy Color sind eingetragene Marken von Nintendo of America, Inc. Gambatte ist mit keinem der genannten Unternehmen verbunden oder wird von ihnen unterstützt.</disclaimer>
+		<disclaimer lang="en_GB">Game Boy and Game Boy Color are registered trademarks of Nintendo of America, Inc. Gambatte is not affiliated with or endorsed by any of the companies mentioned.</disclaimer>
+		<disclaimer lang="es_ES">Game Boy y Game Boy Color son marcas registradas de Nintendo of America, Inc. Gambatte no está afiliada ni respaldada por ninguna de las empresas mencionadas.</disclaimer>
+		<disclaimer lang="ga">Is trádmharcanna cláraithe de chuid Nintendo of America, Inc. iad Game Boy agus Game Boy Color. Níl Gambatte cleamhnaithe le haon cheann de na cuideachtaí a luaitear ná níl siad formhuinithe acu.</disclaimer>
+		<disclaimer lang="it_IT">Game Boy e Game Boy Color sono marchi registrati di Nintendo of America, Inc. Gambatte non è affiliata né approvata da nessuna delle aziende menzionate.</disclaimer>
+		<disclaimer lang="ru_RU">Game Boy и Game Boy Color являются зарегистрированными товарными знаками Nintendo of America, Inc. Gambatte не связан и не одобрен ни одной из упомянутых компаний.</disclaimer>
+		<disclaimer lang="sv_SE">Game Boy och Game Boy Color är registrerade varumärken som tillhör Nintendo of America, Inc. Gambatte är inte anslutet till eller stöds av något av de nämnda företagen.</disclaimer>
+		<disclaimer lang="zh_CN">Game Boy 和 Game Boy Color 是美国任天堂股份有限公司的注册商标。Gambatte 与上述任何公司均无关联或背书。</disclaimer>
+	</extension>
+</addon>

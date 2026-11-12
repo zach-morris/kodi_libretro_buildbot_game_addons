@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.cannonball"
+		name="Cannonball"
+		version="0.0.1.44"
+		provider-name="Chris White">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>game</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>cannonball_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.cannonball</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<summary lang="cs_CZ">Cannonball</summary>
+		<summary lang="da_DK">Cannonball</summary>
+		<summary lang="en_GB">Cannonball</summary>
+		<summary lang="es_ES">Cannonball</summary>
+		<summary lang="ga">Cannonball</summary>
+		<summary lang="it_IT">Cannonball</summary>
+		<summary lang="ru_RU">Cannonball</summary>
+		<summary lang="sv_SE">Cannonball</summary>
+		<summary lang="zh_CN">加农炮</summary>
+		<description lang="cs_CZ">Cannonball je vylepšená verze přelomové arkádové závodní hry OutRun, kterou v roce 1986 navrhl Yu Suzuki.[CR][CR]Poznámka: jsou potřeba soubory OutRun Revision B. Podívejte se do souboru [I]roms needed.txt[/I].</description>
+		<description lang="en_GB">Cannonball is an enhanced version of the seminal arcade racer OutRun designed by Yu Suzuki in 1986.[CR][CR]Note: OutRun Revision B files are needed. See the file [I]roms needed.txt[/I].</description>
+		<description lang="es_ES">Cannonball es una versión mejorada del mítico arcade de carreras OutRun, diseñado por Yu Suzuki en 1986.[CR][CR]Nota: Se necesitan los archivos de la Revisión B de OutRun. Ver el archivo [I]roms needed.txt[/I].</description>
+		<description lang="ga">Is leagan feabhsaithe den rásaíocht stuara ceannródaíoch OutRun, arna dhearadh ag Yu Suzuki i 1986, é Cannonball.[CR][CR]Nóta: Tá comhaid OutRun Leagan B ag teastáil. Féach an comhad [I]roms needed.txt[/I].</description>
+		<description lang="it_IT">Cannonball è una versione avanzata del fondamentale gioco di corse arcade OutRun, progettato da Yu Suzuki nel 1986.[CR][CR]Nota: sono necessari i file OutRun Revisione B. Consulta il file [I]roms needed.txt[/I].</description>
+		<description lang="ru_RU">Cannonball — это улучшенная версия знаменитой аркадной гонки OutRun, созданной Ю Судзуки в 1986 году.[CR][CR]Примечание: требуются файлы OutRun Revision B. Смотрите файл [I]roms needed.txt[/I].</description>
+		<description lang="sv_SE">Cannonball är en förbättrad version av den banbrytande arkadracern OutRun som designades av Yu Suzuki 1986.[CR][CR]Notera: OutRun Revision B-filer behövs. Se filen [I]roms needed.txt[/I].</description>
+		<description lang="zh_CN">Cannonball 是铃木裕（Yu Suzuki）于 1986 年设计的开创性街机赛车游戏《OutRun》的增强版。[CR][CR]注：需要《OutRun》B 版文件。请参阅文件 [I]roms needed.txt[/I]。</description>
+	</extension>
+</addon>

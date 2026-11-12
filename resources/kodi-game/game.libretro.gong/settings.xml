@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.gong">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="gong_player2" type="string" label="30001">
+					<level>0</level>
+					<default>CPU</default>
+					<constraints>
+						<options>
+							<option>CPU</option>
+							<option>Human</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gong_refresh" type="string" label="30002">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<options>
+							<option>60</option>
+							<option>70</option>
+							<option>72</option>
+							<option>75</option>
+							<option>100</option>
+							<option>119</option>
+							<option>120</option>
+							<option>140</option>
+							<option>144</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.flycast">
+		<category id="system" label="30147" help="30148">
+			<group id="1">
+				<setting id="reicast_region" type="string" label="30017">
+					<level>0</level>
+					<default>USA</default>
+					<constraints>
+						<options>
+							<option label="30313">Japan</option>
+							<option label="30314">USA</option>
+							<option label="30315">Europe</option>
+							<option label="571">Default</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_language" type="string" label="30018" help="30149">
+					<level>0</level>
+					<default>English</default>
+					<constraints>
+						<options>
+							<option label="30316">Japanese</option>
+							<option label="30317">English</option>
+							<option label="30318">German</option>
+							<option label="30319">French</option>
+							<option label="30320">Spanish</option>
+							<option label="30321">Italian</option>
+							<option label="571">Default</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_hle_bios" type="string" label="30150" help="30076">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_enable_dsp" type="string" label="30024" help="30083">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_allow_service_buttons" type="string" label="30151" help="30152">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_force_freeplay" type="string" label="30153" help="30154">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_coin_limit" type="string" label="30155" help="30156">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30157">0</option>
+							<option label="30322">1</option>
+							<option label="30323">2</option>
+							<option label="30324">3</option>
+							<option label="30325">4</option>
+							<option label="30326">5</option>
+							<option label="30327">6</option>
+							<option label="30328">7</option>
+							<option label="30329">8</option>
+							<option label="30330">9</option>
+							<option label="30331">10</option>
+							<option label="30332">11</option>
+							<option label="30333">12</option>
+							<option label="30334">13</option>
+							<option label="30335">14</option>
+							<option label="30336">15</option>
+							<option label="30337">16</option>
+							<option label="30338">17</option>
+							<option label="30339">18</option>
+							<option label="30340">19</option>
+							<option label="30341">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_emulate_bba" type="string" label="30158" help="30159">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_upnp" type="string" label="30160" help="30161">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_dcnet" type="string" label="30162" help="30163">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30088" help="30164">
+			<group id="1">
+				<setting id="reicast_internal_resolution" type="string" label="30165" help="30091">
+					<level>0</level>
+					<default>640x480</default>
+					<constraints>
+						<options>
+							<option label="30166">320x240</option>
+							<option label="30167">640x480</option>
+							<option label="30168">800x600</option>
+							<option label="30169">960x720</option>
+							<option label="30170">1024x768</option>
+							<option label="30171">1280x960</option>
+							<option label="30172">1440x1080</option>
+							<option label="30173">1600x1200</option>
+							<option label="30174">1920x1440</option>
+							<option label="30175">2560x1920</option>
+							<option label="30176">2880x2160</option>
+							<option label="30177">3200x2400</option>
+							<option label="30178">3840x2880</option>
+							<option label="30179">4480x3360</option>
+							<option label="30180">5120x3840</option>
+							<option label="30181">5760x4320</option>
+							<option label="30182">6400x4800</option>
+							<option label="30183">7040x5280</option>
+							<option label="30184">7680x5760</option>
+							<option label="30185">8320x6240</option>
+							<option label="30186">8960x6720</option>
+							<option label="30187">9600x7200</option>
+							<option label="30188">10240x7680</option>
+							<option label="30189">10880x8160</option>
+							<option label="30190">11520x8640</option>
+							<option label="30191">12160x9120</option>
+							<option label="30192">12800x9600</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_cable_type" type="string" label="30014" help="30095">
+					<level>0</level>
+					<default>TV (Composite)</default>
+					<constraints>
+						<options>
+							<option>VGA</option>
+							<option>TV (RGB)</option>
+							<option>TV (Composite)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_broadcast" type="string" label="30015">
+					<level>0</level>
+					<default>NTSC</default>
+					<constraints>
+						<options>
+							<option label="30342">NTSC</option>
+							<option label="30098">PAL</option>
+							<option label="30097">PAL_N</option>
+							<option label="30096">PAL_M</option>
+							<option label="571">Default</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_screen_rotation" type="string" label="30006">
+					<level>0</level>
+					<default>horizontal</default>
+					<constraints>
+						<options>
+							<option label="30092">horizontal</option>
+							<option label="30093">vertical</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_alpha_sorting" type="string" label="30007" help="30193">
+					<level>0</level>
+					<default>per-triangle (normal)</default>
+					<constraints>
+						<options>
+							<option label="30077">per-strip (fast, least accurate)</option>
+							<option label="30078">per-triangle (normal)</option>
+							<option label="30079">per-pixel (accurate)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_oit_abuffer_size" type="string" label="30194" help="30090">
+					<level>0</level>
+					<default>512MB</default>
+					<constraints>
+						<options>
+							<option>512MB</option>
+							<option>1GB</option>
+							<option>2GB</option>
+							<option>4GB</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_oit_layers" type="string" label="30195" help="30196">
+					<level>0</level>
+					<default>32</default>
+					<constraints>
+						<options>
+							<option>8</option>
+							<option>16</option>
+							<option>32</option>
+							<option>64</option>
+							<option>96</option>
+							<option>128</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_emulate_framebuffer" type="string" label="30197" help="30198">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_enable_rttb" type="string" label="30029" help="30199">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_mipmapping" type="string" label="30009" help="30200">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_fog" type="string" label="30010">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_volume_modifier_enable" type="string" label="30011" help="30094">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_anisotropic_filtering" type="string" label="30025" help="30201">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option label="30157">off</option>
+							<option label="30323">2</option>
+							<option label="30325">4</option>
+							<option label="30329">8</option>
+							<option label="30337">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_texture_filtering" type="string" label="30202" help="30203">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30204">0</option>
+							<option label="30205">1</option>
+							<option label="30206">2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_delay_frame_swapping" type="string" label="30033" help="30207">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_detect_vsync_swap_interval" type="string" label="30208" help="30209">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_pvr2_filtering" type="string" label="30026" help="30103">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_texupscale" type="string" label="30027" help="30104">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30157">1</option>
+							<option label="30210">2</option>
+							<option label="30211">4</option>
+							<option label="30212">6</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_texupscale_max_filtered_texture_size" type="string" label="30028" help="30213">
+					<level>0</level>
+					<default>256</default>
+					<constraints>
+						<options>
+							<option>256</option>
+							<option>512</option>
+							<option>1024</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_native_depth_interpolation" type="string" label="30214" help="30215">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_fix_upscale_bleeding_edge" type="string" label="30216" help="30217">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="performance" label="30218" help="30219">
+			<group id="1">
+				<setting id="reicast_threaded_rendering" type="string" label="30220" help="30084">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_auto_skip_frame" type="string" label="30221" help="30222">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30101">some</option>
+							<option label="30223">more</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_frame_skipping" type="string" label="30034" help="30106">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30322">1</option>
+							<option label="30323">2</option>
+							<option label="30324">3</option>
+							<option label="30325">4</option>
+							<option label="30326">5</option>
+							<option label="30327">6</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30144" help="30224">
+			<group id="1">
+				<setting id="reicast_widescreen_cheats" type="string" label="30013" help="30146">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_widescreen_hack" type="string" label="30225" help="30226">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_gdrom_fast_loading" type="string" label="30008" help="30080">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_dc_32mb_mod" type="string" label="30227" help="30228">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_sh4clock" type="string" label="30229" help="30230">
+					<level>0</level>
+					<default>200</default>
+					<constraints>
+						<options>
+							<option label="30231">100</option>
+							<option label="30232">110</option>
+							<option label="30233">120</option>
+							<option label="30234">130</option>
+							<option label="30235">140</option>
+							<option label="30236">150</option>
+							<option label="30237">160</option>
+							<option label="30238">170</option>
+							<option label="30239">180</option>
+							<option label="30240">190</option>
+							<option label="30241">200</option>
+							<option label="30242">210</option>
+							<option label="30243">220</option>
+							<option label="30244">230</option>
+							<option label="30245">240</option>
+							<option label="30246">250</option>
+							<option label="30247">260</option>
+							<option label="30248">270</option>
+							<option label="30249">280</option>
+							<option label="30250">290</option>
+							<option label="30251">300</option>
+							<option label="30252">310</option>
+							<option label="30253">320</option>
+							<option label="30254">330</option>
+							<option label="30255">340</option>
+							<option label="30256">350</option>
+							<option label="30257">360</option>
+							<option label="30258">370</option>
+							<option label="30259">380</option>
+							<option label="30260">390</option>
+							<option label="30261">400</option>
+							<option label="30262">410</option>
+							<option label="30263">420</option>
+							<option label="30264">430</option>
+							<option label="30265">440</option>
+							<option label="30266">450</option>
+							<option label="30267">460</option>
+							<option label="30268">470</option>
+							<option label="30269">480</option>
+							<option label="30270">490</option>
+							<option label="30271">500</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_custom_textures" type="string" label="30038" help="30272">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_preload_custom_textures" type="string" label="30273" help="30274">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_dump_textures" type="string" label="30039" help="30275">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_dump_unique_textures" type="string" label="30347" help="30348">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_dump_unique_textures" type="string" label="30347" help="30348">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_dump_replaced_textures" type="string" label="30276" help="30277">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30107" help="30278">
+			<group id="1">
+				<setting id="reicast_analog_stick_deadzone" type="string" label="30021" help="30279">
+					<level>0</level>
+					<default>15%</default>
+					<constraints>
+						<options>
+							<option>0%</option>
+							<option>5%</option>
+							<option>10%</option>
+							<option>15%</option>
+							<option>20%</option>
+							<option>25%</option>
+							<option>30%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_trigger_deadzone" type="string" label="30022" help="30280">
+					<level>0</level>
+					<default>0%</default>
+					<constraints>
+						<options>
+							<option>0%</option>
+							<option>5%</option>
+							<option>10%</option>
+							<option>15%</option>
+							<option>20%</option>
+							<option>25%</option>
+							<option>30%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_digital_triggers" type="string" label="30023" help="30281">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_network_output" type="string" label="30282" help="30283">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_show_lightgun_settings" type="string" label="30066" help="30284">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_lightgun_crosshair_size_scaling" type="string" label="30285">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>50%</option>
+							<option>60%</option>
+							<option>70%</option>
+							<option>80%</option>
+							<option>90%</option>
+							<option>100%</option>
+							<option>110%</option>
+							<option>120%</option>
+							<option>130%</option>
+							<option>140%</option>
+							<option>150%</option>
+							<option>160%</option>
+							<option>170%</option>
+							<option>180%</option>
+							<option>190%</option>
+							<option>200%</option>
+							<option>210%</option>
+							<option>220%</option>
+							<option>230%</option>
+							<option>240%</option>
+							<option>250%</option>
+							<option>260%</option>
+							<option>270%</option>
+							<option>280%</option>
+							<option>290%</option>
+							<option>300%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_lightgun1_crosshair" type="string" label="30067">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30143">White</option>
+							<option label="30126">Red</option>
+							<option label="30120">Green</option>
+							<option label="30118">Blue</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_lightgun2_crosshair" type="string" label="30068">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30143">White</option>
+							<option label="30126">Red</option>
+							<option label="30120">Green</option>
+							<option label="30118">Blue</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_lightgun3_crosshair" type="string" label="30069">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30143">White</option>
+							<option label="30126">Red</option>
+							<option label="30120">Green</option>
+							<option label="30118">Blue</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_lightgun4_crosshair" type="string" label="30070">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30143">White</option>
+							<option label="30126">Red</option>
+							<option label="30120">Green</option>
+							<option label="30118">Blue</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="expansions" label="30286" help="30287">
+			<group id="1">
+				<setting id="reicast_device_port1_slot1" type="string" label="30288" help="30289">
+					<level>0</level>
+					<default>VMU</default>
+					<constraints>
+						<options>
+							<option label="30343">VMU</option>
+							<option label="30290">Purupuru</option>
+							<option label="30344">DreamPotato</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_device_port1_slot2" type="string" label="30291" help="30292">
+					<level>0</level>
+					<default>Purupuru</default>
+					<constraints>
+						<options>
+							<option label="30343">VMU</option>
+							<option label="30290">Purupuru</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_device_port2_slot1" type="string" label="30293" help="30294">
+					<level>0</level>
+					<default>VMU</default>
+					<constraints>
+						<options>
+							<option label="30343">VMU</option>
+							<option label="30290">Purupuru</option>
+							<option label="30344">DreamPotato</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_device_port2_slot2" type="string" label="30295" help="30296">
+					<level>0</level>
+					<default>Purupuru</default>
+					<constraints>
+						<options>
+							<option label="30343">VMU</option>
+							<option label="30290">Purupuru</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_device_port3_slot1" type="string" label="30297" help="30298">
+					<level>0</level>
+					<default>VMU</default>
+					<constraints>
+						<options>
+							<option label="30343">VMU</option>
+							<option label="30290">Purupuru</option>
+							<option label="30344">DreamPotato</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_device_port3_slot2" type="string" label="30299" help="30300">
+					<level>0</level>
+					<default>Purupuru</default>
+					<constraints>
+						<options>
+							<option label="30343">VMU</option>
+							<option label="30290">Purupuru</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_device_port4_slot1" type="string" label="30301" help="30302">
+					<level>0</level>
+					<default>VMU</default>
+					<constraints>
+						<options>
+							<option label="30343">VMU</option>
+							<option label="30290">Purupuru</option>
+							<option label="30344">DreamPotato</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_device_port4_slot2" type="string" label="30303" help="30304">
+					<level>0</level>
+					<default>Purupuru</default>
+					<constraints>
+						<options>
+							<option label="30343">VMU</option>
+							<option label="30290">Purupuru</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="vmu" label="30305" help="30306">
+			<group id="1">
+				<setting id="reicast_per_content_vmus" type="string" label="30040" help="30307">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30345">VMU A1</option>
+							<option label="30346">All VMUs</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu_sound" type="string" label="30308" help="30309">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_linked_vmu_storage" type="string" label="30310" help="30311">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_show_vmu_screen_settings" type="string" label="30041" help="30312">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu1_screen_display" type="string" label="30042">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu1_screen_position" type="string" label="30043">
+					<level>0</level>
+					<default>Upper Left</default>
+					<constraints>
+						<options>
+							<option>Upper Left</option>
+							<option>Upper Right</option>
+							<option>Lower Left</option>
+							<option>Lower Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu1_screen_size_mult" type="string" label="30044">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option>1x</option>
+							<option>2x</option>
+							<option>3x</option>
+							<option>4x</option>
+							<option>5x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu1_pixel_on_color" type="string" label="30045">
+					<level>0</level>
+					<default>DEFAULT_ON 00</default>
+					<constraints>
+						<options>
+							<option label="30115">DEFAULT_ON 00</option>
+							<option label="30116">DEFAULT_OFF 01</option>
+							<option label="30117">BLACK 02</option>
+							<option label="30118">BLUE 03</option>
+							<option label="30119">LIGHT_BLUE 04</option>
+							<option label="30120">GREEN 05</option>
+							<option label="30121">CYAN 06</option>
+							<option label="30122">CYAN_BLUE 07</option>
+							<option label="30123">LIGHT_GREEN 08</option>
+							<option label="30124">CYAN_GREEN 09</option>
+							<option label="30125">LIGHT_CYAN 10</option>
+							<option label="30126">RED 11</option>
+							<option label="30127">PURPLE 12</option>
+							<option label="30128">LIGHT_PURPLE 13</option>
+							<option label="30129">YELLOW 14</option>
+							<option label="30130">GRAY 15</option>
+							<option label="30131">LIGHT_PURPLE_2 16</option>
+							<option label="30132">LIGHT_GREEN_2 17</option>
+							<option label="30133">LIGHT_GREEN_3 18</option>
+							<option label="30134">LIGHT_CYAN_2 19</option>
+							<option label="30135">LIGHT_RED_2 20</option>
+							<option label="30136">MAGENTA 21</option>
+							<option label="30137">LIGHT_PURPLE_3 22</option>
+							<option label="30138">LIGHT_ORANGE 23</option>
+							<option label="30139">ORANGE 24</option>
+							<option label="30140">LIGHT_PURPLE_4 25</option>
+							<option label="30141">LIGHT_YELLOW 26</option>
+							<option label="30142">LIGHT_YELLOW_2 27</option>
+							<option label="30143">WHITE 28</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu1_pixel_off_color" type="string" label="30046">
+					<level>0</level>
+					<default>DEFAULT_OFF 01</default>
+					<constraints>
+						<options>
+							<option label="30116">DEFAULT_OFF 01</option>
+							<option label="30115">DEFAULT_ON 00</option>
+							<option label="30117">BLACK 02</option>
+							<option label="30118">BLUE 03</option>
+							<option label="30119">LIGHT_BLUE 04</option>
+							<option label="30120">GREEN 05</option>
+							<option label="30121">CYAN 06</option>
+							<option label="30122">CYAN_BLUE 07</option>
+							<option label="30123">LIGHT_GREEN 08</option>
+							<option label="30124">CYAN_GREEN 09</option>
+							<option label="30125">LIGHT_CYAN 10</option>
+							<option label="30126">RED 11</option>
+							<option label="30127">PURPLE 12</option>
+							<option label="30128">LIGHT_PURPLE 13</option>
+							<option label="30129">YELLOW 14</option>
+							<option label="30130">GRAY 15</option>
+							<option label="30131">LIGHT_PURPLE_2 16</option>
+							<option label="30132">LIGHT_GREEN_2 17</option>
+							<option label="30133">LIGHT_GREEN_3 18</option>
+							<option label="30134">LIGHT_CYAN_2 19</option>
+							<option label="30135">LIGHT_RED_2 20</option>
+							<option label="30136">MAGENTA 21</option>
+							<option label="30137">LIGHT_PURPLE_3 22</option>
+							<option label="30138">LIGHT_ORANGE 23</option>
+							<option label="30139">ORANGE 24</option>
+							<option label="30140">LIGHT_PURPLE_4 25</option>
+							<option label="30141">LIGHT_YELLOW 26</option>
+							<option label="30142">LIGHT_YELLOW_2 27</option>
+							<option label="30143">WHITE 28</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu1_screen_opacity" type="string" label="30047">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>10%</option>
+							<option>20%</option>
+							<option>30%</option>
+							<option>40%</option>
+							<option>50%</option>
+							<option>60%</option>
+							<option>70%</option>
+							<option>80%</option>
+							<option>90%</option>
+							<option>100%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu2_screen_display" type="string" label="30048">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu2_screen_position" type="string" label="30049">
+					<level>0</level>
+					<default>Upper Right</default>
+					<constraints>
+						<options>
+							<option>Upper Left</option>
+							<option>Upper Right</option>
+							<option>Lower Left</option>
+							<option>Lower Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu2_screen_size_mult" type="string" label="30050">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option>1x</option>
+							<option>2x</option>
+							<option>3x</option>
+							<option>4x</option>
+							<option>5x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu2_pixel_on_color" type="string" label="30051">
+					<level>0</level>
+					<default>DEFAULT_ON 00</default>
+					<constraints>
+						<options>
+							<option label="30115">DEFAULT_ON 00</option>
+							<option label="30116">DEFAULT_OFF 01</option>
+							<option label="30117">BLACK 02</option>
+							<option label="30118">BLUE 03</option>
+							<option label="30119">LIGHT_BLUE 04</option>
+							<option label="30120">GREEN 05</option>
+							<option label="30121">CYAN 06</option>
+							<option label="30122">CYAN_BLUE 07</option>
+							<option label="30123">LIGHT_GREEN 08</option>
+							<option label="30124">CYAN_GREEN 09</option>
+							<option label="30125">LIGHT_CYAN 10</option>
+							<option label="30126">RED 11</option>
+							<option label="30127">PURPLE 12</option>
+							<option label="30128">LIGHT_PURPLE 13</option>
+							<option label="30129">YELLOW 14</option>
+							<option label="30130">GRAY 15</option>
+							<option label="30131">LIGHT_PURPLE_2 16</option>
+							<option label="30132">LIGHT_GREEN_2 17</option>
+							<option label="30133">LIGHT_GREEN_3 18</option>
+							<option label="30134">LIGHT_CYAN_2 19</option>
+							<option label="30135">LIGHT_RED_2 20</option>
+							<option label="30136">MAGENTA 21</option>
+							<option label="30137">LIGHT_PURPLE_3 22</option>
+							<option label="30138">LIGHT_ORANGE 23</option>
+							<option label="30139">ORANGE 24</option>
+							<option label="30140">LIGHT_PURPLE_4 25</option>
+							<option label="30141">LIGHT_YELLOW 26</option>
+							<option label="30142">LIGHT_YELLOW_2 27</option>
+							<option label="30143">WHITE 28</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu2_pixel_off_color" type="string" label="30052">
+					<level>0</level>
+					<default>DEFAULT_OFF 01</default>
+					<constraints>
+						<options>
+							<option label="30116">DEFAULT_OFF 01</option>
+							<option label="30115">DEFAULT_ON 00</option>
+							<option label="30117">BLACK 02</option>
+							<option label="30118">BLUE 03</option>
+							<option label="30119">LIGHT_BLUE 04</option>
+							<option label="30120">GREEN 05</option>
+							<option label="30121">CYAN 06</option>
+							<option label="30122">CYAN_BLUE 07</option>
+							<option label="30123">LIGHT_GREEN 08</option>
+							<option label="30124">CYAN_GREEN 09</option>
+							<option label="30125">LIGHT_CYAN 10</option>
+							<option label="30126">RED 11</option>
+							<option label="30127">PURPLE 12</option>
+							<option label="30128">LIGHT_PURPLE 13</option>
+							<option label="30129">YELLOW 14</option>
+							<option label="30130">GRAY 15</option>
+							<option label="30131">LIGHT_PURPLE_2 16</option>
+							<option label="30132">LIGHT_GREEN_2 17</option>
+							<option label="30133">LIGHT_GREEN_3 18</option>
+							<option label="30134">LIGHT_CYAN_2 19</option>
+							<option label="30135">LIGHT_RED_2 20</option>
+							<option label="30136">MAGENTA 21</option>
+							<option label="30137">LIGHT_PURPLE_3 22</option>
+							<option label="30138">LIGHT_ORANGE 23</option>
+							<option label="30139">ORANGE 24</option>
+							<option label="30140">LIGHT_PURPLE_4 25</option>
+							<option label="30141">LIGHT_YELLOW 26</option>
+							<option label="30142">LIGHT_YELLOW_2 27</option>
+							<option label="30143">WHITE 28</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu2_screen_opacity" type="string" label="30053">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>10%</option>
+							<option>20%</option>
+							<option>30%</option>
+							<option>40%</option>
+							<option>50%</option>
+							<option>60%</option>
+							<option>70%</option>
+							<option>80%</option>
+							<option>90%</option>
+							<option>100%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu3_screen_display" type="string" label="30054">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu3_screen_position" type="string" label="30055">
+					<level>0</level>
+					<default>Lower Left</default>
+					<constraints>
+						<options>
+							<option>Upper Left</option>
+							<option>Upper Right</option>
+							<option>Lower Left</option>
+							<option>Lower Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu3_screen_size_mult" type="string" label="30056">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option>1x</option>
+							<option>2x</option>
+							<option>3x</option>
+							<option>4x</option>
+							<option>5x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu3_pixel_on_color" type="string" label="30057">
+					<level>0</level>
+					<default>DEFAULT_ON 00</default>
+					<constraints>
+						<options>
+							<option label="30115">DEFAULT_ON 00</option>
+							<option label="30116">DEFAULT_OFF 01</option>
+							<option label="30117">BLACK 02</option>
+							<option label="30118">BLUE 03</option>
+							<option label="30119">LIGHT_BLUE 04</option>
+							<option label="30120">GREEN 05</option>
+							<option label="30121">CYAN 06</option>
+							<option label="30122">CYAN_BLUE 07</option>
+							<option label="30123">LIGHT_GREEN 08</option>
+							<option label="30124">CYAN_GREEN 09</option>
+							<option label="30125">LIGHT_CYAN 10</option>
+							<option label="30126">RED 11</option>
+							<option label="30127">PURPLE 12</option>
+							<option label="30128">LIGHT_PURPLE 13</option>
+							<option label="30129">YELLOW 14</option>
+							<option label="30130">GRAY 15</option>
+							<option label="30131">LIGHT_PURPLE_2 16</option>
+							<option label="30132">LIGHT_GREEN_2 17</option>
+							<option label="30133">LIGHT_GREEN_3 18</option>
+							<option label="30134">LIGHT_CYAN_2 19</option>
+							<option label="30135">LIGHT_RED_2 20</option>
+							<option label="30136">MAGENTA 21</option>
+							<option label="30137">LIGHT_PURPLE_3 22</option>
+							<option label="30138">LIGHT_ORANGE 23</option>
+							<option label="30139">ORANGE 24</option>
+							<option label="30140">LIGHT_PURPLE_4 25</option>
+							<option label="30141">LIGHT_YELLOW 26</option>
+							<option label="30142">LIGHT_YELLOW_2 27</option>
+							<option label="30143">WHITE 28</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu3_pixel_off_color" type="string" label="30058">
+					<level>0</level>
+					<default>DEFAULT_OFF 01</default>
+					<constraints>
+						<options>
+							<option label="30116">DEFAULT_OFF 01</option>
+							<option label="30115">DEFAULT_ON 00</option>
+							<option label="30117">BLACK 02</option>
+							<option label="30118">BLUE 03</option>
+							<option label="30119">LIGHT_BLUE 04</option>
+							<option label="30120">GREEN 05</option>
+							<option label="30121">CYAN 06</option>
+							<option label="30122">CYAN_BLUE 07</option>
+							<option label="30123">LIGHT_GREEN 08</option>
+							<option label="30124">CYAN_GREEN 09</option>
+							<option label="30125">LIGHT_CYAN 10</option>
+							<option label="30126">RED 11</option>
+							<option label="30127">PURPLE 12</option>
+							<option label="30128">LIGHT_PURPLE 13</option>
+							<option label="30129">YELLOW 14</option>
+							<option label="30130">GRAY 15</option>
+							<option label="30131">LIGHT_PURPLE_2 16</option>
+							<option label="30132">LIGHT_GREEN_2 17</option>
+							<option label="30133">LIGHT_GREEN_3 18</option>
+							<option label="30134">LIGHT_CYAN_2 19</option>
+							<option label="30135">LIGHT_RED_2 20</option>
+							<option label="30136">MAGENTA 21</option>
+							<option label="30137">LIGHT_PURPLE_3 22</option>
+							<option label="30138">LIGHT_ORANGE 23</option>
+							<option label="30139">ORANGE 24</option>
+							<option label="30140">LIGHT_PURPLE_4 25</option>
+							<option label="30141">LIGHT_YELLOW 26</option>
+							<option label="30142">LIGHT_YELLOW_2 27</option>
+							<option label="30143">WHITE 28</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu3_screen_opacity" type="string" label="30059">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>10%</option>
+							<option>20%</option>
+							<option>30%</option>
+							<option>40%</option>
+							<option>50%</option>
+							<option>60%</option>
+							<option>70%</option>
+							<option>80%</option>
+							<option>90%</option>
+							<option>100%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu4_screen_display" type="string" label="30060">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu4_screen_position" type="string" label="30061">
+					<level>0</level>
+					<default>Lower Right</default>
+					<constraints>
+						<options>
+							<option>Upper Left</option>
+							<option>Upper Right</option>
+							<option>Lower Left</option>
+							<option>Lower Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu4_screen_size_mult" type="string" label="30062">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option>1x</option>
+							<option>2x</option>
+							<option>3x</option>
+							<option>4x</option>
+							<option>5x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu4_pixel_on_color" type="string" label="30063">
+					<level>0</level>
+					<default>DEFAULT_ON 00</default>
+					<constraints>
+						<options>
+							<option label="30115">DEFAULT_ON 00</option>
+							<option label="30116">DEFAULT_OFF 01</option>
+							<option label="30117">BLACK 02</option>
+							<option label="30118">BLUE 03</option>
+							<option label="30119">LIGHT_BLUE 04</option>
+							<option label="30120">GREEN 05</option>
+							<option label="30121">CYAN 06</option>
+							<option label="30122">CYAN_BLUE 07</option>
+							<option label="30123">LIGHT_GREEN 08</option>
+							<option label="30124">CYAN_GREEN 09</option>
+							<option label="30125">LIGHT_CYAN 10</option>
+							<option label="30126">RED 11</option>
+							<option label="30127">PURPLE 12</option>
+							<option label="30128">LIGHT_PURPLE 13</option>
+							<option label="30129">YELLOW 14</option>
+							<option label="30130">GRAY 15</option>
+							<option label="30131">LIGHT_PURPLE_2 16</option>
+							<option label="30132">LIGHT_GREEN_2 17</option>
+							<option label="30133">LIGHT_GREEN_3 18</option>
+							<option label="30134">LIGHT_CYAN_2 19</option>
+							<option label="30135">LIGHT_RED_2 20</option>
+							<option label="30136">MAGENTA 21</option>
+							<option label="30137">LIGHT_PURPLE_3 22</option>
+							<option label="30138">LIGHT_ORANGE 23</option>
+							<option label="30139">ORANGE 24</option>
+							<option label="30140">LIGHT_PURPLE_4 25</option>
+							<option label="30141">LIGHT_YELLOW 26</option>
+							<option label="30142">LIGHT_YELLOW_2 27</option>
+							<option label="30143">WHITE 28</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu4_pixel_off_color" type="string" label="30064">
+					<level>0</level>
+					<default>DEFAULT_OFF 01</default>
+					<constraints>
+						<options>
+							<option label="30116">DEFAULT_OFF 01</option>
+							<option label="30115">DEFAULT_ON 00</option>
+							<option label="30117">BLACK 02</option>
+							<option label="30118">BLUE 03</option>
+							<option label="30119">LIGHT_BLUE 04</option>
+							<option label="30120">GREEN 05</option>
+							<option label="30121">CYAN 06</option>
+							<option label="30122">CYAN_BLUE 07</option>
+							<option label="30123">LIGHT_GREEN 08</option>
+							<option label="30124">CYAN_GREEN 09</option>
+							<option label="30125">LIGHT_CYAN 10</option>
+							<option label="30126">RED 11</option>
+							<option label="30127">PURPLE 12</option>
+							<option label="30128">LIGHT_PURPLE 13</option>
+							<option label="30129">YELLOW 14</option>
+							<option label="30130">GRAY 15</option>
+							<option label="30131">LIGHT_PURPLE_2 16</option>
+							<option label="30132">LIGHT_GREEN_2 17</option>
+							<option label="30133">LIGHT_GREEN_3 18</option>
+							<option label="30134">LIGHT_CYAN_2 19</option>
+							<option label="30135">LIGHT_RED_2 20</option>
+							<option label="30136">MAGENTA 21</option>
+							<option label="30137">LIGHT_PURPLE_3 22</option>
+							<option label="30138">LIGHT_ORANGE 23</option>
+							<option label="30139">ORANGE 24</option>
+							<option label="30140">LIGHT_PURPLE_4 25</option>
+							<option label="30141">LIGHT_YELLOW 26</option>
+							<option label="30142">LIGHT_YELLOW_2 27</option>
+							<option label="30143">WHITE 28</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="reicast_vmu4_screen_opacity" type="string" label="30065">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>10%</option>
+							<option>20%</option>
+							<option>30%</option>
+							<option>40%</option>
+							<option>50%</option>
+							<option>60%</option>
+							<option>70%</option>
+							<option>80%</option>
+							<option>90%</option>
+							<option>100%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

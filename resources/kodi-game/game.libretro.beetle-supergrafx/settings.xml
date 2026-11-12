@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.beetle-supergrafx">
+		<category id="video" label="30028" help="30029">
+			<group id="1">
+				<setting id="sgx_palette" type="string" label="30001" help="30030">
+					<level>0</level>
+					<default>RGB</default>
+					<constraints>
+						<options>
+							<option>RGB</option>
+							<option>Composite</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_aspect_ratio" type="string" label="30002" help="30031">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30032">auto</option>
+							<option label="30067">6:5</option>
+							<option label="30068">4:3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_hoverscan" type="string" label="30003" help="30033">
+					<level>0</level>
+					<default>352</default>
+					<constraints>
+						<options>
+							<option label="30069">300</option>
+							<option label="30070">302</option>
+							<option label="30071">304</option>
+							<option label="30072">306</option>
+							<option label="30073">308</option>
+							<option label="30074">310</option>
+							<option label="30075">312</option>
+							<option label="30076">314</option>
+							<option label="30077">316</option>
+							<option label="30078">318</option>
+							<option label="30079">320</option>
+							<option label="30080">322</option>
+							<option label="30081">324</option>
+							<option label="30082">326</option>
+							<option label="30083">328</option>
+							<option label="30084">330</option>
+							<option label="30085">332</option>
+							<option label="30086">334</option>
+							<option label="30087">336</option>
+							<option label="30088">338</option>
+							<option label="30089">340</option>
+							<option label="30090">342</option>
+							<option label="30091">344</option>
+							<option label="30092">346</option>
+							<option label="30093">348</option>
+							<option label="30094">350</option>
+							<option label="30034">352</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_initial_scanline" type="string" label="30004" help="30035">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option label="30095">0</option>
+							<option label="30096">1</option>
+							<option label="30097">2</option>
+							<option label="30036">3</option>
+							<option label="30098">4</option>
+							<option label="30099">5</option>
+							<option label="30100">6</option>
+							<option label="30101">7</option>
+							<option label="30102">8</option>
+							<option label="30103">9</option>
+							<option label="30104">10</option>
+							<option label="30105">11</option>
+							<option label="30106">12</option>
+							<option label="30107">13</option>
+							<option label="30108">14</option>
+							<option label="30109">15</option>
+							<option label="30110">16</option>
+							<option label="30111">17</option>
+							<option label="30112">18</option>
+							<option label="30113">19</option>
+							<option label="30114">20</option>
+							<option label="30115">21</option>
+							<option label="30116">22</option>
+							<option label="30117">23</option>
+							<option label="30118">24</option>
+							<option label="30119">25</option>
+							<option label="30120">26</option>
+							<option label="30121">27</option>
+							<option label="30122">28</option>
+							<option label="30123">29</option>
+							<option label="30124">30</option>
+							<option label="30125">31</option>
+							<option label="30126">32</option>
+							<option label="30127">33</option>
+							<option label="30128">34</option>
+							<option label="30129">35</option>
+							<option label="30130">36</option>
+							<option label="30131">37</option>
+							<option label="30132">38</option>
+							<option label="30133">39</option>
+							<option label="30134">40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_last_scanline" type="string" label="30005" help="30037">
+					<level>0</level>
+					<default>242</default>
+					<constraints>
+						<options>
+							<option label="30135">208</option>
+							<option label="30136">209</option>
+							<option label="30137">210</option>
+							<option label="30138">211</option>
+							<option label="30139">212</option>
+							<option label="30140">213</option>
+							<option label="30141">214</option>
+							<option label="30142">215</option>
+							<option label="30143">216</option>
+							<option label="30144">217</option>
+							<option label="30145">218</option>
+							<option label="30146">219</option>
+							<option label="30147">220</option>
+							<option label="30148">221</option>
+							<option label="30149">222</option>
+							<option label="30150">223</option>
+							<option label="30151">224</option>
+							<option label="30152">225</option>
+							<option label="30153">226</option>
+							<option label="30154">227</option>
+							<option label="30155">228</option>
+							<option label="30156">229</option>
+							<option label="30157">230</option>
+							<option label="30158">231</option>
+							<option label="30159">232</option>
+							<option label="30160">233</option>
+							<option label="30161">234</option>
+							<option label="30162">235</option>
+							<option label="30163">236</option>
+							<option label="30164">237</option>
+							<option label="30165">238</option>
+							<option label="30166">239</option>
+							<option label="30167">240</option>
+							<option label="30168">241</option>
+							<option label="30038">242</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30039" help="30040">
+			<group id="1">
+				<setting id="sgx_mouse_sensitivity" type="string" label="30006" help="30041">
+					<level>0</level>
+					<default>1.25</default>
+					<constraints>
+						<options>
+							<option>0.25</option>
+							<option>0.50</option>
+							<option>0.75</option>
+							<option>1.00</option>
+							<option>1.25</option>
+							<option>1.50</option>
+							<option>1.75</option>
+							<option>2.00</option>
+							<option>2.25</option>
+							<option>2.50</option>
+							<option>2.75</option>
+							<option>3.00</option>
+							<option>3.25</option>
+							<option>3.50</option>
+							<option>3.75</option>
+							<option>4.00</option>
+							<option>4.25</option>
+							<option>4.50</option>
+							<option>4.75</option>
+							<option>5.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_up_down_allowed" type="string" label="30007" help="30042">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_disable_softreset" type="string" label="30008" help="30043">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_multitap" type="string" label="30009" help="30044">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_default_joypad_type_p1" type="string" label="30010" help="30045">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_default_joypad_type_p2" type="string" label="30011" help="30046">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_default_joypad_type_p3" type="string" label="30012" help="30047">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_default_joypad_type_p4" type="string" label="30013" help="30048">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_default_joypad_type_p5" type="string" label="30014" help="30049">
+					<level>0</level>
+					<default>2 Buttons</default>
+					<constraints>
+						<options>
+							<option>2 Buttons</option>
+							<option>6 Buttons</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_turbo_toggle" type="string" label="30015" help="30050">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30051">switch</option>
+							<option label="30052">dedicated</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_turbo_toggle_hotkey" type="string" label="30016" help="30053">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_turbo_delay" type="string" label="30017" help="30054">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>30</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30055" help="30056">
+			<group id="1">
+				<setting id="sgx_forcesgx" type="string" label="30025" help="30057">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_nospritelimit" type="string" label="30026" help="30058">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_ocmultiplier" type="string" label="30027" help="30059">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="cd" label="30060" help="30061">
+			<group id="1">
+				<setting id="sgx_cdimagecache" type="string" label="30018" help="30062">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_cdbios" type="string" label="30019" help="30063">
+					<level>0</level>
+					<default>System Card 3</default>
+					<constraints>
+						<options>
+							<option>Games Express</option>
+							<option>System Card 1</option>
+							<option>System Card 2</option>
+							<option>System Card 3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_detect_gexpress" type="string" label="30020" help="30064">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_cdspeed" type="string" label="30021" help="30065">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>4</option>
+							<option>8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_adpcmvolume" type="string" label="30022" help="30066">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_cddavolume" type="string" label="30023" help="30066">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sgx_cdpsgvolume" type="string" label="30024" help="30066">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

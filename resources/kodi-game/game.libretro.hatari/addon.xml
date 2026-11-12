@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.hatari"
+		name="Atari - ST / STE / TT / Falcon (Hatari)"
+		version="2.6.1.50"
+		provider-name="Nicolas Pomarède, Thomas Huth, Eero Tamminen et al.">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.atari.2600" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Atari - ST / STE / TT / Falcon</platforms>
+		<extensions>st|msa|dim|stx|ipf|m3u|ide|vhd|gem</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>hatari_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.hatari</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Atari - ST/STE/TT/Falcon (Hatari)</summary>
+		<summary lang="da_DK">Atari - ST/STE/TT/Falcon (Hatari)</summary>
+		<summary lang="en_GB">Atari - ST / STE / TT / Falcon (Hatari)</summary>
+		<summary lang="es_ES">Atari - ST/STE/TT/Falcon (Hatari)</summary>
+		<summary lang="it_IT">Atari - ST/STE/TT/Falcon (Hatari)</summary>
+		<summary lang="ru_RU">Atari — ST/STE/TT/Falcon (Hatari)</summary>
+		<summary lang="sv_SE">Atari - ST/STE/TT/Falcon (Hatari)</summary>
+		<summary lang="zh_CN">雅达利 - ST/STE/TT/ 猎鹰（哈塔里模拟器）</summary>
+		<description lang="cs_CZ">Hatari je emulátor Atari ST/STE/TT/Falcon.[CR][CR]Hatari se snaží emulovat hardware co nejvěrněji kvůli lepší kompatibilitě. Proto může být pomalejší než méně přesné emulátory.</description>
+		<description lang="da_DK">Hatari er en Atari ST/STE/TT/Falcon-emulator.[CR][CR]Hatari forsøger at efterligne hardwaren så tæt som muligt for større kompatibilitet. På grund af dette kan den være langsommere end mindre præcise emulatorer.</description>
+		<description lang="en_GB">Hatari is an Atari ST/STE/TT/Falcon emulator.[CR][CR]Hatari tries to emulate the hardware as close as possible for greater compatibility. Because of this, it may be slower than less accurate emulators.</description>
+		<description lang="es_ES">Hatari es un emulador de Atari ST/STE/TT/Falcon[CR][CR]Hatari intenta emular el hardware lo más fielmente posible para una mayor compatibilidad. Por ello, puede ser más lento que otros emuladores menos precisos.</description>
+		<description lang="it_IT">Hatari è un emulatore Atari ST/STE/TT/Falcon.[CR][CR]Hatari cerca di emulare l&apos;hardware il più vicino possibile per una maggiore compatibilità. Per questo motivo, potrebbe essere più lento di emulatori meno accurati.</description>
+		<description lang="ru_RU">Hatari — это эмулятор Atari ST/STE/TT/Falcon.[CR][CR]Hatari пытается эмулировать оборудование максимально точно для большей совместимости. Из-за этого он может работать медленнее, чем менее точные эмуляторы.</description>
+		<description lang="sv_SE">Hatari är en Atari ST/STE/TT/Falcon-emulator.[CR][CR]Hatari försöker emulera hårdvaran så nära som möjligt för ökad kompatibilitet. På grund av detta kan den vara långsammare än mindre exakta emulatorer.</description>
+		<description lang="zh_CN">Hatari 是一款雅达利 ST/STE/TT/ 猎鹰（Falcon）模拟器。[CR][CR]Hatari 力求尽可能贴近地模拟硬件，以实现更高的兼容性。正因如此，它可能比精度较低的模拟器运行速度更慢。</description>
+	</extension>
+</addon>

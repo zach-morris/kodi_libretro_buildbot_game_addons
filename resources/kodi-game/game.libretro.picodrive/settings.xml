@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.picodrive">
+		<category id="system" label="30023" help="30024">
+			<group id="1">
+				<setting id="picodrive_region" type="string" label="30001" help="30025">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30073">Japan NTSC</option>
+							<option label="30074">Japan PAL</option>
+							<option label="30075">US</option>
+							<option label="30076">Europe</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_smstype" type="string" label="30002" help="30026">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30077">Game Gear</option>
+							<option label="30078">Master System</option>
+							<option label="30079">SG-1000</option>
+							<option label="30080">SC-3000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_smsmapper" type="string" label="30003" help="30027">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30081">Sega</option>
+							<option label="30082">Codemasters</option>
+							<option label="30083">Korea</option>
+							<option label="30084">Korea MSX</option>
+							<option label="30085">Korea X-in-1</option>
+							<option label="30086">Korea 4-Pak</option>
+							<option label="30087">Korea Janggun</option>
+							<option label="30088">Korea Nemesis</option>
+							<option label="30089">Taiwan 8K RAM</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_smstms" type="string" label="30021" help="30028">
+					<level>0</level>
+					<default>SMS</default>
+					<constraints>
+						<options>
+							<option>SMS</option>
+							<option>SG-1000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_ramcart" type="string" label="30004" help="30029">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30030" help="30031">
+			<group id="1">
+				<setting id="picodrive_aspect" type="string" label="30005" help="30032">
+					<level>0</level>
+					<default>PAR</default>
+					<constraints>
+						<options>
+							<option label="30090">PAR</option>
+							<option label="30033">4/3</option>
+							<option label="30091">CRT</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_ggghost" type="string" label="30006" help="30034">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30035">off</option>
+							<option label="30036">weak</option>
+							<option label="30037">normal</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_renderer" type="string" label="30007" help="30038">
+					<level>0</level>
+					<default>accurate</default>
+					<constraints>
+						<options>
+							<option label="30039">accurate</option>
+							<option label="30040">good</option>
+							<option label="30041">fast</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30042" help="30043">
+			<group id="1">
+				<setting id="picodrive_sound_rate" type="string" label="30008" help="30044">
+					<level>0</level>
+					<default>44100</default>
+					<constraints>
+						<options>
+							<option>16000</option>
+							<option>22050</option>
+							<option>32000</option>
+							<option>44100</option>
+							<option>native</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_fm_filter" type="string" label="30009" help="30045">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30035">off</option>
+							<option label="30046">on</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_smsfm" type="string" label="30010" help="30047">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30035">off</option>
+							<option label="30046">on</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_fmchip" type="string" label="30022" help="30048">
+					<level>0</level>
+					<default>ym2612</default>
+					<constraints>
+						<options>
+							<option label="30049">ym2612</option>
+							<option label="30050">ym3438</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_audio_filter" type="string" label="30012" help="30051">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30052">low-pass</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_lowpass_range" type="string" label="30013" help="30053">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<options>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30054" help="30055">
+			<group id="1">
+				<setting id="picodrive_input1" type="string" label="30014" help="30056">
+					<level>0</level>
+					<default>3 button pad</default>
+					<constraints>
+						<options>
+							<option label="30057">3 button pad</option>
+							<option label="30058">6 button pad</option>
+							<option label="30059">team player</option>
+							<option label="30060">4way play</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_input2" type="string" label="30015" help="30061">
+					<level>0</level>
+					<default>3 button pad</default>
+					<constraints>
+						<options>
+							<option label="30057">3 button pad</option>
+							<option label="30058">6 button pad</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="performance" label="30062" help="30063">
+			<group id="1">
+				<setting id="picodrive_drc" type="string" label="30016" help="30064">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_frameskip" type="string" label="30017" help="30065">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30066">auto</option>
+							<option label="30067">manual</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_frameskip_threshold" type="string" label="30018" help="30068">
+					<level>0</level>
+					<default>33</default>
+					<constraints>
+						<options>
+							<option>15</option>
+							<option>18</option>
+							<option>21</option>
+							<option>24</option>
+							<option>27</option>
+							<option>30</option>
+							<option>33</option>
+							<option>36</option>
+							<option>39</option>
+							<option>42</option>
+							<option>45</option>
+							<option>48</option>
+							<option>51</option>
+							<option>54</option>
+							<option>57</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30069" help="30070">
+			<group id="1">
+				<setting id="picodrive_sprlim" type="string" label="30019" help="30071">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="picodrive_overclk68k" type="string" label="30020" help="30072">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30092">+25%</option>
+							<option label="30093">+50%</option>
+							<option label="30094">+75%</option>
+							<option label="30095">+100%</option>
+							<option label="30096">+200%</option>
+							<option label="30097">+400%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

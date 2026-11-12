@@ -1,0 +1,2096 @@
+# game.libretro.atari800 language file
+# Addon Name: game.libretro.atari800
+# Addon id: game.libretro.atari800
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.atari800\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 02:44i\n"
+"PO-Revision-Date: 2024-12-27 21:39+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-atari800/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Atari800 is an emulator for Atari 8-bit computer systems (400, 800, 600 XL, 800XL, 130XE and 5200)."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Atari System"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Video Standard"
+msgstr ""
+
+msgctxt "#30004"
+msgid "SIO Acceleration"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Internal resolution"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Retroarch Keyboard type"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Hi-Res Artifacting Mode"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Controller Hacks"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Activate Paddle Mode"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Paddle Movement Speed"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Digital Joystick Sensitivity"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Analog Joystick Sensitivity"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Analog Joystick Deadzone"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Atari Keyboard Defines"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Internal BASIC (hold OPTION on boot) (Restart)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Boot from Cassette (Reboot)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Color tint/hue"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Color saturation"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Color contrast"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Color brightness"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Color gamma"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Atari XEGS keyboard"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Uses the Atari800 legacy configuration file"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Stereo POKEY (Restart)"
+msgstr ""
+
+msgctxt "#30031"
+msgid "GTIA delay (colorburst phase)"
+msgstr ""
+
+msgctxt "#30032"
+msgid "External Palette"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Virtual keyboard"
+msgstr ""
+
+msgctxt "#30034"
+msgid "400/800 OS ROM (Restart)"
+msgstr ""
+
+msgctxt "#30035"
+msgid "XL/XE OS ROM (Restart)"
+msgstr ""
+
+msgctxt "#30036"
+msgid "5200 BIOS ROM (Restart)"
+msgstr ""
+
+msgctxt "#30037"
+msgid "BASIC ROM (Restart)"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Mosaic RAM Expansion (Restart)"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Axlon RAM Expansion (Restart)"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Axlon $0F Bank Shadow (Restart)"
+msgstr ""
+
+msgctxt "#30041"
+msgid "MapRAM (Restart)"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Joystick Autofire"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Show Atari Speed %"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Show Disk/Tape Activity"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Show Sector/Block Counter"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Show 1200XL LEDs"
+msgstr ""
+
+msgctxt "#30047"
+msgid "XEP80 80-Column Display (Restart)"
+msgstr ""
+
+msgctxt "#30048"
+msgid "R-Time 8 Clock (Restart)"
+msgstr ""
+
+msgctxt "#30049"
+msgid "P: Device / Printer (Restart)"
+msgstr ""
+
+msgctxt "#30050"
+msgid "R: Device / Serial (Restart)"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Slow DOS Binary Loading"
+msgstr ""
+
+msgctxt "#30052"
+msgid "System"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Emulated machine and hardware: Atari system model, OS and BASIC ROMs, RAM expansions, and add-on hardware.  Most take effect after a restart."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Select system emulated.  Atari 5200 for Atari 5200 console games.  400/800 (OS B) for <48K games or ones that require OS/B.  800XL (64K) works for most content.  130XE (128K), Modern XL/XE(320K Compy Shop),  Modern XL/XE(576K), Modern XL/XE(1088K) for content that needs more than 64K.  Atari XE Game System for the Atari XE Game System or XEGS console games."
+msgstr ""
+
+msgctxt "#30055"
+msgid "Atari 400/800 (OS B)"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Atari 800XL (64K)"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Atari 130XE (128K)"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Modern Atari XL/XE(320K Compy Shop)"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Modern Atari XL/XE(576K)"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Modern Atari XL/XE(1088K)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Atari XE Game System"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Atari 5200 Super System"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Enable for content that needs Atari BASIC in order to run.  A proper ROM file (ATARIBAS.ROM) is needed."
+msgstr ""
+
+msgctxt "#30064"
+msgid "Select the operating-system ROM revision used by the Atari 400/800. 'Auto' picks a revision automatically. 'AltirraOS' uses the bundled open-source replacement ROM (no original ROM required). Other revisions require the matching ROM file in the system directory."
+msgstr ""
+
+msgctxt "#30065"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30066"
+msgid "AltirraOS (built-in)"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Select the operating-system ROM revision used by the Atari XL/XE/XEGS. 'Auto' picks a revision automatically. 'AltirraOS' uses the bundled open-source replacement ROM (no original ROM required). Other revisions require the matching ROM file in the system directory."
+msgstr ""
+
+msgctxt "#30068"
+msgid "Select the BIOS ROM revision used by the Atari 5200. 'Auto' picks a revision automatically. 'AltirraOS' uses the bundled open-source replacement ROM (no original ROM required). Other revisions require the matching ROM file in the system directory."
+msgstr ""
+
+msgctxt "#30069"
+msgid "Select the Atari BASIC ROM revision. 'Auto' picks a revision automatically. 'Altirra BASIC' uses the bundled open-source replacement (no original ROM required). Other revisions require the matching ROM file in the system directory."
+msgstr ""
+
+msgctxt "#30070"
+msgid "Altirra BASIC (built-in)"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Emulate the Mosaic RAM expansion (Atari 400/800 only). Adds RAM-select boards mapped at $4000-$7FFF. Mutually exclusive with the Axlon expansion."
+msgstr ""
+
+msgctxt "#30072"
+msgid "16 KB (1 board)"
+msgstr ""
+
+msgctxt "#30073"
+msgid "80 KB (2 boards)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "144 KB (3 boards)"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Emulate the Axlon 128K-compatible bank-switched RAM expansion (Atari 400/800 only). Mutually exclusive with the Mosaic expansion."
+msgstr ""
+
+msgctxt "#30076"
+msgid "The real Axlon board mirrored its bank-select register at $0FC0-$0FFF; some compatibles did not. Enable for full Axlon compatibility."
+msgstr ""
+
+msgctxt "#30077"
+msgid "Enable MapRAM RAM-under-ROM mapping (Atari XL/XE only), mirroring the OS ROM into RAM for a small speed-up used by some enhanced systems."
+msgstr ""
+
+msgctxt "#30078"
+msgid "Emulate the XEP80 80-column display interface on the chosen joystick port.  Requires the XEP80 charset ROM."
+msgstr ""
+
+msgctxt "#30079"
+msgid "Port 1"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Port 2"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Emulate the ICD R-Time 8 real-time clock cartridge."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Emulates the Atari Stereo Sound Mod (second POKEY chip at $D210-$D21F on 800/XL/XE). Stock 800/XL/XE has only one POKEY -- leave this disabled for authentic behavior. Some games (Bounty Bob Strikes Back, Road Race) use POKEY register mirroring tricks that lock up or lose audio when stereo is enabled. The Atari 5200 always uses mono regardless of this setting."
+msgstr ""
+
+msgctxt "#30083"
+msgid "If the Atari800 legacy configuration file, .atari800.cfg, is found, it will be loaded, and if not found, a new will be created."
+msgstr ""
+
+msgctxt "#30084"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Configure video standard (NTSC/PAL).  Enable Hi-res artifacting and set artifacting mode.  Set internal resolution"
+msgstr ""
+
+msgctxt "#30086"
+msgid "Select whether emulated system is NTSC (60hz) or PAL (50hz)"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Set Hi-Res Artifacting mode used.  Typically dependant on the actual emulated system.  Pick the color combination that pleases you."
+msgstr ""
+
+msgctxt "#30088"
+msgid "None "
+msgstr ""
+
+msgctxt "#30089"
+msgid "Set emulated systems internal resolution."
+msgstr ""
+
+msgctxt "#30090"
+msgid "Set emulated color tint between -1.0 and 1.0"
+msgstr ""
+
+msgctxt "#30091"
+msgid "0.00 (Default)"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Set emulated color saturation between -1.0 and 1.0."
+msgstr ""
+
+msgctxt "#30093"
+msgid "Set emulated color contrast between -2.0 and 2.0."
+msgstr ""
+
+msgctxt "#30094"
+msgid "Set emulated color brightness between -2.0 and 2.0."
+msgstr ""
+
+msgctxt "#30095"
+msgid "Set emulated color gamma between 1.0 and 3.5."
+msgstr ""
+
+msgctxt "#30096"
+msgid "2.35 (Default)"
+msgstr ""
+
+msgctxt "#30097"
+msgid "Adjust the GTIA colorburst phase / hue-spread of the generated palette (10-50 degrees). 'Default' keeps the palette's built-in value (26.8 for NTSC, 23.2 for PAL)."
+msgstr ""
+
+msgctxt "#30098"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Use one of the default External Palettes. If this option is selected, it will override any External Palette configured in the Legacy CFG file."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Gray"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Jakub"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Real"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Xformer"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Configure 5200 Digital and Analog Joystick sensitivity and Analog deadzone.  Activate Swap, Dual Joysticks or Joy 2B+. Activate Paddle mode and set Paddle speed.  Set retroarch keyboard type."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Apply gamepad input hacks required for specific games. 'Dual Stick' maps Player 2's joystick to the right analog stick of Player 1's RetroPad, enabling dual stick control in 'Robotron 2084' and 'Space Dungeon'. 'Swap Ports' maps Player 1 to port 2 and Player 2 to port 1 of the emulated console, correcting the swapped inputs of 'Wizard of Wor', 'Apple Panic' and a few other games. 'Joy 2B+' enables multibutton joysticks support."
+msgstr ""
+
+msgctxt "#30107"
+msgid "Dual Stick"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Swap Ports"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Joy 2B+"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Use analog stick and digital pad to control paddle games.  Dual Stick and Swap Ports will be de-activated if this is enabled"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Determines how fast the paddle will move."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Set the effective range of the emulated analog joystick when using the gamepad's digital D-Pad for movement. Lower values equate to slower speeds.  Also can be used to make games like Centipede, Kaboom, Missile Command, Pengo, Realsports Tennis, Pole Position, Xari Arena and Super Breakout more playable."
+msgstr ""
+
+msgctxt "#30113"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30114"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30115"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30116"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30117"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30118"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30119"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30120"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30121"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30122"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30123"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30124"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30125"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30126"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30127"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30128"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30129"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30130"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30131"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30132"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Set the effective range of the emulated analog joystick when using the gamepad's left analog stick for movement. Lower values equate to slower speeds.  Also can be used to make games like Centipede, Kaboom, Missile Command, Pengo, Realsports Tennis, Pole Position, Xari Arena and Super Breakout more playable."
+msgstr ""
+
+msgctxt "#30134"
+msgid "Set the deadzone of the gamepad's analog sticks. Use this to eliminate controller drift."
+msgstr ""
+
+msgctxt "#30135"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30136"
+msgid "3%"
+msgstr ""
+
+msgctxt "#30137"
+msgid "7%"
+msgstr ""
+
+msgctxt "#30138"
+msgid "13%"
+msgstr ""
+
+msgctxt "#30139"
+msgid "17%"
+msgstr ""
+
+msgctxt "#30140"
+msgid "23%"
+msgstr ""
+
+msgctxt "#30141"
+msgid "27%"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Set whether keyboard is polled or used callback."
+msgstr ""
+
+msgctxt "#30143"
+msgid "Set whether the Atari XEGS keyboard is attached or detached. If 'Internal BASIC' is enabled and the keyboard is attached, it will boot to BASIC. If 'Internal BASIC' is enabled and the keyboard is detached it will boot to the in-built game (Missile Command). If 'Internal BASIC' is disabled, it will boot to the Self Test screen."
+msgstr ""
+
+msgctxt "#30144"
+msgid "Show or hide the on-screen virtual keyboard overlay. It can also be toggled in-game with the mapped controller button (L3 for the Atari joystick, R3 for the 5200). To toggle it with a keyboard key, bind that key to the 'L3' RetroPad button in Settings > Input > Port 1 Controls."
+msgstr ""
+
+msgctxt "#30145"
+msgid ""
+"Joystick and Console Key mappings for\n"
+"\"Atari Keyboard\".\n"
+" \n"
+" Joystick \"Keyboard Numpad 8, 2, 4 & 6\".\n"
+" \n"
+"5200 analog joystick. Left analog stick or \"Keyboard Numpad 8, 2, 4 & 6\".\n"
+" \n"
+"Fire 1 \"Right CTRL\". Fire 2 \"Right ALT\".\n"
+" \n"
+"5200 *  \"Keyboard Numpad * \". # \"Keyboard =\"\n"
+" \n"
+"5200 Keypad 0-9 \"Keyboard 0-9\".\n"
+"Pause \"P\", Reset \"R\".\n"
+" \n"
+"'Console' keys Option \"F2\", Select \"F3\",\n"
+"Start \"F4\".\n"
+" \n"
+"Controller 1 only."
+msgstr ""
+
+msgctxt "#30146"
+msgid "Autofire mode for all joystick ports.  Fire: autofire while the fire button is held.  Always: continuous autofire without holding the button."
+msgstr ""
+
+msgctxt "#30147"
+msgid "While fire held"
+msgstr ""
+
+msgctxt "#30148"
+msgid "Continuous"
+msgstr ""
+
+msgctxt "#30149"
+msgid "Media"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Disk, tape and cartridge loading behaviour: SIO acceleration, cassette boot, binary-load speed, cartridge autodetect, and host P:/R: device redirection."
+msgstr ""
+
+msgctxt "#30151"
+msgid "Enable the P: printer device SIO patch."
+msgstr ""
+
+msgctxt "#30152"
+msgid "Enable the R: serial device SIO patch (Atari 850 emulation / Coder's Cable)."
+msgstr ""
+
+msgctxt "#30153"
+msgid "Load DOS binary (.xex) files at the slower, more accurate original speed instead of instantly."
+msgstr ""
+
+msgctxt "#30154"
+msgid "This enables ALL SIO acceleration.  Enabled improves loading speed for Disk and Cassette images.  Disable only for protected disk (.ATX) and protected cassette images.  Reboot required if change made while loading a cassette image."
+msgstr ""
+
+msgctxt "#30155"
+msgid "Forces emulated system to boot from autoboot cassette images by holding down the \"START\" key on boot."
+msgstr ""
+
+msgctxt "#30156"
+msgid "On-Screen Display"
+msgstr ""
+
+msgctxt "#30157"
+msgid "On-screen indicators drawn over the emulation: emulation speed, disk/tape activity, sector/block counter, and 1200XL LEDs."
+msgstr ""
+
+msgctxt "#30158"
+msgid "Overlay the emulation speed as a percentage on screen."
+msgstr ""
+
+msgctxt "#30159"
+msgid "Overlay a disk-drive / tape activity indicator on screen."
+msgstr ""
+
+msgctxt "#30160"
+msgid "Overlay the current disk sector / tape block number on screen."
+msgstr ""
+
+msgctxt "#30161"
+msgid "Overlay the two 1200XL keyboard LEDs on screen (Atari 1200XL only)."
+msgstr ""
+
+msgctxt "#30162"
+msgid "Rev. A NTSC"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Rev. A PAL"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Rev. B NTSC"
+msgstr ""
+
+msgctxt "#30165"
+msgid "AA00 Rev. 10"
+msgstr ""
+
+msgctxt "#30166"
+msgid "AA01 Rev. 11"
+msgstr ""
+
+msgctxt "#30167"
+msgid "BB00 Rev. 1"
+msgstr ""
+
+msgctxt "#30168"
+msgid "BB01 Rev. 2"
+msgstr ""
+
+msgctxt "#30169"
+msgid "BB02 Rev. 3"
+msgstr ""
+
+msgctxt "#30170"
+msgid "BB02 Rev. 3 Ver. 4"
+msgstr ""
+
+msgctxt "#30171"
+msgid "CC01 Rev. 4"
+msgstr ""
+
+msgctxt "#30172"
+msgid "BB01 Rev. 3"
+msgstr ""
+
+msgctxt "#30173"
+msgid "BB01 Rev. 4"
+msgstr ""
+
+msgctxt "#30174"
+msgid "BB01 Rev. 59"
+msgstr ""
+
+msgctxt "#30175"
+msgid "BB01 Rev. 59 alt."
+msgstr ""
+
+msgctxt "#30176"
+msgid "Original"
+msgstr ""
+
+msgctxt "#30177"
+msgid "Rev. A"
+msgstr ""
+
+msgctxt "#30178"
+msgid "Rev. B"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Rev. C"
+msgstr ""
+
+msgctxt "#30180"
+msgid "128 KB"
+msgstr ""
+
+msgctxt "#30181"
+msgid "256 KB"
+msgstr ""
+
+msgctxt "#30182"
+msgid "512 KB"
+msgstr ""
+
+msgctxt "#30183"
+msgid "1 MB"
+msgstr ""
+
+msgctxt "#30184"
+msgid "2 MB"
+msgstr ""
+
+msgctxt "#30185"
+msgid "4 MB"
+msgstr ""
+
+msgctxt "#30186"
+msgid "blue/brown 1"
+msgstr ""
+
+msgctxt "#30187"
+msgid "blue/brown 2"
+msgstr ""
+
+msgctxt "#30188"
+msgid "GTIA"
+msgstr ""
+
+msgctxt "#30189"
+msgid "CTIA"
+msgstr ""
+
+msgctxt "#30190"
+msgid "-1.00"
+msgstr ""
+
+msgctxt "#30191"
+msgid "-0.98"
+msgstr ""
+
+msgctxt "#30192"
+msgid "-0.96"
+msgstr ""
+
+msgctxt "#30193"
+msgid "-0.94"
+msgstr ""
+
+msgctxt "#30194"
+msgid "-0.92"
+msgstr ""
+
+msgctxt "#30195"
+msgid "-0.90"
+msgstr ""
+
+msgctxt "#30196"
+msgid "-0.88"
+msgstr ""
+
+msgctxt "#30197"
+msgid "-0.86"
+msgstr ""
+
+msgctxt "#30198"
+msgid "-0.84"
+msgstr ""
+
+msgctxt "#30199"
+msgid "-0.82"
+msgstr ""
+
+msgctxt "#30200"
+msgid "-0.80"
+msgstr ""
+
+msgctxt "#30201"
+msgid "-0.78"
+msgstr ""
+
+msgctxt "#30202"
+msgid "-0.76"
+msgstr ""
+
+msgctxt "#30203"
+msgid "-0.74"
+msgstr ""
+
+msgctxt "#30204"
+msgid "-0.72"
+msgstr ""
+
+msgctxt "#30205"
+msgid "-0.70"
+msgstr ""
+
+msgctxt "#30206"
+msgid "-0.68"
+msgstr ""
+
+msgctxt "#30207"
+msgid "-0.66"
+msgstr ""
+
+msgctxt "#30208"
+msgid "-0.64"
+msgstr ""
+
+msgctxt "#30209"
+msgid "-0.62"
+msgstr ""
+
+msgctxt "#30210"
+msgid "-0.60"
+msgstr ""
+
+msgctxt "#30211"
+msgid "-0.58"
+msgstr ""
+
+msgctxt "#30212"
+msgid "-0.56"
+msgstr ""
+
+msgctxt "#30213"
+msgid "-0.54"
+msgstr ""
+
+msgctxt "#30214"
+msgid "-0.52"
+msgstr ""
+
+msgctxt "#30215"
+msgid "-0.50"
+msgstr ""
+
+msgctxt "#30216"
+msgid "-0.48"
+msgstr ""
+
+msgctxt "#30217"
+msgid "-0.46"
+msgstr ""
+
+msgctxt "#30218"
+msgid "-0.44"
+msgstr ""
+
+msgctxt "#30219"
+msgid "-0.42"
+msgstr ""
+
+msgctxt "#30220"
+msgid "-0.40"
+msgstr ""
+
+msgctxt "#30221"
+msgid "-0.38"
+msgstr ""
+
+msgctxt "#30222"
+msgid "-0.36"
+msgstr ""
+
+msgctxt "#30223"
+msgid "-0.34"
+msgstr ""
+
+msgctxt "#30224"
+msgid "-0.32"
+msgstr ""
+
+msgctxt "#30225"
+msgid "-0.30"
+msgstr ""
+
+msgctxt "#30226"
+msgid "-0.28"
+msgstr ""
+
+msgctxt "#30227"
+msgid "-0.26"
+msgstr ""
+
+msgctxt "#30228"
+msgid "-0.24"
+msgstr ""
+
+msgctxt "#30229"
+msgid "-0.22"
+msgstr ""
+
+msgctxt "#30230"
+msgid "-0.20"
+msgstr ""
+
+msgctxt "#30231"
+msgid "-0.18"
+msgstr ""
+
+msgctxt "#30232"
+msgid "-0.16"
+msgstr ""
+
+msgctxt "#30233"
+msgid "-0.14"
+msgstr ""
+
+msgctxt "#30234"
+msgid "-0.12"
+msgstr ""
+
+msgctxt "#30235"
+msgid "-0.10"
+msgstr ""
+
+msgctxt "#30236"
+msgid "-0.08"
+msgstr ""
+
+msgctxt "#30237"
+msgid "-0.06"
+msgstr ""
+
+msgctxt "#30238"
+msgid "-0.04"
+msgstr ""
+
+msgctxt "#30239"
+msgid "-0.02"
+msgstr ""
+
+msgctxt "#30240"
+msgid "0.02"
+msgstr ""
+
+msgctxt "#30241"
+msgid "0.04"
+msgstr ""
+
+msgctxt "#30242"
+msgid "0.06"
+msgstr ""
+
+msgctxt "#30243"
+msgid "0.08"
+msgstr ""
+
+msgctxt "#30244"
+msgid "0.10"
+msgstr ""
+
+msgctxt "#30245"
+msgid "0.12"
+msgstr ""
+
+msgctxt "#30246"
+msgid "0.14"
+msgstr ""
+
+msgctxt "#30247"
+msgid "0.16"
+msgstr ""
+
+msgctxt "#30248"
+msgid "0.18"
+msgstr ""
+
+msgctxt "#30249"
+msgid "0.20"
+msgstr ""
+
+msgctxt "#30250"
+msgid "0.22"
+msgstr ""
+
+msgctxt "#30251"
+msgid "0.24"
+msgstr ""
+
+msgctxt "#30252"
+msgid "0.26"
+msgstr ""
+
+msgctxt "#30253"
+msgid "0.28"
+msgstr ""
+
+msgctxt "#30254"
+msgid "0.30"
+msgstr ""
+
+msgctxt "#30255"
+msgid "0.32"
+msgstr ""
+
+msgctxt "#30256"
+msgid "0.34"
+msgstr ""
+
+msgctxt "#30257"
+msgid "0.36"
+msgstr ""
+
+msgctxt "#30258"
+msgid "0.38"
+msgstr ""
+
+msgctxt "#30259"
+msgid "0.40"
+msgstr ""
+
+msgctxt "#30260"
+msgid "0.42"
+msgstr ""
+
+msgctxt "#30261"
+msgid "0.44"
+msgstr ""
+
+msgctxt "#30262"
+msgid "0.46"
+msgstr ""
+
+msgctxt "#30263"
+msgid "0.48"
+msgstr ""
+
+msgctxt "#30264"
+msgid "0.50"
+msgstr ""
+
+msgctxt "#30265"
+msgid "0.52"
+msgstr ""
+
+msgctxt "#30266"
+msgid "0.54"
+msgstr ""
+
+msgctxt "#30267"
+msgid "0.56"
+msgstr ""
+
+msgctxt "#30268"
+msgid "0.58"
+msgstr ""
+
+msgctxt "#30269"
+msgid "0.60"
+msgstr ""
+
+msgctxt "#30270"
+msgid "0.62"
+msgstr ""
+
+msgctxt "#30271"
+msgid "0.64"
+msgstr ""
+
+msgctxt "#30272"
+msgid "0.66"
+msgstr ""
+
+msgctxt "#30273"
+msgid "0.68"
+msgstr ""
+
+msgctxt "#30274"
+msgid "0.70"
+msgstr ""
+
+msgctxt "#30275"
+msgid "0.72"
+msgstr ""
+
+msgctxt "#30276"
+msgid "0.74"
+msgstr ""
+
+msgctxt "#30277"
+msgid "0.76"
+msgstr ""
+
+msgctxt "#30278"
+msgid "0.78"
+msgstr ""
+
+msgctxt "#30279"
+msgid "0.80"
+msgstr ""
+
+msgctxt "#30280"
+msgid "0.82"
+msgstr ""
+
+msgctxt "#30281"
+msgid "0.84"
+msgstr ""
+
+msgctxt "#30282"
+msgid "0.86"
+msgstr ""
+
+msgctxt "#30283"
+msgid "0.88"
+msgstr ""
+
+msgctxt "#30284"
+msgid "0.90"
+msgstr ""
+
+msgctxt "#30285"
+msgid "0.92"
+msgstr ""
+
+msgctxt "#30286"
+msgid "0.94"
+msgstr ""
+
+msgctxt "#30287"
+msgid "0.96"
+msgstr ""
+
+msgctxt "#30288"
+msgid "0.98"
+msgstr ""
+
+msgctxt "#30289"
+msgid "1.00"
+msgstr ""
+
+msgctxt "#30290"
+msgid "-2.00"
+msgstr ""
+
+msgctxt "#30291"
+msgid "-1.96"
+msgstr ""
+
+msgctxt "#30292"
+msgid "-1.92"
+msgstr ""
+
+msgctxt "#30293"
+msgid "-1.88"
+msgstr ""
+
+msgctxt "#30294"
+msgid "-1.84"
+msgstr ""
+
+msgctxt "#30295"
+msgid "-1.80"
+msgstr ""
+
+msgctxt "#30296"
+msgid "-1.76"
+msgstr ""
+
+msgctxt "#30297"
+msgid "-1.72"
+msgstr ""
+
+msgctxt "#30298"
+msgid "-1.68"
+msgstr ""
+
+msgctxt "#30299"
+msgid "-1.64"
+msgstr ""
+
+msgctxt "#30300"
+msgid "-1.60"
+msgstr ""
+
+msgctxt "#30301"
+msgid "-1.56"
+msgstr ""
+
+msgctxt "#30302"
+msgid "-1.52"
+msgstr ""
+
+msgctxt "#30303"
+msgid "-1.48"
+msgstr ""
+
+msgctxt "#30304"
+msgid "-1.44"
+msgstr ""
+
+msgctxt "#30305"
+msgid "-1.40"
+msgstr ""
+
+msgctxt "#30306"
+msgid "-1.36"
+msgstr ""
+
+msgctxt "#30307"
+msgid "-1.32"
+msgstr ""
+
+msgctxt "#30308"
+msgid "-1.28"
+msgstr ""
+
+msgctxt "#30309"
+msgid "-1.24"
+msgstr ""
+
+msgctxt "#30310"
+msgid "-1.20"
+msgstr ""
+
+msgctxt "#30311"
+msgid "-1.16"
+msgstr ""
+
+msgctxt "#30312"
+msgid "-1.12"
+msgstr ""
+
+msgctxt "#30313"
+msgid "-1.08"
+msgstr ""
+
+msgctxt "#30314"
+msgid "-1.04"
+msgstr ""
+
+msgctxt "#30315"
+msgid "1.04"
+msgstr ""
+
+msgctxt "#30316"
+msgid "1.08"
+msgstr ""
+
+msgctxt "#30317"
+msgid "1.12"
+msgstr ""
+
+msgctxt "#30318"
+msgid "1.16"
+msgstr ""
+
+msgctxt "#30319"
+msgid "1.20"
+msgstr ""
+
+msgctxt "#30320"
+msgid "1.24"
+msgstr ""
+
+msgctxt "#30321"
+msgid "1.28"
+msgstr ""
+
+msgctxt "#30322"
+msgid "1.32"
+msgstr ""
+
+msgctxt "#30323"
+msgid "1.36"
+msgstr ""
+
+msgctxt "#30324"
+msgid "1.40"
+msgstr ""
+
+msgctxt "#30325"
+msgid "1.44"
+msgstr ""
+
+msgctxt "#30326"
+msgid "1.48"
+msgstr ""
+
+msgctxt "#30327"
+msgid "1.52"
+msgstr ""
+
+msgctxt "#30328"
+msgid "1.56"
+msgstr ""
+
+msgctxt "#30329"
+msgid "1.60"
+msgstr ""
+
+msgctxt "#30330"
+msgid "1.64"
+msgstr ""
+
+msgctxt "#30331"
+msgid "1.68"
+msgstr ""
+
+msgctxt "#30332"
+msgid "1.72"
+msgstr ""
+
+msgctxt "#30333"
+msgid "1.76"
+msgstr ""
+
+msgctxt "#30334"
+msgid "1.80"
+msgstr ""
+
+msgctxt "#30335"
+msgid "1.84"
+msgstr ""
+
+msgctxt "#30336"
+msgid "1.88"
+msgstr ""
+
+msgctxt "#30337"
+msgid "1.92"
+msgstr ""
+
+msgctxt "#30338"
+msgid "1.96"
+msgstr ""
+
+msgctxt "#30339"
+msgid "2.00"
+msgstr ""
+
+msgctxt "#30340"
+msgid "1.02"
+msgstr ""
+
+msgctxt "#30341"
+msgid "1.06"
+msgstr ""
+
+msgctxt "#30342"
+msgid "1.10"
+msgstr ""
+
+msgctxt "#30343"
+msgid "1.14"
+msgstr ""
+
+msgctxt "#30344"
+msgid "1.18"
+msgstr ""
+
+msgctxt "#30345"
+msgid "1.22"
+msgstr ""
+
+msgctxt "#30346"
+msgid "1.26"
+msgstr ""
+
+msgctxt "#30347"
+msgid "1.30"
+msgstr ""
+
+msgctxt "#30348"
+msgid "1.34"
+msgstr ""
+
+msgctxt "#30349"
+msgid "1.38"
+msgstr ""
+
+msgctxt "#30350"
+msgid "1.42"
+msgstr ""
+
+msgctxt "#30351"
+msgid "1.46"
+msgstr ""
+
+msgctxt "#30352"
+msgid "1.50"
+msgstr ""
+
+msgctxt "#30353"
+msgid "1.54"
+msgstr ""
+
+msgctxt "#30354"
+msgid "1.58"
+msgstr ""
+
+msgctxt "#30355"
+msgid "1.62"
+msgstr ""
+
+msgctxt "#30356"
+msgid "1.66"
+msgstr ""
+
+msgctxt "#30357"
+msgid "1.70"
+msgstr ""
+
+msgctxt "#30358"
+msgid "1.74"
+msgstr ""
+
+msgctxt "#30359"
+msgid "1.78"
+msgstr ""
+
+msgctxt "#30360"
+msgid "1.82"
+msgstr ""
+
+msgctxt "#30361"
+msgid "1.86"
+msgstr ""
+
+msgctxt "#30362"
+msgid "1.90"
+msgstr ""
+
+msgctxt "#30363"
+msgid "1.94"
+msgstr ""
+
+msgctxt "#30364"
+msgid "1.98"
+msgstr ""
+
+msgctxt "#30365"
+msgid "2.02"
+msgstr ""
+
+msgctxt "#30366"
+msgid "2.04"
+msgstr ""
+
+msgctxt "#30367"
+msgid "2.06"
+msgstr ""
+
+msgctxt "#30368"
+msgid "2.08"
+msgstr ""
+
+msgctxt "#30369"
+msgid "2.10"
+msgstr ""
+
+msgctxt "#30370"
+msgid "2.12"
+msgstr ""
+
+msgctxt "#30371"
+msgid "2.14"
+msgstr ""
+
+msgctxt "#30372"
+msgid "2.16"
+msgstr ""
+
+msgctxt "#30373"
+msgid "2.18"
+msgstr ""
+
+msgctxt "#30374"
+msgid "2.20"
+msgstr ""
+
+msgctxt "#30375"
+msgid "2.22"
+msgstr ""
+
+msgctxt "#30376"
+msgid "2.24"
+msgstr ""
+
+msgctxt "#30377"
+msgid "2.26"
+msgstr ""
+
+msgctxt "#30378"
+msgid "2.28"
+msgstr ""
+
+msgctxt "#30379"
+msgid "2.30"
+msgstr ""
+
+msgctxt "#30380"
+msgid "2.32"
+msgstr ""
+
+msgctxt "#30381"
+msgid "2.34"
+msgstr ""
+
+msgctxt "#30382"
+msgid "2.36"
+msgstr ""
+
+msgctxt "#30383"
+msgid "2.38"
+msgstr ""
+
+msgctxt "#30384"
+msgid "2.40"
+msgstr ""
+
+msgctxt "#30385"
+msgid "2.42"
+msgstr ""
+
+msgctxt "#30386"
+msgid "2.44"
+msgstr ""
+
+msgctxt "#30387"
+msgid "2.46"
+msgstr ""
+
+msgctxt "#30388"
+msgid "2.48"
+msgstr ""
+
+msgctxt "#30389"
+msgid "2.50"
+msgstr ""
+
+msgctxt "#30390"
+msgid "2.52"
+msgstr ""
+
+msgctxt "#30391"
+msgid "2.54"
+msgstr ""
+
+msgctxt "#30392"
+msgid "2.56"
+msgstr ""
+
+msgctxt "#30393"
+msgid "2.58"
+msgstr ""
+
+msgctxt "#30394"
+msgid "2.60"
+msgstr ""
+
+msgctxt "#30395"
+msgid "2.62"
+msgstr ""
+
+msgctxt "#30396"
+msgid "2.64"
+msgstr ""
+
+msgctxt "#30397"
+msgid "2.66"
+msgstr ""
+
+msgctxt "#30398"
+msgid "2.68"
+msgstr ""
+
+msgctxt "#30399"
+msgid "2.70"
+msgstr ""
+
+msgctxt "#30400"
+msgid "2.72"
+msgstr ""
+
+msgctxt "#30401"
+msgid "2.74"
+msgstr ""
+
+msgctxt "#30402"
+msgid "2.76"
+msgstr ""
+
+msgctxt "#30403"
+msgid "2.78"
+msgstr ""
+
+msgctxt "#30404"
+msgid "2.80"
+msgstr ""
+
+msgctxt "#30405"
+msgid "2.82"
+msgstr ""
+
+msgctxt "#30406"
+msgid "2.84"
+msgstr ""
+
+msgctxt "#30407"
+msgid "2.86"
+msgstr ""
+
+msgctxt "#30408"
+msgid "2.88"
+msgstr ""
+
+msgctxt "#30409"
+msgid "2.90"
+msgstr ""
+
+msgctxt "#30410"
+msgid "2.92"
+msgstr ""
+
+msgctxt "#30411"
+msgid "2.94"
+msgstr ""
+
+msgctxt "#30412"
+msgid "2.96"
+msgstr ""
+
+msgctxt "#30413"
+msgid "2.98"
+msgstr ""
+
+msgctxt "#30414"
+msgid "3.00"
+msgstr ""
+
+msgctxt "#30415"
+msgid "3.02"
+msgstr ""
+
+msgctxt "#30416"
+msgid "3.04"
+msgstr ""
+
+msgctxt "#30417"
+msgid "3.06"
+msgstr ""
+
+msgctxt "#30418"
+msgid "3.08"
+msgstr ""
+
+msgctxt "#30419"
+msgid "3.10"
+msgstr ""
+
+msgctxt "#30420"
+msgid "3.12"
+msgstr ""
+
+msgctxt "#30421"
+msgid "3.14"
+msgstr ""
+
+msgctxt "#30422"
+msgid "3.16"
+msgstr ""
+
+msgctxt "#30423"
+msgid "3.18"
+msgstr ""
+
+msgctxt "#30424"
+msgid "3.20"
+msgstr ""
+
+msgctxt "#30425"
+msgid "3.22"
+msgstr ""
+
+msgctxt "#30426"
+msgid "3.24"
+msgstr ""
+
+msgctxt "#30427"
+msgid "3.26"
+msgstr ""
+
+msgctxt "#30428"
+msgid "3.28"
+msgstr ""
+
+msgctxt "#30429"
+msgid "3.30"
+msgstr ""
+
+msgctxt "#30430"
+msgid "3.32"
+msgstr ""
+
+msgctxt "#30431"
+msgid "3.34"
+msgstr ""
+
+msgctxt "#30432"
+msgid "3.36"
+msgstr ""
+
+msgctxt "#30433"
+msgid "3.38"
+msgstr ""
+
+msgctxt "#30434"
+msgid "3.40"
+msgstr ""
+
+msgctxt "#30435"
+msgid "3.42"
+msgstr ""
+
+msgctxt "#30436"
+msgid "3.44"
+msgstr ""
+
+msgctxt "#30437"
+msgid "3.46"
+msgstr ""
+
+msgctxt "#30438"
+msgid "3.48"
+msgstr ""
+
+msgctxt "#30439"
+msgid "3.50"
+msgstr ""
+
+msgctxt "#30440"
+msgid "10.00"
+msgstr ""
+
+msgctxt "#30441"
+msgid "10.50"
+msgstr ""
+
+msgctxt "#30442"
+msgid "11.00"
+msgstr ""
+
+msgctxt "#30443"
+msgid "11.50"
+msgstr ""
+
+msgctxt "#30444"
+msgid "12.00"
+msgstr ""
+
+msgctxt "#30445"
+msgid "12.50"
+msgstr ""
+
+msgctxt "#30446"
+msgid "13.00"
+msgstr ""
+
+msgctxt "#30447"
+msgid "13.50"
+msgstr ""
+
+msgctxt "#30448"
+msgid "14.00"
+msgstr ""
+
+msgctxt "#30449"
+msgid "14.50"
+msgstr ""
+
+msgctxt "#30450"
+msgid "15.00"
+msgstr ""
+
+msgctxt "#30451"
+msgid "15.50"
+msgstr ""
+
+msgctxt "#30452"
+msgid "16.00"
+msgstr ""
+
+msgctxt "#30453"
+msgid "16.50"
+msgstr ""
+
+msgctxt "#30454"
+msgid "17.00"
+msgstr ""
+
+msgctxt "#30455"
+msgid "17.50"
+msgstr ""
+
+msgctxt "#30456"
+msgid "18.00"
+msgstr ""
+
+msgctxt "#30457"
+msgid "18.50"
+msgstr ""
+
+msgctxt "#30458"
+msgid "19.00"
+msgstr ""
+
+msgctxt "#30459"
+msgid "19.50"
+msgstr ""
+
+msgctxt "#30460"
+msgid "20.00"
+msgstr ""
+
+msgctxt "#30461"
+msgid "20.50"
+msgstr ""
+
+msgctxt "#30462"
+msgid "21.00"
+msgstr ""
+
+msgctxt "#30463"
+msgid "21.50"
+msgstr ""
+
+msgctxt "#30464"
+msgid "22.00"
+msgstr ""
+
+msgctxt "#30465"
+msgid "22.50"
+msgstr ""
+
+msgctxt "#30466"
+msgid "23.00"
+msgstr ""
+
+msgctxt "#30467"
+msgid "23.50"
+msgstr ""
+
+msgctxt "#30468"
+msgid "24.00"
+msgstr ""
+
+msgctxt "#30469"
+msgid "24.50"
+msgstr ""
+
+msgctxt "#30470"
+msgid "25.00"
+msgstr ""
+
+msgctxt "#30471"
+msgid "25.50"
+msgstr ""
+
+msgctxt "#30472"
+msgid "26.00"
+msgstr ""
+
+msgctxt "#30473"
+msgid "26.50"
+msgstr ""
+
+msgctxt "#30474"
+msgid "27.00"
+msgstr ""
+
+msgctxt "#30475"
+msgid "27.50"
+msgstr ""
+
+msgctxt "#30476"
+msgid "28.00"
+msgstr ""
+
+msgctxt "#30477"
+msgid "28.50"
+msgstr ""
+
+msgctxt "#30478"
+msgid "29.00"
+msgstr ""
+
+msgctxt "#30479"
+msgid "29.50"
+msgstr ""
+
+msgctxt "#30480"
+msgid "30.00"
+msgstr ""
+
+msgctxt "#30481"
+msgid "30.50"
+msgstr ""
+
+msgctxt "#30482"
+msgid "31.00"
+msgstr ""
+
+msgctxt "#30483"
+msgid "31.50"
+msgstr ""
+
+msgctxt "#30484"
+msgid "32.00"
+msgstr ""
+
+msgctxt "#30485"
+msgid "32.50"
+msgstr ""
+
+msgctxt "#30486"
+msgid "33.00"
+msgstr ""
+
+msgctxt "#30487"
+msgid "33.50"
+msgstr ""
+
+msgctxt "#30488"
+msgid "34.00"
+msgstr ""
+
+msgctxt "#30489"
+msgid "34.50"
+msgstr ""
+
+msgctxt "#30490"
+msgid "35.00"
+msgstr ""
+
+msgctxt "#30491"
+msgid "35.50"
+msgstr ""
+
+msgctxt "#30492"
+msgid "36.00"
+msgstr ""
+
+msgctxt "#30493"
+msgid "36.50"
+msgstr ""
+
+msgctxt "#30494"
+msgid "37.00"
+msgstr ""
+
+msgctxt "#30495"
+msgid "37.50"
+msgstr ""
+
+msgctxt "#30496"
+msgid "38.00"
+msgstr ""
+
+msgctxt "#30497"
+msgid "38.50"
+msgstr ""
+
+msgctxt "#30498"
+msgid "39.00"
+msgstr ""
+
+msgctxt "#30499"
+msgid "39.50"
+msgstr ""
+
+msgctxt "#30500"
+msgid "40.00"
+msgstr ""
+
+msgctxt "#30501"
+msgid "40.50"
+msgstr ""
+
+msgctxt "#30502"
+msgid "41.00"
+msgstr ""
+
+msgctxt "#30503"
+msgid "41.50"
+msgstr ""
+
+msgctxt "#30504"
+msgid "42.00"
+msgstr ""
+
+msgctxt "#30505"
+msgid "42.50"
+msgstr ""
+
+msgctxt "#30506"
+msgid "43.00"
+msgstr ""
+
+msgctxt "#30507"
+msgid "43.50"
+msgstr ""
+
+msgctxt "#30508"
+msgid "44.00"
+msgstr ""
+
+msgctxt "#30509"
+msgid "44.50"
+msgstr ""
+
+msgctxt "#30510"
+msgid "45.00"
+msgstr ""
+
+msgctxt "#30511"
+msgid "45.50"
+msgstr ""
+
+msgctxt "#30512"
+msgid "46.00"
+msgstr ""
+
+msgctxt "#30513"
+msgid "46.50"
+msgstr ""
+
+msgctxt "#30514"
+msgid "47.00"
+msgstr ""
+
+msgctxt "#30515"
+msgid "47.50"
+msgstr ""
+
+msgctxt "#30516"
+msgid "48.00"
+msgstr ""
+
+msgctxt "#30517"
+msgid "48.50"
+msgstr ""
+
+msgctxt "#30518"
+msgid "49.00"
+msgstr ""
+
+msgctxt "#30519"
+msgid "49.50"
+msgstr ""
+
+msgctxt "#30520"
+msgid "50.00"
+msgstr ""

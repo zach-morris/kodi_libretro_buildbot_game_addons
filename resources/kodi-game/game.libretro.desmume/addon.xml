@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.desmume"
+		name="Nintendo - DS (DeSmuME)"
+		version="0.0.1.44"
+		provider-name="YopYop156, Zeromus">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nds" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - DS</platforms>
+		<extensions>nds|ids|bin</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>desmume_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.desmume</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - DS (DeSmuME)</summary>
+		<summary lang="da_DK">Nintendo - DS (DeSmuME)</summary>
+		<summary lang="en_GB">Nintendo - DS (DeSmuME)</summary>
+		<summary lang="es_ES">Nintendo - DS (DeSmuME)</summary>
+		<summary lang="ga">Nintendo - DS (DeSmuME)</summary>
+		<summary lang="it_IT">Nintendo - DS (DeSmuME)</summary>
+		<summary lang="ru_RU">Nintendo — DS (DeSmuME)</summary>
+		<summary lang="sv_SE">Nintendo - DS (DeSmuME)</summary>
+		<summary lang="zh_CN">任天堂 - DS (DeSmuME)</summary>
+		<description lang="cs_CZ">DeSmuME je software, který umožňuje emulovat systém Nintendo DS.</description>
+		<description lang="da_DK">DeSmuME er software, der giver dig mulighed for at efterligne et Nintendo DS-system.</description>
+		<description lang="de_DE">DeSmuME ist eine Software, mit dem sich das Nintendo-DS-System emulieren lässt.</description>
+		<description lang="en_GB">DeSmuME is software that allows you to emulate a Nintendo DS system.</description>
+		<description lang="es_ES">DeSmuME es un software que permite emular una videoconsola Nintendo DS.</description>
+		<description lang="ga">Is bogearraí é DeSmuME a ligeann duit córas Nintendo DS a aithris.</description>
+		<description lang="it_IT">DeSmuME è un software che consente di emulare un sistema Nintendo DS.</description>
+		<description lang="ru_RU">DeSmuME — это программное обеспечение, позволяющее эмулировать систему Nintendo DS.</description>
+		<description lang="sv_SE">DeSmuME är en programvara som gör att du kan emulera ett Nintendo DS-system.</description>
+		<description lang="zh_CN">Desmune 是一款模拟任天堂 DS 系统的软件。</description>
+		<disclaimer lang="cs_CZ">Zvláštní poděkování: yopyop (původní autor DeSmuME) a Martin Korth (autor GBATEK)</disclaimer>
+		<disclaimer lang="da_DK">Særlig tak til yopyop (oprindelig udvikler af DeSmuME) og Martin Korth (udvikler af GBATEK)</disclaimer>
+		<disclaimer lang="de_DE">Besonderen Dank an yopyop (ursprünglicher Autor von DeSmuME) und Martin Korth (Autor von GBATEK)</disclaimer>
+		<disclaimer lang="en_GB">Special thanks to yopyop (original author of DeSmuME) and Martin Korth (author of GBATEK)</disclaimer>
+		<disclaimer lang="es_ES">Agradecimientos especiales a yopyop (autor original de DeSmuME) y Martin Korth (autor de GBATEK)</disclaimer>
+		<disclaimer lang="ga">Buíochas speisialta le yopyop (údar bunaidh DeSmuME) agus Martin Korth (údar GBATEK)</disclaimer>
+		<disclaimer lang="it_IT">Ringraziamenti speciali a yopyop (autore originale di DeSmuME) e Martin Korth (autore di GBATEK)</disclaimer>
+		<disclaimer lang="ru_RU">Особая благодарность yopyop (оригинальному автору DeSmuME) и Мартину Корту (автору GBATEK)</disclaimer>
+		<disclaimer lang="sv_SE">Särskilt tack till yopyop (ursprunglig upphovsperson till DeSmuME) och Martin Korth (upphovsperson till GBATEK)</disclaimer>
+		<disclaimer lang="zh_CN">特别感谢 yopyop（DeSmuME的原作者）和 Martin Korth（GBATEK 的作者）</disclaimer>
+	</extension>
+</addon>

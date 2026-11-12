@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-lynx"
+		name="Atari - Lynx (Beetle Lynx)"
+		version="1.24.0.63"
+		provider-name="K. Wilkins, Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.atari.lynx" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Atari - Lynx</platforms>
+		<extensions>lnx|lyx|bll|o</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mednafen_lynx_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Zlib|GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-lynx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="da_DK">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="en_GB">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="es_ES">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="fr_FR">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="ga">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="it_IT">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="ko_KR">아타리 - Lynx(Beetle Lynx)</summary>
+		<summary lang="ru_RU">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="sv_SE">Atari - Lynx (Beetle Lynx)</summary>
+		<summary lang="zh_CN">雅达利 - Lynx（Beetle Lynx）</summary>
+		<description lang="cs_CZ">Beetle Lynx je modul Atari Lynx emulátoru Beetle, odvozeného od Mednafenu. Modul v Mednafenu je odvozen od Handy.</description>
+		<description lang="da_DK">Beetle Lynx er Atari Lynx-modulet fra Beetle, en fork af Mednafen. Mednafen-modulet er en fork af Handy.</description>
+		<description lang="de_DE">Beetle Lynx ist das Atari-Lynx-Modul von Beetle, einem Fork von Mednafen. Das Mednafen-Modul ist ein Fork von Handy.</description>
+		<description lang="en_GB">Beetle Lynx is the Atari Lynx module of Beetle, a fork of Mednafen. The Mednafen module is a fork of Handy.</description>
+		<description lang="es_ES">Beetle Lynx es el módulo Atari Lynx de Beetle, una bifurcación de Mednafen. El módulo Mednafen es una bifurcación de Handy.</description>
+		<description lang="fr_FR">Beetle Lynx est le module Atari Lynx de Beetle, un fork de Mednafen. Le module Mednafen est un fork de Handy.</description>
+		<description lang="ga">Is é Beetle Lynx an modúl Atari Lynx de chuid Beetle, forc de Mednafen. Is forc de chuid Handy é an modúl Mednafen.</description>
+		<description lang="it_IT">Beetle Lynx è il modulo Atari Lynx di Beetle, un fork di Mednafen. Il modulo Mednafen è un fork di Handy.</description>
+		<description lang="ko_KR">비틀 Lynx는 Mednafen의 포크인 Beetle의 Atari Lynx 모듈입니다. Mednafen 모듈은 Handy의 포크입니다.</description>
+		<description lang="ru_RU">Beetle Lynx — это модуль Atari Lynx из Beetle, форка Mednafen. Модуль Mednafen является ответвлением Handy.</description>
+		<description lang="sv_SE">Beetle Lynx är Atari Lynx-modulen av Beetle, en förgrening av Mednafen. Mednafen-modulen är en förgrening av Handy.</description>
+		<description lang="zh_CN">Beetle Lynx 是 Beetle 的雅达利 Lynx 模块，是 Mednafen 的一个分支。Mednafen 模块又是 Handy 的一个分支。</description>
+	</extension>
+</addon>
