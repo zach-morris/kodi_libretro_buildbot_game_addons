@@ -190,9 +190,9 @@ def get_addon_extension_point_dict(x_in=None):
 		if platforms is None:
 			platforms = 'Emulator'
 		if x_in.get('needs_fullpath')=='true':
-			supports_vfs = 'true'
-		else:
 			supports_vfs = 'false'
+		else:
+			supports_vfs = 'true'
 		if x_in.get('supports_no_game')=='true':
 			supports_standalone = 'true'
 		else:
