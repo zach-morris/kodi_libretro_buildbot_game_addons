@@ -58,6 +58,7 @@ def main(args=None):
 	build_environment = (args.build_environment if args.build_environment in [row[0] for row in addons_generator_mapping] else default_build_environment)
 	update_kodi_game_files = args.update_kodi_game_files
 	check_existing_addons = not args.dont_check_existing_addons
+	force_remove_existing = args.force_remove_existing
 	remove_large_addons = not args.dont_remove_large_addons
 	max_file_size = args.max_file_size
 	remove_old_addons = not args.dont_remove_old_addons
@@ -238,7 +239,7 @@ def main(args=None):
 
 		if remove_old_addons:
 			print('Deleting old addons...')
-			bb_df.apply(lambda x: delete_old_addons(x_in=x),axis=1)
+			bb_df.apply(lambda x: delete_old_addons(x_in=x,force_remove_existing=force_remove_existing),axis=1)
 
 		current_addons = [x for x in Path.cwd().rglob('*.zip') if x.parent.name in set(bb_df['addon_generator_folder'])]
 		current_df = pd.DataFrame(current_addons,columns=['existing_addon_zipfilename'])

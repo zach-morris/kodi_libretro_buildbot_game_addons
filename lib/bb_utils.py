@@ -352,6 +352,7 @@ def build_addon(x_in=None,addons_to_build=None,environments_to_build=None,cores_
 						if isinstance(next(iter(x_in.get('build_folder_path').rglob('*.build')),None),Path) and next(iter(x_in.get('build_folder_path').rglob('*.build')),None).exists():
 							build_file = next(iter(x_in.get('build_folder_path').rglob('*.build')),None)
 					if build_file is None and isinstance(x_in.get('bb_core_url'),str) and isinstance(x_in.get('bb_file_filename'),str) and isinstance(x_in.get('addon_dict'),dict):
+						temp_core_file = None
 						#Extract core
 						if x_in.get('build_folder_path').joinpath(x_in.get('bb_core_filename')).exists(): #Already downloaded
 							temp_core_file = x_in.get('build_folder_path').joinpath(x_in.get('bb_core_filename'))
@@ -914,9 +915,9 @@ def delete_addons_too_big(x_in=None):
 		delete_file(x_in.get('built_addon_zipfilename'))
 	return result
 
-def delete_old_addons(x_in=None):
+def delete_old_addons(x_in=None,force_remove_existing=False):
 	result = False
-	if isinstance(x_in,pd.Series) and isinstance(x_in.get('built_addon_zipfilename'),Path) and x_in.get('built_addon_zipfilename').exists() and isinstance(x_in.get('existing_addon_zipfilename'),Path) and x_in.get('existing_addon_zipfilename').exists() and x_in.get('existing_addon_zipfilename').name!= x_in.get('built_addon_zipfilename').name:
+	if isinstance(x_in,pd.Series) and isinstance(x_in.get('built_addon_zipfilename'),Path) and x_in.get('built_addon_zipfilename').exists() and isinstance(x_in.get('existing_addon_zipfilename'),Path) and x_in.get('existing_addon_zipfilename').exists() and (x_in.get('existing_addon_zipfilename').name!= x_in.get('built_addon_zipfilename').name or force_remove_existing):
 		print('Removing old addon: {} {}'.format(x_in.get('existing_addon_zipfilename').parent.name,x_in.get('existing_addon_zipfilename').name))
 		delete_file(x_in.get('existing_addon_zipfilename'))
 	return result
@@ -1028,6 +1029,11 @@ def parse_args(argv=None):
 		'--dont_check_existing_addons',
 		action='store_true',
 		help='Do not check for existing addons.   Beneficial if your just running this locally and want different versions of the addon.',
+	)
+	parser.add_argument(
+		'--force_remove_existing',
+		action='store_true',
+		help='Force removal of the old addon version.  Beneficial to ensure the old version is deleted if it exists.',
 	)
 	parser.add_argument(
 		'--dont_remove_large_addons',
