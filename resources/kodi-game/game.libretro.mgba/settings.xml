@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.mgba">
+		<category id="system" label="30018" help="30019">
+			<group id="1">
+				<setting id="mgba_gb_model" type="string" label="30001" help="30020">
+					<level>0</level>
+					<default>Autodetect</default>
+					<constraints>
+						<options>
+							<option>Autodetect</option>
+							<option>Game Boy</option>
+							<option>Super Game Boy</option>
+							<option>Game Boy Color</option>
+							<option>Super Game Boy Color</option>
+							<option>Game Boy Advance</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mgba_use_bios" type="string" label="30002" help="30021">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30022">ON</option>
+							<option label="30023">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mgba_skip_bios" type="string" label="30003" help="30024">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30023">OFF</option>
+							<option label="30022">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30025" help="30026">
+			<group id="1">
+				<setting id="mgba_gb_colors" type="string" label="30004" help="30027">
+					<level>0</level>
+					<default>Grayscale</default>
+					<constraints>
+						<options>
+							<option>Grayscale</option>
+							<option>DMG Green</option>
+							<option>GB Pocket</option>
+							<option>GB Light</option>
+							<option>GBC Brown ↑</option>
+							<option>GBC Red ↑A</option>
+							<option>GBC Dark Brown ↑B</option>
+							<option>GBC Pale Yellow ↓</option>
+							<option>GBC Orange ↓A</option>
+							<option>GBC Yellow ↓B</option>
+							<option>GBC Blue ←</option>
+							<option>GBC Dark Blue ←A</option>
+							<option>GBC Gray ←B</option>
+							<option>GBC Green →</option>
+							<option>GBC Dark Green →A</option>
+							<option>GBC Reverse →B</option>
+							<option>SGB 1-A</option>
+							<option>SGB 1-B</option>
+							<option>SGB 1-C</option>
+							<option>SGB 1-D</option>
+							<option>SGB 1-E</option>
+							<option>SGB 1-F</option>
+							<option>SGB 1-G</option>
+							<option>SGB 1-H</option>
+							<option>SGB 2-A</option>
+							<option>SGB 2-B</option>
+							<option>SGB 2-C</option>
+							<option>SGB 2-D</option>
+							<option>SGB 2-E</option>
+							<option>SGB 2-F</option>
+							<option>SGB 2-G</option>
+							<option>SGB 2-H</option>
+							<option>SGB 3-A</option>
+							<option>SGB 3-B</option>
+							<option>SGB 3-C</option>
+							<option>SGB 3-D</option>
+							<option>SGB 3-E</option>
+							<option>SGB 3-F</option>
+							<option>SGB 3-G</option>
+							<option>SGB 3-H</option>
+							<option>SGB 4-A</option>
+							<option>SGB 4-B</option>
+							<option>SGB 4-C</option>
+							<option>SGB 4-D</option>
+							<option>SGB 4-E</option>
+							<option>SGB 4-F</option>
+							<option>SGB 4-G</option>
+							<option>SGB 4-H</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mgba_gb_colors_preset" type="string" label="30005" help="30028">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30029">0</option>
+							<option label="30030">1</option>
+							<option label="30031">2</option>
+							<option label="30032">3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mgba_sgb_borders" type="string" label="30006" help="30033">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30022">ON</option>
+							<option label="30023">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30034" help="30035">
+			<group id="1">
+				<setting id="mgba_audio_low_pass_filter" type="string" label="30036" help="30037">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mgba_audio_low_pass_range" type="string" label="30038" help="30039">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<options>
+							<option label="30040">5</option>
+							<option label="30041">10</option>
+							<option label="30042">15</option>
+							<option label="30043">20</option>
+							<option label="30044">25</option>
+							<option label="30045">30</option>
+							<option label="30046">35</option>
+							<option label="30047">40</option>
+							<option label="30048">45</option>
+							<option label="30049">50</option>
+							<option label="30050">55</option>
+							<option label="30051">60</option>
+							<option label="30052">65</option>
+							<option label="30053">70</option>
+							<option label="30054">75</option>
+							<option label="30055">80</option>
+							<option label="30056">85</option>
+							<option label="30057">90</option>
+							<option label="30058">95</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30059" help="30060">
+			<group id="1">
+				<setting id="mgba_allow_opposing_directions" type="string" label="30011" help="30061">
+					<level>0</level>
+					<default>no</default>
+					<constraints>
+						<options>
+							<option label="30023">no</option>
+							<option label="30022">yes</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mgba_solar_sensor_level" type="string" label="30012" help="30062">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30063">sensor</option>
+							<option label="30064">0</option>
+							<option label="30065">1</option>
+							<option label="30066">2</option>
+							<option label="30067">3</option>
+							<option label="30068">4</option>
+							<option label="30069">5</option>
+							<option label="30070">6</option>
+							<option label="30071">7</option>
+							<option label="30072">8</option>
+							<option label="30073">9</option>
+							<option label="30074">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mgba_force_gbp" type="string" label="30013" help="30075">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30023">OFF</option>
+							<option label="30022">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="performance" label="30076" help="30077">
+			<group id="1">
+				<setting id="mgba_idle_optimization" type="string" label="30014" help="30078">
+					<level>0</level>
+					<default>Remove Known</default>
+					<constraints>
+						<options>
+							<option>Remove Known</option>
+							<option>Detect and Remove</option>
+							<option>Don&apos;t Remove</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mgba_frameskip" type="string" label="30015" help="30079">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.virtualjaguar"
+		name="Atari - Jaguar (Virtual Jaguar)"
+		version="3.12.0.61"
+		provider-name="Joseph Mattiello, David Raingeard, Shamus">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Atari - Jaguar</platforms>
+		<extensions>j64|jag|rom|abs|cof|bin|prg|cue|cdi|chd</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>virtualjaguar_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.virtualjaguar</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Atari - Jaguar (Virtual Jaguar)</summary>
+		<summary lang="da_DK">Atari - Jaguar (Virtual Jaguar)</summary>
+		<summary lang="en_GB">Atari - Jaguar (Virtual Jaguar)</summary>
+		<summary lang="es_ES">Atari - Jaguar (Virtual Jaguar)</summary>
+		<summary lang="ga">Atari - Jaguar (Virtual Jaguar)</summary>
+		<summary lang="it_IT">Atari - Jaguar (Virtual Jaguar)</summary>
+		<summary lang="ru_RU">Atari — Jaguar (Virtual Jaguar)</summary>
+		<summary lang="sv_SE">Atari - Jaguar (Virtual Jaguar)</summary>
+		<summary lang="zh_CN">雅达利 - Jaguar（Virtual Jaguar）</summary>
+		<description lang="cs_CZ">Virtual Jaguar je emulátor herní konzole Atari Jaguar.[CR][CR]Vychází z kódu, který uvolnil David Raingeard (Cal2) z někdejšího Potato Emulation.</description>
+		<description lang="da_DK">Virtual Jaguar er en emulator til Atari Jaguar videospilkonsollen.[CR][CR]Baseret på kode udgivet af David Raingeard (Cal2) af det, der plejede at være Potato Emulation.</description>
+		<description lang="de_DE">Virtual Jaguar ist ein Emulator für die Videospielkonsole Atari Jaguar, der auf dem von David Raingeard (Cal2) veröffentlichten Code der ehemaligen Potato Emulation basiert.</description>
+		<description lang="en_GB">Virtual Jaguar is an emulator for the Atari Jaguar video game console.[CR][CR]Based on code released by David Raingeard (Cal2) of what used to be Potato Emulation.</description>
+		<description lang="es_ES">Virtual Jaguar es un emulador para la videoconsola Atari Jaguar[CR][CR]Basado en el código publicado por David Raingeard (Cal2) de lo que solía ser Potato Emulation.</description>
+		<description lang="it_IT">Virtual Jaguar è un emulatore per la console Atari Jaguar.[CR][CR]Basato sul codice rilasciato da David Raingeard (Cal2), autore di quello che un tempo era Potato Emulation.</description>
+		<description lang="ru_RU">Virtual Jaguar — это эмулятор игровой консоли Atari Jaguar.[CR][CR]Основан на коде, выпущенном Дэвидом Рейнжаром (Cal2) из того, что раньше было Potato Emulation.</description>
+		<description lang="sv_SE">Virtual Jaguar är en emulator för videospelskonsolen Atari Jaguar.[CR][CR]Baserad på kod som släppts av David Raingeard (Cal2) från det som tidigare hette Potato Emulation.</description>
+		<description lang="zh_CN">Virtual Jaguar 是雅达利 Jaguar 视频游戏机的模拟器。[CR][CR]基于 David Raingeard（Cal2）发布的曾经是 Potato 模拟器的代码。</description>
+	</extension>
+</addon>

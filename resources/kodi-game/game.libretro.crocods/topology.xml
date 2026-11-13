@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port type="keyboard">
+    <accepts controller="game.controller.amstrad.keyboard"/>
+  </port>
+  <port type="controller" id="1">
+    <accepts controller="game.controller.amstrad.joystick"/>
+  </port>
+  <port type="controller" id="2">
+    <accepts controller="game.controller.amstrad.joystick"/>
+  </port>
+</logicaltopology>

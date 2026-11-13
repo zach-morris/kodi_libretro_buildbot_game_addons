@@ -1,0 +1,77 @@
+# game.libretro.mame2015 language file
+# Addon Name: game.libretro.mame2015
+# Addon id: game.libretro.mame2015
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mame2015\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-08-24 17:45i\n"
+"PO-Revision-Date: 2019-08-24 17:45i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (MAME 2014)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Late 2014/Early 2015 version of MAME (0.160-ish) for libretro. Compatible with MAME 0.160 sets."
+msgstr ""
+
+msgctxt "Addon Lifecyclestate"
+msgid "This add-on has been replaced by MAME 2015."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Read configuration"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Auto save/load states"
+msgstr ""
+
+msgctxt "#30003"
+msgid "XY device (Restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Enable throttle"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Enable cheats"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Hide nag screen"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Hide gameinfo screen"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Hide warnings screen"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Alternate render method"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Boot to OSD"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Boot from CLI"
+msgstr ""

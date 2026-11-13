@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.boom3">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="doom_game" type="string" label="30007" help="30045">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30046">auto</option>
+							<option label="30047">doom3</option>
+							<option label="30048">d3xp</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_shadow_smoothing" type="string" label="30008" help="30049">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_framerate" type="string" label="30001" help="30050">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30051">auto</option>
+							<option label="30052">50</option>
+							<option label="30053">60</option>
+							<option label="30054">72</option>
+							<option label="30055">75</option>
+							<option label="30056">90</option>
+							<option label="30057">100</option>
+							<option label="30058">119</option>
+							<option label="30059">120</option>
+							<option label="30060">144</option>
+							<option label="30061">155</option>
+							<option label="30062">160</option>
+							<option label="30063">165</option>
+							<option label="30064">180</option>
+							<option label="30065">200</option>
+							<option label="30066">240</option>
+							<option label="30067">244</option>
+							<option label="30068">300</option>
+							<option label="30069">360</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_unlocked_framerate" type="string" label="30022" help="30070">
+					<level>0</level>
+					<default>interpolation</default>
+					<constraints>
+						<options>
+							<option label="30071">interpolation</option>
+							<option label="30072">fixed</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_sound_samplerate" type="string" label="30009" help="30073">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30051">auto</option>
+							<option label="30074">32000</option>
+							<option label="30075">44100</option>
+							<option label="30076">48000</option>
+							<option label="30077">96000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_color_format" type="string" label="30010" help="30078">
+					<level>0</level>
+					<default>24bit</default>
+					<constraints>
+						<options>
+							<option label="30079">24bit</option>
+							<option label="30080">24bit-tonemapped</option>
+							<option label="30081">30bit-hdr</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_precision" type="string" label="30011" help="30082">
+					<level>0</level>
+					<default>10bit</default>
+					<constraints>
+						<options>
+							<option label="30083">10bit</option>
+							<option label="30084">fp16</option>
+							<option label="30085">fp32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_true_blend" type="string" label="30012" help="30086">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30087">enabled</option>
+							<option label="30088">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_luma_blend" type="string" label="30013" help="30089">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30088">disabled</option>
+							<option label="30087">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_headroom" type="string" label="30014" help="30090">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30087">enabled</option>
+							<option label="30088">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_particle_lights" type="string" label="30015" help="30091">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option label="30088">disabled</option>
+							<option label="30092">2</option>
+							<option label="30093">4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_specular_falloff" type="string" label="30023" help="30094">
+					<level>0</level>
+					<default>original</default>
+					<constraints>
+						<options>
+							<option label="30095">original</option>
+							<option label="30096">tailed</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_specular" type="string" label="30016" help="30097">
+					<level>0</level>
+					<default>moderate</default>
+					<constraints>
+						<options>
+							<option label="30088">disabled</option>
+							<option label="30098">moderate</option>
+							<option label="30099">strong</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_bloom" type="string" label="30017" help="30100">
+					<level>0</level>
+					<default>standard</default>
+					<constraints>
+						<options>
+							<option label="30088">disabled</option>
+							<option label="30101">subtle</option>
+							<option label="30102">standard</option>
+							<option label="30103">intense</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_bloom_select" type="string" label="30024" help="30104">
+					<level>0</level>
+					<default>classic</default>
+					<constraints>
+						<options>
+							<option>classic</option>
+							<option>curve knee</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_specular_aa" type="string" label="30025" help="30105">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_ssaa" type="string" label="30026" help="30106">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30107">2x2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_chromatic" type="string" label="30027" help="30108">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30109">subtle</option>
+							<option label="30110">strong</option>
+							<option label="30111">heavy</option>
+							<option label="30112">debug</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_halation" type="string" label="30028" help="30113">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30101">subtle</option>
+							<option label="30114">strong</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_bloom_convolution" type="string" label="30018" help="30115">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30088">disabled</option>
+							<option label="30087">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_bloom_range" type="string" label="30029" help="30116">
+					<level>0</level>
+					<default>standard</default>
+					<constraints>
+						<options>
+							<option label="30117">standard</option>
+							<option label="30118">wide</option>
+							<option label="30119">widest</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_particle_energy" type="string" label="30030" help="30120">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30121">bright</option>
+							<option label="30122">intense</option>
+							<option label="30123">blinding</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_spectral_mix" type="string" label="30031" help="30124">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_emissive" type="string" label="30032" help="30125">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30126">slight</option>
+							<option label="30127">subtle</option>
+							<option label="30128">strong</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_peak" type="string" label="30033" help="30129">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30130">auto</option>
+							<option label="30131">400</option>
+							<option label="30132">600</option>
+							<option label="30133">1000</option>
+							<option label="30134">1500</option>
+							<option label="30135">2000</option>
+							<option label="30136">4000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_expansion" type="string" label="30019" help="30137">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30138">disabled</option>
+							<option label="30139">inverse</option>
+							<option label="30140">hue</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_rolloff" type="string" label="30034" help="30141">
+					<level>0</level>
+					<default>reinhard</default>
+					<constraints>
+						<options>
+							<option label="30142">reinhard</option>
+							<option label="30143">rplain</option>
+							<option label="30144">rext</option>
+							<option label="30145">jodie</option>
+							<option label="30146">devlin</option>
+							<option label="30147">aces</option>
+							<option label="30148">acesfit</option>
+							<option label="30149">aces2</option>
+							<option label="30150">aces2full</option>
+							<option label="30151">hejl</option>
+							<option label="30152">filmicalu</option>
+							<option label="30153">filmiclog</option>
+							<option label="30154">hable</option>
+							<option label="30155">hable2017</option>
+							<option label="30156">lottes</option>
+							<option label="30157">gt</option>
+							<option label="30158">unreal</option>
+							<option label="30159">neutral</option>
+							<option label="30160">agx</option>
+							<option label="30161">drago</option>
+							<option label="30162">expo</option>
+							<option label="30163">tumblin</option>
+							<option label="30164">ward</option>
+							<option label="30165">schlick</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_audio_limiter" type="string" label="30035" help="30166">
+					<level>0</level>
+					<default>soft knee</default>
+					<constraints>
+						<options>
+							<option label="30167">soft knee</option>
+							<option label="30168">limiter</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_audio_headroom" type="string" label="30036" help="30169">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30170">0</option>
+							<option label="30171">-3</option>
+							<option label="30172">-6</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_aces2_surround" type="string" label="30037" help="30173">
+					<level>0</level>
+					<default>dim</default>
+					<constraints>
+						<options>
+							<option>dark</option>
+							<option>dim</option>
+							<option>average</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_aces2_gamut" type="string" label="30038" help="30174">
+					<level>0</level>
+					<default>rec2020</default>
+					<constraints>
+						<options>
+							<option label="30175">rec2020</option>
+							<option label="30176">p3</option>
+							<option label="30177">rec709</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_agx_look" type="string" label="30039" help="30178">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="571">default</option>
+							<option label="30223">punchy</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_gt_toe" type="string" label="30040" help="30179">
+					<level>0</level>
+					<default>0.22</default>
+					<constraints>
+						<options>
+							<option label="30180">0.10</option>
+							<option label="30181">0.16</option>
+							<option label="30182">0.22</option>
+							<option label="30183">0.30</option>
+							<option label="30184">0.40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_gt_shoulder" type="string" label="30041" help="30185">
+					<level>0</level>
+					<default>0.40</default>
+					<constraints>
+						<options>
+							<option label="30186">0.20</option>
+							<option label="30183">0.30</option>
+							<option label="30187">0.40</option>
+							<option label="30188">0.50</option>
+							<option label="30189">0.70</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_filmiclog_contrast" type="string" label="30042" help="30190">
+					<level>0</level>
+					<default>base</default>
+					<constraints>
+						<options>
+							<option label="30191">verylow</option>
+							<option label="30192">low</option>
+							<option label="30193">medium</option>
+							<option label="30194">base</option>
+							<option label="30195">medhigh</option>
+							<option label="30196">high</option>
+							<option label="30197">veryhigh</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_filmiclog_range" type="string" label="30043" help="30198">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option label="30199">4</option>
+							<option label="30200">6</option>
+							<option label="30201">8</option>
+							<option label="30202">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hdr_highlight_desat" type="string" label="30044" help="30203">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_hrtf" type="string" label="30021" help="30204">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30205">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_resolution" type="string" label="30002" help="30206">
+					<level>0</level>
+					<default>1920x1080</default>
+					<constraints>
+						<options>
+							<option label="30224">320x240</option>
+							<option label="30225">400x300</option>
+							<option label="30226">512x384</option>
+							<option label="30227">640x480</option>
+							<option label="30228">800x600</option>
+							<option label="30229">1024x768</option>
+							<option label="30230">1152x864</option>
+							<option label="30231">1280x1024</option>
+							<option label="30232">1600x1200</option>
+							<option label="30233">1280x720</option>
+							<option label="30234">1366x768</option>
+							<option label="30235">1440x900</option>
+							<option label="30236">1400x1050</option>
+							<option label="30237">1600x900</option>
+							<option label="30238">1680x1050</option>
+							<option label="30207">1920x1080</option>
+							<option label="30239">1920x1200</option>
+							<option label="30240">2048x1152</option>
+							<option label="30241">2560x1600</option>
+							<option label="30242">3200x2400</option>
+							<option label="30243">3840x2160</option>
+							<option label="30244">4096x2304</option>
+							<option label="30245">2880x1800</option>
+							<option label="30246">2560x1440</option>
+							<option label="30247">1440x1080</option>
+							<option label="30248">1280x800</option>
+							<option label="30249">2560x1080</option>
+							<option label="30250">3440x1440</option>
+							<option label="30251">3840x1600</option>
+							<option label="30252">5120x2160</option>
+							<option label="30253">3840x1080</option>
+							<option label="30254">5120x1440</option>
+							<option label="30255">7680x2160</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_machine_spec" type="string" label="30005" help="30208">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30209">auto</option>
+							<option label="30192">0</option>
+							<option label="30193">1</option>
+							<option label="30196">2</option>
+							<option label="30210">3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_invert_y_axis" type="string" label="30003" help="30211">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30087">enabled</option>
+							<option label="30088">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="doom_mouse_sensitivity" type="string" label="30006" help="30212">
+					<level>0</level>
+					<default>3.0</default>
+					<constraints>
+						<options>
+							<option label="30213">0.5</option>
+							<option label="30214">1.0</option>
+							<option label="30215">1.5</option>
+							<option label="30216">2.0</option>
+							<option label="30217">2.5</option>
+							<option label="30218">3.0</option>
+							<option label="30219">4.0</option>
+							<option label="30220">5.0</option>
+							<option label="30221">6.0</option>
+							<option label="30222">8.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

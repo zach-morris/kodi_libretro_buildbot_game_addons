@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.quasi88"
+		name="NEC - PC-88 series (QUASI88)"
+		version="0.6.4.45"
+		provider-name="Showzoh Fukunaga">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>NEC - PC-88 series</platforms>
+		<extensions>d88|m3u|t88|cmt</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>quasi88_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>BSD 3-Clause and MAME non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.quasi88</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">NEC - řada PC-8000 / PC-8800 (QUASI88)</summary>
+		<summary lang="da_DK">NEC - PC-8000 / PC-8800 serie (QUASI88)</summary>
+		<summary lang="en_GB">NEC - PC-88 series (QUASI88)</summary>
+		<summary lang="es_ES">NEC - Series PC-8000 / PC-8800 (QUASI88)</summary>
+		<summary lang="ga">NEC - sraith PC-8000 / PC-8800 (QUASI88)</summary>
+		<summary lang="ru_RU">NEC — серия PC-8000 / PC-8800 (QUASI88)</summary>
+		<summary lang="sv_SE">NEC - PC-8000 / PC-8800 series (QUASI88)</summary>
+		<summary lang="zh_CN">NEC - PC-8000 / PC-8800 系列（QUASI88）</summary>
+		<description lang="cs_CZ">QUASI88 je emulátor od Showzoha Fukunagy s licencí BSD 3-Clause. QUASI88 používá kód z MAME, XMAME a fmgen.</description>
+		<description lang="da_DK">QUASI88 er en emulator af Showzoh Fukunaga licenseret under BSD 3-klausulens licens. QUASI88 bruger kode fra MAME, XMAME og fmgen.</description>
+		<description lang="en_GB">QUASI88 is an emulator by Showzoh Fukunaga licensed under the BSD 3-Clause license. QUASI88 uses code from MAME, XMAME and fmgen.</description>
+		<description lang="es_ES">QUASI88 es un emulador de Showzoh Fukunaga licenciado bajo la licencia BSD 3-Clause. QUASI88 utiliza código de MAME, XMAME y fmgen.</description>
+		<description lang="ga">Is aithriseoir é QUASI88 ó Showzoh Fukunaga atá ceadúnaithe faoin gceadúnas BSD 3-Clásal. Úsáideann QUASI88 cód ó MAME, XMAME agus fmgen.</description>
+		<description lang="ru_RU">QUASI88 — это эмулятор от Showzoh Fukunaga, распространяемый под лицензией BSD 3-Clause. QUASI88 использует код из MAME, XMAME и fmgen.</description>
+		<description lang="sv_SE">QUASI88 är en emulator av Showzoh Fukunaga licensierad under BSD 3-Clause-licensen. QUASI88 använder kod från MAME, XMAME och fmgen.</description>
+		<description lang="zh_CN">QUASI88 是由 Showzoh Fukunaga 根据 BSD 3-Clause 许可证授权的模拟器。QUASI88 使用来自 MAME、XMAME 和 fmgen 的代码。</description>
+		<disclaimer lang="cs_CZ">Autor obrázku: NEC Retro</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: NEC Retro</disclaimer>
+		<disclaimer lang="en_GB">Image credit: NEC Retro</disclaimer>
+		<disclaimer lang="es_ES">Créditos de la imagen: NEC Retro</disclaimer>
+		<disclaimer lang="ga">Creidmheas íomhá: NEC Retro</disclaimer>
+		<disclaimer lang="ru_RU">Изображение предоставлено: NEC Retro</disclaimer>
+		<disclaimer lang="sv_SE">Bild: NEC Retro</disclaimer>
+		<disclaimer lang="zh_CN">图片来源：NEC Retro</disclaimer>
+	</extension>
+</addon>

@@ -1,0 +1,126 @@
+# game.libretro.race language file
+# Addon Name: game.libretro.race
+# Addon id: game.libretro.race
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.race\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 12:29i\n"
+"PO-Revision-Date: 2024-12-27 22:09+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-race/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "SNK - Neo Geo Pocket / Color (RACE)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "RACE is a Neo Geo Pocket (NGP) and Neo Geo Pocket Color (NGPC) emulator for multiple platforms."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Language (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Dark Filter Level (percent)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Real-Time Clock"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Audio Quality (Restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Sound Samplerate (Hint) (Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Specify which language to display when running content with dual language support."
+msgstr ""
+
+msgctxt "#30009"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30010"
+msgid "English"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Enable luminosity-based brightness reduction. May be used to avoid glare/eye strain when playing games with white backgrounds."
+msgstr ""
+
+msgctxt "#30012"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Manual' utilises the 'Frameskip Threshold (%)' setting."
+msgstr ""
+
+msgctxt "#30013"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30015"
+msgid "When 'Frameskip' is set to 'Manual', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Selects how the emulated real-time clock advances. 'Deterministic' counts emulated frames from a fixed base, so RTC reads are reproducible and safe for netplay, rewind and run-ahead. 'Real Time' reads the host clock directly (a live clock, but non-deterministic)."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Deterministic"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Real Time"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Selects the sound synthesis method. 'Fast' uses a lightweight per-sample mixer (default). 'Accurate' uses band-limited Blip synthesis that matches the Mednafen reference and removes high-frequency aliasing. The CPU cost of the accurate path is small (the audio is a minor fraction of total emulation time), but it is left off by default for maximum performance headroom on low-end hardware."
+msgstr ""
+
+msgctxt "#30020"
+msgid "Fast"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Accurate (Band-limited)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Selects the output sample rate of the real-time sound synthesis. The NGPC has no sample-based sound hardware, so there is no single 'native' rate; higher rates reduce latency, eliminate aliasing, avoid low-pass smearing and give better time-domain resolution, at a small increase in CPU cost. 'Auto' queries the frontend's target rate and picks the closest supported value."
+msgstr ""
+
+msgctxt "#30023"
+msgid "32KHz"
+msgstr ""
+
+msgctxt "#30024"
+msgid "44KHz"
+msgstr ""
+
+msgctxt "#30025"
+msgid "48KHz"
+msgstr ""

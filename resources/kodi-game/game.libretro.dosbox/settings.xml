@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.dosbox">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="dosbox_use_options" type="string" label="30001">
+					<level>0</level>
+					<default>true</default>
+					<constraints>
+						<options>
+							<option label="20122">true</option>
+							<option label="20424">false</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_adv_options" type="string" label="30002">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="20424">false</option>
+							<option label="20122">true</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_machine_type" type="string" label="30003">
+					<level>0</level>
+					<default>svga_s3</default>
+					<constraints>
+						<options>
+							<option>svga_s3</option>
+							<option>svga_et3000</option>
+							<option>svga_et4000</option>
+							<option>svga_paradise</option>
+							<option>vesa_nolfb</option>
+							<option>vesa_oldvbe</option>
+							<option>hercules</option>
+							<option>cga</option>
+							<option>tandy</option>
+							<option>pcjr</option>
+							<option>ega</option>
+							<option>vgaonly</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_scaler" type="string" label="30004">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30014">normal2x</option>
+							<option label="30015">normal3x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_emulated_mouse" type="string" label="30005">
+					<level>0</level>
+					<default>enable</default>
+					<constraints>
+						<options>
+							<option>enable</option>
+							<option>disable</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_emulated_mouse_deadzone" type="string" label="30006">
+					<level>0</level>
+					<default>5%</default>
+					<constraints>
+						<options>
+							<option>5%</option>
+							<option>10%</option>
+							<option>15%</option>
+							<option>20%</option>
+							<option>25%</option>
+							<option>30%</option>
+							<option>0%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_cpu_core" type="string" label="30007">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30016">normal</option>
+							<option label="30017">simple</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_cpu_type" type="string" label="30008">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30018">386</option>
+							<option label="30019">386_slow</option>
+							<option label="30020">486</option>
+							<option label="30021">486_slow</option>
+							<option label="30022">pentium_slow</option>
+							<option label="30023">386_prefetch</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_cpu_cycles_mode" type="string" label="30009">
+					<level>0</level>
+					<default>fixed</default>
+					<constraints>
+						<options>
+							<option>fixed</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_cpu_cycles_multiplier" type="string" label="30010">
+					<level>0</level>
+					<default>1000</default>
+					<constraints>
+						<options>
+							<option>1000</option>
+							<option>10000</option>
+							<option>100000</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_cpu_cycles" type="string" label="30011">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_sblaster_type" type="string" label="30012">
+					<level>0</level>
+					<default>sb16</default>
+					<constraints>
+						<options>
+							<option label="30024">sb16</option>
+							<option label="30025">sb1</option>
+							<option label="30026">sb2</option>
+							<option label="30027">sbpro1</option>
+							<option label="30028">sbpro2</option>
+							<option label="30029">gb</option>
+							<option label="231">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dosbox_pcspeaker" type="string" label="30013">
+					<level>0</level>
+					<default>false</default>
+					<constraints>
+						<options>
+							<option label="20424">false</option>
+							<option label="20122">true</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,94 @@
+# game.libretro.theodore language file
+# Addon Name: game.libretro.theodore
+# Addon id: game.libretro.theodore
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.theodore\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-02-03 13:46i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-theodore/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Thomson - MO/TO (Theodore)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Theodore is an emulator for Thomson MO/TO computers.[CR][CR]Thomson MO/TO is a family of 8-bit home computers produced by French company Thomson SA between 1982 and 1989."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Thomson model"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Auto run game"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Use game hash for autostart"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Display hint to start a game"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Virtual keyboard transparency"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Floppy write protection"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Tape write protection"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Dump printer data to file"
+msgstr ""
+
+msgctxt "#30009"
+msgid "TO8"
+msgstr ""
+
+msgctxt "#30010"
+msgid "TO8D"
+msgstr ""
+
+msgctxt "#30011"
+msgid "TO9"
+msgstr ""
+
+msgctxt "#30012"
+msgid "TO9+"
+msgstr ""
+
+msgctxt "#30013"
+msgid "MO5"
+msgstr ""
+
+msgctxt "#30014"
+msgid "MO6"
+msgstr ""
+
+msgctxt "#30015"
+msgid "PC128"
+msgstr ""
+
+msgctxt "#30016"
+msgid "TO7"
+msgstr ""
+
+msgctxt "#30017"
+msgid "TO7/70"
+msgstr ""

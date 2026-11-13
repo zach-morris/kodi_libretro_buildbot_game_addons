@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.opera"
+		name="The 3DO Company - 3DO (Opera)"
+		version="1.0.0.62"
+		provider-name="trapexit, JohnnyDude, FreeDO team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.3do" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>The 3DO Company - 3DO</platforms>
+		<extensions>iso|bin|chd|cue</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>opera_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>LGPL/Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.opera</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="da_DK">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="en_GB">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="es_ES">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="ga">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="it_IT">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="ru_RU">The 3DO Company — 3DO (Opera)</summary>
+		<summary lang="sv_SE">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="zh_CN">3DO 公司 - 3DO（Opera）</summary>
+		<description lang="cs_CZ">Opera emuluje videoherní systém 3DO Interactive Multiplayer z roku 1993, vyslovovaný „3-D-Oh“.[CR][CR]Opera je fork emulátoru 4DO, který vychází ze zdrojového kódu FreeDO.</description>
+		<description lang="da_DK">Opera emulerer 3DO Interactive Multiplayer videospilsystemet, ofte blot kaldet 3DO.[CR][CR]Opera er en fork af 4DO, som er baseret på FreeDO-kildekoden.</description>
+		<description lang="de_DE">Opera emuliert das Videospiel 3DO Interactive Multiplayer, oft auch einfach 3DO genannt.[CR][CR]Opera ist eine Abspaltung von 4DO, das auf dem FreeDO Quellcode basiert.</description>
+		<description lang="en_GB">Opera emulates the 1993 3DO Interactive Multiplayer video game system, pronounced 3-D-Oh.[CR][CR]Opera is a fork of 4DO, which is based on the FreeDO source code.</description>
+		<description lang="es_ES">Opera emula el sistema de videojuegos 3DO Interactive Multiplayer, a menudo llamado simplemente 3DO.[CR][CR]Opera es una bifurcación de 4DO, que se basa en el código fuente de FreeDO.</description>
+		<description lang="ga">Déanann Opera aithris ar chóras físchluichí il-imreora idirghníomhach 3DO ó 1993, ar a fhuaimnítear 3-D-Ó.[CR][CR]Is forc de 4DO é Opera, atá bunaithe ar an gcód foinse FreeDO.</description>
+		<description lang="it_IT">Opera emula il sistema videoludico 3DO Interactive Multiplayer del 1993, pronunciato 3-D-Oh.[CR][CR]Opera è un fork di 4DO, basato sul codice sorgente di FreeDO.</description>
+		<description lang="ru_RU">Opera эмулирует видеоигровую систему 3DO Interactive Multiplayer 1993 года, произносится как «3-D-O».[CR][CR]Opera — это форк 4DO, который основан на исходном коде FreeDO.</description>
+		<description lang="sv_SE">Opera emulerar 3DO Interactive Multiplayer-videospelsystemet från 1993, uttalas 3-D-Oh.[CR][CR]Opera är en fork av 4DO, som är baserad på FreeDO-källkoden.</description>
+		<description lang="zh_CN">Opera 模拟了 3DO 交互式多人视频游戏系统，通常简称为 3DO。[CR][CR]Opera 是 4DO 的一个分支，它基于 FreeDO 源代码。</description>
+	</extension>
+</addon>

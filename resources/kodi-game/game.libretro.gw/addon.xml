@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.gw"
+		name="Handheld Electronic (GW)"
+		version="1.6.3.40"
+		provider-name="Andre Leiradella">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Handheld Electronic</platforms>
+		<extensions>mgw</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>gw_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>zlib</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.gw</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Kapesní elektronická hra (GW)</summary>
+		<summary lang="da_DK">Handheld Electronic (GW)</summary>
+		<summary lang="en_GB">Handheld Electronic (GW)</summary>
+		<summary lang="es_ES">Handheld Electrónica (GW)</summary>
+		<summary lang="it_IT">Handheld Electronic (GW)</summary>
+		<summary lang="ko_KR">휴대용 전자 장치 (GW)</summary>
+		<summary lang="ru_RU">Handheld Electronic (GW)</summary>
+		<summary lang="sv_SE">Handheld Electronic (GW)</summary>
+		<summary lang="zh_CN">Handheld Electronic (GW)</summary>
+		<description lang="cs_CZ">GW je simulátor Game &amp; Watch.</description>
+		<description lang="da_DK">GW er en Game &amp; Watch-simulator.</description>
+		<description lang="de_DE">GW ist ein „Game &amp; Watch“-Simulator.</description>
+		<description lang="en_GB">GW is a Game &amp; Watch simulator.</description>
+		<description lang="es_ES">GW es un simulador de Game &amp; Watch.</description>
+		<description lang="it_IT">GW è un simulatore di giochi e orologi.</description>
+		<description lang="ko_KR">GW는 게임 &amp; 시계 시뮬레이터입니다.</description>
+		<description lang="ru_RU">GW — это симулятор Game &amp; Watch.</description>
+		<description lang="sv_SE">GW är en Game &amp; Watch-simulator.</description>
+		<description lang="zh_CN">GW 是一款 Game &amp; Watch 模拟器。</description>
+	</extension>
+</addon>

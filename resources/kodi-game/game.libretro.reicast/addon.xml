@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.reicast"
+		name="Sega - Dreamcast/Naomi (Flycast)"
+		version="0.1.0.22"
+		provider-name="flyinghead">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.dreamcast" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Dreamcast</platforms>
+		<extensions>chd|cdi|iso|elf|cue|gdi|lst|bin|dat|zip|7z|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>true</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.reicast</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<lifecycle type="broken" lang="en_GB">This add-on has been renamed from Reicast to Flycast.</lifecycle>
+		<summary lang="da_DK">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="en_GB">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="es_ES">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<description lang="en_GB">Reicast is a multi-platform Sega Dreamcast emulator.[CR][CR]This add-on is now marked as broken. Please use Flycast.</description>
+		<description lang="es_ES">Reicast es un emulador multiplataforma de Sega Dreamcast.</description>
+		<lifecyclestate type="broken" lang="en_GB">This add-on has been renamed from Reicast to Flycast.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">Este add-on ha sido renombrado de Reicast a Flycast.</lifecyclestate>
+	</extension>
+</addon>

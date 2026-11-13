@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.fmsx"
+		name="Microsoft - MSX (fMSX)"
+		version="6.0.0.52"
+		provider-name="Marat Fayzullin">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.msx.keyboard" version="1.0.0"/>
+		<import addon="game.controller.msx.joystick" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Microsoft - MSX</platforms>
+		<extensions>rom|mx1|mx2|dsk|fdi|cas|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fmsx_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fmsx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Microsoft - MSX (fMSX)</summary>
+		<summary lang="da_DK">Microsoft - MSX (fMSX)</summary>
+		<summary lang="en_GB">Microsoft - MSX (fMSX)</summary>
+		<summary lang="es_ES">Microsoft - MSX (fMSX)</summary>
+		<summary lang="ga">Microsoft - MSX (fMSX)</summary>
+		<summary lang="it_IT">Microsoft - MSX (fMSX)</summary>
+		<summary lang="ru_RU">Microsoft — MSX (fMSX)</summary>
+		<summary lang="sv_SE">Microsoft - MSX (fMSX)</summary>
+		<summary lang="zh_CN">Microsoft - MSX (fMSX)</summary>
+		<description lang="cs_CZ">fMSX je emulátor MSX napsaný Maratem Fayzullinem. Emuluje 8bitové domácí počítače MSX, MSX2 a MSX2+.</description>
+		<description lang="da_DK">fMSX er en MSX-emulator skrevet af Marat Fayzullin. Den emulerer MSX, MSX2 og MSX2+ 8-bit hjemmecomputere.</description>
+		<description lang="de_DE">fMSX ist ein von Marat Fayzullin geschriebener MSX-Emulator. Er emuliert MSX, MSX2 und MSX2+ 8-Bit-Heimcomputer.</description>
+		<description lang="en_GB">fMSX is a MSX emulator written by Marat Fayzullin. It emulates MSX, MSX2, and MSX2+ 8-bit home computers.</description>
+		<description lang="es_ES">fMSX es un emulador de MSX escrito por Marat Fayzullin. Emula ordenadores domésticos de 8 bits MSX, MSX2 y MSX2+.</description>
+		<description lang="ga">Is aithriseoir MSX é fMSX a scríobh Marat Fayzullin. Déanann sé aithris ar ríomhairí baile 8-giotán MSX, MSX2, agus MSX2+.</description>
+		<description lang="it_IT">fMSX è un emulatore MSX scritto da Marat Fayzullin. Emula i computer domestici a 8 bit MSX, MSX2 e MSX2+.</description>
+		<description lang="ru_RU">fMSX — это эмулятор MSX, написанный Маратом Файзуллиным. Он эмулирует 8-битные домашние компьютеры MSX, MSX2 и MSX2+.</description>
+		<description lang="sv_SE">fMSX är en MSX-emulator skriven av Marat Fayzullin. Den emulerar MSX, MSX2 och MSX2+ 8-bitars hemdatorer.</description>
+		<description lang="zh_CN">fMSX 是由 Marat Fayzullin 编写的 MSX 模拟器。它模拟 MSX、MSX2 和 MSX2+ 8位家用计算机。</description>
+		<disclaimer lang="cs_CZ">Autor obrázku: Garage Research Emulators</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: Garage Research Emulators</disclaimer>
+		<disclaimer lang="de_DE">Bildnachweis: Garage Research Emulators</disclaimer>
+		<disclaimer lang="en_GB">Image credit: Garage Research Emulators</disclaimer>
+		<disclaimer lang="es_ES">Créditos de la imagen: Garage Research Emulators</disclaimer>
+		<disclaimer lang="ga">Creidmheas íomhá: Aithriseoirí Taighde Garáiste</disclaimer>
+		<disclaimer lang="it_IT">Immagine per gentile concessione di: Garage Research Emulators</disclaimer>
+		<disclaimer lang="ru_RU">Изображение предоставлено: Garage Research Emulators</disclaimer>
+		<disclaimer lang="sv_SE">Bild: Garage Research Emulators</disclaimer>
+		<disclaimer lang="zh_CN">图片来源：Garage Research 模拟器</disclaimer>
+	</extension>
+</addon>

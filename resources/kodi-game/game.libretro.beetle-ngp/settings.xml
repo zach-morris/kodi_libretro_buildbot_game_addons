@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.beetle-ngp">
+		<category id="system" label="30002">
+			<group id="1">
+				<setting id="ngp_language" type="string" label="30001" help="30003">
+					<level>0</level>
+					<default>english</default>
+					<constraints>
+						<options>
+							<option>english</option>
+							<option>japanese</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

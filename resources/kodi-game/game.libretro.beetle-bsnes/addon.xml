@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-bsnes"
+		name="Nintendo - SNES / SFC (Beetle bsnes)"
+		version="0.9.26.41"
+		provider-name="byuu, Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|fig|bs|st|sfc</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mednafen_snes_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-bsnes</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="ko_KR">닌텐도 - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="ru_RU">Nintendo - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (Beetle bsnes)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC（Beetle bSNES）</summary>
+		<description lang="cs_CZ">Beetle bSNES je modul SNES emulátoru Beetle, odvozeného od Mednafenu. Samotný modul SNES v Mednafenu je odvozen od bSNES v0.59.</description>
+		<description lang="da_DK">Beetle bSNES er SNES-modulet fra Beetle, en fork af Mednafen. Mednafens SNES-modul er i sig selv en fork af bSNES v0.59.</description>
+		<description lang="de_DE">Beetle bSNES ist das SNES-Modul von Beetle, einem Fork von Mednafen. Mednafens SNES-Modul selbst ist ein Fork von bSNES v0.59.</description>
+		<description lang="en_GB">Beetle bSNES is the SNES module of Beetle, a fork of Mednafen. Mednafen&apos;s SNES module itself is a fork of bSNES v0.59.</description>
+		<description lang="es_ES">Beetle bSNES es el módulo SNES de Beetle, una bifurcación de Mednafen. El propio módulo SNES de Mednafen es a su vez una bifurcación de bSNES v0.59.</description>
+		<description lang="ga">Is é Beetle bSNES an modúl SNES de chuid Beetle, forc de Mednafen. Is forc de bSNES v0.59 é modúl SNES Mednafen féin.</description>
+		<description lang="it_IT">Beetle bSNES è il modulo SNES di Beetle, un fork di Mednafen. Lo stesso modulo SNES di Mednafen è un fork di bSNES v0.59.</description>
+		<description lang="ko_KR">비틀 bSNES는 Mednafen의 포크인 비틀의 SNES 모듈입니다. Mednafen의 SNES 모듈 자체는 bSNES v0.59의 포크입니다.</description>
+		<description lang="ru_RU">Beetle bSNES — это SNES-модуль Beetle, ответвления Mednafen. SNES-модуль Mednafen, в свою очередь, является ответвлением bSNES v0.59.</description>
+		<description lang="sv_SE">Beetle bSNES är SNES-modulen i Beetle, en förgrening av Mednafen. Mednafens SNES-modul i sig är en avknoppning av bSNES v0.59.</description>
+		<description lang="zh_CN">Beetle bSNES 是 Beetle 的 SNES 模块，是 Mednafen 的一个分支。Mednafen 的 SNES 模块本身又是 bSNES v0.59 的一个分支。</description>
+		<disclaimer lang="cs_CZ">S láskou na památku Near / Byuu</disclaimer>
+		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
+		<disclaimer lang="de_DE">In liebevoller Erinnerung an Near / Byuu</disclaimer>
+		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
+		<disclaimer lang="es_ES">En cariñoso recuerdo de Near / Byuu</disclaimer>
+		<disclaimer lang="ga">I ngrá le Near / Byuu</disclaimer>
+		<disclaimer lang="it_IT">In amorevole ricordo di Near / Byuu</disclaimer>
+		<disclaimer lang="ko_KR">Near / Byuu의 사랑을 기억하며</disclaimer>
+		<disclaimer lang="ru_RU">В память о Near / Byuu</disclaimer>
+		<disclaimer lang="sv_SE">Till kärleksfullt minne av Near / Byuu</disclaimer>
+		<disclaimer lang="zh_CN">怀念 Near / Byuu</disclaimer>
+	</extension>
+</addon>

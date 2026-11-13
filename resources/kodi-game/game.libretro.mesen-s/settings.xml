@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.mesen-s">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="mesen-s_ntsc_filter" type="string" label="30001">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="30015">Composite (Blargg)</option>
+							<option label="30016">S-Video (Blargg)</option>
+							<option label="30017">RGB (Blargg)</option>
+							<option label="30018">Monochrome (Blargg)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_region" type="string" label="30002">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30019">NTSC</option>
+							<option label="30020">PAL</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_gbmodel" type="string" label="30003">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30021">Game Boy</option>
+							<option label="30022">Game Boy Color</option>
+							<option label="30023">Super Game Boy</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_sgb2" type="string" label="30004">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_overscan_vertical" type="string" label="30005">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30024">8px</option>
+							<option label="30025">16px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_overscan_horizontal" type="string" label="30006">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30024">8px</option>
+							<option label="30025">16px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_aspect_ratio" type="string" label="30007">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30026">No Stretching</option>
+							<option label="30019">NTSC</option>
+							<option label="30020">PAL</option>
+							<option label="30027">4:3</option>
+							<option label="30028">16:9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_blend_high_res" type="string" label="30008">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_cubic_interpolation" type="string" label="30009">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_overclock" type="string" label="30010">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30029">Low</option>
+							<option label="30030">Medium</option>
+							<option label="30031">High</option>
+							<option label="30032">Very High</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_overclock_type" type="string" label="30011">
+					<level>0</level>
+					<default>Before NMI</default>
+					<constraints>
+						<options>
+							<option>Before NMI</option>
+							<option>After NMI</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_superfx_overclock" type="string" label="30012">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>100%</option>
+							<option>200%</option>
+							<option>300%</option>
+							<option>400%</option>
+							<option>500%</option>
+							<option>1000%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_ramstate" type="string" label="30013">
+					<level>0</level>
+					<default>Random Values (Default)</default>
+					<constraints>
+						<options>
+							<option>Random Values (Default)</option>
+							<option>All 0s</option>
+							<option>All 1s</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen-s_hle_coprocessor" type="string" label="30014">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

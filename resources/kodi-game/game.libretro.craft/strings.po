@@ -1,0 +1,62 @@
+# game.libretro.craft language file
+# Addon Name: game.libretro.craft
+# Addon id: game.libretro.craft
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.craft\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 12:42i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-craft/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Minecraft (Craft)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Craft is a simple Minecraft clone written in C using modern OpenGL."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Image credit: Aaron Smith"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Resolution (restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Show info text"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Jumping Flash mode"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Field of view"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Draw distance"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Inverted aim"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Right analog sensitivity"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Analog deadzone size"
+msgstr ""

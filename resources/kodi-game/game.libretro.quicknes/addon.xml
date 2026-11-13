@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.quicknes"
+		name="Nintendo - NES / Famicom (QuickNES)"
+		version="1.0.0.55"
+		provider-name="blargg, kode54">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - NES / Famicom</platforms>
+		<extensions>nes</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>quicknes_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>LGPLv2.1+</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.quicknes</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - NES / Famicom (QuickNES)</summary>
+		<summary lang="da_DK">Nintendo - NES / Famicom (QuickNES)</summary>
+		<summary lang="en_GB">Nintendo - NES / Famicom (QuickNES)</summary>
+		<summary lang="es_ES">Nintendo - NES / Famicom (QuickNES)</summary>
+		<summary lang="ga">Nintendo - NES / Famicom (QuickNES)</summary>
+		<summary lang="it_IT">Nintendo - NES / Famicom (QuickNES)</summary>
+		<summary lang="ru_RU">Nintendo — NES / Famicom (QuickNES)</summary>
+		<summary lang="sv_SE">Nintendo - NES / Famicom (QuickNES)</summary>
+		<summary lang="zh_CN">任天堂 - NES / Famicom (QuickNES)</summary>
+		<description lang="cs_CZ">Port knihovny jádra QuickNES, původně od Shaye Greena, výrazně upravený. QuickNES je novější emulátor, který má zřejmě dobrou kompatibilitu.</description>
+		<description lang="da_DK">En port af QuickNES-kernebiblioteket, oprindeligt af Shay Green, stærkt modificeret. QuickNES er en nyere emulator, der ser ud til at have god kompatibilitet.</description>
+		<description lang="de_DE">Eine Portierung der QuickNES-Corebibliothek, ursprünglich von Shay Green, stark verändert. QuickNES ist ein neuerer Emulator, der eine gute Kompatibilität zu haben scheint.</description>
+		<description lang="en_GB">A port of the QuickNES core library, originally by Shay Green, heavily modified. QuickNES is a newer emulator that seems to have good compatibility.</description>
+		<description lang="es_ES">Una adaptación de la biblioteca principal de QuickNES, originalmente de Shay Green, muy modificada. QuickNES es un emulador más reciente que parece tener buena compatibilidad.</description>
+		<description lang="ga">Port de chroíleabharlann QuickNES, arna chruthú ar dtús ag Shay Green, atá modhnaithe go mór. Is aithriseoir nua é QuickNES a bhfuil an chuma air go bhfuil comhoiriúnacht mhaith aige.</description>
+		<description lang="it_IT">Una versione modificata della libreria principale di QuickNES, originariamente sviluppata da Shay Green. QuickNES è un emulatore più recente che sembra avere una buona compatibilità.</description>
+		<description lang="ru_RU">Порт библиотеки ядра QuickNES, изначально созданной Шеем Грином, сильно модифицированный. QuickNES — это более новый эмулятор, который, судя по всему, обладает хорошей совместимостью.</description>
+		<description lang="sv_SE">En portning av QuickNES kärnbibliotek, ursprungligen av Shay Green, kraftigt modifierad. QuickNES är en nyare emulator som verkar ha god kompatibilitet.</description>
+		<description lang="zh_CN">QuickNES 核心库的一个迁移，最初由 Shay Green 提供，经过了大量修改。QuickNES 是一种新的模拟器，似乎具有良好的兼容性。</description>
+	</extension>
+</addon>

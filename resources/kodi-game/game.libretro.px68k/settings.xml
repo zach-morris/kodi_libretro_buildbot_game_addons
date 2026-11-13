@@ -1,0 +1,4697 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.px68k">
+		<category id="system" label="30027" help="30028">
+			<group id="1">
+				<setting id="px68k_cpu_emulation" type="string" label="30068" help="30069">
+					<level>0</level>
+					<default>C68K (Fast)</default>
+					<constraints>
+						<options>
+							<option>C68K (Fast)</option>
+							<option>Musashi (Slower)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_cpuspeed" type="string" label="30002" help="30030">
+					<level>0</level>
+					<default>10Mhz</default>
+					<constraints>
+						<options>
+							<option>10Mhz</option>
+							<option>16Mhz</option>
+							<option>25Mhz</option>
+							<option>33Mhz (OC)</option>
+							<option>66Mhz (OC)</option>
+							<option>100Mhz (OC)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_bg_wait" type="string" label="30070" help="30071">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_ramsize" type="string" label="30003" help="30031">
+					<level>0</level>
+					<default>2MB</default>
+					<constraints>
+						<options>
+							<option>1MB</option>
+							<option>2MB</option>
+							<option>3MB</option>
+							<option>4MB</option>
+							<option>5MB</option>
+							<option>6MB</option>
+							<option>7MB</option>
+							<option>8MB</option>
+							<option>9MB</option>
+							<option>10MB</option>
+							<option>11MB</option>
+							<option>12MB</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30072" help="30073">
+			<group id="1">
+				<setting id="px68k_aspect_ratio" type="string" label="30074" help="30075">
+					<level>0</level>
+					<default>4:3</default>
+					<constraints>
+						<options>
+							<option label="30076">4:3</option>
+							<option label="30077">x68000</option>
+							<option label="30078">1:1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_adjust_frame_rates" type="string" label="30019" help="30079">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_frameskip" type="string" label="30017" help="30054">
+					<level>0</level>
+					<default>Full Frame</default>
+					<constraints>
+						<options>
+							<option>Full Frame</option>
+							<option>1/2 Frame</option>
+							<option>1/3 Frame</option>
+							<option>1/4 Frame</option>
+							<option>1/5 Frame</option>
+							<option>1/6 Frame</option>
+							<option>1/8 Frame</option>
+							<option>1/16 Frame</option>
+							<option>1/32 Frame</option>
+							<option>1/60 Frame</option>
+							<option>Auto Frame Skip</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30038" help="30039">
+			<group id="1">
+				<setting id="px68k_joy_mouse" type="string" label="30080" help="30081">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_joy2mouse_analog_speed" type="string" label="30082" help="30083">
+					<level>0</level>
+					<default>12</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>4</option>
+							<option>6</option>
+							<option>8</option>
+							<option>10</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_joy2mouse_analog_deadzone" type="string" label="30084" help="30085">
+					<level>0</level>
+					<default>12.5</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>12.5</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_joy2mouse_digital_speed" type="string" label="30086" help="30087">
+					<level>0</level>
+					<default>6</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>8</option>
+							<option>10</option>
+							<option>12</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_osd_keyboard_theme" type="string" label="30088" help="30089">
+					<level>0</level>
+					<default>3D_dark</default>
+					<constraints>
+						<options>
+							<option label="30090">flat_light</option>
+							<option label="30091">flat_dark</option>
+							<option label="30092">3D_light</option>
+							<option label="30093">3D_dark</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_osd_keyboard_labels" type="string" label="30094" help="30095">
+					<level>0</level>
+					<default>latin</default>
+					<constraints>
+						<options>
+							<option label="30096">latin</option>
+							<option label="30097">japanese</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_osd_keyboard_layout" type="string" label="30098" help="30099">
+					<level>0</level>
+					<default>fullscreen</default>
+					<constraints>
+						<options>
+							<option label="30100">game_above</option>
+							<option label="30101">fullscreen</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_osd_keyboard_opacity" type="string" label="30102" help="30103">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30104">0</option>
+							<option label="30105">5</option>
+							<option label="30106">10</option>
+							<option label="30107">15</option>
+							<option label="30108">20</option>
+							<option label="30109">25</option>
+							<option label="30110">30</option>
+							<option label="30111">35</option>
+							<option label="30112">40</option>
+							<option label="30113">45</option>
+							<option label="30114">50</option>
+							<option label="30115">55</option>
+							<option label="30116">60</option>
+							<option label="30117">65</option>
+							<option label="30118">70</option>
+							<option label="30119">75</option>
+							<option label="30120">80</option>
+							<option label="30121">85</option>
+							<option label="30122">90</option>
+							<option label="30123">95</option>
+							<option label="30124">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_osd_keyboard_cursor_tint" type="string" label="30125" help="30126">
+					<level>0</level>
+					<default>fff199</default>
+					<constraints>
+						<options>
+							<option label="30127">off</option>
+							<option label="30128">ffffff</option>
+							<option label="30129">a0a0a0</option>
+							<option label="30130">000000</option>
+							<option label="30131">ff9999</option>
+							<option label="30132">ff0000</option>
+							<option label="30133">8e0b0b</option>
+							<option label="30134">ffc999</option>
+							<option label="30135">ff7700</option>
+							<option label="30136">8e480b</option>
+							<option label="30137">fff199</option>
+							<option label="30138">ffdd00</option>
+							<option label="30139">8e7c0b</option>
+							<option label="30140">99ff99</option>
+							<option label="30141">00ff00</option>
+							<option label="30142">0b8e0b</option>
+							<option label="30143">99ffff</option>
+							<option label="30144">00ffff</option>
+							<option label="30145">0b8e8e</option>
+							<option label="30146">99b8ff</option>
+							<option label="30147">004cff</option>
+							<option label="30148">0b328e</option>
+							<option label="30149">cf99ff</option>
+							<option label="30150">8800ff</option>
+							<option label="30151">510b8e</option>
+							<option label="30152">ff99e0</option>
+							<option label="30153">ff00b2</option>
+							<option label="30154">8e0b67</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_osd_keyboard_cursor_frame" type="string" label="30155" help="30156">
+					<level>0</level>
+					<default>ffffff</default>
+					<constraints>
+						<options>
+							<option label="30127">off</option>
+							<option label="30128">ffffff</option>
+							<option label="30129">a0a0a0</option>
+							<option label="30130">000000</option>
+							<option label="30131">ff9999</option>
+							<option label="30132">ff0000</option>
+							<option label="30133">8e0b0b</option>
+							<option label="30134">ffc999</option>
+							<option label="30135">ff7700</option>
+							<option label="30136">8e480b</option>
+							<option label="30137">fff199</option>
+							<option label="30138">ffdd00</option>
+							<option label="30139">8e7c0b</option>
+							<option label="30140">99ff99</option>
+							<option label="30141">00ff00</option>
+							<option label="30142">0b8e0b</option>
+							<option label="30143">99ffff</option>
+							<option label="30144">00ffff</option>
+							<option label="30145">0b8e8e</option>
+							<option label="30146">99b8ff</option>
+							<option label="30147">004cff</option>
+							<option label="30148">0b328e</option>
+							<option label="30149">cf99ff</option>
+							<option label="30150">8800ff</option>
+							<option label="30151">510b8e</option>
+							<option label="30152">ff99e0</option>
+							<option label="30153">ff00b2</option>
+							<option label="30154">8e0b67</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_osd_keyboard_hover" type="string" label="30157" help="30158">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30159">enabled</option>
+							<option label="30160">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_osd_keyboard_feedback" type="string" label="30161" help="30162">
+					<level>0</level>
+					<default>full</default>
+					<constraints>
+						<options>
+							<option label="30127">off</option>
+							<option label="30163">flash</option>
+							<option label="30164">full</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_key_repeat_delay" type="string" label="30165" help="30166">
+					<level>0</level>
+					<default>machine</default>
+					<constraints>
+						<options>
+							<option label="30167">machine</option>
+							<option label="30168">off</option>
+							<option label="30169">200</option>
+							<option label="30170">300</option>
+							<option label="30171">400</option>
+							<option label="30172">500</option>
+							<option label="30173">700</option>
+							<option label="30174">1000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_key_repeat_interval" type="string" label="30175" help="30176">
+					<level>0</level>
+					<default>machine</default>
+					<constraints>
+						<options>
+							<option label="30167">machine</option>
+							<option label="30177">30</option>
+							<option label="30178">50</option>
+							<option label="30179">75</option>
+							<option label="30180">100</option>
+							<option label="30181">150</option>
+							<option label="30169">200</option>
+							<option label="30170">300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="p1_joy2key" label="30182" help="30183">
+			<group id="1">
+				<setting id="px68k_j2k_p1_up" type="string" label="30184" help="30185">
+					<level>0</level>
+					<default>up</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_down" type="string" label="30296" help="30185">
+					<level>0</level>
+					<default>down</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_left" type="string" label="30297" help="30185">
+					<level>0</level>
+					<default>left</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_right" type="string" label="30298" help="30185">
+					<level>0</level>
+					<default>right</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_select" type="string" label="30299" help="30185">
+					<level>0</level>
+					<default>esc</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_start" type="string" label="30300" help="30185">
+					<level>0</level>
+					<default>xf1</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_a" type="string" label="30301" help="30185">
+					<level>0</level>
+					<default>z</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_b" type="string" label="30302" help="30185">
+					<level>0</level>
+					<default>x</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_x" type="string" label="30303" help="30185">
+					<level>0</level>
+					<default>x</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_y" type="string" label="30304" help="30185">
+					<level>0</level>
+					<default>z</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_l" type="string" label="30305" help="30185">
+					<level>0</level>
+					<default>opt1</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_r" type="string" label="30306" help="30185">
+					<level>0</level>
+					<default>opt2</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_l2" type="string" label="30307" help="30185">
+					<level>0</level>
+					<default>menu</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_r2" type="string" label="30308" help="30185">
+					<level>0</level>
+					<default>osd_keyboard</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_l3" type="string" label="30309" help="30185">
+					<level>0</level>
+					<default>mouse_btn1</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p1_r3" type="string" label="30310" help="30185">
+					<level>0</level>
+					<default>mouse_btn2</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30189">mouse_btn1</option>
+							<option label="30190">mouse_btn2</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="p2_joy2key" label="30311" help="30312">
+			<group id="1">
+				<setting id="px68k_j2k_p2_up" type="string" label="30313" help="30185">
+					<level>0</level>
+					<default>up</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_down" type="string" label="30314" help="30185">
+					<level>0</level>
+					<default>down</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_left" type="string" label="30315" help="30185">
+					<level>0</level>
+					<default>left</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_right" type="string" label="30316" help="30185">
+					<level>0</level>
+					<default>right</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_select" type="string" label="30317" help="30185">
+					<level>0</level>
+					<default>esc</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_start" type="string" label="30318" help="30185">
+					<level>0</level>
+					<default>xf1</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_a" type="string" label="30319" help="30185">
+					<level>0</level>
+					<default>z</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_b" type="string" label="30320" help="30185">
+					<level>0</level>
+					<default>x</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_x" type="string" label="30321" help="30185">
+					<level>0</level>
+					<default>x</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_y" type="string" label="30322" help="30185">
+					<level>0</level>
+					<default>z</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_l" type="string" label="30323" help="30185">
+					<level>0</level>
+					<default>opt1</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_r" type="string" label="30324" help="30185">
+					<level>0</level>
+					<default>opt2</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_l2" type="string" label="30325" help="30185">
+					<level>0</level>
+					<default>menu</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_r2" type="string" label="30326" help="30185">
+					<level>0</level>
+					<default>space</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_l3" type="string" label="30327" help="30185">
+					<level>0</level>
+					<default>touroku</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_j2k_p2_r3" type="string" label="30328" help="30185">
+					<level>0</level>
+					<default>shift</default>
+					<constraints>
+						<options>
+							<option label="30186">none</option>
+							<option label="30187">menu</option>
+							<option label="30188">osd_keyboard</option>
+							<option label="30191">esc</option>
+							<option label="30192">1</option>
+							<option label="30193">2</option>
+							<option label="30194">3</option>
+							<option label="30195">4</option>
+							<option label="30196">5</option>
+							<option label="30197">6</option>
+							<option label="30198">7</option>
+							<option label="30199">8</option>
+							<option label="30200">9</option>
+							<option label="30201">0</option>
+							<option label="30202">minus</option>
+							<option label="30203">equals</option>
+							<option label="30204">yen</option>
+							<option label="30205">backspace</option>
+							<option label="30206">tab</option>
+							<option label="30207">q</option>
+							<option label="30208">w</option>
+							<option label="30209">e</option>
+							<option label="30210">r</option>
+							<option label="30211">t</option>
+							<option label="30212">y</option>
+							<option label="30213">u</option>
+							<option label="30214">i</option>
+							<option label="30215">o</option>
+							<option label="30216">p</option>
+							<option label="30217">at</option>
+							<option label="30218">lbracket</option>
+							<option label="30219">return</option>
+							<option label="30220">a</option>
+							<option label="30221">s</option>
+							<option label="30222">d</option>
+							<option label="30223">f</option>
+							<option label="30224">g</option>
+							<option label="30225">h</option>
+							<option label="30226">j</option>
+							<option label="30227">k</option>
+							<option label="30228">l</option>
+							<option label="30229">semicolon</option>
+							<option label="30230">colon</option>
+							<option label="30231">rbracket</option>
+							<option label="30232">z</option>
+							<option label="30233">x</option>
+							<option label="30234">c</option>
+							<option label="30235">v</option>
+							<option label="30236">b</option>
+							<option label="30237">n</option>
+							<option label="30238">m</option>
+							<option label="30239">comma</option>
+							<option label="30240">period</option>
+							<option label="30241">slash</option>
+							<option label="30242">underquote</option>
+							<option label="30243">space</option>
+							<option label="30244">home</option>
+							<option label="30245">delete</option>
+							<option label="30246">roll_up</option>
+							<option label="30247">roll_down</option>
+							<option label="30248">undo</option>
+							<option label="30249">left</option>
+							<option label="30250">up</option>
+							<option label="30251">right</option>
+							<option label="30252">down</option>
+							<option label="30253">clear</option>
+							<option label="30254">kp_divide</option>
+							<option label="30255">kp_multiply</option>
+							<option label="30256">kp_minus</option>
+							<option label="30257">kp7</option>
+							<option label="30258">kp8</option>
+							<option label="30259">kp9</option>
+							<option label="30260">kp_plus</option>
+							<option label="30261">kp4</option>
+							<option label="30262">kp5</option>
+							<option label="30263">kp6</option>
+							<option label="30264">kp_equals</option>
+							<option label="30265">kp1</option>
+							<option label="30266">kp2</option>
+							<option label="30267">kp3</option>
+							<option label="30268">kp_enter</option>
+							<option label="30269">kp0</option>
+							<option label="30270">kp_comma</option>
+							<option label="30271">kp_period</option>
+							<option label="30272">symbol</option>
+							<option label="30273">touroku</option>
+							<option label="30274">help</option>
+							<option label="30059">xf1</option>
+							<option label="30060">xf2</option>
+							<option label="30061">xf3</option>
+							<option label="30062">xf4</option>
+							<option label="30063">xf5</option>
+							<option label="30275">kana</option>
+							<option label="30276">roman</option>
+							<option label="30277">enter_code</option>
+							<option label="30278">capslock</option>
+							<option label="30279">insert</option>
+							<option label="30280">hiragana</option>
+							<option label="30281">fullwidth</option>
+							<option label="30282">break</option>
+							<option label="30283">copy</option>
+							<option label="30066">f1</option>
+							<option label="30067">f2</option>
+							<option label="30284">f3</option>
+							<option label="30285">f4</option>
+							<option label="30286">f5</option>
+							<option label="30287">f6</option>
+							<option label="30288">f7</option>
+							<option label="30289">f8</option>
+							<option label="30290">f9</option>
+							<option label="30291">f10</option>
+							<option label="30292">shift</option>
+							<option label="30293">ctrl</option>
+							<option label="30294">opt1</option>
+							<option label="30295">opt2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30032" help="30033">
+			<group id="1">
+				<setting id="px68k_midi_emulation" type="string" label="30329" help="30330">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30331">sc55</option>
+							<option label="30332">mt32</option>
+							<option label="30333">cm32l</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_midiemu_volume" type="string" label="30334" help="30335">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30104">0</option>
+							<option label="30105">5</option>
+							<option label="30106">10</option>
+							<option label="30107">15</option>
+							<option label="30108">20</option>
+							<option label="30109">25</option>
+							<option label="30110">30</option>
+							<option label="30111">35</option>
+							<option label="30112">40</option>
+							<option label="30113">45</option>
+							<option label="30114">50</option>
+							<option label="30115">55</option>
+							<option label="30116">60</option>
+							<option label="30117">65</option>
+							<option label="30118">70</option>
+							<option label="30119">75</option>
+							<option label="30120">80</option>
+							<option label="30121">85</option>
+							<option label="30122">90</option>
+							<option label="30123">95</option>
+							<option label="30124">100</option>
+							<option label="30336">105</option>
+							<option label="30337">110</option>
+							<option label="30338">115</option>
+							<option label="30339">120</option>
+							<option label="30340">125</option>
+							<option label="30341">130</option>
+							<option label="30342">135</option>
+							<option label="30343">140</option>
+							<option label="30344">145</option>
+							<option label="30345">150</option>
+							<option label="30346">155</option>
+							<option label="30347">160</option>
+							<option label="30348">165</option>
+							<option label="30349">170</option>
+							<option label="30350">175</option>
+							<option label="30351">180</option>
+							<option label="30352">185</option>
+							<option label="30353">190</option>
+							<option label="30354">195</option>
+							<option label="30355">200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_midi_output" type="string" label="30021" help="30034">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_midi_state_restore" type="string" label="30356" help="30357">
+					<level>0</level>
+					<default>setup_output</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30358">setup</option>
+							<option label="30359">setup_output</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_midi_output_type" type="string" label="30023" help="30035">
+					<level>0</level>
+					<default>GM</default>
+					<constraints>
+						<options>
+							<option>LA</option>
+							<option>GM</option>
+							<option>GS</option>
+							<option>XG</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_adpcm_lpf" type="string" label="30360" help="30361">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_adpcm_vol" type="string" label="30008" help="30036">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_opm_vol" type="string" label="30009" help="30037">
+					<level>0</level>
+					<default>12</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="media" label="30045" help="30046">
+			<group id="1">
+				<setting id="px68k_archive_floppies" type="string" label="30362" help="30363">
+					<level>0</level>
+					<default>Off</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="34122">Always</option>
+							<option label="30364">Boot Only</option>
+							<option label="30365">At Disk Change</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_disk_drive" type="string" label="30010" help="30047">
+					<level>0</level>
+					<default>FDD1</default>
+					<constraints>
+						<options>
+							<option>FDD1</option>
+							<option>FDD0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_save_fdd_path" type="string" label="30011" help="30048">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_save_hdd_path" type="string" label="30012" help="30049">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_rumble_on_disk_read" type="string" label="30013" help="30050">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="menu" label="30366" help="30367">
+			<group id="1">
+				<setting id="px68k_mame_names" type="string" label="30368" help="30369">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30370">english</option>
+							<option label="30097">japanese</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_menufontsize" type="string" label="30001" help="30029">
+					<level>0</level>
+					<default>normal</default>
+					<constraints>
+						<options>
+							<option>normal</option>
+							<option>large</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_menu_lines_jump" type="string" label="30371" help="30372">
+					<level>0</level>
+					<default>10</default>
+					<constraints>
+						<options>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30051" help="30052">
+			<group id="1">
+				<setting id="px68k_text_off" type="string" label="30024" help="30373">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_grp_off" type="string" label="30025" help="30374">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="px68k_sp_off" type="string" label="30026" help="30375">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

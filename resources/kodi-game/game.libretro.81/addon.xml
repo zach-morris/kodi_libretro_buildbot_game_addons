@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.81"
+		name="Sinclair - ZX 81 (EightyOne)"
+		version="1.0.0.37"
+		provider-name="Michael D Wynne">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sinclair - ZX 81</platforms>
+		<extensions>p|tzx|t81</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>81_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.81</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Sinclair - ZX 81 (EightyOne)</summary>
+		<summary lang="da_DK">Sinclair - ZX 81 (EightyOne)</summary>
+		<summary lang="en_GB">Sinclair - ZX 81 (EightyOne)</summary>
+		<summary lang="es_ES">Sinclair - ZX 81 (EightyOne)</summary>
+		<summary lang="ga">Sinclair - ZX 81 (EightyOne)</summary>
+		<summary lang="it_IT">Sinclair - ZX 81 (EightyOne)</summary>
+		<summary lang="ru_RU">Sinclair — ZX 81 (EightyOne)</summary>
+		<summary lang="sv_SE">Sinclair - ZX 81 (EightyOne)</summary>
+		<summary lang="zh_CN">辛克莱 - ZX 81（EightyOne）</summary>
+		<description lang="cs_CZ">EightyOne je emulátor řady domácích počítačů vyráběných společností Sinclair Research (a jejich klonů) v 80. letech.</description>
+		<description lang="da_DK">EightyOne er en emulator til rækken af hjemmecomputere lavet af Sinclair Research (og deres kloner) i 1980&apos;erne.</description>
+		<description lang="de_DE">EightyOne ist ein Emulator für die Heimcomputer von Sinclair Research (und deren Nachbauten) aus den 1980er Jahren.</description>
+		<description lang="en_GB">EightyOne is an emulator for the range of home computers made by Sinclair Research (and their clones) in the 1980s.</description>
+		<description lang="es_ES">EightyOne es un emulador para la gama de ordenadores domésticos fabricados por Sinclair Research (y sus clones) en la década de 1980.</description>
+		<description lang="ga">Is aithriseoir é EightyOne do raon ríomhairí baile a rinne Sinclair Research (agus a gclóin) sna 1980idí.</description>
+		<description lang="it_IT">EightyOne è un emulatore per la gamma di home computer realizzati da Sinclair Research (e relativi cloni) negli anni &apos;80.</description>
+		<description lang="ru_RU">EightyOne — это эмулятор линейки домашних компьютеров, выпущенных Sinclair Research (и их клонов) в 1980-х годах.</description>
+		<description lang="sv_SE">EightyOne är en emulator för den serie hemdatorer som tillverkades av Sinclair Research (och deras kloner) på 1980-talet.</description>
+		<description lang="zh_CN">EightyOne 是辛克莱研究公司（Sinclair Research）在20世纪80年代制造的系列家用电脑的仿真器。</description>
+	</extension>
+</addon>

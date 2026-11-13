@@ -1,0 +1,2227 @@
+# game.libretro.dolphin language file
+# Addon Name: game.libretro.dolphin
+# Addon id: game.libretro.dolphin
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.dolphin\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-12-03 11:17i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-dolphin/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - GameCube / Wii (Dolphin)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "Core"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Configure CPU emulation, timing, and core system settings."
+msgstr ""
+
+msgctxt "#30003"
+msgid "Core > CPU Core"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Select CPU emulation method - JIT provides best performance."
+msgstr ""
+
+msgctxt "#30005"
+msgid "Interpreter (slowest)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "JIT64 (Recommended)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Cached Interpreter (slower)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Core > CPU Clock Rate"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Adjust emulated CPU speed."
+msgstr ""
+
+msgctxt "#30010"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30011"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30012"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30013"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30014"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30015"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30016"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30017"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30018"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30019"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30020"
+msgid "100% (Default)"
+msgstr ""
+
+msgctxt "#30021"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30022"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30023"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30024"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Core > Emulation Speed"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Set speed limit for emulation."
+msgstr ""
+
+msgctxt "#30027"
+msgid "100% (Normal Speed)"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Unlimited"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Core > Dual Core Mode"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Enable dual-core CPU emulation. Requires core RESTART."
+msgstr ""
+
+msgctxt "#30031"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Core > Load Whole Game Into Memory"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Load Whole Game Into Memory. Requires core RESTART."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Core > Precision Frame Timing"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Use busy-wait for more accurate frame timing."
+msgstr ""
+
+msgctxt "#30037"
+msgid "Core > Fastmem"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Enable fastmem optimization - which uses memory mapping for faster access."
+msgstr ""
+
+msgctxt "#30039"
+msgid "Core > Fastmem Arena"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Enable fastmem arena - reserves 12 GiB of virtual memory for super fast access."
+msgstr ""
+
+msgctxt "#30041"
+msgid "Core > Accurate CPU cache"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Enabled - fast, Disabled - guarantees correctness involving cache behaviour."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Core > Internal Cheats"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Enable built-in cheat codes. Restart core to take effect."
+msgstr ""
+
+msgctxt "#30045"
+msgid "Core > Skip GameCube BIOS"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Skip the GameCube BIOS animation/menu and start the game directly."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Core > Disc Based Games Boot to Wii Menu"
+msgstr ""
+
+msgctxt "#30048"
+msgid "When a Wii System Menu is installed in the save location and the game is a disc based game, it will start the Wii Menu with the disc inserted in the drive instead of directly booting the game. Beware: The game region must match the Wii Menu region otherwise the game will not be recognized."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Core > System Language"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Set system language."
+msgstr ""
+
+msgctxt "#30051"
+msgid "English"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30053"
+msgid "German"
+msgstr ""
+
+msgctxt "#30054"
+msgid "French"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Spanish"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Italian"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Dutch"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Simplified Chinese"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Traditional Chinese"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Korean"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Core > Speed Up Disc Transfer"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Reduce loading times."
+msgstr ""
+
+msgctxt "#30063"
+msgid "Core > Enable MMU"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Enable emulation of the Memory Management Unit."
+msgstr ""
+
+msgctxt "#30065"
+msgid "Core > Rush Frame Presentation"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Enable rushing frame presentation for lower latency."
+msgstr ""
+
+msgctxt "#30067"
+msgid "Core > Smooth Early Presentation"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Enable smoother early frame presentation timing."
+msgstr ""
+
+msgctxt "#30069"
+msgid "Audio / DSP"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Configure audio output and DSP emulation."
+msgstr ""
+
+msgctxt "#30071"
+msgid "Audio / DSP > DSP HLE"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Choose DSP method - HLE is faster, LLE is more accurate."
+msgstr ""
+
+msgctxt "#30073"
+msgid "HLE (Fast)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "LLE (Accurate)"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Audio / DSP > DSP JIT"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Enable JIT for DSP LLE."
+msgstr ""
+
+msgctxt "#30077"
+msgid "Audio / DSP > Async Audio Callback"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Use asynchronous audio callbacks."
+msgstr ""
+
+msgctxt "#30079"
+msgid "Sync - Dolphin will push samples"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Sync - Per Frame using target refresh rate"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Async - driven by callbacks using refresh rate and audio buffer status"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Interface"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Configure on-screen display and logging."
+msgstr ""
+
+msgctxt "#30084"
+msgid "Interface > On-Screen Display"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Show OSD messages."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Interface > Log Level"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Set log verbosity."
+msgstr ""
+
+msgctxt "#30088"
+msgid "Notice"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Error"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Warning"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Info"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Interface > Logging > Boot"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Enable Boot log messages."
+msgstr ""
+
+msgctxt "#30094"
+msgid "Interface > Logging > Core"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Enable Core log messages."
+msgstr ""
+
+msgctxt "#30096"
+msgid "Interface > Logging > Video"
+msgstr ""
+
+msgctxt "#30097"
+msgid "Enable Video log messages."
+msgstr ""
+
+msgctxt "#30098"
+msgid "Interface > Logging > Common"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Enable Common log messages."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Interface > Logging > Host GPU"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Enable Host GPU log messages."
+msgstr ""
+
+msgctxt "#30102"
+msgid "Interface > Logging > MemMap"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Enable MemMap log messages."
+msgstr ""
+
+msgctxt "#30104"
+msgid "Interface > Logging > DSP Interface"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Enable DSP Interface log messages."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Interface > Logging > DSP HLE"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Enable DSP HLE log messages."
+msgstr ""
+
+msgctxt "#30108"
+msgid "Interface > Logging > DSP LLE"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Enable DSP LLE log messages."
+msgstr ""
+
+msgctxt "#30110"
+msgid "Interface > Logging > DSP MAIL"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Enable DSP MAIL log messages."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Interface > Enable debugging"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Enable the debugger."
+msgstr ""
+
+msgctxt "#30114"
+msgid "System Configuration - Gamecube"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Configure Gamecube system settings."
+msgstr ""
+
+msgctxt "#30116"
+msgid "System Configuration (GC) > SP1 Device"
+msgstr ""
+
+msgctxt "#30117"
+msgid "Select the device connected to the GameCube SP1 slot."
+msgstr ""
+
+msgctxt "#30118"
+msgid "None"
+msgstr ""
+
+msgctxt "#30119"
+msgid "Dummy"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Ethernet"
+msgstr ""
+
+msgctxt "#30121"
+msgid "Ethernet XLink"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Ethernet TapServer"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Ethernet Built-In"
+msgstr ""
+
+msgctxt "#30124"
+msgid "Ethernet IPC"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Modem TapServer"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Baseboard"
+msgstr ""
+
+msgctxt "#30127"
+msgid "System Configuration (GC) > GameCube Microphone"
+msgstr ""
+
+msgctxt "#30128"
+msgid "Emulate the official GameCube microphone accessory. Restart core after changing this option."
+msgstr ""
+
+msgctxt "#30129"
+msgid "System Configuration (GC) > Microphone Button"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Button to hold or press to activate the microphone input. Selecting OFF disables microphone activation."
+msgstr ""
+
+msgctxt "#30131"
+msgid "L3"
+msgstr ""
+
+msgctxt "#30132"
+msgid "R3"
+msgstr ""
+
+msgctxt "#30133"
+msgid "L1"
+msgstr ""
+
+msgctxt "#30134"
+msgid "R1"
+msgstr ""
+
+msgctxt "#30135"
+msgid "L2"
+msgstr ""
+
+msgctxt "#30136"
+msgid "R2"
+msgstr ""
+
+msgctxt "#30137"
+msgid "A"
+msgstr ""
+
+msgctxt "#30138"
+msgid "B"
+msgstr ""
+
+msgctxt "#30139"
+msgid "X"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Y"
+msgstr ""
+
+msgctxt "#30141"
+msgid "Start"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Select"
+msgstr ""
+
+msgctxt "#30143"
+msgid "System Configuration - Wii"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Configure Wii system settings."
+msgstr ""
+
+msgctxt "#30145"
+msgid "System Configuration > Widescreen (Wii)"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Enable widescreen for Wii."
+msgstr ""
+
+msgctxt "#30147"
+msgid "System Configuration > Progressive Scan"
+msgstr ""
+
+msgctxt "#30148"
+msgid "Enable progressive scan."
+msgstr ""
+
+msgctxt "#30149"
+msgid "System Configuration > PAL60 Mode"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Enable 60Hz for PAL games."
+msgstr ""
+
+msgctxt "#30151"
+msgid "System Configuration > Sensor Bar Position"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Set Wiimote sensor bar position."
+msgstr ""
+
+msgctxt "#30153"
+msgid "Bottom"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Top"
+msgstr ""
+
+msgctxt "#30155"
+msgid "System Configuration > Controller Rumble"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Enable rumble feedback."
+msgstr ""
+
+msgctxt "#30157"
+msgid "System Configuration > Wiimote Continuous Scanning"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Continuously scan for Wiimotes."
+msgstr ""
+
+msgctxt "#30159"
+msgid "System Configuration > Alt GC Ports (Wii)"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Use ports 5-8 for GameCube controllers in Wii mode."
+msgstr ""
+
+msgctxt "#30161"
+msgid "System Configuration > Bluetooth passthrough mode"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Pass all traffic directly to the host's Bluetooth adapter. Press F12 to begin the sync process."
+msgstr ""
+
+msgctxt "#30163"
+msgid "System Configuration > Wii Speak"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Emulate the Wii Speak microphone. Restart when changing this option."
+msgstr ""
+
+msgctxt "#30165"
+msgid "Audio > Devices > Wii Speak Muted"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Mute or unmute the Wii Speak microphone."
+msgstr ""
+
+msgctxt "#30167"
+msgid "System Configuration > Logitech USB Microphone"
+msgstr ""
+
+msgctxt "#30168"
+msgid "Emulate the Logitech USB microphone. Restart when changing this option."
+msgstr ""
+
+msgctxt "#30169"
+msgid "Graphics > Settings"
+msgstr ""
+
+msgctxt "#30170"
+msgid "Configure rendering backend and quality settings."
+msgstr ""
+
+msgctxt "#30171"
+msgid "Graphics > Settings > Graphics Backend"
+msgstr ""
+
+msgctxt "#30172"
+msgid "Select rendering backend."
+msgstr ""
+
+msgctxt "#30173"
+msgid "Hardware"
+msgstr ""
+
+msgctxt "#30174"
+msgid "Graphics > Settings > Widescreen Hack"
+msgstr ""
+
+msgctxt "#30175"
+msgid "Force 16:9 rendering."
+msgstr ""
+
+msgctxt "#30176"
+msgid "Graphics > Settings > Aspect Ratio"
+msgstr ""
+
+msgctxt "#30177"
+msgid "Control how the game's image is scaled."
+msgstr ""
+
+msgctxt "#30178"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Force Wide"
+msgstr ""
+
+msgctxt "#30180"
+msgid "Force Standard"
+msgstr ""
+
+msgctxt "#30181"
+msgid "Stretch"
+msgstr ""
+
+msgctxt "#30182"
+msgid "Custom"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Custom Stretch"
+msgstr ""
+
+msgctxt "#30184"
+msgid "Raw"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Graphics > Settings > Crop Overscan"
+msgstr ""
+
+msgctxt "#30186"
+msgid "Report standard TV output resolution to the frontend (NTSC: 480, PAL: 576). Recommended for CRT displays with SwitchRes."
+msgstr ""
+
+msgctxt "#30187"
+msgid "Graphics > Settings > Internal Resolution"
+msgstr ""
+
+msgctxt "#30188"
+msgid "Multiply native resolution."
+msgstr ""
+
+msgctxt "#30189"
+msgid "1x Native (640x528)"
+msgstr ""
+
+msgctxt "#30190"
+msgid "2x Native (1280x1056) for 720p"
+msgstr ""
+
+msgctxt "#30191"
+msgid "3x Native (1920x1584) for 1080p"
+msgstr ""
+
+msgctxt "#30192"
+msgid "4x Native (2560x2112) for 1440p"
+msgstr ""
+
+msgctxt "#30193"
+msgid "5x Native (3200x2640)"
+msgstr ""
+
+msgctxt "#30194"
+msgid "6x Native (3840x3168) for 4K"
+msgstr ""
+
+msgctxt "#30195"
+msgid "7x Native (4480x3696)"
+msgstr ""
+
+msgctxt "#30196"
+msgid "8x Native (5120x4224) for 5K"
+msgstr ""
+
+msgctxt "#30197"
+msgid "9x Native (5760x4752)"
+msgstr ""
+
+msgctxt "#30198"
+msgid "10x Native (6400x5280)"
+msgstr ""
+
+msgctxt "#30199"
+msgid "11x Native (7040x5808)"
+msgstr ""
+
+msgctxt "#30200"
+msgid "12x Native (7680x6336) for 8K"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Graphics > Settings > Shader Compilation"
+msgstr ""
+
+msgctxt "#30202"
+msgid "Control shader compilation."
+msgstr ""
+
+msgctxt "#30203"
+msgid "Synchronous"
+msgstr ""
+
+msgctxt "#30204"
+msgid "Async (Skip Rendering)"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Sync (UberShaders)"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Async (UberShaders)"
+msgstr ""
+
+msgctxt "#30207"
+msgid "Graphics > Settings > Wait for Shaders"
+msgstr ""
+
+msgctxt "#30208"
+msgid "Precompile shaders before starting."
+msgstr ""
+
+msgctxt "#30209"
+msgid "Graphics > Settings > Anti-Aliasing"
+msgstr ""
+
+msgctxt "#30210"
+msgid "Reduce jagged edges."
+msgstr ""
+
+msgctxt "#30211"
+msgid "2x MSAA"
+msgstr ""
+
+msgctxt "#30212"
+msgid "4x MSAA"
+msgstr ""
+
+msgctxt "#30213"
+msgid "8x MSAA"
+msgstr ""
+
+msgctxt "#30214"
+msgid "2x SSAA"
+msgstr ""
+
+msgctxt "#30215"
+msgid "4x SSAA"
+msgstr ""
+
+msgctxt "#30216"
+msgid "8x SSAA"
+msgstr ""
+
+msgctxt "#30217"
+msgid "Graphics > Settings > Texture Cache Accuracy"
+msgstr ""
+
+msgctxt "#30218"
+msgid "Texture cache safety level."
+msgstr ""
+
+msgctxt "#30219"
+msgid "Fast"
+msgstr ""
+
+msgctxt "#30220"
+msgid "Middle"
+msgstr ""
+
+msgctxt "#30221"
+msgid "Safe"
+msgstr ""
+
+msgctxt "#30222"
+msgid "Graphics > Settings > GPU Texture Decoding"
+msgstr ""
+
+msgctxt "#30223"
+msgid "Decode textures on GPU."
+msgstr ""
+
+msgctxt "#30224"
+msgid "Graphics > Settings > Pixel Lighting"
+msgstr ""
+
+msgctxt "#30225"
+msgid "Enable per-pixel lighting calculations instead of per-vertex."
+msgstr ""
+
+msgctxt "#30226"
+msgid "Graphics > Settings > Fast Depth Calculation"
+msgstr ""
+
+msgctxt "#30227"
+msgid "Use faster depth calculation."
+msgstr ""
+
+msgctxt "#30228"
+msgid "Graphics > Settings > Disable Fog"
+msgstr ""
+
+msgctxt "#30229"
+msgid "Disable fog rendering effects. May improve performance but reduces visual accuracy."
+msgstr ""
+
+msgctxt "#30230"
+msgid "Graphics > Settings > Enable Mods"
+msgstr ""
+
+msgctxt "#30231"
+msgid "Loads graphic mods from User/Load/GraphicsMods."
+msgstr ""
+
+msgctxt "#30232"
+msgid "Graphics > Enhancements"
+msgstr ""
+
+msgctxt "#30233"
+msgid "Configure texture filtering and visual enhancements."
+msgstr ""
+
+msgctxt "#30234"
+msgid "Graphics > Enhancements > Texture Filtering"
+msgstr ""
+
+msgctxt "#30235"
+msgid "Override texture filtering."
+msgstr ""
+
+msgctxt "#30236"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30237"
+msgid "Nearest (Sharp)"
+msgstr ""
+
+msgctxt "#30238"
+msgid "Linear (Smooth)"
+msgstr ""
+
+msgctxt "#30239"
+msgid "Graphics > Enhancements > Anisotropic Filtering"
+msgstr ""
+
+msgctxt "#30240"
+msgid "Improve texture quality at angles."
+msgstr ""
+
+msgctxt "#30241"
+msgid "1x (Off)"
+msgstr ""
+
+msgctxt "#30242"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30243"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30244"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30245"
+msgid "16x"
+msgstr ""
+
+msgctxt "#30246"
+msgid "Graphics > Enhancements > Load Custom Textures"
+msgstr ""
+
+msgctxt "#30247"
+msgid "Load high-res texture packs."
+msgstr ""
+
+msgctxt "#30248"
+msgid "Graphics > Enhancements > Prefetch Custom Textures"
+msgstr ""
+
+msgctxt "#30249"
+msgid "Preload custom textures."
+msgstr ""
+
+msgctxt "#30250"
+msgid "Graphics > Enhancements > Output Resampling"
+msgstr ""
+
+msgctxt "#30251"
+msgid "Select the resampling filter used when scaling the final image."
+msgstr ""
+
+msgctxt "#30252"
+msgid "Bilinear"
+msgstr ""
+
+msgctxt "#30253"
+msgid "B-Spline"
+msgstr ""
+
+msgctxt "#30254"
+msgid "Mitchell-Netravali"
+msgstr ""
+
+msgctxt "#30255"
+msgid "Catmull-Rom"
+msgstr ""
+
+msgctxt "#30256"
+msgid "Sharp Bilinear"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Area Sampling"
+msgstr ""
+
+msgctxt "#30258"
+msgid "Graphics > Enhancements > Force True Color"
+msgstr ""
+
+msgctxt "#30259"
+msgid "Disable dithering and force 24-bit color output instead of 18-bit."
+msgstr ""
+
+msgctxt "#30260"
+msgid "Graphics > Enhancements > Disable Copy Filter"
+msgstr ""
+
+msgctxt "#30261"
+msgid "Disable the GameCube/Wii copy filter. Removes blur from some games but may reduce accuracy."
+msgstr ""
+
+msgctxt "#30262"
+msgid "Graphics > Enhancements > HDR Output"
+msgstr ""
+
+msgctxt "#30263"
+msgid "Enable High Dynamic Range output when supported by the graphics backend and display."
+msgstr ""
+
+msgctxt "#30264"
+msgid "Graphics > Enhancements > Arbitrary Mipmap Detection"
+msgstr ""
+
+msgctxt "#30265"
+msgid "Enable detection of arbitrary mipmaps. Improves accuracy in some games but may reduce performance."
+msgstr ""
+
+msgctxt "#30266"
+msgid "Graphics > Hacks"
+msgstr ""
+
+msgctxt "#30267"
+msgid "Configure accuracy vs performance tradeoffs."
+msgstr ""
+
+msgctxt "#30268"
+msgid "Graphics > Hacks > EFB Access from CPU"
+msgstr ""
+
+msgctxt "#30269"
+msgid "Allow CPU EFB access. Required for some games but slow."
+msgstr ""
+
+msgctxt "#30270"
+msgid "Graphics > Hacks > EFB Access Defer Invalidation"
+msgstr ""
+
+msgctxt "#30271"
+msgid "Defer EFB cache invalidation."
+msgstr ""
+
+msgctxt "#30272"
+msgid "Graphics > Hacks > EFB Access Tile Size"
+msgstr ""
+
+msgctxt "#30273"
+msgid "EFB access granularity."
+msgstr ""
+
+msgctxt "#30274"
+msgid "1 (per-pixel, slowest/most accurate)"
+msgstr ""
+
+msgctxt "#30275"
+msgid "4"
+msgstr ""
+
+msgctxt "#30276"
+msgid "8"
+msgstr ""
+
+msgctxt "#30277"
+msgid "16"
+msgstr ""
+
+msgctxt "#30278"
+msgid "32"
+msgstr ""
+
+msgctxt "#30279"
+msgid "64 (default)"
+msgstr ""
+
+msgctxt "#30280"
+msgid "Graphics > Hacks > Bounding Box"
+msgstr ""
+
+msgctxt "#30281"
+msgid "Emulate bounding box hardware. Required for Paper Mario TTYD."
+msgstr ""
+
+msgctxt "#30282"
+msgid "Graphics > Hacks > Force Progressive"
+msgstr ""
+
+msgctxt "#30283"
+msgid "Force progressive scan."
+msgstr ""
+
+msgctxt "#30284"
+msgid "Graphics > Hacks > Skip EFB Copy to RAM"
+msgstr ""
+
+msgctxt "#30285"
+msgid "Store EFB in texture memory."
+msgstr ""
+
+msgctxt "#30286"
+msgid "Graphics > Hacks > Skip XFB Copy to RAM"
+msgstr ""
+
+msgctxt "#30287"
+msgid "Store XFB in texture memory."
+msgstr ""
+
+msgctxt "#30288"
+msgid "Graphics > Hacks > Disable EFB to VRAM"
+msgstr ""
+
+msgctxt "#30289"
+msgid "Disable EFB VRAM copies."
+msgstr ""
+
+msgctxt "#30290"
+msgid "Graphics > Hacks > Defer EFB Copies"
+msgstr ""
+
+msgctxt "#30291"
+msgid "Defer EFB copies until needed."
+msgstr ""
+
+msgctxt "#30292"
+msgid "Graphics > Hacks > Immediate XFB"
+msgstr ""
+
+msgctxt "#30293"
+msgid "Display XFB immediately."
+msgstr ""
+
+msgctxt "#30294"
+msgid "Graphics > Hacks > Skip Duplicate Frames"
+msgstr ""
+
+msgctxt "#30295"
+msgid "Don't present duplicate frames."
+msgstr ""
+
+msgctxt "#30296"
+msgid "Graphics > Hacks > Early XFB Output"
+msgstr ""
+
+msgctxt "#30297"
+msgid "Output XFB early."
+msgstr ""
+
+msgctxt "#30298"
+msgid "Graphics > Hacks > EFB Scaled Copy"
+msgstr ""
+
+msgctxt "#30299"
+msgid "Scale EFB copy by IR."
+msgstr ""
+
+msgctxt "#30300"
+msgid "Graphics > Hacks > EFB Emulate Format Changes"
+msgstr ""
+
+msgctxt "#30301"
+msgid "Emulate EFB format changes (needed for some effects)."
+msgstr ""
+
+msgctxt "#30302"
+msgid "Graphics > Hacks > Vertex Rounding"
+msgstr ""
+
+msgctxt "#30303"
+msgid "Round vertex positions to avoid gaps."
+msgstr ""
+
+msgctxt "#30304"
+msgid "Graphics > Hacks > VI Skip"
+msgstr ""
+
+msgctxt "#30305"
+msgid "Skip VI updates to improve performance."
+msgstr ""
+
+msgctxt "#30306"
+msgid "Graphics > Hacks > Fast Texture Sampling"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Use faster but less accurate texture sampling."
+msgstr ""
+
+msgctxt "#30308"
+msgid "Graphics > Game Specific"
+msgstr ""
+
+msgctxt "#30309"
+msgid "Configure game specific settings."
+msgstr ""
+
+msgctxt "#30310"
+msgid "Graphics > Game Specific > Performance Queries"
+msgstr ""
+
+msgctxt "#30311"
+msgid "Enable performance queries."
+msgstr ""
+
+msgctxt "#30312"
+msgid "Wiimote IR / Gyro / Swing"
+msgstr ""
+
+msgctxt "#30313"
+msgid "Configure Wiimote infrared pointer, gyro and swing settings."
+msgstr ""
+
+msgctxt "#30314"
+msgid "WiiMote Sideways > Toggle Button"
+msgstr ""
+
+msgctxt "#30315"
+msgid "Button used to toggle sideways mode. Can be disabled."
+msgstr ""
+
+msgctxt "#30316"
+msgid "L3 (Default)"
+msgstr ""
+
+msgctxt "#30317"
+msgid "WiiMote Upright > Toggle Button"
+msgstr ""
+
+msgctxt "#30318"
+msgid "Button used to toggle upright mode. Can be disabled."
+msgstr ""
+
+msgctxt "#30319"
+msgid "Wiimote IR > Wiimote IR Mode"
+msgstr ""
+
+msgctxt "#30320"
+msgid "Control method for Wiimote pointer."
+msgstr ""
+
+msgctxt "#30321"
+msgid "Right Stick controls pointer (relative)"
+msgstr ""
+
+msgctxt "#30322"
+msgid "Right Stick controls pointer (absolute)"
+msgstr ""
+
+msgctxt "#30323"
+msgid "Mouse controls pointer"
+msgstr ""
+
+msgctxt "#30324"
+msgid "Wiimote IR > Wiimote IR Vertical Offset"
+msgstr ""
+
+msgctxt "#30325"
+msgid "Adjust vertical center of Wiimote pointer."
+msgstr ""
+
+msgctxt "#30326"
+msgid "0 (Center)"
+msgstr ""
+
+msgctxt "#30327"
+msgid "10"
+msgstr ""
+
+msgctxt "#30328"
+msgid "11"
+msgstr ""
+
+msgctxt "#30329"
+msgid "12"
+msgstr ""
+
+msgctxt "#30330"
+msgid "13"
+msgstr ""
+
+msgctxt "#30331"
+msgid "14"
+msgstr ""
+
+msgctxt "#30332"
+msgid "15"
+msgstr ""
+
+msgctxt "#30333"
+msgid "17"
+msgstr ""
+
+msgctxt "#30334"
+msgid "18"
+msgstr ""
+
+msgctxt "#30335"
+msgid "19"
+msgstr ""
+
+msgctxt "#30336"
+msgid "20"
+msgstr ""
+
+msgctxt "#30337"
+msgid "21"
+msgstr ""
+
+msgctxt "#30338"
+msgid "22"
+msgstr ""
+
+msgctxt "#30339"
+msgid "23"
+msgstr ""
+
+msgctxt "#30340"
+msgid "24"
+msgstr ""
+
+msgctxt "#30341"
+msgid "25"
+msgstr ""
+
+msgctxt "#30342"
+msgid "26"
+msgstr ""
+
+msgctxt "#30343"
+msgid "27"
+msgstr ""
+
+msgctxt "#30344"
+msgid "28"
+msgstr ""
+
+msgctxt "#30345"
+msgid "29"
+msgstr ""
+
+msgctxt "#30346"
+msgid "30"
+msgstr ""
+
+msgctxt "#30347"
+msgid "31"
+msgstr ""
+
+msgctxt "#30348"
+msgid "33"
+msgstr ""
+
+msgctxt "#30349"
+msgid "34"
+msgstr ""
+
+msgctxt "#30350"
+msgid "35"
+msgstr ""
+
+msgctxt "#30351"
+msgid "36"
+msgstr ""
+
+msgctxt "#30352"
+msgid "37"
+msgstr ""
+
+msgctxt "#30353"
+msgid "38"
+msgstr ""
+
+msgctxt "#30354"
+msgid "39"
+msgstr ""
+
+msgctxt "#30355"
+msgid "40"
+msgstr ""
+
+msgctxt "#30356"
+msgid "41"
+msgstr ""
+
+msgctxt "#30357"
+msgid "42"
+msgstr ""
+
+msgctxt "#30358"
+msgid "43"
+msgstr ""
+
+msgctxt "#30359"
+msgid "44"
+msgstr ""
+
+msgctxt "#30360"
+msgid "45"
+msgstr ""
+
+msgctxt "#30361"
+msgid "46"
+msgstr ""
+
+msgctxt "#30362"
+msgid "47"
+msgstr ""
+
+msgctxt "#30363"
+msgid "48"
+msgstr ""
+
+msgctxt "#30364"
+msgid "49"
+msgstr ""
+
+msgctxt "#30365"
+msgid "50"
+msgstr ""
+
+msgctxt "#30366"
+msgid "-50"
+msgstr ""
+
+msgctxt "#30367"
+msgid "-49"
+msgstr ""
+
+msgctxt "#30368"
+msgid "-48"
+msgstr ""
+
+msgctxt "#30369"
+msgid "-47"
+msgstr ""
+
+msgctxt "#30370"
+msgid "-46"
+msgstr ""
+
+msgctxt "#30371"
+msgid "-45"
+msgstr ""
+
+msgctxt "#30372"
+msgid "-44"
+msgstr ""
+
+msgctxt "#30373"
+msgid "-43"
+msgstr ""
+
+msgctxt "#30374"
+msgid "-42"
+msgstr ""
+
+msgctxt "#30375"
+msgid "-41"
+msgstr ""
+
+msgctxt "#30376"
+msgid "-40"
+msgstr ""
+
+msgctxt "#30377"
+msgid "-39"
+msgstr ""
+
+msgctxt "#30378"
+msgid "-38"
+msgstr ""
+
+msgctxt "#30379"
+msgid "-37"
+msgstr ""
+
+msgctxt "#30380"
+msgid "-36"
+msgstr ""
+
+msgctxt "#30381"
+msgid "-35"
+msgstr ""
+
+msgctxt "#30382"
+msgid "-34"
+msgstr ""
+
+msgctxt "#30383"
+msgid "-33"
+msgstr ""
+
+msgctxt "#30384"
+msgid "-32"
+msgstr ""
+
+msgctxt "#30385"
+msgid "-31"
+msgstr ""
+
+msgctxt "#30386"
+msgid "-30"
+msgstr ""
+
+msgctxt "#30387"
+msgid "-29"
+msgstr ""
+
+msgctxt "#30388"
+msgid "-28"
+msgstr ""
+
+msgctxt "#30389"
+msgid "-27"
+msgstr ""
+
+msgctxt "#30390"
+msgid "-26"
+msgstr ""
+
+msgctxt "#30391"
+msgid "-25"
+msgstr ""
+
+msgctxt "#30392"
+msgid "-24"
+msgstr ""
+
+msgctxt "#30393"
+msgid "-23"
+msgstr ""
+
+msgctxt "#30394"
+msgid "-22"
+msgstr ""
+
+msgctxt "#30395"
+msgid "-21"
+msgstr ""
+
+msgctxt "#30396"
+msgid "-20"
+msgstr ""
+
+msgctxt "#30397"
+msgid "-19"
+msgstr ""
+
+msgctxt "#30398"
+msgid "-18"
+msgstr ""
+
+msgctxt "#30399"
+msgid "-17"
+msgstr ""
+
+msgctxt "#30400"
+msgid "-16"
+msgstr ""
+
+msgctxt "#30401"
+msgid "-15"
+msgstr ""
+
+msgctxt "#30402"
+msgid "-14"
+msgstr ""
+
+msgctxt "#30403"
+msgid "-13"
+msgstr ""
+
+msgctxt "#30404"
+msgid "-12"
+msgstr ""
+
+msgctxt "#30405"
+msgid "-11"
+msgstr ""
+
+msgctxt "#30406"
+msgid "-10"
+msgstr ""
+
+msgctxt "#30407"
+msgid "-9"
+msgstr ""
+
+msgctxt "#30408"
+msgid "-8"
+msgstr ""
+
+msgctxt "#30409"
+msgid "-7"
+msgstr ""
+
+msgctxt "#30410"
+msgid "-6"
+msgstr ""
+
+msgctxt "#30411"
+msgid "-5"
+msgstr ""
+
+msgctxt "#30412"
+msgid "-4"
+msgstr ""
+
+msgctxt "#30413"
+msgid "-3"
+msgstr ""
+
+msgctxt "#30414"
+msgid "-2"
+msgstr ""
+
+msgctxt "#30415"
+msgid "-1"
+msgstr ""
+
+msgctxt "#30416"
+msgid "1"
+msgstr ""
+
+msgctxt "#30417"
+msgid "2"
+msgstr ""
+
+msgctxt "#30418"
+msgid "3"
+msgstr ""
+
+msgctxt "#30419"
+msgid "5"
+msgstr ""
+
+msgctxt "#30420"
+msgid "6"
+msgstr ""
+
+msgctxt "#30421"
+msgid "7"
+msgstr ""
+
+msgctxt "#30422"
+msgid "9"
+msgstr ""
+
+msgctxt "#30423"
+msgid "Wiimote IR > Wiimote IR Total Yaw"
+msgstr ""
+
+msgctxt "#30424"
+msgid "Horizontal field of view for Wiimote pointer."
+msgstr ""
+
+msgctxt "#30425"
+msgid "25 (Default)"
+msgstr ""
+
+msgctxt "#30426"
+msgid "51"
+msgstr ""
+
+msgctxt "#30427"
+msgid "52"
+msgstr ""
+
+msgctxt "#30428"
+msgid "53"
+msgstr ""
+
+msgctxt "#30429"
+msgid "54"
+msgstr ""
+
+msgctxt "#30430"
+msgid "55"
+msgstr ""
+
+msgctxt "#30431"
+msgid "56"
+msgstr ""
+
+msgctxt "#30432"
+msgid "57"
+msgstr ""
+
+msgctxt "#30433"
+msgid "58"
+msgstr ""
+
+msgctxt "#30434"
+msgid "59"
+msgstr ""
+
+msgctxt "#30435"
+msgid "60"
+msgstr ""
+
+msgctxt "#30436"
+msgid "61"
+msgstr ""
+
+msgctxt "#30437"
+msgid "62"
+msgstr ""
+
+msgctxt "#30438"
+msgid "63"
+msgstr ""
+
+msgctxt "#30439"
+msgid "64"
+msgstr ""
+
+msgctxt "#30440"
+msgid "65"
+msgstr ""
+
+msgctxt "#30441"
+msgid "66"
+msgstr ""
+
+msgctxt "#30442"
+msgid "67"
+msgstr ""
+
+msgctxt "#30443"
+msgid "68"
+msgstr ""
+
+msgctxt "#30444"
+msgid "69"
+msgstr ""
+
+msgctxt "#30445"
+msgid "70"
+msgstr ""
+
+msgctxt "#30446"
+msgid "71"
+msgstr ""
+
+msgctxt "#30447"
+msgid "72"
+msgstr ""
+
+msgctxt "#30448"
+msgid "73"
+msgstr ""
+
+msgctxt "#30449"
+msgid "74"
+msgstr ""
+
+msgctxt "#30450"
+msgid "75"
+msgstr ""
+
+msgctxt "#30451"
+msgid "76"
+msgstr ""
+
+msgctxt "#30452"
+msgid "77"
+msgstr ""
+
+msgctxt "#30453"
+msgid "78"
+msgstr ""
+
+msgctxt "#30454"
+msgid "79"
+msgstr ""
+
+msgctxt "#30455"
+msgid "80"
+msgstr ""
+
+msgctxt "#30456"
+msgid "81"
+msgstr ""
+
+msgctxt "#30457"
+msgid "82"
+msgstr ""
+
+msgctxt "#30458"
+msgid "83"
+msgstr ""
+
+msgctxt "#30459"
+msgid "84"
+msgstr ""
+
+msgctxt "#30460"
+msgid "85"
+msgstr ""
+
+msgctxt "#30461"
+msgid "86"
+msgstr ""
+
+msgctxt "#30462"
+msgid "87"
+msgstr ""
+
+msgctxt "#30463"
+msgid "88"
+msgstr ""
+
+msgctxt "#30464"
+msgid "89"
+msgstr ""
+
+msgctxt "#30465"
+msgid "90"
+msgstr ""
+
+msgctxt "#30466"
+msgid "91"
+msgstr ""
+
+msgctxt "#30467"
+msgid "92"
+msgstr ""
+
+msgctxt "#30468"
+msgid "93"
+msgstr ""
+
+msgctxt "#30469"
+msgid "94"
+msgstr ""
+
+msgctxt "#30470"
+msgid "95"
+msgstr ""
+
+msgctxt "#30471"
+msgid "96"
+msgstr ""
+
+msgctxt "#30472"
+msgid "97"
+msgstr ""
+
+msgctxt "#30473"
+msgid "98"
+msgstr ""
+
+msgctxt "#30474"
+msgid "99"
+msgstr ""
+
+msgctxt "#30475"
+msgid "100"
+msgstr ""
+
+msgctxt "#30476"
+msgid "0"
+msgstr ""
+
+msgctxt "#30477"
+msgid "Wiimote IR > Wiimote IR Total Pitch"
+msgstr ""
+
+msgctxt "#30478"
+msgid "Vertical field of view for Wiimote pointer."
+msgstr ""
+
+msgctxt "#30479"
+msgid "Wiimote IR > Wiimote IR Deadzone"
+msgstr ""
+
+msgctxt "#30480"
+msgid "Amount of small IR‑cursor movement to ignore (0–50%)."
+msgstr ""
+
+msgctxt "#30481"
+msgid "0% (No Deadzone)"
+msgstr ""
+
+msgctxt "#30482"
+msgid "WiiMote IR > Modifier Button"
+msgstr ""
+
+msgctxt "#30483"
+msgid "Button used as a modifier for IR control. With no modifier selected, IR is always active with right thumbstick."
+msgstr ""
+
+msgctxt "#30484"
+msgid "None (Default)"
+msgstr ""
+
+msgctxt "#30485"
+msgid "WiiMote Swing > Modifier Button"
+msgstr ""
+
+msgctxt "#30486"
+msgid "Button to hold while using right thumbstick to activate swing. OFF turns off swing. Selecting none will allow free use of right thumb stick to swing (It will automatically filter out L3)."
+msgstr ""
+
+msgctxt "#30487"
+msgid "Wiimote Swing > Angle"
+msgstr ""
+
+msgctxt "#30488"
+msgid "Rotation applied at the extremities of a swing (1-180°)."
+msgstr ""
+
+msgctxt "#30489"
+msgid "90° (Default)"
+msgstr ""
+
+msgctxt "#30490"
+msgid "110"
+msgstr ""
+
+msgctxt "#30491"
+msgid "120"
+msgstr ""
+
+msgctxt "#30492"
+msgid "130"
+msgstr ""
+
+msgctxt "#30493"
+msgid "140"
+msgstr ""
+
+msgctxt "#30494"
+msgid "150"
+msgstr ""
+
+msgctxt "#30495"
+msgid "160"
+msgstr ""
+
+msgctxt "#30496"
+msgid "170"
+msgstr ""
+
+msgctxt "#30497"
+msgid "180"
+msgstr ""
+
+msgctxt "#30498"
+msgid "Wiimote IR > Wiimote IR Passthrough"
+msgstr ""
+
+msgctxt "#30499"
+msgid "Take the Wiimote camera's view of the sensor bar straight from the frontend, instead of deriving it from a cursor position. The frontend supplies up to four IR objects on pointer indices 1-4; Wiimote IR Mode, Total Yaw, Total Pitch and Vertical Offset are all bypassed. For frontends that know the real geometry (a VR room, a tracked light gun) this is exact, and it carries roll and distance, which a cursor cannot. Leave off for a mouse or a gamepad."
+msgstr ""
+
+msgctxt "#30500"
+msgid "RetroArch Core"
+msgstr ""
+
+msgctxt "#30501"
+msgid "Configure settings which are specific to the RetroArch core and do not exist in dolphin standlone."
+msgstr ""
+
+msgctxt "#30502"
+msgid "RetroArch Core > Automatically Import Cheats into RetroArch"
+msgstr ""
+
+msgctxt "#30503"
+msgid "Import dolphin ini files into RetroArch. Restart core to take effect."
+msgstr ""
+
+msgctxt "#30504"
+msgid "RetroArch core > Load & Prevent Save Settings"
+msgstr ""
+
+msgctxt "#30505"
+msgid "Choose whether to load core settings from GCPad.ini/WiimoteNew.ini and also prevent saving to them. Core options may no longer be reflected correctly in RetroArch interface. Editing ini files incorrectly will likely crash the emulator."
+msgstr ""
+
+msgctxt "#30506"
+msgid "RetroArch core > Enable Virtual File System (VFS)"
+msgstr ""
+
+msgctxt "#30507"
+msgid "Enable VFS for SAF/SMB etc. Requires core RESTART. This feature is NEW and EXPERIMENTAL. Backup your saves regularly."
+msgstr ""
+
+msgctxt "#30508"
+msgid "RetroArch core > Enable Default Mouse Bindings"
+msgstr ""
+
+msgctxt "#30509"
+msgid "Enable default Mouse Bindings, disable for more control on bindings."
+msgstr ""
+
+msgctxt "#30510"
+msgid "Wiimote (DSU)"
+msgstr ""
+
+msgctxt "#30511"
+msgid "Configure DSU client for DualShock motion data."
+msgstr ""
+
+msgctxt "#30512"
+msgid "Wiimote (DSU) > Enable DSU Client"
+msgstr ""
+
+msgctxt "#30513"
+msgid "Enable DSU client for DualShock motion data. Restart core to take effect."
+msgstr ""
+
+msgctxt "#30514"
+msgid "Wiimote (DSU) > Server IP Octet 1"
+msgstr ""
+
+msgctxt "#30515"
+msgid "First octet of DSU server IP. e.g. for 192.168.1.10 set this to 192."
+msgstr ""
+
+msgctxt "#30516"
+msgid "Wiimote (DSU) > Server IP Octet 2"
+msgstr ""
+
+msgctxt "#30517"
+msgid "Second octet of DSU server IP. e.g. for 192.168.1.10 set this to 168."
+msgstr ""
+
+msgctxt "#30518"
+msgid "Wiimote (DSU) > Server IP Octet 3"
+msgstr ""
+
+msgctxt "#30519"
+msgid "Third octet of DSU server IP. e.g. for 192.168.1.10 set this to 1."
+msgstr ""
+
+msgctxt "#30520"
+msgid "Wiimote (DSU) > Server IP Octet 4"
+msgstr ""
+
+msgctxt "#30521"
+msgid "Fourth octet of DSU server IP. e.g. for 192.168.1.10 set this to 10."
+msgstr ""
+
+msgctxt "#30522"
+msgid "Wiimote (DSU) > Server Port"
+msgstr ""
+
+msgctxt "#30523"
+msgid "UDP port of DSU server. Default is 26760."
+msgstr ""
+
+msgctxt "#30524"
+msgid "26760 (default)"
+msgstr ""
+
+msgctxt "#30525"
+msgid "26761"
+msgstr ""
+
+msgctxt "#30526"
+msgid "26762"
+msgstr ""
+
+msgctxt "#30527"
+msgid "26763"
+msgstr ""
+
+msgctxt "#30528"
+msgid "26764"
+msgstr ""
+
+msgctxt "#30529"
+msgid "26765"
+msgstr ""
+
+msgctxt "#30530"
+msgid "Graphics > Settings > VR Mode"
+msgstr ""
+
+msgctxt "#30531"
+msgid "'Stereoscopic' shows the game on a virtual screen in 3D. 'Immersive' also turns the game camera with your head. Expect odd things in immersive mode. Requires a frontend with VR support."
+msgstr ""
+
+msgctxt "#30532"
+msgid "Stereoscopic"
+msgstr ""
+
+msgctxt "#30533"
+msgid "Immersive (Free Look)"
+msgstr ""
+
+msgctxt "#30534"
+msgid "WiiMote > Device"
+msgstr ""
+
+msgctxt "#30535"
+msgid "Device to use on every Wii port, in place of the one set for that port. Real WiiMote plays with Wiimotes connected to this device, for example through a DolphinBar, and scans for them continuously."
+msgstr ""
+
+msgctxt "#30536"
+msgid "Set per port"
+msgstr ""
+
+msgctxt "#30537"
+msgid "WiiMote (upright)"
+msgstr ""
+
+msgctxt "#30538"
+msgid "WiiMote (sideways)"
+msgstr ""
+
+msgctxt "#30539"
+msgid "WiiMote + Nunchuk"
+msgstr ""
+
+msgctxt "#30540"
+msgid "WiiMote + Classic Controller"
+msgstr ""
+
+msgctxt "#30541"
+msgid "WiiMote + Classic Controller Pro"
+msgstr ""
+
+msgctxt "#30542"
+msgid "WiiMote + MotionPlus"
+msgstr ""
+
+msgctxt "#30543"
+msgid "WiiMote + MotionPlus (sideways)"
+msgstr ""
+
+msgctxt "#30544"
+msgid "WiiMote + MotionPlus + Nunchuk"
+msgstr ""
+
+msgctxt "#30545"
+msgid "WiiMote + MotionPlus + Classic Controller"
+msgstr ""
+
+msgctxt "#30546"
+msgid "WiiMote + MotionPlus + Classic Controller Pro"
+msgstr ""
+
+msgctxt "#30547"
+msgid "Real WiiMote"
+msgstr ""
+
+msgctxt "#30548"
+msgid "GameCube Controller"
+msgstr ""
+
+msgctxt "#30549"
+msgid "Interface > Logging > Popups"
+msgstr ""
+
+msgctxt "#30550"
+msgid "Enable Popup log messages."
+msgstr ""

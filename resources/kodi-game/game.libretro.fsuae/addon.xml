@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.fsuae"
+		name="Commodore - Amiga (FS-UAE)"
+		version="0.0.1.7"
+		provider-name="FrodeSolheim">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions></extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>true</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fsuae</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Commodore - Amiga (FS-UAE)</summary>
+		<summary lang="en_GB">Commodore - Amiga (FS-UAE)</summary>
+		<summary lang="es_ES">Commodore - Amiga (FS-UAE)</summary>
+		<summary lang="ga">Commodore - Amiga (FS-UAE)</summary>
+		<summary lang="it_IT">Commodore - Amiga (FS-UAE)</summary>
+		<summary lang="ru_RU">Commodore - Amiga (FS-UAE)</summary>
+		<summary lang="sv_SE">Commodore - Amiga (FS-UAE)</summary>
+		<summary lang="zh_CN">Commodore - Amiga (FS-UAE)</summary>
+		<description lang="cs_CZ">UAE je zkratka pro Ubiquitous Amiga Emulator. FS-UAE je multiplatformní port UAE pro API Libretro.</description>
+		<description lang="en_GB">UAE stands for the Ubiquitous Amiga Emulator. FS-UAE is a cross-platform port of UAE to the libretro API.</description>
+		<description lang="es_ES">UAE son las siglas de Ubiquitous Amiga Emulator. FS-UAE es un port multiplataforma de UAE para la API libretro.</description>
+		<description lang="ga">Seasann UAE don Ubiquitous Amiga Emulator. Is port tras-ardáin de UAE chuig API libretro é FS-UAE.</description>
+		<description lang="it_IT">UAE sta per Ubiquitous Amiga Emulator. FS-UAE è un porting multipiattaforma da UAE all&apos;API di libretro.</description>
+		<description lang="ru_RU">UAE означает Ubiquitous Amiga Emulator (универсальный эмулятор Amiga). FS-UAE — это кроссплатформенный порт UAE на API Libretro.</description>
+		<description lang="sv_SE">UAE står för Ubiquitous Amiga Emulator. FS-UAE är en plattformsoberoende portning av UAE till libretro API.</description>
+		<description lang="zh_CN">UAE 是 Ubiquitous Amiga Emulator 的缩写。FS-UAE 是 UAE 与 libretro API 的跨平台移植。</description>
+	</extension>
+</addon>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.uae"
+		name="Commodore - Amiga (PUAE)"
+		version="5.3.1.106"
+		provider-name="UAE Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.amiga.cd32" version="1.0.0"/>
+		<import addon="game.controller.amiga.pro.joystick" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Commodore - Amiga</platforms>
+		<extensions>adf|adz|dms|fdi|raw|ipf|hdf|hdz|lha|slave|info|cue|ccd|nrg|mds|iso|chd|uae|m3u|zip|7z|/</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>puae_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.uae</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Commodore - Amiga (PUAE)</summary>
+		<summary lang="da_DK">Commodore - Amiga (PUAE)</summary>
+		<summary lang="en_GB">Commodore - Amiga (PUAE)</summary>
+		<summary lang="es_ES">Commodore - Amiga (PUAE)</summary>
+		<summary lang="ga">Commodore - Amiga (PUAE)</summary>
+		<summary lang="it_IT">Commodore - Amiga (PUAE)</summary>
+		<summary lang="ru_RU">Commodore — Amiga (PUAE)</summary>
+		<summary lang="sv_SE">Commodore - Amiga (PUAE)</summary>
+		<summary lang="zh_CN">Commodore - Amiga (PUAE)</summary>
+		<description lang="cs_CZ">UAE znamená Ubiquitous Amiga Emulator.[CR][CR]Většina her vyžaduje některou verzi ROM Amiga Kickstart. Některé staré hry ale fungují i s vestavěnou emulací ROM.</description>
+		<description lang="da_DK">UAE står for Ubiquitous Amiga Emulator.[CR][CR]De fleste spil kræver en version af Amiga Kickstart ROM. Nogle gamle spil vil dog fungere med den indbyggede ROM-emulering.</description>
+		<description lang="de_DE">UAE steht für den Ubiquitous Amiga Emulator[CR][CR]Die meisten Spiele benötigen eine Version des Amiga Kickstart-ROM. Einige alte Spiele funktionieren jedoch auch mit der eingebauten ROM-Emulation.</description>
+		<description lang="en_GB">UAE stands for the Ubiquitous Amiga Emulator.[CR][CR]Most games require a version of the Amiga Kickstart ROM. However, some old games will work with the built-in ROM emulation.</description>
+		<description lang="es_ES">UAE son las siglas de Ubiquitous Amiga Emulator.[CR][CR]La mayoría de los juegos requieren una versión de la ROM Amiga Kickstart. Sin embargo, algunos juegos antiguos funcionarán con la emulación ROM incorporada.</description>
+		<description lang="es_MX">UAE es un acrónimo para Emulador de Amiga Ubicuo (Ubiquitous Amiga Emulator por sus siglas en inglés).[CR][CR]La mayoría de juegos requieren una versión de la Kickstart ROM de la Amiga. Sin embargo, algunos juegos antiguos funcionarán bien con la emulación de ROM incorporada.</description>
+		<description lang="ga">Seasann UAE don Ubiquitous Amiga Emulator.[CR][CR]Éilíonn formhór na gcluichí leagan den Amiga Kickstart ROM. Mar sin féin, oibreoidh roinnt seanchluichí leis an aithris ROM ionsuite.</description>
+		<description lang="it_IT">UAE sta per Ubiquitous Amiga Emulator.[CR][CR]La maggior parte dei giochi richiede una versione dell&apos;Amiga Kickstart ROM. Tuttavia, alcuni vecchi giochi funzioneranno con l&apos;emulazione ROM integrata.</description>
+		<description lang="ru_RU">UAE расшифровывается как Ubiquitous Amiga Emulator.[CR][CR]Для большинства игр требуется определённая версия Amiga Kickstart ROM. Тем не менее некоторые старые игры могут быть запущены с помощью встроенного эмулятора ROM.</description>
+		<description lang="sv_SE">UAE står för Ubiquitous Amiga Emulator.[CR][CR]De flesta spel kräver en version av Amiga Kickstart ROM. Vissa gamla spel fungerar dock med den inbyggda ROM-emuleringen.</description>
+		<description lang="zh_CN">UAE 即 Ubiquitous Amiga Emulator（无处不在的 Amiga 模拟器）。[CR][CR]大多数游戏需要一个版本的 Amiga 启动 ROM，而一些旧游戏可使用内建 ROM 仿真。</description>
+	</extension>
+</addon>

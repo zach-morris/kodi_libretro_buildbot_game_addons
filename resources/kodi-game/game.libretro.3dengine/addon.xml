@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.3dengine"
+		name="Test Core - 3D Engine"
+		version="1.0.0.33"
+		provider-name="Team Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>mtl|obj</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<requires_opengl>true</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.3dengine</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Testovací jádro - 3D Engine</summary>
+		<summary lang="da_DK">Testkerne - 3D motor</summary>
+		<summary lang="en_GB">Test Core - 3D Engine</summary>
+		<summary lang="es_ES">Core de Test - Motor 3D</summary>
+		<summary lang="ga">Croílár Tástála - Inneall 3T</summary>
+		<summary lang="it_IT">Test Core - Motore 3D</summary>
+		<summary lang="ru_RU">Тестовое ядро — 3D Engine</summary>
+		<summary lang="sv_SE">Testkärna - 3D-motor</summary>
+		<summary lang="zh_CN">测试核心 - 3D 引擎</summary>
+		<description lang="cs_CZ">Technologické demo pro libretro GL s dalšími funkcemi (kamera/poloha/atd.).</description>
+		<description lang="da_DK">En teknisk demo til libretro GL med yderligere funktioner (kamera/placering/osv.).</description>
+		<description lang="de_DE">Eine technische Demo für libretro GL mit zusätzlichen Funktionen (Kamera/Standort/usw.).</description>
+		<description lang="en_GB">A tech demo for libretro GL with additional features (camera/location/etc).</description>
+		<description lang="es_ES">Demostración técnica de libretro GL con funciones adicionales (cámara/localización/etc).</description>
+		<description lang="ga">Taispeántas teicneolaíochta do libretro GL le gnéithe breise (ceamara/suíomh/ srl).</description>
+		<description lang="it_IT">Una demo tecnica per libretro GL con funzionalità aggiuntive (fotocamera, posizione, ecc.).</description>
+		<description lang="ru_RU">Техническая демонстрация для libretro GL с дополнительными функциями (камера/местоположение и т.д.).</description>
+		<description lang="sv_SE">En teknisk demo för libretro GL med ytterligare funktioner (kamera/placering/etc).</description>
+		<description lang="zh_CN">包含附加功能（摄像头/位置等）的 libretro GL 的技术演示。</description>
+	</extension>
+</addon>

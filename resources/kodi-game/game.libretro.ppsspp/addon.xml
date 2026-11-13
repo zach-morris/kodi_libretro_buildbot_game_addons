@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.ppsspp"
+		name="Sony - PlayStation Portable (PPSSPP)"
+		version="1.20.4.34"
+		provider-name="Henrik Hrydgard">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.psp" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sony - PlayStation Portable</platforms>
+		<extensions>elf|iso|cso|prx|pbp|chd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>ppsspp_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.ppsspp</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Sony - PlayStation Portable (PPSSPP)</summary>
+		<description lang="cs_CZ">PPSSPP je rychlý a přenositelný emulátor PSP napsaný v C++.</description>
+		<description lang="da_DK">PPSSPP er en hurtig og bærbar PSP-emulator skrevet i C++.</description>
+		<description lang="de_DE">PPSSPP ist ein schneller und portabler PSP-Emulator, geschrieben in C++.</description>
+		<description lang="en_GB">PPSSPP is a fast and portable PSP emulator written in C++.</description>
+		<description lang="es_ES">PPSSPP es un emulador de PSP rápido y portátil escrito en C++.</description>
+		<description lang="ga">Is aithriseoir PSP gasta agus iniompartha é PPSSPP atá scríofa i C++.</description>
+		<description lang="it_IT">PPSSPP è un emulatore PSP veloce e portatile scritto in C++.</description>
+		<description lang="ru_RU">PPSSPP — это быстрый и переносимый эмулятор PSP, написанный на C++.</description>
+		<description lang="sv_SE">PPSSPP är en snabb och portabel PSP-emulator skriven i C++.</description>
+		<description lang="zh_CN">PPSSPP 是用 C++ 编写的快速便携式 PSP 模拟器。</description>
+		<disclaimer lang="cs_CZ">Původně vytvořil Henrik Rydgård</disclaimer>
+		<disclaimer lang="da_DK">Oprindeligt skabt af Henrik Rydgård</disclaimer>
+		<disclaimer lang="de_DE">Ursprünglich erstellt von Henrik Rydgård</disclaimer>
+		<disclaimer lang="en_GB">Originally created by Henrik Rydgård</disclaimer>
+		<disclaimer lang="es_ES">Creado originalmente por Henrik Rydgård</disclaimer>
+		<disclaimer lang="ga">Cruthaithe ar dtús ag Henrik Rydgård</disclaimer>
+		<disclaimer lang="it_IT">Creato originariamente da Henrik Rydgård</disclaimer>
+		<disclaimer lang="ru_RU">Изначально создан Хенриком Рюдгордом</disclaimer>
+		<disclaimer lang="sv_SE">Ursprungligen skapat av Henrik Rydgård</disclaimer>
+		<disclaimer lang="zh_CN">由 Henrik Rydgård 初始创建</disclaimer>
+	</extension>
+</addon>

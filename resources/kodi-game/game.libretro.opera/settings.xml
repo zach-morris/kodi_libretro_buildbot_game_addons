@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.opera">
+		<category id="system" label="30025">
+			<group id="1">
+				<setting id="opera_bios" type="string" label="30001" help="30096">
+					<level>0</level>
+					<default>opera-boot-internal</default>
+					<constraints>
+						<options>
+							<option label="30097">opera-boot-internal</option>
+							<option label="30098">opera-boot.bin</option>
+							<option label="30027">panafz1.bin</option>
+							<option label="30028">panafz1j.bin</option>
+							<option label="30029">panafz1j-norsa.bin</option>
+							<option label="30030">panafz10.bin</option>
+							<option label="30031">panafz10-norsa.bin</option>
+							<option label="30032">panafz10e-anvil.bin</option>
+							<option label="30033">panafz10e-anvil-norsa.bin</option>
+							<option label="30034">goldstar.bin</option>
+							<option label="30035">sanyotry.bin</option>
+							<option label="30036">3do_arcade_saot.bin</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_font" type="string" label="30002" help="30037">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30038">panafz1-kanji.bin</option>
+							<option label="30038">panafz1j-kanji.bin</option>
+							<option label="30039">panafz10ja-anvil-kanji.bin</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_cd_speed" type="string" label="30023" help="30040">
+					<level>0</level>
+					<default>2x</default>
+					<constraints>
+						<options>
+							<option label="30083">unbounded</option>
+							<option label="30041">1x</option>
+							<option label="30042">2x</option>
+							<option label="30043">4x</option>
+							<option label="30044">8x</option>
+							<option label="30045">16x</option>
+							<option label="30046">24x</option>
+							<option label="30047">32x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_region" type="string" label="30022" help="30048">
+					<level>0</level>
+					<default>ntsc</default>
+					<constraints>
+						<options>
+							<option label="30049">ntsc</option>
+							<option label="30050">pal1</option>
+							<option label="30051">pal2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_nvram_storage" type="string" label="30011" help="30052">
+					<level>0</level>
+					<default>per game</default>
+					<constraints>
+						<options>
+							<option label="30053">per game</option>
+							<option label="30054">shared</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_nvram_version" type="string" label="30012" help="30055">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30056">
+			<group id="1">
+				<setting id="opera_vdlp_pixel_format" type="string" label="30005" help="30057">
+					<level>0</level>
+					<default>RGB565</default>
+					<constraints>
+						<options>
+							<option>0RGB1555</option>
+							<option>RGB565</option>
+							<option>XRGB8888</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_vdlp_bypass_clut" type="string" label="30006" help="30058">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_high_resolution" type="string" label="30007" help="30059">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30060">
+			<group id="1">
+				<setting id="opera_dsp_threaded" type="string" label="30010" help="30061">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30062">
+			<group id="1">
+				<setting id="opera_active_devices" type="string" label="30013" help="30063">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_hide_lightgun_crosshairs" type="string" label="30020" help="30064">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30065">
+			<group id="1">
+				<setting id="opera_cpu_overclock" type="string" label="30003" help="30066">
+					<level>0</level>
+					<default>1.0x (12.50Mhz)</default>
+					<constraints>
+						<options>
+							<option>0.5x ( 6.25Mhz)</option>
+							<option>0.6x ( 7.50Mhz)</option>
+							<option>0.7x ( 8.75Mhz)</option>
+							<option>0.8x (10.00Mhz)</option>
+							<option>0.9x (11.25Mhz)</option>
+							<option>1.0x (12.50Mhz)</option>
+							<option>1.1x (13.75Mhz)</option>
+							<option>1.2x (15.00Mhz)</option>
+							<option>1.5x (18.75Mhz)</option>
+							<option>1.6x (20.00Mhz)</option>
+							<option>1.8x (22.50Mhz)</option>
+							<option>2.0x (25.00Mhz)</option>
+							<option>3.0x (37.50Mhz)</option>
+							<option>4.0x (50.00Mhz)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_mem_capacity" type="string" label="30021" help="30099">
+					<level>0</level>
+					<default>21</default>
+					<constraints>
+						<options>
+							<option label="30068">21</option>
+							<option label="30069">22</option>
+							<option label="30070">41</option>
+							<option label="30071">42</option>
+							<option label="30072">81</option>
+							<option label="30073">82</option>
+							<option label="30074">E2</option>
+							<option label="30075">F1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_random_seed" type="string" label="30024" help="30076">
+					<level>0</level>
+					<default>random</default>
+					<constraints>
+						<options>
+							<option label="30077">random</option>
+							<option label="30084">0x00000000</option>
+							<option label="30085">0x00000001</option>
+							<option label="30086">0xdeadbeef</option>
+							<option label="30087">0xcafebabe</option>
+							<option label="30088">0xfeedface</option>
+							<option label="30089">0xbaadf00d</option>
+							<option label="30090">0x8badf00d</option>
+							<option label="30091">0xdeadc0de</option>
+							<option label="30092">0xc001d00d</option>
+							<option label="30093">0x0badf00d</option>
+							<option label="30094">0x74726170</option>
+							<option label="30095">0x65786974</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_madam_matrix_engine" type="string" label="30008" help="30078">
+					<level>0</level>
+					<default>hardware</default>
+					<constraints>
+						<options>
+							<option label="30079">hardware</option>
+							<option label="30080">software</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_swi_hle" type="string" label="30009" help="30081">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="opera_kprint" type="string" label="30019" help="30082">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

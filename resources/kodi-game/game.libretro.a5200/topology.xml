@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<logicaltopology>
+  <port type="controller" id="1">
+    <accepts controller="game.controller.atari.5200"/>
+  </port>
+  <port type="controller" id="2">
+    <accepts controller="game.controller.atari.5200"/>
+  </port>
+</logicaltopology>

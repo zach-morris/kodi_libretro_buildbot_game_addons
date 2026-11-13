@@ -1,0 +1,186 @@
+# game.libretro.bk language file
+# Addon Name: game.libretro.bk
+# Addon id: game.libretro.bk
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.bk\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 13:15i\n"
+"PO-Revision-Date: 2026-05-14 16:45+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-bk/en_US/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+msgctxt "Addon Summary"
+msgid "Elektronika - BK-0010/BK-0011(M)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "BK is an emulator for the Soviet Electronica BK series: БК-0010, БК-0010.01, and БК-0011(M)."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Model (restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Peripheral (UP port, restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Double CPU speed"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Use color display"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Keyboard type (restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Aspect ratio"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Key -> Hotkey -> Color Mode"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Key -> Hotkey -> Soft Reset"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Key -> Hotkey -> Hard Reset"
+msgstr ""
+
+msgctxt "#30024"
+msgid "System"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Configure system parameters."
+msgstr ""
+
+msgctxt "#30026"
+msgid "Model of the emulated computer."
+msgstr ""
+
+msgctxt "#30027"
+msgid "BK-0010"
+msgstr ""
+
+msgctxt "#30028"
+msgid "BK-0010.01"
+msgstr ""
+
+msgctxt "#30029"
+msgid "BK-0010.01 + FDD"
+msgstr ""
+
+msgctxt "#30030"
+msgid "BK-0011M + FDD"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Terak 8510/a"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Slow BK-0011M"
+msgstr ""
+
+msgctxt "#30033"
+msgid "None"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Covox"
+msgstr ""
+
+msgctxt "#30035"
+msgid "AY 3 8910"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Mouse (high)"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Mouse (low)"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Joystick"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Remap keyboard system keys."
+msgstr ""
+
+msgctxt "#30041"
+msgid "Keyboard Layout"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Key -> Repeat"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Key -> KT"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Key -> |--->"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Key -> |<---"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Key -> -|-->"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Key -> Ind Su"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Key -> Block"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Key -> Step"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Key -> Reset"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Key -> Tab"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Key -> Vs"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Key -> Rus"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Key -> Lat"
+msgstr ""

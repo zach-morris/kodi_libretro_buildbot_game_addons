@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.mame2000">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="mame2000-frameskip" type="string" label="30008" help="30011">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="16316">auto</option>
+							<option label="30021">threshold</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame2000-frameskip_threshold" type="string" label="30002" help="30012">
+					<level>0</level>
+					<default>30</default>
+					<constraints>
+						<options>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame2000-frameskip_interval" type="string" label="30003" help="30013">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame2000-skip_disclaimer" type="string" label="30004" help="30014">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame2000-show_gameinfo" type="string" label="30005" help="30015">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame2000-sample_rate" type="string" label="30010" help="30016">
+					<level>0</level>
+					<default>22050</default>
+					<constraints>
+						<options>
+							<option label="30017">auto</option>
+							<option label="30018">manual</option>
+							<option label="30022">8000</option>
+							<option label="30023">11025</option>
+							<option label="30024">22050</option>
+							<option label="30025">32000</option>
+							<option label="30026">44100</option>
+							<option label="30027">48000</option>
+							<option label="30028">96000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame2000-stereo" type="string" label="30007" help="30019">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame2000-qsound_output_filter" type="string" label="30009" help="30020">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

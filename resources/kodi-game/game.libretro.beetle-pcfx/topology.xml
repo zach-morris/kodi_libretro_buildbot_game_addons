@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port id="1">
+    <accepts controller="game.controller.pcfx"/>
+    <accepts controller="game.controller.pcfx.mouse"/>
+  </port>
+  <port id="2">
+    <accepts controller="game.controller.pcfx"/>
+    <accepts controller="game.controller.pcfx.mouse"/>
+  </port>
+</logicaltopology>

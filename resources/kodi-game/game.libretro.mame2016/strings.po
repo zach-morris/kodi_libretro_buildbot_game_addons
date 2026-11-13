@@ -1,0 +1,90 @@
+# game.libretro.mame2016 language file
+# Addon Name: game.libretro.mame2016
+# Addon id: game.libretro.mame2016
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mame2016\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2018-09-02 19:57i\n"
+"PO-Revision-Date: 2024-12-27 21:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mame2016/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (MAME 2016)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Late 2016 version of MAME (0.174) for libretro. Compatible with MAME 0.174 sets."
+msgstr ""
+
+msgctxt "Addon Lifecyclestate"
+msgid "MAME 2016 hasn't been updated since 2022 and is no longer available for use in Kodi."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Read configuration"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Write configuration"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Save state naming"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Auto save/load states"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Enable in-game mouse"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Enable throttle"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Enable cheats"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Main CPU Overclock"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Alternate render method"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Enable softlists"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Softlist automatic media type"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Media type"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Boot to BIOS"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Boot to OSD"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Boot from CLI"
+msgstr ""

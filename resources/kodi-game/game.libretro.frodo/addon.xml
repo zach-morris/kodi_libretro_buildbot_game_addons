@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.frodo"
+		name="Commodore - C64 (Frodo)"
+		version="0.0.1.39"
+		provider-name="Frodo Team Members">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Commodore - C64</platforms>
+		<extensions>d64|t64|x64|p00|lnx|lyx|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>frodo_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.frodo</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Commodore - C64 (Frodo)</summary>
+		<summary lang="da_DK">Commodore - C64 (Frodo)</summary>
+		<summary lang="en_GB">Commodore - C64 (Frodo)</summary>
+		<summary lang="es_ES">Commodore - C64 (Frodo)</summary>
+		<summary lang="ga">Commodore - C64 (Frodo)</summary>
+		<summary lang="it_IT">Commodore - C64 (Frodo)</summary>
+		<summary lang="ko_KR">코모도어 - C64 (프로도)</summary>
+		<summary lang="ru_RU">Commodore - C64 (Frodo)</summary>
+		<summary lang="sv_SE">Commodore - C64 (Frodo)</summary>
+		<summary lang="zh_CN">Commodore - C64 (Frodo)</summary>
+		<description lang="cs_CZ">Frodo je bezplatný a přenositelný emulátor počítače Commodore 64, 8bitového domácího počítače uvedeného v roce 1982 společností Commodore International.</description>
+		<description lang="da_DK">Frodo er en gratis og bærbar emulator til Commodore 64, en 8-bit hjemmecomputer introduceret i 1982 af Commodore International.</description>
+		<description lang="de_DE">Frodo ist ein freier und portabler Emulator für den Commodore 64, einen 8-Bit-Heimcomputer, der 1982 von Commodore International eingeführt wurde.</description>
+		<description lang="en_GB">Frodo is a free and portable emulator for the Commodore 64, an 8-bit home computer introduced in 1982 by Commodore International.</description>
+		<description lang="es_ES">Frodo es un emulador gratuito y portátil para el Commodore 64, un ordenador doméstico de 8 bits presentado en 1982 por Commodore International.</description>
+		<description lang="ga">Is aithriseoir saor in aisce agus iniompartha é Frodo don Commodore 64, ríomhaire baile 8-giotán a tugadh isteach i 1982 ag Commodore International.</description>
+		<description lang="it_IT">Frodo è un emulatore gratuito e portatile per il Commodore 64, un home computer a 8 bit introdotto nel 1982 da Commodore International.</description>
+		<description lang="ko_KR">Frodo는 Commodore International에서 1982년에 도입한 8비트 가정용 컴퓨터인 Commodore 64용 무료 휴대용 에뮬레이터입니다.</description>
+		<description lang="ru_RU">Frodo - это бесплатный и портативный эмулятор Commodore 64, 8-битного домашнего компьютера, представленного в 1982 году компанией Commodore International.</description>
+		<description lang="sl_SI">Frodo je brezplačen in prenosljiv emulator za Commodore 64, 8-bitni domači računalnik, ki ga je leta 1982 predstavil Commodore International.</description>
+		<description lang="sv_SE">Frodo är en fri och portabel emulator för Commodore 64, en 8-bitars hemdator som lanserades 1982 av Commodore International.</description>
+		<description lang="zh_CN">Frodo 是 Commodore International 于1982年推出的8位家用计算机 Commodore 64 的免费便携式仿真器。</description>
+	</extension>
+</addon>

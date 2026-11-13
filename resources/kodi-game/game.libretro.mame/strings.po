@@ -1,0 +1,138 @@
+# game.libretro.mame language file
+# Addon Name: game.libretro.mame
+# Addon id: game.libretro.mame
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mame\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2014-05-30 17:00+8\n"
+"PO-Revision-Date: 2024-12-27 21:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mame/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (MAME)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "MAME stands for [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator. MAME can currently emulate several thousand classic arcade games from the late 1970s through the modern era."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: peter-86 (peter-86.deviantart.com)"
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Lightgun Mode"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Lightgun Offscreen Position"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Profile Buttons Per Game"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Joystick Deadzone"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Joystick Saturation"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Joystick 4-way Simulation"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Alternate Renderer"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Alternate Renderer Resolution"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Boot to BIOS"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Boot to OSD"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Read Configuration"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Write Configuration"
+msgstr ""
+
+msgctxt "#30020"
+msgid "MAME INI Paths"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Save State Naming"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Auto Save/Load States"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Softlist Automatic Media Type"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Media Type"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Thread Mode"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Cheats"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Throttle"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Softlists"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Joystick Threshold"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Mouse"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Screen Rotation Mode"
+msgstr ""
+
+msgctxt "#30033"
+msgid "CPU Overclock"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Automatic Load Fast-Forward"
+msgstr ""

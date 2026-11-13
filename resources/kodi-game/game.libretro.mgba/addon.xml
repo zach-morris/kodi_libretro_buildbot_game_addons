@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mgba"
+		name="Nintendo - Game Boy Advance (mGBA)"
+		version="0.11.0.60"
+		provider-name="endrift">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.gba" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Game Boy Advance</platforms>
+		<extensions>gba|gb|gbc|sgb</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mgba_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MPLv2.0</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mgba</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Nintendo - Game Boy Advance (mGBA)</summary>
+		<description lang="cs_CZ">mGBA si klade za cíl být rychlejší a přesnější než mnoho stávajících emulátorů Game Boy Advance a zároveň přidávat funkce, které jiným emulátorům chybí.</description>
+		<description lang="da_DK">mGBA sigter mod at være hurtigere og mere præcis end mange eksisterende Game Boy Advance-emulatorer, samt tilføje funktioner, som andre emulatorer mangler.</description>
+		<description lang="de_DE">mGBA soll schneller und genauer sein als viele bestehende „Game Boy Advance“-Emulatoren und bietet darüber hinaus Funktionen, die anderen Emulatoren fehlen.</description>
+		<description lang="en_GB">mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.</description>
+		<description lang="es_ES">mGBA pretende ser más rápido y preciso que muchos de los emuladores de Game Boy Advance existentes, además de añadir funciones de las que carecen otros emuladores.</description>
+		<description lang="es_MX">mGBA intenta ser más rápido y más preciso que muchos otros emuladores de Game Boy existentes, además de añadir características que otros emuladores no tienen.</description>
+		<description lang="ga">Tá sé mar aidhm ag mGBA a bheith níos tapúla agus níos cruinne ná go leor aithriseoirí Game Boy Advance atá ann cheana féin, chomh maith le gnéithe a chur leis nach bhfuil ag aithriseoirí eile.</description>
+		<description lang="it_IT">mGBA punta a essere più veloce e più accurato di molti emulatori Game Boy Advance esistenti, oltre ad aggiungere funzionalità che altri emulatori non hanno.</description>
+		<description lang="ru_RU">mGBA стремится быть быстрее и точнее многих существующих эмуляторов Game Boy Advance, а также добавляет функции, которых недостаёт другим эмуляторам.</description>
+		<description lang="sv_SE">mGBA ska vara snabbare och mer exakt än många befintliga Game Boy Advance-emulatorer och dessutom lägga till funktioner som andra emulatorer saknar.</description>
+		<description lang="zh_CN">mGBA 的目标是比许多现有的 Game Boy Advance 模拟器更快、更准确，并添加其他模拟器缺乏的功能。</description>
+	</extension>
+</addon>

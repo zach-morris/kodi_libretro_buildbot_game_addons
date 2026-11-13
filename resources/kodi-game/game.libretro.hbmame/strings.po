@@ -1,0 +1,106 @@
+# game.libretro.hbmame language file
+# Addon Name: game.libretro.hbmame
+# Addon id: game.libretro.hbmame
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.hbmame\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 13:25i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-hbmame/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (HBMAME)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "HBMAME stands for Home Brew MAME. It is an emulator of homebrew and hacked games for arcade hardware."
+msgstr ""
+
+msgctxt "Addon Lifecyclestate"
+msgid "Home Brew MAME hasn't been updated since 2020 and is no longer available for use in Kodi."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Read configuration"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Write configuration"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Save state naming"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Auto save/load states"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Enable in-game mouse"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Lightgun mode"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Profile Buttons according to games (Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Enable throttle"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Enable cheats"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Alternate render method"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Enable softlists"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Softlist automatic media type"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Media type"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Boot to BIOS"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Boot to OSD"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Boot from CLI"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "#30018"
+msgid "MAME INI Paths"
+msgstr ""

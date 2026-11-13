@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.beetle-psx-hw">
+		<category id="system" label="30077" help="30078">
+			<group id="1">
+				<setting id="beetle_psx_hw_cpu_freq_scale" type="string" label="30035" help="30079">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option label="30081">50%</option>
+							<option label="30082">60%</option>
+							<option label="30083">70%</option>
+							<option label="30084">80%</option>
+							<option label="30085">90%</option>
+							<option label="30080">100%</option>
+							<option label="30086">110%</option>
+							<option label="30087">120%</option>
+							<option label="30088">130%</option>
+							<option label="30089">140%</option>
+							<option label="30090">150%</option>
+							<option label="30091">160%</option>
+							<option label="30092">170%</option>
+							<option label="30093">180%</option>
+							<option label="30094">190%</option>
+							<option label="30095">200%</option>
+							<option label="30096">210%</option>
+							<option label="30097">220%</option>
+							<option label="30098">230%</option>
+							<option label="30099">240%</option>
+							<option label="30100">250%</option>
+							<option label="30101">260%</option>
+							<option label="30102">270%</option>
+							<option label="30103">280%</option>
+							<option label="30104">290%</option>
+							<option label="30105">300%</option>
+							<option label="30106">310%</option>
+							<option label="30107">320%</option>
+							<option label="30108">330%</option>
+							<option label="30109">340%</option>
+							<option label="30110">350%</option>
+							<option label="30111">360%</option>
+							<option label="30112">370%</option>
+							<option label="30113">380%</option>
+							<option label="30114">390%</option>
+							<option label="30115">400%</option>
+							<option label="30116">410%</option>
+							<option label="30117">420%</option>
+							<option label="30118">430%</option>
+							<option label="30119">440%</option>
+							<option label="30120">450%</option>
+							<option label="30121">460%</option>
+							<option label="30122">470%</option>
+							<option label="30123">480%</option>
+							<option label="30124">490%</option>
+							<option label="30125">500%</option>
+							<option label="30126">510%</option>
+							<option label="30127">520%</option>
+							<option label="30128">530%</option>
+							<option label="30129">540%</option>
+							<option label="30130">550%</option>
+							<option label="30131">560%</option>
+							<option label="30132">570%</option>
+							<option label="30133">580%</option>
+							<option label="30134">590%</option>
+							<option label="30135">600%</option>
+							<option label="30136">610%</option>
+							<option label="30137">620%</option>
+							<option label="30138">630%</option>
+							<option label="30139">640%</option>
+							<option label="30140">650%</option>
+							<option label="30141">660%</option>
+							<option label="30142">670%</option>
+							<option label="30143">680%</option>
+							<option label="30144">690%</option>
+							<option label="30145">700%</option>
+							<option label="30146">710%</option>
+							<option label="30147">720%</option>
+							<option label="30148">730%</option>
+							<option label="30149">740%</option>
+							<option label="30150">750%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_gpu_overclock" type="string" label="30051" help="30151">
+					<level>0</level>
+					<default>1x(native)</default>
+					<constraints>
+						<options>
+							<option label="30152">1x(native)</option>
+							<option label="30153">2x</option>
+							<option label="30154">4x</option>
+							<option label="30155">8x</option>
+							<option label="30156">16x</option>
+							<option label="30157">32x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_gte_overclock" type="string" label="30036" help="30158">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_cd_access_method" type="string" label="30062" help="30159">
+					<level>0</level>
+					<default>sync</default>
+					<constraints>
+						<options>
+							<option label="30160">sync</option>
+							<option label="30161">async</option>
+							<option label="30162">precache</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_cd_fastload" type="string" label="30058" help="30163">
+					<level>0</level>
+					<default>2x(native)</default>
+					<constraints>
+						<options>
+							<option label="30164">2x(native)</option>
+							<option label="30154">4x</option>
+							<option label="30165">6x</option>
+							<option label="30155">8x</option>
+							<option label="30166">10x</option>
+							<option label="30167">12x</option>
+							<option label="30168">14x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_skip_bios" type="string" label="30037" help="30169">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_override_bios" type="string" label="30063" help="30170">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30171">psxonpsp</option>
+							<option label="30172">ps1_rom</option>
+							<option label="30173">openbios</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_region" type="string" label="30076" help="30174">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30175">auto</option>
+							<option label="30176">ntsc-j</option>
+							<option label="30177">ntsc-u</option>
+							<option label="30178">pal</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30179" help="30180">
+			<group id="1">
+				<setting id="beetle_psx_hw_internal_resolution" type="string" label="30001" help="30181">
+					<level>0</level>
+					<default>1x(native)</default>
+					<constraints>
+						<options>
+							<option label="30152">1x(native)</option>
+							<option label="30153">2x</option>
+							<option label="30154">4x</option>
+							<option label="30155">8x</option>
+							<option label="30156">16x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_renderer" type="string" label="30064" help="30182">
+					<level>0</level>
+					<default>hardware</default>
+					<constraints>
+						<options>
+							<option label="30183">hardware</option>
+							<option label="30184">hardware_gl</option>
+							<option label="30185">software</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_renderer_software_fb" type="string" label="30040" help="30186">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_color_format" type="string" label="30187" help="30188">
+					<level>0</level>
+					<default>24bit</default>
+					<constraints>
+						<options>
+							<option label="30189">24bit</option>
+							<option label="30190">30bit_hdr</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_hdr_shoulder" type="string" label="30191" help="30192">
+					<level>0</level>
+					<default>reinhard</default>
+					<constraints>
+						<options>
+							<option label="30193">reinhard</option>
+							<option label="30194">aces</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_src_primaries" type="string" label="30195" help="30196">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30197">off</option>
+							<option label="30198">auto</option>
+							<option label="30199">smptec</option>
+							<option label="30200">ebu</option>
+							<option label="30201">ntsc1953</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_black_setup" type="string" label="30202" help="30203">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30204">off</option>
+							<option label="30205">lifted</option>
+							<option label="30206">crushed</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_phase_error" type="string" label="30207" help="30208">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30209">0</option>
+							<option label="30210">5</option>
+							<option label="30211">10</option>
+							<option label="30212">25</option>
+							<option label="30213">45</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_video_cable" type="string" label="30214" help="30215">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30216">off</option>
+							<option label="30217">rgb</option>
+							<option label="30218">svideo</option>
+							<option label="30219">composite</option>
+							<option label="30220">rf</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_hdr_sdr_gamma" type="string" label="30221" help="30222">
+					<level>0</level>
+					<default>bt1886</default>
+					<constraints>
+						<options>
+							<option label="30223">bt1886</option>
+							<option label="30224">gamma22</option>
+							<option label="30225">srgb</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_hdr_overbright" type="string" label="30226" help="30227">
+					<level>0</level>
+					<default>clamped</default>
+					<constraints>
+						<options>
+							<option label="30228">clamped</option>
+							<option label="30229">hot</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_hdr_multipass" type="string" label="30230" help="30231">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_depth" type="string" label="30002" help="30232">
+					<level>0</level>
+					<default>16bpp(native)</default>
+					<constraints>
+						<options>
+							<option label="30233">16bpp(native)</option>
+							<option label="30234">32bpp</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_dither_mode" type="string" label="30003" help="30235">
+					<level>0</level>
+					<default>1x(native)</default>
+					<constraints>
+						<options>
+							<option label="30152">1x(native)</option>
+							<option label="30236">internal resolution</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_filter" type="string" label="30004" help="30237">
+					<level>0</level>
+					<default>nearest</default>
+					<constraints>
+						<options>
+							<option label="30238">nearest</option>
+							<option label="30241">SABR</option>
+							<option label="30242">xBR</option>
+							<option label="30239">bilinear</option>
+							<option label="30240">3-point</option>
+							<option label="30243">JINC2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_core_timing_fps" type="string" label="30045" help="30244">
+					<level>0</level>
+					<default>auto_toggle</default>
+					<constraints>
+						<options>
+							<option label="30245">auto_toggle</option>
+							<option label="30246">force_progressive</option>
+							<option label="30247">force_interlaced</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_deinterlacer" type="string" label="30061" help="30248">
+					<level>0</level>
+					<default>weave</default>
+					<constraints>
+						<options>
+							<option label="30249">weave</option>
+							<option label="30250">bob</option>
+							<option label="30251">bob_offset</option>
+							<option label="30252">fastmad</option>
+							<option label="30209">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_frame_duping" type="string" label="30074" help="30253">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_pal_video_timing_override" type="string" label="30075" help="30254">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_aspect_ratio" type="string" label="30052" help="30255">
+					<level>0</level>
+					<default>corrected</default>
+					<constraints>
+						<options>
+							<option label="30256">corrected</option>
+							<option label="30257">uncorrected</option>
+							<option label="30258">4:3</option>
+							<option label="30259">ntsc</option>
+							<option label="30260">16:9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_crop_overscan" type="string" label="30047" help="30261">
+					<level>0</level>
+					<default>smart</default>
+					<constraints>
+						<options>
+							<option label="30262">disabled</option>
+							<option label="30263">static</option>
+							<option label="30264">smart</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_image_crop" type="string" label="30048" help="30265">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30266">disabled</option>
+							<option label="30267">1px</option>
+							<option label="30268">2px</option>
+							<option label="30269">3px</option>
+							<option label="30270">4px</option>
+							<option label="30271">5px</option>
+							<option label="30272">6px</option>
+							<option label="30273">7px</option>
+							<option label="30274">8px</option>
+							<option label="30275">9px</option>
+							<option label="30276">10px</option>
+							<option label="30277">11px</option>
+							<option label="30278">12px</option>
+							<option label="30279">13px</option>
+							<option label="30280">14px</option>
+							<option label="30281">15px</option>
+							<option label="30282">16px</option>
+							<option label="30283">17px</option>
+							<option label="30284">18px</option>
+							<option label="30285">19px</option>
+							<option label="30286">20px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_image_offset" type="string" label="30049" help="30287">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30288">-12px</option>
+							<option label="30289">-11px</option>
+							<option label="30290">-10px</option>
+							<option label="30291">-9px</option>
+							<option label="30292">-8px</option>
+							<option label="30293">-7px</option>
+							<option label="30294">-6px</option>
+							<option label="30295">-5px</option>
+							<option label="30296">-4px</option>
+							<option label="30297">-3px</option>
+							<option label="30298">-2px</option>
+							<option label="30299">-1px</option>
+							<option label="30266">disabled</option>
+							<option label="30300">+1px</option>
+							<option label="30301">+2px</option>
+							<option label="30302">+3px</option>
+							<option label="30303">+4px</option>
+							<option label="30304">+5px</option>
+							<option label="30305">+6px</option>
+							<option label="30306">+7px</option>
+							<option label="30307">+8px</option>
+							<option label="30308">+9px</option>
+							<option label="30309">+10px</option>
+							<option label="30310">+11px</option>
+							<option label="30311">+12px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_image_offset_cycles" type="string" label="30050" help="30312">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30313">-40</option>
+							<option label="30314">-39</option>
+							<option label="30315">-38</option>
+							<option label="30316">-37</option>
+							<option label="30317">-36</option>
+							<option label="30318">-35</option>
+							<option label="30319">-34</option>
+							<option label="30320">-33</option>
+							<option label="30321">-32</option>
+							<option label="30322">-31</option>
+							<option label="30323">-30</option>
+							<option label="30324">-29</option>
+							<option label="30325">-28</option>
+							<option label="30326">-27</option>
+							<option label="30327">-26</option>
+							<option label="30328">-25</option>
+							<option label="30329">-24</option>
+							<option label="30330">-23</option>
+							<option label="30331">-22</option>
+							<option label="30332">-21</option>
+							<option label="30333">-20</option>
+							<option label="30334">-19</option>
+							<option label="30335">-18</option>
+							<option label="30336">-17</option>
+							<option label="30337">-16</option>
+							<option label="30338">-15</option>
+							<option label="30339">-14</option>
+							<option label="30340">-13</option>
+							<option label="30341">-12</option>
+							<option label="30342">-11</option>
+							<option label="30343">-10</option>
+							<option label="30344">-9</option>
+							<option label="30345">-8</option>
+							<option label="30346">-7</option>
+							<option label="30347">-6</option>
+							<option label="30348">-5</option>
+							<option label="30349">-4</option>
+							<option label="30350">-3</option>
+							<option label="30351">-2</option>
+							<option label="30352">-1</option>
+							<option label="30266">0</option>
+							<option label="30353">+1</option>
+							<option label="30354">+2</option>
+							<option label="30355">+3</option>
+							<option label="30356">+4</option>
+							<option label="30357">+5</option>
+							<option label="30358">+6</option>
+							<option label="30359">+7</option>
+							<option label="30360">+8</option>
+							<option label="30361">+9</option>
+							<option label="30362">+10</option>
+							<option label="30363">+11</option>
+							<option label="30364">+12</option>
+							<option label="30365">+13</option>
+							<option label="30366">+14</option>
+							<option label="30367">+15</option>
+							<option label="30368">+16</option>
+							<option label="30369">+17</option>
+							<option label="30370">+18</option>
+							<option label="30371">+19</option>
+							<option label="30372">+20</option>
+							<option label="30373">+21</option>
+							<option label="30374">+22</option>
+							<option label="30375">+23</option>
+							<option label="30376">+24</option>
+							<option label="30377">+25</option>
+							<option label="30378">+26</option>
+							<option label="30379">+27</option>
+							<option label="30380">+28</option>
+							<option label="30381">+29</option>
+							<option label="30382">+30</option>
+							<option label="30383">+31</option>
+							<option label="30384">+32</option>
+							<option label="30385">+33</option>
+							<option label="30386">+34</option>
+							<option label="30387">+35</option>
+							<option label="30388">+36</option>
+							<option label="30389">+37</option>
+							<option label="30390">+38</option>
+							<option label="30391">+39</option>
+							<option label="30392">+40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_initial_scanline" type="string" label="30053" help="30393">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30394">0</option>
+							<option label="30395">1</option>
+							<option label="30396">2</option>
+							<option label="30397">3</option>
+							<option label="30398">4</option>
+							<option label="30399">5</option>
+							<option label="30400">6</option>
+							<option label="30401">7</option>
+							<option label="30402">8</option>
+							<option label="30403">9</option>
+							<option label="30404">10</option>
+							<option label="30405">11</option>
+							<option label="30406">12</option>
+							<option label="30407">13</option>
+							<option label="30408">14</option>
+							<option label="30409">15</option>
+							<option label="30410">16</option>
+							<option label="30411">17</option>
+							<option label="30412">18</option>
+							<option label="30413">19</option>
+							<option label="30414">20</option>
+							<option label="30415">21</option>
+							<option label="30416">22</option>
+							<option label="30417">23</option>
+							<option label="30418">24</option>
+							<option label="30419">25</option>
+							<option label="30420">26</option>
+							<option label="30421">27</option>
+							<option label="30422">28</option>
+							<option label="30423">29</option>
+							<option label="30424">30</option>
+							<option label="30425">31</option>
+							<option label="30426">32</option>
+							<option label="30427">33</option>
+							<option label="30428">34</option>
+							<option label="30429">35</option>
+							<option label="30430">36</option>
+							<option label="30431">37</option>
+							<option label="30432">38</option>
+							<option label="30433">39</option>
+							<option label="30434">40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_last_scanline" type="string" label="30054" help="30435">
+					<level>0</level>
+					<default>239</default>
+					<constraints>
+						<options>
+							<option label="30437">210</option>
+							<option label="30438">211</option>
+							<option label="30439">212</option>
+							<option label="30440">213</option>
+							<option label="30441">214</option>
+							<option label="30442">215</option>
+							<option label="30443">216</option>
+							<option label="30444">217</option>
+							<option label="30445">218</option>
+							<option label="30446">219</option>
+							<option label="30447">220</option>
+							<option label="30448">221</option>
+							<option label="30449">222</option>
+							<option label="30450">223</option>
+							<option label="30451">224</option>
+							<option label="30452">225</option>
+							<option label="30453">226</option>
+							<option label="30454">227</option>
+							<option label="30455">228</option>
+							<option label="30456">229</option>
+							<option label="30457">230</option>
+							<option label="30458">231</option>
+							<option label="30459">232</option>
+							<option label="30460">233</option>
+							<option label="30461">234</option>
+							<option label="30462">235</option>
+							<option label="30463">236</option>
+							<option label="30464">237</option>
+							<option label="30465">238</option>
+							<option label="30436">239</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_initial_scanline_pal" type="string" label="30055" help="30466">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30394">0</option>
+							<option label="30395">1</option>
+							<option label="30396">2</option>
+							<option label="30397">3</option>
+							<option label="30398">4</option>
+							<option label="30399">5</option>
+							<option label="30400">6</option>
+							<option label="30401">7</option>
+							<option label="30402">8</option>
+							<option label="30403">9</option>
+							<option label="30404">10</option>
+							<option label="30405">11</option>
+							<option label="30406">12</option>
+							<option label="30407">13</option>
+							<option label="30408">14</option>
+							<option label="30409">15</option>
+							<option label="30410">16</option>
+							<option label="30411">17</option>
+							<option label="30412">18</option>
+							<option label="30413">19</option>
+							<option label="30414">20</option>
+							<option label="30415">21</option>
+							<option label="30416">22</option>
+							<option label="30417">23</option>
+							<option label="30418">24</option>
+							<option label="30419">25</option>
+							<option label="30420">26</option>
+							<option label="30421">27</option>
+							<option label="30422">28</option>
+							<option label="30423">29</option>
+							<option label="30424">30</option>
+							<option label="30425">31</option>
+							<option label="30426">32</option>
+							<option label="30427">33</option>
+							<option label="30428">34</option>
+							<option label="30429">35</option>
+							<option label="30430">36</option>
+							<option label="30431">37</option>
+							<option label="30432">38</option>
+							<option label="30433">39</option>
+							<option label="30434">40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_last_scanline_pal" type="string" label="30056" help="30467">
+					<level>0</level>
+					<default>287</default>
+					<constraints>
+						<options>
+							<option label="30457">230</option>
+							<option label="30458">231</option>
+							<option label="30459">232</option>
+							<option label="30460">233</option>
+							<option label="30461">234</option>
+							<option label="30462">235</option>
+							<option label="30463">236</option>
+							<option label="30464">237</option>
+							<option label="30465">238</option>
+							<option label="30469">239</option>
+							<option label="30470">240</option>
+							<option label="30471">241</option>
+							<option label="30472">242</option>
+							<option label="30473">243</option>
+							<option label="30474">244</option>
+							<option label="30475">245</option>
+							<option label="30476">246</option>
+							<option label="30477">247</option>
+							<option label="30478">248</option>
+							<option label="30479">249</option>
+							<option label="30480">250</option>
+							<option label="30481">251</option>
+							<option label="30482">252</option>
+							<option label="30483">253</option>
+							<option label="30484">254</option>
+							<option label="30485">255</option>
+							<option label="30486">256</option>
+							<option label="30487">257</option>
+							<option label="30488">258</option>
+							<option label="30489">259</option>
+							<option label="30490">260</option>
+							<option label="30491">261</option>
+							<option label="30492">262</option>
+							<option label="30493">263</option>
+							<option label="30494">264</option>
+							<option label="30495">265</option>
+							<option label="30496">266</option>
+							<option label="30497">267</option>
+							<option label="30498">268</option>
+							<option label="30499">269</option>
+							<option label="30500">270</option>
+							<option label="30501">271</option>
+							<option label="30502">272</option>
+							<option label="30503">273</option>
+							<option label="30504">274</option>
+							<option label="30505">275</option>
+							<option label="30506">276</option>
+							<option label="30507">277</option>
+							<option label="30508">278</option>
+							<option label="30509">279</option>
+							<option label="30510">280</option>
+							<option label="30511">281</option>
+							<option label="30512">282</option>
+							<option label="30513">283</option>
+							<option label="30514">284</option>
+							<option label="30515">285</option>
+							<option label="30516">286</option>
+							<option label="30468">287</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="pgxp" label="30517" help="30518">
+			<group id="1">
+				<setting id="beetle_psx_hw_pgxp_mode" type="string" label="30027" help="30519">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30520">memory only</option>
+							<option label="30521">memory + CPU</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_pgxp_2d_tol" type="string" label="30028" help="30522">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30523">0px</option>
+							<option label="30267">1px</option>
+							<option label="30268">2px</option>
+							<option label="30269">3px</option>
+							<option label="30270">4px</option>
+							<option label="30271">5px</option>
+							<option label="30272">6px</option>
+							<option label="30273">7px</option>
+							<option label="30274">8px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_pgxp_nclip" type="string" label="30029" help="30524">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_pgxp_vertex" type="string" label="30030" help="30525">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_pgxp_texture" type="string" label="30031" help="30526">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="osd" label="30527" help="30528">
+			<group id="1">
+				<setting id="beetle_psx_hw_display_internal_fps" type="string" label="30007" help="30529">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_display_osd" type="string" label="30060" help="30530">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_display_vram" type="string" label="30008" help="30531">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30532" help="30533">
+			<group id="1">
+				<setting id="beetle_psx_hw_analog_calibration" type="string" label="30009" help="30534">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_analog_toggle" type="string" label="30059" help="30535">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30536">enabled-analog</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_analog_toggle_combo" type="string" label="30011" help="30537">
+					<level>0</level>
+					<default>l1+r1+select</default>
+					<constraints>
+						<options>
+							<option label="30538">l1+l2+r1+r2+start+select</option>
+							<option label="30539">l1+r1+select</option>
+							<option label="30540">l1+r1+start</option>
+							<option label="30541">l1+r1+l3</option>
+							<option label="30542">l1+r1+r3</option>
+							<option label="30543">l2+r2+select</option>
+							<option label="30544">l2+r2+start</option>
+							<option label="30545">l2+r2+l3</option>
+							<option label="30546">l2+r2+r3</option>
+							<option label="30547">l3+r3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_analog_toggle_hold" type="string" label="30012" help="30548">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30549">0</option>
+							<option label="30550">1</option>
+							<option label="30551">2</option>
+							<option label="30552">3</option>
+							<option label="30553">4</option>
+							<option label="30554">5</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_enable_multitap_port1" type="string" label="30065" help="30555">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_enable_multitap_port2" type="string" label="30066" help="30556">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_gun_input_mode" type="string" label="30015" help="30557">
+					<level>0</level>
+					<default>lightgun</default>
+					<constraints>
+						<options>
+							<option label="30558">lightgun</option>
+							<option label="30559">touchscreen</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_gun_cursor" type="string" label="30016" help="30560">
+					<level>0</level>
+					<default>cross</default>
+					<constraints>
+						<options>
+							<option label="30561">off</option>
+							<option label="30562">cross</option>
+							<option label="30563">dot</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_crosshair_color_p1" type="string" label="30067" help="30564">
+					<level>0</level>
+					<default>red</default>
+					<constraints>
+						<options>
+							<option label="30565">red</option>
+							<option label="30566">blue</option>
+							<option label="30567">green</option>
+							<option label="30568">orange</option>
+							<option label="30569">yellow</option>
+							<option label="30570">cyan</option>
+							<option label="30571">pink</option>
+							<option label="30572">purple</option>
+							<option label="30573">black</option>
+							<option label="30574">white</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_crosshair_color_p2" type="string" label="30068" help="30575">
+					<level>0</level>
+					<default>blue</default>
+					<constraints>
+						<options>
+							<option label="30566">blue</option>
+							<option label="30565">red</option>
+							<option label="30567">green</option>
+							<option label="30568">orange</option>
+							<option label="30569">yellow</option>
+							<option label="30570">cyan</option>
+							<option label="30571">pink</option>
+							<option label="30572">purple</option>
+							<option label="30573">black</option>
+							<option label="30574">white</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_mouse_sensitivity" type="string" label="30019" help="30576">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option>5%</option>
+							<option>10%</option>
+							<option>15%</option>
+							<option>20%</option>
+							<option>25%</option>
+							<option>30%</option>
+							<option>35%</option>
+							<option>40%</option>
+							<option>45%</option>
+							<option>50%</option>
+							<option>55%</option>
+							<option>60%</option>
+							<option>65%</option>
+							<option>70%</option>
+							<option>75%</option>
+							<option>80%</option>
+							<option>85%</option>
+							<option>90%</option>
+							<option>95%</option>
+							<option>100%</option>
+							<option>105%</option>
+							<option>110%</option>
+							<option>115%</option>
+							<option>120%</option>
+							<option>125%</option>
+							<option>130%</option>
+							<option>135%</option>
+							<option>140%</option>
+							<option>145%</option>
+							<option>150%</option>
+							<option>155%</option>
+							<option>160%</option>
+							<option>165%</option>
+							<option>170%</option>
+							<option>175%</option>
+							<option>180%</option>
+							<option>185%</option>
+							<option>190%</option>
+							<option>195%</option>
+							<option>200%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_negcon_response" type="string" label="30020" help="30577">
+					<level>0</level>
+					<default>linear</default>
+					<constraints>
+						<options>
+							<option label="30578">linear</option>
+							<option label="30579">quadratic</option>
+							<option label="30580">cubic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_negcon_deadzone" type="string" label="30021" help="30581">
+					<level>0</level>
+					<default>0%</default>
+					<constraints>
+						<options>
+							<option>0%</option>
+							<option>5%</option>
+							<option>10%</option>
+							<option>15%</option>
+							<option>20%</option>
+							<option>25%</option>
+							<option>30%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="memcards" label="30582" help="30583">
+			<group id="1">
+				<setting id="beetle_psx_hw_use_mednafen_memcard0_method" type="string" label="30069" help="30584">
+					<level>0</level>
+					<default>libretro</default>
+					<constraints>
+						<options>
+							<option label="30585">libretro</option>
+							<option label="30586">mednafen</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_enable_memcard1" type="string" label="30070" help="30587">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_shared_memory_cards" type="string" label="30071" help="30588">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_memcard_left_index" type="string" label="30072" help="30589">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30394">0</option>
+							<option label="30395">1</option>
+							<option label="30396">2</option>
+							<option label="30397">3</option>
+							<option label="30398">4</option>
+							<option label="30399">5</option>
+							<option label="30400">6</option>
+							<option label="30401">7</option>
+							<option label="30402">8</option>
+							<option label="30403">9</option>
+							<option label="30404">10</option>
+							<option label="30405">11</option>
+							<option label="30406">12</option>
+							<option label="30407">13</option>
+							<option label="30408">14</option>
+							<option label="30409">15</option>
+							<option label="30410">16</option>
+							<option label="30411">17</option>
+							<option label="30412">18</option>
+							<option label="30413">19</option>
+							<option label="30414">20</option>
+							<option label="30415">21</option>
+							<option label="30416">22</option>
+							<option label="30417">23</option>
+							<option label="30418">24</option>
+							<option label="30419">25</option>
+							<option label="30420">26</option>
+							<option label="30421">27</option>
+							<option label="30422">28</option>
+							<option label="30423">29</option>
+							<option label="30424">30</option>
+							<option label="30425">31</option>
+							<option label="30426">32</option>
+							<option label="30427">33</option>
+							<option label="30428">34</option>
+							<option label="30429">35</option>
+							<option label="30430">36</option>
+							<option label="30431">37</option>
+							<option label="30432">38</option>
+							<option label="30433">39</option>
+							<option label="30434">40</option>
+							<option label="30590">41</option>
+							<option label="30591">42</option>
+							<option label="30592">43</option>
+							<option label="30593">44</option>
+							<option label="30594">45</option>
+							<option label="30595">46</option>
+							<option label="30596">47</option>
+							<option label="30597">48</option>
+							<option label="30598">49</option>
+							<option label="30599">50</option>
+							<option label="30600">51</option>
+							<option label="30601">52</option>
+							<option label="30602">53</option>
+							<option label="30603">54</option>
+							<option label="30604">55</option>
+							<option label="30605">56</option>
+							<option label="30606">57</option>
+							<option label="30607">58</option>
+							<option label="30608">59</option>
+							<option label="30609">60</option>
+							<option label="30610">61</option>
+							<option label="30611">62</option>
+							<option label="30612">63</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_memcard_right_index" type="string" label="30073" help="30613">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30266">0</option>
+							<option label="30614">1</option>
+							<option label="30396">2</option>
+							<option label="30397">3</option>
+							<option label="30398">4</option>
+							<option label="30399">5</option>
+							<option label="30400">6</option>
+							<option label="30401">7</option>
+							<option label="30402">8</option>
+							<option label="30403">9</option>
+							<option label="30404">10</option>
+							<option label="30405">11</option>
+							<option label="30406">12</option>
+							<option label="30407">13</option>
+							<option label="30408">14</option>
+							<option label="30409">15</option>
+							<option label="30410">16</option>
+							<option label="30411">17</option>
+							<option label="30412">18</option>
+							<option label="30413">19</option>
+							<option label="30414">20</option>
+							<option label="30415">21</option>
+							<option label="30416">22</option>
+							<option label="30417">23</option>
+							<option label="30418">24</option>
+							<option label="30419">25</option>
+							<option label="30420">26</option>
+							<option label="30421">27</option>
+							<option label="30422">28</option>
+							<option label="30423">29</option>
+							<option label="30424">30</option>
+							<option label="30425">31</option>
+							<option label="30426">32</option>
+							<option label="30427">33</option>
+							<option label="30428">34</option>
+							<option label="30429">35</option>
+							<option label="30430">36</option>
+							<option label="30431">37</option>
+							<option label="30432">38</option>
+							<option label="30433">39</option>
+							<option label="30434">40</option>
+							<option label="30590">41</option>
+							<option label="30591">42</option>
+							<option label="30592">43</option>
+							<option label="30593">44</option>
+							<option label="30594">45</option>
+							<option label="30595">46</option>
+							<option label="30596">47</option>
+							<option label="30597">48</option>
+							<option label="30598">49</option>
+							<option label="30599">50</option>
+							<option label="30600">51</option>
+							<option label="30601">52</option>
+							<option label="30602">53</option>
+							<option label="30603">54</option>
+							<option label="30604">55</option>
+							<option label="30605">56</option>
+							<option label="30606">57</option>
+							<option label="30607">58</option>
+							<option label="30608">59</option>
+							<option label="30609">60</option>
+							<option label="30610">61</option>
+							<option label="30611">62</option>
+							<option label="30612">63</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30615" help="30616">
+			<group id="1">
+				<setting id="beetle_psx_hw_line_render" type="string" label="30032" help="30617">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30618">default</option>
+							<option label="30619">aggressive</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_widescreen_hack" type="string" label="30033" help="30620">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_widescreen_hack_aspect_ratio" type="string" label="30034" help="30621">
+					<level>0</level>
+					<default>16:9</default>
+					<constraints>
+						<options>
+							<option>16:9</option>
+							<option>16:10</option>
+							<option>18:9</option>
+							<option>19:9</option>
+							<option>20:9</option>
+							<option>21:9</option>
+							<option>32:9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_spu_silent_voice" type="string" label="30622" help="30623">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_cpu_dynarec" type="string" label="30041" help="30624">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30625">disabled</option>
+							<option label="30626">execute</option>
+							<option label="30627">run_interpreter</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_dynarec_invalidate" type="string" label="30042" help="30628">
+					<level>0</level>
+					<default>full</default>
+					<constraints>
+						<options>
+							<option label="30629">full</option>
+							<option label="30630">dma</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_dynarec_op_cycles" type="string" label="30631" help="30632">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option label="30633">2</option>
+							<option label="30634">1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_dynarec_eventcycles" type="string" label="30043" help="30635">
+					<level>0</level>
+					<default>128</default>
+					<constraints>
+						<options>
+							<option label="30636">128</option>
+							<option label="30486">256</option>
+							<option label="30637">384</option>
+							<option label="30638">512</option>
+							<option label="30639">640</option>
+							<option label="30640">768</option>
+							<option label="30641">896</option>
+							<option label="30642">1024</option>
+							<option label="30643">1152</option>
+							<option label="30644">1280</option>
+							<option label="30645">1408</option>
+							<option label="30646">1536</option>
+							<option label="30647">1664</option>
+							<option label="30648">1792</option>
+							<option label="30649">1920</option>
+							<option label="30650">2048</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_dynarec_spu_samples" type="string" label="30044" help="30651">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30614">1</option>
+							<option label="30398">4</option>
+							<option label="30410">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_dynarec_spgp_opt" type="string" label="30652" help="30653">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="beetle_psx_hw_compatibility_settings" type="string" label="30654" help="30655">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30656">enabled</option>
+							<option label="30657">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,58 @@
+# game.libretro.uae4arm language file
+# Addon Name: game.libretro.uae4arm
+# Addon id: game.libretro.uae4arm
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.uae4arm\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-02-22 23:22i\n"
+"PO-Revision-Date: 2024-12-28 00:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-uae4arm/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Commodore - Amiga (UAE4ARM)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "UAE stands for the Ubiquitous Amiga Emulator. UAE4ARM is optimized for Android and the Raspberry Pi."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Model"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Fast Mem"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Internal resolution"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Leds on screen"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Floppy speed"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Line doubling (de-interlace)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "whdload mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "fast copper"
+msgstr ""

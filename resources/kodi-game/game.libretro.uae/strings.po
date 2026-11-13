@@ -1,0 +1,3267 @@
+# game.libretro.uae language file
+# Addon Name: game.libretro.uae
+# Addon id: game.libretro.uae
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.uae\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-05-14 05:39i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-uae/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Commodore - Amiga (PUAE)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "UAE stands for the Ubiquitous Amiga Emulator.[CR][CR]Most games require a version of the Amiga Kickstart ROM. However, some old games will work with the built-in ROM emulation."
+msgstr ""
+
+msgctxt "#30030"
+msgid "Show Video Options"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Show Audio Options"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Show Mapping Options"
+msgstr ""
+
+msgctxt "#30117"
+msgid "System"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Configure system options."
+msgstr ""
+
+msgctxt "#30119"
+msgid ""
+"'Automatic' defaults to 'A500' with floppy disks, 'A1200' with hard drives and 'CD32' with compact discs. 'Automatic' can be overridden with file path tags.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30120"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "#30121"
+msgid "A500 (v1.3, 0.5M Chip)"
+msgstr ""
+
+msgctxt "#30122"
+msgid "A500 (v1.3, 0.5M Chip + 0.5M Slow)"
+msgstr ""
+
+msgctxt "#30123"
+msgid "A500+ (v2.04, 1M Chip)"
+msgstr ""
+
+msgctxt "#30124"
+msgid "A600 (v3.1, 2M Chip + 8M Fast)"
+msgstr ""
+
+msgctxt "#30125"
+msgid "A1200 (v3.1, 2M Chip)"
+msgstr ""
+
+msgctxt "#30126"
+msgid "A1200 (v3.1, 2M Chip + 8M Fast)"
+msgstr ""
+
+msgctxt "#30127"
+msgid "A2000 (v1.3, 0.5M Chip + 0.5M Slow)"
+msgstr ""
+
+msgctxt "#30128"
+msgid "A2000 (v3.1, 1M Chip)"
+msgstr ""
+
+msgctxt "#30129"
+msgid "A4000/030 (v3.1, 2M Chip + 8M Fast)"
+msgstr ""
+
+msgctxt "#30130"
+msgid "A4000/040 (v3.1, 2M Chip + 8M Fast)"
+msgstr ""
+
+msgctxt "#30131"
+msgid "CDTV (1M Chip)"
+msgstr ""
+
+msgctxt "#30132"
+msgid "CD32 (2M Chip)"
+msgstr ""
+
+msgctxt "#30133"
+msgid "CD32 (2M Chip + 8M Fast)"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Show/hide default model options (Floppy/HD/CD) for 'Automatic' model."
+msgstr ""
+
+msgctxt "#30135"
+msgid ""
+"Default model when floppies are launched with 'Automatic' model.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30136"
+msgid ""
+"Default model when HD interface is used with 'Automatic' model. Affects WHDLoad installs and other hard drive images.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30137"
+msgid ""
+"Default model when compact discs are launched with 'Automatic' model.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30138"
+msgid ""
+"Kickstart ROMs are searched from 'system'.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30139"
+msgid "AROS"
+msgstr ""
+
+msgctxt "#30140"
+msgid ""
+"'Automatic' defaults to the current preset model.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30141"
+msgid "0.5M"
+msgstr ""
+
+msgctxt "#30142"
+msgid "1M"
+msgstr ""
+
+msgctxt "#30143"
+msgid "1.5M"
+msgstr ""
+
+msgctxt "#30144"
+msgid "2M"
+msgstr ""
+
+msgctxt "#30145"
+msgid "None"
+msgstr ""
+
+msgctxt "#30146"
+msgid "1.8M"
+msgstr ""
+
+msgctxt "#30147"
+msgid "4M"
+msgstr ""
+
+msgctxt "#30148"
+msgid "8M"
+msgstr ""
+
+msgctxt "#30149"
+msgid "16M"
+msgstr ""
+
+msgctxt "#30150"
+msgid "32M"
+msgstr ""
+
+msgctxt "#30151"
+msgid "64M"
+msgstr ""
+
+msgctxt "#30152"
+msgid "128M"
+msgstr ""
+
+msgctxt "#30153"
+msgid "256M"
+msgstr ""
+
+msgctxt "#30154"
+msgid "512M"
+msgstr ""
+
+msgctxt "#30155"
+msgid "CPU internal"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Ignored with 'Cycle-exact'."
+msgstr ""
+
+msgctxt "#30157"
+msgid "-90%"
+msgstr ""
+
+msgctxt "#30158"
+msgid "-80%"
+msgstr ""
+
+msgctxt "#30159"
+msgid "-70%"
+msgstr ""
+
+msgctxt "#30160"
+msgid "-60%"
+msgstr ""
+
+msgctxt "#30161"
+msgid "-50%"
+msgstr ""
+
+msgctxt "#30162"
+msgid "-40%"
+msgstr ""
+
+msgctxt "#30163"
+msgid "-30%"
+msgstr ""
+
+msgctxt "#30164"
+msgid "-20%"
+msgstr ""
+
+msgctxt "#30165"
+msgid "-10%"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30167"
+msgid "+100%"
+msgstr ""
+
+msgctxt "#30168"
+msgid "+200%"
+msgstr ""
+
+msgctxt "#30169"
+msgid "+300%"
+msgstr ""
+
+msgctxt "#30170"
+msgid "+400%"
+msgstr ""
+
+msgctxt "#30171"
+msgid "+500%"
+msgstr ""
+
+msgctxt "#30172"
+msgid "+600%"
+msgstr ""
+
+msgctxt "#30173"
+msgid "+700%"
+msgstr ""
+
+msgctxt "#30174"
+msgid "+800%"
+msgstr ""
+
+msgctxt "#30175"
+msgid "+900%"
+msgstr ""
+
+msgctxt "#30176"
+msgid "+1000%"
+msgstr ""
+
+msgctxt "#30177"
+msgid "Applies only with 'Cycle-exact'."
+msgstr ""
+
+msgctxt "#30178"
+msgid "3.546895 MHz"
+msgstr ""
+
+msgctxt "#30179"
+msgid "7.093790 MHz (A500)"
+msgstr ""
+
+msgctxt "#30180"
+msgid "14.187580 MHz (A1200)"
+msgstr ""
+
+msgctxt "#30181"
+msgid "28.375160 MHz"
+msgstr ""
+
+msgctxt "#30182"
+msgid "35.468950 MHz"
+msgstr ""
+
+msgctxt "#30183"
+msgid "42.562740 MHz"
+msgstr ""
+
+msgctxt "#30184"
+msgid "56.750320 MHz"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Some games have graphic and/or speed issues without 'Cycle-exact'. 'Cycle-exact' can be forced with '(CE)' file path tag. (DMA/Memory) is forced to (Full) with 68000."
+msgstr ""
+
+msgctxt "#30186"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30187"
+msgid "More compatible"
+msgstr ""
+
+msgctxt "#30188"
+msgid "Cycle-exact (DMA/Memory)"
+msgstr ""
+
+msgctxt "#30189"
+msgid "Cycle-exact (Full)"
+msgstr ""
+
+msgctxt "#30190"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30191"
+msgid "Configure audio options."
+msgstr ""
+
+msgctxt "#30192"
+msgid "Paula sound chip channel panning. Does not affect CD audio."
+msgstr ""
+
+msgctxt "#30193"
+msgid "Paula sound chip interpolation type."
+msgstr ""
+
+msgctxt "#30194"
+msgid "Anti"
+msgstr ""
+
+msgctxt "#30195"
+msgid "Sinc"
+msgstr ""
+
+msgctxt "#30196"
+msgid "RH"
+msgstr ""
+
+msgctxt "#30197"
+msgid "Crux"
+msgstr ""
+
+msgctxt "#30198"
+msgid "'Emulated' allows states between ON/OFF."
+msgstr ""
+
+msgctxt "#30199"
+msgid "Emulated"
+msgstr ""
+
+msgctxt "#30200"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30201"
+msgid "On"
+msgstr ""
+
+msgctxt "#30202"
+msgid "'Automatic' picks the filter type for the hardware."
+msgstr ""
+
+msgctxt "#30203"
+msgid "A500"
+msgstr ""
+
+msgctxt "#30204"
+msgid "A1200"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Floppy volume in percent."
+msgstr ""
+
+msgctxt "#30206"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30207"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30208"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30209"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30210"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30211"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30212"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30213"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30214"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30215"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30216"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30217"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30218"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30219"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30220"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30221"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30222"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30223"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30224"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30225"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30226"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30227"
+msgid "Mute drive head clicking when floppy is not inserted."
+msgstr ""
+
+msgctxt "#30228"
+msgid "External files go in 'system/uae/' or 'system/uae_data/'."
+msgstr ""
+
+msgctxt "#30229"
+msgid "Internal"
+msgstr ""
+
+msgctxt "#30230"
+msgid "External: A500"
+msgstr ""
+
+msgctxt "#30231"
+msgid "External: LOUD"
+msgstr ""
+
+msgctxt "#30232"
+msgid "CD volume in percent."
+msgstr ""
+
+msgctxt "#30233"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30234"
+msgid "Configure video options."
+msgstr ""
+
+msgctxt "#30235"
+msgid ""
+"Let Amiga decide the exact refresh rate when interlace mode or PAL/NTSC changes. 'Locked' changes only when video standard changes.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30236"
+msgid "Locked PAL/NTSC"
+msgstr ""
+
+msgctxt "#30237"
+msgid ""
+"Output Hz & height:\n"
+"- 'PAL': 50Hz - 288px / 576px\n"
+"- 'NTSC': 60Hz - 240px / 480px\n"
+"- 'Automatic' switches region per file path tags."
+msgstr ""
+
+msgctxt "#30238"
+msgid "Automatic PAL"
+msgstr ""
+
+msgctxt "#30239"
+msgid "Automatic NTSC"
+msgstr ""
+
+msgctxt "#30241"
+msgid ""
+"Output width:\n"
+"- 'Automatic' uses 'High' at minimum.\n"
+"- 'Automatic (Low)' allows 'Low'.\n"
+"- 'Automatic (Super-High)' sets max size already at startup."
+msgstr ""
+
+msgctxt "#30242"
+msgid "Automatic (Low)"
+msgstr ""
+
+msgctxt "#30243"
+msgid "Automatic (Super-High)"
+msgstr ""
+
+msgctxt "#30244"
+msgid "Low 360px"
+msgstr ""
+
+msgctxt "#30245"
+msgid "High 720px"
+msgstr ""
+
+msgctxt "#30246"
+msgid "Super-High 1440px"
+msgstr ""
+
+msgctxt "#30247"
+msgid ""
+"Output height:\n"
+"- 'Automatic' defaults to 'Single Line' and switches to 'Double Line' on interlaced screens."
+msgstr ""
+
+msgctxt "#30248"
+msgid "Single Line"
+msgstr ""
+
+msgctxt "#30249"
+msgid "Double Line"
+msgstr ""
+
+msgctxt "#30250"
+msgid "Remove borders according to 'Crop Mode'."
+msgstr ""
+
+msgctxt "#30251"
+msgid "Minimum"
+msgstr ""
+
+msgctxt "#30252"
+msgid "Smaller"
+msgstr ""
+
+msgctxt "#30253"
+msgid "Small"
+msgstr ""
+
+msgctxt "#30254"
+msgid "Medium"
+msgstr ""
+
+msgctxt "#30255"
+msgid "Large"
+msgstr ""
+
+msgctxt "#30256"
+msgid "Larger"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Maximum"
+msgstr ""
+
+msgctxt "#30258"
+msgid "Patient or instant geometry change."
+msgstr ""
+
+msgctxt "#30259"
+msgid "'Horizontal + Vertical' & 'Automatic' removes borders completely."
+msgstr ""
+
+msgctxt "#30260"
+msgid "Horizontal + Vertical"
+msgstr ""
+
+msgctxt "#30261"
+msgid "Horizontal"
+msgstr ""
+
+msgctxt "#30262"
+msgid "Vertical"
+msgstr ""
+
+msgctxt "#30263"
+msgid "16:9"
+msgstr ""
+
+msgctxt "#30264"
+msgid "16:10"
+msgstr ""
+
+msgctxt "#30265"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30266"
+msgid "5:4"
+msgstr ""
+
+msgctxt "#30267"
+msgid "'Automatic' keeps only cropped screens centered. 'Forced' centers regardless of available crop area. Positive values move upward and negative values move downward."
+msgstr ""
+
+msgctxt "#30268"
+msgid "Automatic (Forced)"
+msgstr ""
+
+msgctxt "#30269"
+msgid "'Automatic' keeps screen centered. Positive values move right and negative values move left."
+msgstr ""
+
+msgctxt "#30270"
+msgid ""
+"- 'Immediate Blitter': Faster but less compatible blitter emulation.\n"
+"- 'Wait for Blitter': Compatibility hack for programs that don't wait for the blitter correctly."
+msgstr ""
+
+msgctxt "#30271"
+msgid "Immediate Blitter"
+msgstr ""
+
+msgctxt "#30272"
+msgid "Wait for Blitter"
+msgstr ""
+
+msgctxt "#30273"
+msgid "'Sprites and Playfields' is recommended."
+msgstr ""
+
+msgctxt "#30274"
+msgid "Sprites only"
+msgstr ""
+
+msgctxt "#30275"
+msgid "Sprites and Playfields"
+msgstr ""
+
+msgctxt "#30276"
+msgid "Full"
+msgstr ""
+
+msgctxt "#30277"
+msgid "Best suited for still screens, Workbench etc."
+msgstr ""
+
+msgctxt "#30278"
+msgid "Not compatible with 'Cycle-exact'."
+msgstr ""
+
+msgctxt "#30279"
+msgid "Adjust color gamma."
+msgstr ""
+
+msgctxt "#30280"
+msgid "+0.5"
+msgstr ""
+
+msgctxt "#30281"
+msgid "+0.4"
+msgstr ""
+
+msgctxt "#30282"
+msgid "+0.3"
+msgstr ""
+
+msgctxt "#30283"
+msgid "+0.2"
+msgstr ""
+
+msgctxt "#30284"
+msgid "+0.1"
+msgstr ""
+
+msgctxt "#30285"
+msgid "-0.1"
+msgstr ""
+
+msgctxt "#30286"
+msgid "-0.2"
+msgstr ""
+
+msgctxt "#30287"
+msgid "-0.3"
+msgstr ""
+
+msgctxt "#30288"
+msgid "-0.4"
+msgstr ""
+
+msgctxt "#30289"
+msgid "-0.5"
+msgstr ""
+
+msgctxt "#30290"
+msgid "Full restart required."
+msgstr ""
+
+msgctxt "#30291"
+msgid "16-bit (RGB565)"
+msgstr ""
+
+msgctxt "#30292"
+msgid "24-bit (XRGB8888)"
+msgstr ""
+
+msgctxt "#30293"
+msgid "Media"
+msgstr ""
+
+msgctxt "#30294"
+msgid "Configure media options."
+msgstr ""
+
+msgctxt "#30295"
+msgid "Toggle frontend fast-forward during media access if there is no audio output. Mutes 'Floppy Sound Emulation'."
+msgstr ""
+
+msgctxt "#30296"
+msgid "Floppy disks only"
+msgstr ""
+
+msgctxt "#30297"
+msgid "Hard drives only"
+msgstr ""
+
+msgctxt "#30298"
+msgid "Compact discs only"
+msgstr ""
+
+msgctxt "#30299"
+msgid "Default speed is 300RPM. 'Turbo' removes disk rotation emulation."
+msgstr ""
+
+msgctxt "#30300"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30301"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30302"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30303"
+msgid "Turbo"
+msgstr ""
+
+msgctxt "#30304"
+msgid ""
+"Insert each disk in different drives. Can be forced with '(MD)' file path tag. Maximum is 4 disks due to external drive limit! Not all games support external drives!\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30305"
+msgid "Set all drives read only. Changing this while emulation is running ejects and reinserts all disks. IPF images are always read-only!"
+msgstr ""
+
+msgctxt "#30306"
+msgid "Writes to a substitute disk under 'saves' instead of original disks. Works also with IPF images."
+msgstr ""
+
+msgctxt "#30307"
+msgid "Transfer rate in CD32 is 300KB/s (double-speed), CDTV is 150KB/s (single-speed). 'Turbo' removes seek delay emulation."
+msgstr ""
+
+msgctxt "#30308"
+msgid "Some games fail to load if CD32/CDTV is powered on with CD inserted. 'ON' inserts CD during boot animation."
+msgstr ""
+
+msgctxt "#30309"
+msgid ""
+"'OFF' saves separate files per content. Starting without content uses the shared file. CD32 and CDTV use separate shared files.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30310"
+msgid ""
+"Enable launching pre-installed WHDLoad installs. Creates a helper boot image for loading content and an empty image for saving. Legacy 'HDFs' mode is not recommended!\n"
+"Core restart required.\n"
+"- 'Files' creates data in directories\n"
+"- 'HDFs' creates data in images\n"
+"- 'OFF' boots hard drive images directly"
+msgstr ""
+
+msgctxt "#30311"
+msgid "Files"
+msgstr ""
+
+msgctxt "#30313"
+msgid ""
+"AmigaOS 'system-configuration' color prefs in WHDLoad helper image. Available only with 'Files' mode.\n"
+"Core restart required.\n"
+"- 'Default' = Black/White/DarkGray/LightGray\n"
+"- 'Native' = Gray/Black/White/LightBlue"
+msgstr ""
+
+msgctxt "#30314"
+msgid "Native"
+msgstr ""
+
+msgctxt "#30315"
+msgid ""
+"Space/Enter/Fire works as WHDLoad Start-button. Core restart required.\n"
+"Override with buttons while booting:\n"
+"- 'Config': Hold 2nd fire / Blue\n"
+"- 'Splash': Hold LMB\n"
+"- 'Config + Splash': Hold RMB\n"
+"- ReadMe + MkCustom: Hold Red+Blue"
+msgstr ""
+
+msgctxt "#30316"
+msgid "Config (Show only if available)"
+msgstr ""
+
+msgctxt "#30317"
+msgid "Splash (Show briefly)"
+msgstr ""
+
+msgctxt "#30318"
+msgid "Config + Splash (Wait for user input)"
+msgstr ""
+
+msgctxt "#30319"
+msgid ""
+"Wait for a button press on internal loading sections if the slave supports it.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30320"
+msgid ""
+"Write cache requires running the core a few frames after closing content to trigger WHDLoad quit and flush cache to disk.\n"
+"QuitKey = '$2b' = '#' = 'LCtrl + Backslash'.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30321"
+msgid ""
+"Attach a hard disk meant for Workbench, not for WHDLoad! Enabling forces a model with HD interface. Changing HDF size will not replace or edit the existing HDF.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30322"
+msgid "HDF 20MB"
+msgstr ""
+
+msgctxt "#30323"
+msgid "HDF 40MB"
+msgstr ""
+
+msgctxt "#30324"
+msgid "HDF 80MB"
+msgstr ""
+
+msgctxt "#30325"
+msgid "HDF 128MB"
+msgstr ""
+
+msgctxt "#30326"
+msgid "HDF 256MB"
+msgstr ""
+
+msgctxt "#30327"
+msgid "HDF 512MB"
+msgstr ""
+
+msgctxt "#30328"
+msgid ""
+"Cartridge images go in 'system/uae/' or 'system/uae_data/'.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30329"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30330"
+msgid "Configure input options."
+msgstr ""
+
+msgctxt "#30331"
+msgid "Default mouse control stick when remappings are empty."
+msgstr ""
+
+msgctxt "#30332"
+msgid "Left Analog"
+msgstr ""
+
+msgctxt "#30333"
+msgid "Right Analog"
+msgstr ""
+
+msgctxt "#30334"
+msgid "Both Analogs"
+msgstr ""
+
+msgctxt "#30335"
+msgid "Required distance from stick center to register input."
+msgstr ""
+
+msgctxt "#30336"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30337"
+msgid "Mouse speed for left analog stick."
+msgstr ""
+
+msgctxt "#30338"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30339"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30340"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30341"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30342"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30343"
+msgid "160%"
+msgstr ""
+
+msgctxt "#30344"
+msgid "170%"
+msgstr ""
+
+msgctxt "#30345"
+msgid "180%"
+msgstr ""
+
+msgctxt "#30346"
+msgid "190%"
+msgstr ""
+
+msgctxt "#30347"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30348"
+msgid "210%"
+msgstr ""
+
+msgctxt "#30349"
+msgid "220%"
+msgstr ""
+
+msgctxt "#30350"
+msgid "230%"
+msgstr ""
+
+msgctxt "#30351"
+msgid "240%"
+msgstr ""
+
+msgctxt "#30352"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30353"
+msgid "260%"
+msgstr ""
+
+msgctxt "#30354"
+msgid "270%"
+msgstr ""
+
+msgctxt "#30355"
+msgid "280%"
+msgstr ""
+
+msgctxt "#30356"
+msgid "290%"
+msgstr ""
+
+msgctxt "#30357"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30358"
+msgid "Mouse speed for right analog stick."
+msgstr ""
+
+msgctxt "#30359"
+msgid "Mouse speed for directional pad."
+msgstr ""
+
+msgctxt "#30360"
+msgid "16%"
+msgstr ""
+
+msgctxt "#30361"
+msgid "33%"
+msgstr ""
+
+msgctxt "#30362"
+msgid "66%"
+msgstr ""
+
+msgctxt "#30363"
+msgid "83%"
+msgstr ""
+
+msgctxt "#30364"
+msgid "116%"
+msgstr ""
+
+msgctxt "#30365"
+msgid "133%"
+msgstr ""
+
+msgctxt "#30366"
+msgid "166%"
+msgstr ""
+
+msgctxt "#30367"
+msgid "183%"
+msgstr ""
+
+msgctxt "#30368"
+msgid "216%"
+msgstr ""
+
+msgctxt "#30369"
+msgid "233%"
+msgstr ""
+
+msgctxt "#30370"
+msgid "266%"
+msgstr ""
+
+msgctxt "#30371"
+msgid "283%"
+msgstr ""
+
+msgctxt "#30372"
+msgid "Global mouse speed."
+msgstr ""
+
+msgctxt "#30373"
+msgid "310%"
+msgstr ""
+
+msgctxt "#30374"
+msgid "320%"
+msgstr ""
+
+msgctxt "#30375"
+msgid "330%"
+msgstr ""
+
+msgctxt "#30376"
+msgid "340%"
+msgstr ""
+
+msgctxt "#30377"
+msgid "350%"
+msgstr ""
+
+msgctxt "#30378"
+msgid "360%"
+msgstr ""
+
+msgctxt "#30379"
+msgid "370%"
+msgstr ""
+
+msgctxt "#30380"
+msgid "380%"
+msgstr ""
+
+msgctxt "#30381"
+msgid "390%"
+msgstr ""
+
+msgctxt "#30382"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30383"
+msgid "410%"
+msgstr ""
+
+msgctxt "#30384"
+msgid "420%"
+msgstr ""
+
+msgctxt "#30385"
+msgid "430%"
+msgstr ""
+
+msgctxt "#30386"
+msgid "440%"
+msgstr ""
+
+msgctxt "#30387"
+msgid "450%"
+msgstr ""
+
+msgctxt "#30388"
+msgid "460%"
+msgstr ""
+
+msgctxt "#30389"
+msgid "470%"
+msgstr ""
+
+msgctxt "#30390"
+msgid "480%"
+msgstr ""
+
+msgctxt "#30391"
+msgid "490%"
+msgstr ""
+
+msgctxt "#30392"
+msgid "500%"
+msgstr ""
+
+msgctxt "#30393"
+msgid "510%"
+msgstr ""
+
+msgctxt "#30394"
+msgid "520%"
+msgstr ""
+
+msgctxt "#30395"
+msgid "530%"
+msgstr ""
+
+msgctxt "#30396"
+msgid "540%"
+msgstr ""
+
+msgctxt "#30397"
+msgid "550%"
+msgstr ""
+
+msgctxt "#30398"
+msgid "560%"
+msgstr ""
+
+msgctxt "#30399"
+msgid "570%"
+msgstr ""
+
+msgctxt "#30400"
+msgid "580%"
+msgstr ""
+
+msgctxt "#30401"
+msgid "590%"
+msgstr ""
+
+msgctxt "#30402"
+msgid "600%"
+msgstr ""
+
+msgctxt "#30403"
+msgid "610%"
+msgstr ""
+
+msgctxt "#30404"
+msgid "620%"
+msgstr ""
+
+msgctxt "#30405"
+msgid "630%"
+msgstr ""
+
+msgctxt "#30406"
+msgid "640%"
+msgstr ""
+
+msgctxt "#30407"
+msgid "650%"
+msgstr ""
+
+msgctxt "#30408"
+msgid "660%"
+msgstr ""
+
+msgctxt "#30409"
+msgid "670%"
+msgstr ""
+
+msgctxt "#30410"
+msgid "680%"
+msgstr ""
+
+msgctxt "#30411"
+msgid "690%"
+msgstr ""
+
+msgctxt "#30412"
+msgid "700%"
+msgstr ""
+
+msgctxt "#30413"
+msgid "710%"
+msgstr ""
+
+msgctxt "#30414"
+msgid "720%"
+msgstr ""
+
+msgctxt "#30415"
+msgid "730%"
+msgstr ""
+
+msgctxt "#30416"
+msgid "740%"
+msgstr ""
+
+msgctxt "#30417"
+msgid "750%"
+msgstr ""
+
+msgctxt "#30418"
+msgid "760%"
+msgstr ""
+
+msgctxt "#30419"
+msgid "770%"
+msgstr ""
+
+msgctxt "#30420"
+msgid "780%"
+msgstr ""
+
+msgctxt "#30421"
+msgid "790%"
+msgstr ""
+
+msgctxt "#30422"
+msgid "800%"
+msgstr ""
+
+msgctxt "#30423"
+msgid "810%"
+msgstr ""
+
+msgctxt "#30424"
+msgid "820%"
+msgstr ""
+
+msgctxt "#30425"
+msgid "830%"
+msgstr ""
+
+msgctxt "#30426"
+msgid "840%"
+msgstr ""
+
+msgctxt "#30427"
+msgid "850%"
+msgstr ""
+
+msgctxt "#30428"
+msgid "860%"
+msgstr ""
+
+msgctxt "#30429"
+msgid "870%"
+msgstr ""
+
+msgctxt "#30430"
+msgid "880%"
+msgstr ""
+
+msgctxt "#30431"
+msgid "890%"
+msgstr ""
+
+msgctxt "#30432"
+msgid "900%"
+msgstr ""
+
+msgctxt "#30433"
+msgid "910%"
+msgstr ""
+
+msgctxt "#30434"
+msgid "920%"
+msgstr ""
+
+msgctxt "#30435"
+msgid "930%"
+msgstr ""
+
+msgctxt "#30436"
+msgid "940%"
+msgstr ""
+
+msgctxt "#30437"
+msgid "950%"
+msgstr ""
+
+msgctxt "#30438"
+msgid "960%"
+msgstr ""
+
+msgctxt "#30439"
+msgid "970%"
+msgstr ""
+
+msgctxt "#30440"
+msgid "980%"
+msgstr ""
+
+msgctxt "#30441"
+msgid "990%"
+msgstr ""
+
+msgctxt "#30442"
+msgid "1000%"
+msgstr ""
+
+msgctxt "#30443"
+msgid ""
+"'Double' requirements: raw/udev input driver and proper mouse index per port.\n"
+"Does not affect RetroPad emulated mice."
+msgstr ""
+
+msgctxt "#30444"
+msgid "enabled"
+msgstr ""
+
+msgctxt "#30445"
+msgid "Double"
+msgstr ""
+
+msgctxt "#30446"
+msgid ""
+"'ON' passes all physical keyboard events to the core. 'OFF' prevents RetroPad keys from generating keyboard events.\n"
+"NOTE: This is a legacy option for old frontends that do not block keyboard events when using RetroPad, so it does nothing with current RetroArch."
+msgstr ""
+
+msgctxt "#30447"
+msgid "Hardcoded keypad to joyport mappings for Keyrah hardware."
+msgstr ""
+
+msgctxt "#30448"
+msgid "Hotkey toggling disables this option until core restart."
+msgstr ""
+
+msgctxt "#30449"
+msgid "Replace the mapped button with turbo fire button."
+msgstr ""
+
+msgctxt "#30450"
+msgid "RetroPad B"
+msgstr ""
+
+msgctxt "#30451"
+msgid "RetroPad A"
+msgstr ""
+
+msgctxt "#30452"
+msgid "RetroPad Y"
+msgstr ""
+
+msgctxt "#30453"
+msgid "RetroPad X"
+msgstr ""
+
+msgctxt "#30454"
+msgid "RetroPad L"
+msgstr ""
+
+msgctxt "#30455"
+msgid "RetroPad R"
+msgstr ""
+
+msgctxt "#30456"
+msgid "RetroPad L2"
+msgstr ""
+
+msgctxt "#30457"
+msgid "RetroPad R2"
+msgstr ""
+
+msgctxt "#30458"
+msgid ""
+"Frames in a button cycle.\n"
+"- '2' = 1 frame down, 1 frame up\n"
+"- '4' = 2 frames down, 2 frames up\n"
+"- '6' = 3 frames down, 3 frames up\n"
+"etc."
+msgstr ""
+
+msgctxt "#30459"
+msgid "2 frames"
+msgstr ""
+
+msgctxt "#30460"
+msgid "4 frames"
+msgstr ""
+
+msgctxt "#30461"
+msgid "6 frames"
+msgstr ""
+
+msgctxt "#30462"
+msgid "8 frames"
+msgstr ""
+
+msgctxt "#30463"
+msgid "10 frames"
+msgstr ""
+
+msgctxt "#30464"
+msgid "12 frames"
+msgstr ""
+
+msgctxt "#30465"
+msgid "Change D-Pad control between joyports. Hotkey toggling disables this option until core restart."
+msgstr ""
+
+msgctxt "#30466"
+msgid "Joystick (Port 1)"
+msgstr ""
+
+msgctxt "#30467"
+msgid "Mouse (Port 2)"
+msgstr ""
+
+msgctxt "#30468"
+msgid "Plug RetroPads in different ports. Useful for 4-player adapters."
+msgstr ""
+
+msgctxt "#30469"
+msgid "1-2-3-4"
+msgstr ""
+
+msgctxt "#30470"
+msgid "2-1-4-3"
+msgstr ""
+
+msgctxt "#30471"
+msgid "3-4-1-2"
+msgstr ""
+
+msgctxt "#30472"
+msgid "4-3-2-1"
+msgstr ""
+
+msgctxt "#30473"
+msgid "Rotate face buttons clockwise and/or make 2nd fire press up."
+msgstr ""
+
+msgctxt "#30474"
+msgid "B = Fire, A = 2nd fire"
+msgstr ""
+
+msgctxt "#30475"
+msgid "B = Fire, A = Up"
+msgstr ""
+
+msgctxt "#30476"
+msgid "Y = Fire, B = 2nd fire"
+msgstr ""
+
+msgctxt "#30477"
+msgid "Y = Fire, B = Up"
+msgstr ""
+
+msgctxt "#30478"
+msgid "Rotate face buttons clockwise and/or make blue button press up."
+msgstr ""
+
+msgctxt "#30479"
+msgid "B = Red, A = Blue"
+msgstr ""
+
+msgctxt "#30480"
+msgid "B = Red, A = Up"
+msgstr ""
+
+msgctxt "#30481"
+msgid "Y = Red, B = Blue"
+msgstr ""
+
+msgctxt "#30482"
+msgid "Y = Red, B = Up"
+msgstr ""
+
+msgctxt "#30483"
+msgid "Hotkey Mapping"
+msgstr ""
+
+msgctxt "#30484"
+msgid "Configure keyboard hotkey mapping options."
+msgstr ""
+
+msgctxt "#30485"
+msgid "Press the mapped key to toggle the virtual keyboard."
+msgstr ""
+
+msgctxt "#30486"
+msgid "---"
+msgstr ""
+
+msgctxt "#30487"
+msgid "Keyboard Backspace"
+msgstr ""
+
+msgctxt "#30488"
+msgid "Keyboard Tab"
+msgstr ""
+
+msgctxt "#30489"
+msgid "Keyboard Return"
+msgstr ""
+
+msgctxt "#30490"
+msgid "Keyboard Escape"
+msgstr ""
+
+msgctxt "#30491"
+msgid "Keyboard Space"
+msgstr ""
+
+msgctxt "#30492"
+msgid "Keyboard '"
+msgstr ""
+
+msgctxt "#30493"
+msgid "Keyboard ,"
+msgstr ""
+
+msgctxt "#30494"
+msgid "Keyboard -"
+msgstr ""
+
+msgctxt "#30495"
+msgid "Keyboard ."
+msgstr ""
+
+msgctxt "#30496"
+msgid "Keyboard /"
+msgstr ""
+
+msgctxt "#30497"
+msgid "Keyboard 0"
+msgstr ""
+
+msgctxt "#30498"
+msgid "Keyboard 1"
+msgstr ""
+
+msgctxt "#30499"
+msgid "Keyboard 2"
+msgstr ""
+
+msgctxt "#30500"
+msgid "Keyboard 3"
+msgstr ""
+
+msgctxt "#30501"
+msgid "Keyboard 4"
+msgstr ""
+
+msgctxt "#30502"
+msgid "Keyboard 5"
+msgstr ""
+
+msgctxt "#30503"
+msgid "Keyboard 6"
+msgstr ""
+
+msgctxt "#30504"
+msgid "Keyboard 7"
+msgstr ""
+
+msgctxt "#30505"
+msgid "Keyboard 8"
+msgstr ""
+
+msgctxt "#30506"
+msgid "Keyboard 9"
+msgstr ""
+
+msgctxt "#30507"
+msgid "Keyboard ;"
+msgstr ""
+
+msgctxt "#30508"
+msgid "Keyboard <"
+msgstr ""
+
+msgctxt "#30509"
+msgid "Keyboard ="
+msgstr ""
+
+msgctxt "#30510"
+msgid "Keyboard >"
+msgstr ""
+
+msgctxt "#30511"
+msgid "Keyboard ["
+msgstr ""
+
+msgctxt "#30512"
+msgid "Keyboard \\"
+msgstr ""
+
+msgctxt "#30513"
+msgid "Keyboard ]"
+msgstr ""
+
+msgctxt "#30514"
+msgid "Keyboard `"
+msgstr ""
+
+msgctxt "#30515"
+msgid "Keyboard A"
+msgstr ""
+
+msgctxt "#30516"
+msgid "Keyboard B"
+msgstr ""
+
+msgctxt "#30517"
+msgid "Keyboard C"
+msgstr ""
+
+msgctxt "#30518"
+msgid "Keyboard D"
+msgstr ""
+
+msgctxt "#30519"
+msgid "Keyboard E"
+msgstr ""
+
+msgctxt "#30520"
+msgid "Keyboard F"
+msgstr ""
+
+msgctxt "#30521"
+msgid "Keyboard G"
+msgstr ""
+
+msgctxt "#30522"
+msgid "Keyboard H"
+msgstr ""
+
+msgctxt "#30523"
+msgid "Keyboard I"
+msgstr ""
+
+msgctxt "#30524"
+msgid "Keyboard J"
+msgstr ""
+
+msgctxt "#30525"
+msgid "Keyboard K"
+msgstr ""
+
+msgctxt "#30526"
+msgid "Keyboard L"
+msgstr ""
+
+msgctxt "#30527"
+msgid "Keyboard M"
+msgstr ""
+
+msgctxt "#30528"
+msgid "Keyboard N"
+msgstr ""
+
+msgctxt "#30529"
+msgid "Keyboard O"
+msgstr ""
+
+msgctxt "#30530"
+msgid "Keyboard P"
+msgstr ""
+
+msgctxt "#30531"
+msgid "Keyboard Q"
+msgstr ""
+
+msgctxt "#30532"
+msgid "Keyboard R"
+msgstr ""
+
+msgctxt "#30533"
+msgid "Keyboard S"
+msgstr ""
+
+msgctxt "#30534"
+msgid "Keyboard T"
+msgstr ""
+
+msgctxt "#30535"
+msgid "Keyboard U"
+msgstr ""
+
+msgctxt "#30536"
+msgid "Keyboard V"
+msgstr ""
+
+msgctxt "#30537"
+msgid "Keyboard W"
+msgstr ""
+
+msgctxt "#30538"
+msgid "Keyboard X"
+msgstr ""
+
+msgctxt "#30539"
+msgid "Keyboard Y"
+msgstr ""
+
+msgctxt "#30540"
+msgid "Keyboard Z"
+msgstr ""
+
+msgctxt "#30541"
+msgid "Keyboard Numpad 0"
+msgstr ""
+
+msgctxt "#30542"
+msgid "Keyboard Numpad 1"
+msgstr ""
+
+msgctxt "#30543"
+msgid "Keyboard Numpad 2"
+msgstr ""
+
+msgctxt "#30544"
+msgid "Keyboard Numpad 3"
+msgstr ""
+
+msgctxt "#30545"
+msgid "Keyboard Numpad 4"
+msgstr ""
+
+msgctxt "#30546"
+msgid "Keyboard Numpad 5"
+msgstr ""
+
+msgctxt "#30547"
+msgid "Keyboard Numpad 6"
+msgstr ""
+
+msgctxt "#30548"
+msgid "Keyboard Numpad 7"
+msgstr ""
+
+msgctxt "#30549"
+msgid "Keyboard Numpad 8"
+msgstr ""
+
+msgctxt "#30550"
+msgid "Keyboard Numpad 9"
+msgstr ""
+
+msgctxt "#30551"
+msgid "Keyboard Numpad ."
+msgstr ""
+
+msgctxt "#30552"
+msgid "Keyboard Numpad /"
+msgstr ""
+
+msgctxt "#30553"
+msgid "Keyboard Numpad *"
+msgstr ""
+
+msgctxt "#30554"
+msgid "Keyboard Numpad -"
+msgstr ""
+
+msgctxt "#30555"
+msgid "Keyboard Numpad +"
+msgstr ""
+
+msgctxt "#30556"
+msgid "Keyboard Numpad Enter"
+msgstr ""
+
+msgctxt "#30557"
+msgid "Keyboard Numpad ="
+msgstr ""
+
+msgctxt "#30558"
+msgid "Keyboard Up"
+msgstr ""
+
+msgctxt "#30559"
+msgid "Keyboard Down"
+msgstr ""
+
+msgctxt "#30560"
+msgid "Keyboard Left"
+msgstr ""
+
+msgctxt "#30561"
+msgid "Keyboard Right"
+msgstr ""
+
+msgctxt "#30562"
+msgid "Keyboard Insert"
+msgstr ""
+
+msgctxt "#30563"
+msgid "Keyboard Delete"
+msgstr ""
+
+msgctxt "#30564"
+msgid "Keyboard Home"
+msgstr ""
+
+msgctxt "#30565"
+msgid "Keyboard End"
+msgstr ""
+
+msgctxt "#30566"
+msgid "Keyboard Page Up"
+msgstr ""
+
+msgctxt "#30567"
+msgid "Keyboard Page Down"
+msgstr ""
+
+msgctxt "#30568"
+msgid "Keyboard F1"
+msgstr ""
+
+msgctxt "#30569"
+msgid "Keyboard F2"
+msgstr ""
+
+msgctxt "#30570"
+msgid "Keyboard F3"
+msgstr ""
+
+msgctxt "#30571"
+msgid "Keyboard F4"
+msgstr ""
+
+msgctxt "#30572"
+msgid "Keyboard F5"
+msgstr ""
+
+msgctxt "#30573"
+msgid "Keyboard F6"
+msgstr ""
+
+msgctxt "#30574"
+msgid "Keyboard F7"
+msgstr ""
+
+msgctxt "#30575"
+msgid "Keyboard F8"
+msgstr ""
+
+msgctxt "#30576"
+msgid "Keyboard F9"
+msgstr ""
+
+msgctxt "#30577"
+msgid "Keyboard F10"
+msgstr ""
+
+msgctxt "#30578"
+msgid "Keyboard F11"
+msgstr ""
+
+msgctxt "#30579"
+msgid "Keyboard F12"
+msgstr ""
+
+msgctxt "#30580"
+msgid "Keyboard F13"
+msgstr ""
+
+msgctxt "#30581"
+msgid "Keyboard F14"
+msgstr ""
+
+msgctxt "#30582"
+msgid "Keyboard F15"
+msgstr ""
+
+msgctxt "#30583"
+msgid "Keyboard Caps Lock"
+msgstr ""
+
+msgctxt "#30584"
+msgid "Keyboard Left Shift"
+msgstr ""
+
+msgctxt "#30585"
+msgid "Keyboard Right Shift"
+msgstr ""
+
+msgctxt "#30586"
+msgid "Keyboard Left Control"
+msgstr ""
+
+msgctxt "#30587"
+msgid "Keyboard Right Control"
+msgstr ""
+
+msgctxt "#30588"
+msgid "Keyboard Left Alt"
+msgstr ""
+
+msgctxt "#30589"
+msgid "Keyboard Right Alt"
+msgstr ""
+
+msgctxt "#30590"
+msgid "Keyboard Left Super"
+msgstr ""
+
+msgctxt "#30591"
+msgid "Keyboard Right Super"
+msgstr ""
+
+msgctxt "#30592"
+msgid "Keyboard Help"
+msgstr ""
+
+msgctxt "#30593"
+msgid "Press the mapped key to toggle the statusbar."
+msgstr ""
+
+msgctxt "#30594"
+msgid "Press the mapped key to switch between joystick and mouse control."
+msgstr ""
+
+msgctxt "#30595"
+msgid "Press the mapped key to toggle turbo fire."
+msgstr ""
+
+msgctxt "#30596"
+msgid "Press the mapped key to create/insert/eject a save disk."
+msgstr ""
+
+msgctxt "#30597"
+msgid "Press the mapped key to toggle between PAL/NTSC pixel aspect ratio."
+msgstr ""
+
+msgctxt "#30598"
+msgid "Press the mapped key to toggle crop."
+msgstr ""
+
+msgctxt "#30599"
+msgid "Press the mapped key to trigger soft reset (Ctrl-Amiga-Amiga)."
+msgstr ""
+
+msgctxt "#30600"
+msgid "RetroPad Mapping"
+msgstr ""
+
+msgctxt "#30601"
+msgid "Configure RetroPad mapping options."
+msgstr ""
+
+msgctxt "#30602"
+msgid "Unmapped defaults to joystick up."
+msgstr ""
+
+msgctxt "#30603"
+msgid "Toggle Virtual Keyboard"
+msgstr ""
+
+msgctxt "#30604"
+msgid "Toggle Statusbar"
+msgstr ""
+
+msgctxt "#30605"
+msgid "Switch Joystick/Mouse"
+msgstr ""
+
+msgctxt "#30606"
+msgid "Mouse Slower"
+msgstr ""
+
+msgctxt "#30607"
+msgid "Mouse Faster"
+msgstr ""
+
+msgctxt "#30608"
+msgid "Mouse Left Button"
+msgstr ""
+
+msgctxt "#30609"
+msgid "Mouse Right Button"
+msgstr ""
+
+msgctxt "#30610"
+msgid "Mouse Middle Button"
+msgstr ""
+
+msgctxt "#30611"
+msgid "Joystick Up"
+msgstr ""
+
+msgctxt "#30612"
+msgid "Joystick Down"
+msgstr ""
+
+msgctxt "#30613"
+msgid "Joystick Left"
+msgstr ""
+
+msgctxt "#30614"
+msgid "Joystick Right"
+msgstr ""
+
+msgctxt "#30615"
+msgid "Joystick Fire"
+msgstr ""
+
+msgctxt "#30616"
+msgid "Joystick Fire 2"
+msgstr ""
+
+msgctxt "#30617"
+msgid "WHDLoad QuitKey"
+msgstr ""
+
+msgctxt "#30618"
+msgid "Unmapped defaults to joystick down."
+msgstr ""
+
+msgctxt "#30619"
+msgid "Unmapped defaults to joystick left."
+msgstr ""
+
+msgctxt "#30620"
+msgid "Unmapped defaults to joystick right."
+msgstr ""
+
+msgctxt "#30621"
+msgid ""
+"Unmapped defaults to fire button.\n"
+"VKBD: Press selected key."
+msgstr ""
+
+msgctxt "#30622"
+msgid ""
+"Unmapped defaults to 2nd fire button.\n"
+"VKBD: Toggle transparency. Remapping to non-keyboard keys overrides VKBD function!"
+msgstr ""
+
+msgctxt "#30623"
+msgid "VKBD: Toggle 'CapsLock'. Remapping to non-keyboard keys overrides VKBD function!"
+msgstr ""
+
+msgctxt "#30624"
+msgid "VKBD: Press 'Space'. Remapping to non-keyboard keys overrides VKBD function!"
+msgstr ""
+
+msgctxt "#30625"
+msgid "VKBD comes up with RetroPad Select by default."
+msgstr ""
+
+msgctxt "#30626"
+msgid "VKBD: Press 'Return'. Remapping to non-keyboard keys overrides VKBD function!"
+msgstr ""
+
+msgctxt "#30627"
+msgid "On-Screen Display"
+msgstr ""
+
+msgctxt "#30628"
+msgid "Configure OSD options."
+msgstr ""
+
+msgctxt "#30629"
+msgid "The keyboard comes up with RetroPad Select by default."
+msgstr ""
+
+msgctxt "#30630"
+msgid "Automatic (shadow)"
+msgstr ""
+
+msgctxt "#30631"
+msgid "Automatic (outline)"
+msgstr ""
+
+msgctxt "#30632"
+msgid "Beige (shadow)"
+msgstr ""
+
+msgctxt "#30633"
+msgid "Beige (outline)"
+msgstr ""
+
+msgctxt "#30634"
+msgid "CD32 (shadow)"
+msgstr ""
+
+msgctxt "#30635"
+msgid "CD32 (outline)"
+msgstr ""
+
+msgctxt "#30636"
+msgid "Light (shadow)"
+msgstr ""
+
+msgctxt "#30637"
+msgid "Light (outline)"
+msgstr ""
+
+msgctxt "#30638"
+msgid "Dark (shadow)"
+msgstr ""
+
+msgctxt "#30639"
+msgid "Dark (outline)"
+msgstr ""
+
+msgctxt "#30640"
+msgid "Keyboard transparency can be toggled with RetroPad A."
+msgstr ""
+
+msgctxt "#30641"
+msgid "Dimming level of the surrounding area."
+msgstr ""
+
+msgctxt "#30642"
+msgid ""
+"- 'Full': Joyports + Messages + LEDs\n"
+"- 'Basic': Messages + LEDs\n"
+"- 'Minimal': LED colors only"
+msgstr ""
+
+msgctxt "#30643"
+msgid "Bottom Full"
+msgstr ""
+
+msgctxt "#30644"
+msgid "Bottom Full Minimal"
+msgstr ""
+
+msgctxt "#30645"
+msgid "Bottom Basic"
+msgstr ""
+
+msgctxt "#30646"
+msgid "Bottom Basic Minimal"
+msgstr ""
+
+msgctxt "#30647"
+msgid "Top Full"
+msgstr ""
+
+msgctxt "#30648"
+msgid "Top Full Minimal"
+msgstr ""
+
+msgctxt "#30649"
+msgid "Top Basic"
+msgstr ""
+
+msgctxt "#30650"
+msgid "Top Basic Minimal"
+msgstr ""
+
+msgctxt "#30651"
+msgid "Show statusbar on startup."
+msgstr ""
+
+msgctxt "#30652"
+msgid "Show messages when statusbar is hidden."
+msgstr ""
+
+msgctxt "#30653"
+msgid "Crosshair color for light pens and guns."
+msgstr ""
+
+msgctxt "#30654"
+msgid "Black"
+msgstr ""
+
+msgctxt "#30655"
+msgid "White"
+msgstr ""
+
+msgctxt "#30656"
+msgid "Red"
+msgstr ""
+
+msgctxt "#30657"
+msgid "Green"
+msgstr ""
+
+msgctxt "#30658"
+msgid "Blue"
+msgstr ""
+
+msgctxt "#30659"
+msgid "Yellow"
+msgstr ""
+
+msgctxt "#30660"
+msgid "Purple"
+msgstr ""
+
+msgctxt "#30661"
+msgid "68000"
+msgstr ""
+
+msgctxt "#30662"
+msgid "68010"
+msgstr ""
+
+msgctxt "#30663"
+msgid "68020"
+msgstr ""
+
+msgctxt "#30664"
+msgid "68030"
+msgstr ""
+
+msgctxt "#30665"
+msgid "68040"
+msgstr ""
+
+msgctxt "#30666"
+msgid "68060"
+msgstr ""
+
+msgctxt "#30667"
+msgid "68881"
+msgstr ""
+
+msgctxt "#30668"
+msgid "68882"
+msgstr ""
+
+msgctxt "#30669"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30670"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30671"
+msgid "1:1"
+msgstr ""
+
+msgctxt "#30672"
+msgid "1"
+msgstr ""
+
+msgctxt "#30673"
+msgid "2"
+msgstr ""
+
+msgctxt "#30674"
+msgid "3"
+msgstr ""
+
+msgctxt "#30675"
+msgid "4"
+msgstr ""
+
+msgctxt "#30676"
+msgid "5"
+msgstr ""
+
+msgctxt "#30677"
+msgid "6"
+msgstr ""
+
+msgctxt "#30678"
+msgid "7"
+msgstr ""
+
+msgctxt "#30679"
+msgid "8"
+msgstr ""
+
+msgctxt "#30680"
+msgid "9"
+msgstr ""
+
+msgctxt "#30681"
+msgid "10"
+msgstr ""
+
+msgctxt "#30682"
+msgid "11"
+msgstr ""
+
+msgctxt "#30683"
+msgid "12"
+msgstr ""
+
+msgctxt "#30684"
+msgid "13"
+msgstr ""
+
+msgctxt "#30685"
+msgid "14"
+msgstr ""
+
+msgctxt "#30686"
+msgid "15"
+msgstr ""
+
+msgctxt "#30687"
+msgid "16"
+msgstr ""
+
+msgctxt "#30688"
+msgid "17"
+msgstr ""
+
+msgctxt "#30689"
+msgid "18"
+msgstr ""
+
+msgctxt "#30690"
+msgid "19"
+msgstr ""
+
+msgctxt "#30691"
+msgid "20"
+msgstr ""
+
+msgctxt "#30692"
+msgid "21"
+msgstr ""
+
+msgctxt "#30693"
+msgid "22"
+msgstr ""
+
+msgctxt "#30694"
+msgid "23"
+msgstr ""
+
+msgctxt "#30695"
+msgid "24"
+msgstr ""
+
+msgctxt "#30696"
+msgid "25"
+msgstr ""
+
+msgctxt "#30697"
+msgid "26"
+msgstr ""
+
+msgctxt "#30698"
+msgid "27"
+msgstr ""
+
+msgctxt "#30699"
+msgid "28"
+msgstr ""
+
+msgctxt "#30700"
+msgid "29"
+msgstr ""
+
+msgctxt "#30701"
+msgid "30"
+msgstr ""
+
+msgctxt "#30702"
+msgid "31"
+msgstr ""
+
+msgctxt "#30703"
+msgid "32"
+msgstr ""
+
+msgctxt "#30704"
+msgid "33"
+msgstr ""
+
+msgctxt "#30705"
+msgid "34"
+msgstr ""
+
+msgctxt "#30706"
+msgid "35"
+msgstr ""
+
+msgctxt "#30707"
+msgid "36"
+msgstr ""
+
+msgctxt "#30708"
+msgid "37"
+msgstr ""
+
+msgctxt "#30709"
+msgid "38"
+msgstr ""
+
+msgctxt "#30710"
+msgid "39"
+msgstr ""
+
+msgctxt "#30711"
+msgid "40"
+msgstr ""
+
+msgctxt "#30712"
+msgid "41"
+msgstr ""
+
+msgctxt "#30713"
+msgid "42"
+msgstr ""
+
+msgctxt "#30714"
+msgid "43"
+msgstr ""
+
+msgctxt "#30715"
+msgid "44"
+msgstr ""
+
+msgctxt "#30716"
+msgid "45"
+msgstr ""
+
+msgctxt "#30717"
+msgid "46"
+msgstr ""
+
+msgctxt "#30718"
+msgid "47"
+msgstr ""
+
+msgctxt "#30719"
+msgid "48"
+msgstr ""
+
+msgctxt "#30720"
+msgid "49"
+msgstr ""
+
+msgctxt "#30721"
+msgid "50"
+msgstr ""
+
+msgctxt "#30722"
+msgid "51"
+msgstr ""
+
+msgctxt "#30723"
+msgid "52"
+msgstr ""
+
+msgctxt "#30724"
+msgid "53"
+msgstr ""
+
+msgctxt "#30725"
+msgid "54"
+msgstr ""
+
+msgctxt "#30726"
+msgid "55"
+msgstr ""
+
+msgctxt "#30727"
+msgid "56"
+msgstr ""
+
+msgctxt "#30728"
+msgid "57"
+msgstr ""
+
+msgctxt "#30729"
+msgid "58"
+msgstr ""
+
+msgctxt "#30730"
+msgid "59"
+msgstr ""
+
+msgctxt "#30731"
+msgid "60"
+msgstr ""
+
+msgctxt "#30732"
+msgid "61"
+msgstr ""
+
+msgctxt "#30733"
+msgid "62"
+msgstr ""
+
+msgctxt "#30734"
+msgid "63"
+msgstr ""
+
+msgctxt "#30735"
+msgid "64"
+msgstr ""
+
+msgctxt "#30736"
+msgid "65"
+msgstr ""
+
+msgctxt "#30737"
+msgid "66"
+msgstr ""
+
+msgctxt "#30738"
+msgid "67"
+msgstr ""
+
+msgctxt "#30739"
+msgid "68"
+msgstr ""
+
+msgctxt "#30740"
+msgid "69"
+msgstr ""
+
+msgctxt "#30741"
+msgid "70"
+msgstr ""
+
+msgctxt "#30742"
+msgid "-20"
+msgstr ""
+
+msgctxt "#30743"
+msgid "-19"
+msgstr ""
+
+msgctxt "#30744"
+msgid "-18"
+msgstr ""
+
+msgctxt "#30745"
+msgid "-17"
+msgstr ""
+
+msgctxt "#30746"
+msgid "-16"
+msgstr ""
+
+msgctxt "#30747"
+msgid "-15"
+msgstr ""
+
+msgctxt "#30748"
+msgid "-14"
+msgstr ""
+
+msgctxt "#30749"
+msgid "-13"
+msgstr ""
+
+msgctxt "#30750"
+msgid "-12"
+msgstr ""
+
+msgctxt "#30751"
+msgid "-11"
+msgstr ""
+
+msgctxt "#30752"
+msgid "-10"
+msgstr ""
+
+msgctxt "#30753"
+msgid "-9"
+msgstr ""
+
+msgctxt "#30754"
+msgid "-8"
+msgstr ""
+
+msgctxt "#30755"
+msgid "-7"
+msgstr ""
+
+msgctxt "#30756"
+msgid "-6"
+msgstr ""
+
+msgctxt "#30757"
+msgid "-5"
+msgstr ""
+
+msgctxt "#30758"
+msgid "-4"
+msgstr ""
+
+msgctxt "#30759"
+msgid "-3"
+msgstr ""
+
+msgctxt "#30760"
+msgid "-2"
+msgstr ""
+
+msgctxt "#30761"
+msgid "-1"
+msgstr ""
+
+msgctxt "#30762"
+msgid "-40"
+msgstr ""
+
+msgctxt "#30763"
+msgid "-39"
+msgstr ""
+
+msgctxt "#30764"
+msgid "-38"
+msgstr ""
+
+msgctxt "#30765"
+msgid "-37"
+msgstr ""
+
+msgctxt "#30766"
+msgid "-36"
+msgstr ""
+
+msgctxt "#30767"
+msgid "-35"
+msgstr ""
+
+msgctxt "#30768"
+msgid "-34"
+msgstr ""
+
+msgctxt "#30769"
+msgid "-33"
+msgstr ""
+
+msgctxt "#30770"
+msgid "-32"
+msgstr ""
+
+msgctxt "#30771"
+msgid "-31"
+msgstr ""
+
+msgctxt "#30772"
+msgid "-30"
+msgstr ""
+
+msgctxt "#30773"
+msgid "-29"
+msgstr ""
+
+msgctxt "#30774"
+msgid "-28"
+msgstr ""
+
+msgctxt "#30775"
+msgid "-27"
+msgstr ""
+
+msgctxt "#30776"
+msgid "-26"
+msgstr ""
+
+msgctxt "#30777"
+msgid "-25"
+msgstr ""
+
+msgctxt "#30778"
+msgid "-24"
+msgstr ""
+
+msgctxt "#30779"
+msgid "-23"
+msgstr ""
+
+msgctxt "#30780"
+msgid "-22"
+msgstr ""
+
+msgctxt "#30781"
+msgid "-21"
+msgstr ""
+
+msgctxt "#30782"
+msgid ""
+"Kickstart ROMs are searched from 'system'.\n"
+"Core reset required."
+msgstr ""
+
+msgctxt "#30783"
+msgid ""
+"'Automatic' defaults to the current preset model.\n"
+"Core reset required."
+msgstr ""
+
+msgctxt "#30784"
+msgid ""
+"Let Amiga decide the exact refresh rate when interlace mode or PAL/NTSC changes. 'Locked' changes only when video standard changes.\n"
+"Core reset required."
+msgstr ""
+
+msgctxt "#30785"
+msgid ""
+"Insert each disk in different drives. Can be forced with '(MD)' file path tag. Maximum is 4 disks due to external drive limit! Not all games support external drives!\n"
+"Core reset required."
+msgstr ""
+
+msgctxt "#30787"
+msgid ""
+"AmigaOS 'system-configuration' color prefs in WHDLoad helper image. Available only with 'Files' mode.\n"
+"Core reset required.\n"
+"- 'Default' = Black/White/DarkGray/LightGray\n"
+"- 'Native' = Gray/Black/White/LightBlue"
+msgstr ""
+
+msgctxt "#30788"
+msgid ""
+"Space/Enter/Fire works as WHDLoad Start-button. Core reset required.\n"
+"Override with buttons while booting:\n"
+"- 'Config': Hold 2nd fire / Blue\n"
+"- 'Splash': Hold LMB\n"
+"- 'Config + Splash': Hold RMB\n"
+"- ReadMe + MkCustom: Hold Red+Blue"
+msgstr ""
+
+msgctxt "#30789"
+msgid ""
+"Wait for a button press on internal loading sections if the slave supports it.\n"
+"Core reset required."
+msgstr ""
+
+msgctxt "#30790"
+msgid ""
+"Write cache requires running the core a few frames after closing content to trigger WHDLoad quit and flush cache to disk.\n"
+"QuitKey = '$2b' = '#' = 'LCtrl + Backslash'.\n"
+"Core reset required."
+msgstr ""
+
+msgctxt "#30791"
+msgid ""
+"Attach a hard disk for Workbench, not for WHDLoad! Enabling forces HD interface model. CD launch enables AmigaCD mode. HDF size change will not alter existing HDFs.\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30792"
+msgid "Model"
+msgstr ""
+
+msgctxt "#30793"
+msgid "A500 (v1.3, 1.0M Chip)"
+msgstr ""
+
+msgctxt "#30794"
+msgid "A600 (v3.1, 2M Chip)"
+msgstr ""
+
+msgctxt "#30795"
+msgid "Show Automatic Model Options"
+msgstr ""
+
+msgctxt "#30796"
+msgid "Automatic Floppy"
+msgstr ""
+
+msgctxt "#30797"
+msgid "Automatic HD"
+msgstr ""
+
+msgctxt "#30798"
+msgid "Automatic CD"
+msgstr ""
+
+msgctxt "#30799"
+msgid "Kickstart ROM"
+msgstr ""
+
+msgctxt "#30800"
+msgid "Chip RAM"
+msgstr ""
+
+msgctxt "#30801"
+msgid "Slow RAM"
+msgstr ""
+
+msgctxt "#30802"
+msgid "Z2 Fast RAM"
+msgstr ""
+
+msgctxt "#30803"
+msgid "Z3 Fast RAM"
+msgstr ""
+
+msgctxt "#30804"
+msgid "CPU Model"
+msgstr ""
+
+msgctxt "#30805"
+msgid "FPU Model"
+msgstr ""
+
+msgctxt "#30806"
+msgid "CPU Speed"
+msgstr ""
+
+msgctxt "#30807"
+msgid "CPU Cycle-exact Speed"
+msgstr ""
+
+msgctxt "#30808"
+msgid "CPU Compatibility"
+msgstr ""
+
+msgctxt "#30809"
+msgid "Immediate/Waiting Blits"
+msgstr ""
+
+msgctxt "#30810"
+msgid "Collision Level"
+msgstr ""
+
+msgctxt "#30811"
+msgid "Stereo Separation"
+msgstr ""
+
+msgctxt "#30812"
+msgid "Interpolation"
+msgstr ""
+
+msgctxt "#30813"
+msgid "Filter"
+msgstr ""
+
+msgctxt "#30814"
+msgid "Filter Type"
+msgstr ""
+
+msgctxt "#30815"
+msgid "Floppy Sound Emulation"
+msgstr ""
+
+msgctxt "#30816"
+msgid "Floppy Sound Mute Ejected"
+msgstr ""
+
+msgctxt "#30817"
+msgid "Floppy Sound Type"
+msgstr ""
+
+msgctxt "#30818"
+msgid "CD Audio Volume"
+msgstr ""
+
+msgctxt "#30819"
+msgid "Allow Hz Change"
+msgstr ""
+
+msgctxt "#30820"
+msgid "Standard"
+msgstr ""
+
+msgctxt "#30821"
+msgid "Pixel Aspect Ratio"
+msgstr ""
+
+msgctxt "#30822"
+msgid ""
+"'Automatic' follows video standard, 'Automatic NTSC' prefers NTSC ratio when cropped height is under PAL height.\n"
+"Hotkey toggling disables this option until core restart.\n"
+"- 'PAL': 26/25 = 1.04\n"
+"- 'NTSC': 43/50 = 0.86"
+msgstr ""
+
+msgctxt "#30823"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "#30824"
+msgid "Line Mode"
+msgstr ""
+
+msgctxt "#30825"
+msgid "Crop"
+msgstr ""
+
+msgctxt "#30826"
+msgid "Automatic Crop Delay"
+msgstr ""
+
+msgctxt "#30827"
+msgid "Crop Mode"
+msgstr ""
+
+msgctxt "#30828"
+msgid "Vertical Position"
+msgstr ""
+
+msgctxt "#30829"
+msgid "Horizontal Position"
+msgstr ""
+
+msgctxt "#30830"
+msgid "Remove Interlace Artifacts"
+msgstr ""
+
+msgctxt "#30831"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30832"
+msgid "Color Gamma"
+msgstr ""
+
+msgctxt "#30833"
+msgid "Color Depth"
+msgstr ""
+
+msgctxt "#30834"
+msgid "Automatic Load Fast-Forward"
+msgstr ""
+
+msgctxt "#30835"
+msgid "Floppy Speed"
+msgstr ""
+
+msgctxt "#30836"
+msgid "Floppy MultiDrive"
+msgstr ""
+
+msgctxt "#30837"
+msgid "Floppy Write Protection"
+msgstr ""
+
+msgctxt "#30838"
+msgid "Floppy Write Redirect"
+msgstr ""
+
+msgctxt "#30839"
+msgid "CD Speed"
+msgstr ""
+
+msgctxt "#30840"
+msgid "CD Startup Delayed Insert"
+msgstr ""
+
+msgctxt "#30841"
+msgid "CD32/CDTV Shared NVRAM"
+msgstr ""
+
+msgctxt "#30842"
+msgid "WHDLoad Support"
+msgstr ""
+
+msgctxt "#30843"
+msgid ""
+"Enable pre-installed WHDLoad content launching with helper directory filesystems for booting and saving.\n"
+"Core reset required."
+msgstr ""
+
+msgctxt "#30844"
+msgid "WHDLoad Theme"
+msgstr ""
+
+msgctxt "#30845"
+msgid "WHDLoad Splash Screen"
+msgstr ""
+
+msgctxt "#30846"
+msgid "WHDLoad ButtonWait"
+msgstr ""
+
+msgctxt "#30847"
+msgid "WHDLoad NoWriteCache"
+msgstr ""
+
+msgctxt "#30848"
+msgid "Global Boot HD"
+msgstr ""
+
+msgctxt "#30849"
+msgid "Cartridge"
+msgstr ""
+
+msgctxt "#30850"
+msgid "Analog Stick Mouse"
+msgstr ""
+
+msgctxt "#30851"
+msgid "Analog Stick Mouse Deadzone"
+msgstr ""
+
+msgctxt "#30852"
+msgid "Left Analog Stick Mouse Speed"
+msgstr ""
+
+msgctxt "#30853"
+msgid "Right Analog Stick Mouse Speed"
+msgstr ""
+
+msgctxt "#30854"
+msgid "D-Pad Mouse Speed"
+msgstr ""
+
+msgctxt "#30855"
+msgid "Mouse Speed"
+msgstr ""
+
+msgctxt "#30856"
+msgid "Physical Mouse"
+msgstr ""
+
+msgctxt "#30857"
+msgid "Keyboard Pass-through"
+msgstr ""
+
+msgctxt "#30858"
+msgid "Keyrah Keypad Mappings"
+msgstr ""
+
+msgctxt "#30859"
+msgid "Turbo Fire"
+msgstr ""
+
+msgctxt "#30860"
+msgid "Turbo Button"
+msgstr ""
+
+msgctxt "#30861"
+msgid "Turbo Pulse"
+msgstr ""
+
+msgctxt "#30862"
+msgid "Joystick/Mouse"
+msgstr ""
+
+msgctxt "#30863"
+msgid "Joystick Port Order"
+msgstr ""
+
+msgctxt "#30864"
+msgid "RetroPad Face Button Options"
+msgstr ""
+
+msgctxt "#30865"
+msgid "CD32 Pad Face Button Options"
+msgstr ""
+
+msgctxt "#30866"
+msgid "Toggle Turbo Fire"
+msgstr ""
+
+msgctxt "#30867"
+msgid "Toggle Save Disk"
+msgstr ""
+
+msgctxt "#30868"
+msgid "Toggle Aspect Ratio"
+msgstr ""
+
+msgctxt "#30869"
+msgid "Toggle Crop"
+msgstr ""
+
+msgctxt "#30870"
+msgid "Reset"
+msgstr ""
+
+msgctxt "#30871"
+msgid "Up"
+msgstr ""
+
+msgctxt "#30872"
+msgid "Down"
+msgstr ""
+
+msgctxt "#30873"
+msgid "Left"
+msgstr ""
+
+msgctxt "#30874"
+msgid "Right"
+msgstr ""
+
+msgctxt "#30875"
+msgid "B"
+msgstr ""
+
+msgctxt "#30876"
+msgid "A"
+msgstr ""
+
+msgctxt "#30877"
+msgid "Y"
+msgstr ""
+
+msgctxt "#30878"
+msgid "X"
+msgstr ""
+
+msgctxt "#30879"
+msgid "Select"
+msgstr ""
+
+msgctxt "#30880"
+msgid "Start"
+msgstr ""
+
+msgctxt "#30881"
+msgid "L"
+msgstr ""
+
+msgctxt "#30882"
+msgid "R"
+msgstr ""
+
+msgctxt "#30883"
+msgid "L2"
+msgstr ""
+
+msgctxt "#30884"
+msgid "R2"
+msgstr ""
+
+msgctxt "#30885"
+msgid "L3"
+msgstr ""
+
+msgctxt "#30886"
+msgid "R3"
+msgstr ""
+
+msgctxt "#30887"
+msgid "Left Analog > Up"
+msgstr ""
+
+msgctxt "#30888"
+msgid "Left Analog > Down"
+msgstr ""
+
+msgctxt "#30889"
+msgid "Left Analog > Left"
+msgstr ""
+
+msgctxt "#30890"
+msgid "Left Analog > Right"
+msgstr ""
+
+msgctxt "#30891"
+msgid "Right Analog > Up"
+msgstr ""
+
+msgctxt "#30892"
+msgid "Right Analog > Down"
+msgstr ""
+
+msgctxt "#30893"
+msgid "Right Analog > Left"
+msgstr ""
+
+msgctxt "#30894"
+msgid "Right Analog > Right"
+msgstr ""
+
+msgctxt "#30895"
+msgid "Virtual KBD Theme"
+msgstr ""
+
+msgctxt "#30896"
+msgid "Virtual KBD Transparency"
+msgstr ""
+
+msgctxt "#30897"
+msgid "Virtual KBD Dimming"
+msgstr ""
+
+msgctxt "#30898"
+msgid "Statusbar Mode"
+msgstr ""
+
+msgctxt "#30899"
+msgid "Statusbar Startup"
+msgstr ""
+
+msgctxt "#30900"
+msgid "Statusbar Messages"
+msgstr ""
+
+msgctxt "#30901"
+msgid "Light Pen/Gun Pointer Color"
+msgstr ""

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.potator">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="potator_palette" type="string" label="30001" help="30005">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30006">default</option>
+							<option label="30007">potator_amber</option>
+							<option label="30008">potator_green</option>
+							<option label="30009">potator_blue</option>
+							<option label="30010">potator_bgb</option>
+							<option label="30011">potator_wataroo</option>
+							<option label="30012">gb_dmg</option>
+							<option label="30013">gb_pocket</option>
+							<option label="30014">gb_light</option>
+							<option label="30015">blossom_pink</option>
+							<option label="30016">bubbles_blue</option>
+							<option label="30017">buttercup_green</option>
+							<option label="30018">digivice</option>
+							<option label="30019">game_com</option>
+							<option label="30020">gameking</option>
+							<option label="30021">game_master</option>
+							<option label="30022">golden_wild</option>
+							<option label="30023">greenscale</option>
+							<option label="30024">hokage_orange</option>
+							<option label="30025">labo_fawn</option>
+							<option label="30026">legendary_super_saiyan</option>
+							<option label="30027">microvision</option>
+							<option label="30028">million_live_gold</option>
+							<option label="30029">odyssey_gold</option>
+							<option label="30030">shiny_sky_blue</option>
+							<option label="30031">slime_blue</option>
+							<option label="30032">ti_83</option>
+							<option label="30033">travel_wood</option>
+							<option label="30034">virtual_boy</option>
+							<option label="30035">tvlink</option>
+							<option label="30036">tvlink_inverted</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="potator_lcd_ghosting" type="string" label="30002" help="30037">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30038">0</option>
+							<option label="30039">1</option>
+							<option label="30040">2</option>
+							<option label="30041">3</option>
+							<option label="30042">4</option>
+							<option label="30043">5</option>
+							<option label="30044">6</option>
+							<option label="30045">7</option>
+							<option label="30046">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="potator_frameskip" type="string" label="30003" help="30047">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30048">auto</option>
+							<option label="30049">manual</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="potator_frameskip_threshold" type="string" label="30004" help="30050">
+					<level>0</level>
+					<default>33</default>
+					<constraints>
+						<options>
+							<option>15</option>
+							<option>18</option>
+							<option>21</option>
+							<option>24</option>
+							<option>27</option>
+							<option>30</option>
+							<option>33</option>
+							<option>36</option>
+							<option>39</option>
+							<option>42</option>
+							<option>45</option>
+							<option>48</option>
+							<option>51</option>
+							<option>54</option>
+							<option>57</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

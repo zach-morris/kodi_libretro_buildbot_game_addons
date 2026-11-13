@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.sameboy">
+		<category id="system" label="30030" help="30031">
+			<group id="1">
+				<setting id="sameboy_model" type="string" label="30140" help="30032">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="30033">Auto</option>
+							<option label="30034">Auto (SGB)</option>
+							<option label="30035">Game Boy</option>
+							<option label="30036">Game Boy Color C</option>
+							<option label="30037">Game Boy Color</option>
+							<option label="30137">Game Boy Advance</option>
+							<option label="30038">Super Game Boy</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_auto_sgb_model" type="string" label="30141" help="30039">
+					<level>0</level>
+					<default>Super Game Boy</default>
+					<constraints>
+						<options>
+							<option label="30038">Super Game Boy</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_rtc" type="string" label="30142" help="30040">
+					<level>0</level>
+					<default>sync to system clock</default>
+					<constraints>
+						<options>
+							<option label="30041">sync to system clock</option>
+							<option label="30042">accurate</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_link" type="string" label="30143" help="30043">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30044">enabled</option>
+							<option label="30045">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_screen_layout" type="string" label="30144" help="30046">
+					<level>0</level>
+					<default>top-down</default>
+					<constraints>
+						<options>
+							<option label="30047">top-down</option>
+							<option label="30048">left-right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_audio_output" type="string" label="30145" help="30049">
+					<level>0</level>
+					<default>Game Boy #1</default>
+					<constraints>
+						<options>
+							<option>Game Boy #1</option>
+							<option>Game Boy #2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_model_1" type="string" label="30146" help="30050">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="30033">Auto</option>
+							<option label="30034">Auto (SGB)</option>
+							<option label="30035">Game Boy</option>
+							<option label="30036">Game Boy Color C</option>
+							<option label="30037">Game Boy Color</option>
+							<option label="30137">Game Boy Advance</option>
+							<option label="30038">Super Game Boy</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_auto_sgb_model_1" type="string" label="30147" help="30051">
+					<level>0</level>
+					<default>Super Game Boy</default>
+					<constraints>
+						<options>
+							<option label="30038">Super Game Boy</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_model_2" type="string" label="30148" help="30052">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="30033">Auto</option>
+							<option label="30034">Auto (SGB)</option>
+							<option label="30035">Game Boy</option>
+							<option label="30036">Game Boy Color C</option>
+							<option label="30037">Game Boy Color</option>
+							<option label="30137">Game Boy Advance</option>
+							<option label="30038">Super Game Boy</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_auto_sgb_model_2" type="string" label="30149" help="30053">
+					<level>0</level>
+					<default>Super Game Boy</default>
+					<constraints>
+						<options>
+							<option label="30038">Super Game Boy</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30054" help="30055">
+			<group id="1">
+				<setting id="sameboy_mono_palette" type="string" label="30150" help="30056">
+					<level>0</level>
+					<default>greyscale</default>
+					<constraints>
+						<options>
+							<option label="30057">greyscale</option>
+							<option label="30058">lime</option>
+							<option label="30059">olive</option>
+							<option label="30060">teal</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_color_correction_mode" type="string" label="30151" help="30061">
+					<level>0</level>
+					<default>emulate hardware</default>
+					<constraints>
+						<options>
+							<option label="30062">emulate hardware</option>
+							<option label="30063">accurate</option>
+							<option label="30064">preserve brightness</option>
+							<option label="30065">reduce contrast</option>
+							<option label="30066">correct curves</option>
+							<option label="30067">harsh reality</option>
+							<option label="30045">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_light_temperature" type="string" label="30152" help="30068">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30069">1.0</option>
+							<option label="30070">0.9</option>
+							<option label="30071">0.8</option>
+							<option label="30072">0.7</option>
+							<option label="30073">0.6</option>
+							<option label="30074">0.5</option>
+							<option label="30075">0.4</option>
+							<option label="30076">0.3</option>
+							<option label="30077">0.2</option>
+							<option label="30078">0.1</option>
+							<option label="30079">0</option>
+							<option label="30080">-0.1</option>
+							<option label="30081">-0.2</option>
+							<option label="30082">-0.3</option>
+							<option label="30083">-0.4</option>
+							<option label="30084">-0.5</option>
+							<option label="30085">-0.6</option>
+							<option label="30086">-0.7</option>
+							<option label="30087">-0.8</option>
+							<option label="30088">-0.9</option>
+							<option label="30089">-1.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_border" type="string" label="30153" help="30090">
+					<level>0</level>
+					<default>Super Game Boy only</default>
+					<constraints>
+						<options>
+							<option label="30091">always</option>
+							<option label="30092">Super Game Boy only</option>
+							<option label="30045">never</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_mono_palette_1" type="string" label="30154" help="30093">
+					<level>0</level>
+					<default>greyscale</default>
+					<constraints>
+						<options>
+							<option label="30057">greyscale</option>
+							<option label="30058">lime</option>
+							<option label="30059">olive</option>
+							<option label="30060">teal</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_mono_palette_2" type="string" label="30155" help="30094">
+					<level>0</level>
+					<default>greyscale</default>
+					<constraints>
+						<options>
+							<option label="30057">greyscale</option>
+							<option label="30058">lime</option>
+							<option label="30059">olive</option>
+							<option label="30060">teal</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_color_correction_mode_1" type="string" label="30156" help="30095">
+					<level>0</level>
+					<default>emulate hardware</default>
+					<constraints>
+						<options>
+							<option label="30062">emulate hardware</option>
+							<option label="30063">accurate</option>
+							<option label="30064">preserve brightness</option>
+							<option label="30065">reduce contrast</option>
+							<option label="30066">correct curves</option>
+							<option label="30067">harsh reality</option>
+							<option label="30045">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_color_correction_mode_2" type="string" label="30157" help="30096">
+					<level>0</level>
+					<default>emulate hardware</default>
+					<constraints>
+						<options>
+							<option label="30062">emulate hardware</option>
+							<option label="30063">accurate</option>
+							<option label="30064">preserve brightness</option>
+							<option label="30065">reduce contrast</option>
+							<option label="30066">correct curves</option>
+							<option label="30067">harsh reality</option>
+							<option label="30045">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_light_temperature_1" type="string" label="30158" help="30097">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30069">1.0</option>
+							<option label="30070">0.9</option>
+							<option label="30071">0.8</option>
+							<option label="30072">0.7</option>
+							<option label="30073">0.6</option>
+							<option label="30074">0.5</option>
+							<option label="30075">0.4</option>
+							<option label="30076">0.3</option>
+							<option label="30077">0.2</option>
+							<option label="30078">0.1</option>
+							<option label="30079">0</option>
+							<option label="30080">-0.1</option>
+							<option label="30081">-0.2</option>
+							<option label="30082">-0.3</option>
+							<option label="30083">-0.4</option>
+							<option label="30084">-0.5</option>
+							<option label="30085">-0.6</option>
+							<option label="30086">-0.7</option>
+							<option label="30087">-0.8</option>
+							<option label="30088">-0.9</option>
+							<option label="30089">-1.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_light_temperature_2" type="string" label="30159" help="30098">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30069">1.0</option>
+							<option label="30070">0.9</option>
+							<option label="30071">0.8</option>
+							<option label="30072">0.7</option>
+							<option label="30073">0.6</option>
+							<option label="30074">0.5</option>
+							<option label="30075">0.4</option>
+							<option label="30076">0.3</option>
+							<option label="30077">0.2</option>
+							<option label="30078">0.1</option>
+							<option label="30079">0</option>
+							<option label="30080">-0.1</option>
+							<option label="30081">-0.2</option>
+							<option label="30082">-0.3</option>
+							<option label="30083">-0.4</option>
+							<option label="30084">-0.5</option>
+							<option label="30085">-0.6</option>
+							<option label="30086">-0.7</option>
+							<option label="30087">-0.8</option>
+							<option label="30088">-0.9</option>
+							<option label="30089">-1.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30099" help="30100">
+			<group id="1">
+				<setting id="sameboy_high_pass_filter_mode" type="string" label="30160" help="30101">
+					<level>0</level>
+					<default>accurate</default>
+					<constraints>
+						<options>
+							<option label="30042">accurate</option>
+							<option label="30102">remove dc offset</option>
+							<option label="30045">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_audio_interference" type="string" label="30161" help="30103">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30104">0</option>
+							<option label="30105">5</option>
+							<option label="30106">10</option>
+							<option label="30107">15</option>
+							<option label="30108">20</option>
+							<option label="30109">25</option>
+							<option label="30110">30</option>
+							<option label="30111">35</option>
+							<option label="30112">40</option>
+							<option label="30113">45</option>
+							<option label="30114">50</option>
+							<option label="30115">55</option>
+							<option label="30116">60</option>
+							<option label="30117">65</option>
+							<option label="30118">70</option>
+							<option label="30119">75</option>
+							<option label="30120">80</option>
+							<option label="30121">85</option>
+							<option label="30122">90</option>
+							<option label="30123">95</option>
+							<option label="30124">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_high_pass_filter_mode_1" type="string" label="30162" help="30125">
+					<level>0</level>
+					<default>accurate</default>
+					<constraints>
+						<options>
+							<option label="30042">accurate</option>
+							<option label="30102">remove dc offset</option>
+							<option label="30126">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_high_pass_filter_mode_2" type="string" label="30163" help="30127">
+					<level>0</level>
+					<default>accurate</default>
+					<constraints>
+						<options>
+							<option label="30042">accurate</option>
+							<option label="30102">remove dc offset</option>
+							<option label="30126">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_audio_interference_1" type="string" label="30164" help="30128">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30104">0</option>
+							<option label="30105">5</option>
+							<option label="30106">10</option>
+							<option label="30107">15</option>
+							<option label="30108">20</option>
+							<option label="30109">25</option>
+							<option label="30110">30</option>
+							<option label="30111">35</option>
+							<option label="30112">40</option>
+							<option label="30113">45</option>
+							<option label="30114">50</option>
+							<option label="30115">55</option>
+							<option label="30116">60</option>
+							<option label="30117">65</option>
+							<option label="30118">70</option>
+							<option label="30119">75</option>
+							<option label="30120">80</option>
+							<option label="30121">85</option>
+							<option label="30122">90</option>
+							<option label="30123">95</option>
+							<option label="30124">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_audio_interference_2" type="string" label="30165" help="30129">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30104">0</option>
+							<option label="30105">5</option>
+							<option label="30106">10</option>
+							<option label="30107">15</option>
+							<option label="30108">20</option>
+							<option label="30109">25</option>
+							<option label="30110">30</option>
+							<option label="30111">35</option>
+							<option label="30112">40</option>
+							<option label="30113">45</option>
+							<option label="30114">50</option>
+							<option label="30115">55</option>
+							<option label="30116">60</option>
+							<option label="30117">65</option>
+							<option label="30118">70</option>
+							<option label="30119">75</option>
+							<option label="30120">80</option>
+							<option label="30121">85</option>
+							<option label="30122">90</option>
+							<option label="30123">95</option>
+							<option label="30124">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30130" help="30131">
+			<group id="1">
+				<setting id="sameboy_rumble" type="string" label="30166" help="30132">
+					<level>0</level>
+					<default>rumble-enabled games</default>
+					<constraints>
+						<options>
+							<option label="30091">all games</option>
+							<option label="30133">rumble-enabled games</option>
+							<option label="30134">never</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_rumble_1" type="string" label="30167" help="30135">
+					<level>0</level>
+					<default>rumble-enabled games</default>
+					<constraints>
+						<options>
+							<option label="30091">all games</option>
+							<option label="30133">rumble-enabled games</option>
+							<option label="30134">never</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="sameboy_rumble_2" type="string" label="30168" help="30136">
+					<level>0</level>
+					<default>rumble-enabled games</default>
+					<constraints>
+						<options>
+							<option label="30091">all games</option>
+							<option label="30133">rumble-enabled games</option>
+							<option label="30134">never</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,302 @@
+# game.libretro.81 language file
+# Addon Name: game.libretro.81
+# Addon id: game.libretro.81
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.81\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 02:43i\n"
+"PO-Revision-Date: 2024-12-27 21:39+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-81/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sinclair - ZX 81 (EightyOne)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "EightyOne is an emulator for the range of home computers made by Sinclair Research (and their clones) in the 1980s."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Tape Fast Load"
+msgstr ""
+
+msgctxt "#30002"
+msgid "8K-16K Contents"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Size Video Border"
+msgstr ""
+
+msgctxt "#30004"
+msgid "High Resolution"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Emulate Chroma 81"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Video Presets"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Sound emulation"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Joypad Left mapping"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Joypad Right mapping"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Joypad Up mapping"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Joypad Down mapping"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Joypad A button mapping"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Joypad B button mapping"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Joypad X button mapping"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Joypad Y button mapping"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Joypad L button mapping"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Joypad R button mapping"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Joypad L2 button mapping"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Joypad R2 button mapping"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Transparent Keyboard Overlay"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Time to Release Key in ms"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Joypad START button mapping"
+msgstr ""
+
+msgctxt "#30023"
+msgid "ROM shadow"
+msgstr ""
+
+msgctxt "#30024"
+msgid "RAM"
+msgstr ""
+
+msgctxt "#30025"
+msgid "dK'tronics 4K Graphics ROM + 4K RAM"
+msgstr ""
+
+msgctxt "#30026"
+msgid "normal"
+msgstr ""
+
+msgctxt "#30027"
+msgid "small"
+msgstr ""
+
+msgctxt "#30028"
+msgid "WRX"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Zon X-81"
+msgstr ""
+
+msgctxt "#30030"
+msgid "new line"
+msgstr ""
+
+msgctxt "#30031"
+msgid "shift"
+msgstr ""
+
+msgctxt "#30032"
+msgid "space"
+msgstr ""
+
+msgctxt "#30033"
+msgid "."
+msgstr ""
+
+msgctxt "#30034"
+msgid "0"
+msgstr ""
+
+msgctxt "#30035"
+msgid "1"
+msgstr ""
+
+msgctxt "#30036"
+msgid "2"
+msgstr ""
+
+msgctxt "#30037"
+msgid "3"
+msgstr ""
+
+msgctxt "#30038"
+msgid "4"
+msgstr ""
+
+msgctxt "#30039"
+msgid "5"
+msgstr ""
+
+msgctxt "#30040"
+msgid "6"
+msgstr ""
+
+msgctxt "#30041"
+msgid "7"
+msgstr ""
+
+msgctxt "#30042"
+msgid "8"
+msgstr ""
+
+msgctxt "#30043"
+msgid "9"
+msgstr ""
+
+msgctxt "#30044"
+msgid "a"
+msgstr ""
+
+msgctxt "#30045"
+msgid "b"
+msgstr ""
+
+msgctxt "#30046"
+msgid "c"
+msgstr ""
+
+msgctxt "#30047"
+msgid "d"
+msgstr ""
+
+msgctxt "#30048"
+msgid "e"
+msgstr ""
+
+msgctxt "#30049"
+msgid "f"
+msgstr ""
+
+msgctxt "#30050"
+msgid "g"
+msgstr ""
+
+msgctxt "#30051"
+msgid "h"
+msgstr ""
+
+msgctxt "#30052"
+msgid "i"
+msgstr ""
+
+msgctxt "#30053"
+msgid "j"
+msgstr ""
+
+msgctxt "#30054"
+msgid "k"
+msgstr ""
+
+msgctxt "#30055"
+msgid "l"
+msgstr ""
+
+msgctxt "#30056"
+msgid "m"
+msgstr ""
+
+msgctxt "#30057"
+msgid "n"
+msgstr ""
+
+msgctxt "#30058"
+msgid "o"
+msgstr ""
+
+msgctxt "#30059"
+msgid "p"
+msgstr ""
+
+msgctxt "#30060"
+msgid "q"
+msgstr ""
+
+msgctxt "#30061"
+msgid "r"
+msgstr ""
+
+msgctxt "#30062"
+msgid "s"
+msgstr ""
+
+msgctxt "#30063"
+msgid "t"
+msgstr ""
+
+msgctxt "#30064"
+msgid "u"
+msgstr ""
+
+msgctxt "#30065"
+msgid "v"
+msgstr ""
+
+msgctxt "#30066"
+msgid "w"
+msgstr ""
+
+msgctxt "#30067"
+msgid "x"
+msgstr ""
+
+msgctxt "#30068"
+msgid "y"
+msgstr ""
+
+msgctxt "#30069"
+msgid "z"
+msgstr ""

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="128">
+		<setting label="30026" type="select" id="mame_thread_mode" values="enabled|disabled" default="enabled"/>
+		<setting label="30027" type="select" id="mame_cheats_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30028" type="select" id="mame_throttle" values="disabled|enabled" default="disabled"/>
+		<setting label="30015" type="select" id="mame_boot_to_bios" values="disabled|enabled" default="disabled"/>
+		<setting label="30016" type="select" id="mame_boot_to_osd" values="disabled|enabled" default="disabled"/>
+		<setting label="30018" type="select" id="mame_read_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30019" type="select" id="mame_write_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30020" type="select" id="mame_mame_paths_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30021" type="select" id="mame_saves" values="game|system" default="game"/>
+		<setting label="30022" type="select" id="mame_auto_save" values="disabled|enabled" default="disabled"/>
+		<setting label="30029" type="select" id="mame_softlists_enable" values="enabled|disabled" default="enabled"/>
+		<setting label="30024" type="select" id="mame_softlists_auto_media" values="enabled|disabled" default="enabled"/>
+		<setting label="30025" type="select" id="mame_media_type" values="rom|cart|cass|cdrm|flop|hard|prin|serl" default="rom"/>
+		<setting label="30005" type="select" id="mame_joystick_deadzone" values="0.15|0.00|0.05|0.10|0.20|0.25|0.30|0.35|0.40|0.45|0.50|0.55|0.60|0.65|0.70|0.75|0.80|0.85|0.90|0.95|1.00" default="0.15"/>
+		<setting label="30006" type="select" id="mame_joystick_saturation" values="0.85|0.05|0.10|0.15|0.20|0.25|0.30|0.35|0.40|0.45|0.50|0.55|0.60|0.65|0.70|0.75|0.80|0.90|0.95|1.00" default="0.85"/>
+		<setting label="30030" type="select" id="mame_joystick_threshold" values="0.30|0.05|0.10|0.15|0.20|0.25|0.35|0.40|0.45|0.50|0.55|0.60|0.65|0.70|0.75|0.80|0.85|0.90|0.95|1.00" default="0.30"/>
+		<setting label="30007" type="select" id="mame_mame_4way_enable" values="disabled|4way|strict|qbert" default="disabled"/>
+		<setting label="30004" type="select" id="mame_buttons_profiles" values="disabled|enabled" default="disabled"/>
+		<setting label="30031" type="select" id="mame_mouse_enable" values="enabled|disabled" default="enabled"/>
+		<setting label="30002" type="select" id="mame_lightgun_mode" values="none|lightgun|touchscreen" default="none"/>
+		<setting label="30003" type="select" id="mame_lightgun_offscreen_mode" values="free|fixed (top left)|fixed (bottom right)" default="free"/>
+		<setting label="30032" type="select" id="mame_rotation_mode" values="libretro|internal|tate-rol|tate-ror|none" default="libretro"/>
+		<setting label="30010" type="select" id="mame_alternate_renderer" values="disabled|enabled" default="disabled"/>
+		<setting label="30011" type="select" id="mame_altres" values="640x480|640x360|800x600|800x450|960x720|960x540|1024x768|1024x576|1280x960|1280x720|1600x1200|1600x900|1440x1080|1920x1080|1920x1440|2560x1440|2880x2160|3840x2160" default="640x480"/>
+		<setting label="30033" type="select" id="mame_cpu_overclock" values="default|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|60|65|70|75|80|85|90|95|100|105|110|115|120|125|130|135|140|145|150|155|160|165|170|175|180|185|190|195|200|205|210|215|220|225|230|235|240|245|250|255|260|265|270|275|280|285|290|295|300" default="default"/>
+		<setting label="30034" type="select" id="mame_autoloadfastforward" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

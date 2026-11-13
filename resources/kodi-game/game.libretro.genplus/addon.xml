@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.genplus"
+		name="Sega - MS/GG/MD/CD (Genesis Plus GX)"
+		version="1.7.4.87"
+		provider-name="Charles McDonald, Eke-Eke">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.genesis.3button" version="1.0.0"/>
+		<import addon="game.controller.genesis.6button" version="1.0.0"/>
+		<import addon="game.controller.genesis.mouse" version="1.0.0"/>
+		<import addon="game.controller.genesis.4wayplay" version="1.0.0"/>
+		<import addon="game.controller.genesis.teamplayer" version="1.0.0"/>
+		<import addon="resource.games.libretro.restricted" version="1.0.0" optional="true"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - MS/GG/MD/CD</platforms>
+		<extensions>m3u|mdx|md|smd|gen|bin|cue|iso|chd|bms|sms|gg|sg|68k|sgd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>genesis_plus_gx_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.genplus</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="en_GB">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="es_ES">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="ga">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="it_IT">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="ru_RU">Sega — MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="sv_SE">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="zh_CN">世嘉 - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<description lang="cs_CZ">Genesis Plus GX je vylepšený port Genesis Plus pro API Libretro.[CR][CR]Podporuje hardware SG-1000, Mark-III, Master System, Game Gear, Mega Drive a Mega CD.</description>
+		<description lang="da_DK">Genesis Plus GX er en forbedret port af Genesis Plus til libretro API.[CR][CR]Understøtter SG-1000, Mark-III, Master System, Game Gear, Mega Drive og Mega CD hardware.</description>
+		<description lang="de_DE">Genesis Plus GX ist eine erweiterte Umsetzung von Genesis Plus auf die Libretro-API und bietet Unterstützung für SG-1000, Mark-III, Master System, Game Gear, Mega Drive und Mega CD Hardware.</description>
+		<description lang="en_GB">Genesis Plus GX is an enhanced port of Genesis Plus to the libretro API.[CR][CR]Features support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive and Mega CD hardware.</description>
+		<description lang="es_ES">Genesis Plus GX es una adaptación mejorada de Genesis Plus a la API libretro[CR][CR]Compatible con el hardware SG-1000, Mark-III, Master System, Game Gear, Mega Drive y Mega CD.</description>
+		<description lang="ga">Is port feabhsaithe de Genesis Plus chuig API libretro é Genesis Plus GX.[CR][CR]Tacaíonn sé le crua-earraí SG-1000, Mark-III, Master System, Game Gear, Mega Drive agus Mega CD.</description>
+		<description lang="it_IT">Genesis Plus GX è un port avanzato di Genesis Plus per l&apos;API libretro.[CR][CR]Include il supporto per l&apos;hardware SG-1000, Mark-III, Master System, Game Gear, Mega Drive e Mega CD.</description>
+		<description lang="ru_RU">Genesis Plus GX — это улучшенный порт Genesis Plus на API libretro.[CR][CR]Поддерживается оборудование SG-1000, Mark-III, Master System, Game Gear, Mega Drive и Mega CD.</description>
+		<description lang="sv_SE">Genesis Plus GX är en förbättrad portning av Genesis Plus till libretro API[CR][CR]Med stöd för hårdvarorna SG-1000, Mark-III, Master System, Game Gear, Mega Drive och Mega CD.</description>
+		<description lang="zh_CN">Genesis Plus GX 是 Genesis Plus 到 libretro API 的增强移植。[CR][CR]支持 SG-1000、Mark III、Master System、Game Gear、Mega Drive 和 Mega CD 硬件。</description>
+		<disclaimer lang="cs_CZ">Zvláštní poděkování patří twinaphexovi za backportování vylepšení z verze GX</disclaimer>
+		<disclaimer lang="da_DK">Særlig tak til twinaphex for backporting-forbedringer fra GX-versionen</disclaimer>
+		<disclaimer lang="de_DE">Besonderen Dank an twinaphex für die Rückportierung von Erweiterungen aus der GX-Version</disclaimer>
+		<disclaimer lang="en_GB">Special thanks to twinaphex for backporting enhancements from the GX version</disclaimer>
+		<disclaimer lang="es_ES">Un agradecimiento especial a twinaphex por readaptar las mejoras de la versión GX</disclaimer>
+		<disclaimer lang="ga">Buíochas speisialta le twinaphex as feabhsuithe ar aisiompórtáil ón leagan GX</disclaimer>
+		<disclaimer lang="it_IT">Un ringraziamento speciale a twinaphex per i miglioramenti apportati al backport dalla versione GX</disclaimer>
+		<disclaimer lang="ru_RU">Особая благодарность twinaphex за перенос улучшений из версии GX</disclaimer>
+		<disclaimer lang="sv_SE">Särskilt tack till twinaphex för bakåtportering av förbättringar från GX-versionen</disclaimer>
+		<disclaimer lang="zh_CN">特别感谢 twinaphex 从 GX 版本中移植了增强功能</disclaimer>
+	</extension>
+</addon>

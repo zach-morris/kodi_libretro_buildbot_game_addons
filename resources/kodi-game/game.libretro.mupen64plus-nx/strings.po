@@ -1,0 +1,1062 @@
+# game.libretro.mupen64plus-nx language file
+# Addon Name: game.libretro.mupen64plus-nx
+# Addon id: game.libretro.mupen64plus-nx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mupen64plus-nx\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2026-05-14 16:30+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mupen64plus-nx/en_US/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Mupen64 is an N64 emulator desgined to be multi-OS. It uses a plugin system and is highly compatible."
+msgstr ""
+
+msgctxt "#30001"
+msgid "RDP Plugin"
+msgstr ""
+
+msgctxt "#30002"
+msgid "4:3 Resolution"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Wide Resolution"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Aspect Ratio"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Native Resolution Factor"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Threaded Renderer"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Bilinear filtering mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Hybrid Filter"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Dithering"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Dithering Quantization"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Image Dithering Mode"
+msgstr ""
+
+msgctxt "#30012"
+msgid "MSAA level"
+msgstr ""
+
+msgctxt "#30013"
+msgid "FXAA"
+msgstr ""
+
+msgctxt "#30014"
+msgid "LOD Emulation"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Framebuffer Emulation"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Copy auxiliary buffers to RDRAM"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Color buffer to RDRAM"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Depth buffer to RDRAM"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Background Mode"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Hardware per-pixel lighting"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Continuous texrect coords"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Enable inaccurate texture coordinates"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Enable native-res boundaries for texture coordinates"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Native res. 2D texrects"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Less accurate blending mode"
+msgstr ""
+
+msgctxt "#30026"
+msgid "GPU shader depth write"
+msgstr ""
+
+msgctxt "#30027"
+msgid "N64 Depth Compare"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Cache GPU Shaders"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Cache Textures"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Overscan"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Overscan Offset (Top)"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Overscan Offset (Left)"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Overscan Offset (Right)"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Overscan Offset (Bottom)"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Max High-Res VRAM Limit"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Max texture cache size"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Texture filter"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Texture Enhancement"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Don't filter background textures"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Use High-Res textures"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Use High-Res Texture Cache Compression"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Use High-Res Full Alpha Channel"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Use enhanced Texture Storage"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Use alternative method for High-Res Checksums"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Use enhanced Hi-Res Storage"
+msgstr ""
+
+msgctxt "#30046"
+msgid "INI Behaviour"
+msgstr ""
+
+msgctxt "#30047"
+msgid "CPU Core"
+msgstr ""
+
+msgctxt "#30048"
+msgid "RSP Plugin"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Frame Duplication"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Framerate"
+msgstr ""
+
+msgctxt "#30051"
+msgid "VI Refresh (Overclock)"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Disable Expansion Pak"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Ignore emulated TLB Exceptions"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Count Per Op"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Count Per Op Divider (Overclock)"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Analog Deadzone (percent)"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Analog Sensitivity (percent)"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Right C Button"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Left C Button"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Down C Button"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Up C Button"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Independent C-button Controls"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Player 1 Pak"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Player 2 Pak"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Player 3 Pak"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Player 4 Pak"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Enable color buffer copy from RDRAM"
+msgstr ""
+
+msgctxt "#30082"
+msgid "VI Overlay"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Thread sync level"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Multi-threading"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Hide overscan"
+msgstr ""
+
+msgctxt "#30086"
+msgid "Select a RDP Plugin, use Angrylion (if available) for best compability, GLideN64 for Performance"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Angrylion"
+msgstr ""
+
+msgctxt "#30088"
+msgid "ParaLLEl-RDP"
+msgstr ""
+
+msgctxt "#30089"
+msgid "GLideN64"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Select the R4300 CPU Backend, use Interpreter for best compability"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Pure Interpreter"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Cached Interpreter"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Dynarec"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Select a RSP Plugin, use HLE for best performance, ParaLLEl for best LLE Performance and CXD4 as LLE fallback"
+msgstr ""
+
+msgctxt "#30095"
+msgid "ParaLLEl"
+msgstr ""
+
+msgctxt "#30096"
+msgid "CXD4"
+msgstr ""
+
+msgctxt "#30097"
+msgid "HLE"
+msgstr ""
+
+msgctxt "#30098"
+msgid "Enable Frame duplication to improve smoothing on low-end. Different from frameskip."
+msgstr ""
+
+msgctxt "#30099"
+msgid "Fullspeed will enforce Count per Op 1 and FBEmu settings, this will break some games!"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Select a VI Refresh clock, Auto does not impact behaviour, other values override CountPerScanline."
+msgstr ""
+
+msgctxt "#30101"
+msgid "Force disable Expansion Pak (might improve performance for some games while reducing emulation accuracy, will break games that require it)."
+msgstr ""
+
+msgctxt "#30102"
+msgid "(HACK) Ignore emulated TLB Exceptions, this might fix some broken romhacks. This option might be removed in the future."
+msgstr ""
+
+msgctxt "#30103"
+msgid "Don't Ignore"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Ignore TLB Exceptions if not using TLB"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Always Ignore TLB Exceptions"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Count per Op is used to approximate the Counter reg, 0 will use the embedded Database (or default to 2). Changing this will break stuff!"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Denominator for Count per Op (allowing sub-1 Count per Op in practice). Changing this can break stuff!"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Pak/Controller Options"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Configure Core Pak/Controller Options."
+msgstr ""
+
+msgctxt "#30110"
+msgid "Size of the non responsive area around an analog stick."
+msgstr ""
+
+msgctxt "#30111"
+msgid "Adjust how far the stick needs to be moved to reach its max value."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Select Right C Button mapping."
+msgstr ""
+
+msgctxt "#30113"
+msgid "Select Left C Button mapping."
+msgstr ""
+
+msgctxt "#30114"
+msgid "Select Down C Button mapping."
+msgstr ""
+
+msgctxt "#30115"
+msgid "Select Up C Button mapping."
+msgstr ""
+
+msgctxt "#30116"
+msgid "Use an alternate control scheme, useful for some 3rdparty controllers."
+msgstr ""
+
+msgctxt "#30117"
+msgid "Select Player 1 Controller Pak."
+msgstr ""
+
+msgctxt "#30118"
+msgid "Select Player 2 Controller Pak."
+msgstr ""
+
+msgctxt "#30119"
+msgid "Select Player 3 Controller Pak."
+msgstr ""
+
+msgctxt "#30120"
+msgid "Select Player 4 Controller Pak."
+msgstr ""
+
+msgctxt "#30121"
+msgid "Configure GLideN64 Options."
+msgstr ""
+
+msgctxt "#30122"
+msgid "(GLN64) Select Render Viewport dimensions (4:3)."
+msgstr ""
+
+msgctxt "#30123"
+msgid "(GLN64) Select Render Viewport dimensions for wider resolutions."
+msgstr ""
+
+msgctxt "#30124"
+msgid "640x360 (16:9)"
+msgstr ""
+
+msgctxt "#30125"
+msgid "960x540 (16:9)"
+msgstr ""
+
+msgctxt "#30126"
+msgid "1280x720 (16:9)"
+msgstr ""
+
+msgctxt "#30127"
+msgid "1706x720 (64:27)"
+msgstr ""
+
+msgctxt "#30128"
+msgid "1366x768 (16:9)"
+msgstr ""
+
+msgctxt "#30129"
+msgid "1920x810 (64:27)"
+msgstr ""
+
+msgctxt "#30130"
+msgid "1920x1080 (16:9)"
+msgstr ""
+
+msgctxt "#30131"
+msgid "2560x1080 (64:27)"
+msgstr ""
+
+msgctxt "#30132"
+msgid "2560x1440 (16:9)"
+msgstr ""
+
+msgctxt "#30133"
+msgid "3414x1440 (64:27)"
+msgstr ""
+
+msgctxt "#30134"
+msgid "3840x2160 (16:9)"
+msgstr ""
+
+msgctxt "#30135"
+msgid "4096x2160 (17:9)"
+msgstr ""
+
+msgctxt "#30136"
+msgid "5120x1440 (32:9)"
+msgstr ""
+
+msgctxt "#30137"
+msgid "5120x2160 (64:27)"
+msgstr ""
+
+msgctxt "#30138"
+msgid "7680x3240 (64:27)"
+msgstr ""
+
+msgctxt "#30139"
+msgid "7680x4320 (16:9)"
+msgstr ""
+
+msgctxt "#30140"
+msgid "7680x2160 (32:9)"
+msgstr ""
+
+msgctxt "#30141"
+msgid "10240x4320 (64:27)"
+msgstr ""
+
+msgctxt "#30142"
+msgid "(GLN64) Select the aspect ratio. 'adjusted' means essentially Widescreen hacks."
+msgstr ""
+
+msgctxt "#30143"
+msgid "Original (4:3)"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Wide (Stretched)"
+msgstr ""
+
+msgctxt "#30145"
+msgid "Wide (Adjusted)"
+msgstr ""
+
+msgctxt "#30146"
+msgid "(GLN64) Render at N times the native resolution."
+msgstr ""
+
+msgctxt "#30147"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30148"
+msgid "1x"
+msgstr ""
+
+msgctxt "#30149"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30150"
+msgid "3x"
+msgstr ""
+
+msgctxt "#30151"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30152"
+msgid "5x"
+msgstr ""
+
+msgctxt "#30153"
+msgid "6x"
+msgstr ""
+
+msgctxt "#30154"
+msgid "7x"
+msgstr ""
+
+msgctxt "#30155"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30156"
+msgid "(GLN64) Use the Threaded Renderer, improves performance but increases input lag."
+msgstr ""
+
+msgctxt "#30157"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30158"
+msgid "(GLN64) Select a Bilinear filtering method, 3point is the original system specific way."
+msgstr ""
+
+msgctxt "#30159"
+msgid "(GLN64) Hybrid integer scaling filter, this can be slow with low-end GPUs."
+msgstr ""
+
+msgctxt "#30160"
+msgid "(GLN64) Applies dithering pattern to output image."
+msgstr ""
+
+msgctxt "#30161"
+msgid "(GLN64) Dither with color quantization."
+msgstr ""
+
+msgctxt "#30162"
+msgid "(GLN64) Dithering mode for image in RDRAM."
+msgstr ""
+
+msgctxt "#30163"
+msgid "Magic Square"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Blue Noise"
+msgstr ""
+
+msgctxt "#30165"
+msgid "(GLN64) Anti-Aliasing level (0 = disabled)."
+msgstr ""
+
+msgctxt "#30166"
+msgid "(GLN64) Fast Approximate Anti-Aliasing shader, moderately blur textures (0 = disabled)."
+msgstr ""
+
+msgctxt "#30167"
+msgid "(GLN64) Calculate per-pixel Level Of Details to select texture mip levels and blend them with each other using LOD fraction."
+msgstr ""
+
+msgctxt "#30168"
+msgid "(GLN64) Frame/depth buffer emulation. Disabling it can shorten input lag for particular games, but also break some special effects."
+msgstr ""
+
+msgctxt "#30169"
+msgid "(GLN64) Copy auxiliary buffers to RDRAM (fixes some Game artifacts like Paper Mario Intro)."
+msgstr ""
+
+msgctxt "#30170"
+msgid "(GLN64) Color buffer copy to RDRAM (Off will trade compatibility for Performance)."
+msgstr ""
+
+msgctxt "#30171"
+msgid "DoubleBuffer"
+msgstr ""
+
+msgctxt "#30172"
+msgid "TripleBuffer"
+msgstr ""
+
+msgctxt "#30173"
+msgid "(GLN64) Enable color buffer copy from RDRAM."
+msgstr ""
+
+msgctxt "#30174"
+msgid "(GLN64) Depth buffer copy to RDRAM (Off will trade compatibility for Performance)."
+msgstr ""
+
+msgctxt "#30175"
+msgid "(GLN64) Render backgrounds mode (HLE only). One piece (fast), Stripped (precise)."
+msgstr ""
+
+msgctxt "#30176"
+msgid "(GLN64) Standard per-vertex lighting when disabled. Slightly different rendering."
+msgstr ""
+
+msgctxt "#30177"
+msgid "(GLN64) Make texrect coordinates continuous to avoid black lines between them."
+msgstr ""
+
+msgctxt "#30178"
+msgid "(GLN64) Enables inaccurate texture coordinate calculations. This can improve performance and texture pack compatibity at the cost of accuracy."
+msgstr ""
+
+msgctxt "#30179"
+msgid "(GLN64) Bound texture rectangle texture coordinates to the values they take in native resolutions. It prevents garbage due to fetching out of texture bounds, but can result in hard edges."
+msgstr ""
+
+msgctxt "#30180"
+msgid "(GLN64) Render 2D texrects in native resolution to fix misalignment between parts of 2D image (example: Mario Kart driver selection portraits)."
+msgstr ""
+
+msgctxt "#30181"
+msgid "(GLN64) Do not use shaders to emulate N64 blending modes. Works faster on slow GPU. Can cause glitches."
+msgstr ""
+
+msgctxt "#30182"
+msgid "(GLN64) Enable writing of fragment depth. Some mobile GPUs do not support it, thus it's optional. Leave enabled."
+msgstr ""
+
+msgctxt "#30183"
+msgid "(GLN64) Enable N64 depth compare instead of OpenGL standard one. Experimental, Fast mode will have more glitches."
+msgstr ""
+
+msgctxt "#30184"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Fast"
+msgstr ""
+
+msgctxt "#30186"
+msgid "(GLN64) Use persistent storage for compiled shaders."
+msgstr ""
+
+msgctxt "#30187"
+msgid "(GLN64) Save texture cache to hard disk."
+msgstr ""
+
+msgctxt "#30188"
+msgid "(GLN64) Crop black borders from the overscan region around the screen."
+msgstr ""
+
+msgctxt "#30189"
+msgid "(GLN64) Overscan Top Offset."
+msgstr ""
+
+msgctxt "#30190"
+msgid "(GLN64) Overscan Left Offset."
+msgstr ""
+
+msgctxt "#30191"
+msgid "(GLN64) Overscan Right Offset."
+msgstr ""
+
+msgctxt "#30192"
+msgid "(GLN64) Overscan Bottom Offset."
+msgstr ""
+
+msgctxt "#30193"
+msgid "(GLN64) Limit High-Res textures size in VRAM (in MB, 0 = no limit)."
+msgstr ""
+
+msgctxt "#30194"
+msgid "(GLN64) Set Max texture cache size (in elements). Reduce it if you experience black textures leading to a crash."
+msgstr ""
+
+msgctxt "#30195"
+msgid "(GLN64) Select Texture Filtering mode."
+msgstr ""
+
+msgctxt "#30196"
+msgid "(GLN64) Various Texture Filters ('As-Is' will just cache)."
+msgstr ""
+
+msgctxt "#30197"
+msgid "(GLN64) Ignore filtering for Background Textures."
+msgstr ""
+
+msgctxt "#30198"
+msgid "(GLN64) Enable High-Res Texture packs if available."
+msgstr ""
+
+msgctxt "#30199"
+msgid "(GLN64) Compress created texture caches."
+msgstr ""
+
+msgctxt "#30200"
+msgid "(GLN64) This should be enabled unless it's a old RICE Texture pack."
+msgstr ""
+
+msgctxt "#30201"
+msgid "(GLN64) Use in addition to Texture cache, will use lazy loading and trade memory consumption against loading speeds."
+msgstr ""
+
+msgctxt "#30202"
+msgid "(GLN64) Use an alternative method for High-Res paletted textures CRC calculations."
+msgstr ""
+
+msgctxt "#30203"
+msgid "(GLN64) Use in addition to High-Res textures, will use lazy loading and trade memory consumption against loading speeds."
+msgstr ""
+
+msgctxt "#30204"
+msgid "(GLN64) Specifies INI Settings behaviour. This should really only contain essential options. Changing this can and will break ROM's, if the correct options aren't set manually. Some options may only be set via INI (fbInfoDisabled)."
+msgstr ""
+
+msgctxt "#30205"
+msgid "Prioritize INI over Core Options"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Prioritize Core Options over INI"
+msgstr ""
+
+msgctxt "#30207"
+msgid "Disable INI"
+msgstr ""
+
+msgctxt "#30208"
+msgid "Configure ParaLLEl-RDP Options."
+msgstr ""
+
+msgctxt "#30209"
+msgid "Enable full accuracy for CPU accessed frame buffers."
+msgstr ""
+
+msgctxt "#30210"
+msgid "Crop pixels around edge of screen."
+msgstr ""
+
+msgctxt "#30211"
+msgid "Allow VI divot filter, cleans up stray black pixels."
+msgstr ""
+
+msgctxt "#30212"
+msgid "Allow VI gamma dither."
+msgstr ""
+
+msgctxt "#30213"
+msgid "Allow VI anti-aliased fetch filter, smooths polygon edges."
+msgstr ""
+
+msgctxt "#30214"
+msgid "Allow VI bilinear scaling on scanout."
+msgstr ""
+
+msgctxt "#30215"
+msgid "Allow VI de-dither filter, recovers significant color depth."
+msgstr ""
+
+msgctxt "#30216"
+msgid "Apply internal upscaling factor."
+msgstr ""
+
+msgctxt "#30217"
+msgid "Super sample framebuffer effects. May introduce artifacts."
+msgstr ""
+
+msgctxt "#30218"
+msgid "Dither super sampled framebuffer effects."
+msgstr ""
+
+msgctxt "#30219"
+msgid "Downscales output after VI, equivalent to SSAA."
+msgstr ""
+
+msgctxt "#30220"
+msgid "Use native texture LOD computation when upscaling, effectively a LOD bias."
+msgstr ""
+
+msgctxt "#30221"
+msgid "TEX_RECT primitives should generally be rendered at native resolution to avoid seams."
+msgstr ""
+
+msgctxt "#30222"
+msgid "Weave should only be used with 1x scaling factor and special CRT shaders."
+msgstr ""
+
+msgctxt "#30223"
+msgid "Configure Angrylion Options."
+msgstr ""
+
+msgctxt "#30224"
+msgid "(AL) Select VI Overlay filtering. 'Filtered' is the original system rendering."
+msgstr ""
+
+msgctxt "#30225"
+msgid "(AL) Select Sync level (trades accuracy for performance)."
+msgstr ""
+
+msgctxt "#30226"
+msgid "(AL) Default 'all threads' is prefered to have it match your Physical CPU Core count. '1' should behave as the original angrylion, possibly fixing some bugs."
+msgstr ""
+
+msgctxt "#30227"
+msgid "(AL) Hide overscan borders."
+msgstr ""
+
+msgctxt "#30228"
+msgid "1500"
+msgstr ""
+
+msgctxt "#30229"
+msgid "2200"
+msgstr ""
+
+msgctxt "#30230"
+msgid "memory"
+msgstr ""
+
+msgctxt "#30231"
+msgid "rumble"
+msgstr ""
+
+msgctxt "#30232"
+msgid "transfer"
+msgstr ""
+
+msgctxt "#30233"
+msgid "Bayer"
+msgstr ""
+
+msgctxt "#30234"
+msgid "Sync"
+msgstr ""
+
+msgctxt "#30235"
+msgid "Software"
+msgstr ""
+
+msgctxt "#30236"
+msgid "FromMem"
+msgstr ""
+
+msgctxt "#30237"
+msgid "Force"
+msgstr ""
+
+msgctxt "#30238"
+msgid "Unoptimized"
+msgstr ""
+
+msgctxt "#30239"
+msgid "Optimized"
+msgstr ""
+
+msgctxt "#30240"
+msgid "Compatible"
+msgstr ""
+
+msgctxt "#30241"
+msgid "Smooth filtering 1"
+msgstr ""
+
+msgctxt "#30242"
+msgid "Smooth filtering 2"
+msgstr ""
+
+msgctxt "#30243"
+msgid "Smooth filtering 3"
+msgstr ""
+
+msgctxt "#30244"
+msgid "Smooth filtering 4"
+msgstr ""
+
+msgctxt "#30245"
+msgid "Sharp filtering 1"
+msgstr ""
+
+msgctxt "#30246"
+msgid "Sharp filtering 2"
+msgstr ""
+
+msgctxt "#30247"
+msgid "As Is"
+msgstr ""
+
+msgctxt "#30248"
+msgid "X2"
+msgstr ""
+
+msgctxt "#30249"
+msgid "X2SAI"
+msgstr ""
+
+msgctxt "#30250"
+msgid "HQ2X"
+msgstr ""
+
+msgctxt "#30251"
+msgid "HQ2XS"
+msgstr ""
+
+msgctxt "#30252"
+msgid "LQ2X"
+msgstr ""
+
+msgctxt "#30253"
+msgid "LQ2XS"
+msgstr ""
+
+msgctxt "#30254"
+msgid "HQ4X"
+msgstr ""
+
+msgctxt "#30255"
+msgid "2xBRZ"
+msgstr ""
+
+msgctxt "#30256"
+msgid "3xBRZ"
+msgstr ""
+
+msgctxt "#30257"
+msgid "4xBRZ"
+msgstr ""
+
+msgctxt "#30258"
+msgid "5xBRZ"
+msgstr ""
+
+msgctxt "#30259"
+msgid "6xBRZ"
+msgstr ""
+
+msgctxt "#30260"
+msgid "Synchronous RDP"
+msgstr ""
+
+msgctxt "#30261"
+msgid "Crop overscan"
+msgstr ""
+
+msgctxt "#30262"
+msgid "VI Divot filter"
+msgstr ""
+
+msgctxt "#30263"
+msgid "VI Gamma dither"
+msgstr ""
+
+msgctxt "#30264"
+msgid "VI anti-aliasing"
+msgstr ""
+
+msgctxt "#30265"
+msgid "VI bilinear"
+msgstr ""
+
+msgctxt "#30266"
+msgid "VI dither filter"
+msgstr ""
+
+msgctxt "#30267"
+msgid "Upscaling factor (restart)"
+msgstr ""
+
+msgctxt "#30268"
+msgid "SSAA framebuffer effects (restart)"
+msgstr ""
+
+msgctxt "#30269"
+msgid "Dither SSAA framebuffer effects (restart)"
+msgstr ""
+
+msgctxt "#30270"
+msgid "Downsampling factor"
+msgstr ""
+
+msgctxt "#30271"
+msgid "Native texture LOD"
+msgstr ""
+
+msgctxt "#30272"
+msgid "Native resolution TEX_RECT"
+msgstr ""
+
+msgctxt "#30273"
+msgid "Deinterlacing method"
+msgstr ""

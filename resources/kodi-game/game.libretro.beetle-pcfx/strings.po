@@ -1,0 +1,398 @@
+# game.libretro.beetle-pcfx language file
+# Addon Name: game.libretro.beetle-pcfx
+# Addon id: game.libretro.beetle-pcfx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-pcfx\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:46+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-pcfx/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "NEC - PC-FX (Beetle PC-FX)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Beetle PC-FX is a port of the Mednafen PC-FX video game system emulator for the NEC PC-FX."
+msgstr ""
+
+msgctxt "#30001"
+msgid "CD Image Cache (Restart Required)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "High Dotclock Width (Restart Required)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Suppress Channel Reset Clicks (Restart Required)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Emulate Buggy Codec (Restart Required)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Sound Quality (Restart Required)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Chroma Channel Bilinear Interpolation  (Restart Required)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "No Sprite Limit (Restart Required)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Initial Scanline"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Last Scanline"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Load the complete image into memory at startup. Can potentially decrease loading times at the cost of an increased startup time."
+msgstr ""
+
+msgctxt "#30012"
+msgid "Emulated width for 7.16 MHz dot-clock mode. Lower values are faster, but will cause some degree of pixel distortion."
+msgstr ""
+
+msgctxt "#30013"
+msgid "Hack to suppress audio clicks caused by forced channel resets."
+msgstr ""
+
+msgctxt "#30014"
+msgid "Hack that emulates a buggy ADPCM encoder used for some games' ADPCM."
+msgstr ""
+
+msgctxt "#30015"
+msgid "Higher values correspond to a better signal-to-noise ratio and better preservation of higher frequencies ('brightness'), at the cost of increased computational complexity and a negligible increase in latency."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Enable bilinear interpolation on the chroma channel of RAINBOW YUV output. May cause graphical glitches with some games."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Remove 16-sprites-per-scanline hardware limit. WARNING: May cause graphics glitching on some games."
+msgstr ""
+
+msgctxt "#30018"
+msgid "First rendered scanline. Higher values will crop the top of the image."
+msgstr ""
+
+msgctxt "#30019"
+msgid "4 (Default)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Last rendered scanline. Lower values will crop the bottom of the image."
+msgstr ""
+
+msgctxt "#30021"
+msgid "235 (Default)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Configure the sensitivity of the 'PCFX Mouse' device type. Higher values will make the mouse cursor move faster."
+msgstr ""
+
+msgctxt "#30023"
+msgid "0"
+msgstr ""
+
+msgctxt "#30024"
+msgid "1"
+msgstr ""
+
+msgctxt "#30025"
+msgid "2"
+msgstr ""
+
+msgctxt "#30026"
+msgid "3"
+msgstr ""
+
+msgctxt "#30027"
+msgid "5"
+msgstr ""
+
+msgctxt "#30028"
+msgid "6"
+msgstr ""
+
+msgctxt "#30029"
+msgid "7"
+msgstr ""
+
+msgctxt "#30030"
+msgid "8"
+msgstr ""
+
+msgctxt "#30031"
+msgid "9"
+msgstr ""
+
+msgctxt "#30032"
+msgid "10"
+msgstr ""
+
+msgctxt "#30033"
+msgid "11"
+msgstr ""
+
+msgctxt "#30034"
+msgid "12"
+msgstr ""
+
+msgctxt "#30035"
+msgid "13"
+msgstr ""
+
+msgctxt "#30036"
+msgid "14"
+msgstr ""
+
+msgctxt "#30037"
+msgid "15"
+msgstr ""
+
+msgctxt "#30038"
+msgid "16"
+msgstr ""
+
+msgctxt "#30039"
+msgid "17"
+msgstr ""
+
+msgctxt "#30040"
+msgid "18"
+msgstr ""
+
+msgctxt "#30041"
+msgid "19"
+msgstr ""
+
+msgctxt "#30042"
+msgid "20"
+msgstr ""
+
+msgctxt "#30043"
+msgid "21"
+msgstr ""
+
+msgctxt "#30044"
+msgid "22"
+msgstr ""
+
+msgctxt "#30045"
+msgid "23"
+msgstr ""
+
+msgctxt "#30046"
+msgid "24"
+msgstr ""
+
+msgctxt "#30047"
+msgid "25"
+msgstr ""
+
+msgctxt "#30048"
+msgid "26"
+msgstr ""
+
+msgctxt "#30049"
+msgid "27"
+msgstr ""
+
+msgctxt "#30050"
+msgid "28"
+msgstr ""
+
+msgctxt "#30051"
+msgid "29"
+msgstr ""
+
+msgctxt "#30052"
+msgid "30"
+msgstr ""
+
+msgctxt "#30053"
+msgid "31"
+msgstr ""
+
+msgctxt "#30054"
+msgid "32"
+msgstr ""
+
+msgctxt "#30055"
+msgid "33"
+msgstr ""
+
+msgctxt "#30056"
+msgid "34"
+msgstr ""
+
+msgctxt "#30057"
+msgid "35"
+msgstr ""
+
+msgctxt "#30058"
+msgid "36"
+msgstr ""
+
+msgctxt "#30059"
+msgid "37"
+msgstr ""
+
+msgctxt "#30060"
+msgid "38"
+msgstr ""
+
+msgctxt "#30061"
+msgid "39"
+msgstr ""
+
+msgctxt "#30062"
+msgid "40"
+msgstr ""
+
+msgctxt "#30063"
+msgid "208"
+msgstr ""
+
+msgctxt "#30064"
+msgid "209"
+msgstr ""
+
+msgctxt "#30065"
+msgid "210"
+msgstr ""
+
+msgctxt "#30066"
+msgid "211"
+msgstr ""
+
+msgctxt "#30067"
+msgid "212"
+msgstr ""
+
+msgctxt "#30068"
+msgid "213"
+msgstr ""
+
+msgctxt "#30069"
+msgid "214"
+msgstr ""
+
+msgctxt "#30070"
+msgid "215"
+msgstr ""
+
+msgctxt "#30071"
+msgid "216"
+msgstr ""
+
+msgctxt "#30072"
+msgid "217"
+msgstr ""
+
+msgctxt "#30073"
+msgid "218"
+msgstr ""
+
+msgctxt "#30074"
+msgid "219"
+msgstr ""
+
+msgctxt "#30075"
+msgid "220"
+msgstr ""
+
+msgctxt "#30076"
+msgid "221"
+msgstr ""
+
+msgctxt "#30077"
+msgid "222"
+msgstr ""
+
+msgctxt "#30078"
+msgid "223"
+msgstr ""
+
+msgctxt "#30079"
+msgid "224"
+msgstr ""
+
+msgctxt "#30080"
+msgid "225"
+msgstr ""
+
+msgctxt "#30081"
+msgid "226"
+msgstr ""
+
+msgctxt "#30082"
+msgid "227"
+msgstr ""
+
+msgctxt "#30083"
+msgid "228"
+msgstr ""
+
+msgctxt "#30084"
+msgid "229"
+msgstr ""
+
+msgctxt "#30085"
+msgid "230"
+msgstr ""
+
+msgctxt "#30086"
+msgid "231"
+msgstr ""
+
+msgctxt "#30087"
+msgid "232"
+msgstr ""
+
+msgctxt "#30088"
+msgid "233"
+msgstr ""
+
+msgctxt "#30089"
+msgid "234"
+msgstr ""
+
+msgctxt "#30090"
+msgid "236"
+msgstr ""
+
+msgctxt "#30091"
+msgid "237"
+msgstr ""
+
+msgctxt "#30092"
+msgid "238"
+msgstr ""
+
+msgctxt "#30093"
+msgid "239"
+msgstr ""

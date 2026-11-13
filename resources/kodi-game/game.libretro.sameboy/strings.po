@@ -1,0 +1,582 @@
+# game.libretro.sameboy language file
+# Addon Name: game.libretro.sameboy
+# Addon id: game.libretro.sameboy
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.sameboy\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-23 22:56i\n"
+"PO-Revision-Date: 2024-12-27 22:08+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-sameboy/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy / Color (SameBoy)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C."
+msgstr ""
+
+msgctxt "#30030"
+msgid "System"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Configure base hardware selection."
+msgstr ""
+
+msgctxt "#30032"
+msgid "Chooses which system model the content should be started on. Certain games may activate special in-game features when ran on specific models. This option requires a content restart in order to take effect."
+msgstr ""
+
+msgctxt "#30033"
+msgid "Auto Detect DMG/CGB"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Auto Detect DMG/SGB/CGB"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Game Boy (DMG-CPU B)"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Game Boy Color (CPU-CGB C) (Experimental)"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Game Boy Color (CPU-CGB E)"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Super Game Boy NTSC"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Specifies which model of Super Game Boy hardware to emulate when SGB content is automatically detected. This option requires a content restart in order to take effect."
+msgstr ""
+
+msgctxt "#30040"
+msgid "Specifies how the emulation of the real-time clock feature used in certain Game Boy and Game Boy Color games should function."
+msgstr ""
+
+msgctxt "#30041"
+msgid "Sync to System Clock"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Accurate"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Enables the emulation of the link cable, allowing communication and exchange of data between two Game Boy systems."
+msgstr ""
+
+msgctxt "#30044"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30046"
+msgid "When emulating two systems at once, this option defines the respective position of the two screens."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Top-Down"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Left-Right"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Selects which of the two emulated Game Boy systems should output audio."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Chooses which system model the content should be started on for Game Boy #1. Certain games may activate special in-game features when ran on specific models. This option requires a content restart in order to take effect."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Specifies which model of Super Game Boy hardware to emulate when SGB content is automatically detected for Game Boy #1. This option requires a content restart in order to take effect."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Chooses which system model the content should be started on for Game Boy #2. Certain games may activate special in-game features when ran on specific models. This option requires a content restart in order to take effect."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Specifies which model of Super Game Boy hardware to emulate when SGB content is automatically detected for Game Boy #2. This option requires a content restart in order to take effect."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Configure display parameters: palette selection, colour correction, screen border."
+msgstr ""
+
+msgctxt "#30056"
+msgid "Selects the color palette that should be used when playing Game Boy games."
+msgstr ""
+
+msgctxt "#30057"
+msgid "Greyscale"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Lime (Game Boy)"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Olive (Game Boy Pocket)"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Teal (Game Boy Light)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Defines which type of color correction should be applied when playing Game Boy Color games."
+msgstr ""
+
+msgctxt "#30062"
+msgid "Modern – Balanced"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Modern – Accurate"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Modern – Boost Contrast"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Reduce Contrast"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Correct Color Curves"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Harsh Reality (Low Contrast)"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Simulates an ambient light's effect on non-backlit Game Boy screens, by setting a user-controlled color temperature. This option has no effect if the content is run on an original Game Boy (DMG) emulated model."
+msgstr ""
+
+msgctxt "#30069"
+msgid "1000K (Warmest)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "1550K"
+msgstr ""
+
+msgctxt "#30071"
+msgid "2100K"
+msgstr ""
+
+msgctxt "#30072"
+msgid "2650K"
+msgstr ""
+
+msgctxt "#30073"
+msgid "3200K"
+msgstr ""
+
+msgctxt "#30074"
+msgid "3750K"
+msgstr ""
+
+msgctxt "#30075"
+msgid "4300K"
+msgstr ""
+
+msgctxt "#30076"
+msgid "4850K"
+msgstr ""
+
+msgctxt "#30077"
+msgid "5400K"
+msgstr ""
+
+msgctxt "#30078"
+msgid "5950K"
+msgstr ""
+
+msgctxt "#30079"
+msgid "6500K (Neutral White)"
+msgstr ""
+
+msgctxt "#30080"
+msgid "7050K"
+msgstr ""
+
+msgctxt "#30081"
+msgid "7600K"
+msgstr ""
+
+msgctxt "#30082"
+msgid "8150K"
+msgstr ""
+
+msgctxt "#30083"
+msgid "8700K"
+msgstr ""
+
+msgctxt "#30084"
+msgid "9250K"
+msgstr ""
+
+msgctxt "#30085"
+msgid "9800K"
+msgstr ""
+
+msgctxt "#30086"
+msgid "10350K"
+msgstr ""
+
+msgctxt "#30087"
+msgid "10900K"
+msgstr ""
+
+msgctxt "#30088"
+msgid "11450K"
+msgstr ""
+
+msgctxt "#30089"
+msgid "12000K (Coolest)"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Defines when to display an on-screen border around the content."
+msgstr ""
+
+msgctxt "#30091"
+msgid "Always"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Only for Super Game Boy"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Selects the color palette that should be used when playing Game Boy games on Game Boy #1."
+msgstr ""
+
+msgctxt "#30094"
+msgid "Selects the color palette that should be used when playing Game Boy games on Game Boy #2."
+msgstr ""
+
+msgctxt "#30095"
+msgid "Defines which type of color correction should be applied when playing Game Boy Color games on Game Boy #1."
+msgstr ""
+
+msgctxt "#30096"
+msgid "Defines which type of color correction should be applied when playing Game Boy Color games on Game Boy #2."
+msgstr ""
+
+msgctxt "#30097"
+msgid "Simulates an ambient light's effect on non-backlit Game Boy screens, by setting a user-controlled color temperature applied to the screen of Game Boy #1. This option has no effect if the content is run on an original Game Boy (DMG) emulated model."
+msgstr ""
+
+msgctxt "#30098"
+msgid "Simulates an ambient light's effect on non-backlit Game Boy screens, by setting a user-controlled color temperature applied to the screen of Game Boy #2. This option has no effect if the content is run on an original Game Boy (DMG) emulated model."
+msgstr ""
+
+msgctxt "#30099"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Configure audio emulation: highpass filter, electrical interference."
+msgstr ""
+
+msgctxt "#30101"
+msgid "Applies a filter to the audio output, removing certain pop sounds caused by the DC Offset. If disabled, the sound will be rendered as output by the Game Boy APU, but popping effects will be heard when the emulator is paused or resumed. 'Accurate' will apply a global filter, masking popping sounds while also reducing lower frequencies. 'Preserve Waveform' applies the filter only to the DC Offset."
+msgstr ""
+
+msgctxt "#30102"
+msgid "Preserve Waveform"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Controls the volume of the buzzing effect caused by the electrical interference between the Game Boy SoC and the system speakers."
+msgstr ""
+
+msgctxt "#30104"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30105"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30106"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30107"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30108"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30109"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30110"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30111"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30112"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30113"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30114"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30115"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30116"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30117"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30118"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30119"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30120"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30121"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30122"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30123"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30124"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Applies a filter to the audio output for Game Boy #1, removing certain pop sounds caused by the DC Offset. If disabled, the sound will be rendered as output by the Game Boy APU, but popping effects will be heard when the emulator is paused or resumed. 'Accurate' will apply a global filter, masking popping sounds while also reducing lower frequencies. 'Preserve Waveform' applies the filter only to the DC Offset."
+msgstr ""
+
+msgctxt "#30126"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Applies a filter to the audio output for Game Boy #2, removing certain pop sounds caused by the DC Offset. If disabled, the sound will be rendered as output by the Game Boy APU, but popping effects will be heard when the emulator is paused or resumed. 'Accurate' will apply a global filter, masking popping sounds while also reducing lower frequencies. 'Preserve Waveform' applies the filter only to the DC Offset."
+msgstr ""
+
+msgctxt "#30128"
+msgid "Controls the volume of the buzzing effect caused by the electrical interference between the Game Boy SoC and the system speakers on Game Boy #1."
+msgstr ""
+
+msgctxt "#30129"
+msgid "Controls the volume of the buzzing effect caused by the electrical interference between the Game Boy SoC and the system speakers on Game Boy #2."
+msgstr ""
+
+msgctxt "#30130"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Configure input parameters: rumble support."
+msgstr ""
+
+msgctxt "#30132"
+msgid "Defines which type of content should trigger rumble effects."
+msgstr ""
+
+msgctxt "#30133"
+msgid "Only for rumble-enabled games"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Never"
+msgstr ""
+
+msgctxt "#30135"
+msgid "Defines which type of content should trigger rumble effects when played on Game Boy #1."
+msgstr ""
+
+msgctxt "#30136"
+msgid "Defines which type of content should trigger rumble effects when played on Game Boy #2."
+msgstr ""
+
+msgctxt "#30137"
+msgid "Game Boy Advance"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Super Game Boy PAL"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Super Game Boy 2"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Emulated Model (Requires Restart)"
+msgstr ""
+
+msgctxt "#30141"
+msgid "Auto Detected SGB Model (Requires Restart)"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Real Time Clock Emulation"
+msgstr ""
+
+msgctxt "#30143"
+msgid "Link Cable Emulation"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Screen Layout"
+msgstr ""
+
+msgctxt "#30145"
+msgid "Audio Output"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Emulated Model for Game Boy #1 (Requires Restart)"
+msgstr ""
+
+msgctxt "#30147"
+msgid "Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
+msgstr ""
+
+msgctxt "#30148"
+msgid "Emulated Model for Game Boy #2 (Requires Restart)"
+msgstr ""
+
+msgctxt "#30149"
+msgid "Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
+msgstr ""
+
+msgctxt "#30150"
+msgid "GB Mono Palette"
+msgstr ""
+
+msgctxt "#30151"
+msgid "GBC Color Correction"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Ambient Light Temperature"
+msgstr ""
+
+msgctxt "#30153"
+msgid "Display Border"
+msgstr ""
+
+msgctxt "#30154"
+msgid "GB Mono Palette for Game Boy #1"
+msgstr ""
+
+msgctxt "#30155"
+msgid "GB Mono Palette for Game Boy #2"
+msgstr ""
+
+msgctxt "#30156"
+msgid "GBC Color Correction for Game Boy #1"
+msgstr ""
+
+msgctxt "#30157"
+msgid "GBC Color Correction for Game Boy #2"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Ambient Light Temperature for Game Boy #1"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Ambient Light Temperature for Game Boy #2"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Highpass Filter"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Interference Volume"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Highpass Filter for Game Boy #1"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Highpass Filter for Game Boy #2"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Interference Volume for Game Boy #1"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Interference Volume for Game Boy #2"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Rumble Mode"
+msgstr ""
+
+msgctxt "#30167"
+msgid "Rumble Mode for Game Boy #1"
+msgstr ""
+
+msgctxt "#30168"
+msgid "Rumble Mode for Game Boy #2"
+msgstr ""

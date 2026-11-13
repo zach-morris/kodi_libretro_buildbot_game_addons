@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.picodrive"
+		name="Sega - MS/GG/MD/CD/32X (PicoDrive)"
+		version="2.05.0.65"
+		provider-name="notaz, fdave, irixxxx">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.genesis.3button" version="1.0.0"/>
+		<import addon="game.controller.genesis.6button" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - MS/GG/MD/CD/32X</platforms>
+		<extensions>bin|gen|smd|md|32x|cue|iso|chd|m3u|sms|gg|sg|sc|68k|sgd|pco|vgm|vgz</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>picodrive_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.picodrive</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="da_DK">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="en_GB">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="es_ES">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="ga">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="it_IT">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="ru_RU">Sega — MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="sv_SE">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="zh_CN">世嘉 - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<description lang="cs_CZ">PicoDrive je další emulátor Sega Game Gear / Master System / Mega Drive / Mega CD / 32X silně optimalizovaný pro ARM.</description>
+		<description lang="da_DK">PicoDrive er endnu en Sega Game Gear / Master System / Mega Drive / Mega CD / 32X emulator stærkt optimeret til ARM.</description>
+		<description lang="de_DE">PicoDrive ist ein weiterer Emulator für Sega Game Gear / Master System / Mega Drive / Mega CD / 32X, der stark für ARM optimiert ist.</description>
+		<description lang="en_GB">PicoDrive is yet another Sega Game Gear / Master System / Mega Drive / Mega CD / 32X emulator heavily optimized for ARM.</description>
+		<description lang="es_ES">PicoDrive es otro emulador de Sega Game Gear / Master System / Mega Drive / Mega CD / 32X muy optimizado para ARM.</description>
+		<description lang="ga">Is aithriseoir eile de chuid Sega Game Gear / Master System / Mega Drive / Mega CD / 32X é PicoDrive atá optamaithe go mór do ARM.</description>
+		<description lang="it_IT">PicoDrive è un altro emulatore Sega Game Gear / Master System / Mega Drive / Mega CD / 32X pesantemente ottimizzato per ARM.</description>
+		<description lang="ru_RU">PicoDrive — это ещё один эмулятор Sega Game Gear / Master System / Mega Drive / Mega CD / 32X, сильно оптимизированный для ARM.</description>
+		<description lang="sv_SE">PicoDrive är ännu en Sega Game Gear / Master System / Mega Drive / Mega CD / 32X-emulator som är kraftigt optimerad för ARM.</description>
+		<description lang="zh_CN">PicoDrive 是另一款针对 ARM 进行了大量优化的 Sega Game Gear / Master System / Mega Drive / Mega CD / 32X 模拟器。</description>
+		<disclaimer lang="cs_CZ">Autoři: Dave (alias fdave, autor FinalBurn) a notaz</disclaimer>
+		<disclaimer lang="da_DK">Forfattere: Dave (aka fdave, FinalBurn forfatter) og notaz</disclaimer>
+		<disclaimer lang="de_DE">Autoren: Dave (alias fdave, FinalBurn-Autor) und notaz</disclaimer>
+		<disclaimer lang="en_GB">Authors: Dave (aka fdave, FinalBurn author) and notaz</disclaimer>
+		<disclaimer lang="es_ES">Autores: Dave (alias fdave, autor de FinalBurn) y notaz</disclaimer>
+		<disclaimer lang="ga">Údair: Dave (aka fdave, údar FinalBurn) agus notaz</disclaimer>
+		<disclaimer lang="it_IT">Autori: Dave (alias fdave, autore di FinalBurn) e notaz</disclaimer>
+		<disclaimer lang="ru_RU">Авторы: Dave (также известный как fdave, автор FinalBurn) и notaz</disclaimer>
+		<disclaimer lang="sv_SE">Upphovspersoner: Dave (aka fdave, FinalBurn-grundare) och notaz</disclaimer>
+		<disclaimer lang="zh_CN">作者：Dave（又名 fdave，FinalBurn 作者）和 notaz</disclaimer>
+	</extension>
+</addon>

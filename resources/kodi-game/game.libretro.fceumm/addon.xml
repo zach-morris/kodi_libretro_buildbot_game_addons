@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.fceumm"
+		name="Nintendo - NES / Famicom (FCEUmm)"
+		version="0.0.1.68"
+		provider-name="FCEU Team, CaH4e3">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nes" version="1.0.0"/>
+		<import addon="game.controller.nes.four.score" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - NES / Famicom</platforms>
+		<extensions>fds|nes|unf|unif</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fceumm_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fceumm</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - NES / Famicom (FCEUmm)</summary>
+		<summary lang="da_DK">Nintendo - NES / Famicom (FCEUmm)</summary>
+		<summary lang="en_GB">Nintendo - NES / Famicom (FCEUmm)</summary>
+		<summary lang="es_ES">Nintendo - NES / Famicom (FCEUmm)</summary>
+		<summary lang="ga">Nintendo - NES / Famicom (FCEUmm)</summary>
+		<summary lang="it_IT">Nintendo - NES / Famicom (FCEUmm)</summary>
+		<summary lang="ko_KR">닌텐도 - NES / Famicom (FCEUmm)</summary>
+		<summary lang="ru_RU">Nintendo - NES / Famicom (FCEUmm)</summary>
+		<summary lang="sv_SE">Nintendo - NES / Famicom (FCEUmm)</summary>
+		<summary lang="zh_CN">任天堂 - NES / Famicom (FCEUmm)</summary>
+		<description lang="cs_CZ">FCEUmm emuluje platformy NES, Famicom a Famicom Disk System (FDS).[CR][CR]FCEUmm slučuje prvky z FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE a FCEU-mm do jedné větve FCEU.</description>
+		<description lang="da_DK">FCEUmm emulerer NES-, Famicom- og Famicom Disk System-platforme (FDS).[CR][CR]FCEUmm fusionerer elementer fra FCEU Ultra, FCEU-genoptagelse, FCEUXD, FCEUXDSP, FCEUXDSP CE og FCEU-mm til et enkelt branch af FCEU.</description>
+		<description lang="de_DE">FCEUmm emuliert NES-, Famicom- und „Famicom Disk System“(FDS)-Plattformen[CR][CR]FCEUmm vereint Elemente von FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE und FCEU-mm in einem einzigen Ableger von FCEU.</description>
+		<description lang="en_GB">FCEUmm emulates NES, Famicom, and Famicom Disk System (FDS) platforms.[CR][CR]FCEUmm merges elements from FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE, and FCEU-mm into a single branch of FCEU.</description>
+		<description lang="es_ES">FCEUmm emula las plataformas NES, Famicom y Famicom Disk System (FDS)[CR][CR]FCEUmm combina elementos de FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE y FCEU-mm en una única rama de FCEU.</description>
+		<description lang="ga">Déanann FCEUmm aithris ar ardáin NES, Famicom, agus Famicom Disk System (FDS).[CR][CR]Cuireann FCEUmm eilimintí ó FCEU Ultra, aththaifeadadh FCEU, FCEUXD, FCEUXDSP, FCEUXDSP CE, agus FCEU-mm le chéile i mbrainse amháin de FCEU.</description>
+		<description lang="it_IT">FCEUmm emula le piattaforme NES, Famicom e Famicom Disk System (FDS).[CR][CR]FCEUmm unisce elementi di FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE e FCEU-mm in un unico ramo di FCEU.</description>
+		<description lang="ko_KR">FCEUmm은 NES, Famicom 및 FDS(Famicom 디스크 시스템) 플랫폼을 에뮬레이트합니다.[CR][CR]FCEUmm는 FCEU Ultra, FCEU 재기록, FCEUXD, FCEUXDSP, FCEUXDSP CE 및 FCEU-mm의 요소를 FCEU의 단일 분기로 병합합니다.</description>
+		<description lang="ru_RU">FCEUmm эмулирует платформы NES, Famicom и Famicom Disk System (FDS).[CR][CR]FCEUmm объединяет элементы из FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE и FCEU-mm в единую ветвь FCEU.</description>
+		<description lang="sl_SI">FCEUmm posnema platforme NES, Famicom in Famicom Disk System (FDS).[CR][CR]FCEUmm združuje elemente iz FCEU Ultra, FCEU ponovnega snemanja, FCEUXD, FCEUXDSP, FCEUXDSP CE in FCEU-mm v eno vejo FCEU.</description>
+		<description lang="sv_SE">FCEUmm emulerar plattformarna NES, Famicom och Famicom Disk System (FDS)[CR][CR]FCEUmm sammanför element från FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE och FCEU-mm till en enda gren av FCEU.</description>
+		<description lang="zh_CN">FCEUmm 模拟 NES、Famicom 和 Famicom 磁盘系统（FDS）平台。[CR][CR]FCEUmm 将 FCEU Ultra、FCEU rerecording、FCEUXD、FCEUXDSP、FCEUXDSP CE 和 FCEU-mm 中的元素合并到 FCEU 的单个分支中。</description>
+		<disclaimer lang="cs_CZ">Autor ikony: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Symbolnachweis: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="ga">Creidmheas deilbhín: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Credito icona: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">아이콘 크레딧: Anarkhya(anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Автор значка: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="sl_SI">Zasluga ikone: Anarhya (anarhya.deviantart.com)</disclaimer>
+		<disclaimer lang="sv_SE">Ikon: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">图标来源：Anarkhya（anarkhya.deviantart.com）</disclaimer>
+	</extension>
+</addon>

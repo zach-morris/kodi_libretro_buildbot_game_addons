@@ -1,0 +1,114 @@
+# game.libretro.beetle-vb language file
+# Addon Name: game.libretro.beetle-vb
+# Addon id: game.libretro.beetle-vb
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-vb\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:46+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-vb/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Virtual Boy (Beetle VB)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Beetle VB emulates the Nintendo Virtual Boy, a tabletop video game console capable of displaying stereoscopic 3D graphics."
+msgstr ""
+
+msgctxt "#30002"
+msgid "Anaglyph preset"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Palette"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Right analog to digital"
+msgstr ""
+
+msgctxt "#30005"
+msgid "CPU emulation  (Restart)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Side-by-side separation"
+msgstr ""
+
+msgctxt "#30007"
+msgid "3D mode (requires restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Allow Opposite Directions"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Anaglyph preset colors."
+msgstr ""
+
+msgctxt "#30011"
+msgid "Number of pixels to separate left and right views in side-by-side 3D mode."
+msgstr ""
+
+msgctxt "#30012"
+msgid "Allow pressing up and down or left and right directions at the same time. This may cause glitches."
+msgstr ""
+
+msgctxt "#30013"
+msgid "Choose between faster and accurate (slower) emulation."
+msgstr ""
+
+msgctxt "#30014"
+msgid "red & blue"
+msgstr ""
+
+msgctxt "#30015"
+msgid "red & cyan"
+msgstr ""
+
+msgctxt "#30016"
+msgid "red & electric cyan"
+msgstr ""
+
+msgctxt "#30017"
+msgid "green & magenta"
+msgstr ""
+
+msgctxt "#30018"
+msgid "yellow & blue"
+msgstr ""
+
+msgctxt "#30019"
+msgid "invert x"
+msgstr ""
+
+msgctxt "#30020"
+msgid "invert y"
+msgstr ""
+
+msgctxt "#30021"
+msgid "invert both"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Select the 3D mode. Anaglyph - used in conjunction with classic dual-lens-color glasses. Cyberscope - intended for use with the CyberScope 3D device. sidebyside - the left-eye image is displayed on the left, and the right-eye image is displayed on the right. vli - Vertical lines alternate between left and right view. hli - Horizontal lines alternate between left and right view. Does not apply to VR mode."
+msgstr ""
+
+msgctxt "#30023"
+msgid "VR"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Enabled shows both eyes as a stereo screen whenever the frontend presents them, in a headset or a stereo display mode. Disabled keeps the chosen 3D mode."
+msgstr ""

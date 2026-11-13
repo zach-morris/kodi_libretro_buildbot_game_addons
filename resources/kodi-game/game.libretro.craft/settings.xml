@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.craft">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="craft_resolution" type="string" label="30001">
+					<level>0</level>
+					<default>640x480</default>
+					<constraints>
+						<options>
+							<option>640x480</option>
+							<option>320x200</option>
+							<option>640x400</option>
+							<option>960x600</option>
+							<option>1280x800</option>
+							<option>1600x1000</option>
+							<option>1920x1200</option>
+							<option>2240x1400</option>
+							<option>2560x1600</option>
+							<option>2880x1800</option>
+							<option>3200x2000</option>
+							<option>3520x2200</option>
+							<option>3840x2400</option>
+							<option>7680x4320</option>
+							<option>15360x8640</option>
+							<option>16000x9000</option>
+							<option>320x240</option>
+							<option>320x480</option>
+							<option>360x200</option>
+							<option>360x240</option>
+							<option>360x400</option>
+							<option>360x480</option>
+							<option>400x224</option>
+							<option>480x272</option>
+							<option>512x224</option>
+							<option>512x240</option>
+							<option>512x384</option>
+							<option>512x512</option>
+							<option>640x224</option>
+							<option>640x240</option>
+							<option>640x448</option>
+							<option>720x576</option>
+							<option>800x480</option>
+							<option>800x600</option>
+							<option>960x720</option>
+							<option>1024x768</option>
+							<option>1280x720</option>
+							<option>1366x768</option>
+							<option>1600x900</option>
+							<option>1920x1080</option>
+							<option>2048x2048</option>
+							<option>4096x4096</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="craft_show_info_text" type="string" label="30002">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="craft_jumping_flash_mode" type="string" label="30003">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="craft_field_of_view" type="string" label="30004">
+					<level>0</level>
+					<default>65</default>
+					<constraints>
+						<options>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+							<option>105</option>
+							<option>110</option>
+							<option>115</option>
+							<option>120</option>
+							<option>125</option>
+							<option>130</option>
+							<option>135</option>
+							<option>140</option>
+							<option>145</option>
+							<option>150</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="craft_draw_distance" type="string" label="30005">
+					<level>0</level>
+					<default>10</default>
+					<constraints>
+						<options>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>9</option>
+							<option>8</option>
+							<option>7</option>
+							<option>6</option>
+							<option>5</option>
+							<option>4</option>
+							<option>3</option>
+							<option>2</option>
+							<option>1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="craft_inverted_aim" type="string" label="30006">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="craft_analog_sensitivity" type="string" label="30007">
+					<level>0</level>
+					<default>0.0150</default>
+					<constraints>
+						<options>
+							<option>0.0150</option>
+							<option>0.0175</option>
+							<option>0.0200</option>
+							<option>0.0225</option>
+							<option>0.0250</option>
+							<option>0.0275</option>
+							<option>0.0300</option>
+							<option>0.0325</option>
+							<option>0.0350</option>
+							<option>0.0375</option>
+							<option>0.0400</option>
+							<option>0.0425</option>
+							<option>0.0450</option>
+							<option>0.0475</option>
+							<option>0.0500</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="craft_deadzone_radius" type="string" label="30008">
+					<level>0</level>
+					<default>0.010</default>
+					<constraints>
+						<options>
+							<option>0.010</option>
+							<option>0.015</option>
+							<option>0.020</option>
+							<option>0.025</option>
+							<option>0.030</option>
+							<option>0.035</option>
+							<option>0.040</option>
+							<option>0.045</option>
+							<option>0.050</option>
+							<option>0.055</option>
+							<option>0.060</option>
+							<option>0.065</option>
+							<option>0.070</option>
+							<option>0.075</option>
+							<option>0.080</option>
+							<option>0.085</option>
+							<option>0.090</option>
+							<option>0.095</option>
+							<option>0.100</option>
+							<option>0.110</option>
+							<option>0.115</option>
+							<option>0.120</option>
+							<option>0.125</option>
+							<option>0.130</option>
+							<option>0.135</option>
+							<option>0.140</option>
+							<option>0.145</option>
+							<option>0.150</option>
+							<option>0.155</option>
+							<option>0.160</option>
+							<option>0.165</option>
+							<option>0.170</option>
+							<option>0.175</option>
+							<option>0.180</option>
+							<option>0.185</option>
+							<option>0.190</option>
+							<option>0.195</option>
+							<option>0.200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.pcem">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="pcem_cpucore" type="string" label="30001">
+					<level>0</level>
+					<default>interpreter</default>
+					<constraints>
+						<options>
+							<option>interpreter</option>
+							<option>dynarec</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_model" type="string" label="30002">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30013">IBM PC</option>
+							<option label="30014">IBM XT</option>
+							<option label="30015">IBM PCjr</option>
+							<option label="30016">Generic XT clone</option>
+							<option label="30017">AMI XT clone</option>
+							<option label="30018">DTK XT clone</option>
+							<option label="30019">VTech Laser Turbo XT</option>
+							<option label="30020">VTech Laser XT3</option>
+							<option label="30021">Phoenix XT clone</option>
+							<option label="30022">Juko XT clone</option>
+							<option label="30023">Tandy 1000</option>
+							<option label="30024">Tandy 1000 HX</option>
+							<option label="30025">Tandy 1000 SL/2</option>
+							<option label="30026">Amstrad PC1512</option>
+							<option label="30027">Sinclair PC200</option>
+							<option label="30028">Euro PC</option>
+							<option label="30029">Olivetti M24</option>
+							<option label="30030">Amstrad PC1640</option>
+							<option label="30031">Amstrad PC2086</option>
+							<option label="30032">Amstrad PC3086</option>
+							<option label="30033">IBM AT</option>
+							<option label="30034">Commodore PC 30 III</option>
+							<option label="30035">AMI 286 clone</option>
+							<option label="30036">DELL System 200</option>
+							<option label="30037">IBM PS/1 model 2011</option>
+							<option label="30038">Compaq Deskpro 386</option>
+							<option label="30039">Acer 386SX25/N</option>
+							<option label="30040">DTK 386SX clone</option>
+							<option label="30041">Phoenix 386 clone</option>
+							<option label="30042">Amstrad MegaPC</option>
+							<option label="30043">AMI 386 clone</option>
+							<option label="30044">AMI 486 clone</option>
+							<option label="30045">AMI WinBIOS 486</option>
+							<option label="30046">DTK PKM-0038S E-2</option>
+							<option label="30047">Award SiS 496/497</option>
+							<option label="30048">Rise Computer R418</option>
+							<option label="30049">Intel Premiere/PCI</option>
+							<option label="30050">Intel Premiere/PCI II</option>
+							<option label="30051">Intel Advanced/EV</option>
+							<option label="30052">PC Partner MB500N</option>
+							<option label="30053">ASUS P/I-P53TP4XE</option>
+							<option label="30054">Acer M3a</option>
+							<option label="30055">Acer V35N</option>
+							<option label="30056">ASUS P/I-P55T2P4</option>
+							<option label="30057">Award 430VX PCI</option>
+							<option label="30058">Epox P55-VA</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_gfxcard" type="string" label="30003">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30059">CGA</option>
+							<option label="30060">New CGA</option>
+							<option label="30061">MDA</option>
+							<option label="30062">Hercules</option>
+							<option label="30063">EGA</option>
+							<option label="30064">Compaq EGA</option>
+							<option label="30065">Super EGA</option>
+							<option label="30066">Trident TVGA8900D</option>
+							<option label="30067">Tseng ET4000</option>
+							<option label="30068">Tseng ET4000/W32p (Diamond Stealth 32)</option>
+							<option label="30069">S3 Vision864 (Paradise Bahamas 64)</option>
+							<option label="30070">S3 764/Trio64 (Number Nine 9FX)</option>
+							<option label="30071">S3 Virge</option>
+							<option label="30072">Trident TGUI9440</option>
+							<option label="30073">IBM VGA</option>
+							<option label="30074">Compaq/Paradise VGA</option>
+							<option label="30075">ATI VGA Edge-16</option>
+							<option label="30076">ATI VGA Charger</option>
+							<option label="30077">Oak OTI-067</option>
+							<option label="30078">ATI Graphics Pro Turbo (Mach64)</option>
+							<option label="30079">Cirrus Logic CL-GD5429</option>
+							<option label="30080">S3 Virge/DX</option>
+							<option label="30081">S3 732/Trio32 (Phoenix)</option>
+							<option label="30082">S3 764/Trio64 (Phoenix)</option>
+							<option label="30083">nVidia Riva TNT</option>
+							<option label="30084">Incolor</option>
+							<option label="30085">nVidia Riva 128</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_sndcard" type="string" label="30004">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30086">AdLib (No DSP)</option>
+							<option label="30087">Soundblaster 1 (DSP v1.05)</option>
+							<option label="30088">Soundblaster 1.5 (DSP v2.00)</option>
+							<option label="30089">Soundblaster 2 (DSP v2.01)</option>
+							<option label="30090">Soundblaster Pro (DSP v3.00)</option>
+							<option label="30091">Soundblaster Pro 2 (DSP v3.02 + OPL3)</option>
+							<option label="30092">Soundblaster 16 (DSP v4.05 + OPL3)</option>
+							<option label="30093">AdLib Gold</option>
+							<option label="30094">Windows Sound System</option>
+							<option label="30095">Pro Audio Spectrum 16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_video_timing_speed" type="string" label="30005">
+					<level>0</level>
+					<default>Slow VLB/PCI</default>
+					<constraints>
+						<options>
+							<option>Slow VLB/PCI</option>
+							<option>Mid VLB/PCI</option>
+							<option>Fast VLB/PCI</option>
+							<option>8-bit</option>
+							<option>Slow 16-bit</option>
+							<option>Fast 16-bit</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_overscan_enable" type="string" label="30006">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_flash_enable" type="string" label="30007">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_fpu_enabled" type="string" label="30008">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_gus_enabled" type="string" label="30009">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_ssi2001_enabled" type="string" label="30010">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_gameblaster_enabled" type="string" label="30011">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcem_voodoo_enabled" type="string" label="30012">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

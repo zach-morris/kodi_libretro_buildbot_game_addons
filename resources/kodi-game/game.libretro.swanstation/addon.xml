@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.swanstation"
+		name="Sony - PlayStation (SwanStation)"
+		version="1.0.0.44"
+		provider-name="stenzek">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ps.dualanalog" version="1.0.0"/>
+		<import addon="game.controller.ps.dualshock" version="1.0.0"/>
+		<import addon="game.controller.ps.gamepad" version="1.0.0"/>
+		<import addon="game.controller.ps.guncon.japan" version="1.0.0"/>
+		<import addon="game.controller.ps.guncon.western" version="1.0.0"/>
+		<import addon="game.controller.ps.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sony - PlayStation</platforms>
+		<extensions>exe|psexe|cue|bin|img|iso|chd|pbp|ecm|mds|psf|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>swanstation_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.swanstation</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="bs_BA">Sony - PlayStation (SwanStation)</summary>
+		<summary lang="cs_CZ">Sony - PlayStation (SwanStation)</summary>
+		<summary lang="en_GB">Sony - PlayStation (SwanStation)</summary>
+		<summary lang="es_ES">Sony - PlayStation (SwanStation)</summary>
+		<summary lang="ga">Sony - PlayStation (SwanStation)</summary>
+		<summary lang="it_IT">Sony - PlayStation (SwanStation)</summary>
+		<summary lang="ru_RU">Sony — PlayStation (SwanStation)</summary>
+		<summary lang="sv_SE">Sony - PlayStation (SwanStation)</summary>
+		<summary lang="zh_CN">Sony - PlayStation (SwanStation)</summary>
+		<description lang="bs_BA">Swanstation je brzi emulator PlayStationa 1 za PC i Android.</description>
+		<description lang="cs_CZ">SwanStation je rychlý emulátor PlayStation 1 pro PC a Android.</description>
+		<description lang="de_DE">Swanstation ist ein schneller PlayStation-1-Emulator für PC und Android.</description>
+		<description lang="en_GB">Swanstation is a fast PlayStation 1 emulator for PC and Android.</description>
+		<description lang="es_ES">Swanstation es un emulador rápido de PlayStation 1 para PC y Android.</description>
+		<description lang="ga">Is aithriseoir PlayStation 1 tapa é Swanstation do ríomhaire agus Android.</description>
+		<description lang="it_IT">SwanStation è un emulatore rapido per PlayStation 1 per PC e Android.</description>
+		<description lang="ru_RU">Swanstation — это быстрый эмулятор PlayStation 1 для ПК и Android.</description>
+		<description lang="sv_SE">Swanstation är en snabb PlayStation 1-emulator för PC och Android.</description>
+		<description lang="zh_CN">Swanstation 是一款适用于 PC 和 Android 的快速 PlayStation 1模拟器。</description>
+	</extension>
+</addon>

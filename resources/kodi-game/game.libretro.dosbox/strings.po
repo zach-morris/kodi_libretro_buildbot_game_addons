@@ -1,0 +1,142 @@
+# game.libretro.dosbox language file
+# Addon Name: game.libretro.dosbox
+# Addon id: game.libretro.dosbox
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.dosbox\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-dosbox/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "DOS (DOSBox)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "DOSBox emulates an IBM PC compatible computer running MS-DOS.[CR][CR]DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Enable core-options"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Enable advanced core-options"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Emulated machine"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Scaler"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Gamepad emulated mouse"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Gamepad emulated deadzone"
+msgstr ""
+
+msgctxt "#30007"
+msgid "CPU core"
+msgstr ""
+
+msgctxt "#30008"
+msgid "CPU type"
+msgstr ""
+
+msgctxt "#30009"
+msgid "CPU cycle mode"
+msgstr ""
+
+msgctxt "#30010"
+msgid "CPU cycle multiplier"
+msgstr ""
+
+msgctxt "#30011"
+msgid "CPU cycles"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Sound Blaster type"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Enable PC-Speaker"
+msgstr ""
+
+msgctxt "#30014"
+msgid "normal2x"
+msgstr ""
+
+msgctxt "#30015"
+msgid "normal3x"
+msgstr ""
+
+msgctxt "#30016"
+msgid "normal"
+msgstr ""
+
+msgctxt "#30017"
+msgid "simple"
+msgstr ""
+
+msgctxt "#30018"
+msgid "386"
+msgstr ""
+
+msgctxt "#30019"
+msgid "386_slow"
+msgstr ""
+
+msgctxt "#30020"
+msgid "486"
+msgstr ""
+
+msgctxt "#30021"
+msgid "486_slow"
+msgstr ""
+
+msgctxt "#30022"
+msgid "pentium_slow"
+msgstr ""
+
+msgctxt "#30023"
+msgid "386_prefetch"
+msgstr ""
+
+msgctxt "#30024"
+msgid "sb16"
+msgstr ""
+
+msgctxt "#30025"
+msgid "sb1"
+msgstr ""
+
+msgctxt "#30026"
+msgid "sb2"
+msgstr ""
+
+msgctxt "#30027"
+msgid "sbpro1"
+msgstr ""
+
+msgctxt "#30028"
+msgid "sbpro2"
+msgstr ""
+
+msgctxt "#30029"
+msgid "gb"
+msgstr ""

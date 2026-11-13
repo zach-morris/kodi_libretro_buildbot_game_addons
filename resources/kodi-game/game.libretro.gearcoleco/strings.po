@@ -1,0 +1,178 @@
+# game.libretro.gearcoleco language file
+# Addon Name: game.libretro.gearcoleco
+# Addon id: game.libretro.gearcoleco
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.gearcoleco\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-03-25 03:22i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-gearcoleco/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Coleco - ColecoVision / ADAM (Gearcoleco)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Gearcoleco is an open source, cross-platform, ColecoVision emulator."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Refresh Rate (restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Allow Up+Down / Left+Right"
+msgstr ""
+
+msgctxt "#30003"
+msgid "No Sprite Limit"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Overscan"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Spinner Sensitivity"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Aspect Ratio"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Spinner Support"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Mapper (restart)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "System"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Configure refresh rate and other system-level settings."
+msgstr ""
+
+msgctxt "#30013"
+msgid "Select which refresh rate will be used in emulation. 'Auto' automatically selects the best refresh rate based on the loaded content. 'NTSC (60 Hz)' forces 60 Hz. 'PAL (50 Hz)' forces 50 Hz."
+msgstr ""
+
+msgctxt "#30014"
+msgid "Select which mapper (memory bank controller) is emulated. 'Auto' automatically detects the appropriate mapper based on the loaded content. Only change this if a game does not work correctly with the default setting."
+msgstr ""
+
+msgctxt "#30015"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Configure aspect ratio, overscan and sprite settings."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Select which aspect ratio will be presented by the core. '1:1 PAR' selects an aspect ratio that produces square pixels."
+msgstr ""
+
+msgctxt "#30019"
+msgid "Remove the per-line sprite limit. This reduces flickering but may cause glitches in certain games. It's best to keep this option disabled."
+msgstr ""
+
+msgctxt "#30020"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Configure controller behavior, spinner support and sensitivity settings."
+msgstr ""
+
+msgctxt "#30022"
+msgid "Allow pressing, quickly alternating, or holding both left and right (or up and down) directions at the same time. This may cause movement based glitches in certain games."
+msgstr ""
+
+msgctxt "#30023"
+msgid "Select which spinner controller will be emulated. Spinners are controlled by mouse movement. Mouse buttons are mapped to Left (Yellow) and Right (Red) buttons."
+msgstr ""
+
+msgctxt "#30024"
+msgid "Set the sensitivity of the spinner controller. 1 is the lowest sensitivity and 10 is the highest."
+msgstr ""
+
+msgctxt "#30025"
+msgid "NTSC (60 Hz)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "PAL (50 Hz)"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Standard"
+msgstr ""
+
+msgctxt "#30028"
+msgid "MegaCart"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Activision"
+msgstr ""
+
+msgctxt "#30030"
+msgid "OCM"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Top+Bottom"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Full (284 width)"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Full (320 width)"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Super Action Controller"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Wheel Controller"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Roller Controller"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Video Chip (restart)"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Select the installed video chip. 'Auto' uses TMS9918A unless the loaded game database entry requires F18A. Changes take effect when content is restarted."
+msgstr ""
+
+msgctxt "#30039"
+msgid "TMS9918A"
+msgstr ""
+
+msgctxt "#30040"
+msgid "F18A"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Select which overscan (borders) will be used in TMS9918A emulation. 'Disabled' shows no overscan. 'Top+Bottom' enables vertical overscan only. 'Full (284 width)' and 'Full (320 width)' enable full overscan with different horizontal widths. F18A output uses its active logical raster without TMS overscan."
+msgstr ""

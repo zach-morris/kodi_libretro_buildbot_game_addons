@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.bnes"
+		name="Nintendo - NES / Famicom (bnes)"
+		version="0.83.0.38"
+		provider-name="Near, Ryphecha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - NES / Famicom</platforms>
+		<extensions>nes</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>bnes_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bnes</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="da_DK">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="en_GB">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="es_ES">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="ga">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="it_IT">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="ko_KR">닌텐도 - NES / Famicom(bnes)</summary>
+		<summary lang="ru_RU">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="sv_SE">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="zh_CN">任天堂 - NES / Famicom (bnes)</summary>
+		<description lang="cs_CZ">Port emulátoru bNES pro libretro, původního emulátoru NES vytvořeného autorem Byuu.</description>
+		<description lang="da_DK">En libretro-port af bNES, en NES-emulator oprindeligt skabt af Byuu.</description>
+		<description lang="de_DE">Ein libretro-Port von bNES, einem NES-Emulator, der ursprünglich von Byuu entwickelt wurde.</description>
+		<description lang="en_GB">A libretro port of bNES, a NES emulator originally created by Byuu.</description>
+		<description lang="es_ES">Una adaptación libretro de bNES, un emulador de NES creado originalmente por Byuu.</description>
+		<description lang="ga">Port libretro de bNES, aithriseoir NES a chruthaigh Byuu ar dtús.</description>
+		<description lang="it_IT">Un port libretro di bNES, un emulatore NES originariamente creato da Byuu.</description>
+		<description lang="ko_KR">원래 Byuu에서 만든 NES 에뮬레이터인 bNES의 libretro 포트입니다.</description>
+		<description lang="ru_RU">Libretro-порт bNES, эмулятора NES, изначально созданного Byuu.</description>
+		<description lang="sv_SE">En libretroport av bNES, en NES-emulator som ursprungligen skapades av Byuu.</description>
+		<description lang="zh_CN">bNES 的 libretro 实现，最初由 Byuu 创建的 NES 仿真器。</description>
+		<disclaimer lang="cs_CZ">S láskou na památku Near / Byuu</disclaimer>
+		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
+		<disclaimer lang="de_DE">In liebevoller Erinnerung an Near / Byuu</disclaimer>
+		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
+		<disclaimer lang="es_ES">En cariñoso recuerdo de Near / Byuu</disclaimer>
+		<disclaimer lang="ga">I ngrá le Near / Byuu</disclaimer>
+		<disclaimer lang="it_IT">In amorevole ricordo di Near / Byuu</disclaimer>
+		<disclaimer lang="ko_KR">Near / Byuu의 사랑을 기억하며</disclaimer>
+		<disclaimer lang="ru_RU">В память о Near / Byuu</disclaimer>
+		<disclaimer lang="sv_SE">Till kärleksfullt minne av Near / Byuu</disclaimer>
+		<disclaimer lang="zh_CN">怀念 Near / Byuu</disclaimer>
+	</extension>
+</addon>

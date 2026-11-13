@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.fbalpha"
+		name="Arcade (FB Alpha)"
+		version="0.2.97.18"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Unlicensed</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<lifecycle type="broken" lang="en_GB">This add-on has been discontinued. Use FBNeo.</lifecycle>
+		<summary lang="en_GB">FB Alpha</summary>
+		<summary lang="es_ES">FB Alfa</summary>
+		<description lang="en_GB">FinalBurn Alpha is an emulator of arcade games, including Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.</description>
+		<description lang="es_ES">FinalBurn Alpha es un emulador de juegos arcade, incluyendo Capcom CPS-1 y CPS-2, SNK Neo-Geo, Toaplan, Cave y Sega System 16.</description>
+		<disclaimer lang="da_DK">Billedekredit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">아이콘 크레딧: TRIPLEKILLZ(triplekillz.deviantart.com)</disclaimer>
+		<lifecyclestate type="broken" lang="en_GB">This add-on has been discontinued. Use FBNeo.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">Este add-on ha sido descontinuado. Usa FBNeo.</lifecyclestate>
+	</extension>
+</addon>

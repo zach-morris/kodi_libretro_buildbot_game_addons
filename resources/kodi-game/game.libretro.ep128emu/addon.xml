@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.ep128emu"
+		name="Enterprise - 64/128 (ep128emu)"
+		version="1.2.13.32"
+		provider-name="Istvan Varga, Zoltan Balogh">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.amstrad.joystick" version="1.0.0"/>
+		<import addon="game.controller.amstrad.keyboard" version="1.0.28"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Enterprise - 64/128</platforms>
+		<extensions>img|dsk|vhd|tap|dtf|com|trn|128|bas|cas|crt|cdt|tzx|wav|tvcwav|.</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>ep128emu_core_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.ep128emu</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Enterprise - 64/128 (ep128emu)</summary>
+		<summary lang="da_DK">Enterprise - 64/128 (ep128emu)</summary>
+		<summary lang="en_GB">Enterprise - 64/128 (ep128emu)</summary>
+		<summary lang="es_ES">Enterprise - 64/128 (ep128emu)</summary>
+		<summary lang="ga">Enterprise - 64/128 (ep128emu)</summary>
+		<summary lang="it_IT">Enterprise - 64/128 (ep128emu)</summary>
+		<summary lang="ru_RU">Enterprise — 64/128 (ep128emu)</summary>
+		<summary lang="sv_SE">Enterprise - 64/128 (ep128emu)</summary>
+		<summary lang="zh_CN">Enterprise - 64/128 (ep128emu)</summary>
+		<description lang="cs_CZ">ep128emu je přenositelný emulátor počítačů Enterprise 64/128, ZX Spectrum 48/128 a Amstrad CPC 464/664/6128.</description>
+		<description lang="da_DK">ep128emu er en bærbar emulator af Enterprise 64/128, ZX Spectrum 48/128 og Amstrad CPC 464/664/6128 computere.</description>
+		<description lang="de_DE">ep128emu ist ein portabler Emulator für die Computer Enterprise 64/128, ZX Spectrum 48/128 und Amstrad CPC 464/664/6128.</description>
+		<description lang="en_GB">ep128emu is a portable emulator of the Enterprise 64/128, ZX Spectrum 48/128, and Amstrad CPC 464/664/6128 computers.</description>
+		<description lang="es_ES">ep128emu es un emulador portátil de los ordenadores Enterprise 64/128, ZX Spectrum 48/128 y Amstrad CPC 464/664/6128.</description>
+		<description lang="ga">Is aithriseoir iniompartha é ep128emu do na ríomhairí Enterprise 64/128, ZX Spectrum 48/128, agus Amstrad CPC 464/664/6128.</description>
+		<description lang="it_IT">ep128emu è un emulatore portatile dei computer Enterprise 64/128, ZX Spectrum 48/128 e Amstrad CPC 464/664/6128.</description>
+		<description lang="ru_RU">ep128emu — это переносимый эмулятор компьютеров Enterprise 64/128, ZX Spectrum 48/128 и Amstrad CPC 464/664/6128.</description>
+		<description lang="sv_SE">ep128emu är en portabel emulator för datorerna Enterprise 64/128, ZX Spectrum 48/128 och Amstrad CPC 464/664/6128.</description>
+		<description lang="zh_CN">ep128emu 是 Enterprise 64/128、ZX Spectrum 48/128 和 Amstrad CPC 464/664/6128 计算机的便携式模拟器。</description>
+	</extension>
+</addon>
