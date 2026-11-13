@@ -232,7 +232,7 @@ def main(args=None):
 		bb_df['built_addon_zipfilesize'] = bb_df['built_addon_zipfilename'].apply(lambda x: x.stat().st_size if isinstance(x,Path) and x.exists() else None)
 		if remove_large_addons:
 			print('Removing any addons that are too big...')
-			bb_df['built_addon_too_big'] = bb_df['built_addon_zipfilesize'].apply(lambda x: True if isinstance(x,int) and x>=max_file_size else False) #Addon must be less than 100MB for git
+			bb_df['built_addon_too_big'] = bb_df['built_addon_zipfilesize'].apply(lambda x: True if not pd.isna(x) and x>=max_file_size else False) #Addon must be less than 100MB for git
 			bb_df.apply(lambda x: delete_addons_too_big(x_in=x),axis=1)
 			bb_df['built_addon_zipfilename'] = bb_df.apply(lambda x: None if x.get('built_addon_too_big')==True else x.get('built_addon_zipfilename'),axis=1) #Remove deleted addons from list if they were too big
 
