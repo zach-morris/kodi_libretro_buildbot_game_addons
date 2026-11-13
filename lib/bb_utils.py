@@ -211,6 +211,8 @@ def get_addon_extension_point_dict(x_in=None):
 				'supports_standalone': supports_standalone,
 				'supports_disc_control': supports_disc_control,
 				'libretro_core': x_in.get('bb_core_name')}
+		if isinstance(x_in.get('savestate_features'),str) and x_in.get('savestate_features'):
+			result['savestate_features'] = x_in.get('savestate_features')
 	else:
 		if isinstance(x_in,pd.Series):
 			print('Unable to build addon ext point: {} / {} / {}'.format(x_in.get('bb_core_name'),x_in.get('kodi_library'),x_in.get('bb_core_filename')))
