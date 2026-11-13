@@ -405,6 +405,9 @@ def build_addon(x_in=None,addons_to_build=None,environments_to_build=None,cores_
 							print('Using existing settings.xml from kodi-game for {}'.format(x_in.get('addon_id')))
 							write_text_to_file(x_in.get('build_folder_path').joinpath('resources','settings.xml'),x_in.get('settings_xml_content'))
 							# x_in.get('build_folder_path').joinpath('resources','settings.xml').write_text(x_in.get('settings_xml_content'))
+							if not x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb').exists():
+								x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb').mkdir(parents=True,exist_ok=True)
+							write_text_to_file(x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb','strings.po'),x_in.get('strings_po_content'))
 							if not x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us').exists():
 								x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us').mkdir(parents=True,exist_ok=True)
 							write_text_to_file(x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us','strings.po'),x_in.get('strings_po_content'))
@@ -426,6 +429,9 @@ def build_addon(x_in=None,addons_to_build=None,environments_to_build=None,cores_
 											print('Copying settings.xml from build env for {}'.format(x_in.get('addon_id')))
 											write_text_to_file(x_in.get('build_folder_path').joinpath('resources','settings.xml'),build_settings_file.read_text())
 											# x_in.get('build_folder_path').joinpath('resources','settings.xml').write_text(build_settings_file.read_text())
+											if not x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb').exists():
+												x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb').mkdir(parents=True,exist_ok=True)
+											write_text_to_file(x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb','strings.po'),build_strings_file.read_text())
 											if not x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us').exists():
 												x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us').mkdir(parents=True,exist_ok=True)
 											write_text_to_file(x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us','strings.po'),build_strings_file.read_text())
@@ -439,6 +445,9 @@ def build_addon(x_in=None,addons_to_build=None,environments_to_build=None,cores_
 								if isinstance(kodi_settings_dict,dict) and isinstance(strings_po_dict,list) and len(strings_po_dict)>0:
 									write_text_to_file(x_in.get('build_folder_path').joinpath('resources','settings.xml'),xmltodict.unparse(kodi_settings_dict,pretty=True))
 									# x_in.get('build_folder_path').joinpath('resources','settings.xml').write_text(xmltodict.unparse(kodi_settings_dict,pretty=True))
+									if not x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb').exists():
+										x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb').mkdir(parents=True,exist_ok=True)
+									write_text_to_file(x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_gb','strings.po'),get_strings_po(x_in=x_in,strings_po_dict=strings_po_dict))
 									if not x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us').exists():
 										x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us').mkdir(parents=True,exist_ok=True)
 									write_text_to_file(x_in.get('build_folder_path').joinpath('resources','language','resource.language.en_us','strings.po'),get_strings_po(x_in=x_in,strings_po_dict=strings_po_dict))
@@ -474,7 +483,7 @@ def get_strings_po_header(x_in=None):
 		tnow = pd.Timestamp.now().strftime('%Y-%m-%d')
 		result = ('"Project-Id-Version: {}"\n'
 				'"PO-Revision-Date: {} 00:00+0000"\n'
-				'"Language: en_us"\n'
+				'"Language: en"\n'
 				'"MIME-Version: 1.0"\n'
 				'"Content-Type: text/plain; charset=UTF-8"\n'
 				'"Content-Transfer-Encoding: 8bit"\n'
