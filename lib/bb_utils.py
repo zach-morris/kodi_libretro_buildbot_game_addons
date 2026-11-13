@@ -1005,6 +1005,11 @@ def parse_args(argv=None):
 		help='Comma-separated build environments to build (default: all, but skipping non-standard environments, options: android-aarch64,android-armv7,android-x86_64,ios-aarch64,libreelec-aarch64,libreelec-x86_64,linux-aarch64,linux-armv7,linux-x86_64,osx-arm64,osx-x86_64,tvos-aarch64,windows-x86_64).',
 	)
 	parser.add_argument(
+		'--update_standalone_script_zip',
+		action='store_true',
+		help='Update the standalone script from ci/cd.  Beneficial only for the buildbot and keeping the standalone script in sync.',
+	)
+	parser.add_argument(
 		'--update_kodi_game_files',
 		action='store_true',
 		help='Update supporting kodi-game resources. Beneficial if you want to use the latest files available from the kodi-game github organization.',
@@ -1053,3 +1058,27 @@ def parse_comma_separated(value):
 		return 'all'
 
 	return [item.strip() for item in value.split(',') if item.strip()]
+
+def update_standalone_script_zip(root_path=None,excluded_suffixes=[],compress_level=9):
+	success = False
+	if isinstance(root_path,Path) and root_path.exists():
+		zip_root = 'kodi_libretro_buildbot_game_addons'
+		standalone_script_filename = root_path.joinpath('resources','standalone_script','kodi_libretro_buildbot_game_addons.zip')
+		standalone_script_files = [x for x in root_path.rglob('*') if (x.name in ['update_kodi_game.py','requirements.txt','kodi_libretro_buildbot_addons_generator.py','README.md','update_info_from_kodi_game.py','bb_utils.py'] or x.parent.name in ['default_controller_only','default_controller_mouse_keyboard','default_assets']) and 'temp' not in str(x.parent)]
+		if isinstance(standalone_script_filename,Path) and isinstance(zip_root,str) and isinstance(root_path,Path) and root_path.exists() and len(standalone_script_files)>1:
+			print('Zipping up script using compression level {}'.format(compress_level))
+			if standalone_script_filename.exists():
+				try:
+					standalone_script_filename.unlink()
+				except Exception as exc1:
+					print(f'Unable to delete old standalone script.  Exception: {exc1}')
+			try:
+				with zipfile.ZipFile(standalone_script_filename, mode='w', compression=zipfile.ZIP_DEFLATED, compresslevel=compress_level) as zzip:
+					for file in standalone_script_files:
+						if file.is_file() and file.suffix.lower() not in excluded_suffixes:
+							arcname = Path(zip_root) / file.relative_to(root_path)
+							zzip.write(file, arcname=arcname)
+				success = True
+			except Exception as exc:
+				print(f'Unable to generate zipfile.  Exception: {exc}')
+	return success
