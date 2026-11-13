@@ -138,6 +138,21 @@ def get_value_from_addon_xml_dict(value=None,x_in=None):
 					result =  addon_xml_dict.get('addon').get('extension')[0].get('platforms')
 				except:
 					pass
+			case 'supports_vfs':
+				try:
+					result =  addon_xml_dict.get('addon').get('extension')[0].get('supports_vfs')
+				except:
+					pass
+			case 'supports_standalone':
+				try:
+					result =  addon_xml_dict.get('addon').get('extension')[0].get('supports_standalone')
+				except:
+					pass
+			case 'supports_disc_control':
+				try:
+					result =  addon_xml_dict.get('addon').get('extension')[0].get('supports_disc_control')
+				except:
+					pass
 			case _:
 				print(f'No get_value_from_addon_xml_dict getter for {value}')
 	return result
@@ -189,17 +204,29 @@ def get_addon_extension_point_dict(x_in=None):
 			platforms = x_in.get('categories')
 		if platforms is None:
 			platforms = 'Emulator'
-		if x_in.get('needs_fullpath')=='true':
+
+		if x_in.get('supports_vfs')=='true': #Use kodi addon xml value first if it exists
 			supports_vfs = 'true'
-		else:
+		elif x_in.get('supports_vfs')=='false':
 			supports_vfs = 'false'
-		if x_in.get('supports_no_game')=='true':
+		elif x_in.get('needs_fullpath')=='true': #Needs fullpath means it does not support vfs
+			supports_vfs = 'false'
+		else:
+			supports_vfs = 'true'
+
+		if x_in.get('supports_standalone')=='true': #Use kodi addon xml value first if it exists
+			supports_standalone = 'true'
+		elif x_in.get('supports_standalone')=='false':
+			supports_standalone = 'false'
+		elif x_in.get('supports_no_game')=='true': #Needs fullpath means it does not support vfs
 			supports_standalone = 'true'
 		else:
 			supports_standalone = 'false'
-		
-
-		if x_in.get('disk_control')=='true':
+		if x_in.get('supports_disc_control')=='true': #Use kodi addon xml value first if it exists
+			supports_disc_control = 'true'
+		elif x_in.get('supports_disc_control')=='false':
+			supports_disc_control = 'false'
+		elif x_in.get('disk_control')=='true': #Needs fullpath means it does not support vfs
 			supports_disc_control = 'true'
 		else:
 			supports_disc_control = 'false'
@@ -549,7 +576,7 @@ def extract_core_options(core=None,section_id=None,game=None):
 	driver = None
 	options: list[dict[str, Any]] = []
 	categories: dict[str, dict[str, str | None]] = {}
-
+	metadata = {}
 	if isinstance(game,Path) and game.exists():
 		session_args = {}
 	else:
@@ -557,7 +584,13 @@ def extract_core_options(core=None,section_id=None,game=None):
 	if isinstance(core,Path) and core.exists():
 		with Session(core=core,game=game,options=2,vfs=None,**session_args) as session:
 			driver = session.options
-
+			sys_info = session.core.get_system_info()
+			if sys_info:
+				metadata = {"library_name": _text(sys_info.library_name),
+							"library_version": _text(sys_info.library_version),
+							"valid_extensions": _text(sys_info.valid_extensions),
+							"need_fullpath": sys_info.need_fullpath,
+							"block_extract": sys_info.block_extract}
 	if driver and isinstance(section_id,str):
 		for category_key, category in driver.categories.items():
 			key = _text(category.key) or _text(category_key)
@@ -598,7 +631,7 @@ def extract_core_options(core=None,section_id=None,game=None):
 					"default_value": _text(definition.default_value),
 				}
 			)
-		result = {"section_id": section_id,"categories": categories,"options": options}
+		result = {"section_id": section_id, "categories": categories,"options": options, "metadata": metadata}
 	return result
 
 def _category_groups(

@@ -127,11 +127,13 @@ def main(args=None):
 		kodi_game_files['strings_po_filename'] = kodi_game_files['repo_path'].apply(lambda x: x.joinpath('strings.po') if x.joinpath('strings.po').exists() else None)
 		kodi_game_files['strings_po_content'] = kodi_game_files['strings_po_filename'].apply(lambda x: x.read_text() if isinstance(x,Path) else None)
 		kodi_game_files['icon_filename'] = kodi_game_files['repo_path'].apply(lambda x: x.joinpath('icon.png') if x.joinpath('icon.png').exists() else None)
-
 	if isinstance(kodi_game_files,pd.DataFrame) and not kodi_game_files.empty:
 		kodi_game_files['addon_xml_dict'] = kodi_game_files['addon_xml_content'].apply(lambda x: xml_to_dict(x.replace('@','')))
 		kodi_game_files['libretro_core'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='libretro_core',x_in=x),axis=1)
 		kodi_game_files['platforms'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='platforms',x_in=x),axis=1)
+		kodi_game_files['supports_vfs'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='supports_vfs',x_in=x),axis=1)
+		kodi_game_files['supports_standalone'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='supports_standalone',x_in=x),axis=1)
+		kodi_game_files['supports_disc_control'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='supports_disc_control',x_in=x),axis=1)
 	if isinstance(info_files,list) and len(info_files)>0:
 		info_df = pd.DataFrame(info_files,columns=['info_file_path'])
 		info_df['info_core_name'] = info_df['info_file_path'].apply(lambda x: x.stem)
@@ -169,12 +171,12 @@ def main(args=None):
 		del info_df
 		alt_info_indexes = bb_df.loc[bb_df['info_file_content'].isna()&bb_df.index.isin(bb_df_alt.loc[bb_df_alt['info_file_content'].notna()].index)].index
 		if not alt_info_indexes.empty:
-			bb_df.drop(alt_info_indexes,inplace=True)
+			bb_df = bb_df.drop(alt_info_indexes)
 			bb_df = pd.concat([bb_df,bb_df_alt.loc[alt_info_indexes]]).reset_index(drop=True)
 		bb_df['bb_file_dt'] = pd.to_datetime(bb_df['bb_file_date'])
 		bb_df['database_list'] = bb_df['database'].apply(lambda x: [y.strip() for y in x.split('|')] if isinstance(x,str) else None)
 		bb_df['supported_extensions_list'] = bb_df['supported_extensions'].apply(lambda x: [y.strip() for y in x.split('|')] if isinstance(x,str) else None)
-		bb_df['addon_version'] = bb_df['bb_file_dt'].apply(lambda x: '1.{}.{}'.format(x.year,x.dayofyear) if isinstance(x,pd.Timestamp) else None)
+		bb_df['addon_version'] = bb_df['bb_file_dt'].apply(lambda x: '1.{}.{}'.format(x.year,x.day_of_year) if isinstance(x,pd.Timestamp) else None)
 		bb_df['asset_icon_filename'] = bb_df['database_list'].apply(lambda x: next(iter([y for y in asset_images if y.stem in x]),None) if isinstance(x,list) else None)
 		bb_df = bb_df.merge(kodi_game_files,how='left',left_on='info_core_name',right_on='libretro_core')
 		del kodi_game_files
