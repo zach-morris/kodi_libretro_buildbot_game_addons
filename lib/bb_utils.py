@@ -480,14 +480,15 @@ def get_strings_po(x_in=None,strings_po_dict=None):
 def get_strings_po_header(x_in=None):
 	result = ''
 	if isinstance(x_in,pd.Series) and isinstance(x_in.get('addon_id'),str):
-		tnow = pd.Timestamp.now().strftime('%Y-%m-%d')
-		result = ('"Project-Id-Version: {}"\n'
-				'"PO-Revision-Date: {} 00:00+0000"\n'
+		# tnow = pd.Timestamp.now().strftime('%Y-%m-%d')
+		result = ('msgid ""\n'
+				'msgstr ""\n'
+				'"Project-Id-Version: {}"\n'
 				'"Language: en"\n'
 				'"MIME-Version: 1.0"\n'
 				'"Content-Type: text/plain; charset=UTF-8"\n'
 				'"Content-Transfer-Encoding: 8bit"\n'
-				'"Plural-Forms: nplurals=2; plural=n != 1;"\n').format(x_in.get('addon_id'),tnow)
+				'"Plural-Forms: nplurals=2; plural=n != 1;"\n').format(x_in.get('addon_id'))
 	return result
 
 def _text(value: bytes | str | None) -> str | None:
