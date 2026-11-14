@@ -1,0 +1,790 @@
+# game.libretro.bsnes language file
+# Addon Name: game.libretro.bsnes
+# Addon id: game.libretro.bsnes
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.bsnes\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 22:01i\n"
+"PO-Revision-Date: 2024-12-27 21:46+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-bsnes/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (bsnes)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "bsnes is a multi-platform Super Nintendo (Super Famicom) emulator from Near / Byuu that focuses on performance, features, and ease of use."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "In loving memory of Near / Byuu"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Preferred Aspect Ratio"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Blur Emulation"
+msgstr ""
+
+msgctxt "#30004"
+msgid "PPU (Video) - Fast Mode"
+msgstr ""
+
+msgctxt "#30005"
+msgid "PPU (Video) - Deinterlace"
+msgstr ""
+
+msgctxt "#30006"
+msgid "PPU (Video) - No Sprite Limit"
+msgstr ""
+
+msgctxt "#30007"
+msgid "PPU (Video) - No VRAM Blocking"
+msgstr ""
+
+msgctxt "#30008"
+msgid "DSP (Audio) - Fast Mode"
+msgstr ""
+
+msgctxt "#30009"
+msgid "DSP (Audio) - Cubic Interpolation"
+msgstr ""
+
+msgctxt "#30010"
+msgid "DSP (Audio) - Echo Shadow RAM"
+msgstr ""
+
+msgctxt "#30011"
+msgid "HD Mode 7 - Scale"
+msgstr ""
+
+msgctxt "#30012"
+msgid "HD Mode 7 - Perspective Correction"
+msgstr ""
+
+msgctxt "#30013"
+msgid "HD Mode 7 - Supersampling"
+msgstr ""
+
+msgctxt "#30014"
+msgid "HD Mode 7 - HD->SD Mosaic"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Internal Run-Ahead"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Coprocessors - Fast Mode"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Coprocessors - Prefer HLE"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Hotfixes"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Entropy (randomization)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "CPU Fast Math"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Overclocking - CPU"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Overclocking - SA-1 Coprocessor"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Overclocking - SuperFX Coprocessor"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Preferred Super Game Boy BIOS (Restart Required)"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Hide SGB Border"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Touchscreen Light Gun"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Super Scope Reverse Trigger Buttons"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Filter"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Color Adjustment - Luminance"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Color Adjustment - Saturation"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Color Adjustment - Gamma"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Crop Vertical Overscan"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Change video output settings."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Choose the preferred content aspect ratio. This will only apply when RetroArch's aspect ratio is set to 'Core provided' in the Video settings."
+msgstr ""
+
+msgctxt "#30036"
+msgid "1:1 PAR (Pixel Perfect)"
+msgstr ""
+
+msgctxt "#30037"
+msgid "4:3 DAR"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Remove N lines from the top and bottom of the screen to simulate the bezel of a television of the SNES era."
+msgstr ""
+
+msgctxt "#30039"
+msgid "0 Lines"
+msgstr ""
+
+msgctxt "#30040"
+msgid "8 Lines"
+msgstr ""
+
+msgctxt "#30041"
+msgid "12 Lines"
+msgstr ""
+
+msgctxt "#30042"
+msgid "16 Lines"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Simulate the limited horizontal resolution of SDTVs by blurring together horizontally-adjacent pixels. Some games depend on this to emulate a transparency effect."
+msgstr ""
+
+msgctxt "#30044"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30045"
+msgid "enabled"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Choose between no filtering and blargg's NTSC filter with options for RF, Composite, S-Video, or RGB"
+msgstr ""
+
+msgctxt "#30047"
+msgid "None"
+msgstr ""
+
+msgctxt "#30048"
+msgid "NTSC (RF)"
+msgstr ""
+
+msgctxt "#30049"
+msgid "NTSC (Composite)"
+msgstr ""
+
+msgctxt "#30050"
+msgid "NTSC (S-Video)"
+msgstr ""
+
+msgctxt "#30051"
+msgid "NTSC (RGB)"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Adjust Luminance"
+msgstr ""
+
+msgctxt "#30053"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30054"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30055"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30056"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30057"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30058"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30059"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30060"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30061"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30062"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30063"
+msgid "100% (Default)"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Adjust Saturation"
+msgstr ""
+
+msgctxt "#30065"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30066"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30067"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30068"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30069"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30070"
+msgid "160%"
+msgstr ""
+
+msgctxt "#30071"
+msgid "170%"
+msgstr ""
+
+msgctxt "#30072"
+msgid "180%"
+msgstr ""
+
+msgctxt "#30073"
+msgid "190%"
+msgstr ""
+
+msgctxt "#30074"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Adjust Gamma"
+msgstr ""
+
+msgctxt "#30076"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30077"
+msgid "150% (Default)"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Enable faster emulation of the PPU at the cost of a minor reduction of accuracy. It is recommended to leave this on. NOTE: this must be enabled for the 'Deinterlace', 'No Sprite Limit' and the 'HD Mode 7' options to work."
+msgstr ""
+
+msgctxt "#30079"
+msgid "Deinterlace all games by rendering internally at 480p. Performance penalty is almost non-existent, so it is recommended to leave this on."
+msgstr ""
+
+msgctxt "#30080"
+msgid "Remove any limit to the number of sprites that can be drawn simultaneously on screen. May cause issues with some games."
+msgstr ""
+
+msgctxt "#30081"
+msgid "Emulate a bug in older releases of ZSNES and Snes9x, where VRAM blocking was not emulated. A few older ROM hacks relied on this behavior and will render graphics incorrectly if this is not enabled. This option is extremely inaccurate and hurts PPU speed, so it is recommended to leave it disabled unless you need to play a game that is otherwise incompatible with this core."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Change audio output settings."
+msgstr ""
+
+msgctxt "#30084"
+msgid "Enable faster emulation of the DSP at the cost of a minor reduction of accuracy. It is recommended to leave this on."
+msgstr ""
+
+msgctxt "#30085"
+msgid "Apply cubic interpolation to the sound, preserving more of the high range."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Emulate a bug in ZSNES where echo RAM was treated as separate from APU RAM. Many older ROM hacks for Super Mario World relied on this behavior and will crash without this. This option is extremely inaccurate and should not be enabled unless required."
+msgstr ""
+
+msgctxt "#30087"
+msgid "HD Mode 7"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Change settings regarding Mode 7 graphics emulation."
+msgstr ""
+
+msgctxt "#30089"
+msgid "Increase the horizontal and vertical resolution of the Mode 7 graphics used in certain games."
+msgstr ""
+
+msgctxt "#30090"
+msgid "240p (1x)"
+msgstr ""
+
+msgctxt "#30091"
+msgid "480p (2x)"
+msgstr ""
+
+msgctxt "#30092"
+msgid "720p (3x)"
+msgstr ""
+
+msgctxt "#30093"
+msgid "960p (4x)"
+msgstr ""
+
+msgctxt "#30094"
+msgid "1200p (5x)"
+msgstr ""
+
+msgctxt "#30095"
+msgid "1440p (6x)"
+msgstr ""
+
+msgctxt "#30096"
+msgid "1680p (7x)"
+msgstr ""
+
+msgctxt "#30097"
+msgid "1920p (8x)"
+msgstr ""
+
+msgctxt "#30098"
+msgid "Correct the perspective of the Mode 7 graphics used in certain games by working around some limitations of the integer math used by the SNES."
+msgstr ""
+
+msgctxt "#30099"
+msgid "Supersample the Mode 7 graphics used in certain games. Combined with higher Mode 7 scale factors, it produces an effect similar to anti-aliasing."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Show the mosaic effect of Mode 7 graphics even when upscaling them."
+msgstr ""
+
+msgctxt "#30101"
+msgid "Emulation Hacks and Enhancements"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Apply emulation hacks, enhancements and hotfixes."
+msgstr ""
+
+msgctxt "#30103"
+msgid "Simulate the system ahead of time and roll back to reduce input latency. Has very high system requirements."
+msgstr ""
+
+msgctxt "#30104"
+msgid "1 frame"
+msgstr ""
+
+msgctxt "#30105"
+msgid "2 frames"
+msgstr ""
+
+msgctxt "#30106"
+msgid "3 frames"
+msgstr ""
+
+msgctxt "#30107"
+msgid "4 frames"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Enable faster emulation of the coprocessors at the cost of a minor reduction of accuracy. It is recommended to leave this on."
+msgstr ""
+
+msgctxt "#30109"
+msgid "When this option is enabled, less accurate HLE emulation will always be used when available. If disabled, HLE will only be used when LLE firmware is missing."
+msgstr ""
+
+msgctxt "#30110"
+msgid "Even commercially licensed and officially released software is sometimes shipped with bugs. This option will correct certain issues that occurred even on real hardware."
+msgstr ""
+
+msgctxt "#30111"
+msgid "Choose the level of randomization of the memory and registers. If set to None, all memory and registers are initialized to constant values at startup. Low randomization provides the most accurate representation of a real system. High randomizes as much as possible."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Provide computation results immediately. CPU multiplication and division take time to complete on a real SNES. Older emulators did not simulate these delays and thus some older ROM hacks do not wait for math operations to complete and need this hack."
+msgstr ""
+
+msgctxt "#30113"
+msgid "Over-/Downclocking"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Change the speed of the emulated hardware."
+msgstr ""
+
+msgctxt "#30115"
+msgid "Overclock or downclock the CPU. Setting this value above 100% may reduce loading times and remove slowdown. Use with caution as it may also cause some games to crash or exhibit other issues."
+msgstr ""
+
+msgctxt "#30116"
+msgid "210%"
+msgstr ""
+
+msgctxt "#30117"
+msgid "220%"
+msgstr ""
+
+msgctxt "#30118"
+msgid "230%"
+msgstr ""
+
+msgctxt "#30119"
+msgid "240%"
+msgstr ""
+
+msgctxt "#30120"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30121"
+msgid "260%"
+msgstr ""
+
+msgctxt "#30122"
+msgid "270%"
+msgstr ""
+
+msgctxt "#30123"
+msgid "280%"
+msgstr ""
+
+msgctxt "#30124"
+msgid "290%"
+msgstr ""
+
+msgctxt "#30125"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30126"
+msgid "310%"
+msgstr ""
+
+msgctxt "#30127"
+msgid "320%"
+msgstr ""
+
+msgctxt "#30128"
+msgid "330%"
+msgstr ""
+
+msgctxt "#30129"
+msgid "340%"
+msgstr ""
+
+msgctxt "#30130"
+msgid "350%"
+msgstr ""
+
+msgctxt "#30131"
+msgid "360%"
+msgstr ""
+
+msgctxt "#30132"
+msgid "370%"
+msgstr ""
+
+msgctxt "#30133"
+msgid "380%"
+msgstr ""
+
+msgctxt "#30134"
+msgid "390%"
+msgstr ""
+
+msgctxt "#30135"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Overclock or downclock the Super Accelerator 1 (SA-1) chip. Setting this value above 100% may improve performance in games that support the SA-1 chip. Use with caution, as it may also cause some games to crash or exhibit other issues."
+msgstr ""
+
+msgctxt "#30137"
+msgid "Overclock or downclock the SuperFX coprocessor. Setting this value above 100% may improve performance in games that support the SuperFX. Use with caution, as it may also cause some games to crash or exhibit other issues."
+msgstr ""
+
+msgctxt "#30138"
+msgid "410%"
+msgstr ""
+
+msgctxt "#30139"
+msgid "420%"
+msgstr ""
+
+msgctxt "#30140"
+msgid "430%"
+msgstr ""
+
+msgctxt "#30141"
+msgid "440%"
+msgstr ""
+
+msgctxt "#30142"
+msgid "450%"
+msgstr ""
+
+msgctxt "#30143"
+msgid "460%"
+msgstr ""
+
+msgctxt "#30144"
+msgid "470%"
+msgstr ""
+
+msgctxt "#30145"
+msgid "480%"
+msgstr ""
+
+msgctxt "#30146"
+msgid "490%"
+msgstr ""
+
+msgctxt "#30147"
+msgid "500%"
+msgstr ""
+
+msgctxt "#30148"
+msgid "510%"
+msgstr ""
+
+msgctxt "#30149"
+msgid "520%"
+msgstr ""
+
+msgctxt "#30150"
+msgid "530%"
+msgstr ""
+
+msgctxt "#30151"
+msgid "540%"
+msgstr ""
+
+msgctxt "#30152"
+msgid "550%"
+msgstr ""
+
+msgctxt "#30153"
+msgid "560%"
+msgstr ""
+
+msgctxt "#30154"
+msgid "570%"
+msgstr ""
+
+msgctxt "#30155"
+msgid "580%"
+msgstr ""
+
+msgctxt "#30156"
+msgid "590%"
+msgstr ""
+
+msgctxt "#30157"
+msgid "600%"
+msgstr ""
+
+msgctxt "#30158"
+msgid "610%"
+msgstr ""
+
+msgctxt "#30159"
+msgid "620%"
+msgstr ""
+
+msgctxt "#30160"
+msgid "630%"
+msgstr ""
+
+msgctxt "#30161"
+msgid "640%"
+msgstr ""
+
+msgctxt "#30162"
+msgid "650%"
+msgstr ""
+
+msgctxt "#30163"
+msgid "660%"
+msgstr ""
+
+msgctxt "#30164"
+msgid "670%"
+msgstr ""
+
+msgctxt "#30165"
+msgid "680%"
+msgstr ""
+
+msgctxt "#30166"
+msgid "690%"
+msgstr ""
+
+msgctxt "#30167"
+msgid "700%"
+msgstr ""
+
+msgctxt "#30168"
+msgid "710%"
+msgstr ""
+
+msgctxt "#30169"
+msgid "720%"
+msgstr ""
+
+msgctxt "#30170"
+msgid "730%"
+msgstr ""
+
+msgctxt "#30171"
+msgid "740%"
+msgstr ""
+
+msgctxt "#30172"
+msgid "750%"
+msgstr ""
+
+msgctxt "#30173"
+msgid "760%"
+msgstr ""
+
+msgctxt "#30174"
+msgid "770%"
+msgstr ""
+
+msgctxt "#30175"
+msgid "780%"
+msgstr ""
+
+msgctxt "#30176"
+msgid "790%"
+msgstr ""
+
+msgctxt "#30177"
+msgid "800%"
+msgstr ""
+
+msgctxt "#30178"
+msgid "Super Game Boy"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Change settings regarding the Super Game Boy emulation."
+msgstr ""
+
+msgctxt "#30180"
+msgid "Choose the preferred Super Game Boy BIOS to be used with compatible titles."
+msgstr ""
+
+msgctxt "#30181"
+msgid "Super Game Boy (SGB1.sfc)"
+msgstr ""
+
+msgctxt "#30182"
+msgid "Super Game Boy 2 (SGB2.sfc)"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Hide the border when playing Super Game Boy games."
+msgstr ""
+
+msgctxt "#30184"
+msgid "Light Gun"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Change (touchscreen) light gun settings."
+msgstr ""
+
+msgctxt "#30186"
+msgid "Enable Super Scope input for touchscreen devices."
+msgstr ""
+
+msgctxt "#30187"
+msgid "Reverse the Super Scope trigger and cursor buttons with the touchscreen lightgun."
+msgstr ""
+
+msgctxt "#30188"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30189"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30190"
+msgid "Low"
+msgstr ""
+
+msgctxt "#30191"
+msgid "High"
+msgstr ""

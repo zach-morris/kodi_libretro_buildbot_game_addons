@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mame2010"
+		name="Arcade (MAME 2010)"
+		version="0.139.0.40"
+		provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>zip|chd|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2010_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2010</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2010)</summary>
+		<summary lang="da_DK">Arcade (MAME 2010)</summary>
+		<summary lang="en_GB">Arcade (MAME 2010)</summary>
+		<summary lang="es_ES">Arcade (MAME 2010)</summary>
+		<summary lang="ga">Arcade (MAME 2010)</summary>
+		<summary lang="it_IT">Arcade (MAME 2010)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2010)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2010)</summary>
+		<summary lang="zh_CN">街机（MAME 2010）</summary>
+		<description lang="cs_CZ">Verze MAME z konce roku 2010 (0.139) pro Libretro. Kompatibilní se sadami MAME 0.139.</description>
+		<description lang="da_DK">Sen 2010-version af MAME (0.139) til libretro. Kompatibel med MAME 0.139 sæt.</description>
+		<description lang="de_DE">Späte 2010-Version von MAME (0.139) für libretro. Kompatibel mit MAME 0.139 Sets.</description>
+		<description lang="en_GB">Late 2010 version of MAME (0.139) for libretro. Compatible with MAME 0.139 sets.</description>
+		<description lang="es_ES">Versión de finales de 2010 de MAME (0.139) para libretro. Compatible con los juegos de MAME 0.139.</description>
+		<description lang="ga">Leagan déanach 2010 de MAME (0.139) do libretro. Comhoiriúnach le tacair MAME 0.139.</description>
+		<description lang="it_IT">Versione di fine 2010 di MAME (0.139) per libretro. Compatibile con i set MAME 0.139.</description>
+		<description lang="ru_RU">Версия MAME (0.139) конца 2010 года для libretro. Совместима с наборами MAME 0.139.</description>
+		<description lang="sv_SE">Sen 2010-version av MAME (0.139) för libretro. Kompatibel med MAME 0.139-uppsättningar.</description>
+		<description lang="zh_CN">2010 年末 libretro 版本的 MAME（0.139）。兼容 MAME 0.139。</description>
+	</extension>
+</addon>

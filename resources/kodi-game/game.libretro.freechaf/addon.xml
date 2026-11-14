@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.freechaf"
+		name="Fairchild - ChannelF (FreeChaF)"
+		version="1.0.0.38"
+		provider-name="David Richardson">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.channelf" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Fairchild - ChannelF</platforms>
+		<extensions>bin|rom|chf</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>freechaf_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.freechaf</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="ca_ES">Fairchild - ChannelF (FreeChaF)</summary>
+		<summary lang="cs_CZ">Fairchild - Channel F (FreeChaF)</summary>
+		<summary lang="en_GB">Fairchild - ChannelF (FreeChaF)</summary>
+		<summary lang="es_ES">Fairchild - ChannelF (FreeChaF)</summary>
+		<summary lang="ga">Fairchild - ChannelF (FreeChaF)</summary>
+		<summary lang="it_IT">Fairchild - ChannelF (FreeChaF)</summary>
+		<summary lang="ru_RU">Fairchild - ChannelF (FreeChaF)</summary>
+		<summary lang="sv_SE">Fairchild - ChannelF (FreeChaF)</summary>
+		<summary lang="zh_CN">仙童 -Channel F (FreeChaF)</summary>
+		<description lang="ca_ES">FreeChaF és un nucli d&apos;emulació de libretro per al Fairchild ChannelF / Video Entertainment System dissenyat per a la compatibilitat amb joypads.</description>
+		<description lang="cs_CZ">FreeChaF je emulační jádro Libretro pro Fairchild Channel F / Video Entertainment System navržené pro kompatibilitu s gamepady.</description>
+		<description lang="da_DK">FreeChaF er en libretro-emuleringskerne til Fairchild ChannelF/Video Entertainment System designet til joypad-kompatibilitet.</description>
+		<description lang="de_DE">FreeChaF ist ein Libretro-Emulations-Core für das Fairchild ChannelF / Video Entertainment System, der für Joypad-Kompatibilität entwickelt wurde.</description>
+		<description lang="en_GB">FreeChaF is a libretro emulation core for the Fairchild ChannelF / Video Entertainment System designed for joypad compatibility.</description>
+		<description lang="es_ES">FreeChaF es un núcleo de emulación libretro para el Fairchild ChannelF / Video Entertainment System diseñado para ser compatible con joypad.</description>
+		<description lang="ga">Croílár aithrise libretro is ea FreeChaF don Fairchild ChannelF / Córas Siamsaíochta Físe atá deartha le haghaidh comhoiriúnacht ceap cluiche.</description>
+		<description lang="it_IT">FreeChaF è un core di emulazione libretro per Fairchild ChannelF / Video Entertainment System progettato per la compatibilità con i joypad.</description>
+		<description lang="ko_KR">FreeChaF는 조이패드 호환성을 위해 설계된 Fairchild ChannelF/비디오 엔터테인먼트 시스템을 위한 libretro 에뮬레이션 코어입니다.</description>
+		<description lang="ru_RU">FreeChaF — это ядро эмуляции libretro для Fairchild ChannelF / Video Entertainment System, разработанное для совместимости с джойстиками.</description>
+		<description lang="sl_SI">FreeChaF je libretro emulacijsko jedro za Fairchild ChannelF / Video Entertainment System, zasnovano za združljivost igralne plošče.</description>
+		<description lang="sv_SE">FreeChaF är en libretro-emuleringskärna för Fairchild ChannelF / Video Entertainment System utformad för joypad-kompatibilitet.</description>
+		<description lang="zh_CN">FreeChaF 是仙童 Channel F/视频娱乐系统的 libretro 仿真核心，专为游戏手柄兼容性而设计。</description>
+	</extension>
+</addon>

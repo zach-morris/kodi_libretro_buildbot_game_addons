@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.flycast"
+		name="Sega - Dreamcast/Naomi (Flycast)"
+		version="0.1.0.71"
+		provider-name="flyinghead">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.dreamcast" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - Dreamcast/Naomi</platforms>
+		<extensions>chd|cdi|elf|cue|gdi|lst|bin|dat|zip|7z|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>flycast_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.flycast</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Sega - Dreamcast/NAOMI (Flycast)</summary>
+		<summary lang="da_DK">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="en_GB">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="es_ES">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="ga">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="it_IT">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="ru_RU">Sega — Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="sv_SE">Sega - Dreamcast/Naomi (Flycast)</summary>
+		<summary lang="zh_CN">世嘉 - Dreamcast/Naomi (Flycast)</summary>
+		<description lang="cs_CZ">Flycast je odvozená verze Reicastu, multiplatformního emulátoru Sega Dreamcast.</description>
+		<description lang="da_DK">Flycast er en fork af Reicast, en Sega Dreamcast-emulator til adskillige platforme.</description>
+		<description lang="de_DE">Flycast ist ein Ableger von Reicast, einem Multiplattform-Emulator für Sega Dreamcast.</description>
+		<description lang="en_GB">Flycast is a fork of Reicast, a multi-platform Sega Dreamcast emulator.</description>
+		<description lang="es_ES">Flycast es una bifurcación de Reicast, un emulador multiplataforma de Sega Dreamcast.</description>
+		<description lang="ga">Is forc de Reicast é Flycast, aithriseoir il-ardán Sega Dreamcast.</description>
+		<description lang="it_IT">Flycast è un fork di Reicast, un emulatore multipiattaforma per Sega Dreamcast.</description>
+		<description lang="ru_RU">Flycast — это форк Reicast, кроссплатформенного эмулятора Sega Dreamcast.</description>
+		<description lang="sv_SE">Flycast är en del av Reicast, en multiplattformsemulator för Sega Dreamcast.</description>
+		<description lang="zh_CN">Flycast 是 Reicast 的一个分支，是一个多平台的世嘉 Dreamcast 模拟器。</description>
+	</extension>
+</addon>

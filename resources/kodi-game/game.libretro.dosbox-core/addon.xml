@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.dosbox-core"
+		name="DOS (DOSBox-core)"
+		version="4482.0.0.20"
+		provider-name="DOSBox Team, radius, Nikos Chantziaras">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>exe|com|bat|conf|cue|iso|img</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.dosbox-core</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="da_DK">DOS (DOSBox-core)</summary>
+		<summary lang="en_GB">DOS (DOSBox-core)</summary>
+		<summary lang="es_ES">DOS (DOSBox-core)</summary>
+		<summary lang="it_IT">DOS (DOSBox-core)</summary>
+		<summary lang="ko_KR">도스 (도스박스 코어)</summary>
+		<summary lang="zh_CN">DOS (DOSBox-core)</summary>
+		<description lang="da_DK">En DOSBox-kerne til brug i RetroArch og andre libretro-frontends.</description>
+		<description lang="de_DE">Ein DOSBox-Core zur Verwendung in RetroArch und anderen libretro-Frontends.</description>
+		<description lang="en_GB">A DOSBox core for use in RetroArch and other libretro frontends.</description>
+		<description lang="es_ES">Un núcleo DOSBox para su uso en RetroArch y otros frontends libretro.</description>
+		<description lang="fi_FI">DOSBox-ydin RetroArchille ja muille libretro-käyttöliittymille.</description>
+		<description lang="it_IT">Un core DOSBox da utilizzare in RetroArch e altri frontend libretro.</description>
+		<description lang="ko_KR">RetroArch 및 기타 libretro 프론트엔드에서 사용하기 위한 DOSBox 코어.</description>
+		<description lang="zh_CN">用于 RetroArch 和其他 libretro 前端的 DOSBox 核心。</description>
+		<lifecyclestate type="broken" lang="en_GB">DOSBox-Core is broken. Use DOSBox or DOSBox-Pure.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">DOSBox-Core está roto. Utiliza DOSBox o DOSBox-Pure.</lifecyclestate>
+		<lifecyclestate type="broken" lang="it_IT">DOSBox-Core non funziona. Usa DOSBox o DOSBox-Pure.</lifecyclestate>
+		<lifecyclestate type="broken" lang="ko_KR">DOSBox-Core가 손상되었습니다. DOSBox 또는 DOSBox-Pure를 사용하십시오.</lifecyclestate>
+	</extension>
+</addon>

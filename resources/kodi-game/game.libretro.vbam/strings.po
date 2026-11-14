@@ -1,0 +1,426 @@
+# game.libretro.vbam language file
+# Addon Name: game.libretro.vbam
+# Addon id: game.libretro.vbam
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.vbam\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 22:14+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-vbam/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy Advance (VBA-M)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "VBA-M is a Nintendo Game Boy and Game Boy Advance emulator based on the official VisualBoyAdvance by Forgotten and the VBA development team."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Use Official BIOS (If Available)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Force-Enable RTC"
+msgstr ""
+
+msgctxt "#30003"
+msgid "(GB) Emulated Hardware (Needs Restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "(GB) Enable Colorizer Hack (Needs Restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "(GB) Color Palette"
+msgstr ""
+
+msgctxt "#30006"
+msgid "(GB) Show Borders"
+msgstr ""
+
+msgctxt "#30008"
+msgid "LCD Color Filter"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Interframe Blending"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Enable Turbo Buttons"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Turbo Delay (in frames)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Solar Sensor Level"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Sensors Deadzone (%)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Sensor Sensitivity (Gyroscope) (%)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Sensor Sensitivity (Tilt) (%)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Swap Left/Right Analog"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Show Background Layer 1"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Show Background Layer 2"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Show Background Layer 3"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Show Background Layer 4"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Show Sprite Layer"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Show Window Layer 1"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Show Window Layer 2"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Show Sprite Window Layer"
+msgstr ""
+
+msgctxt "#30033"
+msgid "LCD Color Filter Type"
+msgstr ""
+
+msgctxt "#30034"
+msgid "LCD Color Lighten/Darken"
+msgstr ""
+
+msgctxt "#30035"
+msgid "(GBA) Sound Interpolation"
+msgstr ""
+
+msgctxt "#30036"
+msgid "(GBA) Sound Filtering"
+msgstr ""
+
+msgctxt "#30037"
+msgid "(GB) Sound Effects"
+msgstr ""
+
+msgctxt "#30038"
+msgid "(GB) Echo Effects"
+msgstr ""
+
+msgctxt "#30039"
+msgid "(GB) Stereo Effects"
+msgstr ""
+
+msgctxt "#30040"
+msgid "(GB) Surround Effects"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Square Channel 1 (Sweep)"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Square Channel 2"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Wave Channel"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Noise Channel"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Direct Sound A (GBA only)"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Direct Sound B (GBA only)"
+msgstr ""
+
+msgctxt "#30047"
+msgid "System"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Configure system options."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Use official BIOS when available. Core needs to be restarted for changes to apply."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Forces the internal real-time clock to be enabled regardless of rom. Usuable for rom patches that requires clock to be enabled (aka Pokemon)."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Sets the Game Boy hardware type to emulate. Restart core to apply."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Game Boy Color"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Super Game Boy"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Game Boy"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Game Boy Advance"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Super Game Boy 2"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Allows Colorizer hacked GB games (e.g. DX patched games) to normally run in GBC/GBA hardware type. This also disables the use of bios file. NOT RECOMMENDED for use on non-colorized games."
+msgstr ""
+
+msgctxt "#30059"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Configure video options."
+msgstr ""
+
+msgctxt "#30061"
+msgid "Set Game Boy palettes to use."
+msgstr ""
+
+msgctxt "#30062"
+msgid "When enabled, if loaded content is SGB compatible, this will show the border from the game if available."
+msgstr ""
+
+msgctxt "#30063"
+msgid "Darkens the onscreen colors by applying a screen filter."
+msgstr ""
+
+msgctxt "#30064"
+msgid "Screen filter type for onscreen colors."
+msgstr ""
+
+msgctxt "#30065"
+msgid "LCD Color Filter GBA Panel"
+msgstr ""
+
+msgctxt "#30066"
+msgid "LCD panel the GBA color correction emulates."
+msgstr ""
+
+msgctxt "#30067"
+msgid "LCD Color Filter GBC Panel"
+msgstr ""
+
+msgctxt "#30068"
+msgid "LCD panel the GBC color correction emulates."
+msgstr ""
+
+msgctxt "#30069"
+msgid "Darken GBA or lighten GBC in %."
+msgstr ""
+
+msgctxt "#30070"
+msgid "Simulates LCD ghosting effects. 'Smart' attempts to detect screen flickering, and only performs a 50:50 mix on affected pixels, while 'Motion Blur' mimics natural LCD response times by combining multiple buffered frames. 'Smart' blending is required when playing games that aggressively exploit LCD ghosting for transparency effects (Wave Race, Chikyuu Kaihou Gun ZAS, F-Zero, the Boktai series...)."
+msgstr ""
+
+msgctxt "#30071"
+msgid "Smart"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Motion Blur"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Configure audio options."
+msgstr ""
+
+msgctxt "#30075"
+msgid "Applies low-pass filtering to smooth high-frequency noise in PCM audio."
+msgstr ""
+
+msgctxt "#30076"
+msgid "Audio Driver"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Selects the audio output backend. \"None\" outputs no audio and only paces emulation with a timer; it is also used automatically if the normal driver fails to initialize. Core needs to be restarted for changes to apply."
+msgstr ""
+
+msgctxt "#30078"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30079"
+msgid "None (timer paced)"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Adjusts the intensity of the low-pass filter applied to audio (0 = none, 10 = maximum)."
+msgstr ""
+
+msgctxt "#30081"
+msgid "Enables or disabled all Game Boy sound effects."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Mix level for the reflected (echo) signal (0 = none, 10 = maximum)."
+msgstr ""
+
+msgctxt "#30083"
+msgid "Adjusts stereo effect strength — higher values widen left/right placement (0 = none, 10 = maximum)"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Adds a surround effect, placing some channels behind the listener for a wider soundstage."
+msgstr ""
+
+msgctxt "#30085"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30086"
+msgid "Configure input options."
+msgstr ""
+
+msgctxt "#30087"
+msgid "Enable or disable gamepad turbo buttons."
+msgstr ""
+
+msgctxt "#30088"
+msgid "Repeat rate of turbo triggers in frames. Higher value triggers more."
+msgstr ""
+
+msgctxt "#30089"
+msgid "Adjusts simulated solar level in Boktai games. L2/R2 buttons can also be used to quickly change levels."
+msgstr ""
+
+msgctxt "#30090"
+msgid "Set deadzone (in percent) of analog sticks."
+msgstr ""
+
+msgctxt "#30091"
+msgid "Default bind is left analog. Used to adjust sensitivity level for gyro-enabled games."
+msgstr ""
+
+msgctxt "#30092"
+msgid "Default bind is right analog. Used to adjust sensitivity level for gyro-enabled games."
+msgstr ""
+
+msgctxt "#30093"
+msgid "Swaps left and right analog stick function for gyro and tilt."
+msgstr ""
+
+msgctxt "#30094"
+msgid "Advanced options"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Configure advanced options which can enable or disable sound channels and graphics layers."
+msgstr ""
+
+msgctxt "#30096"
+msgid "Enables or disables square wave channel 1 with frequency sweep (tone + sweep)."
+msgstr ""
+
+msgctxt "#30097"
+msgid "Enables or disables square wave channel 2 (tone only)."
+msgstr ""
+
+msgctxt "#30098"
+msgid "Enables or disables programmable waveform channel (custom samples)."
+msgstr ""
+
+msgctxt "#30099"
+msgid "Enables or disables noise generator channel (percussion / effects)."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Enables or disables Direct Sound channel A (PCM / DMA audio stream)."
+msgstr ""
+
+msgctxt "#30101"
+msgid "Enables or disables Direct Sound channel B (PCM / DMA audio stream)."
+msgstr ""
+
+msgctxt "#30102"
+msgid "Shows or hides background layer 1."
+msgstr ""
+
+msgctxt "#30103"
+msgid "Shows or hides background layer 2."
+msgstr ""
+
+msgctxt "#30104"
+msgid "Shows or hides background layer 3."
+msgstr ""
+
+msgctxt "#30105"
+msgid "Shows or hides background layer 4."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Shows or hides sprite layer."
+msgstr ""
+
+msgctxt "#30107"
+msgid "Shows or hides window layer 1."
+msgstr ""
+
+msgctxt "#30108"
+msgid "Shows or hides window layer 2."
+msgstr ""
+
+msgctxt "#30109"
+msgid "Shows or hides sprite window layer."
+msgstr ""

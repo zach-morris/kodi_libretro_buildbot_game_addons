@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.openlara">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="openlara_resolution" type="string" label="30001">
+					<level>0</level>
+					<default>320x240</default>
+					<constraints>
+						<options>
+							<option>320x240</option>
+							<option>360x480</option>
+							<option>480x272</option>
+							<option>512x384</option>
+							<option>512x512</option>
+							<option>640x224</option>
+							<option>640x448</option>
+							<option>640x480</option>
+							<option>720x576</option>
+							<option>800x600</option>
+							<option>960x720</option>
+							<option>1024x768</option>
+							<option>1280x720</option>
+							<option>1280x960</option>
+							<option>1600x1200</option>
+							<option>1920x1080</option>
+							<option>1920x1440</option>
+							<option>1920x1600</option>
+							<option>2048x2048</option>
+							<option>2560x1440</option>
+							<option>3840x2160</option>
+							<option>7680x4320</option>
+							<option>15360x8640</option>
+							<option>16000x9000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="openlara_framerate" type="string" label="30002">
+					<level>0</level>
+					<default>60fps</default>
+					<constraints>
+						<options>
+							<option>60fps</option>
+							<option>30fps</option>
+							<option>70fps</option>
+							<option>72fps</option>
+							<option>75fps</option>
+							<option>90fps</option>
+							<option>100fps</option>
+							<option>119fps</option>
+							<option>120fps</option>
+							<option>144fps</option>
+							<option>240fps</option>
+							<option>244fps</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

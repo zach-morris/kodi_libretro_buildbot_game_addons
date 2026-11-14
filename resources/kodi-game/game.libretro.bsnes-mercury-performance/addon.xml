@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.bsnes-mercury-performance"
+		name="Nintendo - SNES / SFC (bsnes-mercury Performance)"
+		version="0.94.0.45"
+		provider-name="Near, Alcaro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+		<import addon="game.controller.snes.multitap" version="1.0.0"/>
+		<import addon="game.controller.snes.super.scope" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.player2" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>sfc|smc|bml</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>bsnes_mercury_performance_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bsnes-mercury-performance</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes-mercury Rendimiento)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (feidhmíocht bsnes-mearcair)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (prestazioni bsnes-mercury)</summary>
+		<summary lang="ru_RU">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC（bsnes-mercury 性能）</summary>
+		<description lang="cs_CZ">bSNES Mercury je verze odvozená od emulátoru Higan (původně nazývaného bSNES), známá tím, že emuluje původní hardware co nejpřesněji pomocí nízkoúrovňové, cyklově přesné emulace.[CR][CR]Profil [I]Performance[/I] se zaměřuje více na rychlost běhu než na přesnost.</description>
+		<description lang="da_DK">bSNES Mercury er en fork af Higan (oprindeligt kaldet bSNES), kendt for at emulere den originale hardware så nøjagtigt som muligt gennem lav-niveau, cyklus-nøjagtig emulering.[CR][CR][I]Ydeevne[/I]-profilen fokuserer mere på udførelseshastighed end på nøjagtighed.</description>
+		<description lang="de_DE">bSNES Mercury ist ein Ableger von Higan (ursprünglich bSNES), der sich durch eine möglichst genaue Emulation der Originalhardware auszeichnet.[CR][CR]Das [I]Performance[/I]-Profil konzentriert sich mehr auf die Ausführungsgeschwindigkeit als auf die Genauigkeit.</description>
+		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The [I]Performance[/I] profile focuses more on execution speed than on accuracy.</description>
+		<description lang="es_ES">bSNES Mercury es una bifurcación de Higan (originalmente llamado bSNES), que destaca por emular el hardware original con la mayor precisión posible mediante emulación de bajo nivel y precisión de ciclos.[CR][CR]El perfil [I]Performance[/I] se centra más en la velocidad de ejecución que en la precisión.</description>
+		<description lang="ga">Is forc de Higan (ar a dtugtaí bSNES ar dtús) é bSNES Mercury, atá suntasach as an gcrua-earraí bunaidh a aithris chomh cruinn agus is féidir trí aithris íseal-leibhéil, timthriall-chruinn.[CR][CR]Díríonn an phróifíl [I]Feidhmíochta[/I] níos mó ar luas forghníomhaithe ná ar chruinneas.</description>
+		<description lang="it_IT">bSNES Mercury è un fork di Higan (originariamente chiamato bSNES), noto per emulare l&apos;hardware originale nel modo più accurato possibile attraverso un&apos;emulazione di basso livello e accurata del ciclo.[CR][CR]Il profilo [I]Performance[/I] si concentra più sulla velocità di esecuzione che sulla precisione.</description>
+		<description lang="ru_RU">bSNES Mercury — это форк Higan (первоначально называвшийся bSNES), отличающийся максимально точной эмуляцией оригинального оборудования с помощью низкоуровневой эмуляции с точностью до цикла.[CR][CR]Профиль [I]Производительность[/I] больше фокусируется на скорости выполнения, чем на точности.</description>
+		<description lang="sv_SE">bSNES Mercury är en fork av Higan (ursprungligen kallad bSNES), känd för att emulera den ursprungliga hårdvaran så exakt som möjligt genom cykelnoggrann emulering på låg nivå.[CR][CR]Profilen [I]Performance[/I] fokuserar mer på exekveringshastighet än på noggrannhet.</description>
+		<description lang="zh_CN">bSNES Mercury 是 Higan（最初称为 bSNES）的一个分支，以通过低级别、周期精确的仿真尽可能精确地模拟原始硬件而著名。[CR][CR][I]性能[/I]配置更关注执行速度而不是准确性。</description>
+		<disclaimer lang="cs_CZ">S láskou na památku Near / Byuu</disclaimer>
+		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
+		<disclaimer lang="de_DE">In liebevoller Erinnerung an Near / Byuu</disclaimer>
+		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
+		<disclaimer lang="es_ES">En cariñoso recuerdo de Near / Byuu</disclaimer>
+		<disclaimer lang="ga">I ngrá le Near / Byuu</disclaimer>
+		<disclaimer lang="it_IT">In amorevole ricordo di Near / Byuu</disclaimer>
+		<disclaimer lang="ko_KR">Near / Byuu의 사랑을 기억하며</disclaimer>
+		<disclaimer lang="ru_RU">В память о Near / Byuu</disclaimer>
+		<disclaimer lang="sv_SE">Till kärleksfullt minne av Near / Byuu</disclaimer>
+		<disclaimer lang="zh_CN">怀念 Near / Byuu</disclaimer>
+	</extension>
+</addon>

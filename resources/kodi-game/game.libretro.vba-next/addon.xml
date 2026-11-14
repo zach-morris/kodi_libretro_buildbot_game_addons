@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.vba-next"
+		name="Nintendo - Game Boy Advance (VBA Next)"
+		version="1.0.2.53"
+		provider-name="Forgotten, VBA-M Team, Squarepusher">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.gba" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Game Boy Advance</platforms>
+		<extensions>gba</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>vba_next_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.vba-next</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Game Boy Advance (VBA Next)</summary>
+		<summary lang="da_DK">Nintendo - Game Boy Advance (VBA Next)</summary>
+		<summary lang="en_GB">Nintendo - Game Boy Advance (VBA Next)</summary>
+		<summary lang="es_ES">Nintendo - Game Boy Advance (VBA Next)</summary>
+		<summary lang="ga">Nintendo - Game Boy Advance (VBA Next)</summary>
+		<summary lang="it_IT">Nintendo - Game Boy Advance (VBA Next)</summary>
+		<summary lang="ru_RU">Nintendo - Game Boy Advance (VBA Next)</summary>
+		<summary lang="sv_SE">Nintendo - Game Boy Advance (VBA Next)</summary>
+		<summary lang="zh_CN">任天堂 - Game Boy Advance (VBA Next)</summary>
+		<description lang="cs_CZ">VBA-Next je odvozená verze nyní neaktivního projektu VisualBoy Advance, jejímž cílem je zlepšit kompatibilitu a funkce emulátoru.</description>
+		<description lang="da_DK">VBA-Next er en fork af det nu inaktive VisualBoy Advance-projekt, med mål om at forbedre emulatorens kompatibilitet og funktioner.</description>
+		<description lang="de_DE">VBA-Next ist ein Fork des mittlerweile nicht mehr aktiven VisualBoy-Advance-Projekts, mit dem Ziel, die Kompatibilität und die Funktionen des Emulators zu verbessern.</description>
+		<description lang="en_GB">VBA-Next is a fork from the now inactive VisualBoy Advance project, with goals to improve the compatibility and features of the emulator.</description>
+		<description lang="es_ES">VBA-Next es una bifurcación del ahora inactivo proyecto VisualBoy Advance, con el objetivo de mejorar la compatibilidad y las características del emulador.</description>
+		<description lang="ga">Is forc ón tionscadal VisualBoy Advance atá neamhghníomhach anois é VBA-Next, agus tá sé mar aidhm aige comhoiriúnacht agus gnéithe an aithriseora a fheabhsú.</description>
+		<description lang="it_IT">VBA-Next è un fork del progetto VisualBoy Advance, ora inattivo, con l&apos;obiettivo di migliorare la compatibilità e le funzionalità dell&apos;emulatore.</description>
+		<description lang="ru_RU">VBA-Next — ответвление ныне неактивного проекта VisualBoy Advance, целью которого является улучшение совместимости и функций эмулятора.</description>
+		<description lang="sl_SI">VBA-Next je razcep iz zdaj neaktivnega projekta VisualBoy Advance, katerega namen je izboljšati združljivost in funkcije emulatorja.</description>
+		<description lang="sv_SE">VBA-Next är en fork från det nu inaktiva VisualBoy Advance-projektet, med mål att förbättra emulatorns kompatibilitet och funktioner.</description>
+		<description lang="zh_CN">VBA-Next 是现在不活跃的 VisualBoy Advance 项目的一个分支，其目标是改进模拟器的兼容性和功能。</description>
+	</extension>
+</addon>

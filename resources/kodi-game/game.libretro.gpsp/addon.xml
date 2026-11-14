@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.gpsp"
+		name="Nintendo - Game Boy Advance (gpSP)"
+		version="1.1.0.60"
+		provider-name="Exophase">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Game Boy Advance</platforms>
+		<extensions>gba|bin|agb|gbz|u1</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>gpsp_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.gpsp</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Game Boy Advance (gpSP)</summary>
+		<summary lang="da_DK">Nintendo - Game Boy Advance (gpSP)</summary>
+		<summary lang="en_GB">Nintendo - Game Boy Advance (gpSP)</summary>
+		<summary lang="es_ES">Nintendo - Game Boy Advance (gpSP)</summary>
+		<summary lang="ga">Nintendo - Game Boy Advance (gpSP)</summary>
+		<summary lang="it_IT">Nintendo - Game Boy Advance (gpSP)</summary>
+		<summary lang="ru_RU">Nintendo — Game Boy Advance (gpSP)</summary>
+		<summary lang="sv_SE">Nintendo - Game Boy Advance (gpSP)</summary>
+		<summary lang="zh_CN">任天堂 - Game Boy Advance (gpSP)</summary>
+		<description lang="cs_CZ">gpSP je emulátor Game Boy Advance odvozený od verze gpSP od notaze s dalšími vylepšeními kódové základny.</description>
+		<description lang="da_DK">gpSP er en Game Boy Advance-emulator baseret på notaz&apos;s fork af gpSP med yderligere kodebaseforbedringer.</description>
+		<description lang="en_GB">gpSP is a Game Boy Advance emulator based on notaz&apos;s fork of gpSP with additional codebase improvements.</description>
+		<description lang="es_ES">gpSP es un emulador de Game Boy Advance basado en la bifurcación de notaz de gpSP con mejoras adicionales en el código base.</description>
+		<description lang="ga">Is aithriseoir Game Boy Advance é gpSP atá bunaithe ar fhorc notaz de gpSP le feabhsuithe breise ar an gcódbhunchód.</description>
+		<description lang="it_IT">gpSP è un emulatore per Game Boy Advance basato sul fork di gpSP di notaz con ulteriori miglioramenti al codice sorgente.</description>
+		<description lang="ru_RU">gpSP — это эмулятор Game Boy Advance, основанный на форке gpSP от notaz с дополнительными улучшениями кодовой базы.</description>
+		<description lang="sv_SE">gpSP är en Game Boy Advance-emulator baserad på notazs fork av gpSP med ytterligare förbättringar av kodbasen.</description>
+		<description lang="zh_CN">gpSP 是一款基于 notaz 的 gpSP 分支的 Game Boy Advance 模拟器，具有额外的代码库改进。</description>
+	</extension>
+</addon>

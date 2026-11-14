@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.dinothawr"
+		name="Dinothawr"
+		version="1.0.0.50"
+		provider-name="Themaister, Agnes Heyer">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>game</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>dinothawr_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.dinothawr</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Dinothawr</summary>
+		<summary lang="da_DK">Dinothawr</summary>
+		<summary lang="en_GB">Dinothawr</summary>
+		<summary lang="es_ES">Dinothawr</summary>
+		<summary lang="ga">Dinothawr</summary>
+		<summary lang="it_IT">Dinothawr</summary>
+		<summary lang="ko_KR">디노소우르</summary>
+		<summary lang="ru_RU">Dinothawr</summary>
+		<summary lang="sv_SE">Dinothawr</summary>
+		<summary lang="zh_CN">恐龙侠</summary>
+		<description lang="cs_CZ">Dinothawr je logická hra s posouváním bloků na kluzkých površích.[CR][CR]Vaším úkolem je osvobodit přátele dinosauřího hrdiny z jejich ledového vězení.</description>
+		<description lang="da_DK">Dinothawr er et blokskubbende puslespil på glatte overflader.[CR][CR]Det er din opgave at befri dinosaurheltens venner fra deres isfængsel.</description>
+		<description lang="de_DE">Dinothawr ist ein Blockschiebe-Puzzlespiel auf rutschigen Oberflächen. Die Aufgabe des Spielers ist es, die Freunde des Dinosaurierhelden aus ihrem Eisgefängnis zu befreien.</description>
+		<description lang="en_GB">Dinothawr is a block-pushing puzzle game on slippery surfaces.[CR][CR]It is your task to free the dinosaur hero&apos;s friends from their ice prison.</description>
+		<description lang="es_ES">Dinothawr es un juego rompecabezas de empujar bloques sobre superficies resbaladizas.[CR][CR]Tu tarea es liberar a los amigos del héroe dinosaurio de su prisión de hielo.</description>
+		<description lang="ga">Is cluiche puzail é Dinothawr ina mbrúitear blocanna ar dhromchlaí sleamhain.[CR][CR]Is é do chúram cairde laoch an dineasáir a shaoradh óna bpríosún oighir.</description>
+		<description lang="it_IT">Dinothawr è un puzzle game che spinge i blocchi su superfici scivolose.[CR][CR]Il tuo compito è liberare gli amici dell&apos;eroe dinosauro dalla loro prigione di ghiaccio.</description>
+		<description lang="ko_KR">Dinothawr은 미끄러운 표면에서 블록을 푸는 퍼즐 게임입니다.[CR][CR]공룡 영웅의 친구들을 얼음 감옥에서 해방시키는 것이 당신의 임무입니다.</description>
+		<description lang="ru_RU">Dinothawr — игра-головоломка, в которой вам предстоит толкать блоки на скользких поверхностях.[CR][CR]Ваша задача — освободить друзей героя-динозавра из ледяной тюрьмы.</description>
+		<description lang="sl_SI">Dinothawr je ugankarska igra s potiskanjem blokov na spolzkih površinah.[CR][CR]Vaša naloga je, da osvobodite prijatelje junaka dinozavra iz njihovega ledenega zapora.</description>
+		<description lang="sv_SE">Dinothawr är ett pusselspel där man flyttar block på hala ytor.[CR][CR]Det är din uppgift att befria dinosauriehjältens vänner från deras isfängelse.</description>
+		<description lang="zh_CN">《恐龙侠（Dinothawr）》是一款在光滑表面上推积木的益智游戏。[CR][CR]你的任务是把恐龙英雄的朋友们从他们的冰狱中解救出来。</description>
+	</extension>
+</addon>

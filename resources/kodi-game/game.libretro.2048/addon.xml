@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.2048"
+		name="2048"
+		version="1.0.0.157"
+		provider-name="Gabriele Cirulli">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions></extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>2048_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Public Domain</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.2048</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">2048</summary>
+		<summary lang="da_DK">2048</summary>
+		<summary lang="en_GB">2048</summary>
+		<summary lang="eo">2048</summary>
+		<summary lang="es_ES">2048</summary>
+		<summary lang="fr_FR">2048</summary>
+		<summary lang="ga">2048</summary>
+		<summary lang="it_IT">2048</summary>
+		<summary lang="nl_NL">2048</summary>
+		<summary lang="ru_RU">2048</summary>
+		<summary lang="sv_SE">2048</summary>
+		<summary lang="zh_CN">2048</summary>
+		<description lang="cs_CZ">Spojujte čísla a dostaňte se k dlaždici 2048![CR][CR]Dlaždice posouvejte pomocí kláves se šipkami. Když se dotknou dvě dlaždice se stejným číslem, sloučí se v jednu!</description>
+		<description lang="da_DK">Deltag i tallene og kom til 2048-flisen![CR][CR]Brug piletasterne til at flytte fliserne. Når to fliser med samme nummer rører hinanden, smelter de sammen til én!</description>
+		<description lang="de_DE">Die Zahlen verbinden und das 2048er Feld erreichen! Die Pfeiltasten dienen zum Verschieben der Felder. Wenn sich zwei Spielsteine mit der gleichen Zahl berühren, verschmelzen sie zu einem!</description>
+		<description lang="en_GB">Join the numbers and get to the 2048 tile![CR][CR]Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!</description>
+		<description lang="eo">Kupli la numerojn kaj atingi la 2048-kahelon![CR][CR]Uzu viajn sagoklavojn por movi la kahelojn. Kiam du kaheloj kun la sama numero tuŝas sin, ili unuiĝas!</description>
+		<description lang="es_ES">Une los números y llega a la ficha 2048![CR][CR]Usa las flechas del teclado para mover las fichas. Cuando dos fichas con el mismo número se tocan, ¡Se fusionan en una!</description>
+		<description lang="fr_FR">Relier les chiffres et accéder à la tuile 2048 ![CR][CR]Utiliser les touches fléchées pour déplacer les tuiles. Lorsque deux tuiles portant le même numéro se touchent, elles fusionnent en une seule !</description>
+		<description lang="ga">Ceangail na huimhreacha agus faigh an tíl 2048![CR][CR]Úsáid do chuid saighead chun na tíleanna a bhogadh. Nuair a dhéanann dhá thíl leis an uimhir chéanna teagmháil lena chéile, comhcheanglaíonn siad ina gceann amháin!</description>
+		<description lang="it_IT">Unisci i numeri e raggiungi la tessera 2048![CR][CR]Usa i tasti freccia per spostare le tessere. Quando due tessere con lo stesso numero si toccano, si fondono in una!</description>
+		<description lang="ko_KR">숫자를 결합하고 2048 타일에 도달하세요![CR][CR]화살표 키를 사용하여 타일을 이동하세요. 같은 숫자의 타일 두 개가 닿으면 하나로 합쳐집니다!</description>
+		<description lang="nl_NL">Verbind de cijfers en ga naar de tegel van 2048![CR][CR]Gebruik je pijltjestoetsen om de tegels te verplaatsen. Wanneer twee tegels met hetzelfde nummer elkaar raken, worden ze samengevoegd tot één!</description>
+		<description lang="ru_RU">Соединяйте числа и доберитесь до плитки с числом 2048![CR][CR]Используйте клавиши со стрелками для перемещения плиток. Когда две плитки с одинаковыми числами соприкасаются, они сливаются в одну!</description>
+		<description lang="sv_SE">Sammanfoga siffrorna och ta dig till 2048-brickan![CR][CR]Använd piltangenterna för att flytta brickorna. När två brickor med samma nummer rör vid varandra smälter de samman till en!</description>
+		<description lang="zh_CN">加入数字，进入2048！[CR][CR]使用箭头键移动瓷片。当两块数字相同的瓷片接触时，它们合并为一块！</description>
+		<disclaimer lang="cs_CZ">Vytvořil Gabriele Cirulli. Vychází z 1024 od Veewo Studio.</disclaimer>
+		<disclaimer lang="da_DK">Skabt af Gabriele Cirulli. Baseret på 1024 af Veewo Studio.</disclaimer>
+		<disclaimer lang="de_DE">Erstellt von Gabriele Cirulli. Basierend auf 1024 von Veewo Studio.</disclaimer>
+		<disclaimer lang="en_GB">Created by Gabriele Cirulli. Based on 1024 by Veewo Studio.</disclaimer>
+		<disclaimer lang="eo">Kreita de Gabriele Cirkuli. Bazita Sur 1024 de Veewo Studio.</disclaimer>
+		<disclaimer lang="es_ES">Creado por Gabriele Cirulli. Basado en 1024 de Veewo Studio.</disclaimer>
+		<disclaimer lang="fr_FR">Créé par Gabriel Cirulli. Basé sur 1024 par Veewo Studio.</disclaimer>
+		<disclaimer lang="ga">Cruthaithe ag Gabriele Cirulli. Bunaithe ar 1024 le Veewo Studio.</disclaimer>
+		<disclaimer lang="it_IT">Creato da Gabriele Cirulli. Basato su 1024 di Veewo Studio.</disclaimer>
+		<disclaimer lang="ko_KR">가브리엘 시룰리(Gabriele Cirulli)가 만들었습니다. Veewo Studio의 1024를 기반으로 합니다.</disclaimer>
+		<disclaimer lang="nl_NL">Gemaakt door Gabriele Cirulli. Gebaseerd op 1024 van Veewo Studio.</disclaimer>
+		<disclaimer lang="ru_RU">Создано Gabriele Cirulli. Основано на 1024 от Veewo Studio.</disclaimer>
+		<disclaimer lang="sv_SE">Skapad av Gabriele Cirulli. Baserat på 1024 av Veewo Studio.</disclaimer>
+		<disclaimer lang="zh_CN">由 Gabriele Cirulli 创作。基于 Veewo Studio 的 1024。</disclaimer>
+	</extension>
+</addon>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- JOYPAD, not ANALOG: the type has to match what the core advertises, or
+     retro_set_controller_port_device() gets a device it does not know and no
+     input reaches the game. LRPS2 reads the sticks through ANALOG regardless. -->
+<buttonmap version="2">
+    <controller id="game.controller.ps.dualshock" type="RETRO_DEVICE_JOYPAD">
+        <feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+        <feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+        <feature name="triangle" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+        <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+        <feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+        <feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+        <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+        <feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+        <feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+        <feature name="l3" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+        <feature name="r3" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+        <feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+        <feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+        <feature name="strongmotor" mapto="RETRO_RUMBLE_STRONG"/>
+        <feature name="weakmotor" mapto="RETRO_RUMBLE_WEAK"/>
+    </controller>
+    <controller id="game.controller.ps.dualanalog" type="RETRO_DEVICE_JOYPAD">
+        <feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+        <feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+        <feature name="triangle" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+        <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+        <feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+        <feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+        <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+        <feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+        <feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+        <feature name="l3" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+        <feature name="r3" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+        <feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+        <feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+    </controller>
+    <controller id="game.controller.ps.gamepad" type="RETRO_DEVICE_JOYPAD">
+        <feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+        <feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+        <feature name="triangle" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+        <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+        <feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+        <feature name="leftbumper" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+        <feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+        <feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+        <feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+    </controller>
+</buttonmap>

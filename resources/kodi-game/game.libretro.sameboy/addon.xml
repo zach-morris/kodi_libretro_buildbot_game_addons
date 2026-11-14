@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.sameboy"
+		name="Nintendo - Game Boy / Color (SameBoy)"
+		version="0.15.4.54"
+		provider-name="LIJI32">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.gameboy" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Game Boy / Color</platforms>
+		<extensions>gb|gbc</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>sameboy_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.sameboy</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Game Boy / Color (SameBoy)</summary>
+		<summary lang="da_DK">Nintendo - Game Boy / Farve (SameBoy)</summary>
+		<summary lang="en_GB">Nintendo - Game Boy / Color (SameBoy)</summary>
+		<summary lang="es_ES">Nintendo - Game Boy / Color (SameBoy)</summary>
+		<summary lang="ga">Nintendo - Game Boy / Color (SameBoy)</summary>
+		<summary lang="it_IT">Nintendo - Game Boy / Color (SameBoy)</summary>
+		<summary lang="ru_RU">Nintendo — Game Boy / Color (SameBoy)</summary>
+		<summary lang="sv_SE">Nintendo - Game Boy / Color (SameBoy)</summary>
+		<summary lang="zh_CN">任天堂 - Game Boy / Color (SameBoy)</summary>
+		<description lang="cs_CZ">SameBoy je open-source emulátor Game Boy (DMG) a Game Boy Color (CGB) napsaný v přenositelném C.</description>
+		<description lang="da_DK">SameBoy er en open source Gameboy (DMG) og Gameboy Color (CGB) emulator, skrevet i bærbar C.</description>
+		<description lang="de_DE">SameBoy ist ein Open-Source-Emulator für den Gameboy (DMG) und den Gameboy Color (CGB), geschrieben in Portable C.</description>
+		<description lang="en_GB">SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C.</description>
+		<description lang="es_ES">SameBoy es un emulador de código abierto de Gameboy (DMG) y Gameboy Color (CGB), escrito en C portable.</description>
+		<description lang="ga">Is aithriseoir Gameboy (DMG) agus Gameboy Color (CGB) foinse oscailte é SameBoy, scríofa i gcórais iniompartha C.</description>
+		<description lang="it_IT">SameBoy è un emulatore open source per Game Boy (DMG) e Game Boy Color (CGB), scritto in C portabile.</description>
+		<description lang="ru_RU">SameBoy — это эмулятор Gameboy (DMG) и Gameboy Color (CGB) с открытым исходным кодом, написанный на переносимом C.</description>
+		<description lang="sv_SE">SameBoy är en Gameboy (DMG)- och Gameboy Color (CGB)-emulator med öppen källkod, skriven i portabel C.</description>
+		<description lang="zh_CN">SameBoy 是一个开源的 Gameboy（DMG）和 Gameboy Color（CGB）模拟器，用便携式 C 编写。</description>
+	</extension>
+</addon>

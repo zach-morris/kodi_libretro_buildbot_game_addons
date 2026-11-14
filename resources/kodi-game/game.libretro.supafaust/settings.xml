@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.supafaust">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="supafaust_pixel_format" type="string" label="30001">
+					<level>0</level>
+					<default>rgb565</default>
+					<constraints>
+						<options>
+							<option>rgb565</option>
+							<option>xrgb8888</option>
+							<option>0rgb1555</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_correct_aspect" type="string" label="30002">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+							<option label="30020">force_ntsc</option>
+							<option label="30021">force_pal</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_h_filter" type="string" label="30003">
+					<level>0</level>
+					<default>phr256blend_auto512</default>
+					<constraints>
+						<options>
+							<option>phr256blend_auto512</option>
+							<option>phr256blend_512</option>
+							<option>512_blend</option>
+							<option>512</option>
+							<option>phr256blend</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_deinterlacer" type="string" label="30004">
+					<level>0</level>
+					<default>bob_offset</default>
+					<constraints>
+						<options>
+							<option>bob_offset</option>
+							<option>weave</option>
+							<option>blend</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_slstart" type="string" label="30005">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_slend" type="string" label="30006">
+					<level>0</level>
+					<default>223</default>
+					<constraints>
+						<options>
+							<option>223</option>
+							<option>222</option>
+							<option>221</option>
+							<option>220</option>
+							<option>219</option>
+							<option>218</option>
+							<option>217</option>
+							<option>216</option>
+							<option>215</option>
+							<option>214</option>
+							<option>213</option>
+							<option>212</option>
+							<option>211</option>
+							<option>210</option>
+							<option>209</option>
+							<option>208</option>
+							<option>207</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_slstartp" type="string" label="30007">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_slendp" type="string" label="30008">
+					<level>0</level>
+					<default>238</default>
+					<constraints>
+						<options>
+							<option>238</option>
+							<option>237</option>
+							<option>236</option>
+							<option>235</option>
+							<option>234</option>
+							<option>233</option>
+							<option>232</option>
+							<option>231</option>
+							<option>230</option>
+							<option>229</option>
+							<option>228</option>
+							<option>227</option>
+							<option>226</option>
+							<option>225</option>
+							<option>224</option>
+							<option>223</option>
+							<option>222</option>
+							<option>221</option>
+							<option>220</option>
+							<option>219</option>
+							<option>218</option>
+							<option>217</option>
+							<option>216</option>
+							<option>215</option>
+							<option>214</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_region" type="string" label="30009">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="30022">ntsc</option>
+							<option label="30023">pal</option>
+							<option label="30024">ntsc_lie_auto</option>
+							<option label="30025">pal_lie_auto</option>
+							<option label="30026">ntsc_lie_pal</option>
+							<option label="30027">pal_lie_ntsc</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_frame_begin_vblank" type="string" label="30010">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_run_ahead" type="string" label="30011">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30028">video</option>
+							<option label="30029">video+audio</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_multitap" type="string" label="30012">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30030">port1</option>
+							<option label="30031">port2</option>
+							<option label="30032">port1+port2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_cx4_clock_rate" type="string" label="30013">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>100</option>
+							<option>125</option>
+							<option>150</option>
+							<option>175</option>
+							<option>200</option>
+							<option>250</option>
+							<option>300</option>
+							<option>400</option>
+							<option>500</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_superfx_clock_rate" type="string" label="30014">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>100</option>
+							<option>125</option>
+							<option>150</option>
+							<option>175</option>
+							<option>200</option>
+							<option>250</option>
+							<option>300</option>
+							<option>400</option>
+							<option>500</option>
+							<option>95</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_superfx_icache" type="string" label="30015">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_audio_rate" type="string" label="30016">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30033">44100</option>
+							<option label="30034">48000</option>
+							<option label="30035">96000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_thread_affinity_emu" type="string" label="30017">
+					<level>0</level>
+					<default>0x2</default>
+					<constraints>
+						<options>
+							<option>0x2</option>
+							<option>0x0</option>
+							<option>0x1</option>
+							<option>0x3</option>
+							<option>0x4</option>
+							<option>0x5</option>
+							<option>0x6</option>
+							<option>0x7</option>
+							<option>0x8</option>
+							<option>0x9</option>
+							<option>0xa</option>
+							<option>0xb</option>
+							<option>0xc</option>
+							<option>0xd</option>
+							<option>0xe</option>
+							<option>0xf</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_thread_affinity_ppu" type="string" label="30018">
+					<level>0</level>
+					<default>0x1</default>
+					<constraints>
+						<options>
+							<option>0x1</option>
+							<option>0x0</option>
+							<option>0x2</option>
+							<option>0x3</option>
+							<option>0x4</option>
+							<option>0x5</option>
+							<option>0x6</option>
+							<option>0x7</option>
+							<option>0x8</option>
+							<option>0x9</option>
+							<option>0xa</option>
+							<option>0xb</option>
+							<option>0xc</option>
+							<option>0xd</option>
+							<option>0xe</option>
+							<option>0xf</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="supafaust_renderer" type="string" label="30019">
+					<level>0</level>
+					<default>mt</default>
+					<constraints>
+						<options>
+							<option>mt</option>
+							<option>st</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

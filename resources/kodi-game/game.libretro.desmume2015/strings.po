@@ -1,0 +1,174 @@
+# game.libretro.desmume2015 language file
+# Addon Name: game.libretro.desmume2015
+# Addon id: game.libretro.desmume2015
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.desmume2015\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 19:36i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-desmume2015/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - DS (DeSmuME 2015)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A port of DeSmuME to libretro based on DeSmuME SVN, circa 2015."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Internal resolution (restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "CPU cores"
+msgstr ""
+
+msgctxt "#30003"
+msgid "CPU mode"
+msgstr ""
+
+msgctxt "#30004"
+msgid "JIT block size"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Screen layout"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Hybrid layout scale (restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Hybrid layout show both screens"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Hybrid layout cursor always on small screen"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Enable mouse/pointer"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Pointer type"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Mouse Speed"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Pointer Colour"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Pointer mode l-analog"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Pointer mode r-analog"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Emulated pointer deadzone percent"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Emulated pointer acceleration modifier percent"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Emulated stylus pressure modifier percent"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Enable emulated stylus jitter"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Load Game into Memory (restart)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Enable Advanced Bus-Level Timing"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Firmware language"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Screen Gap"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Enable Edgemark"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Enable Line Hack"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Enable TXT Hack"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Force Microphone Enable"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Microphone Simulation Settings"
+msgstr ""
+
+msgctxt "#30029"
+msgid "emulated"
+msgstr ""
+
+msgctxt "#30030"
+msgid "absolute"
+msgstr ""
+
+msgctxt "#30031"
+msgid "pressed"
+msgstr ""
+
+msgctxt "#30032"
+msgid "English"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30034"
+msgid "French"
+msgstr ""
+
+msgctxt "#30035"
+msgid "German"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Italian"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Spanish"
+msgstr ""

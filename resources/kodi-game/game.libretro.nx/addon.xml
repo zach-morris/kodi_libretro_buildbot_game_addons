@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.nx"
+		name="Cave Story (NXEngine)"
+		version="1.0.0.50"
+		provider-name="Caitlin Shaw">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Cave Story</platforms>
+		<extensions>exe</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>nxengine_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.nx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Cave Story (NXEngine)</summary>
+		<summary lang="da_DK">Cave Story (NXEngine)</summary>
+		<summary lang="en_GB">Cave Story (NXEngine)</summary>
+		<summary lang="es_ES">Cave Story (NXEngine)</summary>
+		<summary lang="ga">Cave Story (NXEngine)</summary>
+		<summary lang="it_IT">Cave Story (NXEngine)</summary>
+		<summary lang="ko_KR">동굴 이야기 (NXEngine)</summary>
+		<summary lang="ru_RU">Cave Story (NXEngine)</summary>
+		<summary lang="sv_SE">Cave Story (NXEngine)</summary>
+		<summary lang="zh_CN">洞窟物语（NXEngine）</summary>
+		<description lang="cs_CZ">NXEngine je kompletní open-source klon a přepsaná verze vynikající jump-and-run plošinovky Doukutsu Monogatari (známé také jako Cave Story).</description>
+		<description lang="da_DK">NXEngine er en komplet open source-klon/omskrivning af mesterværket jump-and-run platform Doukutsu Monogatari (også kendt som Cave Story).</description>
+		<description lang="de_DE">NXEngine ist ein vollständiger Open-Source-Klon bzw. eine Neufassung des meisterhaften Jump-and-Run-Platformer Doukutsu Monogatari (auch bekannt als Cave Story).</description>
+		<description lang="en_GB">NXEngine is a complete open-source clone/rewrite of the masterpiece jump-and-run platformer Doukutsu Monogatari (also known as Cave Story).</description>
+		<description lang="es_ES">NXEngine es un clon/reescritura completa de código abierto de la obra maestra del juego de plataformas de saltar y correr Doukutsu Monogatari (también conocido como Cave Story).</description>
+		<description lang="ga">Is clón/athscríobh foinse oscailte iomlán é NXEngine den chluiche ardáin léim-agus-rith sármhaith Doukutsu Monogatari (ar a dtugtar Cave Story freisin).</description>
+		<description lang="it_IT">NXEngine è un clone open-source completo e una riscrittura del pluripremiato platform game Doukutsu Monogatari, noto anche come Cave Story.</description>
+		<description lang="ko_KR">NXEngine은 걸작 점프 앤 런 플랫포머 Doukutsu Monogatari(Cave Story라고도 함)의 완전한 오픈 소스 복제/재작성입니다.</description>
+		<description lang="ru_RU">NXEngine — это полностью переписанный открытый клон платформера Doukutsu Monogatari (также известный как Cave Story) в жанре «прыгай и беги».</description>
+		<description lang="sv_SE">NXEngine är en komplett kloning/omskrivning med öppen källkod av mästerverket Doukutsu Monogatari (även känt som Cave Story), ett plattformsspel där man hoppar och springer.</description>
+		<description lang="zh_CN">NXEngine 是杰出的跳跃和跑动游戏《洞窟物语（Doukutsu Monogatari/Cave Story）》一个完整的开源克隆/重写。</description>
+	</extension>
+</addon>

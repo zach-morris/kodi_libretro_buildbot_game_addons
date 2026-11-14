@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.xmil">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="X1_RESOLUTE" type="string" label="30001">
+					<level>0</level>
+					<default>LOW</default>
+					<constraints>
+						<options>
+							<option>LOW</option>
+							<option>HIGH</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_BOOTMEDIA" type="string" label="30002">
+					<level>0</level>
+					<default>2HD</default>
+					<constraints>
+						<options>
+							<option>2HD</option>
+							<option>2D</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_ROMTYPE" type="string" label="30003">
+					<level>0</level>
+					<default>X1</default>
+					<constraints>
+						<options>
+							<option>X1</option>
+							<option>TURBO</option>
+							<option>TURBOZ</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_FPS" type="string" label="30004">
+					<level>0</level>
+					<default>AUTO</default>
+					<constraints>
+						<options>
+							<option label="16316">AUTO</option>
+							<option label="30017">60</option>
+							<option label="30018">30</option>
+							<option label="30019">20</option>
+							<option label="30020">15</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_DISPSYNC" type="string" label="30005">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_RASTER" type="string" label="30006">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_NOWAIT" type="string" label="30007">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_BTN_MODE" type="string" label="30008">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_BTN_RAPID" type="string" label="30009">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_AUDIO_RATE" type="string" label="30010">
+					<level>0</level>
+					<default>44100</default>
+					<constraints>
+						<options>
+							<option>44100</option>
+							<option>22050</option>
+							<option>11025</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_SEEKSND" type="string" label="30011">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_SCANLINES" type="string" label="30012">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_KEY_MODE" type="string" label="30013">
+					<level>0</level>
+					<default>Keyboard</default>
+					<constraints>
+						<options>
+							<option>Keyboard</option>
+							<option>JoyKey-1</option>
+							<option>JoyKey-2</option>
+							<option>Mouse-Key</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_FMBOARD" type="string" label="30014">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="16041">ON</option>
+							<option label="351">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_AUDIO_DELAYMS" type="string" label="30015">
+					<level>0</level>
+					<default>250</default>
+					<constraints>
+						<options>
+							<option>250</option>
+							<option>100</option>
+							<option>150</option>
+							<option>200</option>
+							<option>300</option>
+							<option>350</option>
+							<option>500</option>
+							<option>750</option>
+							<option>1000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="X1_CPU_CLOCK" type="string" label="30016">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>4</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

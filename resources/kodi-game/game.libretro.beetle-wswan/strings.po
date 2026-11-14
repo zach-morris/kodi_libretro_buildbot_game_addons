@@ -1,0 +1,374 @@
+# game.libretro.beetle-wswan language file
+# Addon Name: game.libretro.beetle-wswan
+# Addon id: game.libretro.beetle-wswan
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-wswan\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-02-05 20:27i\n"
+"PO-Revision-Date: 2024-12-27 21:46+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-wswan/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Bandai - WonderSwan/Color (Beetle Wonderswan)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Standalone port of Mednafen WonderSwan to libretro, itself a fork of Cygne."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Display Rotation"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Rotate Button Mappings"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Color Palette"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Color Depth (Restart Required)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "60Hz Mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Sound Output Sample Rate"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Audio Filter"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Language (Restart Required)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Owner Name Source (Restart Required)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Owner Birth Year (Restart Required)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Owner Birth Month (Restart Required)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Owner Birth Day (Restart Required)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Owner Sex (Restart Required)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Owner Blood Type (Restart Required)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Set the console language stored in the internal EEPROM. The only game known to check it is 'Digimon Tamers - Battle Spirit'. Takes effect when content is loaded."
+msgstr ""
+
+msgctxt "#30018"
+msgid "English"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Choose the owner name written into the internal EEPROM. Several games greet the player with it. 'Frontend Username' uses the name configured in the frontend when one is available. Takes effect when content is loaded."
+msgstr ""
+
+msgctxt "#30021"
+msgid "Frontend Username"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Default (Mednafen)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Set the owner birth year stored in the internal EEPROM. Some games trigger events on the owner's birthday. Takes effect when content is loaded."
+msgstr ""
+
+msgctxt "#30024"
+msgid "Set the owner birth month stored in the internal EEPROM. Takes effect when content is loaded."
+msgstr ""
+
+msgctxt "#30025"
+msgid "January"
+msgstr ""
+
+msgctxt "#30026"
+msgid "February"
+msgstr ""
+
+msgctxt "#30027"
+msgid "March"
+msgstr ""
+
+msgctxt "#30028"
+msgid "April"
+msgstr ""
+
+msgctxt "#30029"
+msgid "May"
+msgstr ""
+
+msgctxt "#30030"
+msgid "June"
+msgstr ""
+
+msgctxt "#30031"
+msgid "July"
+msgstr ""
+
+msgctxt "#30032"
+msgid "August"
+msgstr ""
+
+msgctxt "#30033"
+msgid "September"
+msgstr ""
+
+msgctxt "#30034"
+msgid "October"
+msgstr ""
+
+msgctxt "#30035"
+msgid "November"
+msgstr ""
+
+msgctxt "#30036"
+msgid "December"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Set the owner birth day stored in the internal EEPROM. Takes effect when content is loaded."
+msgstr ""
+
+msgctxt "#30038"
+msgid "Set the owner sex stored in the internal EEPROM. Takes effect when content is loaded."
+msgstr ""
+
+msgctxt "#30039"
+msgid "Female"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Male"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Set the owner blood type stored in the internal EEPROM. Takes effect when content is loaded."
+msgstr ""
+
+msgctxt "#30042"
+msgid "O"
+msgstr ""
+
+msgctxt "#30043"
+msgid "A"
+msgstr ""
+
+msgctxt "#30044"
+msgid "B"
+msgstr ""
+
+msgctxt "#30045"
+msgid "AB"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Choose the orientation of the console screen. 'Portrait' can be used to achieve the correct layout of portrait oriented games on a conventional (landscape) display. 'Manual' enables rotation via the controller (default button: SELECT)."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Landscape"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Portrait"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Choose the preferred button mapping. 'Auto' adjusts button mapping to match the current display rotation."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Choose the colorization of WonderSwan (Mono) games. 'WS' palettes mimic the display of the original WonderSwan hardware."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Grayscale"
+msgstr ""
+
+msgctxt "#30054"
+msgid "WS - WonderSwan"
+msgstr ""
+
+msgctxt "#30055"
+msgid "WS - WonderSwan Color"
+msgstr ""
+
+msgctxt "#30056"
+msgid "WS - SwanCrystal"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Game Boy DMG"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Game Boy Pocket"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Game Boy Light"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Blossom Pink"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Bubbles Blue"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Buttercup Green"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Digivice"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Game.com"
+msgstr ""
+
+msgctxt "#30065"
+msgid "GameKing"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Game Master"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Golden Wild"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Greenscale"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Hokage Orange"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Labo Fawn"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Legendary Super Saiyan"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Microvision"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Million Live Gold"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Odyssey Gold"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Shiny Sky Blue"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Slime Blue"
+msgstr ""
+
+msgctxt "#30077"
+msgid "TI-83"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Travel Wood"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Virtual Boy"
+msgstr ""
+
+msgctxt "#30080"
+msgid "24-bit is slower and not available on all platforms."
+msgstr ""
+
+msgctxt "#30081"
+msgid "Thousands (16-bit)"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Millions (24-bit)"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Manual' utilizes the 'Frameskip Threshold (%)' setting."
+msgstr ""
+
+msgctxt "#30084"
+msgid "When 'Frameskip' is set to 'Manual', this specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""
+
+msgctxt "#30085"
+msgid "Update the display at 60Hz instead of the native 75Hz WonderSwan refresh rate by dropping every fifth frame. Reduces video smoothness, but avoids screen tearing on displays that do not support native operation above 60Hz."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Higher values improve sound quality slightly at the expense of performance."
+msgstr ""
+
+msgctxt "#30087"
+msgid "Apply a low pass audio filter to 'soften' the sometimes harsh chiptunes produced by the WonderSwan."
+msgstr ""

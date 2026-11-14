@@ -1,0 +1,30 @@
+# game.libretro.fbalpha2012 language file
+# Addon Name: game.libretro.fbalpha2012
+# Addon id: game.libretro.fbalpha2012
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.fbalpha2012\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 21:32i\n"
+"PO-Revision-Date: 2024-12-27 21:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fbalpha2012/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (FB Alpha 2012)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "FinalBurn Alpha is an emulator of arcade games, including Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.[CR][CR]The 2012 version runs better on older hardware."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "The authors of FB Alpha do not guarantee its fitness for any purpose, implied or otherwise, and do not accept responsibility for any damages whatsoever that might occur when using FB Alpha. All games emulated by FB Alpha, including any images and sounds therein, are copyrighted by their respective copyright holders. Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)"
+msgstr ""

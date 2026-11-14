@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.genplus-wide"
+		name="Sega - MS/GG/MD/CD (Genesis Plus GX Wide)"
+		version="1.7.4.39"
+		provider-name="Charles McDonald, Eke-Eke, heyjoeway">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.genesis.3button" version="1.0.0"/>
+		<import addon="game.controller.genesis.6button" version="1.0.0"/>
+		<import addon="game.controller.genesis.mouse" version="1.0.0"/>
+		<import addon="game.controller.genesis.4wayplay" version="1.0.0"/>
+		<import addon="game.controller.genesis.teamplayer" version="1.0.0"/>
+		<import addon="resource.games.libretro.restricted" version="1.0.0" optional="true"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - MS/GG/MD/CD</platforms>
+		<extensions>m3u|mdx|md|smd|gen|bin|cue|iso|chd|bms|sms|gg|sg|68k|sgd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>genesis_plus_gx_wide_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.genplus-wide</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="da_DK">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="en_GB">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="es_ES">Sega - MS/GG/MD/CD (Genesis Plus GX Ancho)</summary>
+		<summary lang="ga">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="it_IT">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="ru_RU">Sega — MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="sv_SE">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="zh_CN">世嘉 - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<description lang="cs_CZ">Širokoúhlá úprava Genesis Plus GX, emulátoru Sega Genesis / Mega CD, který původně běžel na GameCube.</description>
+		<description lang="da_DK">En widescreen-modifikation af Genesis Plus GX, en Sega/Genesis/Mega CD-emulator, der oprindeligt kørte på GameCube.</description>
+		<description lang="de_DE">Eine Widescreen-Modifikation von Genesis Plus GX, einem Sega/Genesis/Mega CD-Emulator, der ursprünglich auf dem GameCube lief.</description>
+		<description lang="en_GB">A widescreen modification of Genesis Plus GX, a Sega/Genesis/Mega CD emulator that originally ran on the GameCube.</description>
+		<description lang="es_ES">Una modificación para pantalla panorámica de Genesis Plus GX, un emulador de Sega/Genesis/Mega CD que originalmente funcionaba en GameCube.</description>
+		<description lang="ga">Modhnú leathanscáileáin ar Genesis Plus GX, aithriseoir Sega/Genesis/Mega CD a rith ar dtús ar an GameCube.</description>
+		<description lang="it_IT">Una modifica widescreen di Genesis Plus GX, un emulatore di Sega/Genesis/Mega CD originariamente eseguito su GameCube.</description>
+		<description lang="ru_RU">Широкоэкранная модификация Genesis Plus GX, эмулятора Sega/Genesis/Mega CD, который изначально работал на GameCube.</description>
+		<description lang="sv_SE">En bredbildsversion av Genesis Plus GX, en Sega/Genesis/Mega CD-emulator som ursprungligen kördes på GameCube.</description>
+		<description lang="zh_CN">Genesis Plus GX 的宽屏修改，这是最初在 GameCube 上运行的 Sega/Genesis/Mega CD 模拟器。</description>
+	</extension>
+</addon>

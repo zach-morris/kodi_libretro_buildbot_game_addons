@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.px68k"
+		name="Sharp - X68000 (PX68k)"
+		version="0.15.0.43"
+		provider-name="hissorii">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.msx.joystick" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sharp - X68000</platforms>
+		<extensions>dim|img|d88|88d|hdm|dup|2hd|xdf|hdf|cmd|m3u|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>px68k_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Custom Non-Commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.px68k</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sharp - X68000 (PX68k)</summary>
+		<summary lang="da_DK">Sharp - X68000 (PX68k)</summary>
+		<summary lang="en_GB">Sharp - X68000 (PX68k)</summary>
+		<summary lang="es_ES">Sharp - X68000 (PX68k)</summary>
+		<summary lang="ga">Sharp - X68000 (PX68k)</summary>
+		<summary lang="it_IT">Sharp - X68000 (PX68k)</summary>
+		<summary lang="ru_RU">Sharp — X68000 (PX68k)</summary>
+		<summary lang="sv_SE">Sharp - X68000 (PX68k)</summary>
+		<summary lang="zh_CN">夏普 - X68000（PX68k）</summary>
+		<description lang="cs_CZ">PX68k je přenositelný emulátor SHARP X68000 pro PSP, Android a další platformy.</description>
+		<description lang="da_DK">PX68k er en bærbar SHARP X68000 emulator til PSP, Android og andre platforme.</description>
+		<description lang="de_DE">PX68k ist ein portabler SHARP-X68000-Emulator für PSP, Android und andere Plattformen.</description>
+		<description lang="en_GB">PX68k is a portable SHARP X68000 Emulator for PSP, Android and other platforms.</description>
+		<description lang="es_ES">PX68k es un emulador portátil del SHARP X68000 para PSP, Android y otras plataformas.</description>
+		<description lang="ga">Is aithriseoir iniompartha SHARP X68000 é PX68k do PSP, Android agus ardáin eile.</description>
+		<description lang="it_IT">PX68k è un emulatore portabile SHARP X68000 per PSP, Android e altre piattaforme.</description>
+		<description lang="ru_RU">PX68k — это портативный эмулятор SHARP X68000 для PSP, Android и других платформ.</description>
+		<description lang="sv_SE">PX68k är en portabel SHARP X68000-emulator för PSP, Android och andra plattformar.</description>
+		<description lang="zh_CN">PX68k 是一款适用于 PSP、Android 和其他平台的便携式夏普 X68000 模拟器。</description>
+	</extension>
+</addon>

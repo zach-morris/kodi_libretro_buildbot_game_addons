@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.azahar">
+		<category id="cpu" label="30001" help="30002">
+			<group id="1">
+				<setting id="citra_use_cpu_jit" type="string" label="30003" help="30004">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_use_fastinterp" type="string" label="30007" help="30008">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_cpu_clock_percentage" type="string" label="30009" help="30010">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30011">25</option>
+							<option label="30012">50</option>
+							<option label="30013">75</option>
+							<option label="30014">100</option>
+							<option label="30015">125</option>
+							<option label="30016">150</option>
+							<option label="30017">175</option>
+							<option label="30018">200</option>
+							<option label="30019">225</option>
+							<option label="30020">250</option>
+							<option label="30021">275</option>
+							<option label="30022">300</option>
+							<option label="30023">325</option>
+							<option label="30024">350</option>
+							<option label="30025">375</option>
+							<option label="30026">400</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="system" label="30027" help="30028">
+			<group id="1">
+				<setting id="citra_is_new_3ds" type="string" label="30029" help="30030">
+					<level>0</level>
+					<default>New 3DS</default>
+					<constraints>
+						<options>
+							<option label="30031">New 3DS</option>
+							<option label="30032">Old 3DS</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_region_value" type="string" label="30033" help="30034">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="30035">Auto</option>
+							<option label="30036">Japan</option>
+							<option label="30037">USA</option>
+							<option label="30038">Europe</option>
+							<option label="30039">Australia</option>
+							<option label="30040">China</option>
+							<option label="30041">Korea</option>
+							<option label="30042">Taiwan</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_language_value" type="string" label="30043" help="30044">
+					<level>0</level>
+					<default>English</default>
+					<constraints>
+						<options>
+							<option label="30045">English</option>
+							<option label="30046">Japanese</option>
+							<option label="30047">French</option>
+							<option label="30048">Spanish</option>
+							<option label="30049">German</option>
+							<option label="30050">Italian</option>
+							<option label="30051">Dutch</option>
+							<option label="30052">Portuguese</option>
+							<option label="30053">Russian</option>
+							<option label="30054">Korean</option>
+							<option label="30055">Traditional Chinese</option>
+							<option label="30056">Simplified Chinese</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30057" help="30058">
+			<group id="1">
+				<setting id="citra_audio_emulation" type="string" label="30059" help="30060">
+					<level>0</level>
+					<default>hle</default>
+					<constraints>
+						<options>
+							<option label="30061">hle</option>
+							<option label="30062">lle</option>
+							<option label="30063">lle_multithread</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_input_type" type="string" label="30064" help="30065">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30035">auto</option>
+							<option label="30066">none</option>
+							<option label="30067">static_noise</option>
+							<option label="30068">frontend</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="graphics" label="30069" help="30070">
+			<group id="1">
+				<setting id="citra_graphics_api" type="string" label="30071" help="30072">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="30035">Auto</option>
+							<option label="30073">OpenGL</option>
+							<option label="30074">Software</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_use_hw_shader" type="string" label="30075" help="30076">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_use_shader_jit" type="string" label="30077" help="30078">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_shaders_accurate_mul" type="string" label="30079" help="30080">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_use_disk_shader_cache" type="string" label="30081" help="30082">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_resolution_factor" type="string" label="30083" help="30084">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30089">5</option>
+							<option label="30090">6</option>
+							<option label="30091">7</option>
+							<option label="30092">8</option>
+							<option label="30093">9</option>
+							<option label="30094">10</option>
+							<option label="30095">11</option>
+							<option label="30096">12</option>
+							<option label="30097">13</option>
+							<option label="30098">14</option>
+							<option label="30099">15</option>
+							<option label="30100">16</option>
+							<option label="30101">17</option>
+							<option label="30102">18</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_texture_filter" type="string" label="30103" help="30104">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30066">none</option>
+							<option label="30105">Anime4K</option>
+							<option label="30106">Bicubic</option>
+							<option label="30107">ScaleForce</option>
+							<option label="30108">xBRZ</option>
+							<option label="30109">MMPX</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_texture_sampling" type="string" label="30110" help="30111">
+					<level>0</level>
+					<default>GameControlled</default>
+					<constraints>
+						<options>
+							<option label="30112">GameControlled</option>
+							<option label="30113">NearestNeighbor</option>
+							<option label="30114">Linear</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_custom_textures" type="string" label="30115" help="30116">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_dump_textures" type="string" label="30117" help="30118">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="layout" label="30119" help="30120">
+			<group id="1">
+				<setting id="citra_layout_option" type="string" label="30121" help="30122">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30123">default</option>
+							<option label="30124">single_screen</option>
+							<option label="30125">large_screen</option>
+							<option label="30126">side_by_side</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_swap_screen" type="string" label="30127" help="30128">
+					<level>0</level>
+					<default>Top</default>
+					<constraints>
+						<options>
+							<option label="30129">Top</option>
+							<option label="30130">Bottom</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_swap_screen_mode" type="string" label="30131" help="30132">
+					<level>0</level>
+					<default>Toggle</default>
+					<constraints>
+						<options>
+							<option label="30133">Toggle</option>
+							<option label="30134">Hold</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_large_screen_proportion" type="string" label="30135" help="30136">
+					<level>0</level>
+					<default>4.00</default>
+					<constraints>
+						<options>
+							<option label="30137">1.00</option>
+							<option label="30138">1.25</option>
+							<option label="30139">1.50</option>
+							<option label="30140">1.75</option>
+							<option label="30141">2.00</option>
+							<option label="30142">2.25</option>
+							<option label="30143">2.50</option>
+							<option label="30144">2.75</option>
+							<option label="30145">3.00</option>
+							<option label="30146">3.25</option>
+							<option label="30147">3.50</option>
+							<option label="30148">3.75</option>
+							<option label="30149">4.00</option>
+							<option label="30150">4.25</option>
+							<option label="30151">4.50</option>
+							<option label="30152">4.75</option>
+							<option label="30153">5.00</option>
+							<option label="30154">5.25</option>
+							<option label="30155">5.50</option>
+							<option label="30156">5.75</option>
+							<option label="30157">6.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_render_3d" type="string" label="30158" help="30159">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30160">off</option>
+							<option label="30126">side-by-side</option>
+							<option label="30161">side-by-side-full</option>
+							<option label="30162">anaglyph</option>
+							<option label="30163">interlaced</option>
+							<option label="30164">reverse-interlaced</option>
+							<option label="30165">cardboard</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_factor_3d" type="string" label="30166" help="30167">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30168">0</option>
+							<option label="30169">10</option>
+							<option label="30170">20</option>
+							<option label="30171">30</option>
+							<option label="30172">40</option>
+							<option label="30012">50</option>
+							<option label="30173">60</option>
+							<option label="30174">70</option>
+							<option label="30175">80</option>
+							<option label="30176">90</option>
+							<option label="30177">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="storage" label="30178" help="30179">
+			<group id="1">
+				<setting id="citra_use_virtual_sd" type="string" label="30180" help="30181">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_use_libretro_save_path" type="string" label="30182" help="30183">
+					<level>0</level>
+					<default>LibRetro Default</default>
+					<constraints>
+						<options>
+							<option label="30184">LibRetro Default</option>
+							<option label="30185">Azahar Default</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30186" help="30187">
+			<group id="1">
+				<setting id="citra_analog_function" type="string" label="30188" help="30189">
+					<level>0</level>
+					<default>c_stick_and_touchscreen</default>
+					<constraints>
+						<options>
+							<option label="30190">c_stick_and_touchscreen</option>
+							<option label="30191">touchscreen_pointer</option>
+							<option label="30192">c_stick</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_analog_deadzone" type="string" label="30193" help="30194">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option label="30168">0</option>
+							<option label="30195">5</option>
+							<option label="30169">10</option>
+							<option label="30196">15</option>
+							<option label="30170">20</option>
+							<option label="30011">25</option>
+							<option label="30171">30</option>
+							<option label="30197">35</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_enable_mouse_touchscreen" type="string" label="30198" help="30199">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_enable_touch_touchscreen" type="string" label="30200" help="30201">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_enable_touch_pointer_timeout" type="string" label="30202" help="30203">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_enable_motion" type="string" label="30204" help="30205">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30005">enabled</option>
+							<option label="30006">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="citra_motion_sensitivity" type="string" label="30206" help="30207">
+					<level>0</level>
+					<default>1.0</default>
+					<constraints>
+						<options>
+							<option label="30169">0.1</option>
+							<option label="30011">0.25</option>
+							<option label="30012">0.5</option>
+							<option label="30013">0.75</option>
+							<option label="30177">1.0</option>
+							<option label="30015">1.25</option>
+							<option label="30016">1.5</option>
+							<option label="30018">2.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

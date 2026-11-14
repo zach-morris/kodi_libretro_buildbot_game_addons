@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.prosystem"
+		name="Atari - 7800 (ProSystem)"
+		version="1.3.0.52"
+		provider-name="Greg Stanton, Brian Berlin, Leonis, Greg DeMent">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.atari.7800.proline" version="1.0.0"/>
+		<import addon="game.controller.atari.7800.gamepad" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Atari - 7800</platforms>
+		<extensions>a78|bin|cdf</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>prosystem_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.prosystem</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Atari - 7800 (ProSystem)</summary>
+		<summary lang="da_DK">Atari - 7800 (ProSystem)</summary>
+		<summary lang="en_GB">Atari - 7800 (ProSystem)</summary>
+		<summary lang="es_ES">Atari - 7800 (ProSystem)</summary>
+		<summary lang="ga">Atari - 7800 (ProSystem)</summary>
+		<summary lang="it_IT">Atari - 7800 (ProSystem)</summary>
+		<summary lang="ru_RU">Atari - 7800 (ProSystem)</summary>
+		<summary lang="sv_SE">Atari - 7800 (ProSystem)</summary>
+		<summary lang="zh_CN">雅达利 - 7800（ProSystem）</summary>
+		<description lang="cs_CZ">ProSystem je emulátor Atari 7800.[CR][CR]Umístěte soubor [I]7800 BIOS (U).rom[/I] (volitelný) do složky userdata emulátoru.</description>
+		<description lang="da_DK">ProSystem er en Atari 7800-emulator.[CR][CR]Placer [I]7800 BIOS (U).rom[/I] (valgfrit) i emulatorens brugerdatamappe.</description>
+		<description lang="de_DE">ProSystem ist ein Atari-7800-Emulator.[CR][CR][I]7800 BIOS (U).rom[/I] (optional) in den Userdata-Ordner des Emulators ablegen.</description>
+		<description lang="en_GB">ProSystem is an Atari 7800 emulator.[CR][CR]Place [I]7800 BIOS (U).rom[/I] (optional) in the emulator&apos;s userdata folder.</description>
+		<description lang="es_ES">ProSystem es un emulador de Atari 7800.[CR][CR]Coloca [I]7800 BIOS (U).rom[/I] (opcional) en la carpeta userdata del emulador.</description>
+		<description lang="ga">Is aithriseoir Atari 7800 é ProSystem.[CR][CR]Cuir [I]7800 BIOS (U).rom[/I] (roghnach) i bhfillteán sonraí úsáideora an aithriseora.</description>
+		<description lang="it_IT">ProSystem è un emulatore di Atari 7800. [CR][CR]Posiziona [I]7800 BIOS (U).rom[/I] (facoltativo) nella cartella userdata dell&apos;emulatore.</description>
+		<description lang="ru_RU">ProSystem — эмулятор Atari 7800.[CR][CR]Поместите [I]7800 BIOS (U).rom[/I] (необязательно) в папку пользовательских данных эмулятора.</description>
+		<description lang="sl_SI">ProSystem je emulator Atari 7800.[CR][CR]Postavite [I]7800 BIOS (U).rom[/I] (izbirno) v mapo uporabniških podatkov emulatorja.</description>
+		<description lang="sv_SE">ProSystem är en Atari 7800-emulator.[CR][CR]Placera [I]7800 BIOS (U).rom[/I] (valfritt) i emulatorns userdata-mapp.</description>
+		<description lang="zh_CN">ProSystem 是雅达利 7800 模拟器。[CR][CR]将 [I]7800 BIOS (U).rom[/I]（可选）放到模拟器的 userdata 文件夹中。</description>
+	</extension>
+</addon>

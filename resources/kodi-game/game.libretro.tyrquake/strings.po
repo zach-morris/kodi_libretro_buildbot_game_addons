@@ -1,0 +1,274 @@
+# game.libretro.tyrquake language file
+# Addon Name: game.libretro.tyrquake
+# Addon id: game.libretro.tyrquake
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.tyrquake\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-tyrquake/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Quake (TyrQuake)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Tyr-Quake is a branch of the Quake source code released by id Software. It is intended to support Quake and Quakeworld while fixing little bugs that have come up over the years."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Internal resolution (restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Framerate (restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Rumble"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Invert Y Axis"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Analog Deadzone (percent)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Renderer (restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Compute rendering (restart)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Sound Samplerate (Hint)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Select the renderer backend. 'Auto' picks the best HW backend the frontend offers, falling back to software when no HW context is available. 'Software' forces the SW span rasterizer regardless of frontend video driver -- useful when the SW renderer's specific look (per-span affine texturing, palette + colormap output) is preferred. 'Vulkan' forces the Vulkan HW backend; falls back to software if the build was made without Vulkan support or the frontend won't grant a Vulkan context. Requires a restart."
+msgstr ""
+
+msgctxt "#30011"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Software"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Vulkan"
+msgstr ""
+
+msgctxt "#30014"
+msgid "On HW renderer backends that support compute shaders (Vulkan today, future D3D12 / GL 4.3+ / Metal), render the 3D view via a GPU port of Quake's software rasterizer (spans, affine textures, surface cache, alias edge stepping). Output is pixel-identical to the Software renderer but offloaded from CPU to GPU -- much faster at the higher 'Internal resolution' settings. When disabled, the HW backend uses traditional graphics pipelines with hardware rasterization, depth buffer and texture filtering (different visual: cleaner edges, filtered textures). Has no effect when the Software renderer is selected, or on HW backends that don't support compute. Requires a restart."
+msgstr ""
+
+msgctxt "#30015"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Configure the resolution. Requires a restart."
+msgstr ""
+
+msgctxt "#30018"
+msgid "Modify framerate. Requires a restart. Values above 72 may cause various timing bugs."
+msgstr ""
+
+msgctxt "#30019"
+msgid "10fps"
+msgstr ""
+
+msgctxt "#30020"
+msgid "15fps"
+msgstr ""
+
+msgctxt "#30021"
+msgid "20fps"
+msgstr ""
+
+msgctxt "#30022"
+msgid "25fps"
+msgstr ""
+
+msgctxt "#30023"
+msgid "30fps"
+msgstr ""
+
+msgctxt "#30024"
+msgid "40fps"
+msgstr ""
+
+msgctxt "#30025"
+msgid "50fps"
+msgstr ""
+
+msgctxt "#30026"
+msgid "60fps"
+msgstr ""
+
+msgctxt "#30027"
+msgid "72fps"
+msgstr ""
+
+msgctxt "#30028"
+msgid "75fps"
+msgstr ""
+
+msgctxt "#30029"
+msgid "90fps"
+msgstr ""
+
+msgctxt "#30030"
+msgid "100fps"
+msgstr ""
+
+msgctxt "#30031"
+msgid "119fps"
+msgstr ""
+
+msgctxt "#30032"
+msgid "120fps"
+msgstr ""
+
+msgctxt "#30033"
+msgid "144fps"
+msgstr ""
+
+msgctxt "#30034"
+msgid "155fps"
+msgstr ""
+
+msgctxt "#30035"
+msgid "160fps"
+msgstr ""
+
+msgctxt "#30036"
+msgid "165fps"
+msgstr ""
+
+msgctxt "#30037"
+msgid "180fps"
+msgstr ""
+
+msgctxt "#30038"
+msgid "200fps"
+msgstr ""
+
+msgctxt "#30039"
+msgid "240fps"
+msgstr ""
+
+msgctxt "#30040"
+msgid "244fps"
+msgstr ""
+
+msgctxt "#30041"
+msgid "300fps"
+msgstr ""
+
+msgctxt "#30042"
+msgid "320fps"
+msgstr ""
+
+msgctxt "#30043"
+msgid "360fps"
+msgstr ""
+
+msgctxt "#30044"
+msgid "380 fps"
+msgstr ""
+
+msgctxt "#30045"
+msgid "400 fps"
+msgstr ""
+
+msgctxt "#30046"
+msgid "420 fps"
+msgstr ""
+
+msgctxt "#30047"
+msgid "440 fps"
+msgstr ""
+
+msgctxt "#30048"
+msgid "460 fps"
+msgstr ""
+
+msgctxt "#30049"
+msgid "480 fps"
+msgstr ""
+
+msgctxt "#30050"
+msgid "500 fps"
+msgstr ""
+
+msgctxt "#30051"
+msgid "520 fps"
+msgstr ""
+
+msgctxt "#30052"
+msgid "540 fps"
+msgstr ""
+
+msgctxt "#30053"
+msgid "560 fps"
+msgstr ""
+
+msgctxt "#30054"
+msgid "580 fps"
+msgstr ""
+
+msgctxt "#30055"
+msgid "600 fps"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Audio output rate. Quake mixes its sound at the chosen output rate. 'Auto' matches the frontend's target rate, which avoids the frontend resampler's extra filtering and group delay -- that rate-matching, not a higher number, is what helps latency. Higher fixed rates give the music-stream resampler finer time resolution and reduce aliasing fold-back, but do little for Quake's own sound effects, which are low-rate and nearest-neighbour resampled (their artifacts sit at fixed low frequencies regardless of output rate). Falls back to the framerate-appropriate rate when the frontend can't report one. Takes effect on restart."
+msgstr ""
+
+msgctxt "#30057"
+msgid "32 kHz"
+msgstr ""
+
+msgctxt "#30058"
+msgid "44 kHz"
+msgstr ""
+
+msgctxt "#30059"
+msgid "48 kHz"
+msgstr ""
+
+msgctxt "#30060"
+msgid "96 kHz"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Enables joypad rumble."
+msgstr ""
+
+msgctxt "#30062"
+msgid "Invert the gamepad right analog stick's Y axis."
+msgstr ""
+
+msgctxt "#30063"
+msgid "Sets the deadzone of the Gamepad analog sticks when the input device type is set to 'Gamepad Classic' or 'Gamepad Modern'."
+msgstr ""

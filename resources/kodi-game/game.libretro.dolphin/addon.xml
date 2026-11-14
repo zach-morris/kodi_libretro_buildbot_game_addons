@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.dolphin"
+		name="Nintendo - GameCube / Wii (Dolphin)"
+		version="2609.0.0.40"
+		provider-name="Team Dolphin">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.gamecube" version="1.0.0"/>
+		<import addon="game.controller.wiimote" version="1.0.0"/>
+		<import addon="game.controller.wii.classic" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - GameCube / Wii</platforms>
+		<extensions>elf|dol|gcm|iso|tgc|wbfs|ciso|gcz|wad|wia|rvz|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>dolphin_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2+</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.dolphin</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="da_DK">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="es_ES">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="ga">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="it_IT">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="pt_BR">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="ru_RU">Nintendo — GameCube / Wii (Dolphin)</summary>
+		<summary lang="sv_SE">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="zh_CN">任天堂 - GameCube / Wii (Dolphin)</summary>
+		<description lang="cs_CZ">Dolphin je emulátor dvou novějších herních konzolí od společnosti Nintendo: GameCube a Wii.</description>
+		<description lang="da_DK">Dolphin er en emulator til to nyere Nintendo-videospilkonsoller: GameCube og Wii.</description>
+		<description lang="de_DE">Dolphin ist ein Emulator für zwei aktuelle Nintendo-Spielkonsolen: den GameCube und die Wii.</description>
+		<description lang="en_GB">Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii.</description>
+		<description lang="es_ES">Dolphin es un emulador para dos videoconsolas recientes de Nintendo: la GameCube y la Wii.</description>
+		<description lang="fi_FI">Dolphin on emulaattori Nintendon GameCube- ja Wii-konsoleille.</description>
+		<description lang="ga">Is aithriseoir é Dolphin do dhá chonsól físchluichí Nintendo le déanaí: an GameCube agus an Wii.</description>
+		<description lang="it_IT">Dolphin è un emulatore per due console di videogiochi recenti della Nintendo: il GameCube e la Wii.</description>
+		<description lang="pt_BR">O Dolphin é um emulador para dois consoles de videogame recentes da Nintendo: o GameCube e o Wii.</description>
+		<description lang="ru_RU">Dolphin — это эмулятор для двух последних игровых консолей Nintendo: GameCube и Wii.</description>
+		<description lang="sv_SE">Dolphin är en emulator för två av Nintendos senaste videospelskonsoler: GameCube och Wii.</description>
+		<description lang="zh_CN">Dolphin 是最近任天堂两款视频游戏机 GameCube 和 Wii 的模拟器。</description>
+	</extension>
+</addon>

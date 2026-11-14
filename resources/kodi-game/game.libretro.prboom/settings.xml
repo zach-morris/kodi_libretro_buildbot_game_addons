@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.prboom">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="prboom-resolution" type="string" label="30001" help="30015">
+					<level>0</level>
+					<default>320x200</default>
+					<constraints>
+						<options>
+							<option>320x200</option>
+							<option>640x400</option>
+							<option>960x600</option>
+							<option>1280x800</option>
+							<option>1600x1000</option>
+							<option>1920x1200</option>
+							<option>2240x1400</option>
+							<option>2560x1600</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-render_threads" type="string" label="30009" help="30016">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30017">OFF</option>
+							<option label="16316">Auto</option>
+							<option label="30018">2</option>
+							<option label="30019">4</option>
+							<option label="30020">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-color_format" type="string" label="30010" help="30021">
+					<level>0</level>
+					<default>16bits</default>
+					<constraints>
+						<options>
+							<option label="30051">16bits</option>
+							<option label="30052">24bits (truecolor)</option>
+							<option label="30022">30bits (HDR)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-hdr_emissive" type="string" label="30011" help="30023">
+					<level>0</level>
+					<default>2x</default>
+					<constraints>
+						<options>
+							<option label="30024">off</option>
+							<option label="30025">2x</option>
+							<option label="30026">4x</option>
+							<option label="30027">8x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-mouse_on" type="string" label="30002" help="30028">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-wall_decals" type="string" label="30006" help="30029">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-dynlight_wall_falloff" type="string" label="30012" help="30030">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-find_recursive_on" type="string" label="30003" help="30031">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-rumble" type="string" label="30004" help="30032">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-mmap_wads" type="string" label="30013" help="30033">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-analog_deadzone" type="string" label="30005" help="30034">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prboom-complevel" type="string" label="30007" help="30035">
+					<level>0</level>
+					<default>-1</default>
+					<constraints>
+						<options>
+							<option label="30036">-1</option>
+							<option label="30037">4</option>
+							<option label="30038">5</option>
+							<option label="30039">9</option>
+							<option label="30040">11</option>
+							<option label="30041">17</option>
+							<option label="30042">18</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30043" help="30044">
+			<group id="1">
+				<setting id="prboom-sound_samplerate" type="string" label="30014" help="30045">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30046">auto</option>
+							<option label="30047">32000</option>
+							<option label="30048">44100</option>
+							<option label="30049">48000</option>
+							<option label="30050">96000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

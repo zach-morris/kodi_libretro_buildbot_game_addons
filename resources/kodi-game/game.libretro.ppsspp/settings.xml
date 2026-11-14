@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.ppsspp">
+		<category id="system" label="30024" help="30025">
+			<group id="1">
+				<setting id="ppsspp_cpu_core" type="string" label="30001">
+					<level>0</level>
+					<default>JIT</default>
+					<constraints>
+						<options>
+							<option label="30026">JIT</option>
+							<option label="30027">IR JIT</option>
+							<option label="30159">Interpreter</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_fast_memory" type="string" label="30028" help="30029">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_ignore_bad_memory_access" type="string" label="30030">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_io_timing_method" type="string" label="30031">
+					<level>0</level>
+					<default>Fast</default>
+					<constraints>
+						<options>
+							<option>Fast</option>
+							<option>Host</option>
+							<option>Simulate UMD delays</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_force_lag_sync" type="string" label="30202" help="30203">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_locked_cpu_speed" type="string" label="30002">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30160">222MHz</option>
+							<option label="30161">266MHz</option>
+							<option label="30162">333MHz</option>
+							<option label="30163">366MHz</option>
+							<option label="30164">399MHz</option>
+							<option label="30165">432MHz</option>
+							<option label="30166">444MHz</option>
+							<option label="30167">466MHz</option>
+							<option label="30168">499MHz</option>
+							<option label="30169">532MHz</option>
+							<option label="30170">555MHz</option>
+							<option label="30171">566MHz</option>
+							<option label="30172">599MHz</option>
+							<option label="30173">632MHz</option>
+							<option label="30174">666MHz</option>
+							<option label="30175">777MHz</option>
+							<option label="30176">888MHz</option>
+							<option label="30177">999MHz</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_memstick_inserted" type="string" label="30034" help="30035">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_cache_iso" type="string" label="30036">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_cheats" type="string" label="30022">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_language" type="string" label="30037" help="30038">
+					<level>0</level>
+					<default>Automatic</default>
+					<constraints>
+						<options>
+							<option>Automatic</option>
+							<option>English</option>
+							<option>Japanese</option>
+							<option>French</option>
+							<option>Spanish</option>
+							<option>German</option>
+							<option>Italian</option>
+							<option>Dutch</option>
+							<option>Portuguese</option>
+							<option>Russian</option>
+							<option>Korean</option>
+							<option>Chinese Traditional</option>
+							<option>Chinese Simplified</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_psp_model" type="string" label="30039">
+					<level>0</level>
+					<default>psp_2000_3000</default>
+					<constraints>
+						<options>
+							<option label="30040">psp_1000</option>
+							<option label="30041">psp_2000_3000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30042" help="30043">
+			<group id="1">
+				<setting id="ppsspp_backend" type="string" label="30044" help="30045">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30046">auto</option>
+							<option label="30047">opengl</option>
+							<option label="30048">vulkan</option>
+							<option label="30049">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_software_rendering" type="string" label="30050" help="30051">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_internal_resolution" type="string" label="30052" help="30053">
+					<level>0</level>
+					<default>480x272</default>
+					<constraints>
+						<options>
+							<option label="30054">480x272</option>
+							<option label="30055">960x544</option>
+							<option label="30056">1440x816</option>
+							<option label="30057">1920x1088</option>
+							<option label="30058">2400x1360</option>
+							<option label="30059">2880x1632</option>
+							<option label="30060">3360x1904</option>
+							<option label="30061">3840x2176</option>
+							<option label="30062">4320x2448</option>
+							<option label="30063">4800x2720</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_mulitsample_level" type="string" label="30064" help="30065">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="30178">x2</option>
+							<option label="30179">x4</option>
+							<option label="30180">x8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_cropto16x9" type="string" label="30066" help="30067">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_frameskip" type="string" label="30006">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30181">1</option>
+							<option label="30182">2</option>
+							<option label="30183">3</option>
+							<option label="30184">4</option>
+							<option label="30185">5</option>
+							<option label="30186">6</option>
+							<option label="30187">7</option>
+							<option label="30188">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_frameskiptype" type="string" label="30007">
+					<level>0</level>
+					<default>Number of frames</default>
+					<constraints>
+						<options>
+							<option>Number of frames</option>
+							<option>Percent of FPS</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_auto_frameskip" type="string" label="30005">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_frame_duplication" type="string" label="30068" help="30069">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_detect_vsync_swap_interval" type="string" label="30070" help="30071">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_inflight_frames" type="string" label="30072" help="30073">
+					<level>0</level>
+					<default>Up to 1</default>
+					<constraints>
+						<options>
+							<option>No buffer</option>
+							<option>Up to 1</option>
+							<option>Up to 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_depth_raster" type="string" label="30204" help="30205">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30206">default</option>
+							<option label="30207">auto</option>
+							<option label="30208">low</option>
+							<option label="30209">off</option>
+							<option label="30210">always_on</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_texture_scaling_type" type="string" label="30079">
+					<level>0</level>
+					<default>xbrz</default>
+					<constraints>
+						<options>
+							<option label="30080">xbrz</option>
+							<option label="30081">hybrid</option>
+							<option label="30082">bicubic</option>
+							<option label="30083">hybrid_bicubic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_texture_scaling_level" type="string" label="30084" help="30085">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30189">2x</option>
+							<option label="30190">3x</option>
+							<option label="30191">4x</option>
+							<option label="30192">5x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_texture_deposterize" type="string" label="30017" help="30086">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_texture_shader" type="string" label="30087" help="30088">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30089">2xBRZ</option>
+							<option label="30090">4xBRZ</option>
+							<option label="30091">MMPX</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_texture_anisotropic_filtering" type="string" label="30016">
+					<level>0</level>
+					<default>16x</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30189">2x</option>
+							<option label="30191">4x</option>
+							<option label="30193">8x</option>
+							<option label="30194">16x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_texture_filtering" type="string" label="30015">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30195">Nearest</option>
+							<option label="30196">Linear</option>
+							<option label="30197">Auto max quality</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_smart_2d_texture_filtering" type="string" label="30092" help="30093">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_texture_replacement" type="string" label="30018">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_vr_mode" type="string" label="30211" help="30212">
+					<level>0</level>
+					<default>Off</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30213">Stereoscopic</option>
+							<option label="30214">Immersive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30094" help="30095">
+			<group id="1">
+				<setting id="ppsspp_button_preference" type="string" label="30010">
+					<level>0</level>
+					<default>Cross</default>
+					<constraints>
+						<options>
+							<option>Cross</option>
+							<option>Circle</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_analog_is_circular" type="string" label="30096">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_analog_deadzone" type="string" label="30097" help="30098">
+					<level>0</level>
+					<default>0.0</default>
+					<constraints>
+						<options>
+							<option label="30099">0.0</option>
+							<option label="30100">0.05</option>
+							<option label="30101">0.10</option>
+							<option label="30102">0.15</option>
+							<option label="30103">0.20</option>
+							<option label="30104">0.25</option>
+							<option label="30105">0.30</option>
+							<option label="30106">0.35</option>
+							<option label="30107">0.40</option>
+							<option label="30108">0.45</option>
+							<option label="30109">0.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_analog_sensitivity" type="string" label="30110" help="30111">
+					<level>0</level>
+					<default>1.00</default>
+					<constraints>
+						<options>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+							<option>1.26</option>
+							<option>1.27</option>
+							<option>1.28</option>
+							<option>1.29</option>
+							<option>1.30</option>
+							<option>1.31</option>
+							<option>1.32</option>
+							<option>1.33</option>
+							<option>1.34</option>
+							<option>1.35</option>
+							<option>1.36</option>
+							<option>1.37</option>
+							<option>1.38</option>
+							<option>1.39</option>
+							<option>1.40</option>
+							<option>1.41</option>
+							<option>1.42</option>
+							<option>1.43</option>
+							<option>1.44</option>
+							<option>1.45</option>
+							<option>1.46</option>
+							<option>1.47</option>
+							<option>1.48</option>
+							<option>1.49</option>
+							<option>1.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30112" help="30113">
+			<group id="1">
+				<setting id="ppsspp_skip_buffer_effects" type="string" label="30114" help="30115">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_skip_gpu_readbacks" type="string" label="30116" help="30117">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_lower_resolution_for_effects" type="string" label="30122" help="30123">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30198">Safe</option>
+							<option label="30199">Balanced</option>
+							<option label="30200">Aggressive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="network" label="30124" help="30125">
+			<group id="1">
+				<setting id="ppsspp_enable_wlan" type="string" label="30126">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address01" type="string" label="30127">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address02" type="string" label="30128">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address03" type="string" label="30129">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address04" type="string" label="30130">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address05" type="string" label="30131">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address06" type="string" label="30132">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address07" type="string" label="30133">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address08" type="string" label="30134">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address09" type="string" label="30135">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address10" type="string" label="30136">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address11" type="string" label="30137">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_mac_address12" type="string" label="30138">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_wlan_channel" type="string" label="30139">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30181">1</option>
+							<option label="30186">6</option>
+							<option label="30201">11</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_enable_builtin_pro_ad_hoc_server" type="string" label="30140">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_change_pro_ad_hoc_server_address" type="string" label="30141">
+					<level>0</level>
+					<default>socom.cc</default>
+					<constraints>
+						<options>
+							<option>socom.cc</option>
+							<option>psp.gameplayer.club</option>
+							<option>myneighborsushicat.com</option>
+							<option>localhost</option>
+							<option>IP address</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address01" type="string" label="30142">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address02" type="string" label="30143">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address03" type="string" label="30144">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address04" type="string" label="30145">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address05" type="string" label="30146">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address06" type="string" label="30147">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address07" type="string" label="30148">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address08" type="string" label="30149">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address09" type="string" label="30150">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address10" type="string" label="30151">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address11" type="string" label="30152">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_pro_ad_hoc_server_address12" type="string" label="30153">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_enable_upnp" type="string" label="30154">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_upnp_use_original_port" type="string" label="30155">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_port_offset" type="string" label="30156">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1000</option>
+							<option>2000</option>
+							<option>3000</option>
+							<option>4000</option>
+							<option>5000</option>
+							<option>6000</option>
+							<option>7000</option>
+							<option>8000</option>
+							<option>9000</option>
+							<option>10000</option>
+							<option>11000</option>
+							<option>12000</option>
+							<option>13000</option>
+							<option>14000</option>
+							<option>15000</option>
+							<option>16000</option>
+							<option>17000</option>
+							<option>18000</option>
+							<option>19000</option>
+							<option>20000</option>
+							<option>31000</option>
+							<option>32000</option>
+							<option>33000</option>
+							<option>34000</option>
+							<option>35000</option>
+							<option>36000</option>
+							<option>37000</option>
+							<option>38000</option>
+							<option>39000</option>
+							<option>40000</option>
+							<option>41000</option>
+							<option>42000</option>
+							<option>43000</option>
+							<option>44000</option>
+							<option>45000</option>
+							<option>46000</option>
+							<option>47000</option>
+							<option>48000</option>
+							<option>49000</option>
+							<option>50000</option>
+							<option>51000</option>
+							<option>52000</option>
+							<option>53000</option>
+							<option>54000</option>
+							<option>55000</option>
+							<option>56000</option>
+							<option>57000</option>
+							<option>58000</option>
+							<option>59000</option>
+							<option>60000</option>
+							<option>61000</option>
+							<option>62000</option>
+							<option>63000</option>
+							<option>64000</option>
+							<option>65000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_minimum_timeout" type="string" label="30157">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>100</option>
+							<option>200</option>
+							<option>300</option>
+							<option>400</option>
+							<option>500</option>
+							<option>600</option>
+							<option>700</option>
+							<option>800</option>
+							<option>900</option>
+							<option>1000</option>
+							<option>1100</option>
+							<option>1200</option>
+							<option>1300</option>
+							<option>1400</option>
+							<option>1500</option>
+							<option>1600</option>
+							<option>1700</option>
+							<option>1800</option>
+							<option>1900</option>
+							<option>2000</option>
+							<option>3100</option>
+							<option>3200</option>
+							<option>3300</option>
+							<option>3400</option>
+							<option>3500</option>
+							<option>3600</option>
+							<option>3700</option>
+							<option>3800</option>
+							<option>3900</option>
+							<option>4000</option>
+							<option>4100</option>
+							<option>4200</option>
+							<option>4300</option>
+							<option>4400</option>
+							<option>4500</option>
+							<option>4600</option>
+							<option>4700</option>
+							<option>4800</option>
+							<option>4900</option>
+							<option>5000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ppsspp_forced_first_connect" type="string" label="30158">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

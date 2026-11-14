@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.uae4arm"
+		name="Commodore - Amiga (UAE4ARM)"
+		version="0.5.0.12"
+		provider-name="TomB/Chips-fr">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>adf|dms|zip|ipf|hdf|lha|uae|cue|iso</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.uae4arm</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="da_DK">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="en_GB">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="es_ES">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="it_IT">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="ru_RU">Commodore — Amiga (UAE4ARM)</summary>
+		<summary lang="sv_SE">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="zh_CN">Commodore - Amiga (UAE4ARM)</summary>
+		<description lang="cs_CZ">Zkratka UAE znamená Ubiquitous Amiga Emulator. UAE4ARM je optimalizovaný pro Android a Raspberry Pi.</description>
+		<description lang="da_DK">UAE står for Ubiquitous Amiga Emulator. UAE4ARM er optimeret til Android og Raspberry Pi.</description>
+		<description lang="en_GB">UAE stands for the Ubiquitous Amiga Emulator. UAE4ARM is optimized for Android and the Raspberry Pi.</description>
+		<description lang="es_ES">UAE es el acróstico de Ubiquitous Amiga Emulator (Emulador de Amiga Ubicuo). UAE4ARM esta optimizado para Android y Raspberry Pi.</description>
+		<description lang="it_IT">UAE è l&apos;acronimo di Ubiquitous Amiga Emulator. UAE4ARM è ottimizzato per Android e Raspberry Pi.</description>
+		<description lang="ru_RU">UAE расшифровывается как Ubiquitous Amiga Emulator (Вездесущий эмулятор Amiga). UAE4ARM оптимизирован для Android и Raspberry Pi.</description>
+		<description lang="sv_SE">UAE står för Ubiquitous Amiga Emulator. UAE4ARM är optimerad för Android och Raspberry Pi.</description>
+		<description lang="zh_CN">UAE 即 Ubiquitous Amiga Emulator（无处不在的 Amiga 模拟器）。UAE4ARM 针对 Android 和树莓派进行了优化。</description>
+	</extension>
+</addon>

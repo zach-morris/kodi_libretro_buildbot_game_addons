@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.blastem">
+		<category id="system" label="30023" help="30024">
+			<group id="1">
+				<setting id="blastem_system_type" type="string" label="30002" help="30025">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30026">auto</option>
+							<option label="30027">gen</option>
+							<option label="30028">sms</option>
+							<option label="30029">gg</option>
+							<option label="30030">sg1000</option>
+							<option label="30031">sc3000</option>
+							<option label="30032">32x</option>
+							<option label="30033">32xcd</option>
+							<option label="30034">pico</option>
+							<option label="30035">copera</option>
+							<option label="30036">laseractive</option>
+							<option label="30037">mediaplayer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_model" type="string" label="30003" help="30155">
+					<level>0</level>
+					<default>md1va3</default>
+					<constraints>
+						<options>
+							<option label="30039">md1va3</option>
+							<option label="30040">md1va0</option>
+							<option label="30041">md1va6</option>
+							<option label="30042">md2va1</option>
+							<option label="30043">md2va2</option>
+							<option label="30044">md3va1</option>
+							<option label="30045">md3va2</option>
+							<option label="30046">teradrive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_sms_model" type="string" label="30004" help="30047">
+					<level>0</level>
+					<default>sms2</default>
+					<constraints>
+						<options>
+							<option label="30048">sms2</option>
+							<option label="30040">md1va0</option>
+							<option label="30039">md1va3</option>
+							<option label="30041">md1va6</option>
+							<option label="30042">md2va1</option>
+							<option label="30043">md2va2</option>
+							<option label="30044">md3va1</option>
+							<option label="30045">md3va2</option>
+							<option label="30049">sms1</option>
+							<option label="30046">teradrive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_region" type="string" label="30005" help="30050">
+					<level>0</level>
+					<default>U</default>
+					<constraints>
+						<options>
+							<option label="30051">U</option>
+							<option label="30052">J</option>
+							<option label="30053">E</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_force_region" type="string" label="30006" help="30054">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30055">off</option>
+							<option label="30056">on</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_ram_init" type="string" label="30007" help="30057">
+					<level>0</level>
+					<default>zero</default>
+					<constraints>
+						<options>
+							<option label="30058">zero</option>
+							<option label="30059">random</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_m68k_divider" type="string" label="30008" help="30060">
+					<level>0</level>
+					<default>7</default>
+					<constraints>
+						<options>
+							<option label="30061">7</option>
+							<option label="30062">6</option>
+							<option label="30063">5</option>
+							<option label="30064">4</option>
+							<option label="30065">3</option>
+							<option label="30066">2</option>
+							<option label="30067">1</option>
+							<option label="30068">8</option>
+							<option label="30069">10</option>
+							<option label="30070">14</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_megawifi" type="string" label="30009" help="30071">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30055">off</option>
+							<option label="30056">on</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30072" help="30073">
+			<group id="1">
+				<setting id="blastem_overscan_top" type="string" label="30019" help="30151">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30026">auto</option>
+							<option label="30075">0</option>
+							<option label="30076">1</option>
+							<option label="30077">2</option>
+							<option label="30078">3</option>
+							<option label="30079">4</option>
+							<option label="30080">5</option>
+							<option label="30081">6</option>
+							<option label="30082">7</option>
+							<option label="30083">8</option>
+							<option label="30084">9</option>
+							<option label="30085">10</option>
+							<option label="30086">11</option>
+							<option label="30087">12</option>
+							<option label="30088">13</option>
+							<option label="30089">14</option>
+							<option label="30090">15</option>
+							<option label="30091">16</option>
+							<option label="30092">17</option>
+							<option label="30093">18</option>
+							<option label="30094">19</option>
+							<option label="30095">20</option>
+							<option label="30096">21</option>
+							<option label="30097">22</option>
+							<option label="30098">23</option>
+							<option label="30099">24</option>
+							<option label="30100">25</option>
+							<option label="30101">26</option>
+							<option label="30102">27</option>
+							<option label="30103">28</option>
+							<option label="30104">29</option>
+							<option label="30105">30</option>
+							<option label="30106">31</option>
+							<option label="30107">32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_overscan_bottom" type="string" label="30020" help="30152">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30026">auto</option>
+							<option label="30075">0</option>
+							<option label="30076">1</option>
+							<option label="30077">2</option>
+							<option label="30078">3</option>
+							<option label="30079">4</option>
+							<option label="30080">5</option>
+							<option label="30081">6</option>
+							<option label="30082">7</option>
+							<option label="30083">8</option>
+							<option label="30084">9</option>
+							<option label="30085">10</option>
+							<option label="30086">11</option>
+							<option label="30087">12</option>
+							<option label="30088">13</option>
+							<option label="30089">14</option>
+							<option label="30090">15</option>
+							<option label="30091">16</option>
+							<option label="30092">17</option>
+							<option label="30093">18</option>
+							<option label="30094">19</option>
+							<option label="30095">20</option>
+							<option label="30096">21</option>
+							<option label="30097">22</option>
+							<option label="30098">23</option>
+							<option label="30099">24</option>
+							<option label="30100">25</option>
+							<option label="30101">26</option>
+							<option label="30102">27</option>
+							<option label="30103">28</option>
+							<option label="30104">29</option>
+							<option label="30105">30</option>
+							<option label="30106">31</option>
+							<option label="30107">32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_overscan_left" type="string" label="30021" help="30153">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30026">auto</option>
+							<option label="30075">0</option>
+							<option label="30076">1</option>
+							<option label="30077">2</option>
+							<option label="30078">3</option>
+							<option label="30079">4</option>
+							<option label="30080">5</option>
+							<option label="30081">6</option>
+							<option label="30082">7</option>
+							<option label="30083">8</option>
+							<option label="30084">9</option>
+							<option label="30085">10</option>
+							<option label="30086">11</option>
+							<option label="30087">12</option>
+							<option label="30088">13</option>
+							<option label="30089">14</option>
+							<option label="30090">15</option>
+							<option label="30091">16</option>
+							<option label="30092">17</option>
+							<option label="30093">18</option>
+							<option label="30094">19</option>
+							<option label="30095">20</option>
+							<option label="30096">21</option>
+							<option label="30097">22</option>
+							<option label="30098">23</option>
+							<option label="30099">24</option>
+							<option label="30100">25</option>
+							<option label="30101">26</option>
+							<option label="30102">27</option>
+							<option label="30103">28</option>
+							<option label="30104">29</option>
+							<option label="30105">30</option>
+							<option label="30106">31</option>
+							<option label="30107">32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_overscan_right" type="string" label="30022" help="30154">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30026">auto</option>
+							<option label="30075">0</option>
+							<option label="30076">1</option>
+							<option label="30077">2</option>
+							<option label="30078">3</option>
+							<option label="30079">4</option>
+							<option label="30080">5</option>
+							<option label="30081">6</option>
+							<option label="30082">7</option>
+							<option label="30083">8</option>
+							<option label="30084">9</option>
+							<option label="30085">10</option>
+							<option label="30086">11</option>
+							<option label="30087">12</option>
+							<option label="30088">13</option>
+							<option label="30089">14</option>
+							<option label="30090">15</option>
+							<option label="30091">16</option>
+							<option label="30092">17</option>
+							<option label="30093">18</option>
+							<option label="30094">19</option>
+							<option label="30095">20</option>
+							<option label="30096">21</option>
+							<option label="30097">22</option>
+							<option label="30098">23</option>
+							<option label="30099">24</option>
+							<option label="30100">25</option>
+							<option label="30101">26</option>
+							<option label="30102">27</option>
+							<option label="30103">28</option>
+							<option label="30104">29</option>
+							<option label="30105">30</option>
+							<option label="30106">31</option>
+							<option label="30107">32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30111" help="30112">
+			<group id="1">
+				<setting id="blastem_gain" type="string" label="30012" help="30113">
+					<level>0</level>
+					<default>0.0</default>
+					<constraints>
+						<options>
+							<option label="30114">0.0</option>
+							<option label="30115">6.0</option>
+							<option label="30116">4.5</option>
+							<option label="30117">3.0</option>
+							<option label="30118">1.5</option>
+							<option label="30114">0.0</option>
+							<option label="30119">-1.5</option>
+							<option label="30120">-3.0</option>
+							<option label="30121">-4.5</option>
+							<option label="30122">-6.0</option>
+							<option label="30123">-9.5</option>
+							<option label="30124">-12.0</option>
+							<option label="30125">-18.0</option>
+							<option label="30126">-24.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_fm_gain" type="string" label="30013" help="30127">
+					<level>0</level>
+					<default>0.0</default>
+					<constraints>
+						<options>
+							<option label="30114">0.0</option>
+							<option label="30115">6.0</option>
+							<option label="30116">4.5</option>
+							<option label="30117">3.0</option>
+							<option label="30118">1.5</option>
+							<option label="30114">0.0</option>
+							<option label="30119">-1.5</option>
+							<option label="30120">-3.0</option>
+							<option label="30121">-4.5</option>
+							<option label="30122">-6.0</option>
+							<option label="30123">-9.5</option>
+							<option label="30124">-12.0</option>
+							<option label="30125">-18.0</option>
+							<option label="30126">-24.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_psg_gain" type="string" label="30014" help="30128">
+					<level>0</level>
+					<default>0.0</default>
+					<constraints>
+						<options>
+							<option label="30114">0.0</option>
+							<option label="30115">6.0</option>
+							<option label="30116">4.5</option>
+							<option label="30117">3.0</option>
+							<option label="30118">1.5</option>
+							<option label="30114">0.0</option>
+							<option label="30119">-1.5</option>
+							<option label="30120">-3.0</option>
+							<option label="30121">-4.5</option>
+							<option label="30122">-6.0</option>
+							<option label="30123">-9.5</option>
+							<option label="30124">-12.0</option>
+							<option label="30125">-18.0</option>
+							<option label="30126">-24.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_rf5c164_gain" type="string" label="30015" help="30129">
+					<level>0</level>
+					<default>-6.0</default>
+					<constraints>
+						<options>
+							<option label="30122">-6.0</option>
+							<option label="30115">6.0</option>
+							<option label="30116">4.5</option>
+							<option label="30117">3.0</option>
+							<option label="30118">1.5</option>
+							<option label="30114">0.0</option>
+							<option label="30119">-1.5</option>
+							<option label="30120">-3.0</option>
+							<option label="30121">-4.5</option>
+							<option label="30122">-6.0</option>
+							<option label="30123">-9.5</option>
+							<option label="30124">-12.0</option>
+							<option label="30125">-18.0</option>
+							<option label="30126">-24.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_cdda_gain" type="string" label="30016" help="30130">
+					<level>0</level>
+					<default>-9.5</default>
+					<constraints>
+						<options>
+							<option label="30123">-9.5</option>
+							<option label="30115">6.0</option>
+							<option label="30116">4.5</option>
+							<option label="30117">3.0</option>
+							<option label="30118">1.5</option>
+							<option label="30114">0.0</option>
+							<option label="30119">-1.5</option>
+							<option label="30120">-3.0</option>
+							<option label="30121">-4.5</option>
+							<option label="30122">-6.0</option>
+							<option label="30123">-9.5</option>
+							<option label="30124">-12.0</option>
+							<option label="30125">-18.0</option>
+							<option label="30126">-24.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_fm_dac" type="string" label="30017" help="30131">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30132">auto</option>
+							<option label="30133">zero_offset</option>
+							<option label="30134">linear</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_lowpass_cutoff" type="string" label="30018" help="30135">
+					<level>0</level>
+					<default>3390</default>
+					<constraints>
+						<options>
+							<option label="30136">3390</option>
+							<option label="30137">2000</option>
+							<option label="30138">2500</option>
+							<option label="30139">3000</option>
+							<option label="30140">4000</option>
+							<option label="30141">5000</option>
+							<option label="30142">8000</option>
+							<option label="30143">24000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30144" help="30145">
+			<group id="1">
+				<setting id="blastem_io_1" type="string" label="30010" help="30146">
+					<level>0</level>
+					<default>gamepad6.1</default>
+					<constraints>
+						<options>
+							<option label="30147">gamepad6.1</option>
+							<option label="30148">gamepad3.1</option>
+							<option label="30149">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="blastem_io_2" type="string" label="30011" help="30150">
+					<level>0</level>
+					<default>gamepad6.2</default>
+					<constraints>
+						<options>
+							<option label="30147">gamepad6.2</option>
+							<option label="30148">gamepad3.2</option>
+							<option label="30149">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

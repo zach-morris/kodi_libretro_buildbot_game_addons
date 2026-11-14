@@ -1,0 +1,250 @@
+# game.libretro.fuse language file
+# Addon Name: game.libretro.fuse
+# Addon id: game.libretro.fuse
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.fuse\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fuse/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sinclair - ZX Spectrum (Fuse)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Fuse (the Free Unix Spectrum Emulator) was originally a ZX Spectrum emulator for Unix. It has since been ported to Mac OS X, Windows, the Wii, AmigaOS and MorphOS."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Model (needs content load)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Size Video Border"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Tape Auto Load"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Tape Fast Load"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Tape Load Sound"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Speaker Type"
+msgstr ""
+
+msgctxt "#30007"
+msgid "AY Stereo Separation"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Transparent Keyboard Overlay"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Time to Release Key in ms"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Joypad Left mapping"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Joypad Right mapping"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Joypad Up mapping"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Joypad Down mapping"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Joypad Start mapping"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Joypad A button mapping"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Joypad B button mapping"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Joypad X button mapping"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Joypad Y button mapping"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Joypad L button mapping"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Joypad R button mapping"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Joypad L2 button mapping"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Joypad R2 button mapping"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Joypad L3 button mapping"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Joypad R3 button mapping"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Emulation speed percentage (needs content load)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Colour Palette"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Use Auto Size for Savestates. For Netplay 'Off' is recommended"
+msgstr ""
+
+msgctxt "#30029"
+msgid "TurboSound (2x AY-8910)"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Issue 2 Keyboard"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Fuller Box"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Melodik"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Currah uSpeech"
+msgstr ""
+
+msgctxt "#30034"
+msgid "AY Volume"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Beeper Volume"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Display joystick type at startup"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Display emulation speed at startup"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Kempston Mouse Swap Buttons"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Auto-select Model for 128K content (needs content load)"
+msgstr ""
+
+msgctxt "#30040"
+msgid "System"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Load 128K-only releases on a Spectrum 128K even when Model is set to a 48K machine. A tape is treated as 128K-only when it says so itself (a 'stop the tape if in 48K mode' block, or hardware information ruling out a 48K) or when its filename tags it as the 128K release. Leave this disabled to have Model always honoured exactly as set; the core still says so on screen when content looks like it needs a 128K."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Emulate an Issue 2 Spectrum, which returns a different value for the unused bits of the keyboard port. A handful of 48K titles (Rasputin and others) only respond to the keyboard on an Issue 2 machine. No effect on 128K and later models."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Emulate the Fuller Box AY-3-8912 audio interface (ports 0x3f/0x5f) and its joystick port. Leave disabled for plain 48K titles: some of them poke those ports and will play AY music that no unexpanded Spectrum could produce. Selecting the Fuller joystick on a controller port enables the box regardless of this setting. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Emulate the Currah uSpeech allophone speech synthesiser. Requires two ROM images the core cannot distribute, 'uspeech.rom' and 'sp0256-al2.bin', placed in the frontend's system directory; without them the option has no effect. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Emulate the Melodik AY-3-8912 audio interface, which decodes the 128K AY ports (0xfffd/0xbffd) on a 48K machine. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30048"
+msgid "Relative volume of the AY-3-8912 chip, so AY music can be turned down without losing beeper effects (or the other way round)."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Relative volume of the ULA beeper."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30052"
+msgid "full"
+msgstr ""
+
+msgctxt "#30053"
+msgid "medium"
+msgstr ""
+
+msgctxt "#30054"
+msgid "small"
+msgstr ""
+
+msgctxt "#30055"
+msgid "minimum"
+msgstr ""
+
+msgctxt "#30056"
+msgid "acb"
+msgstr ""
+
+msgctxt "#30057"
+msgid "abc"
+msgstr ""

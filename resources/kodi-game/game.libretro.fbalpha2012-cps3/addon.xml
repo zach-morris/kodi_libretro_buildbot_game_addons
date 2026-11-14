@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.fbalpha2012-cps3"
+		name="Arcade (FB Alpha 2012 CPS-3)"
+		version="0.2.97.29"
+		provider-name="Team FB Alpha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>iso|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbalpha2012_cps3_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha2012-cps3</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="da_DK">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="en_GB">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Alpha 2012 CPS-3)</summary>
+		<summary lang="ga">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="it_IT">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="ru_RU">Аркада (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="sv_SE">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="zh_CN">街机（FB Alpha 2012 CPS-3）</summary>
+		<description lang="cs_CZ">Port FinalBurn Alpha 2012 pro Libretro. Jde o samostatné jádro pro Capcom CPS-3.</description>
+		<description lang="da_DK">En port af FinalBurn Alpha 2012 til Libretro. Dette er den selvstændige kerne til Capcom CPS-3.</description>
+		<description lang="de_DE">Eine Portierung von FinalBurn Alpha 2012 auf Libretro. Dies ist der eigenständige Core für Capcom CPS-3.</description>
+		<description lang="en_GB">A port of FinalBurn Alpha 2012 to Libretro. This is the standalone core for Capcom CPS-3.</description>
+		<description lang="es_ES">Una adaptación de FinalBurn Alpha 2012 a Libretro. Este es el núcleo independiente para Capcom CPS-3.</description>
+		<description lang="ga">Port de FinalBurn Alpha 2012 chuig Libretro. Seo croílár neamhspleách Capcom CPS-3.</description>
+		<description lang="it_IT">Un port di FinalBurn Alpha 2012 su Libretro. Questo è il core autonomo per Capcom CPS-3.</description>
+		<description lang="ru_RU">Порт FinalBurn Alpha 2012 на Libretro. Это отдельное ядро для Capcom CPS-3.</description>
+		<description lang="sv_SE">En portning av FinalBurn Alpha 2012 till Libretro. Detta är den fristående kärnan för Capcom CPS-3.</description>
+		<description lang="zh_CN">FinalBurn Alpha 2012 的 Libretro 实现。这是 Capcom CPS-3 的独立核心。</description>
+	</extension>
+</addon>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.pokemini"
+		name="Nintendo - Pokemon Mini (PokeMini)"
+		version="0.60.0.51"
+		provider-name="JustBurn">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Pokemon Mini</platforms>
+		<extensions>min</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>pokemini_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.pokemini</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Pokémon Mini (PokeMini)</summary>
+		<summary lang="da_DK">Nintendo - Pokemon Mini (PokeMini)</summary>
+		<summary lang="en_GB">Nintendo - Pokemon Mini (PokeMini)</summary>
+		<summary lang="es_ES">Nintendo - Pokemon Mini (PokeMini)</summary>
+		<summary lang="ga">Nintendo - Pokemon Mini (PokeMini)</summary>
+		<summary lang="it_IT">Nintendo - Pokemon Mini (PokeMini)</summary>
+		<summary lang="ru_RU">Nintendo — Pokémon Mini (PokeMini)</summary>
+		<summary lang="sv_SE">Nintendo - Pokemon Mini (PokeMini)</summary>
+		<summary lang="zh_CN">任天堂 - Pokemon Mini (PokeMini)</summary>
+		<description lang="cs_CZ">PokeMini emuluje málo známou kapesní konzoli Pokémon Mini. Ačkoli je funkční, v současnosti nepodporuje soubory s barvami ani uložené stavy.[CR][CR]Chcete-li použít skutečný BIOS, umístěte [I]bios.min[/I] do složky userdata emulátoru.</description>
+		<description lang="da_DK">PokeMini emulerer den obskure Pokémon Mini håndholdte. Selvom den er funktionel, understøtter den i øjeblikket ikke farvefiler eller gemte tilstande.[CR][CR]For at bruge en rigtig BIOS skal du placere [I]bios.min[/I] i emulatorens brugerdatamappe.</description>
+		<description lang="de_DE">PokeMini emuliert den obskuren Pokémon Mini-Handheld. Er ist zwar funktionsfähig, unterstützt aber derzeit keine Farbdateien oder Savestates.[CR][CR]Um ein echtes BIOS zu verwenden, muss die Datei [I]bios.min[/I] im userdata-Ordner des Emulators abgelegt werden.</description>
+		<description lang="en_GB">PokeMini emulates the obscure Pokémon Mini handheld. While functional, it does not support color files or savestates currently.[CR][CR]To use a real BIOS, place [I]bios.min[/I] in the emulator&apos;s userdata folder.</description>
+		<description lang="es_ES">PokeMini emula la oscura videoconsola portátil Pokémon Mini. Aunque es funcional, actualmente no soporta archivos de color o guardar estados.[CR][CR]Para utilizar una BIOS real, coloca [I]bios.min[/I] en la carpeta userdata del emulador.</description>
+		<description lang="ga">Déanann PokeMini aithris ar an ríomhaire boise Pokémon Mini doiléir. Cé go bhfuil sé feidhmiúil, ní thacaíonn sé le comhaid datha ná le stáit shábháilte faoi láthair.[CR][CR]Chun BIOS fíor a úsáid, cuir [I]bios.min[/I] i bhfillteán sonraí úsáideora an aithriseora.</description>
+		<description lang="it_IT">PokeMini emula la poco conosciuta console portatile Pokémon Mini. Sebbene funzionante, al momento non supporta file colore o salvataggi rapidi.[CR][CR]Per usare un BIOS reale, posiziona [I]bios.min[/I] nella cartella userdata dell&apos;emulatore.</description>
+		<description lang="ru_RU">PokeMini эмулирует малоизвестную портативную консоль Pokémon Mini. Хотя он функционален, в настоящее время он не поддерживает цветные файлы или сохранённые состояния.[CR][CR]Чтобы использовать реальный BIOS, поместите [I]bios.min[/I] в папку userdata эмулятора.</description>
+		<description lang="sv_SE">PokeMini emulerar den obskyra Pokémon Mini-handdatorn. Den är funktionell, men stöder för närvarande inte färgfiler eller savestates.[CR][CR]För att använda ett riktigt BIOS, placera [I]bios.min[/I] i emulatorns användardatamapp.</description>
+		<description lang="zh_CN">PokeMini 仿真默默无闻的 Pokémon Mini 掌机。虽然功能正常，但它目前不支持颜色文件或保存状态。[CR][CR]要使用真正的 BIOS，请将 [I]BIOS.min[/I] 放在模拟器的 userdata 文件夹中。</description>
+	</extension>
+</addon>

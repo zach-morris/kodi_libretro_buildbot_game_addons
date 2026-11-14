@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.prosystem">
+		<category id="video" label="30005">
+			<group id="1">
+				<setting id="prosystem_color_depth" type="string" label="30001" help="30006">
+					<level>0</level>
+					<default>16bit</default>
+					<constraints>
+						<options>
+							<option label="30007">16bit</option>
+							<option label="30008">24bit</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30009">
+			<group id="1">
+				<setting id="prosystem_low_pass_filter" type="string" label="30002" help="30010">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="prosystem_low_pass_range" type="string" label="30003" help="30011">
+					<level>0</level>
+					<default>60</default>
+					<constraints>
+						<options>
+							<option label="30012">5</option>
+							<option label="30013">10</option>
+							<option label="30014">15</option>
+							<option label="30015">20</option>
+							<option label="30016">25</option>
+							<option label="30017">30</option>
+							<option label="30018">35</option>
+							<option label="30019">40</option>
+							<option label="30020">45</option>
+							<option label="30021">50</option>
+							<option label="30022">55</option>
+							<option label="30023">60</option>
+							<option label="30024">65</option>
+							<option label="30025">70</option>
+							<option label="30026">75</option>
+							<option label="30027">80</option>
+							<option label="30028">85</option>
+							<option label="30029">90</option>
+							<option label="30030">95</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30031">
+			<group id="1">
+				<setting id="prosystem_gamepad_dual_stick_hack" type="string" label="30004" help="30032">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

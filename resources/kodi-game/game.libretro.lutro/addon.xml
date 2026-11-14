@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.lutro"
+		name="Lua Engine (Lutro)"
+		version="0.0.1.48"
+		provider-name="Higor Euripedes/Jean-Andre Santoni">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Lua Engine</platforms>
+		<extensions>lutro|lua</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>lutro_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.lutro</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Lua Engine (Lutro)</summary>
+		<summary lang="da_DK">Lua Engine (Lutro)</summary>
+		<summary lang="en_GB">Lua Engine (Lutro)</summary>
+		<summary lang="es_ES">Motor Lua (Lutro)</summary>
+		<summary lang="ga">Inneall Lua (Lutro)</summary>
+		<summary lang="it_IT">Lua Engine (Lutro)</summary>
+		<summary lang="ko_KR">루아 엔진 (Lutro)</summary>
+		<summary lang="ru_RU">Lua Engine (Lutro)</summary>
+		<summary lang="sv_SE">Lua Engine (Lutro)</summary>
+		<summary lang="zh_CN">Lua 引擎（Lutro）</summary>
+		<description lang="cs_CZ">Lutro je experimentální herní framework v jazyce Lua pro Libretro inspirovaný LÖVE.</description>
+		<description lang="da_DK">Lutro er en eksperimentel Lua-spilramme til libretro inspireret af LÖVE.</description>
+		<description lang="de_DE">Lutro ist ein experimentelles Lua-Spiele-Framework für libretro, inspiriert von LÖVE.</description>
+		<description lang="en_GB">Lutro is an experimental Lua game framework for libretro inspired by LÖVE.</description>
+		<description lang="es_ES">Lutro es un framework experimental de juegos en Lua para libretro inspirado en LÖVE.</description>
+		<description lang="ga">Is creat cluiche Lua turgnamhach é Lutro do libretro atá spreagtha ag LÖVE.</description>
+		<description lang="it_IT">Lutro è un framework sperimentale di giochi Lua per libretro ispirato da LÖVE.</description>
+		<description lang="ko_KR">Lutro는 LÖVE에서 영감을 받은 libretro용 실험적인 Lua 게임 프레임워크입니다.</description>
+		<description lang="ru_RU">Lutro — экспериментальная игровая платформа Lua для libretro, вдохновленная LÖVE.</description>
+		<description lang="sv_SE">Lutro är ett experimentellt Lua-spelramverk för libretro inspirerat av LÖVE.</description>
+		<description lang="zh_CN">Lutro 是 Librector 的一个实验性 Lua 游戏框架，灵感来自LÖVE。</description>
+	</extension>
+</addon>

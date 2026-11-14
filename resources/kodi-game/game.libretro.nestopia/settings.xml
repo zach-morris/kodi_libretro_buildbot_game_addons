@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.nestopia">
+		<category id="system" label="30035" help="30036">
+			<group id="1">
+				<setting id="nestopia_favored_system" type="string" label="30120" help="30121">
+					<level>0</level>
+					<default>ntsc</default>
+					<constraints>
+						<options>
+							<option label="30039">ntsc</option>
+							<option label="30040">pal</option>
+							<option label="30041">famicom</option>
+							<option label="30042">dendy</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_force_system" type="string" label="30122" help="30123">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30038">auto</option>
+							<option label="30039">ntsc</option>
+							<option label="30040">pal</option>
+							<option label="30041">famicom</option>
+							<option label="30042">dendy</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_fds_auto_insert" type="string" label="30002" help="30043">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_fds_savefile_format" type="string" label="30034" help="30044">
+					<level>0</level>
+					<default>sav_ups</default>
+					<constraints>
+						<options>
+							<option label="30045">sav_ups</option>
+							<option label="30046">ups</option>
+							<option label="30047">ips</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30048" help="30049">
+			<group id="1">
+				<setting id="nestopia_blargg_ntsc_filter" type="string" label="30003" help="30050">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30051">composite</option>
+							<option label="30052">svideo</option>
+							<option label="30053">rgb</option>
+							<option label="30054">monochrome</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_palette" type="string" label="30004" help="30055">
+					<level>0</level>
+					<default>royaltea</default>
+					<constraints>
+						<options>
+							<option label="30058">royaltea</option>
+							<option label="30056">cxa2025as</option>
+							<option label="30057">cxa2025as_jp</option>
+							<option label="30059">consumer</option>
+							<option label="30060">canonical</option>
+							<option label="30061">alternative</option>
+							<option label="30062">rgb</option>
+							<option label="30040">pal</option>
+							<option label="30063">digital-prime-fbx</option>
+							<option label="30064">magnum-fbx</option>
+							<option label="30065">smoothv2-fbx</option>
+							<option label="30066">composite-direct-fbx</option>
+							<option label="30067">pvm-style-d93-fbx</option>
+							<option label="30068">ntsc-hardware-fbx</option>
+							<option label="30069">nes-classic-fbx-fs</option>
+							<option label="30070">restored-wii-vc</option>
+							<option label="30071">wii-vc</option>
+							<option label="30072">raw</option>
+							<option label="30073">custom</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_overscan_v_top" type="string" label="30005" help="30074">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_overscan_v_bottom" type="string" label="30006" help="30074">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_overscan_h_left" type="string" label="30007" help="30075">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_overscan_h_right" type="string" label="30008" help="30075">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_aspect" type="string" label="30009" help="30124">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30038">auto</option>
+							<option label="30039">ntsc</option>
+							<option label="30040">pal</option>
+							<option label="30125">4:3</option>
+							<option label="30126">5:4</option>
+							<option label="30078">uncorrected</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30079" help="30080">
+			<group id="1">
+				<setting id="nestopia_audio_filter" type="string" label="30118" help="30119">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_show_advanced_av_settings" type="string" label="30011" help="30082">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_sq1" type="string" label="30012" help="30083">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_sq2" type="string" label="30013" help="30084">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_tri" type="string" label="30014" help="30085">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_noise" type="string" label="30015" help="30086">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_dpcm" type="string" label="30016" help="30087">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_fds" type="string" label="30017" help="30088">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_mmc5" type="string" label="30018" help="30089">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_vrc6" type="string" label="30019" help="30090">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_vrc7" type="string" label="30020" help="30091">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_n163" type="string" label="30021" help="30092">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_audio_vol_s5b" type="string" label="30022" help="30093">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30095" help="30096">
+			<group id="1">
+				<setting id="nestopia_select_adapter" type="string" label="30024" help="30097">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30038">auto</option>
+							<option label="30039">ntsc</option>
+							<option label="30041">famicom</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_button_shift" type="string" label="30025" help="30098">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_arkanoid_device" type="string" label="30026" help="30099">
+					<level>0</level>
+					<default>mouse</default>
+					<constraints>
+						<options>
+							<option label="30100">mouse</option>
+							<option label="30101">pointer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_arkanoid_paddle_range" type="string" label="30033" help="30102">
+					<level>0</level>
+					<default>combined</default>
+					<constraints>
+						<options>
+							<option label="30103">combined</option>
+							<option label="30104">arkanoidI</option>
+							<option label="30105">arkanoidII</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_zapper_device" type="string" label="30027" help="30106">
+					<level>0</level>
+					<default>lightgun</default>
+					<constraints>
+						<options>
+							<option label="30107">lightgun</option>
+							<option label="30100">mouse</option>
+							<option label="30101">pointer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_show_crosshair" type="string" label="30028" help="30108">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_turbo_pulse" type="string" label="30029" help="30109">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30110" help="30111">
+			<group id="1">
+				<setting id="nestopia_nospritelimit" type="string" label="30030" help="30112">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_dmc_pop_reducer" type="string" label="30127" help="30128">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_genie_distortion" type="string" label="30010" help="30081">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="nestopia_ram_power_state" type="string" label="30032" help="30114">
+					<level>0</level>
+					<default>0x00</default>
+					<constraints>
+						<options>
+							<option label="30116">0x00</option>
+							<option label="30117">0xFF</option>
+							<option label="30115">random</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

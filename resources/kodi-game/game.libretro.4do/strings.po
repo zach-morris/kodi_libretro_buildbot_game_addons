@@ -1,0 +1,90 @@
+# game.libretro.4do language file
+# Addon Name: game.libretro.4do
+# Addon id: game.libretro.4do
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.4do\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-08-24 22:21i\n"
+"PO-Revision-Date: 2024-12-27 21:10+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-4do/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "4DO"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "4DO emulates the 3DO Interactive Multiplayer video game system, often called simply the 3DO.[CR][CR]4DO is based on the FreeDO source code."
+msgstr ""
+
+msgctxt "Addon Lifecyclestate"
+msgid "This add-on has been renamed from 4do to Opera."
+msgstr ""
+
+msgctxt "#30001"
+msgid "BIOS (rom1)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Font (rom2)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "CPU Overclock"
+msgstr ""
+
+msgctxt "#30008"
+msgid "MADAM Matrix Engine"
+msgstr ""
+
+msgctxt "#30009"
+msgid "OperaOS SWI HLE"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Threaded DSP"
+msgstr ""
+
+msgctxt "#30011"
+msgid "NVRAM Storage"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Active Input Devices"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Timing Hack 1 (Crash 'n Burn)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Timing Hack 3 (Dinopark Tycoon)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Timing Hack 5 (Microcosm)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Timing Hack 6 (Alone in the Dark)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Graphics Step Y Hack (Samurai Showdown)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "High Resolution"
+msgstr ""
+
+msgctxt "#30024"
+msgid "3DO Debugging Output (stderr)"
+msgstr ""

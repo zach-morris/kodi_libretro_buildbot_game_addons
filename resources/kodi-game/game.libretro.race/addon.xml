@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.race"
+		name="SNK - Neo Geo Pocket / Color (RACE)"
+		version="2.16.0.40"
+		provider-name="Judge_, Flavor, Akop Karapetyan, theelf, frangarcj, negativeExponent">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>SNK - Neo Geo Pocket / Color</platforms>
+		<extensions>ngp|ngc|ngpc|npc</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>race_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.race</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">SNK - Neo Geo Pocket / Color (RACE)</summary>
+		<summary lang="da_DK">SNK - Neo Geo Pocket / Farve (RACE)</summary>
+		<summary lang="en_GB">SNK - Neo Geo Pocket / Color (RACE)</summary>
+		<summary lang="es_ES">SNK - Neo Geo Pocket / Color (RACE)</summary>
+		<summary lang="ga">SNK - Neo Geo Pocket / Color (RACE)</summary>
+		<summary lang="it_IT">SNK - Neo Geo Pocket / Color (RACE)</summary>
+		<summary lang="ru_RU">SNK — Neo Geo Pocket / Color (RACE)</summary>
+		<summary lang="sv_SE">SNK - Neo Geo Pocket / Color (RACE)</summary>
+		<summary lang="zh_CN">SNK - Neo Geo Pocket / Color (RACE)</summary>
+		<description lang="cs_CZ">RACE je emulátor Neo Geo Pocket (NGP) a Neo Geo Pocket Color (NGPC) pro více platforem.</description>
+		<description lang="da_DK">RACE er en Neo Geo Pocket (NGP) og Neo Geo Pocket Color (NGPC) emulator til flere platforme.</description>
+		<description lang="en_GB">RACE is a Neo Geo Pocket (NGP) and Neo Geo Pocket Color (NGPC) emulator for multiple platforms.</description>
+		<description lang="es_ES">RACE es un emulador de Neo Geo Pocket (NGP) y Neo Geo Pocket Color (NGPC) para múltiples plataformas.</description>
+		<description lang="ga">Is aithriseoir Neo Geo Pocket (NGP) agus Neo Geo Pocket Color (NGPC) é RACE do ardáin éagsúla.</description>
+		<description lang="it_IT">RACE è un emulatore Neo Geo Pocket (NGP) e Neo Geo Pocket Color (NGPC) per più piattaforme.</description>
+		<description lang="ru_RU">RACE — это эмулятор Neo Geo Pocket (NGP) и Neo Geo Pocket Color (NGPC) для нескольких платформ.</description>
+		<description lang="sl_SI">RACE je emulator Neo Geo Pocket (NGP) in Neo Geo Pocket Color (NGPC) za več platform.</description>
+		<description lang="sv_SE">RACE är en Neo Geo Pocket (NGP) och Neo Geo Pocket Color (NGPC) emulator för flera plattformar.</description>
+		<description lang="zh_CN">RACE 是一款适用于多平台的 Neo Geo Pocket (NGP) 和 Neo Geo Pocket Color (NGPC) 模拟器。</description>
+	</extension>
+</addon>

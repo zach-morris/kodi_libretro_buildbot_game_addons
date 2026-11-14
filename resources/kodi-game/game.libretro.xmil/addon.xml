@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.xmil"
+		name="Sharp X1 (X Millennium)"
+		version="0.60.0.48"
+		provider-name="yui">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sharp X1</platforms>
+		<extensions>dx1|zip|2d|2hd|tfd|d88|88d|hdm|xdf|dup|cmd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>x1_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>BSD</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.xmil</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sharp X1 (X Millennium)</summary>
+		<summary lang="da_DK">Sharp X1 (X Millennium)</summary>
+		<summary lang="en_GB">Sharp X1 (X Millennium)</summary>
+		<summary lang="es_ES">Sharp X1 (X Millennium)</summary>
+		<summary lang="ga">Sharp X1 (X Millennium)</summary>
+		<summary lang="it_IT">Sharp X1 (X Millennium)</summary>
+		<summary lang="ru_RU">Sharp X1 (X Millennium)</summary>
+		<summary lang="sv_SE">Sharp X1 (X Millennium)</summary>
+		<summary lang="zh_CN">夏普 X1 (X Millennium)</summary>
+		<description lang="cs_CZ">X Millennium vznikl koncem 90. let jako X1R, fork X1EMU s režimem reálného času.</description>
+		<description lang="da_DK">X millennium blev født i slutningen af 1990&apos;erne som X1R, en fork af X1EMU i real-tid.</description>
+		<description lang="de_DE">X Millennium wurde in den späten 1990er Jahren als X1R geboren, ein Echtzeitmodus-Ableger von X1EMU.</description>
+		<description lang="en_GB">X millennium was born in the late 1990s as X1R, a real-time mode fork of X1EMU.</description>
+		<description lang="es_ES">X milenio nació a finales de los 90 como X1R, una bifurcacación en modo de tiempo real del X1EMU.</description>
+		<description lang="ga">Rugadh X millennium ag deireadh na 1990idí mar X1R, forc mód fíor-ama de X1EMU.</description>
+		<description lang="it_IT">X millennium è nato alla fine degli anni &apos;90 come X1R, un fork in modalità tempo reale di X1EMU.</description>
+		<description lang="ru_RU">X Millennium появился в конце 1990-х как X1R — форк X1EMU с режимом реального времени.</description>
+		<description lang="sv_SE">X millennium föddes i slutet av 1990-talet som X1R, en fork för realtidsläge av X1EMU.</description>
+		<description lang="zh_CN">X millennium 作为 X1R 诞生于20世纪90年代末，是 X1EMU 的实时模式分支。</description>
+	</extension>
+</addon>

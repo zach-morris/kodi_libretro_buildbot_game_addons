@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.mesen">
+		<category id="system" label="30026" help="30027">
+			<group id="1">
+				<setting id="mesen_overclock" type="string" label="30003" help="30028">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30052">Low</option>
+							<option label="30053">Medium</option>
+							<option label="30054">High</option>
+							<option label="30055">Very High</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_overclock_type" type="string" label="30004" help="30029">
+					<level>0</level>
+					<default>Before NMI (Recommended)</default>
+					<constraints>
+						<options>
+							<option>Before NMI (Recommended)</option>
+							<option>After NMI</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_region" type="string" label="30005" help="30030">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30056">NTSC</option>
+							<option label="30057">PAL</option>
+							<option label="30058">Dendy</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_ramstate" type="string" label="30021" help="30031">
+					<level>0</level>
+					<default>All 0s (Default)</default>
+					<constraints>
+						<options>
+							<option>All 0s (Default)</option>
+							<option>All 1s</option>
+							<option>Random Values</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_fdsautoinsertdisk" type="string" label="30025" help="30032">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_fdsfastforwardload" type="string" label="30023" help="30033">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30034" help="30035">
+			<group id="1">
+				<setting id="mesen_ntsc_filter" type="string" label="30001" help="30036">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="30059">Composite (Blargg)</option>
+							<option label="30060">S-Video (Blargg)</option>
+							<option label="30061">RGB (Blargg)</option>
+							<option label="30062">Monochrome (Blargg)</option>
+							<option label="30063">Bisqwit 2x</option>
+							<option label="30064">Bisqwit 4x</option>
+							<option label="30065">Bisqwit 8x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_palette" type="string" label="30002">
+					<level>0</level>
+					<default>Default</default>
+					<constraints>
+						<options>
+							<option label="571">Default</option>
+							<option label="30066">Composite Direct (by FirebrandX)</option>
+							<option label="30067">Nes Classic</option>
+							<option label="30068">Nestopia (RGB)</option>
+							<option label="30069">Original Hardware (by FirebrandX)</option>
+							<option label="30070">PVM Style (by FirebrandX)</option>
+							<option label="30071">Sony CXA2025AS</option>
+							<option label="30072">Unsaturated v6 (by FirebrandX)</option>
+							<option label="30073">YUV v3 (by FirebrandX)</option>
+							<option label="30074">Wavebeam (by nakedarthur)</option>
+							<option label="30075">Custom</option>
+							<option label="30076">Raw</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_nospritelimit" type="string" label="30014" help="30037">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_overscan_left" type="string" label="30006" help="30038">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30077">4px</option>
+							<option label="30078">8px</option>
+							<option label="30079">12px</option>
+							<option label="30080">16px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_overscan_right" type="string" label="30007" help="30039">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30077">4px</option>
+							<option label="30078">8px</option>
+							<option label="30079">12px</option>
+							<option label="30080">16px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_overscan_up" type="string" label="30008" help="30040">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30077">4px</option>
+							<option label="30078">8px</option>
+							<option label="30079">12px</option>
+							<option label="30080">16px</option>
+							<option label="30081">20px</option>
+							<option label="30082">24px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_overscan_down" type="string" label="30009" help="30041">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30077">4px</option>
+							<option label="30078">8px</option>
+							<option label="30079">12px</option>
+							<option label="30080">16px</option>
+							<option label="30081">20px</option>
+							<option label="30082">24px</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_aspect_ratio" type="string" label="30010">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30083">No Stretching</option>
+							<option label="30056">NTSC</option>
+							<option label="30057">PAL</option>
+							<option label="30084">4:3</option>
+							<option label="30085">4:3 (Preserved)</option>
+							<option label="30086">16:9</option>
+							<option label="30087">16:9 (Preserved)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_hdpacks" type="string" label="30013">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_screenrotation" type="string" label="30020" help="30042">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30088">90 degrees</option>
+							<option label="30089">180 degrees</option>
+							<option label="30090">270 degrees</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30043" help="30044">
+			<group id="1">
+				<setting id="mesen_fake_stereo" type="string" label="30015">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_mute_triangle_ultrasonic" type="string" label="30016" help="30045">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_reduce_dmc_popping" type="string" label="30017" help="30046">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_swap_duty_cycle" type="string" label="30018" help="30047">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_disable_noise_mode_flag" type="string" label="30019" help="30048">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_audio_sample_rate" type="string" label="30024">
+					<level>0</level>
+					<default>48000</default>
+					<constraints>
+						<options>
+							<option>11025</option>
+							<option>22050</option>
+							<option>44100</option>
+							<option>48000</option>
+							<option>96000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30049" help="30050">
+			<group id="1">
+				<setting id="mesen_controllerturbospeed" type="string" label="30011" help="30051">
+					<level>0</level>
+					<default>Fast</default>
+					<constraints>
+						<options>
+							<option label="30091">Slow</option>
+							<option label="30092">Normal</option>
+							<option label="30093">Fast</option>
+							<option label="30094">Very Fast</option>
+							<option label="13106">Disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mesen_shift_buttons_clockwise" type="string" label="30012">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

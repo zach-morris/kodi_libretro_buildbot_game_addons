@@ -1,0 +1,26 @@
+# game.libretro.oberon language file
+# Addon Name: game.libretro.oberon
+# Addon id: game.libretro.oberon
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.oberon\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-25 20:17i\n"
+"PO-Revision-Date: 2024-12-27 22:04+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-oberon/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Oberon RISC Emulator"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "An emulator for the Oberon RISC machine.[CR][CR]The Oberon System was designed and implemented in 1990 by professor Niklaus Wirth. It was intended for teaching computer essentials."
+msgstr ""

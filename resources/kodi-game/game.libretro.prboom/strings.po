@@ -1,0 +1,230 @@
+# game.libretro.prboom language file
+# Addon Name: game.libretro.prboom
+# Addon id: game.libretro.prboom
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.prboom\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 22:03+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-prboom/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Doom (PrBoom)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PrBoom, short for \"Professor Boom\", is a version of the classic 3D shoot'em'up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Internal resolution (Restart Required)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Mouse Active When Using Gamepad"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Look on Parent Folders for IWADs"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Rumble Effects"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Analog Deadzone (Percent)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Wall Bullet Decals"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Compatibility Level (Restart Required)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Threaded Rendering"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Color Format (Restart Required)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "HDR Emissive Boost"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Dynamic Light Wall Falloff"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Memory-Map WAD Files (Restart Required)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Sound Samplerate (Hint)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Configure the resolution."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Fill walls and floors/ceilings across several CPU threads. Scene traversal stays single-threaded and only the pixel filling is split, so the image is identical to the single-threaded renderer -- unlike the screenspace split used by other ports, this cannot split or drop a sprite at a thread boundary. Filling is the bulk of the frame at high internal resolutions, so the benefit grows with resolution; at 320x200 there is little to gain. 'Auto' uses up to 4 threads, which measured fastest and steadiest on a 16-core test system; higher counts spend more on handing out work than they save and vary more between runs. 8 is selectable if it suits your CPU."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Off (single-threaded)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "2 threads"
+msgstr ""
+
+msgctxt "#30019"
+msgid "4 threads"
+msgstr ""
+
+msgctxt "#30020"
+msgid "8 threads"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Output colour depth. '16bits' is the classic RGB565 renderer. '24bits' renders in full 8-bit-per-channel truecolor, which removes the banding the 16-bit light ramp introduces in distance shading and smooth gradients. '30bits' outputs true HDR10 -- PQ-encoded Rec.2020 at 10 bits per channel, carrying absolute luminance -- so emissive content can be rendered brighter than SDR white on an HDR display. It requires a frontend that presents HDR10 natively; otherwise the core falls back to 24bits automatically."
+msgstr ""
+
+msgctxt "#30022"
+msgid "30bits (HDR10)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "How far above SDR white self-illuminated content (muzzle flashes, plasma, rockets, explosions, powerups and brightmapped texels) is rendered when the Color Format is 30bits. Higher values glow harder. Only affects HDR10 output; ignored in 16- and 24-bit modes."
+msgstr ""
+
+msgctxt "#30024"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30025"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30026"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30027"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Allows you to use mouse inputs even when User 1's device type isn't set to 'RetroKeyboard/Mouse'."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Stamp scuff marks on walls where hitscan shots land. Off by default, matching ZDoom mods that do not request bullet decals; enable for the classic wall-chip marks."
+msgstr ""
+
+msgctxt "#30030"
+msgid "Give GLDEFS point lights a vertical light pool on walls (brightest at the light's height, fading up and down) instead of a single level per wall column. Off by default; the per-band shading is noticeably heavier on tall, close, heavily-lit walls."
+msgstr ""
+
+msgctxt "#30031"
+msgid "Scans parent folders for IWADs. NOTE: You need to disable this if you want to run SIGIL."
+msgstr ""
+
+msgctxt "#30032"
+msgid "Enables haptic feedback when using a rumble-equipped gamepad."
+msgstr ""
+
+msgctxt "#30033"
+msgid "Load WAD data by memory-mapping the file instead of reading it fully into RAM. Lowers memory use and speeds up loading of large WADs, since only the lumps actually used are paged in. Falls back to a normal read for archives, if mapping fails, or on builds without memory-mapping support. Leave disabled to perform all WAD file I/O up front at load time."
+msgstr ""
+
+msgctxt "#30034"
+msgid "Sets the deadzone of the gamepad analog sticks when the input device type is set to 'Gamepad Modern'."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Forces a demo-compatibility level. 'Default' uses the engine's automatic choice. Set 'MBF21' to play MBF21 WADs that require complevel 21."
+msgstr ""
+
+msgctxt "#30036"
+msgid "Default (Auto)"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Ultimate Doom"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Final Doom"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Boom"
+msgstr ""
+
+msgctxt "#30040"
+msgid "MBF"
+msgstr ""
+
+msgctxt "#30041"
+msgid "PrBoom latest"
+msgstr ""
+
+msgctxt "#30042"
+msgid "MBF21"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Configure audio output, including the synthesis/output sample rate."
+msgstr ""
+
+msgctxt "#30045"
+msgid "Audio output rate. prboom synthesizes MIDI and tracker music in real time, so it has no fixed native rate and can render directly at whichever rate you pick. Higher rates lower latency, push aliasing above the audible range, avoid the frontend resampler's low-pass smearing, and give the sound-effect and music-stream resamplers finer time resolution. 'Auto' queries the frontend's target rate and snaps to the nearest supported value."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30047"
+msgid "32 kHz"
+msgstr ""
+
+msgctxt "#30048"
+msgid "44 kHz"
+msgstr ""
+
+msgctxt "#30049"
+msgid "48 kHz"
+msgstr ""
+
+msgctxt "#30050"
+msgid "96 kHz"
+msgstr ""
+
+msgctxt "#30051"
+msgid "16bits"
+msgstr ""
+
+msgctxt "#30052"
+msgid "24bits (truecolor)"
+msgstr ""

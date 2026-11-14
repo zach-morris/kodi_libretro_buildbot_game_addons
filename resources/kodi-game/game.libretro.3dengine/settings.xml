@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="128">
+		<setting label="30001" type="select" id="3dengine-resolution" values="320x240|360x480|480x272|512x384|512x512|640x240|640x448|640x480|720x576|800x600|960x720|1024x768|1024x1024|1280x720|1280x960|1600x1200|1920x1080|1920x1440|1920x1600|2048x1152|2048x1536|2048x2048|320x240" default="320x240"/>
+		<setting label="30002" type="select" id="3dengine-cube-size" values="0|1|2|4|8|16|32|64|128" default="0"/>
+		<setting label="30003" type="select" id="3dengine-cube-stride" values="2.0|3.0|4.0|5.0|6.0|7.0|8.0" default="2.0"/>
+		<setting label="30004" type="select" id="3dengine-camera-enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="3dengine-camera-type" values="texture|raw framebuffer" default="texture"/>
+		<setting label="30006" type="select" id="3dengine-sensor-enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30007" type="select" id="3dengine-location-enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="3dengine-location-camera-control-enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30009" type="select" id="3dengine-modelviewer-discard-hack" values="disabled|enabled" default="disabled"/>
+		<setting label="30010" type="select" id="3dengine-location-display-position" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

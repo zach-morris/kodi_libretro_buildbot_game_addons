@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.parallext"
+		name="Nintendo - Nintendo 64 (ParaLLEl N64)"
+		version="0.2.0.22"
+		provider-name="Hacktarux, Mupen64Plus Team, TinyTiger, Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>n64|v64|z64|bin|u1|ndd</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>true</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.parallext</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="da_DK">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="en_GB">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="es_ES">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="ga">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="it_IT">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="ru_RU">Nintendo — Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="sv_SE">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="zh_CN">任天堂 - 任天堂64（ParaLLEl N64）</summary>
+		<description lang="cs_CZ">ParaLLeXT je fork ParaLLEl N64, emulátoru Nintendo 64 vytvořeného speciálně pro Libretro.</description>
+		<description lang="da_DK">ParaLLeXT er en fork af ParaLLEl N64, en Nintendo 64-emulator lavet specielt til Libretro.</description>
+		<description lang="de_DE">ParaLLeXT ist eine abgespaltene Version von ParaLLEl N64, einem Nintendo 64-Emulator, der speziell für Libretro entwickelt wurde.</description>
+		<description lang="en_GB">ParaLLeXT is a forked version of ParaLLEl N64, a Nintendo 64 emulator made specifically for Libretro.</description>
+		<description lang="es_ES">ParaLLeXT es una versión derivada de ParaLLEl N64, un emulador de Nintendo 64 hecho específicamente para Libretro.</description>
+		<description lang="ga">Is leagan forcaithe de ParaLLEl N64 é ParaLLeXT, aithriseoir Nintendo 64 atá déanta go sonrach do Libretro.</description>
+		<description lang="it_IT">ParaLLeXT è una versione derivata (fork) di ParaLLEl N64, un emulatore Nintendo 64 realizzato appositamente per Libretro.</description>
+		<description lang="ru_RU">ParaLLeXT — это форк ParaLLEl N64, эмулятора Nintendo 64, созданного специально для Libretro.</description>
+		<description lang="sv_SE">ParaLLeXT är en förgrenad version av ParaLLEl N64, en Nintendo 64-emulator som är gjord speciellt för Libretro.</description>
+		<description lang="zh_CN">ParaLLeXT 是 ParaLLEl N64 的分叉版本，是一款专门为 Libretro 开发的任天堂64模拟器。</description>
+	</extension>
+</addon>

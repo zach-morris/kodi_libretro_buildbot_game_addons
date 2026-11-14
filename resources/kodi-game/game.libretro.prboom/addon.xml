@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.prboom"
+		name="Doom (PrBoom)"
+		version="2.5.0.64"
+		provider-name="Florian Schulze">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>wad|iwad|pwad|lmp|m3u|pk3|ipk3|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.prboom</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Doom (PrBoom)</summary>
+		<summary lang="da_DK">Doom (PrBoom)</summary>
+		<summary lang="en_GB">Doom (PrBoom)</summary>
+		<summary lang="es_ES">Doom (PrBoom)</summary>
+		<summary lang="it_IT">Doom (PrBoom)</summary>
+		<summary lang="ru_RU">Doom (PrBoom)</summary>
+		<summary lang="sv_SE">Doom (PrBoom)</summary>
+		<summary lang="zh_CN">毁灭战士（PrBoom）</summary>
+		<description lang="cs_CZ">PrBoom, zkratka z „Professor Boom“, je verze klasické 3D akční střílečky Doom, kterou původně napsalo id Software.[CR][CR]Seznam vyžadovaných souborů najdete v dokumentaci.</description>
+		<description lang="da_DK">PrBoom, forkortelse for &quot;Professor Boom&quot;, er en version af det klassiske 3D shoot&apos;em&apos;up-spil Doom, oprindeligt skrevet af id Software.[CR][CR]Se dokumentationen for en liste over nødvendige filer.</description>
+		<description lang="de_DE">PrBoom, Kurzform für „Professor Boom“, ist eine Version des klassischen 3D-Shoot&apos;em&apos;up-Spiels Doom, das ursprünglich von id Software entwickelt wurde[CR][CR]In der Dokumentation findet sich eine Liste der benötigten Dateien.</description>
+		<description lang="en_GB">PrBoom, short for &quot;Professor Boom&quot;, is a version of the classic 3D shoot&apos;em&apos;up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files.</description>
+		<description lang="es_ES">PrBoom, abreviatura de &quot;Professor Boom&quot;, es una versión del clásico juego de disparos en 3D Doom, escrito originalmente por id Software.[CR][CR]Consulta la documentación para ver la lista de archivos necesarios.</description>
+		<description lang="it_IT">PrBoom, abbreviazione di \\&quot;Professor Boom\\&quot;, è una versione del classico sparatutto 3D Doom, scritto originariamente da id Software.[CR][CR]Consulta la documentazione per l&apos;elenco dei file richiesti.</description>
+		<description lang="ru_RU">PrBoom (сокращение от «Professor Boom») — это версия классической 3D-стрелялки Doom, изначально написанной id Software.[CR][CR]Список необходимых файлов см. в документации.</description>
+		<description lang="sl_SI">PrBoom, okrajšava za &quot;Professor Boom&quot;, je različica klasične 3D shoot&apos;em&apos;up igre Doom, ki jo je prvotno napisal id Software.[CR][CR]Glejte dokumentacijo za seznam zahtevanih datotek.</description>
+		<description lang="sv_SE">PrBoom, en förkortning av ”Professor Boom”, är en version av det klassiska 3D-skjutspelet Doom, som ursprungligen skrevs av id Software.[CR][CR]Se dokumentationen för en lista över nödvändiga filer.</description>
+		<description lang="zh_CN">PrBoom，是“Professor Boom”的缩写，是最初由 id Software 开发的经典 3D 射击游戏 Doom 的一个版本。[CR][CR]有关所需文件的列表，请参阅文档。</description>
+	</extension>
+</addon>

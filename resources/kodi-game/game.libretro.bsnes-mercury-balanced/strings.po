@@ -1,0 +1,66 @@
+# game.libretro.bsnes-mercury-balanced language file
+# Addon Name: game.libretro.bsnes-mercury-balanced
+# Addon id: game.libretro.bsnes-mercury-balanced
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.bsnes-mercury-balanced\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:45+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-bsnes-mercury-balanced/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (bsnes-mercury Balanced)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The [I]Balanced[/I] profile is a good compromise between accuracy and performance."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "In loving memory of Near / Byuu"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Allow settings to reduce accuracy"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Special chip accuracy"
+msgstr ""
+
+msgctxt "#30003"
+msgid "SuperFX speed"
+msgstr ""
+
+msgctxt "#30004"
+msgid "System region"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Preferred aspect ratio"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Crop overscan"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Gamma ramp (requires restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "ntsc"
+msgstr ""
+
+msgctxt "#30009"
+msgid "pal"
+msgstr ""

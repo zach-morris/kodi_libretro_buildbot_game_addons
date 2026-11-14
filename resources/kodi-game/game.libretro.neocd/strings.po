@@ -1,0 +1,139 @@
+# game.libretro.neocd language file
+# Addon Name: game.libretro.neocd
+# Addon id: game.libretro.neocd
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.neocd\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-25 20:17i\n"
+"PO-Revision-Date: 2024-12-27 22:04+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-neocd/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "SNK - Neo Geo CD (NeoCD)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "NeoCD for libretro is complete rewrite of the NeoCD emulator in modern C++11."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "System"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Japan"
+msgstr ""
+
+msgctxt "#30004"
+msgid "USA"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Europe"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Per-Game Saves (Restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30008"
+msgid "On"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Horizontal Overscan Mask"
+msgstr ""
+
+msgctxt "#30011"
+msgid "8"
+msgstr ""
+
+msgctxt "#30012"
+msgid "4"
+msgstr ""
+
+msgctxt "#30013"
+msgid "0"
+msgstr ""
+
+msgctxt "#30014"
+msgid "12"
+msgstr ""
+
+msgctxt "#30015"
+msgid "16"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30017"
+msgid "CD Speed Hack"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Skip CD Loading"
+msgstr ""
+
+msgctxt "#30019"
+msgid "CPU Overclock"
+msgstr ""
+
+msgctxt "#30020"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30021"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30022"
+msgid "125%"
+msgstr ""
+
+msgctxt "#30023"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30024"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Console Region"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Aspect Ratio"
+msgstr ""
+
+msgctxt "#30027"
+msgid "1:1 PAR"
+msgstr ""
+
+msgctxt "#30028"
+msgid "45:44 PAR"
+msgstr ""
+
+msgctxt "#30029"
+msgid "4:3 DAR"
+msgstr ""

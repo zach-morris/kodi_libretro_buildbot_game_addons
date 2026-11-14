@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.dosbox-pure"
+		name="DOS (DOSBox-Pure)"
+		version="1.0.0.47"
+		provider-name="DOSBox Team, Psyraven">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>DOS</platforms>
+		<extensions>zip|dosz|exe|com|bat|iso|chd|cue|ins|img|ima|vhd|jrc|m3u|m3u8|conf|/</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>dosbox_pure_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.dosbox-pure</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">DOS (DOSBox-Pure)</summary>
+		<summary lang="da_DK">DOS (DOSBox-Pure)</summary>
+		<summary lang="en_GB">DOS (DOSBox-Pure)</summary>
+		<summary lang="es_ES">DOS (DOSBox-Pure)</summary>
+		<summary lang="ga">DOS (DOSBox-Pure)</summary>
+		<summary lang="it_IT">DOS (DOSBox-Pure)</summary>
+		<summary lang="ko_KR">도스 (도스박스-순정)</summary>
+		<summary lang="ru_RU">DOS (DOSBox-Pure)</summary>
+		<summary lang="sv_SE">DOS (DOSBox-Pure)</summary>
+		<summary lang="zh_CN">DOS (DOSBox-Pure)</summary>
+		<description lang="cs_CZ">DOSBox Pure je nová odvozená verze DOSBoxu vytvořená pro RetroArch/Libretro se zaměřením na jednoduchost a snadné použití.</description>
+		<description lang="da_DK">DOSBox Pure er en ny fork af DOSBox bygget til RetroArch/Libretro med henblik på enkelhed og brugervenlighed.</description>
+		<description lang="de_DE">DOSBox Pure ist ein neuer Ableger von DOSBox für RetroArch/Libretro, der auf Einfachheit und Benutzerfreundlichkeit abzielt.</description>
+		<description lang="en_GB">DOSBox Pure is a new fork of DOSBox built for RetroArch/Libretro aiming for simplicity and ease of use.</description>
+		<description lang="es_ES">DOSBox Pure es una nueva bifurcación de DOSBox construido para RetroArch/Libretro buscando la simplicidad y facilidad de uso.</description>
+		<description lang="fi_FI">DOSBox Pure on uusi DOSBox-haara, joka on rakennettu RetroArchille/Libretrolle ja joka pyrkii olemaan yksinkertainen ja helppo käyttää.</description>
+		<description lang="ga">Is forc nua de DOSBox é DOSBox Pure atá tógtha do RetroArch/Libretro a bhfuil sé mar aidhm aige simplíocht agus éascaíocht úsáide a bhaint amach.</description>
+		<description lang="it_IT">DOSBox Pure è un nuovo fork di DOSBox creato per RetroArch/Libretro con l&apos;obiettivo di semplicità e facilità d&apos;uso.</description>
+		<description lang="ko_KR">DOSBox Pure는 단순성과 사용 편의성을 목표로 RetroArch/Libretro용으로 제작된 DOSBox의 새로운 포크입니다.</description>
+		<description lang="ru_RU">DOSBox Pure — новая версия DOSBox, созданная для RetroArch/Libretro, нацеленная на простоту и удобство использования.</description>
+		<description lang="sv_SE">DOSBox Pure är en ny förgrening av DOSBox byggd för RetroArch/Libretro med sikte på enkelhet och användarvänlighet.</description>
+		<description lang="zh_CN">DOSBox Pure 是专为 RetroArch/Libretro 设计的 DOSBox 的一个新分支，旨在简单易用。</description>
+	</extension>
+</addon>

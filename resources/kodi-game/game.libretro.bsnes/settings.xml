@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.bsnes">
+		<category id="video" label="30033" help="30034">
+			<group id="1">
+				<setting id="bsnes_aspect_ratio" type="string" label="30001" help="30035">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30036">1:1</option>
+							<option label="30037">4:3</option>
+							<option label="30188">NTSC</option>
+							<option label="30189">PAL</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_overscan_v" type="string" label="30032" help="30038">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option label="30039">0</option>
+							<option label="30040">8</option>
+							<option label="30041">12</option>
+							<option label="30042">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_blur_emulation" type="string" label="30003" help="30043">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_video_filter" type="string" label="30028" help="30046">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="30047">None</option>
+							<option label="30048">NTSC (RF)</option>
+							<option label="30049">NTSC (Composite)</option>
+							<option label="30050">NTSC (S-Video)</option>
+							<option label="30051">NTSC (RGB)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_video_luminance" type="string" label="30029" help="30052">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30053">0</option>
+							<option label="30054">10</option>
+							<option label="30055">20</option>
+							<option label="30056">30</option>
+							<option label="30057">40</option>
+							<option label="30058">50</option>
+							<option label="30059">60</option>
+							<option label="30060">70</option>
+							<option label="30061">80</option>
+							<option label="30062">90</option>
+							<option label="30063">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_video_saturation" type="string" label="30030" help="30064">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30053">0</option>
+							<option label="30054">10</option>
+							<option label="30055">20</option>
+							<option label="30056">30</option>
+							<option label="30057">40</option>
+							<option label="30058">50</option>
+							<option label="30059">60</option>
+							<option label="30060">70</option>
+							<option label="30061">80</option>
+							<option label="30062">90</option>
+							<option label="30063">100</option>
+							<option label="30065">110</option>
+							<option label="30066">120</option>
+							<option label="30067">130</option>
+							<option label="30068">140</option>
+							<option label="30069">150</option>
+							<option label="30070">160</option>
+							<option label="30071">170</option>
+							<option label="30072">180</option>
+							<option label="30073">190</option>
+							<option label="30074">200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_video_gamma" type="string" label="30031" help="30075">
+					<level>0</level>
+					<default>150</default>
+					<constraints>
+						<options>
+							<option label="30076">100</option>
+							<option label="30065">110</option>
+							<option label="30066">120</option>
+							<option label="30067">130</option>
+							<option label="30068">140</option>
+							<option label="30077">150</option>
+							<option label="30070">160</option>
+							<option label="30071">170</option>
+							<option label="30072">180</option>
+							<option label="30073">190</option>
+							<option label="30074">200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_fast" type="string" label="30004" help="30078">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30045">ON</option>
+							<option label="30044">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_deinterlace" type="string" label="30005" help="30079">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30045">ON</option>
+							<option label="30044">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_no_sprite_limit" type="string" label="30006" help="30080">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_no_vram_blocking" type="string" label="30007" help="30081">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30082" help="30083">
+			<group id="1">
+				<setting id="bsnes_dsp_fast" type="string" label="30008" help="30084">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30045">ON</option>
+							<option label="30044">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_dsp_cubic" type="string" label="30009" help="30085">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_dsp_echo_shadow" type="string" label="30010" help="30086">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="mode7" label="30087" help="30088">
+			<group id="1">
+				<setting id="bsnes_mode7_scale" type="string" label="30011" help="30089">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option label="30090">1x</option>
+							<option label="30091">2x</option>
+							<option label="30092">3x</option>
+							<option label="30093">4x</option>
+							<option label="30094">5x</option>
+							<option label="30095">6x</option>
+							<option label="30096">7x</option>
+							<option label="30097">8x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_perspective" type="string" label="30012" help="30098">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30045">ON</option>
+							<option label="30044">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_supersample" type="string" label="30013" help="30099">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_mosaic" type="string" label="30014" help="30100">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30045">ON</option>
+							<option label="30044">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hack" label="30101" help="30102">
+			<group id="1">
+				<setting id="bsnes_run_ahead_frames" type="string" label="30015" help="30103">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30104">1</option>
+							<option label="30105">2</option>
+							<option label="30106">3</option>
+							<option label="30107">4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_coprocessor_delayed_sync" type="string" label="30016" help="30108">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30045">ON</option>
+							<option label="30044">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_coprocessor_prefer_hle" type="string" label="30017" help="30109">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30045">ON</option>
+							<option label="30044">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_hotfixes" type="string" label="30018" help="30110">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_entropy" type="string" label="30019" help="30111">
+					<level>0</level>
+					<default>Low</default>
+					<constraints>
+						<options>
+							<option label="30190">Low</option>
+							<option label="30191">High</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_cpu_fastmath" type="string" label="30020" help="30112">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="overclock" label="30113" help="30114">
+			<group id="1">
+				<setting id="bsnes_cpu_overclock" type="string" label="30021" help="30115">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30054">10</option>
+							<option label="30055">20</option>
+							<option label="30056">30</option>
+							<option label="30057">40</option>
+							<option label="30058">50</option>
+							<option label="30059">60</option>
+							<option label="30060">70</option>
+							<option label="30061">80</option>
+							<option label="30062">90</option>
+							<option label="30063">100</option>
+							<option label="30065">110</option>
+							<option label="30066">120</option>
+							<option label="30067">130</option>
+							<option label="30068">140</option>
+							<option label="30069">150</option>
+							<option label="30070">160</option>
+							<option label="30071">170</option>
+							<option label="30072">180</option>
+							<option label="30073">190</option>
+							<option label="30074">200</option>
+							<option label="30116">210</option>
+							<option label="30117">220</option>
+							<option label="30118">230</option>
+							<option label="30119">240</option>
+							<option label="30120">250</option>
+							<option label="30121">260</option>
+							<option label="30122">270</option>
+							<option label="30123">280</option>
+							<option label="30124">290</option>
+							<option label="30125">300</option>
+							<option label="30126">310</option>
+							<option label="30127">320</option>
+							<option label="30128">330</option>
+							<option label="30129">340</option>
+							<option label="30130">350</option>
+							<option label="30131">360</option>
+							<option label="30132">370</option>
+							<option label="30133">380</option>
+							<option label="30134">390</option>
+							<option label="30135">400</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_cpu_sa1_overclock" type="string" label="30022" help="30136">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30054">10</option>
+							<option label="30055">20</option>
+							<option label="30056">30</option>
+							<option label="30057">40</option>
+							<option label="30058">50</option>
+							<option label="30059">60</option>
+							<option label="30060">70</option>
+							<option label="30061">80</option>
+							<option label="30062">90</option>
+							<option label="30063">100</option>
+							<option label="30065">110</option>
+							<option label="30066">120</option>
+							<option label="30067">130</option>
+							<option label="30068">140</option>
+							<option label="30069">150</option>
+							<option label="30070">160</option>
+							<option label="30071">170</option>
+							<option label="30072">180</option>
+							<option label="30073">190</option>
+							<option label="30074">200</option>
+							<option label="30116">210</option>
+							<option label="30117">220</option>
+							<option label="30118">230</option>
+							<option label="30119">240</option>
+							<option label="30120">250</option>
+							<option label="30121">260</option>
+							<option label="30122">270</option>
+							<option label="30123">280</option>
+							<option label="30124">290</option>
+							<option label="30125">300</option>
+							<option label="30126">310</option>
+							<option label="30127">320</option>
+							<option label="30128">330</option>
+							<option label="30129">340</option>
+							<option label="30130">350</option>
+							<option label="30131">360</option>
+							<option label="30132">370</option>
+							<option label="30133">380</option>
+							<option label="30134">390</option>
+							<option label="30135">400</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_cpu_sfx_overclock" type="string" label="30023" help="30137">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30054">10</option>
+							<option label="30055">20</option>
+							<option label="30056">30</option>
+							<option label="30057">40</option>
+							<option label="30058">50</option>
+							<option label="30059">60</option>
+							<option label="30060">70</option>
+							<option label="30061">80</option>
+							<option label="30062">90</option>
+							<option label="30063">100</option>
+							<option label="30065">110</option>
+							<option label="30066">120</option>
+							<option label="30067">130</option>
+							<option label="30068">140</option>
+							<option label="30069">150</option>
+							<option label="30070">160</option>
+							<option label="30071">170</option>
+							<option label="30072">180</option>
+							<option label="30073">190</option>
+							<option label="30074">200</option>
+							<option label="30116">210</option>
+							<option label="30117">220</option>
+							<option label="30118">230</option>
+							<option label="30119">240</option>
+							<option label="30120">250</option>
+							<option label="30121">260</option>
+							<option label="30122">270</option>
+							<option label="30123">280</option>
+							<option label="30124">290</option>
+							<option label="30125">300</option>
+							<option label="30126">310</option>
+							<option label="30127">320</option>
+							<option label="30128">330</option>
+							<option label="30129">340</option>
+							<option label="30130">350</option>
+							<option label="30131">360</option>
+							<option label="30132">370</option>
+							<option label="30133">380</option>
+							<option label="30134">390</option>
+							<option label="30135">400</option>
+							<option label="30138">410</option>
+							<option label="30139">420</option>
+							<option label="30140">430</option>
+							<option label="30141">440</option>
+							<option label="30142">450</option>
+							<option label="30143">460</option>
+							<option label="30144">470</option>
+							<option label="30145">480</option>
+							<option label="30146">490</option>
+							<option label="30147">500</option>
+							<option label="30148">510</option>
+							<option label="30149">520</option>
+							<option label="30150">530</option>
+							<option label="30151">540</option>
+							<option label="30152">550</option>
+							<option label="30153">560</option>
+							<option label="30154">570</option>
+							<option label="30155">580</option>
+							<option label="30156">590</option>
+							<option label="30157">600</option>
+							<option label="30158">610</option>
+							<option label="30159">620</option>
+							<option label="30160">630</option>
+							<option label="30161">640</option>
+							<option label="30162">650</option>
+							<option label="30163">660</option>
+							<option label="30164">670</option>
+							<option label="30165">680</option>
+							<option label="30166">690</option>
+							<option label="30167">700</option>
+							<option label="30168">710</option>
+							<option label="30169">720</option>
+							<option label="30170">730</option>
+							<option label="30171">740</option>
+							<option label="30172">750</option>
+							<option label="30173">760</option>
+							<option label="30174">770</option>
+							<option label="30175">780</option>
+							<option label="30176">790</option>
+							<option label="30177">800</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="sgb" label="30178" help="30179">
+			<group id="1">
+				<setting id="bsnes_sgb_bios" type="string" label="30024" help="30180">
+					<level>0</level>
+					<default>SGB1.sfc</default>
+					<constraints>
+						<options>
+							<option label="30181">SGB1.sfc</option>
+							<option label="30182">SGB2.sfc</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_hide_sgb_border" type="string" label="30025" help="30183">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="lightgun" label="30184" help="30185">
+			<group id="1">
+				<setting id="bsnes_touchscreen_lightgun" type="string" label="30026" help="30186">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30045">ON</option>
+							<option label="30044">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_touchscreen_lightgun_superscope_reverse" type="string" label="30027" help="30187">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30044">OFF</option>
+							<option label="30045">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

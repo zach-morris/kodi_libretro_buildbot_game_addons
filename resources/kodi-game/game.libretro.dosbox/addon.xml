@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.dosbox"
+		name="DOS (DOSBox)"
+		version="0.74.0.36"
+		provider-name="DOSBox Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>DOS</platforms>
+		<extensions>exe|com|bat|conf</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.dosbox</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">DOS (DOSBox)</summary>
+		<summary lang="da_DK">DOS (DOSBox)</summary>
+		<summary lang="en_GB">DOS (DOSBox)</summary>
+		<summary lang="es_ES">DOS (DOSBox)</summary>
+		<summary lang="ga">DOS (DOSBox)</summary>
+		<summary lang="it_IT">DOS (DOSBox)</summary>
+		<summary lang="ru_RU">DOS (DOSBox)</summary>
+		<summary lang="sv_SE">DOS (DOSBox)</summary>
+		<summary lang="zh_CN">DOS (DOSBox)</summary>
+		<description lang="cs_CZ">DOSBox emuluje počítač kompatibilní s IBM PC se systémem MS-DOS.[CR][CR]DOSBox lze nakonfigurovat pro spouštění široké škály her pro DOS, od klasik pro CGA/Tandy/PCjr až po hry z éry Quake.</description>
+		<description lang="da_DK">DOSBox emulerer en IBM PC-kompatibel computer, der kører MS-DOS.[CR][CR]DOSBox kan konfigureres til at køre en bred vifte af DOS-spil, fra CGA/Tandy/PCjr-klassikere op til spil fra Quake-æraen.</description>
+		<description lang="de_DE">DOSBox emuliert einen IBM-PC-kompatiblen Computer, auf dem MS-DOS ausgeführt wird.[CR][CR]DOSBox kann so konfiguriert werden, dass eine große Auswahl an DOS-Spielen läuft, von CGA/Tandy/PCjr-Klassikern bis hin zu Spielen aus der Ära von Quake.</description>
+		<description lang="en_GB">DOSBox emulates an IBM PC compatible computer running MS-DOS.[CR][CR]DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era.</description>
+		<description lang="es_ES">DOSBox emula un ordenador compatible IBM PC que ejecuta MS-DOS[CR][CR]DOSBox puede configurarse para ejecutar una amplia gama de juegos DOS, desde los clásicos de CGA/Tandy/PCjr hasta juegos de la era Quake.</description>
+		<description lang="fi_FI">DOSBox emuloi IBM PC -tietokonetta, jossa on MS-DOS.[CR][CR]DOSBox voidaan määrittää monenlaisille DOS-peleille aina CGA/Tandy/PCjr-klassikoista Quake-aikakauden peleihin.</description>
+		<description lang="ga">Déanann DOSBox aithris ar ríomhaire atá comhoiriúnach le IBM PC agus MS-DOS á rith aige.[CR][CR]Is féidir DOSBox a chumrú chun raon leathan cluichí DOS a rith, ó chlasaicigh CGA/Tandy/PCjr go cluichí ó ré Quake.</description>
+		<description lang="it_IT">DOSBox emula un computer IBM compatibile con PC che esegue MS-DOS.[CR][CR]DOSBox può essere configurato per eseguire un&apos;ampia gamma di giochi DOS, dai classici CGA/Tandy/PCjr fino ai giochi dell&apos;era di Quake.</description>
+		<description lang="ru_RU">DOSBox эмулирует IBM PC-совместимый компьютер под управлением MS-DOS.[CR][CR]DOSBox можно настроить для запуска широкого спектра DOS-игр: от классики CGA/Tandy/PCjr до игр эпохи Quake.</description>
+		<description lang="sv_SE">DOSBox emulerar en IBM PC-kompatibel dator som kör MS-DOS.[CR][CR]DOSBox kan konfigureras för att köra ett brett utbud av DOS-spel, från CGA/Tandy/PCjr-klassiker till spel från Quake-eran.</description>
+		<description lang="zh_CN">DOSBox 模拟运行 MS-DOS 的 IBM PC 兼容计算机。[CR][CR]DOSBox 可以配置用于运行从 CGA/Tandy/PCjr 经典到 Quake 时代的各种 DOS 游戏。</description>
+	</extension>
+</addon>

@@ -1,0 +1,398 @@
+# game.libretro.mesen language file
+# Addon Name: game.libretro.mesen
+# Addon id: game.libretro.mesen
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mesen\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-01-29 22:21i\n"
+"PO-Revision-Date: 2024-12-27 21:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mesen/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - NES / Famicom (Mesen)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Mesen is a high-accuracy NES emulator for Windows and Linux.[CR][CR]Mesen offers numerous features, such as save states, video filters, netplay, rewinding, overclocking, cheat codes and HD packs."
+msgstr ""
+
+msgctxt "#30001"
+msgid "NTSC filter"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Palette"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Overclock"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Overclock Type"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Region"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Left Overscan"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Right Overscan"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Top Overscan"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Bottom Overscan"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Aspect Ratio"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Controller Turbo Speed"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Shift A/B/X/Y clockwise"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Enable HD Packs"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Remove sprite limit"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Enable fake stereo effect"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Reduce popping on Triangle channel"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Reduce popping on DMC channel"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Swap Square channel duty cycles"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Disable Noise channel mode flag"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Screen Rotation"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Default power-on state for RAM"
+msgstr ""
+
+msgctxt "#30023"
+msgid "FDS: Fast forward while loading"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Sound Output Sample Rate"
+msgstr ""
+
+msgctxt "#30025"
+msgid "FDS: Automatically insert disk"
+msgstr ""
+
+msgctxt "#30026"
+msgid "System"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Change system settings."
+msgstr ""
+
+msgctxt "#30028"
+msgid "Use this to overclock or underclock the CPU. NOTE: Overclocking can cause issues in some games."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Increases the number of scanlines in the PPU, before or after the NMI signal is triggered at the end of the visible frame. This effectively gives more time for games to perform calculations, which can reduce slowdowns in games. 'Before NMI' is the preferred option for overclocking, 'After NMI' should only be used if it does not work as expected."
+msgstr ""
+
+msgctxt "#30030"
+msgid "When set to Auto, the emulator will try to detect the game's region (NTSC or PAL), however this is not always possible. When there is nothing to suggest a game is for the PAL region, the NTSC region will be used by default. Dendy is used to mimic a number of different NES clones, in particular, the Dendy, which was a popular clone in Russia."
+msgstr ""
+
+msgctxt "#30031"
+msgid "On a console, the RAM's state at power on is undetermined and relatively random. This option lets you select Mesen's behavior when initializing RAM: set all bits to 0, set all bits to 1, or randomize the value of each bit."
+msgstr ""
+
+msgctxt "#30032"
+msgid "By default, the FDS boots with no disk inserted in the drive. This option makes it so the player does not need to manually insert disk 1, side A manually."
+msgstr ""
+
+msgctxt "#30033"
+msgid "FDS games contain a large number of load screens due to their data being stored on floppy drives. Mesen needs to emulate this floppy drive's speed to ensure accurate emulation. This option makes it so Mesen runs the emulation as fast as it can when a game is loading data from the disk, which greatly reduces the time spent on loading screens."
+msgstr ""
+
+msgctxt "#30034"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Change video settings."
+msgstr ""
+
+msgctxt "#30036"
+msgid "Select a filter to apply to the picture. Blargg filters are fast, Bisqwit filters are slower."
+msgstr ""
+
+msgctxt "#30037"
+msgid "The NES can normally only draw up to 8 sprites per line, this limitation is indirectly responsible for some of the flickering seen in games at times. When this option is enabled, the limit is disabled, allowing up to 64 sprites to be drawn on the same line."
+msgstr ""
+
+msgctxt "#30038"
+msgid "This overscan setting allow you to cut out pixels on the left side of the screen."
+msgstr ""
+
+msgctxt "#30039"
+msgid "This overscan setting allow you to cut out pixels on the right side of the screen."
+msgstr ""
+
+msgctxt "#30040"
+msgid "This overscan setting allow you to cut out pixels on the top of the screen."
+msgstr ""
+
+msgctxt "#30041"
+msgid "This overscan setting allow you to cut out pixels on the bottom of the screen."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Rotates the display by the specified angle. This is useful to play games (generally homebrew games) designed for a vertical display."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Change audio settings."
+msgstr ""
+
+msgctxt "#30045"
+msgid "This option mutes the triangle channel under certain conditions, which prevents it from causing popping sounds."
+msgstr ""
+
+msgctxt "#30046"
+msgid "This option prevents games from changing the output of the DMC channel too abruptly, which often causes popping sounds."
+msgstr ""
+
+msgctxt "#30047"
+msgid "This option is to mimic some older NES clones that had incorrect sound output for both of the square channels. It greatly alters the sound in some games, and shouldn't be enabled unless you want this behavior."
+msgstr ""
+
+msgctxt "#30048"
+msgid "Very early Famicom models did not implement this feature, so this option is available to mimic early Famicom consoles. It changes the sound output of the noise channel in some games, and shouldn't be enabled unless you want this behavior."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Change input settings."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Configure the controller turbo buttons speed."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Low"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Medium"
+msgstr ""
+
+msgctxt "#30054"
+msgid "High"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Very High"
+msgstr ""
+
+msgctxt "#30056"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30057"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Dendy"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Composite (Blargg)"
+msgstr ""
+
+msgctxt "#30060"
+msgid "S-Video (Blargg)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "RGB (Blargg)"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Monochrome (Blargg)"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Bisqwit 2x"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Bisqwit 4x"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Bisqwit 8x"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Composite Direct (by FirebrandX)"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Nes Classic"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Nestopia (RGB)"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Original Hardware (by FirebrandX)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "PVM Style (by FirebrandX)"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Sony CXA2025AS"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Unsaturated v6 (by FirebrandX)"
+msgstr ""
+
+msgctxt "#30073"
+msgid "YUV v3 (by FirebrandX)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Wavebeam (by nakedarthur)"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Custom"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Raw"
+msgstr ""
+
+msgctxt "#30077"
+msgid "4px"
+msgstr ""
+
+msgctxt "#30078"
+msgid "8px"
+msgstr ""
+
+msgctxt "#30079"
+msgid "12px"
+msgstr ""
+
+msgctxt "#30080"
+msgid "16px"
+msgstr ""
+
+msgctxt "#30081"
+msgid "20px"
+msgstr ""
+
+msgctxt "#30082"
+msgid "24px"
+msgstr ""
+
+msgctxt "#30083"
+msgid "No Stretching"
+msgstr ""
+
+msgctxt "#30084"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30085"
+msgid "4:3 (Preserved)"
+msgstr ""
+
+msgctxt "#30086"
+msgid "16:9"
+msgstr ""
+
+msgctxt "#30087"
+msgid "16:9 (Preserved)"
+msgstr ""
+
+msgctxt "#30088"
+msgid "90 degrees"
+msgstr ""
+
+msgctxt "#30089"
+msgid "180 degrees"
+msgstr ""
+
+msgctxt "#30090"
+msgid "270 degrees"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Slow"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Fast"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Very Fast"
+msgstr ""

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.fbalpha2012"
+		name="Arcade (FB Alpha 2012)"
+		version="0.2.97.43"
+		provider-name="Team FB Alpha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>iso|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbalpha2012_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha2012</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arcade (FB Alpha 2012)</summary>
+		<summary lang="da_DK">Arcade (FB Alpha 2012)</summary>
+		<summary lang="en_GB">Arcade (FB Alpha 2012)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Alpha 2012)</summary>
+		<summary lang="it_IT">Arcade (FB Alpha 2012)</summary>
+		<summary lang="ko_KR">아케이드 (FB 알파 2012)</summary>
+		<summary lang="ru_RU">Arcade (FB Alpha 2012)</summary>
+		<summary lang="sv_SE">Arcade (FB Alpha 2012)</summary>
+		<summary lang="zh_CN">街机（FB Alpha 2012）</summary>
+		<description lang="cs_CZ">FinalBurn Alpha je emulátor arkádových her, včetně Capcom CPS-1 a CPS-2, SNK Neo-Geo, Toaplan, Cave a Sega System 16.[CR][CR]Verze 2012 běží lépe na starším hardwaru.</description>
+		<description lang="da_DK">FinalBurn Alpha er en emulator af arkadespil, inklusive Capcom CPS-1 og CPS-2, SNK Neo-Geo, Toaplan, Cave og Sega System 16.[CR][CR]2012-versionen kører bedre på ældre hardware.</description>
+		<description lang="de_DE">FinalBurn Alpha ist ein Emulator für Arcade-Spiele, darunter Capcom CPS-1 und CPS-2, SNK Neo-Geo, Toaplan, Cave und Sega System 16.[CR][CR]Die Version von 2012 läuft besser auf älterer Hardware.</description>
+		<description lang="en_GB">FinalBurn Alpha is an emulator of arcade games, including Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.[CR][CR]The 2012 version runs better on older hardware.</description>
+		<description lang="es_ES">FinalBurn Alpha es un emulador de juegos arcade, que incluye Capcom CPS-1 y CPS-2, SNK Neo-Geo, Toaplan, Cave y Sega System 16.[CR][CR]La versión de 2012 funciona mejor en hardware antiguo.</description>
+		<description lang="it_IT">FinalBurn Alpha è un emulatore di giochi arcade, tra cui Capcom CPS-1 e CPS-2, SNK Neo-Geo, Toaplan, Cave e Sega System 16.[CR][CR]La versione 2012 funziona meglio su hardware meno recente.</description>
+		<description lang="ko_KR">FinalBurn Alpha는 Capcom CPS-1 및 CPS-2, SNK Neo-Geo, Toaplan, Cave 및 Sega System 16을 포함한 아케이드 게임의 에뮬레이터입니다.[CR][CR]2012 버전은 이전 하드웨어에서 더 잘 실행됩니다.</description>
+		<description lang="ru_RU">FinalBurn Alpha — эмулятор аркадных игр, включая Capcom CPS-1 и CPS-2, SNK Neo-Geo, Toaplan, Cave и Sega System 16.[CR][CR]Версия 2012 года работает лучше на старом оборудовании.</description>
+		<description lang="sv_SE">FinalBurn Alpha är en emulator för arkadspel, inklusive Capcom CPS-1 och CPS-2, SNK Neo-Geo, Toaplan, Cave och Sega System 16.[CR][CR]2012 års version körs bättre på äldre hårdvara.</description>
+		<description lang="zh_CN">FinalBurn Alpha 是街机游戏的仿真器，包括 Capcom CPS-1 和 CPS-2、SNK Neo Geo、Toaplan、Cave 和 Sega System 16。[CR][CR]2012版在较旧的硬件上运行得更好。</description>
+		<disclaimer lang="cs_CZ">Autoři FB Alpha nezaručují jeho vhodnost k jakémukoli účelu, ať už předpokládanému, nebo jinému, a nepřijímají odpovědnost za žádné škody, které by mohly při používání FB Alpha vzniknout. Všechny hry emulované pomocí FB Alpha, včetně veškerých obrazových a zvukových materiálů v nich, jsou chráněny autorskými právy příslušných držitelů práv. Autor ikony: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="da_DK">Udviklerne af FB Alpha garanterer ikke dets egnethed til noget formål, underforstået eller på anden måde, og påtager sig ikke ansvar for nogen som helst skade, der måtte opstå ved brug af FB Alpha. Alle spil emuleret af FB Alpha, inklusive billeder og lyde deri, er ophavsretligt beskyttet af deres respektive copyright-indehavere. Billedkreditering: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Die Autoren von FB Alpha übernehmen keine Garantie für die Brauchbarkeit für einen bestimmten Zweck, weder implizit noch anderweitig, und übernehmen keine Verantwortung für Schäden, die bei der Nutzung von FB Alpha entstehen könnten. Alle von FB Alpha emulierten Spiele, einschließlich der darin enthaltenen Bilder und Sounds, unterliegen dem Copyright der jeweiligen Rechteinhaber. Symbolverweis: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">The authors of FB Alpha do not guarantee its fitness for any purpose, implied or otherwise, and do not accept responsibility for any damages whatsoever that might occur when using FB Alpha. All games emulated by FB Alpha, including any images and sounds therein, are copyrighted by their respective copyright holders. Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Los autores de FB Alpha no garantizan su idoneidad para cualquier propósito, implícito o de otro tipo, y no aceptan responsabilidad alguna por cualquier daño que pueda ocurrir al utilizar FB Alpha. Todos los juegos emulados por FB Alpha, incluidas sus imágenes y sonidos, están protegidos por sus respectivos derechos de autor. Crédito del icono: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Gli autori di FB Alpha non garantiscono la sua idoneità per qualsiasi scopo, implicito o meno, e non accettano responsabilità per eventuali danni di qualsiasi tipo che potrebbero verificarsi durante l&apos;utilizzo di FB Alpha. Tutti i giochi emulati da FB Alpha, comprese le immagini e i suoni in essi contenuti, sono protetti da copyright dei rispettivi detentori del copyright. Credito icona: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">FB Alpha의 작성자는 묵시적이든 아니든 어떤 목적에 대한 적합성을 보장하지 않으며 FB Alpha를 사용할 때 발생할 수 있는 모든 손해에 대해 책임을 지지 않습니다. 이미지와 사운드를 포함하여 FB Alpha가 에뮬레이트한 모든 게임은 해당 저작권 소유자에게 저작권이 있습니다. 아이콘 크레딧: TRIPLEKILLZ(triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Авторы FB Alpha не гарантируют его пригодности для каких-либо целей, подразумеваемых или иных, и не несут ответственности за любой ущерб, который может возникнуть при использовании FB Alpha. Все игры, эмулируемые FB Alpha, включая любые изображения и звуки в них, защищены авторским правом их соответствующих владельцев. Значок: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="sv_SE">Upphovspersonerna till FB Alpha garanterar inte dess lämplighet för något ändamål, underförstått eller på annat sätt, och tar inte ansvar för några som helst skador som kan uppstå vid användning av FB Alpha. Alla spel som emuleras av FB Alpha, inklusive alla bilder och ljud däri, är upphovsrättsligt skyddade av respektive upphovsrättsinnehavare. Ikon: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">FB Alpha 的作者不保证其适用于任何目的（暗示或其他），也不承担使用 FB Alpha 时可能发生的任何损害的责任。FB Alpha 模拟的所有游戏，包括其中的任何图像和声音，均由其各自的版权所有者版权所有。图标来源：TRIPLEKILLZ（triplekillz.deviantart.com）</disclaimer>
+	</extension>
+</addon>

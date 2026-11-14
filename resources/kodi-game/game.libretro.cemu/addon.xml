@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.cemu"
+		name="Nintendo - Wii U (Cemu)"
+		version="2.6.0.3"
+		provider-name="Cemu Project, WizzardSK">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Wii U</platforms>
+		<extensions>wud|wux|wua|iso|rpx|elf|tmd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>cemu_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MPL-2.0</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.cemu</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Nintendo - Wii U (Cemu)</summary>
+		<description lang="en_GB">Cemu is an emulator for the Nintendo Wii U.[CR][CR]Encrypted disc images (.wud, .wux) need their disc key, in a matching .key file beside the image or in Cemu/keys.txt in the system folder.</description>
+	</extension>
+</addon>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mu"
+		name="Palm OS (Mu)"
+		version="1.3.3.43"
+		provider-name="guicrith / meepingsnesroms; Stephanie Gawroriski (Xer Shadow Tail)">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Palm OS</platforms>
+		<extensions>prc|pqa|img|pdb|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mu_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>CC BY-NC 3.0 US (Non-commercial)</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mu</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Palm OS (Mu)</summary>
+		<summary lang="da_DK">Palm OS (Mu)</summary>
+		<summary lang="en_GB">Palm OS (Mu)</summary>
+		<summary lang="es_ES">Palm OS (Mu)</summary>
+		<summary lang="ga">Palm OS (Mu)</summary>
+		<summary lang="it_IT">Palm OS (Mu)</summary>
+		<summary lang="ru_RU">Palm OS (Mu)</summary>
+		<summary lang="sv_SE">Palm OS (Mu)</summary>
+		<summary lang="zh_CN">Palm OS (Mu)</summary>
+		<description lang="cs_CZ">Mu je nový emulátor Palm OS zaměřený v tomto pořadí na kompatibilitu, rychlost a přesnost.[CR][CR]Poznámka: Jsou vyžadovány soubory BIOSu [I]palmos41-en-m515.rom[/I] a [I]palmos52-en-t3.rom[/I].</description>
+		<description lang="en_GB">Mu is a new Palm OS emulator targeting compatibility, speed and accuracy in that order.[CR][CR]Note: The BIOS files [I]palmos41-en-m515.rom[/I] and [I]palmos52-en-t3.rom[/I] are needed.</description>
+		<description lang="es_ES">Mu es un nuevo emulador de Palm OS que busca compatibilidad, velocidad y precisión, en ese orden[CR][CR]Nota: Se necesitan los archivos BIOS [I]palmos41-en-m515.rom[/I] y [I]palmos52-en-t3.rom[/I].</description>
+		<description lang="ga">Is aithriseoir nua Palm OS é Mu atá dírithe ar chomhoiriúnacht, luas agus cruinneas san ord sin.[CR][CR]Nóta: Tá na comhaid BIOS [I]palmos41-en-m515.rom[/I] agus [I]palmos52-en-t3.rom[/I] ag teastáil.</description>
+		<description lang="it_IT">Mu è un nuovo emulatore Palm OS che punta su compatibilità, velocità e precisione, in quest&apos;ordine.[CR][CR]Nota: sono necessari i file BIOS [I]palmos41-en-m515.rom[/I] e [I]palmos52-en-t3.rom[/I].</description>
+		<description lang="ru_RU">Mu — это новый эмулятор Palm OS, нацеленный на совместимость, скорость и точность в указанном порядке.[CR][CR]Примечание: требуются файлы BIOS [I]palmos41-en-m515.rom[/I] и [I]palmos52-en-t3.rom[/I].</description>
+		<description lang="sl_SI">Mu je nov emulator Palm OS, ki cilja na združljivost, hitrost in natančnost v tem vrstnem redu.[CR][CR]Opomba: Datoteki BIOS-a [I]palmos41-en-m515.rom[/I] in [I]palmos52-en- t3.rom[/I] so potrebni.</description>
+		<description lang="sv_SE">Mu är en ny Palm OS-emulator som är inriktad på kompatibilitet, hastighet och noggrannhet i nämnd ordning.[CR][CR]Obs: BIOS-filerna [I]palmos41-en-m515.rom[/I] och [I]palmos52-en-t3.rom[/I] behövs.</description>
+		<description lang="zh_CN">Mu 是一个新的 Palm OS 模拟器，以该顺序的兼容性，速度和准确性为目标。[CR][CR]注意：BIOS 文件[I]palmos41-en-m515。rom[/I]和[I]palmos52-en-t3。需要 rom[/I]。</description>
+	</extension>
+</addon>

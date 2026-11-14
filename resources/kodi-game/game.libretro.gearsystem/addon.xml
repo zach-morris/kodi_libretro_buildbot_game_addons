@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.gearsystem"
+		name="Sega - MS/GG/SG-1000 (Gearsystem)"
+		version="3.9.24.38"
+		provider-name="Nacho Sanchez">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - MS/GG/SG-1000</platforms>
+		<extensions>sms|gg|sg|mv|bin|rom</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>gearsystem_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.gearsystem</source>
+		<summary lang="cs_CZ">Sega - MS/GG/SG-1000 (Gearsystem)</summary>
+		<summary lang="da_DK">Sega - MS/GG/SG-1000 (Gearsystem)</summary>
+		<summary lang="en_GB">Sega - MS/GG/SG-1000 (Gearsystem)</summary>
+		<summary lang="es_ES">Sega - MS/GG/SG-1000 (Gearsystem)</summary>
+		<summary lang="ga">Sega - MS/GG/SG-1000 (Gearsystem)</summary>
+		<summary lang="it_IT">Sega - MS/GG/SG-1000 (Gearsystem)</summary>
+		<summary lang="ru_RU">Sega — MS/GG/SG-1000 (Gearsystem)</summary>
+		<summary lang="sv_SE">Sega - MS/GG/SG-1000 (Gearsystem)</summary>
+		<summary lang="zh_CN">世嘉 - MS/GG/SG-1000 (Gearsystem)</summary>
+		<description lang="cs_CZ">Gearsystem je multiplatformní open-source emulátor Sega Master System / Game Gear / SG-1000 / Othello Multivision.</description>
+		<description lang="da_DK">Gearsystem er en open source, multiplatform, Sega Master system / Game Gear / SG-1000 / Othello Multivision emulator.</description>
+		<description lang="en_GB">Gearsystem is an open source, cross-platform, Sega Master System / Game Gear / SG-1000 / Othello Multivision emulator.</description>
+		<description lang="es_ES">Gearsystem es un emulador de Sega Master System / Game Gear / SG-1000 / Othello Multivision de codigo abierto y multiplataforma.</description>
+		<description lang="ga">Is aithriseoir foinse oscailte, tras-ardán, Sega Master System / Game Gear / SG-1000 / Othello Multivision é Gearsystem.</description>
+		<description lang="it_IT">Gearsystem è un emulatore open source, multipiattaforma, di Sega Master System / Game Gear / SG-1000 / Othello Multivision.</description>
+		<description lang="ru_RU">Gearsystem — это эмулятор Sega Master System / Game Gear / SG-1000 / Othello Multivision с открытым исходным кодом, кроссплатформенный.</description>
+		<description lang="sv_SE">Gearsystem är en plattformsoberoende emulator med öppen källkod för Sega Master System / Game Gear / SG-1000 / Othello Multivision.</description>
+		<description lang="zh_CN">Gearsystem 是一款开源、跨平台的世嘉 Master System / Game Gear / SG-1000 / Othello Multivision 模拟器。</description>
+	</extension>
+</addon>

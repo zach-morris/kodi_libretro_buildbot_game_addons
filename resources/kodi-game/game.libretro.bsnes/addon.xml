@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.bsnes"
+		name="Nintendo - SNES / SFC (bsnes)"
+		version="115.0.0.30"
+		provider-name="Near">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+		<import addon="game.controller.snes.multitap" version="1.0.0"/>
+		<import addon="game.controller.snes.super.scope" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.player2" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|sfc|gb|gbc|bs</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>bsnes_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bsnes</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (bsnes)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (bsnes)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (bsnes)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (bsnes)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC (bsnes)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (bsnes)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC（bsnes）</summary>
+		<description lang="cs_CZ">bsnes je multiplatformní emulátor Super Nintendo (Super Famicom) od Near / Byuu, který se zaměřuje na výkon, funkce a snadné používání.</description>
+		<description lang="da_DK">bsnes er en multiplatform Super Nintendo (Super Famicom) emulator fra Near / Byuu, der fokuserer på ydeevne, funktioner og brugervenlighed.</description>
+		<description lang="en_GB">bsnes is a multi-platform Super Nintendo (Super Famicom) emulator from Near / Byuu that focuses on performance, features, and ease of use.</description>
+		<description lang="es_ES">bsnes es un emulador multiplataforma de Super Nintendo (Super Famicom) de Near / Byuu que se centra en el rendimiento, funcionalidades y facilidad de uso.</description>
+		<description lang="ga">Is aithriseoir il-ardáin Super Nintendo (Super Famicom) ó Near / Byuu é bsnes a dhíríonn ar fheidhmíocht, gnéithe agus éascaíocht úsáide.</description>
+		<description lang="it_IT">bsnes è un emulatore multipiattaforma Super Nintendo (Super Famicom) di Near / Byuu che si concentra su prestazioni, funzionalità e facilità d&apos;uso.</description>
+		<description lang="ru_RU">bsnes — это мультиплатформенный эмулятор Super Nintendo (Super Famicom) от Near / Byuu, в котором основное внимание уделяется производительности, функциям и простоте использования.</description>
+		<description lang="sv_SE">bsnes är en Super Nintendo (Super Famicom)-emulator för flera plattformar från Near / Byuu som fokuserar på prestanda, funktioner och användarvänlighet.</description>
+		<description lang="zh_CN">bsnes 是一款来自 Near/Byuu 的多平台超级任天堂（Super Famicom）模拟器，专注于性能、功能和易用性。</description>
+		<disclaimer lang="cs_CZ">S láskou na památku Near / Byuu</disclaimer>
+		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
+		<disclaimer lang="de_DE">In liebevoller Erinnerung an Near / Byuu</disclaimer>
+		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
+		<disclaimer lang="es_ES">En cariñoso recuerdo de Near / Byuu</disclaimer>
+		<disclaimer lang="ga">I ngrá le Near / Byuu</disclaimer>
+		<disclaimer lang="it_IT">In amorevole ricordo di Near / Byuu</disclaimer>
+		<disclaimer lang="ko_KR">Near / Byuu의 사랑을 기억하며</disclaimer>
+		<disclaimer lang="ru_RU">В память о Near / Byuu</disclaimer>
+		<disclaimer lang="sv_SE">Till kärleksfullt minne av Near / Byuu</disclaimer>
+		<disclaimer lang="zh_CN">怀念 Near / Byuu</disclaimer>
+	</extension>
+</addon>

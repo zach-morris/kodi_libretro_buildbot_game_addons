@@ -1,0 +1,74 @@
+# game.libretro.mame2003_midway language file
+# Addon Name: game.libretro.mame2003_midway
+# Addon id: game.libretro.mame2003_midway
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mame2003_midway\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-10-12 04:06i\n"
+"PO-Revision-Date: 2024-12-27 21:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mame2003_midway/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (MAME 2003 Midway)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "MAME 2003 with speedhack for the Midway sound hardware used in Mortal Kombat 2, 3 and others."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30002"
+msgid "MK2/MK3 DCS Speedhack"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Skip Disclaimer"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Skip Warnings"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Samples"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Sample Rate (KHz)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Cheats"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Share 2 player dial controls across one X/Y device"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Mouse Device"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Right Stick to Buttons"
+msgstr ""
+
+msgctxt "#30011"
+msgid "mouse"
+msgstr ""
+
+msgctxt "#30012"
+msgid "pointer"
+msgstr ""

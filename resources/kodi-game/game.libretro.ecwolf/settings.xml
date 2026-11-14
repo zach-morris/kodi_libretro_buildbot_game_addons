@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.ecwolf">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="ecwolf-resolution" type="string" label="30001" help="30029">
+					<level>0</level>
+					<default>320x200</default>
+					<constraints>
+						<options>
+							<option>240x160</option>
+							<option>320x200</option>
+							<option>320x240</option>
+							<option>400x240</option>
+							<option>420x240</option>
+							<option>480x270</option>
+							<option>640x360</option>
+							<option>640x400</option>
+							<option>640x480</option>
+							<option>800x500</option>
+							<option>960x540</option>
+							<option>960x600</option>
+							<option>1024x768</option>
+							<option>1280x720</option>
+							<option>1280x800</option>
+							<option>1600x1000</option>
+							<option>1920x1200</option>
+							<option>2240x1400</option>
+							<option>2560x1600</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-analog-deadzone" type="string" label="30002" help="30030">
+					<level>0</level>
+					<default>15%</default>
+					<constraints>
+						<options>
+							<option>0%</option>
+							<option>5%</option>
+							<option>10%</option>
+							<option>15%</option>
+							<option>20%</option>
+							<option>25%</option>
+							<option>30%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-fps" type="string" label="30003" help="30031">
+					<level>0</level>
+					<default>35</default>
+					<constraints>
+						<options>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>72</option>
+							<option>75</option>
+							<option>90</option>
+							<option>100</option>
+							<option>119</option>
+							<option>120</option>
+							<option>140</option>
+							<option>144</option>
+							<option>240</option>
+							<option>244</option>
+							<option>300</option>
+							<option>360</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-palette" type="string" label="30004" help="30032">
+					<level>0</level>
+					<default>rgb565</default>
+					<constraints>
+						<options>
+							<option label="30033">rgb565</option>
+							<option label="30034">xrgb8888</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-alwaysrun" type="string" label="30005" help="30035">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-viewsize" type="string" label="30006">
+					<level>0</level>
+					<default>20</default>
+					<constraints>
+						<options>
+							<option label="30036">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30052">20</option>
+							<option label="30053">21</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-am-overlay" type="string" label="30007" help="30054">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30055">off</option>
+							<option label="30056">on</option>
+							<option label="30057">both</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-am-rotate" type="string" label="30008" help="30058">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30055">off</option>
+							<option label="30056">on</option>
+							<option label="30059">overlay_only</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-am-drawtexturedwalls" type="string" label="30009" help="30060">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-am-drawtexturedfloors" type="string" label="30010" help="30061">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-am-texturedoverlay" type="string" label="30011" help="30062">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-am-showratios" type="string" label="30012" help="30063">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-am-pause" type="string" label="30013" help="30064">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-music-volume" type="string" label="30014" help="30065">
+					<level>0</level>
+					<default>20</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-digi-volume" type="string" label="30015" help="30066">
+					<level>0</level>
+					<default>20</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-adlib-volume" type="string" label="30016" help="30067">
+					<level>0</level>
+					<default>20</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-speaker-volume" type="string" label="30017" help="30068">
+					<level>0</level>
+					<default>20</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-analog-move-sensitivity" type="string" label="30018" help="30069">
+					<level>0</level>
+					<default>20</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-analog-turn-sensitivity" type="string" label="30019" help="30070">
+					<level>0</level>
+					<default>20</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-mouse-turn-sensitivity" type="string" label="30028" help="30071">
+					<level>0</level>
+					<default>10</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-effects-priority" type="string" label="30020" help="30072">
+					<level>0</level>
+					<default>digi-adlib-speaker</default>
+					<constraints>
+						<options>
+							<option label="30073">digi-adlib-speaker</option>
+							<option label="30074">digi-adlib</option>
+							<option label="30075">digi-speaker</option>
+							<option label="30076">digi</option>
+							<option label="30077">adlib</option>
+							<option label="30078">speaker</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-aspect" type="string" label="30021" help="30079">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30080">auto</option>
+							<option label="30090">16:9</option>
+							<option label="30091">4:3</option>
+							<option label="30092">16:10</option>
+							<option label="30093">17:10</option>
+							<option label="30094">5:4</option>
+							<option label="30095">21:9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-invulnerability" type="string" label="30022" help="30081">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-memstore" type="string" label="30024" help="30082">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-preload-digisounds" type="string" label="30025" help="30082">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-panx-adjustment" type="string" label="30026" help="30083">
+					<level>0</level>
+					<default>5</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="ecwolf-pany-adjustment" type="string" label="30027" help="30084">
+					<level>0</level>
+					<default>5</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30085">1</option>
+							<option label="30086">2</option>
+							<option label="30087">3</option>
+							<option label="30088">4</option>
+							<option label="30037">5</option>
+							<option label="30038">6</option>
+							<option label="30039">7</option>
+							<option label="30040">8</option>
+							<option label="30041">9</option>
+							<option label="30042">10</option>
+							<option label="30043">11</option>
+							<option label="30044">12</option>
+							<option label="30045">13</option>
+							<option label="30046">14</option>
+							<option label="30047">15</option>
+							<option label="30048">16</option>
+							<option label="30049">17</option>
+							<option label="30050">18</option>
+							<option label="30051">19</option>
+							<option label="30089">20</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,26 @@
+# game.libretro.pocketcdg language file
+# Addon Name: game.libretro.pocketcdg
+# Addon id: game.libretro.pocketcdg
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.pocketcdg\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-25 20:17i\n"
+"PO-Revision-Date: 2024-12-27 22:03+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pocketcdg/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "PocketCDG"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PocketCDG is an MP3 karaoke music player."
+msgstr ""

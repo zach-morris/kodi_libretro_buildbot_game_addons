@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="mame_read_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30002" type="select" id="mame_write_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="mame_saves" values="game|system" default="game"/>
+		<setting label="30004" type="select" id="mame_auto_save" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="mame_mouse_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="mame_lightgun_mode" values="none|touchscreen|lightgun" default="none"/>
+		<setting label="30007" type="select" id="mame_buttons_profiles" values="enabled|disabled" default="enabled"/>
+		<setting label="30008" type="select" id="mame_throttle" values="disabled|enabled" default="disabled"/>
+		<setting label="30009" type="select" id="mame_cheats_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30010" type="select" id="mame_alternate_renderer" values="disabled|enabled" default="disabled"/>
+		<setting label="30011" type="select" id="mame_softlists_enable" values="enabled|disabled" default="enabled"/>
+		<setting label="30012" type="select" id="mame_softlists_auto_media" values="enabled|disabled" default="enabled"/>
+		<setting label="30013" type="select" id="mame_media_type" values="rom|cart|flop|cdrm|cass|hard|serl|prin" default="rom"/>
+		<setting label="30014" type="select" id="mame_boot_to_bios" values="disabled|enabled" default="disabled"/>
+		<setting label="30015" type="select" id="mame_boot_to_osd" values="disabled|enabled" default="disabled"/>
+		<setting label="30016" type="select" id="mame_boot_from_cli" values="disabled|enabled" default="disabled"/>
+		<setting label="30017" type="select" id="mame_altres" values="640x480|640x360|800x600|800x450|960x720|960x540|1024x768|1024x576|1280x960|1280x720|1600x1200|1600x900|1440x1080|1920x1080|1920x1440|2560x1440|2880x2160|3840x2160" default="640x480"/>
+		<setting label="30018" type="select" id="mame_mame_paths_enable" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

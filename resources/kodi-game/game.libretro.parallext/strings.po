@@ -1,0 +1,234 @@
+# game.libretro.parallext language file
+# Addon Name: game.libretro.parallext
+# Addon id: game.libretro.parallext
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.parallext\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 21:12i\n"
+"PO-Revision-Date: 2024-12-27 22:04+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-parallext/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Nintendo 64 (ParaLLEl N64)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "ParaLLeXT is a forked version of ParaLLEl N64, a Nintendo 64 emulator made specifically for Libretro."
+msgstr ""
+
+msgctxt "#30001"
+msgid "CPU Core"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Graphics accuracy"
+msgstr ""
+
+msgctxt "#30003"
+msgid "LLE RSP Plugin"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Dithering"
+msgstr ""
+
+msgctxt "#30005"
+msgid "(Angrylion) VI Overlay"
+msgstr ""
+
+msgctxt "#30006"
+msgid "(Angrylion) Multi-threading"
+msgstr ""
+
+msgctxt "#30007"
+msgid "(Angrylion) Hide overscan"
+msgstr ""
+
+msgctxt "#30008"
+msgid "(Angrylion) Thread sync level"
+msgstr ""
+
+msgctxt "#30009"
+msgid "4:3 Resolution (restart)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "16:9 Resolution"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Aspect Ratio"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Bilinear filtering mode"
+msgstr ""
+
+msgctxt "#30013"
+msgid "MSAA level"
+msgstr ""
+
+msgctxt "#30014"
+msgid "FXAA"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Frame Duplication"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Framerate"
+msgstr ""
+
+msgctxt "#30017"
+msgid "VI Refresh (Overclock)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Noise Emulation"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Framebuffer Emulation"
+msgstr ""
+
+msgctxt "#30020"
+msgid "LOD Emulation"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Color buffer to RDRAM"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Depth buffer to RDRAM"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Background Mode"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Hardware per-pixel lighting"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Continuous texrect coords"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Native res. 2D texrects"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Less accurate blending mode"
+msgstr ""
+
+msgctxt "#30028"
+msgid "GPU shader depth write"
+msgstr ""
+
+msgctxt "#30029"
+msgid "N64 Depth Compare"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Cache GPU Shaders"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Cache Textures"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Overscan"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Overscan Offset (Top)"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Overscan Offset (Left)"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Overscan Offset (Right)"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Overscan Offset (Bottom)"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Max texture cache size"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Texture filter"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Texture Enhancement"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Filter background textures"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Use High-Res textures"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Use High-Res Texture Cache Compression"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Use High-Res Full Alpha Channel"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Use enhanced Texture Storage"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Use enhanced Hi-Res Storage"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Analog Deadzone (percent)"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Analog Sensitivity (percent)"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Player 1 Pak"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Player 2 Pak"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Player 3 Pak"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Player 4 Pak"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Count Per Op"
+msgstr ""

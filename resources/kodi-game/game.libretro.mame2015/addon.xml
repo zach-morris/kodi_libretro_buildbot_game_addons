@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mame2015"
+		name="Arcade (MAME 2015)"
+		version="0.160.0.32"
+		provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>chd|cmd|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2015</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2015)</summary>
+		<summary lang="da_DK">Arcade (MAME 2015)</summary>
+		<summary lang="en_GB">Arcade (MAME 2015)</summary>
+		<summary lang="es_ES">Arcade (MAME 2015)</summary>
+		<summary lang="ga">Arcade (MAME 2015)</summary>
+		<summary lang="it_IT">Arcade (MAME 2015)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2015)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2015)</summary>
+		<summary lang="zh_CN">街机（MAME 2015）</summary>
+		<description lang="cs_CZ">Verze MAME z konce roku 2014 / začátku roku 2015 (přibližně 0.160) pro Libretro. Kompatibilní se sadami MAME 0.160.</description>
+		<description lang="da_DK">Sen 2014/tidlig 2015 version af MAME (0.160-ish) til libretro. Kompatibel med MAME 0.160 sæt.</description>
+		<description lang="en_GB">Late 2014/Early 2015 version of MAME (0.160-ish) for libretro. Compatible with MAME 0.160 sets.</description>
+		<description lang="es_ES">Versión de finales de 2014/principios de 2015 de MAME (0.160-ish) para libretro. Compatible con los juegos de MAME 0.160.</description>
+		<description lang="ga">Leagan déanach 2014/tús 2015 de MAME (thart ar 0.160) do libretro. Comhoiriúnach le tacair MAME 0.160.</description>
+		<description lang="it_IT">Versione di fine 2014/inizio 2015 di MAME (circa 0.160) per libretro. Compatibile con i set MAME 0.160.</description>
+		<description lang="ru_RU">Версия MAME конца 2014 / начала 2015 года (около 0.160) для libretro. Совместима с наборами MAME 0.160.</description>
+		<description lang="sv_SE">Version av MAME (0.160-ish) från slutet av 2014/början av 2015 för libretro. Kompatibel med MAME 0.160-uppsättningar.</description>
+		<description lang="zh_CN">2014年末/2015年初 libretro 版的 MAME（0.160-ish）。兼容MAME 0.160。</description>
+		<lifecyclestate type="broken" lang="cs_CZ">MAME 2015 nebyl od roku 2023 aktualizován a v Kodi už není k dispozici k použití.</lifecyclestate>
+		<lifecyclestate type="broken" lang="en_GB">MAME 2015 hasn&apos;t been updated since 2023 and is no longer available for use in Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">MAME 2015 no ha sido actualizado desde 2023 y ya no está disponible para su uso en Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="ga">Níor nuashonraíodh MAME 2015 ó 2023 agus níl sé ar fáil a thuilleadh lena úsáid i Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="it_IT">MAME 2015 non viene aggiornato dal 2023 e non è più disponibile per l&apos;uso in Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="ru_RU">MAME 2015 не обновлялся с 2023 года и больше не доступен для использования в Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="sv_SE">MAME 2015 har inte uppdaterats sedan 2023 och är inte längre tillgänglig för användning i Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="zh_CN">MAME 2015 自 2023 年以来就没有更新过，现在已无法在 Kodi 中使用。</lifecyclestate>
+	</extension>
+</addon>

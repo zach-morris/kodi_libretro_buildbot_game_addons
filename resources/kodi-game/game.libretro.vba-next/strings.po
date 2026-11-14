@@ -1,0 +1,66 @@
+# game.libretro.vba-next language file
+# Addon Name: game.libretro.vba-next
+# Addon id: game.libretro.vba-next
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.vba-next\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 22:15+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-vba-next/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy Advance (VBA Next)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "VBA-Next is a fork from the now inactive VisualBoy Advance project, with goals to improve the compatibility and features of the emulator."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Use BIOS if available (Restart)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Enable Turbo Buttons"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Turbo Delay in frames"
+msgstr ""
+
+msgctxt "#30005"
+msgid "RTC (Restart)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Threaded Renderer (Restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Uses BIOS present in RetroArch's system directory."
+msgstr ""
+
+msgctxt "#30008"
+msgid "Controls Real-Time Clock emulation. 'auto' uses the per-ROM override list. 'enabled' forces RTC on for any ROM (useful for ROM hacks needing RTC without a matching override). 'disabled' forces RTC off, overriding the override list."
+msgstr ""
+
+msgctxt "#30009"
+msgid "Render scanlines on a worker thread.  May reduce stutter on slower CPUs at the cost of slight input-to-display latency.  Restart required for changes to take effect."
+msgstr ""
+
+msgctxt "#30010"
+msgid "Enable or disable gamepad turbo buttons."
+msgstr ""
+
+msgctxt "#30011"
+msgid "Repeat rate of turbo triggers in frames. Higher value triggers more."
+msgstr ""

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.xrick"
+		name="Rick Dangerous (XRick)"
+		version="0.21212.0.56"
+		provider-name="">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Rick Dangerous</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>xrick_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.xrick</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Rick Dangerous (XRick)</summary>
+		<summary lang="da_DK">Rick Dangerous (XRick)</summary>
+		<summary lang="en_GB">Rick Dangerous (XRick)</summary>
+		<summary lang="es_ES">Rick Dangerous (XRick)</summary>
+		<summary lang="ga">Rick Dangerous (XRick)</summary>
+		<summary lang="it_IT">Rick Dangerous (XRick)</summary>
+		<summary lang="ru_RU">Rick Dangerous (XRick)</summary>
+		<summary lang="sv_SE">Rick Dangerous (XRick)</summary>
+		<summary lang="zh_CN">步步杀机（XRick）</summary>
+		<description lang="ast_ES">XRick ye una implementación de códigu abiertu del xuegu llexendariu [I]Rick Dangerous[/I].</description>
+		<description lang="cs_CZ">XRick je open source implementace legendární hry [I]Rick Dangerous[/I].</description>
+		<description lang="da_DK">XRick er en open source-implementering af det legendariske spil [I]Rick Dangerous[/I].</description>
+		<description lang="de_DE">XRick ist eine quelloffene Implementierung des legendären Spiels [I]Rick Dangerous[/I].</description>
+		<description lang="en_GB">XRick is an open source implementation of the legendary game [I]Rick Dangerous[/I].</description>
+		<description lang="es_ES">XRick es una implementación de código abierto del legendario juego [I]Rick Dangerous[/I].</description>
+		<description lang="ga">Is cur i bhfeidhm foinse oscailte den chluiche finscéalach [I]Rick Dangerous[/I] é XRick.</description>
+		<description lang="it_IT">XRick è un&apos;implementazione open source del leggendario gioco [I]Rick Dangerous[/I].</description>
+		<description lang="ko_KR">XRick은 전설적인 게임 [I]Rick Dangerous[/I]의 오픈 소스 구현입니다.</description>
+		<description lang="ru_RU">XRick — это реализация с открытым исходным кодом легендарной игры [I]Rick Dangerous[/I].</description>
+		<description lang="sv_SE">XRick är en implementering med öppen källkod av det legendariska spelet [I]Rick Dangerous[/I].</description>
+		<description lang="zh_CN">XRick 是传奇游戏[I]《步步杀机（Rick Danger）》[/I]的开源实现。</description>
+	</extension>
+</addon>
