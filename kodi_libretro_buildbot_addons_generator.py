@@ -64,7 +64,7 @@ def main(args=None):
 	remove_old_addons = not args.dont_remove_old_addons
 	clear_temp_after_build = not args.dont_clear_temp_after_build
 	generate_repository_xml= not args.dont_generate_addon_repository_xml
-	update_standalone_script_zip = args.update_standalone_script_zip
+	update_standalone_script = args.update_standalone_script_zip
 
 	print('Kodi Libretrobuildbot Addons Generator Started')
 	print(f'Env OS: {platform.system()} {platform.release()}')
@@ -261,8 +261,11 @@ def main(args=None):
 			import shutil
 			shutil.rmtree(Path.cwd().joinpath('temp'),ignore_errors=True)
 
-		if update_standalone_script_zip:
-			success = update_standalone_script_zip(root_path=Path.cwd())
+		if update_standalone_script:
+			try:
+				success = update_standalone_script_zip(root_path=Path.cwd())
+			except Exception as exc1:
+				print(f'Error updating script zip {exc1}')
 	else:
 		print('There was an error downloading info.zip which is required to build addons, stopping...')
 
