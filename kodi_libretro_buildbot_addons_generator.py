@@ -241,18 +241,21 @@ def main(args=None):
 			print('Deleting old addons...')
 			bb_df.apply(lambda x: delete_old_addons(x_in=x,force_remove_existing=force_remove_existing),axis=1)
 
-		current_addons = [x for x in Path.cwd().rglob('*.zip') if x.parent.name in set(bb_df['addon_generator_folder'])]
-		current_df = pd.DataFrame(current_addons,columns=['existing_addon_zipfilename'])
-		current_df['existing_addon_zipfilesize'] = current_df['existing_addon_zipfilename'].apply(lambda x: x.stat().st_size if isinstance(x,Path) and x.exists() else None)
-		current_df['existing_addon_xmlpath'] = current_df['existing_addon_zipfilename'].apply(lambda x: '{}/{}'.format(x.parent.name,x.name) if isinstance(x,Path) and x.exists() else None)
-		current_df['addon_generator_folder'] = current_df['existing_addon_zipfilename'].apply(lambda x: x.parent.name if isinstance(x,Path) else None)
-		current_df['addon_xml_content'] = current_df['existing_addon_zipfilename'].apply(lambda x: read_zipfile_addon_xml(input_filename=x))
-		current_df['repo_addon_xml_content'] = current_df.apply(lambda x: generate_repo_addon_xml_content(x_in=x),axis=1)
-		current_df = current_df.loc[current_df['addon_xml_content'].notna()]
-		current_df['repo_name'] = current_df['addon_generator_folder'].apply(lambda x: next(iter([y[-1] for y in addons_generator_mapping if y[0]==x]),None))
-		current_df['repo_filename'] = current_df['repo_name'].map(repository_file_mapping)
-		
-		if generate_repository_xml:
+		current_addons = [x for x in Path.cwd().rglob('*.zip') if x.parent.name in set([y[0] for y in addons_generator_mapping])]
+		if len(current_addons)>0:
+			current_df = pd.DataFrame(current_addons,columns=['existing_addon_zipfilename'])
+			current_df['existing_addon_zipfilesize'] = current_df['existing_addon_zipfilename'].apply(lambda x: x.stat().st_size if isinstance(x,Path) and x.exists() else None)
+			current_df['existing_addon_xmlpath'] = current_df['existing_addon_zipfilename'].apply(lambda x: '{}/{}'.format(x.parent.name,x.name) if isinstance(x,Path) and x.exists() else None)
+			current_df['addon_generator_folder'] = current_df['existing_addon_zipfilename'].apply(lambda x: x.parent.name if isinstance(x,Path) else None)
+			current_df['addon_xml_content'] = current_df['existing_addon_zipfilename'].apply(lambda x: read_zipfile_addon_xml(input_filename=x))
+			current_df['repo_addon_xml_content'] = current_df.apply(lambda x: generate_repo_addon_xml_content(x_in=x),axis=1)
+			current_df = current_df.loc[current_df['addon_xml_content'].notna()]
+			current_df['repo_name'] = current_df['addon_generator_folder'].apply(lambda x: next(iter([y[-1] for y in addons_generator_mapping if y[0]==x]),None))
+			current_df['repo_filename'] = current_df['repo_name'].map(repository_file_mapping)
+		else:
+			current_df = None
+
+		if generate_repository_xml and isinstance(current_df,pd.DataFrame) and not current_df.empty:
 			for repo_name in set(current_df['repo_name']):
 				generate_repository_addonxml(current_df=current_df,repo_name=repo_name)
 
