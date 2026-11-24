@@ -136,6 +136,7 @@ def main(args=None):
 		kodi_game_files['supports_vfs'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='supports_vfs',x_in=x),axis=1)
 		kodi_game_files['supports_standalone'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='supports_standalone',x_in=x),axis=1)
 		kodi_game_files['supports_disc_control'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='supports_disc_control',x_in=x),axis=1)
+		kodi_game_files['kodi_game_extensions'] = kodi_game_files.apply(lambda x: get_value_from_addon_xml_dict(value='extensions',x_in=x),axis=1)
 	if isinstance(info_files,list) and len(info_files)>0:
 		info_df = pd.DataFrame(info_files,columns=['info_file_path'])
 		info_df['info_core_name'] = info_df['info_file_path'].apply(lambda x: x.stem)

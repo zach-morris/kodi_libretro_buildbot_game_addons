@@ -153,6 +153,11 @@ def get_value_from_addon_xml_dict(value=None,x_in=None):
 					result =  addon_xml_dict.get('addon').get('extension')[0].get('supports_disc_control')
 				except:
 					pass
+			case 'extensions':
+				try:
+					result =  addon_xml_dict.get('addon').get('extension')[0].get('extensions')
+				except:
+					pass
 			case _:
 				print(f'No get_value_from_addon_xml_dict getter for {value}')
 	return result
@@ -228,10 +233,14 @@ def get_addon_extension_point_dict(x_in=None):
 			supports_disc_control = 'true'
 		else:
 			supports_disc_control = 'false'
+		if isinstance(x_in.get('kodi_game_extensions'),str) and x_in.get('kodi_game_extensions'): #Use kodi addon xml value first if it exists
+			extensions = x_in.get('kodi_game_extensions')
+		else:
+			extensions = x_in.get('supported_extensions') or ''
 		result = {'@point': 'kodi.gameclient',
 				'@{}'.format(x_in.get('kodi_library')):x_in.get('bb_core_filename'),
 				'platforms': platforms,
-				'extensions': x_in.get('supported_extensions') or '',
+				'extensions': extensions,
 				'supports_vfs': supports_vfs,
 				'supports_standalone': supports_standalone,
 				'supports_disc_control': supports_disc_control,
