@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-pcfx"
+		name="NEC - PC-FX (Beetle PC-FX)"
+		version="0.9.36.50"
+		provider-name="Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.pcfx" version="1.0.0"/>
+		<import addon="game.controller.pcfx.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>NEC - PC-FX</platforms>
+		<extensions>cue|ccd|toc|chd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>mednafen_pcfx_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-pcfx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">NEC - PC-FX (Beetle PC-FX)</summary>
+		<summary lang="da_DK">NEC - PC-FX (Beetle PC-FX)</summary>
+		<summary lang="en_GB">NEC - PC-FX (Beetle PC-FX)</summary>
+		<summary lang="es_ES">NEC - PC-FX (Beetle PC-FX)</summary>
+		<summary lang="ga">NEC - PC-FX (Beetle PC-FX)</summary>
+		<summary lang="it_IT">NEC - PC-FX (Beetle PC-FX)</summary>
+		<summary lang="ru_RU">NEC — PC-FX (Beetle PC-FX)</summary>
+		<summary lang="sv_SE">NEC - PC-FX (Beetle PC-FX)</summary>
+		<summary lang="zh_CN">NEC - PC-FX (Beetle PC-FX)</summary>
+		<description lang="cs_CZ">Beetle PC-FX je port emulátoru herní konzole NEC PC-FX z Mednafenu.</description>
+		<description lang="da_DK">Beetle PC-FX er en fork af Mednafen PC-FX videospilsystememulator til NEC PC-FX.</description>
+		<description lang="en_GB">Beetle PC-FX is a port of the Mednafen PC-FX video game system emulator for the NEC PC-FX.</description>
+		<description lang="es_ES">Beetle PC-FX es una adaptación del emulador del sistema de videojuegos Mednafen PC-FX para NEC PC-FX.</description>
+		<description lang="ga">Is port den aithriseoir córas físchluichí Mednafen PC-FX don NEC PC-FX é Beetle PC-FX.</description>
+		<description lang="it_IT">Beetle PC-FX è una porting dell&apos;emulatore del sistema di videogiochi Mednafen PC-FX per NEC PC-FX.</description>
+		<description lang="ru_RU">Beetle PC-FX — это порт эмулятора видеоигровой системы Mednafen PC-FX для NEC PC-FX.</description>
+		<description lang="sv_SE">Beetle PC-FX är en portning av videospelemulatorn Mednafen PC-FX för NEC PC-FX.</description>
+		<description lang="zh_CN">Beetle PC-FX 是 Mednafen PC-FX 视频游戏系统模拟器针对 NEC PC-FX 的一个移植版本。</description>
+	</extension>
+</addon>

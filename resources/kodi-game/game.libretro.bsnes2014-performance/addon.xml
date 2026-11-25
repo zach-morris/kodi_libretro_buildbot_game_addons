@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.bsnes2014-performance"
+		name="Nintendo - SNES / SFC (bsnes 2014 Performance)"
+		version="0.94.0.30"
+		provider-name="Near">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+		<import addon="game.controller.snes.multitap" version="1.0.0"/>
+		<import addon="game.controller.snes.super.scope" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.player2" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>sfc|smc|bml</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>bsnes2014_performance_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bsnes2014-performance</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (bsnes 2014 Performance)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (bsnes 2014 Performance)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes 2014 Performance)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes 2014 Rendimiento)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (feidhmíocht bsnes 2014)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (prestazioni bsnes 2014)</summary>
+		<summary lang="ko_KR">닌텐도 - SNES / SFC (bsnes 2014 퍼포먼스)</summary>
+		<summary lang="ru_RU">Nintendo - SNES / SFC (bsnes 2014 Performance)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (bsnes 2014 Performance)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC（bsnes 2014 性能）</summary>
+		<description lang="cs_CZ">Verze odvozená od bSNES pro libretro. Snaží se zůstat co nejblíže upstreamu.[CR][CR]Profil [I]Performance[/I] se zaměřuje více na rychlost běhu než na přesnost.</description>
+		<description lang="da_DK">En libretro-fork af bSNES. Så tæt på upstream som muligt.[CR][CR]Profilen [I]Ydeevne[/I] fokuserer mere på udførelseshastighed end på nøjagtighed.</description>
+		<description lang="de_DE">Eine libretro-Fork von bSNES. So nah am Vorbild wie möglich.[CR][CR]Das [I]Performance[/I]-Profil konzentriert sich mehr auf die Ausführungsgeschwindigkeit als auf die Genauigkeit.</description>
+		<description lang="en_GB">A libretro fork of bSNES. As close to upstream as possible.[CR][CR]The [I]Performance[/I] profile focuses more on execution speed than on accuracy.</description>
+		<description lang="es_ES">Una bifurcación libretro de bSNES. Lo más parecido posible a la versión original.[CR][CR]El perfil [I]Performance[/I] se centra más en la velocidad de ejecución que en la precisión.</description>
+		<description lang="ga">Forc libretro de bSNES. Chomh gar agus is féidir don sruth suas.[CR][CR]Díríonn an phróifíl [I]Fheidhmíochta[/I] níos mó ar luas forghníomhaithe ná ar chruinneas.</description>
+		<description lang="it_IT">Un fork libretro di bSNES. Il più vicino possibile all&apos;upstream.[CR][CR]Il profilo [I]Performance[/I] si concentra più sulla velocità di esecuzione che sulla precisione.</description>
+		<description lang="ko_KR">bSNES의 libretro 포크. 최대한 업스트림에 가깝습니다.[CR][CR][I]성능[/I] 프로필은 정확성보다 실행 속도에 더 중점을 둡니다.</description>
+		<description lang="ru_RU">Форк bSNES, работающий в стиле Libretro. Максимально приближен к апстриму.[CR][CR]Профиль [I]Производительность[/I] больше ориентирован на скорость выполнения, чем на точность.</description>
+		<description lang="sv_SE">En libretro-förgrening av bSNES. Så nära uppströms som möjligt.[CR][CR]Profilen [I]Performance[/I] fokuserar mer på exekveringshastighet än på noggrannhet.</description>
+		<description lang="zh_CN">bSNES 的 libretro 分支。尽可能接近原始项目。[CR][CR][I]性能[/I] 配置文件更多地关注执行速度，而不是准确性。</description>
+		<disclaimer lang="cs_CZ">S láskou na památku Near / Byuu</disclaimer>
+		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
+		<disclaimer lang="de_DE">In liebevoller Erinnerung an Near / Byuu</disclaimer>
+		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
+		<disclaimer lang="es_ES">En cariñoso recuerdo de Near / Byuu</disclaimer>
+		<disclaimer lang="ga">I ngrá le Near / Byuu</disclaimer>
+		<disclaimer lang="it_IT">In amorevole ricordo di Near / Byuu</disclaimer>
+		<disclaimer lang="ko_KR">Near / Byuu의 사랑을 기억하며</disclaimer>
+		<disclaimer lang="ru_RU">В память о Near / Byuu</disclaimer>
+		<disclaimer lang="sv_SE">Till kärleksfullt minne av Near / Byuu</disclaimer>
+		<disclaimer lang="zh_CN">怀念 Near / Byuu</disclaimer>
+	</extension>
+</addon>

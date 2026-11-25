@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.melonds"
+		name="Nintendo - DS (melonDS)"
+		version="0.9.3.52"
+		provider-name="Arisotura">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nds" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - DS</platforms>
+		<extensions>nds|ids|dsi</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>melonds_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.melonds</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - DS (melonDS)</summary>
+		<summary lang="da_DK">Nintendo - DS (melonDS)</summary>
+		<summary lang="en_GB">Nintendo - DS (melonDS)</summary>
+		<summary lang="es_ES">Nintendo - DS (melonDS)</summary>
+		<summary lang="ga">Nintendo - DS (melonDS)</summary>
+		<summary lang="it_IT">Nintendo - DS (melonDS)</summary>
+		<summary lang="ru_RU">Nintendo — DS (melonDS)</summary>
+		<summary lang="sv_SE">Nintendo - DS (melonDS)</summary>
+		<summary lang="zh_CN">任天堂 - DS (melonDS)</summary>
+		<description lang="cs_CZ">melonDS si klade za cíl poskytovat rychlou a přesnou emulaci Nintendo DS.</description>
+		<description lang="da_DK">melonDS sigter mod at levere hurtig og præcis Nintendo DS-emulering.</description>
+		<description lang="de_DE">melonDS zielt auf die schnelle und akkurate Nintendo DS Emulation ab.</description>
+		<description lang="en_GB">melonDS aims at providing fast and accurate Nintendo DS emulation.</description>
+		<description lang="es_ES">El objetivo de melonDS es proporcionar una emulación de Nintendo DS rápida y precisa.</description>
+		<description lang="ga">Tá sé mar aidhm ag melonDS aithris Nintendo DS tapa agus cruinn a sholáthar.</description>
+		<description lang="it_IT">melonDS mira a fornire un&apos;emulazione veloce e precisa del Nintendo DS.</description>
+		<description lang="ru_RU">melonDS стремится обеспечить быструю и точную эмуляцию Nintendo DS.</description>
+		<description lang="sv_SE">melonDS syftar till att tillhandahålla snabb och korrekt Nintendo DS-emulering.</description>
+		<description lang="zh_CN">melonDS 旨在提供快速精准的任天堂 DS 仿真。</description>
+	</extension>
+</addon>

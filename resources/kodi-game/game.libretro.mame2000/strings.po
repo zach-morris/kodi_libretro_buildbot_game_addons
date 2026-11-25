@@ -1,0 +1,130 @@
+# game.libretro.mame2000 language file
+# Addon Name: game.libretro.mame2000
+# Addon id: game.libretro.mame2000
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.mame2000\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2018-09-02 20:29i\n"
+"PO-Revision-Date: 2024-12-27 21:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mame2000/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (MAME 2000)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "2000 version of MAME (0.37b5) for libretro. Compatible with iMAME4All/MAME4Droid/MAME 0.37b5 sets."
+msgstr ""
+
+msgctxt "#30002"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Frameskip Interval"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Skip Disclaimer"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Show Game Information"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Stereo (Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30009"
+msgid "QSound Output Filter"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Sample rate hint (Restart)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Skip rendering frames to keep the audio output in sync when the host cannot run the game at full speed.  'auto' uses the frontend's audio-buffer hint; 'threshold' skips when the audio buffer drops below the percentage configured below."
+msgstr ""
+
+msgctxt "#30012"
+msgid "When Frameskip is set to 'threshold', skip a frame whenever the audio output buffer falls below this percentage of full.  Lower values skip more aggressively."
+msgstr ""
+
+msgctxt "#30013"
+msgid "Maximum number of consecutive frames that may be skipped.  Lower values keep visual updates smoother at the cost of more audio drops when the host is overloaded."
+msgstr ""
+
+msgctxt "#30014"
+msgid "Hide MAME's legal disclaimer screen at game startup."
+msgstr ""
+
+msgctxt "#30015"
+msgid "Show MAME's driver-status and game-information screens at startup before the game begins running."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Output audio sample rate, in Hz.  22050 is the legacy MAME 0.78 default; higher rates increase audio fidelity at the cost of additional CPU.  \"Auto\" asks the frontend for its target rate and rounds to the nearest standard rate, falling back to 48000 if the frontend does not report one.  \"Manual\" currently behaves like \"Auto\".  Changing this value requires a core restart."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Output stereo audio.  Disable for slightly lower CPU on games that don't use stereo mixing.  Changing this value requires a core restart."
+msgstr ""
+
+msgctxt "#30020"
+msgid "Run the QSound voice mix through a 95-tap windowed-sinc low-pass FIR (8 kHz cutoff) and per-channel output delay line before sending it to the host.  Smooths the upper-band aliasing the 8-bit ROM samples produce on transients and applies the algorithm's slight L/R offset for a wider stereo image.  Costs roughly 15-20% extra CPU during active QSound audio.  This option is hidden in the menu for games that don't use the QSound sound chip."
+msgstr ""
+
+msgctxt "#30021"
+msgid "threshold"
+msgstr ""
+
+msgctxt "#30022"
+msgid "8000"
+msgstr ""
+
+msgctxt "#30023"
+msgid "11025"
+msgstr ""
+
+msgctxt "#30024"
+msgid "22050"
+msgstr ""
+
+msgctxt "#30025"
+msgid "32000"
+msgstr ""
+
+msgctxt "#30026"
+msgid "44100"
+msgstr ""
+
+msgctxt "#30027"
+msgid "48000"
+msgstr ""
+
+msgctxt "#30028"
+msgid "96000"
+msgstr ""

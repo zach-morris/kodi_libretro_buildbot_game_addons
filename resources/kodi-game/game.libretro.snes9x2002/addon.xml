@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.snes9x2002"
+		name="Nintendo - SNES / SFC (Snes9x 2002)"
+		version="7.2.0.55"
+		provider-name="Snes9x Team, PocketSNES Team, Toadking">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+		<import addon="game.controller.snes.mouse" version="1.0.0"/>
+		<import addon="game.controller.snes.multitap" version="1.0.0"/>
+		<import addon="game.controller.snes.super.scope" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>snes9x2002_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.snes9x2002</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC (Snes9x 2002)</summary>
+		<description lang="cs_CZ">Port SNES9x 1.39 pro libretro. Tento emulátor, dříve nazývaný PocketSNES, je silně optimalizovaný pro ARM.</description>
+		<description lang="da_DK">En port af SNES9x 1.39 til libretro. Tidligere kaldt PocketSNES, er denne emulator stærkt optimeret til ARM.</description>
+		<description lang="de_DE">Eine Portierung von SNES9x 1.39 für libretro. Früher PocketSNES genannt, ist dieser Emulator sehr stark für ARM optimiert.</description>
+		<description lang="en_GB">A port of SNES9x 1.39 for libretro. Previously called PocketSNES, this emulator is heavily optimized for ARM.</description>
+		<description lang="es_ES">Una adaptación de SNES9x 1.39 para libretro. Anteriormente llamado PocketSNES, este emulador está muy optimizado para ARM.</description>
+		<description lang="fi_FI">SNES9x 1.39 -käännös Libretrolle. Aiemmalta nimeltään PocketSNES, on tämä emulaattori vahvasti ARM-optimoitu.</description>
+		<description lang="ga">Port de SNES9x 1.39 do libretro. PocketSNES a tugadh air roimhe seo, tá an t-aithriseoir seo optamaithe go mór do ARM.</description>
+		<description lang="it_IT">Una versione di SNES9x 1.39 per libretro. Precedentemente chiamato PocketSNES, questo emulatore è fortemente ottimizzato per ARM.</description>
+		<description lang="ko_KR">libretro용 SNES9x 1.39 포트. 이전에 PocketSNES라고 불렸던 이 에뮬레이터는 ARM에 최적화되어 있습니다.</description>
+		<description lang="ru_RU">Порт SNES9x 1.39 для libretro. Ранее назывался PocketSNES, этот эмулятор сильно оптимизирован для ARM.</description>
+		<description lang="sl_SI">Pristanišče SNES9x 1.39 za libretro. Ta emulator, ki se je prej imenoval PocketSNES, je močno optimiziran za ARM.</description>
+		<description lang="sv_SE">En portning av SNES9x 1.39 för libretro. Den här emulatorn, som tidigare kallades PocketSNES, är kraftigt optimerad för ARM.</description>
+		<description lang="zh_CN">用于 libretro 的 SNES9x 1.39 移植。以前称为 PocketSNES，该模拟器针对 ARM 进行了大量优化。</description>
+	</extension>
+</addon>

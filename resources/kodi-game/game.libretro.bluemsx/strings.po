@@ -1,0 +1,350 @@
+# game.libretro.bluemsx language file
+# Addon Name: game.libretro.bluemsx
+# Addon id: game.libretro.bluemsx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.bluemsx\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:46+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-bluemsx/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "MSX/SVI/ColecoVision/SG-1000 (blueMSX)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Machine Type (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Crop Overscan"
+msgstr ""
+
+msgctxt "#30003"
+msgid "VDP Sync Type (Restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "No Sprite Limit"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Sound YM2413 Enable (Restart)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Cart Mapper Type (Restart)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Auto Rewind Cassette"
+msgstr ""
+
+msgctxt "#30008"
+msgid "I/O Sound Enable"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Colecovision Keyboard Mapping"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Patch Colecovision ROM Fast Boot (Close Content)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Use F12 to hard reset and restart emulation"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Additional MSX Sound Cartridge (Restart)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Real-Time Clock Source (Restart)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "System"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Manually select the machine type you would like the core to start in."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Initial time of the emulated real-time clock (MSX2 and later). 'Host Clock' matches your computer's clock. 'Fixed Epoch' always starts at 1985-01-01 00:00:00, making emulation bit-identical between runs for netplay, run-ahead and input replay. The clock advances from emulated time either way."
+msgstr ""
+
+msgctxt "#30018"
+msgid "Host Clock"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Fixed Epoch (deterministic)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Forces cropping of overscanned frames"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Match the game/machine region frequency to avoid emulated speed issues."
+msgstr ""
+
+msgctxt "#30023"
+msgid "Remove the 4 sprite per line limit which can reduce or remove sprite flicker in some games."
+msgstr ""
+
+msgctxt "#30024"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Awaiting description."
+msgstr ""
+
+msgctxt "#30026"
+msgid "Additional MSX sound cartridge to insert to the first free slot."
+msgstr ""
+
+msgctxt "#30027"
+msgid "Enable the I/O sound (floppy disk access sound)."
+msgstr ""
+
+msgctxt "#30028"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Additionally, use the keyboard for the Colecovision 0-9, #, and * buttons. Player 1: 0-9, # is -, and * is =; Player 2: Keypad 0-9, # is /, and * is *. Gamepad mappings also work."
+msgstr ""
+
+msgctxt "#30030"
+msgid "Use key F12 to hard reset and restart emulation like blueMSX standalone"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30032"
+msgid "When a ROM game or application is in the database, the emulator uses the databases to apply the correct mapper. If the sha1 value of a dump is not yet in the databases, it uses an automatic mapper detection system, but it can fail in some cases. In this situation, you can manually select the correct mapper."
+msgstr ""
+
+msgctxt "#30033"
+msgid "Patch the NTSC Colecovision ROM for fast booting (3.3s)"
+msgstr ""
+
+msgctxt "#30034"
+msgid "MSX"
+msgstr ""
+
+msgctxt "#30035"
+msgid "MSXturboR"
+msgstr ""
+
+msgctxt "#30036"
+msgid "MSX2"
+msgstr ""
+
+msgctxt "#30037"
+msgid "MSX2+"
+msgstr ""
+
+msgctxt "#30038"
+msgid "SEGA - SG-1000"
+msgstr ""
+
+msgctxt "#30039"
+msgid "SEGA - SC-3000"
+msgstr ""
+
+msgctxt "#30040"
+msgid "SEGA - SF-7000"
+msgstr ""
+
+msgctxt "#30041"
+msgid "SVI - Spectravideo SVI-318"
+msgstr ""
+
+msgctxt "#30042"
+msgid "SVI - Spectravideo SVI-328"
+msgstr ""
+
+msgctxt "#30043"
+msgid "SVI - Spectravideo SVI-328 MK2"
+msgstr ""
+
+msgctxt "#30044"
+msgid "ColecoVision"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Coleco (Spectravideo SVI-603)"
+msgstr ""
+
+msgctxt "#30046"
+msgid "50Hz"
+msgstr ""
+
+msgctxt "#30047"
+msgid "60Hz"
+msgstr ""
+
+msgctxt "#30048"
+msgid "scc"
+msgstr ""
+
+msgctxt "#30049"
+msgid "sccexpanded"
+msgstr ""
+
+msgctxt "#30050"
+msgid "sccmirrored"
+msgstr ""
+
+msgctxt "#30051"
+msgid "sccplus"
+msgstr ""
+
+msgctxt "#30052"
+msgid "snatcher"
+msgstr ""
+
+msgctxt "#30053"
+msgid "sdsnatcher"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30055"
+msgid "mirrored"
+msgstr ""
+
+msgctxt "#30056"
+msgid "basic"
+msgstr ""
+
+msgctxt "#30057"
+msgid "0x4000"
+msgstr ""
+
+msgctxt "#30058"
+msgid "0xC000"
+msgstr ""
+
+msgctxt "#30059"
+msgid "ascii8"
+msgstr ""
+
+msgctxt "#30060"
+msgid "ascii8sram"
+msgstr ""
+
+msgctxt "#30061"
+msgid "ascii16"
+msgstr ""
+
+msgctxt "#30062"
+msgid "ascii16sram"
+msgstr ""
+
+msgctxt "#30063"
+msgid "ascii16nf"
+msgstr ""
+
+msgctxt "#30064"
+msgid "konami4"
+msgstr ""
+
+msgctxt "#30065"
+msgid "konami4nf"
+msgstr ""
+
+msgctxt "#30066"
+msgid "konami5"
+msgstr ""
+
+msgctxt "#30067"
+msgid "konamisynth"
+msgstr ""
+
+msgctxt "#30068"
+msgid "korean80"
+msgstr ""
+
+msgctxt "#30069"
+msgid "korean90"
+msgstr ""
+
+msgctxt "#30070"
+msgid "korean126"
+msgstr ""
+
+msgctxt "#30071"
+msgid "MegaFlashRomScc"
+msgstr ""
+
+msgctxt "#30072"
+msgid "MegaFlashRomSccPlus"
+msgstr ""
+
+msgctxt "#30073"
+msgid "SegaBasic"
+msgstr ""
+
+msgctxt "#30074"
+msgid "SG1000"
+msgstr ""
+
+msgctxt "#30075"
+msgid "SG1000Castle"
+msgstr ""
+
+msgctxt "#30076"
+msgid "SG1000RamA"
+msgstr ""
+
+msgctxt "#30077"
+msgid "SG1000RamB"
+msgstr ""
+
+msgctxt "#30078"
+msgid "SC3000"
+msgstr ""
+
+msgctxt "#30079"
+msgid "SC3000MultiCart"
+msgstr ""
+
+msgctxt "#30080"
+msgid "SC3000MegaCart"
+msgstr ""
+
+#~ msgctxt "#30013"
+#~ msgid "SunriseIDE Enable (Restart)"
+#~ msgstr ""

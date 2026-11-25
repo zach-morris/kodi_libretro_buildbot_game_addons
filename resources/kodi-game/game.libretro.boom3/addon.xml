@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.boom3"
+		name="Doom 3 (boom3)"
+		version="1.5.0.39"
+		provider-name="Rinnegatamante, dhewm3">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>pk4</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<requires_opengl>true</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.boom3</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Doom 3 (boom3)</summary>
+		<summary lang="da_DK">Doom 3 (boom3)</summary>
+		<summary lang="en_GB">Doom 3 (boom3)</summary>
+		<summary lang="es_ES">Doom 3 (boom3)</summary>
+		<summary lang="ga">Doom 3 (boom3)</summary>
+		<summary lang="it_IT">Doom 3 (boom3)</summary>
+		<summary lang="ru_RU">Doom 3 (boom3)</summary>
+		<summary lang="sv_SE">Doom 3 (boom3)</summary>
+		<summary lang="zh_CN">Doom 3 (boom3)</summary>
+		<description lang="cs_CZ">boom3 je port zdrojového kódu Doom 3.[CR][CR]Seznam vyžadovaných souborů najdete v dokumentaci.</description>
+		<description lang="da_DK">boom3 er en port af kildekoden til Doom 3-kodebasen.[CR][CR]Se dokumentationen for en liste over nødvendige filer.</description>
+		<description lang="de_DE">boom3 ist eine Quellcode-Portierung der Doom-3-Codebasis.[CR][CR]Eine Liste der benötigten Dateien findet sich in der Dokumentation.</description>
+		<description lang="en_GB">boom3 is a source code port of the Doom 3 codebase.[CR][CR]See the documentation for a list of required files.</description>
+		<description lang="es_ES">boom3 es una adaptación de código fuente del código base de Doom 3.[CR][CR]Consulta la documentación para ver la lista de archivos necesarios.</description>
+		<description lang="ga">Is port cód foinse de bhunachar cód Doom 3 é boom3.[CR][CR]Féach ar an doiciméadú le haghaidh liosta de na comhaid riachtanacha.</description>
+		<description lang="it_IT">boom3 è un port del codice sorgente del codebase di Doom 3.[CR][CR]Consulta la documentazione per un elenco dei file richiesti.</description>
+		<description lang="ru_RU">boom3 — это порт исходного кода Doom 3.[CR][CR]Список необходимых файлов см. в документации.</description>
+		<description lang="sl_SI">boom3 je vrata izvorne kode kodne baze Doom 3.[CR][CR]Glejte dokumentacijo za seznam zahtevanih datotek.</description>
+		<description lang="sv_SE">boom3 är en källkodsport av kodbasen Doom 3.[CR][CR]Se dokumentationen för en lista över nödvändiga filer.</description>
+		<description lang="zh_CN">boom3 是 Doom 3 代码库的源代码移植。[CR][CR]有关所需文件的列表，请参阅文档。</description>
+	</extension>
+</addon>

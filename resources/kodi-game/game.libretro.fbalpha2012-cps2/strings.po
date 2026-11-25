@@ -1,0 +1,114 @@
+# game.libretro.fbalpha2012-cps2 language file
+# Addon Name: game.libretro.fbalpha2012-cps2
+# Addon id: game.libretro.fbalpha2012-cps2
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.fbalpha2012-cps2\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-06-03 19:50i\n"
+"PO-Revision-Date: 2024-12-27 21:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fbalpha2012-cps2/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (FB Alpha 2012 CPS-2)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A port of FinalBurn Alpha 2012 to Libretro. This is the standalone core for Capcom CPS-2."
+msgstr ""
+
+msgctxt "#30001"
+msgid "CPU Speed (%)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "High scores"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Controls"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Core-Provided Aspect Ratio"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Rotate Vertically Aligned Games (Restart Required)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Audio Filter"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Audio Filter Level (%)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Enables overclocking of the emulated CPU. Can reduce slowdown, but may cause glitches."
+msgstr ""
+
+msgctxt "#30011"
+msgid "Enables saving of high scores in supported games. Requires the file 'hiscore.dat' to be placed in your system/fbalpha2012/ folder."
+msgstr ""
+
+msgctxt "#30012"
+msgid "Set default controller mapping."
+msgstr ""
+
+msgctxt "#30013"
+msgid "Gamepad"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Arcade"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Selects the preferred content aspect ratio. This will only apply when RetroArch's aspect ratio is set to 'Core provided' in the Video settings."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Automatically rotate the display when running vertically aligned games. When disabled, D-Pad input will be rotated to match on-screen directions."
+msgstr ""
+
+msgctxt "#30017"
+msgid "Enables a low pass audio filter to soften the 'harsh' sound of some arcade games."
+msgstr ""
+
+msgctxt "#30018"
+msgid "Specifies the cut-off frequency of the low pass audio filter. A higher value increases the perceived 'strength' of the filter, since a wider range of the high frequency spectrum is attenuated."
+msgstr ""
+
+msgctxt "#30019"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Manual' utilizes the 'Frameskip Threshold (%)' setting."
+msgstr ""
+
+msgctxt "#30020"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30022"
+msgid "When 'Frameskip' is set to 'Manual', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""

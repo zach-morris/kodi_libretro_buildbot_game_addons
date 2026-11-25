@@ -1,0 +1,30 @@
+# game.libretro.fbneo language file
+# Addon Name: game.libretro.fbneo
+# Addon id: game.libretro.fbneo
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.fbneo\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 21:25i\n"
+"PO-Revision-Date: 2024-12-27 21:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fbneo/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (FinalBurn Neo)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.[CR][CR]FB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)"
+msgstr ""

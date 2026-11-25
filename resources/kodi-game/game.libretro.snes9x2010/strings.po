@@ -1,0 +1,274 @@
+# game.libretro.snes9x2010 language file
+# Addon Name: game.libretro.snes9x2010
+# Addon id: game.libretro.snes9x2010
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.snes9x2010\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2016-12-26 21:46i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-snes9x2010/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Snes9x 2010)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A port of Snes9x 1.52+ to Libretro. Rewritten in C with several optimizations and speedhacks."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: HarryBana (harrybana.deviantart.com)"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Console Region (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Preferred Aspect Ratio"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Blargg NTSC Filter"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "SuperFX Overclock"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Reduce Slowdown (Hack, Unsafe)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Reduce Flickering (Hack, Unsafe)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Block Invalid VRAM Access (Restart)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Mode 7 - Bilinear Filter"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Audio Interpolation (Inaccurate)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "MSU-1 Enhanced Audio"
+msgstr ""
+
+msgctxt "#30015"
+msgid "SuperFX Cycle Accuracy"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Mode 7 - Hires"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Pseudo-Hires Blending"
+msgstr ""
+
+msgctxt "#30018"
+msgid "SuperFX Timing Model (Experimental)"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Specify which region the system is from. 'PAL' is 50hz, 'NTSC' is 60hz. Games will run faster or slower than normal if the incorrect region is selected."
+msgstr ""
+
+msgctxt "#30020"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30021"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30022"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Choose how each SNES voice's pitch is interpolated. 'Gaussian' matches real hardware. 'Cubic' is brighter and less muffled, but does not match hardware and does not undo BRR sample compression. 'Sinc' is the sharpest/brightest (8-tap) and the most CPU-intensive."
+msgstr ""
+
+msgctxt "#30024"
+msgid "Gaussian (Accurate)"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Cubic (Brighter)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Sinc (Sharpest)"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Run the entire audio pipeline at 44.1 kHz for MSU-1 games. When disabled, MSU-1's 44.1 kHz PCM stream is decimated to the SNES's native ~32 kHz before output with no anti-alias filtering, folding the track's top octave into the audible band as slight hiss. When enabled, the SPC sound is resampled up to 44.1 kHz and the MSU-1 stream passes through bit-exactly at its native rate. Has no effect on non-MSU-1 games. Changing this takes effect on the next content load."
+msgstr ""
+
+msgctxt "#30028"
+msgid "Choose the preferred content aspect ratio. This will only apply when RetroArch's aspect ratio is set to 'Core provided' in the Video settings."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Uncorrected"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Apply a video filter to mimic various NTSC TV signals."
+msgstr ""
+
+msgctxt "#30031"
+msgid "Monochrome"
+msgstr ""
+
+msgctxt "#30032"
+msgid "RF"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Composite"
+msgstr ""
+
+msgctxt "#30034"
+msgid "S-Video"
+msgstr ""
+
+msgctxt "#30035"
+msgid "RGB"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Manual' utilises the 'Frameskip Threshold (%)' setting."
+msgstr ""
+
+msgctxt "#30037"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30038"
+msgid "When 'Frameskip' is set to 'Manual', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""
+
+msgctxt "#30039"
+msgid "Blends adjacent column pairs in pseudo-hires frames to reproduce the composite-video softening that some games rely on for fake transparency effects (waterfalls, glass, fog: Kirby's Dream Land 3, Jurassic Park). Applies a 2-tap horizontal average to the finished 512 px frame while keeping the full hires resolution; it does not reduce the image to 256 px. Affects only frames that actually use pseudo-hires; native and true Mode 5/6 hires output is unchanged. Ignored when the Blargg NTSC filter is active, since that already simulates the same softening. Default off."
+msgstr ""
+
+msgctxt "#30040"
+msgid "Emulation Hacks"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Configure processor overclocking and emulation accuracy parameters affecting low-level performance and compatibility."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Overclock or underclock the SuperFX chip. This may improve the framerate and playability of games that use SuperFX."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Overclock SNES CPU. May cause games to crash! Use 'Light' for shorter loading times, 'Compatible' for most games exhibiting slowdown and 'Max' only if absolutely required (Gradius 3, Super R-type...)."
+msgstr ""
+
+msgctxt "#30044"
+msgid "Light"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Compatible"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Max"
+msgstr ""
+
+msgctxt "#30047"
+msgid "'Legacy' keeps the shipped per-line budgets (including the cycle-accuracy toggle below). 'Hardware-derived' charges each instruction its approximate real GSU cycle cost (cache-aware fetches, 5-cycle memory accesses, amortized plot flushes), matching ares/MiSTer wait states; backported from mainline Snes9x. When set to 'Hardware-derived', the cycle-accuracy toggle is ignored. Works together with the SuperFX Overclock option."
+msgstr ""
+
+msgctxt "#30048"
+msgid "Legacy"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Hardware-derived"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Charge each SuperFX (GSU) instruction an approximate hardware cycle cost (multiplies, RAM/ROM access, plots) rather than a flat per-instruction budget, for more hardware-like GSU timing. Set to 'disabled' for the legacy instruction-count behaviour. Works together with the SuperFX overclock option."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Increases number of sprites that can be drawn simultaneously on screen."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Some homebrew/ROM hacks require this option to be disabled for correct operation."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Render Mode 7 backgrounds at higher resolution. 2x renders at 512 px (smoother diagonals); 4x renders at 1024 px (smoothest, more expensive). The 2x_hv / 4x_hv variants additionally double the output vertically (448 rows) via an end-of-frame bilinear-Y average of adjacent rendered rows; HUD / sprites / non-M7 layers are row-duplicated. Smooths row-to-row transitions on Mode 7 ground textures but does not add per-line detail (the M7 plane still samples at 224 source rows). Affects only Mode 7 (driving / racing / overhead-rotation games). Other modes are unchanged. Default off."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Apply bilinear filtering to Mode 7 backgrounds. Stable: blends along the X axis only with floor-Y sampling. Robust against high-contrast horizontal banding (rainbow rings, palette-rotation effects); recommended default. Smooth: 4-corner bilinear with a row-contrast guard that falls back to stable behaviour on high-contrast row pairs (avoids muddy seams on content like the Tiny Toons title screen). More aggressive smoothing along both axes; somewhat more expensive than stable. Independent of the Hires option; works at native, 2x and 4x."
+msgstr ""
+
+msgctxt "#30055"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30056"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30057"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30058"
+msgid "2x_hv"
+msgstr ""
+
+msgctxt "#30059"
+msgid "4x_hv"
+msgstr ""
+
+msgctxt "#30060"
+msgid "stable"
+msgstr ""
+
+msgctxt "#30061"
+msgid "smooth"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Threaded Renderer"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Draw the picture on a second thread, a scanline range at a time, while the CPU runs on. Output is identical either way. Worth it where there is a spare core to draw on; on a single-core machine it only adds the cost of handing work across. Changing this takes effect on the next content load."
+msgstr ""

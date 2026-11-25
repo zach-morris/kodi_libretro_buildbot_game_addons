@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+	<!--
+	    Port 1's GamePad is Cemu's plain RETRO_DEVICE_JOYPAD. Cemu gives it no
+	    Home button, and the touchscreen isn't mapped: game.libretro only keeps
+	    absolute pointers for pointer devices, not for a joypad.
+	-->
+	<controller id="game.controller.wiiu.gamepad" type="RETRO_DEVICE_JOYPAD">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="plus" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="minus" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="leftthumb" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+		<feature name="rightthumb" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+		<feature name="l" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="r" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="zl" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="zr" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+		<feature name="motor" mapto="RETRO_RUMBLE_STRONG"/>
+	</controller>
+	<!--
+	    Cemu's RETRO_DEVICE_PRO, on any port. Cemu leaves its Home unmapped.
+	-->
+	<controller id="game.controller.wiiu.pro" type="RETRO_DEVICE_JOYPAD" subclass="1">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="plus" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="minus" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="leftthumb" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+		<feature name="rightthumb" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+		<feature name="l" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="r" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="zl" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="zr" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+		<feature name="motor" mapto="RETRO_RUMBLE_STRONG"/>
+	</controller>
+	<!--
+	    Cemu's RETRO_DEVICE_WIIMOTE, held upright. Cemu takes A from the
+	    RetroPad's B, B from A, 1 from Y, 2 from X and Home from L.
+	-->
+	<controller id="game.controller.wiimote" type="RETRO_DEVICE_JOYPAD" subclass="0">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="one" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="two" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="plus" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="minus" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="home" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+	</controller>
+	<!--
+	    Cemu's RETRO_DEVICE_CLASSIC. Cemu reads its Home from L3.
+	-->
+	<controller id="game.controller.wii.classic" type="RETRO_DEVICE_JOYPAD" subclass="2">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="plus" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="minus" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="home" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="l" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="r" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="zl" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="zr" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+	</controller>
+</buttonmap>

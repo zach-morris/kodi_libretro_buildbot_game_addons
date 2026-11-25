@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.meowpc98"
+		name="NEC - PC-98 (Neko Project II)"
+		version="0.86.0.33"
+		provider-name="Neko Project II Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>NEC - PC-98</platforms>
+		<extensions>d98|zip|98d|fdi|fdd|2hd|tfd|d88|88d|hdm|xdf|dup|cmd|hdi|thd|nhd|hdd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>nekop2_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.meowpc98</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">NEC - PC-98 (Neko Project II)</summary>
+		<summary lang="da_DK">NEC - PC-98 (Neko Project II)</summary>
+		<summary lang="en_GB">NEC - PC-98 (Neko Project II)</summary>
+		<summary lang="es_ES">NEC - PC-98 (Neko Project II)</summary>
+		<summary lang="ga">NEC - PC-98 (Neko Project II)</summary>
+		<summary lang="it_IT">NEC - PC-98 (Neko Project II)</summary>
+		<summary lang="ru_RU">NEC — PC-98 (Neko Project II)</summary>
+		<summary lang="sv_SE">NEC - PC-98 (Neko Project II)</summary>
+		<summary lang="zh_CN">NEC - PC-98 (Neko Project II)</summary>
+		<description lang="cs_CZ">Neko Project II je vynikající emulátor PC-98.[CR][CR]PC-98 je řada japonských 16bitových a 32bitových osobních počítačů vyráběných společností NEC v letech 1982 až 2000.</description>
+		<description lang="da_DK">Neko Project II er en fremragende PC-98-emulator.[CR][CR]PC-98 er en række japanske 16-bit og 32-bit personlige computere fremstillet af NEC fra 1982 til 2000.</description>
+		<description lang="de_DE">Neko Project II ist ein hervorragender PC-98-Emulator[CR][CR]Der PC-98 ist eine Reihe japanischer 16-Bit- und 32-Bit-Personalcomputer, die von NEC von 1982 bis 2000 hergestellt wurden.</description>
+		<description lang="en_GB">Neko Project II is an excellent PC-98 emulator.[CR][CR]PC-98 is a lineup of Japanese 16-bit and 32-bit personal computers manufactured by NEC from 1982 to 2000.</description>
+		<description lang="es_ES">Neko Project II es un excelente emulador de PC-98.[CR][CR]PC-98 es una línea japonesa de ordenadores personales de 16 y 32 bits fabricados por NEC entre 1982 y 2000.</description>
+		<description lang="ga">Is aithriseoir den scoth é Neko Project II.[CR][CR]Is sraith ríomhairí pearsanta Seapánacha 16-giotán agus 32-giotán é PC-98 a mhonaraigh NEC ó 1982 go 2000.</description>
+		<description lang="it_IT">Neko Project II è un ottimo emulatore PC-98.[CR][CR]PC-98 è una gamma di personal computer giapponesi a 16 e 32 bit prodotti da NEC dal 1982 al 2000.</description>
+		<description lang="ru_RU">Neko Project II — это отличный эмулятор PC-98.[CR][CR]PC-98 — это линейка японских 16-битных и 32-битных персональных компьютеров, производившихся NEC с 1982 по 2000 год.</description>
+		<description lang="sv_SE">Neko Project II är en utmärkt emulator för PC-98.[CR][CR]PC-98 är en serie japanska 16-bitars och 32-bitars persondatorer som tillverkades av NEC mellan 1982 och 2000.</description>
+		<description lang="zh_CN">Neko Project II 是一款优秀的 PC-98 仿真器。[CR][CR]PC-98 是日本电气公司从1982年到2000年生产的一系列16位和32位个人电脑。</description>
+	</extension>
+</addon>

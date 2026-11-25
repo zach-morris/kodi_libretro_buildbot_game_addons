@@ -1,0 +1,75 @@
+# game.libretro.freeintv language file
+# Addon Name: game.libretro.freeintv
+# Addon id: game.libretro.freeintv
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.freeintv\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 21:21i\n"
+"PO-Revision-Date: 2024-12-27 21:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-freeintv/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Mattel - Intellivision (FreeIntv)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "FreeIntv is a libretro emulation core for the Mattel Intellivision designed for joypad compatibility."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "Default Player 1 Controller (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Onscreen Interactive Keypad Overlays (Restart and Touchscreen/Mouse Required)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Change controller settings."
+msgstr ""
+
+msgctxt "#30005"
+msgid "Specify whether the Left or Right Controller is set to Player 1 as the default."
+msgstr ""
+
+msgctxt "#30006"
+msgid "Left"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Right"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Display"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Change display settings."
+msgstr ""
+
+msgctxt "#30010"
+msgid "Enable multi-screen mode with onscreen interactive keypad overlays (370x600 PNG files) and side-by-side game/keypad display. Changing this setting requires a core restart. Mouse or touchscreen input is required to interact with the keypad overlays."
+msgstr ""
+
+msgctxt "#30011"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Enabled"
+msgstr ""

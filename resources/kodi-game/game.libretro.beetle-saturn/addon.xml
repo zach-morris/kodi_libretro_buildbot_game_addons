@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-saturn"
+		name="Sega - Saturn (Beetle Saturn)"
+		version="1.32.1.65"
+		provider-name="Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.saturn" version="1.0.0"/>
+		<import addon="game.controller.saturn.3d.japan" version="1.0.0"/>
+		<import addon="game.controller.saturn.3d.western" version="1.0.0"/>
+		<import addon="game.controller.saturn.arcade.racer" version="1.0.0"/>
+		<import addon="game.controller.saturn.mission.stick" version="1.0.0"/>
+		<import addon="game.controller.saturn.mission.sticks" version="1.0.0"/>
+		<import addon="game.controller.saturn.mouse" version="1.0.0"/>
+		<import addon="game.controller.saturn.twin.stick" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Sega - Saturn</platforms>
+		<extensions>cue|ccd|chd|toc|m3u|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>mednafen_saturn_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-saturn</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Sega - Saturn (Beetle Saturn)</summary>
+		<summary lang="da_DK">Sega - Saturn (Beetle Saturn)</summary>
+		<summary lang="en_GB">Sega - Saturn (Beetle Saturn)</summary>
+		<summary lang="es_ES">Sega - Saturn (Beetle Saturn)</summary>
+		<summary lang="ga">Sega - Saturn (Beetle Saturn)</summary>
+		<summary lang="it_IT">Sega - Saturn (Beetle Saturn)</summary>
+		<summary lang="ru_RU">Sega — Saturn (Beetle Saturn)</summary>
+		<summary lang="sv_SE">Sega - Saturn (Beetle Saturn)</summary>
+		<summary lang="zh_CN">世嘉 - Saturn (Beetle Saturn)</summary>
+		<description lang="cs_CZ">Beetle Saturn je port Mednafen Saturn do API libretro.</description>
+		<description lang="da_DK">Beetle Saturn er en port af Mednafen Saturn til libretro API.</description>
+		<description lang="de_DE">Beetle Saturn ist eine Portierung von Mednafen Saturn auf die libretro API.</description>
+		<description lang="en_GB">Beetle Saturn is a port of Mednafen Saturn to the libretro API.</description>
+		<description lang="es_ES">Beetle Saturn es una adaptación de Mednafen Saturn a la API libretro.</description>
+		<description lang="ga">Is port de Mednafen Saturn chuig API libretro é Beetle Saturn.</description>
+		<description lang="it_IT">Beetle Saturn è un porting di Mednafen Saturn per l&apos;API libretro.</description>
+		<description lang="ru_RU">Beetle Saturn — это порт Mednafen Saturn на API libretro.</description>
+		<description lang="sv_SE">Beetle Saturn är en portning av Mednafen Saturn till libretro API.</description>
+		<description lang="zh_CN">Beetle Saturn 是 Mednafen Saturn 到 libretro API 的一个移植。</description>
+	</extension>
+</addon>

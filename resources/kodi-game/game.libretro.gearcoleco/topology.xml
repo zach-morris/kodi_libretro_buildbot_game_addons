@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+  <port type="controller" id="1">
+    <accepts controller="game.controller.colecovision"/>
+  </port>
+  <port type="controller" id="2">
+    <accepts controller="game.controller.colecovision"/>
+  </port>
+  <port type="mouse">
+    <accepts controller="game.controller.mouse"/>
+  </port>
+</logicaltopology>

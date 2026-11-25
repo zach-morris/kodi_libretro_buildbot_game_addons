@@ -1,0 +1,62 @@
+# game.libretro.fbalpha2012-cps3 language file
+# Addon Name: game.libretro.fbalpha2012-cps3
+# Addon id: game.libretro.fbalpha2012-cps3
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.fbalpha2012-cps3\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-06-03 19:22i\n"
+"PO-Revision-Date: 2024-12-27 21:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fbalpha2012-cps3/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (FB Alpha 2012 CPS-3)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A port of FinalBurn Alpha 2012 to Libretro. This is the standalone core for Capcom CPS-3."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Core-provided aspect ratio"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30003"
+msgid "CPU overclock"
+msgstr ""
+
+msgctxt "#30004"
+msgid "P1 control scheme"
+msgstr ""
+
+msgctxt "#30005"
+msgid "P2 control scheme"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Hiscores"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Samplerate (need to quit retroarch)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "L/R P1 gamepad scheme"
+msgstr ""
+
+msgctxt "#30009"
+msgid "L/R P2 gamepad scheme"
+msgstr ""

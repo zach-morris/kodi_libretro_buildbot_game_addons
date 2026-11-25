@@ -1,0 +1,322 @@
+# game.libretro.same_cdi language file
+# Addon Name: game.libretro.same_cdi
+# Addon id: game.libretro.same_cdi
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.same_cdi\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-01-19 01:18i\n"
+"PO-Revision-Date: 2024-12-27 22:08+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-same_cdi/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Philips - CDi (SAME CDi)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "SAME_CDI is a libretro core to play CD-i games. This is a fork and modification of the MAME libretro core."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Read configuration"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Write configuration"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Save state naming"
+msgstr ""
+
+msgctxt "#30004"
+msgid "NVRAM Saves per game"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Auto save/load states"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Enable in-game mouse"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Lightgun mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Profile Buttons according to games (Restart)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Enable throttle"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Enable cheats"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Main CPU Overclock"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Alternate render method"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Boot from CLI"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "#30015"
+msgid "MAME INI Paths"
+msgstr ""
+
+msgctxt "#30016"
+msgid "MAME Joystick 4-way simulation"
+msgstr ""
+
+msgctxt "#30017"
+msgid "System"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30021"
+msgid "touchscreen"
+msgstr ""
+
+msgctxt "#30022"
+msgid "lightgun"
+msgstr ""
+
+msgctxt "#30023"
+msgid "4way"
+msgstr ""
+
+msgctxt "#30024"
+msgid "strict"
+msgstr ""
+
+msgctxt "#30025"
+msgid "qbert"
+msgstr ""
+
+msgctxt "#30026"
+msgid "30"
+msgstr ""
+
+msgctxt "#30027"
+msgid "31"
+msgstr ""
+
+msgctxt "#30028"
+msgid "32"
+msgstr ""
+
+msgctxt "#30029"
+msgid "33"
+msgstr ""
+
+msgctxt "#30030"
+msgid "34"
+msgstr ""
+
+msgctxt "#30031"
+msgid "35"
+msgstr ""
+
+msgctxt "#30032"
+msgid "36"
+msgstr ""
+
+msgctxt "#30033"
+msgid "37"
+msgstr ""
+
+msgctxt "#30034"
+msgid "38"
+msgstr ""
+
+msgctxt "#30035"
+msgid "39"
+msgstr ""
+
+msgctxt "#30036"
+msgid "40"
+msgstr ""
+
+msgctxt "#30037"
+msgid "41"
+msgstr ""
+
+msgctxt "#30038"
+msgid "42"
+msgstr ""
+
+msgctxt "#30039"
+msgid "43"
+msgstr ""
+
+msgctxt "#30040"
+msgid "44"
+msgstr ""
+
+msgctxt "#30041"
+msgid "45"
+msgstr ""
+
+msgctxt "#30042"
+msgid "46"
+msgstr ""
+
+msgctxt "#30043"
+msgid "47"
+msgstr ""
+
+msgctxt "#30044"
+msgid "48"
+msgstr ""
+
+msgctxt "#30045"
+msgid "49"
+msgstr ""
+
+msgctxt "#30046"
+msgid "50"
+msgstr ""
+
+msgctxt "#30047"
+msgid "51"
+msgstr ""
+
+msgctxt "#30048"
+msgid "52"
+msgstr ""
+
+msgctxt "#30049"
+msgid "53"
+msgstr ""
+
+msgctxt "#30050"
+msgid "54"
+msgstr ""
+
+msgctxt "#30051"
+msgid "55"
+msgstr ""
+
+msgctxt "#30052"
+msgid "60"
+msgstr ""
+
+msgctxt "#30053"
+msgid "65"
+msgstr ""
+
+msgctxt "#30054"
+msgid "70"
+msgstr ""
+
+msgctxt "#30055"
+msgid "75"
+msgstr ""
+
+msgctxt "#30056"
+msgid "80"
+msgstr ""
+
+msgctxt "#30057"
+msgid "85"
+msgstr ""
+
+msgctxt "#30058"
+msgid "90"
+msgstr ""
+
+msgctxt "#30059"
+msgid "95"
+msgstr ""
+
+msgctxt "#30060"
+msgid "100"
+msgstr ""
+
+msgctxt "#30061"
+msgid "105"
+msgstr ""
+
+msgctxt "#30062"
+msgid "110"
+msgstr ""
+
+msgctxt "#30063"
+msgid "115"
+msgstr ""
+
+msgctxt "#30064"
+msgid "120"
+msgstr ""
+
+msgctxt "#30065"
+msgid "125"
+msgstr ""
+
+msgctxt "#30066"
+msgid "130"
+msgstr ""
+
+msgctxt "#30067"
+msgid "135"
+msgstr ""
+
+msgctxt "#30068"
+msgid "140"
+msgstr ""
+
+msgctxt "#30069"
+msgid "145"
+msgstr ""
+
+msgctxt "#30070"
+msgid "150"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Video standard (Restart)"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Select the Mono-I player's television standard. Restart content after changing this option."
+msgstr ""
+
+msgctxt "#30073"
+msgid "PAL (50 Hz)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "NTSC (60 Hz)"
+msgstr ""

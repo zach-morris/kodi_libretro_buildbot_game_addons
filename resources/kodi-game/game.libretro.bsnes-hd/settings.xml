@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.bsnes-hd">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="bsnes_video_luminance" type="string" label="30001" help="30044">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_video_saturation" type="string" label="30002" help="30045">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_video_gamma" type="string" label="30003" help="30046">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>100</option>
+							<option>110</option>
+							<option>120</option>
+							<option>130</option>
+							<option>140</option>
+							<option>150</option>
+							<option>160</option>
+							<option>170</option>
+							<option>180</option>
+							<option>190</option>
+							<option>200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_video_aspectcorrection" type="string" label="30004" help="30047">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_show_overscan" type="string" label="30005" help="30050">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30051">OFF</option>
+							<option label="30052">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_blur_emulation" type="string" label="30006" help="30053">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_hotfixes" type="string" label="30007" help="30054">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_entropy" type="string" label="30008" help="30055">
+					<level>0</level>
+					<default>Low</default>
+					<constraints>
+						<options>
+							<option label="30227">Low</option>
+							<option label="30228">High</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_cpu_overclock" type="string" label="30009" help="30056">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30057">10</option>
+							<option label="30058">20</option>
+							<option label="30059">30</option>
+							<option label="30060">40</option>
+							<option label="30061">50</option>
+							<option label="30062">60</option>
+							<option label="30063">70</option>
+							<option label="30064">80</option>
+							<option label="30065">90</option>
+							<option label="30066">100</option>
+							<option label="30067">110</option>
+							<option label="30068">120</option>
+							<option label="30069">130</option>
+							<option label="30070">140</option>
+							<option label="30071">150</option>
+							<option label="30072">160</option>
+							<option label="30073">170</option>
+							<option label="30074">180</option>
+							<option label="30075">190</option>
+							<option label="30076">200</option>
+							<option label="30077">210</option>
+							<option label="30078">220</option>
+							<option label="30079">230</option>
+							<option label="30080">240</option>
+							<option label="30081">250</option>
+							<option label="30082">260</option>
+							<option label="30083">270</option>
+							<option label="30084">280</option>
+							<option label="30085">290</option>
+							<option label="30086">300</option>
+							<option label="30087">310</option>
+							<option label="30088">320</option>
+							<option label="30089">330</option>
+							<option label="30090">340</option>
+							<option label="30091">350</option>
+							<option label="30092">360</option>
+							<option label="30093">370</option>
+							<option label="30094">380</option>
+							<option label="30095">390</option>
+							<option label="30096">400</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_cpu_fastmath" type="string" label="30010" help="30097">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_cpu_sa1_overclock" type="string" label="30011" help="30098">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30057">10</option>
+							<option label="30058">20</option>
+							<option label="30059">30</option>
+							<option label="30060">40</option>
+							<option label="30061">50</option>
+							<option label="30062">60</option>
+							<option label="30063">70</option>
+							<option label="30064">80</option>
+							<option label="30065">90</option>
+							<option label="30066">100</option>
+							<option label="30067">110</option>
+							<option label="30068">120</option>
+							<option label="30069">130</option>
+							<option label="30070">140</option>
+							<option label="30071">150</option>
+							<option label="30072">160</option>
+							<option label="30073">170</option>
+							<option label="30074">180</option>
+							<option label="30075">190</option>
+							<option label="30076">200</option>
+							<option label="30077">210</option>
+							<option label="30078">220</option>
+							<option label="30079">230</option>
+							<option label="30080">240</option>
+							<option label="30081">250</option>
+							<option label="30082">260</option>
+							<option label="30083">270</option>
+							<option label="30084">280</option>
+							<option label="30085">290</option>
+							<option label="30086">300</option>
+							<option label="30087">310</option>
+							<option label="30088">320</option>
+							<option label="30089">330</option>
+							<option label="30090">340</option>
+							<option label="30091">350</option>
+							<option label="30092">360</option>
+							<option label="30093">370</option>
+							<option label="30094">380</option>
+							<option label="30095">390</option>
+							<option label="30096">400</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_cpu_sfx_overclock" type="string" label="30012" help="30099">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30057">10</option>
+							<option label="30058">20</option>
+							<option label="30059">30</option>
+							<option label="30060">40</option>
+							<option label="30061">50</option>
+							<option label="30062">60</option>
+							<option label="30063">70</option>
+							<option label="30064">80</option>
+							<option label="30065">90</option>
+							<option label="30066">100</option>
+							<option label="30067">110</option>
+							<option label="30068">120</option>
+							<option label="30069">130</option>
+							<option label="30070">140</option>
+							<option label="30071">150</option>
+							<option label="30072">160</option>
+							<option label="30073">170</option>
+							<option label="30074">180</option>
+							<option label="30075">190</option>
+							<option label="30076">200</option>
+							<option label="30077">210</option>
+							<option label="30078">220</option>
+							<option label="30079">230</option>
+							<option label="30080">240</option>
+							<option label="30081">250</option>
+							<option label="30082">260</option>
+							<option label="30083">270</option>
+							<option label="30084">280</option>
+							<option label="30085">290</option>
+							<option label="30086">300</option>
+							<option label="30087">310</option>
+							<option label="30088">320</option>
+							<option label="30089">330</option>
+							<option label="30090">340</option>
+							<option label="30091">350</option>
+							<option label="30092">360</option>
+							<option label="30093">370</option>
+							<option label="30094">380</option>
+							<option label="30095">390</option>
+							<option label="30096">400</option>
+							<option label="30100">410</option>
+							<option label="30101">420</option>
+							<option label="30102">430</option>
+							<option label="30103">440</option>
+							<option label="30104">450</option>
+							<option label="30105">460</option>
+							<option label="30106">470</option>
+							<option label="30107">480</option>
+							<option label="30108">490</option>
+							<option label="30109">500</option>
+							<option label="30110">510</option>
+							<option label="30111">520</option>
+							<option label="30112">530</option>
+							<option label="30113">540</option>
+							<option label="30114">550</option>
+							<option label="30115">560</option>
+							<option label="30116">570</option>
+							<option label="30117">580</option>
+							<option label="30118">590</option>
+							<option label="30119">600</option>
+							<option label="30120">610</option>
+							<option label="30121">620</option>
+							<option label="30122">630</option>
+							<option label="30123">640</option>
+							<option label="30124">650</option>
+							<option label="30125">660</option>
+							<option label="30126">670</option>
+							<option label="30127">680</option>
+							<option label="30128">690</option>
+							<option label="30129">700</option>
+							<option label="30130">710</option>
+							<option label="30131">720</option>
+							<option label="30132">730</option>
+							<option label="30133">740</option>
+							<option label="30134">750</option>
+							<option label="30135">760</option>
+							<option label="30136">770</option>
+							<option label="30137">780</option>
+							<option label="30138">790</option>
+							<option label="30139">800</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_fast" type="string" label="30013" help="30140">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_deinterlace" type="string" label="30014" help="30141">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_no_sprite_limit" type="string" label="30015" help="30142">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ppu_no_vram_blocking" type="string" label="30016" help="30143">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_dsp_fast" type="string" label="30017" help="30144">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_dsp_cubic" type="string" label="30018" help="30145">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_dsp_echo_shadow" type="string" label="30019" help="30146">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_coprocessor_delayed_sync" type="string" label="30020" help="30147">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_coprocessor_prefer_hle" type="string" label="30021" help="30148">
+					<level>0</level>
+					<default>ON</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_sgb_bios" type="string" label="30022" help="30149">
+					<level>0</level>
+					<default>SGB1.sfc</default>
+					<constraints>
+						<options>
+							<option label="30150">SGB1.sfc</option>
+							<option label="30151">SGB2.sfc</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_run_ahead_frames" type="string" label="30023" help="30152">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30049">OFF</option>
+							<option label="30153">1</option>
+							<option label="30154">2</option>
+							<option label="30155">3</option>
+							<option label="30156">4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_ips_headered" type="string" label="30024" help="30157">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_scale" type="string" label="30025" help="30158">
+					<level>0</level>
+					<default>2x</default>
+					<constraints>
+						<options>
+							<option label="30049">disable</option>
+							<option label="30159">1x</option>
+							<option label="30160">2x</option>
+							<option label="30161">3x</option>
+							<option label="30162">4x</option>
+							<option label="30163">5x</option>
+							<option label="30164">6x</option>
+							<option label="30165">7x</option>
+							<option label="30166">8x</option>
+							<option label="30167">9x</option>
+							<option label="30168">10x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_perspective" type="string" label="30026" help="30169">
+					<level>0</level>
+					<default>auto (wide)</default>
+					<constraints>
+						<options>
+							<option label="30170">auto (wide)</option>
+							<option label="30171">auto (medium)</option>
+							<option label="30172">auto (narrow)</option>
+							<option label="30173">on (wide)</option>
+							<option label="30174">on (medium)</option>
+							<option label="30175">on (narrow)</option>
+							<option label="30049">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_supersample" type="string" label="30027" help="30176">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30049">none</option>
+							<option label="30229">2x</option>
+							<option label="30230">3x</option>
+							<option label="30231">4x</option>
+							<option label="30232">5x</option>
+							<option label="30233">6x</option>
+							<option label="30234">7x</option>
+							<option label="30235">8x</option>
+							<option label="30236">9x</option>
+							<option label="30237">10x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_mosaic" type="string" label="30028" help="30177">
+					<level>0</level>
+					<default>1x scale</default>
+					<constraints>
+						<options>
+							<option label="30178">non-HD</option>
+							<option label="30179">ignore</option>
+							<option label="30180">1x scale</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_bgGrad" type="string" label="30029" help="30181">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option label="30238">1</option>
+							<option label="30239">2</option>
+							<option label="30240">3</option>
+							<option label="30241">4</option>
+							<option label="30242">5</option>
+							<option label="30243">6</option>
+							<option label="30244">7</option>
+							<option label="30245">8</option>
+							<option label="30049">0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_windRad" type="string" label="30030" help="30182">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30238">1</option>
+							<option label="30239">2</option>
+							<option label="30240">3</option>
+							<option label="30241">4</option>
+							<option label="30242">5</option>
+							<option label="30243">6</option>
+							<option label="30244">7</option>
+							<option label="30245">8</option>
+							<option label="30049">0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsMode" type="string" label="30031" help="30183">
+					<level>0</level>
+					<default>Mode 7</default>
+					<constraints>
+						<options>
+							<option label="30184">Mode 7</option>
+							<option label="30185">all</option>
+							<option label="30049">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_widescreen" type="string" label="30032" help="30186">
+					<level>0</level>
+					<default>16:9</default>
+					<constraints>
+						<options>
+							<option label="30246">16:9</option>
+							<option label="30247">16:10</option>
+							<option label="30248">21:9</option>
+							<option label="30249">2:1</option>
+							<option label="30250">4:3</option>
+							<option label="30049">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsbg1" type="string" label="30033" help="30187">
+					<level>0</level>
+					<default>auto horz and vert</default>
+					<constraints>
+						<options>
+							<option label="30048">on</option>
+							<option label="30188">auto horizontal</option>
+							<option label="30189">auto horz and vert</option>
+							<option label="30190">above line 40</option>
+							<option label="30191">below line 40</option>
+							<option label="30192">above line 80</option>
+							<option label="30193">below line 80</option>
+							<option label="30194">above line 120</option>
+							<option label="30195">below line 120</option>
+							<option label="30196">above line 160</option>
+							<option label="30197">below line 160</option>
+							<option label="30198">above line 200</option>
+							<option label="30199">below line 200</option>
+							<option label="30200">crop edges</option>
+							<option label="30201">auto crop edges</option>
+							<option label="30202">off</option>
+							<option label="30203">disable entirely</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsbg2" type="string" label="30034" help="30204">
+					<level>0</level>
+					<default>auto horz and vert</default>
+					<constraints>
+						<options>
+							<option label="30048">on</option>
+							<option label="30188">auto horizontal</option>
+							<option label="30189">auto horz and vert</option>
+							<option label="30190">above line 40</option>
+							<option label="30191">below line 40</option>
+							<option label="30192">above line 80</option>
+							<option label="30193">below line 80</option>
+							<option label="30194">above line 120</option>
+							<option label="30195">below line 120</option>
+							<option label="30196">above line 160</option>
+							<option label="30197">below line 160</option>
+							<option label="30198">above line 200</option>
+							<option label="30199">below line 200</option>
+							<option label="30200">crop edges</option>
+							<option label="30201">auto crop edges</option>
+							<option label="30202">off</option>
+							<option label="30203">disable entirely</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsbg3" type="string" label="30035" help="30205">
+					<level>0</level>
+					<default>auto horz and vert</default>
+					<constraints>
+						<options>
+							<option label="30048">on</option>
+							<option label="30188">auto horizontal</option>
+							<option label="30189">auto horz and vert</option>
+							<option label="30190">above line 40</option>
+							<option label="30191">below line 40</option>
+							<option label="30192">above line 80</option>
+							<option label="30193">below line 80</option>
+							<option label="30194">above line 120</option>
+							<option label="30195">below line 120</option>
+							<option label="30196">above line 160</option>
+							<option label="30197">below line 160</option>
+							<option label="30198">above line 200</option>
+							<option label="30199">below line 200</option>
+							<option label="30200">crop edges</option>
+							<option label="30201">auto crop edges</option>
+							<option label="30202">off</option>
+							<option label="30203">disable entirely</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsbg4" type="string" label="30036" help="30206">
+					<level>0</level>
+					<default>auto horz and vert</default>
+					<constraints>
+						<options>
+							<option label="30048">on</option>
+							<option label="30188">auto horizontal</option>
+							<option label="30189">auto horz and vert</option>
+							<option label="30190">above line 40</option>
+							<option label="30191">below line 40</option>
+							<option label="30192">above line 80</option>
+							<option label="30193">below line 80</option>
+							<option label="30194">above line 120</option>
+							<option label="30195">below line 120</option>
+							<option label="30196">above line 160</option>
+							<option label="30197">below line 160</option>
+							<option label="30198">above line 200</option>
+							<option label="30199">below line 200</option>
+							<option label="30200">crop edges</option>
+							<option label="30201">auto crop edges</option>
+							<option label="30202">off</option>
+							<option label="30203">disable entirely</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsobj" type="string" label="30037" help="30207">
+					<level>0</level>
+					<default>safe</default>
+					<constraints>
+						<options>
+							<option label="30208">safe</option>
+							<option label="30209">unsafe</option>
+							<option label="30210">clip</option>
+							<option label="30211">disable entirely</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsBgCol" type="string" label="30038" help="30212">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30213">auto</option>
+							<option label="30214">color</option>
+							<option label="30215">black</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_igwin" type="string" label="30039" help="30216">
+					<level>0</level>
+					<default>outside</default>
+					<constraints>
+						<options>
+							<option label="30217">outside</option>
+							<option label="30218">outside and always</option>
+							<option label="30219">all</option>
+							<option label="30049">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_igwinx" type="string" label="30040" help="30220">
+					<level>0</level>
+					<default>128</default>
+					<constraints>
+						<options>
+							<option label="30251">40</option>
+							<option label="30252">88</option>
+							<option label="30221">128</option>
+							<option label="30253">168</option>
+							<option label="30254">216</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsMarker" type="string" label="30041" help="30222">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30223">lines</option>
+							<option label="30224">darken</option>
+							<option label="30049">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_wsMarkerAlpha" type="string" label="30042" help="30225">
+					<level>0</level>
+					<default>1/1</default>
+					<constraints>
+						<options>
+							<option>1/1</option>
+							<option>1/2</option>
+							<option>1/3</option>
+							<option>1/4</option>
+							<option>1/5</option>
+							<option>1/6</option>
+							<option>1/7</option>
+							<option>1/8</option>
+							<option>1/9</option>
+							<option>1/10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="bsnes_mode7_strWin" type="string" label="30043" help="30226">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="30048">ON</option>
+							<option label="30049">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

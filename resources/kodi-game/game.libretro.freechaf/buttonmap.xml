@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+    <controller id="game.controller.channelf" type="RETRO_DEVICE_JOYPAD">
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <feature name="push" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+        <feature name="pull" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+        <feature name="rotateright" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="rotateleft" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+        <!-- FreeChaF reaches the console's TIME, MODE, HOLD, START and RESET
+             buttons through a selector toggled by RETRO_DEVICE_ID_JOYPAD_START,
+             rather than exposing them as separate inputs. -->
+        <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    </controller>
+</buttonmap>

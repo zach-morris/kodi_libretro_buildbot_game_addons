@@ -1,0 +1,26 @@
+# game.libretro.retro8 language file
+# Addon Name: game.libretro.retro8
+# Addon id: game.libretro.retro8
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.retro8\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-29 00:07i\n"
+"PO-Revision-Date: 2024-12-27 22:09+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-retro8/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "PICO-8 (Retro8)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Retro8 is an open source implementation of the PICO-8 Fantasy Console.[CR][CR]Much of the PICO-8 API is working with good performance, including basic sound and music, though it is still missing some obscure Lua extension quirks and fixed arithmetic support."
+msgstr ""

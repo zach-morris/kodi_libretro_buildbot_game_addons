@@ -1,0 +1,1046 @@
+# game.libretro.bsnes-hd language file
+# Addon Name: game.libretro.bsnes-hd
+# Addon id: game.libretro.bsnes-hd
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.bsnes-hd\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-03-27 23:42i\n"
+"PO-Revision-Date: 2024-12-27 21:49+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-bsnes-hd/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (bsnes-hd beta)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "bsnes-hd is a fork of bsnes that adds HD video features."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "In loving memory of Near / Byuu"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Color Adjustment - Luminance"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Color Adjustment - Saturation"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Color Adjustment - Gamma"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Pixel Aspect Correction"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Crop Overscan"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Blur Emulation"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Hotfixes"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Entropy (randomization)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Overclocking - CPU"
+msgstr ""
+
+msgctxt "#30010"
+msgid "CPU Fast Math"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Overclocking - SA-1 Coprocessor"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Overclocking - SuperFX Coprocessor"
+msgstr ""
+
+msgctxt "#30013"
+msgid "PPU (Video) - Fast Mode"
+msgstr ""
+
+msgctxt "#30014"
+msgid "PPU (Video) - Deinterlace"
+msgstr ""
+
+msgctxt "#30015"
+msgid "PPU (Video) - No Sprite Limit"
+msgstr ""
+
+msgctxt "#30016"
+msgid "PPU (Video) - No VRAM Blocking"
+msgstr ""
+
+msgctxt "#30017"
+msgid "DSP (Audio) - Fast Mode"
+msgstr ""
+
+msgctxt "#30018"
+msgid "DSP (Audio) - Cubic Interpolation"
+msgstr ""
+
+msgctxt "#30019"
+msgid "DSP (Audio) - Echo Shadow RAM"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Coprocessors - Fast Mode"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Coprocessors - Prefer HLE"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Preferred Super Game Boy BIOS (Requires Restart)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Internal Run-Ahead"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Expect Headered ROMs for IPS Patches"
+msgstr ""
+
+msgctxt "#30025"
+msgid "HD Mode 7 - Scale"
+msgstr ""
+
+msgctxt "#30026"
+msgid "HD Mode 7 - Perspective Correction"
+msgstr ""
+
+msgctxt "#30027"
+msgid "HD Mode 7 - Supersampling"
+msgstr ""
+
+msgctxt "#30028"
+msgid "HD Mode 7 - HD->SD Mosaic"
+msgstr ""
+
+msgctxt "#30029"
+msgid "HD Background Color Radius"
+msgstr ""
+
+msgctxt "#30030"
+msgid "HD Windowing (Experimental)"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Widescreen Mode"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Widescreen - Aspect Ratio"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Widescreen - Background Layer 1"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Widescreen - Background Layer 2"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Widescreen - Background Layer 3"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Widescreen - Background Layer 4"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Widescreen - Sprites"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Widescreen - Area Background Color"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Widescreen - Ignore Window Effects"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Widescreen - Fallback X-Coordinate"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Widescreen - Marker"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Widescreen - Marker Alpha"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Widescreen - Stretch Window"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Adjusts the luminance level of the video output."
+msgstr ""
+
+msgctxt "#30045"
+msgid "Adjusts the saturation level of the video output."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Adjusts the gamma level of the video output."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Determines whether the internal pixel aspect should be corrected using 4:3 as the basis, or preserved as-is with the original 8:7 proportion. This specifically affects the ratio of the pixels and should not be confused with the widescreen-related options."
+msgstr ""
+
+msgctxt "#30048"
+msgid "enabled"
+msgstr ""
+
+msgctxt "#30049"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Crops the borders at the top and bottom of the screen, typically unused by games and hidden by the bezel of a standard-definition television, by the specified amount of pixels."
+msgstr ""
+
+msgctxt "#30051"
+msgid "12 pixels"
+msgstr ""
+
+msgctxt "#30052"
+msgid "8 pixels"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Simulates the limited horizontal resolution of SDTVs by blurring together horizontally-adjacent pixels. Some games depend on this to emulate a transparency effect."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Even commercially licensed and officially released software sometimes shipped with bugs. This option will correct certain issues that occurred even on real hardware."
+msgstr ""
+
+msgctxt "#30055"
+msgid "Determines the level of randomization of the memory and registers. If set to None, all memory and registers are initialized to constant values at startup. Low randomization provides the most accurate representation of a real system. High randomizes as much as possible."
+msgstr ""
+
+msgctxt "#30056"
+msgid "Overclocks or downclocks the CPU. Setting this value above 100% may help reduce loading times and remove slowdown. Use with caution as it may also cause certain games to crash or exhibit issues."
+msgstr ""
+
+msgctxt "#30057"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30058"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30059"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30060"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30061"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30062"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30063"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30064"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30065"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30066"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30067"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30068"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30069"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30070"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30071"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30072"
+msgid "160%"
+msgstr ""
+
+msgctxt "#30073"
+msgid "170%"
+msgstr ""
+
+msgctxt "#30074"
+msgid "180%"
+msgstr ""
+
+msgctxt "#30075"
+msgid "190%"
+msgstr ""
+
+msgctxt "#30076"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30077"
+msgid "210%"
+msgstr ""
+
+msgctxt "#30078"
+msgid "220%"
+msgstr ""
+
+msgctxt "#30079"
+msgid "230%"
+msgstr ""
+
+msgctxt "#30080"
+msgid "240%"
+msgstr ""
+
+msgctxt "#30081"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30082"
+msgid "260%"
+msgstr ""
+
+msgctxt "#30083"
+msgid "270%"
+msgstr ""
+
+msgctxt "#30084"
+msgid "280%"
+msgstr ""
+
+msgctxt "#30085"
+msgid "290%"
+msgstr ""
+
+msgctxt "#30086"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30087"
+msgid "310%"
+msgstr ""
+
+msgctxt "#30088"
+msgid "320%"
+msgstr ""
+
+msgctxt "#30089"
+msgid "330%"
+msgstr ""
+
+msgctxt "#30090"
+msgid "340%"
+msgstr ""
+
+msgctxt "#30091"
+msgid "350%"
+msgstr ""
+
+msgctxt "#30092"
+msgid "360%"
+msgstr ""
+
+msgctxt "#30093"
+msgid "370%"
+msgstr ""
+
+msgctxt "#30094"
+msgid "380%"
+msgstr ""
+
+msgctxt "#30095"
+msgid "390%"
+msgstr ""
+
+msgctxt "#30096"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30097"
+msgid "CPU multiplication and division take time to complete on a real SNES. Older emulators did not simulate these delays and provided results immediately. Some older ROM hacks do not wait for math operations to complete and need this hack."
+msgstr ""
+
+msgctxt "#30098"
+msgid "Overclocks or downclocks the Super Accelerator 1 (SA-1) chip. Setting this value above 100% may help obtain higher performance in games that support the SA-1 chip. Use with caution as it may also cause certain games to crash or exhibit issues."
+msgstr ""
+
+msgctxt "#30099"
+msgid "Overclocks or downclocks the SuperFX coprocessor. Setting this value above 100% may help obtain higher performance in games that support the SuperFX. Use with caution as it may also cause certain games to crash or exhibit issues."
+msgstr ""
+
+msgctxt "#30100"
+msgid "410%"
+msgstr ""
+
+msgctxt "#30101"
+msgid "420%"
+msgstr ""
+
+msgctxt "#30102"
+msgid "430%"
+msgstr ""
+
+msgctxt "#30103"
+msgid "440%"
+msgstr ""
+
+msgctxt "#30104"
+msgid "450%"
+msgstr ""
+
+msgctxt "#30105"
+msgid "460%"
+msgstr ""
+
+msgctxt "#30106"
+msgid "470%"
+msgstr ""
+
+msgctxt "#30107"
+msgid "480%"
+msgstr ""
+
+msgctxt "#30108"
+msgid "490%"
+msgstr ""
+
+msgctxt "#30109"
+msgid "500%"
+msgstr ""
+
+msgctxt "#30110"
+msgid "510%"
+msgstr ""
+
+msgctxt "#30111"
+msgid "520%"
+msgstr ""
+
+msgctxt "#30112"
+msgid "530%"
+msgstr ""
+
+msgctxt "#30113"
+msgid "540%"
+msgstr ""
+
+msgctxt "#30114"
+msgid "550%"
+msgstr ""
+
+msgctxt "#30115"
+msgid "560%"
+msgstr ""
+
+msgctxt "#30116"
+msgid "570%"
+msgstr ""
+
+msgctxt "#30117"
+msgid "580%"
+msgstr ""
+
+msgctxt "#30118"
+msgid "590%"
+msgstr ""
+
+msgctxt "#30119"
+msgid "600%"
+msgstr ""
+
+msgctxt "#30120"
+msgid "610%"
+msgstr ""
+
+msgctxt "#30121"
+msgid "620%"
+msgstr ""
+
+msgctxt "#30122"
+msgid "630%"
+msgstr ""
+
+msgctxt "#30123"
+msgid "640%"
+msgstr ""
+
+msgctxt "#30124"
+msgid "650%"
+msgstr ""
+
+msgctxt "#30125"
+msgid "660%"
+msgstr ""
+
+msgctxt "#30126"
+msgid "670%"
+msgstr ""
+
+msgctxt "#30127"
+msgid "680%"
+msgstr ""
+
+msgctxt "#30128"
+msgid "690%"
+msgstr ""
+
+msgctxt "#30129"
+msgid "700%"
+msgstr ""
+
+msgctxt "#30130"
+msgid "710%"
+msgstr ""
+
+msgctxt "#30131"
+msgid "720%"
+msgstr ""
+
+msgctxt "#30132"
+msgid "730%"
+msgstr ""
+
+msgctxt "#30133"
+msgid "740%"
+msgstr ""
+
+msgctxt "#30134"
+msgid "750%"
+msgstr ""
+
+msgctxt "#30135"
+msgid "760%"
+msgstr ""
+
+msgctxt "#30136"
+msgid "770%"
+msgstr ""
+
+msgctxt "#30137"
+msgid "780%"
+msgstr ""
+
+msgctxt "#30138"
+msgid "790%"
+msgstr ""
+
+msgctxt "#30139"
+msgid "800%"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Enables faster emulation of the PPU at the cost of a minor reduction of accuracy. It is recommended to leave this active."
+msgstr ""
+
+msgctxt "#30141"
+msgid "Deinterlaces all games by rendering internally at 480p. Performance penalty is almost non-existent, so it is recommended to leave this active."
+msgstr ""
+
+msgctxt "#30142"
+msgid "Removes any limit to the number of sprites that can be drawn simultaneously on screen. May cause issues with certain games."
+msgstr ""
+
+msgctxt "#30143"
+msgid "Emulates a bug in older releases of ZSNES and Snes9x, where VRAM blocking was not emulated. A few older ROM hacks relied on this behavior and will render graphics incorrectly if not enabled. This option is extremely inaccurate and hurts PPU speed, so it is recommended to leave it disabled unless you need to play a game that is otherwise incompatible with this core."
+msgstr ""
+
+msgctxt "#30144"
+msgid "Enables faster emulation of the DSP at the cost of a minor reduction of accuracy. It is recommended to leave this active."
+msgstr ""
+
+msgctxt "#30145"
+msgid "Applies cubic interpolation to the sound, preserving more of the high range."
+msgstr ""
+
+msgctxt "#30146"
+msgid "Emulates a bug in ZSNES where echo RAM was treated as separate from APU RAM. Many older ROM hacks for Super Mario World relied on this behavior and will crash without enabling this. This option is extremely inaccurate and should not be enabled unless required."
+msgstr ""
+
+msgctxt "#30147"
+msgid "Enables faster emulation of the coprocessors at the cost of a minor reduction of accuracy. It is recommended to leave this active."
+msgstr ""
+
+msgctxt "#30148"
+msgid "When this option is enabled, less accurate HLE emulation will always be used when available. If disabled, HLE will only be used when LLE firmware is missing."
+msgstr ""
+
+msgctxt "#30149"
+msgid "Allows to choose the preferred Super Game Boy BIOS to be used with compatible titles. Requires a restart to take effect."
+msgstr ""
+
+msgctxt "#30150"
+msgid "Super Game Boy (SGB1.sfc)"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Super Game Boy 2 (SGB2.sfc)"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Simulates the system ahead of time and rolls back to reduce input latency. Has very high system requirements."
+msgstr ""
+
+msgctxt "#30153"
+msgid "1 frame"
+msgstr ""
+
+msgctxt "#30154"
+msgid "2 frames"
+msgstr ""
+
+msgctxt "#30155"
+msgid "3 frames"
+msgstr ""
+
+msgctxt "#30156"
+msgid "4 frames"
+msgstr ""
+
+msgctxt "#30157"
+msgid "Defines whether the core should always expect headered ROMs when using IPS patches."
+msgstr ""
+
+msgctxt "#30158"
+msgid "Allows to increase the horizontal and vertical resolution of the Mode 7 graphics used in certain games. If disabled, the original unaltered Mode 7 graphics will be used."
+msgstr ""
+
+msgctxt "#30159"
+msgid "240p (1x)"
+msgstr ""
+
+msgctxt "#30160"
+msgid "480p (2x)"
+msgstr ""
+
+msgctxt "#30161"
+msgid "720p (3x)"
+msgstr ""
+
+msgctxt "#30162"
+msgid "960p (4x)"
+msgstr ""
+
+msgctxt "#30163"
+msgid "1200p (5x)"
+msgstr ""
+
+msgctxt "#30164"
+msgid "1440p (6x)"
+msgstr ""
+
+msgctxt "#30165"
+msgid "1680p (7x)"
+msgstr ""
+
+msgctxt "#30166"
+msgid "1920p (8x)"
+msgstr ""
+
+msgctxt "#30167"
+msgid "2160p (9x)"
+msgstr ""
+
+msgctxt "#30168"
+msgid "2400p (10x)"
+msgstr ""
+
+msgctxt "#30169"
+msgid "Corrects the perspective of the Mode 7 graphics used in certain games by working around some limitations of the integer math used by the SNES."
+msgstr ""
+
+msgctxt "#30170"
+msgid "Auto (Wide)"
+msgstr ""
+
+msgctxt "#30171"
+msgid "Auto (Medium)"
+msgstr ""
+
+msgctxt "#30172"
+msgid "Auto (Narrow)"
+msgstr ""
+
+msgctxt "#30173"
+msgid "ON (Wide)"
+msgstr ""
+
+msgctxt "#30174"
+msgid "ON (Medium)"
+msgstr ""
+
+msgctxt "#30175"
+msgid "ON (Narrow)"
+msgstr ""
+
+msgctxt "#30176"
+msgid "Allows to supersample the Mode 7 graphics used in certain games by the specified amount. Combined with higher Mode 7 scale factors, it produces an effect similar to anti-aliasing."
+msgstr ""
+
+msgctxt "#30177"
+msgid "Determines whether and how the mosaic effect should be shown with Mode 7 graphics. 'Non-HD' uses classic Mode 7 with the mosaic effect applied, but disables HD and widescreen. 'Ignore' disregards the mosaic effect entirely. '1x Scale' provides a good compromise between the other two options."
+msgstr ""
+
+msgctxt "#30178"
+msgid "Non-HD"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "#30180"
+msgid "1x Scale"
+msgstr ""
+
+msgctxt "#30181"
+msgid "Defines the amount of neighboring lines used to smooth color gradients that are applied to the frame."
+msgstr ""
+
+msgctxt "#30182"
+msgid "Defines the amount of neighboring lines used to smooth window effects, such as iris transitions, shadows or spell effects."
+msgstr ""
+
+msgctxt "#30183"
+msgid "Enables experimental widescreen functionality."
+msgstr ""
+
+msgctxt "#30184"
+msgid "Only for Mode 7 scenes"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Enable for all scenes"
+msgstr ""
+
+msgctxt "#30186"
+msgid "Defines the content aspect ratio used when Widescreen Mode is enabled."
+msgstr ""
+
+msgctxt "#30187"
+msgid "Determines how Widescreen Mode should be applied to Background Layer 1."
+msgstr ""
+
+msgctxt "#30188"
+msgid "Enable if screen-wide and X position is 0"
+msgstr ""
+
+msgctxt "#30189"
+msgid "Enable if screen-wide and XY position is 0"
+msgstr ""
+
+msgctxt "#30190"
+msgid "Enable above line 40"
+msgstr ""
+
+msgctxt "#30191"
+msgid "Enable below line 40"
+msgstr ""
+
+msgctxt "#30192"
+msgid "Enable above line 80"
+msgstr ""
+
+msgctxt "#30193"
+msgid "Enable below line 80"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Enable above line 120"
+msgstr ""
+
+msgctxt "#30195"
+msgid "Enable below line 120"
+msgstr ""
+
+msgctxt "#30196"
+msgid "Enable above line 160"
+msgstr ""
+
+msgctxt "#30197"
+msgid "Enable below line 160"
+msgstr ""
+
+msgctxt "#30198"
+msgid "Enable above line 200"
+msgstr ""
+
+msgctxt "#30199"
+msgid "Enable below line 200"
+msgstr ""
+
+msgctxt "#30200"
+msgid "Hide lateral 8 pixels"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Hide lateral 8 black pixels"
+msgstr ""
+
+msgctxt "#30202"
+msgid "Disable widescreen for this layer"
+msgstr ""
+
+msgctxt "#30203"
+msgid "Hide layer entirely"
+msgstr ""
+
+msgctxt "#30204"
+msgid "Determines how Widescreen Mode should be applied to Background Layer 2."
+msgstr ""
+
+msgctxt "#30205"
+msgid "Determines how Widescreen Mode should be applied to Background Layer 3."
+msgstr ""
+
+msgctxt "#30206"
+msgid "Determines how Widescreen Mode should be applied to Background Layer 4."
+msgstr ""
+
+msgctxt "#30207"
+msgid "Adjusts how sprites and objects should be rendered when using Widescreen Mode."
+msgstr ""
+
+msgctxt "#30208"
+msgid "Render when in safe area"
+msgstr ""
+
+msgctxt "#30209"
+msgid "Render anywhere (unsafe)"
+msgstr ""
+
+msgctxt "#30210"
+msgid "Clip at widescreen edges"
+msgstr ""
+
+msgctxt "#30211"
+msgid "Hide sprites entirely"
+msgstr ""
+
+msgctxt "#30212"
+msgid "Specifies when to fill the backgrounds of the widescreen areas with the scanline background colors."
+msgstr ""
+
+msgctxt "#30213"
+msgid "Fill if scene is widescreen"
+msgstr ""
+
+msgctxt "#30214"
+msgid "Always fill"
+msgstr ""
+
+msgctxt "#30215"
+msgid "Use black background"
+msgstr ""
+
+msgctxt "#30216"
+msgid "Defines which window effects should be ignored when using Widescreen Mode."
+msgstr ""
+
+msgctxt "#30217"
+msgid "Only 'outside' effects"
+msgstr ""
+
+msgctxt "#30218"
+msgid "Only 'outside' and 'always' effects"
+msgstr ""
+
+msgctxt "#30219"
+msgid "All window effects"
+msgstr ""
+
+msgctxt "#30220"
+msgid "Defines which fallback x-coordinate should be used when ignoring window effects in Widescreen Mode."
+msgstr ""
+
+msgctxt "#30221"
+msgid "128 (Center)"
+msgstr ""
+
+msgctxt "#30222"
+msgid "Allows to highlight the edges of the widescreen areas in some ways."
+msgstr ""
+
+msgctxt "#30223"
+msgid "Show lines at edges"
+msgstr ""
+
+msgctxt "#30224"
+msgid "Darken areas"
+msgstr ""
+
+msgctxt "#30225"
+msgid "If widescreen markers are enabled, this option allows to specify their translucency."
+msgstr ""
+
+msgctxt "#30226"
+msgid "Extends windowing effects into the widescreen areas at the cost of precision. It is recommended to keep this option disabled, unless needed for widescreen hacks."
+msgstr ""
+
+msgctxt "#30227"
+msgid "Low"
+msgstr ""
+
+msgctxt "#30228"
+msgid "High"
+msgstr ""
+
+msgctxt "#30229"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30230"
+msgid "3x"
+msgstr ""
+
+msgctxt "#30231"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30232"
+msgid "5x"
+msgstr ""
+
+msgctxt "#30233"
+msgid "6x"
+msgstr ""
+
+msgctxt "#30234"
+msgid "7x"
+msgstr ""
+
+msgctxt "#30235"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30236"
+msgid "9x"
+msgstr ""
+
+msgctxt "#30237"
+msgid "10x"
+msgstr ""
+
+msgctxt "#30238"
+msgid "1"
+msgstr ""
+
+msgctxt "#30239"
+msgid "2"
+msgstr ""
+
+msgctxt "#30240"
+msgid "3"
+msgstr ""
+
+msgctxt "#30241"
+msgid "4"
+msgstr ""
+
+msgctxt "#30242"
+msgid "5"
+msgstr ""
+
+msgctxt "#30243"
+msgid "6"
+msgstr ""
+
+msgctxt "#30244"
+msgid "7"
+msgstr ""
+
+msgctxt "#30245"
+msgid "8"
+msgstr ""
+
+msgctxt "#30246"
+msgid "16:9"
+msgstr ""
+
+msgctxt "#30247"
+msgid "16:10"
+msgstr ""
+
+msgctxt "#30248"
+msgid "21:9"
+msgstr ""
+
+msgctxt "#30249"
+msgid "2:1"
+msgstr ""
+
+msgctxt "#30250"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30251"
+msgid "40"
+msgstr ""
+
+msgctxt "#30252"
+msgid "88"
+msgstr ""
+
+msgctxt "#30253"
+msgid "168"
+msgstr ""
+
+msgctxt "#30254"
+msgid "216"
+msgstr ""

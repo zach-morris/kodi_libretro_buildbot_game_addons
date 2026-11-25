@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.race">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="race_language" type="string" label="30001" help="30008">
+					<level>0</level>
+					<default>english</default>
+					<constraints>
+						<options>
+							<option label="30009">japanese</option>
+							<option label="30010">english</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="race_dark_filter_level" type="string" label="30002" help="30011">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>45</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="race_frameskip" type="string" label="30003" help="30012">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30013">auto</option>
+							<option label="30014">manual</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="race_frameskip_threshold" type="string" label="30004" help="30015">
+					<level>0</level>
+					<default>33</default>
+					<constraints>
+						<options>
+							<option>15</option>
+							<option>18</option>
+							<option>21</option>
+							<option>24</option>
+							<option>27</option>
+							<option>30</option>
+							<option>33</option>
+							<option>36</option>
+							<option>39</option>
+							<option>42</option>
+							<option>45</option>
+							<option>48</option>
+							<option>51</option>
+							<option>54</option>
+							<option>57</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="race_rtc_mode" type="string" label="30005" help="30016">
+					<level>0</level>
+					<default>deterministic</default>
+					<constraints>
+						<options>
+							<option label="30017">deterministic</option>
+							<option label="30018">realtime</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="race_audio_quality" type="string" label="30006" help="30019">
+					<level>0</level>
+					<default>fast</default>
+					<constraints>
+						<options>
+							<option label="30020">fast</option>
+							<option label="30021">accurate</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="race_audio_samplerate" type="string" label="30007" help="30022">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30013">auto</option>
+							<option label="30023">32000</option>
+							<option label="30024">44100</option>
+							<option label="30025">48000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

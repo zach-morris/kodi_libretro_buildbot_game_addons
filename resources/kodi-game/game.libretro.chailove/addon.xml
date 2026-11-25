@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.chailove"
+		name="ChaiLove"
+		version="1.3.0.33"
+		provider-name="Rob Loach">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.5"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>chai|chailove</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>chailove_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.chailove</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.png</screenshot>
+			<screenshot>resources/screenshot-02.png</screenshot>
+			<screenshot>resources/screenshot-03.png</screenshot>
+		</assets>
+		<summary lang="cs_CZ">ChaiLove</summary>
+		<summary lang="da_DK">ChaiLove</summary>
+		<summary lang="en_GB">ChaiLove</summary>
+		<summary lang="es_ES">ChaiLove</summary>
+		<summary lang="ga">ChaiLove</summary>
+		<summary lang="it_IT">ChaiLove</summary>
+		<summary lang="ru_RU">ChaiLove</summary>
+		<summary lang="sv_SE">ChaiLove</summary>
+		<summary lang="zh_CN">ChaiLove</summary>
+		<description lang="cs_CZ">ChaiLove je 2D herní framework inspirovaný API Love2D.[CR][CR]Seznam her dostupných v ChaiLove najdete na https://github.com/libretro/libretro-chailove.</description>
+		<description lang="da_DK">ChaiLove er en 2D-spilramme inspireret af Love2D API.[CR][CR]Se https://github.com/libretro/libretro-chailove for en liste over spil, der er tilgængelige i ChaiLove.</description>
+		<description lang="de_DE">ChaiLove ist ein 2D-Spiele-Framework, das von der Love2D-API inspiriert wurde.[CR][CR]Eine Liste der in ChaiLove verfügbaren Spiele findet sich unter https://github.com/libretro/libretro-chailove.</description>
+		<description lang="en_GB">ChaiLove is a 2D game framework inspired by the Love2D API.[CR][CR]See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.</description>
+		<description lang="es_ES">ChaiLove es un framework de juegos 2D inspirado en la API Love2D.[CR][CR]Consulta https://github.com/libretro/libretro-chailove para ver una lista de los juegos disponibles en ChaiLove.</description>
+		<description lang="ga">Is creat cluiche 2T é ChaiLove atá spreagtha ag API Love2D.[CR][CR]Féach https://github.com/libretro/libretro-chailove le haghaidh liosta de na cluichí atá ar fáil i ChaiLove.</description>
+		<description lang="it_IT">ChaiLove è un framework di gioco 2D ispirato all&apos;API Love2D.[CR][CR]Vedi https://github.com/libretro/libretro-chailove per un elenco di giochi disponibili in ChaiLove.</description>
+		<description lang="ru_RU">ChaiLove — фреймворк для 2D-игр, созданный на основе API Love2D.[CR][CR]Список игр, доступных в ChaiLove, можно найти по адресу https://github.com/libretro/libretro-chailove.</description>
+		<description lang="sl_SI">ChaiLove je ogrodje 2D iger, ki ga je navdihnil API Love2D.[CR][CR]Glejte https://github.com/libretro/libretro-chailove za seznam iger, ki so na voljo v ChaiLove.</description>
+		<description lang="sv_SE">ChaiLove är ett ramverk för 2D-spel inspirerat av Love2D API.[CR][CR]Se https://github.com/libretro/libretro-chailove för en lista över spel som är tillgängliga i ChaiLove.</description>
+		<description lang="zh_CN">ChaiLove 是一个受 Love2D API 启发的 2D 游戏框架。[CR][CR]可到 https://github.com/libretro/libretro-chailove 查看 ChaiLove 中可用的游戏列表。</description>
+	</extension>
+</addon>

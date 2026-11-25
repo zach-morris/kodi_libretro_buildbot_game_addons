@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.gong"
+		name="Gong"
+		version="1.0.0.29"
+		provider-name="Brad Parker">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>gong</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>gong_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPL v3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.gong</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Gong</summary>
+		<summary lang="da_DK">Gong</summary>
+		<summary lang="en_GB">Gong</summary>
+		<summary lang="es_ES">Gong</summary>
+		<summary lang="ga">Gong</summary>
+		<summary lang="it_IT">Gong</summary>
+		<summary lang="ru_RU">Gong</summary>
+		<summary lang="sv_SE">Gong</summary>
+		<summary lang="zh_CN">Gong</summary>
+		<description lang="cs_CZ">Gong je port hry Pong pro Libretro. Je založený na verzi Pongu od Brada Parkera.</description>
+		<description lang="da_DK">Gong er en libretro-port af Pong. Den er baseret på Brad Parkers version af Pong.</description>
+		<description lang="de_DE">Gong ist eine Libretro-Portierung von Pong. Sie basiert auf Brad Parkers Version von Pong.</description>
+		<description lang="en_GB">Gong is a libretro port of Pong. It is based on Brad Parker&apos;s version of Pong.</description>
+		<description lang="es_ES">Gong es una adaptación de libretro de Pong. Está basado en la versión de Pong de Brad Parker.</description>
+		<description lang="ga">Is leagan libretro de Pong é Gong. Tá sé bunaithe ar leagan Brad Parker de Pong.</description>
+		<description lang="it_IT">Gong è un port libretro di Pong. È basato sulla versione di Pong di Brad Parker.</description>
+		<description lang="ru_RU">Gong — это порт Pong для libretro. Он основан на версии Pong Брэда Паркера.</description>
+		<description lang="sl_SI">Gong je libretro port Pong. Temelji na različici Pong Brada Parkerja.</description>
+		<description lang="sv_SE">Gong är en libretroport av Pong. Den är baserad på Brad Parkers version av Pong.</description>
+		<description lang="zh_CN">Gong 是一个 libretro 的 Pong 移植。它基于 Brad Parker 版本的 Pong。</description>
+		<disclaimer lang="cs_CZ">Původní zdrojový kód: Dan Zaidan - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="da_DK">Original kildekode af Dan Zaidan - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="de_DE">Originalquellcode von Dan Zaidan - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="en_GB">Original source code by Dan Zaidan - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="es_ES">Código fuente original de Dan Zaidan - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="ga">Cód foinse bunaidh le Dan Zaidan - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="it_IT">Codice sorgente originale di Dan Zaidan - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="ru_RU">Исходный код от автора Дэна Зайдана — https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="sl_SI">Izvirna izvorna koda Dan Zaidana - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="sv_SE">Ursprunglig källkod av Dan Zaidan - https://danzaidan.itch.io</disclaimer>
+		<disclaimer lang="zh_CN">Dan Zaidan 的原始源代码 - https://danzaidan.itch.io</disclaimer>
+	</extension>
+</addon>

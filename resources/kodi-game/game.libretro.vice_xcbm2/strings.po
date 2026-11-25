@@ -1,0 +1,1696 @@
+# game.libretro.vice language file
+# Addon Name: game.libretro.vice
+# Addon id: game.libretro.vice
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.vice\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-12-05 21:00i\n"
+"PO-Revision-Date: 2024-12-27 22:13+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-vice_xcbm2/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Commodore - CBM-II 6x0/7x0 (VICE xcbm2)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "VICE stands for the Versatile Commodore Emulator. The current version emulates the C64, the C64DTV, the C128, the VIC20, practically all PET models, the PLUS4 and the CBM-II (aka C610/C510)."
+msgstr ""
+
+msgctxt "#30012"
+msgid "Show Video Options"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Show Audio Options"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Show Mapping Options"
+msgstr ""
+
+msgctxt "#30091"
+msgid "System"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Configure system options."
+msgstr ""
+
+msgctxt "#30093"
+msgid "Changing while running resets the system!"
+msgstr ""
+
+msgctxt "#30094"
+msgid "CBM 610 PAL"
+msgstr ""
+
+msgctxt "#30095"
+msgid "CBM 610 NTSC"
+msgstr ""
+
+msgctxt "#30096"
+msgid "CBM 620 PAL"
+msgstr ""
+
+msgctxt "#30097"
+msgid "CBM 620 NTSC"
+msgstr ""
+
+msgctxt "#30098"
+msgid "CBM 620+ PAL"
+msgstr ""
+
+msgctxt "#30099"
+msgid "CBM 620+ NTSC"
+msgstr ""
+
+msgctxt "#30100"
+msgid "CBM 710 NTSC"
+msgstr ""
+
+msgctxt "#30101"
+msgid "CBM 720 NTSC"
+msgstr ""
+
+msgctxt "#30102"
+msgid "CBM 720+ NTSC"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Output is written to 'saves/vice_printer.txt'."
+msgstr ""
+
+msgctxt "#30104"
+msgid ""
+"Process first found 'vicerc' in this order:\n"
+"1. 'saves/[content].vicerc'\n"
+"2. 'saves/vicerc'\n"
+"3. 'system/vice/vicerc'"
+msgstr ""
+
+msgctxt "#30105"
+msgid ""
+"Reset hotkey action. Core restart will autostart.\n"
+"- 'Autostart' hard resets and reruns content.\n"
+"- 'Soft' keeps some code in memory.\n"
+"- 'Hard' erases all memory.\n"
+"- 'Freeze' is for cartridges."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Autostart"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Soft"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Hard"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Freeze"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Configure audio options."
+msgstr ""
+
+msgctxt "#30112"
+msgid "'True Drive Emulation' & D64/D71 disk image required."
+msgstr ""
+
+msgctxt "#30113"
+msgid "TAP tape image required."
+msgstr ""
+
+msgctxt "#30114"
+msgid "100% + Mute"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Graphic chip audio leak emulation."
+msgstr ""
+
+msgctxt "#30116"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30117"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30118"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30119"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30120"
+msgid "500%"
+msgstr ""
+
+msgctxt "#30121"
+msgid "600%"
+msgstr ""
+
+msgctxt "#30122"
+msgid "700%"
+msgstr ""
+
+msgctxt "#30123"
+msgid "800%"
+msgstr ""
+
+msgctxt "#30124"
+msgid "900%"
+msgstr ""
+
+msgctxt "#30125"
+msgid "1000%"
+msgstr ""
+
+msgctxt "#30126"
+msgid "'ReSID' is accurate, 'ReSID-FP' is more accurate, 'FastSID' is the last resort."
+msgstr ""
+
+msgctxt "#30127"
+msgid "C64 has '6581', C64C has '8580'."
+msgstr ""
+
+msgctxt "#30128"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30129"
+msgid "8580 ReSID + digi boost"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Second SID base address."
+msgstr ""
+
+msgctxt "#30131"
+msgid "$D420"
+msgstr ""
+
+msgctxt "#30132"
+msgid "$D500"
+msgstr ""
+
+msgctxt "#30133"
+msgid "$DE00"
+msgstr ""
+
+msgctxt "#30134"
+msgid "$DF00"
+msgstr ""
+
+msgctxt "#30135"
+msgid "'Resampling' provides best quality."
+msgstr ""
+
+msgctxt "#30136"
+msgid "Fast"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Interpolation"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Fast Resampling"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Resampling"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Resampling filter passband in percentage of the total bandwidth."
+msgstr ""
+
+msgctxt "#30141"
+msgid "Filter gain in percent."
+msgstr ""
+
+msgctxt "#30142"
+msgid "Filter bias for 6581, which can be used to adjust DAC bias in millivolts."
+msgstr ""
+
+msgctxt "#30143"
+msgid "Filter bias for 8580, which can be used to adjust DAC bias in millivolts."
+msgstr ""
+
+msgctxt "#30144"
+msgid "Sound sample rate in Hz."
+msgstr ""
+
+msgctxt "#30145"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Configure video options."
+msgstr ""
+
+msgctxt "#30148"
+msgid "Small"
+msgstr ""
+
+msgctxt "#30149"
+msgid "Medium"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Maximum"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Auto-Disable"
+msgstr ""
+
+msgctxt "#30153"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Patient or instant geometry change."
+msgstr ""
+
+msgctxt "#30155"
+msgid "'Horizontal + Vertical' & 'Maximum' removes borders completely."
+msgstr ""
+
+msgctxt "#30156"
+msgid "Horizontal + Vertical"
+msgstr ""
+
+msgctxt "#30157"
+msgid "Horizontal"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Vertical"
+msgstr ""
+
+msgctxt "#30159"
+msgid "16:9"
+msgstr ""
+
+msgctxt "#30160"
+msgid "16:10"
+msgstr ""
+
+msgctxt "#30161"
+msgid "4:3"
+msgstr ""
+
+msgctxt "#30162"
+msgid "5:4"
+msgstr ""
+
+msgctxt "#30163"
+msgid ""
+"CRTC top border height:\n"
+"- 28px"
+msgstr ""
+
+msgctxt "#30164"
+msgid ""
+"CRTC bottom border height:\n"
+"- 28px"
+msgstr ""
+
+msgctxt "#30165"
+msgid ""
+"CRTC left border width:\n"
+"- 8px"
+msgstr ""
+
+msgctxt "#30166"
+msgid ""
+"CRTC right border width:\n"
+"- 8px"
+msgstr ""
+
+msgctxt "#30167"
+msgid "PAL emulation filter with custom horizontal blur."
+msgstr ""
+
+msgctxt "#30168"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30169"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30170"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30171"
+msgid "Native default is green."
+msgstr ""
+
+msgctxt "#30172"
+msgid "Internal"
+msgstr ""
+
+msgctxt "#30173"
+msgid "Green"
+msgstr ""
+
+msgctxt "#30174"
+msgid "Amber"
+msgstr ""
+
+msgctxt "#30175"
+msgid "White"
+msgstr ""
+
+msgctxt "#30176"
+msgid "Full restart required."
+msgstr ""
+
+msgctxt "#30177"
+msgid "16-bit (RGB565)"
+msgstr ""
+
+msgctxt "#30178"
+msgid "24-bit (XRGB8888)"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Media"
+msgstr ""
+
+msgctxt "#30180"
+msgid "Configure media options."
+msgstr ""
+
+msgctxt "#30181"
+msgid ""
+"Toggle warp mode during disk and/or tape access if there is no audio output. Mutes 'Drive Sound Emulation', 'Datasette Sound' and 'Audio Leak Emulation' when not ignoring audio.\n"
+"'True Drive Emulation' required with disks!"
+msgstr ""
+
+msgctxt "#30182"
+msgid "Ignore audio"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Disk only"
+msgstr ""
+
+msgctxt "#30184"
+msgid "Disk only (Ignore audio)"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Tape only"
+msgstr ""
+
+msgctxt "#30186"
+msgid "Tape only (Ignore audio)"
+msgstr ""
+
+msgctxt "#30187"
+msgid "Warp mode speedup by changing SID engine to 'FastSID' while warping. Affects audio detection during warp."
+msgstr ""
+
+msgctxt "#30188"
+msgid "'ON' always runs content, 'OFF' runs only PRG/CRT, 'Warp' turns warp mode on during autostart loading."
+msgstr ""
+
+msgctxt "#30189"
+msgid "Warp"
+msgstr ""
+
+msgctxt "#30190"
+msgid ""
+"Loads much slower, but some games need it.\n"
+"Required for 'JiffyDOS', 'Automatic Load Warp' and LED driver interface!"
+msgstr ""
+
+msgctxt "#30191"
+msgid "Required for printer device, but causes loading issues on rare cases."
+msgstr ""
+
+msgctxt "#30192"
+msgid ""
+"Insert each disk in different drives. Can be forced with '(MD)' file path tag. Maximum is 4 disks due to external drive limit!\n"
+"Core restart required."
+msgstr ""
+
+msgctxt "#30193"
+msgid "Set device 8 read only."
+msgstr ""
+
+msgctxt "#30194"
+msgid "Work disk in device 8 will not be inserted when floppy content is launched. Files and directories are named 'vice_work'."
+msgstr ""
+
+msgctxt "#30195"
+msgid "D64 - 664 blocks, 170kB - Device 8"
+msgstr ""
+
+msgctxt "#30196"
+msgid "D64 - 664 blocks, 170kB - Device 9"
+msgstr ""
+
+msgctxt "#30197"
+msgid "D71 - 1328 blocks, 340kB - Device 8"
+msgstr ""
+
+msgctxt "#30198"
+msgid "D71 - 1328 blocks, 340kB - Device 9"
+msgstr ""
+
+msgctxt "#30199"
+msgid "D81 - 3160 blocks, 800kB - Device 8"
+msgstr ""
+
+msgctxt "#30200"
+msgid "D81 - 3160 blocks, 800kB - Device 9"
+msgstr ""
+
+msgctxt "#30201"
+msgid "FileSystem - Device 8"
+msgstr ""
+
+msgctxt "#30202"
+msgid "FileSystem - Device 9"
+msgstr ""
+
+msgctxt "#30203"
+msgid ""
+"Cartridge images go in 'system/vice/CBM-II'.\n"
+"Changing while running resets the system!"
+msgstr ""
+
+msgctxt "#30204"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Configure input options."
+msgstr ""
+
+msgctxt "#30207"
+msgid ""
+"'ON' passes all physical keyboard events to the core. 'OFF' prevents RetroPad keys from generating keyboard events.\n"
+"NOTE: This is a legacy option for old frontends that do not block keyboard events when using RetroPad, so it does nothing with current RetroArch."
+msgstr ""
+
+msgctxt "#30208"
+msgid "Toggle all Datasette hotkeys."
+msgstr ""
+
+msgctxt "#30209"
+msgid "Required for more than 2 joysticks, for example IK+ Gold with 3 players."
+msgstr ""
+
+msgctxt "#30210"
+msgid "Protovision / Classical Games"
+msgstr ""
+
+msgctxt "#30211"
+msgid "Digital Excess & Hitmen"
+msgstr ""
+
+msgctxt "#30212"
+msgid "Kingsoft"
+msgstr ""
+
+msgctxt "#30213"
+msgid "Starbyte"
+msgstr ""
+
+msgctxt "#30214"
+msgid "Synergy"
+msgstr ""
+
+msgctxt "#30215"
+msgid "C64DTV Hummer"
+msgstr ""
+
+msgctxt "#30216"
+msgid "VIC-20 OEM"
+msgstr ""
+
+msgctxt "#30217"
+msgid "PET"
+msgstr ""
+
+msgctxt "#30218"
+msgid "Hotkey Mapping"
+msgstr ""
+
+msgctxt "#30219"
+msgid "Configure keyboard hotkey mapping options."
+msgstr ""
+
+msgctxt "#30220"
+msgid "Press the mapped key to toggle the virtual keyboard."
+msgstr ""
+
+msgctxt "#30221"
+msgid "---"
+msgstr ""
+
+msgctxt "#30222"
+msgid "Keyboard Tab"
+msgstr ""
+
+msgctxt "#30223"
+msgid "Keyboard Return"
+msgstr ""
+
+msgctxt "#30224"
+msgid "Keyboard Escape"
+msgstr ""
+
+msgctxt "#30225"
+msgid "Keyboard Space"
+msgstr ""
+
+msgctxt "#30226"
+msgid "Keyboard '"
+msgstr ""
+
+msgctxt "#30227"
+msgid "Keyboard ,"
+msgstr ""
+
+msgctxt "#30228"
+msgid "Keyboard -"
+msgstr ""
+
+msgctxt "#30229"
+msgid "Keyboard ."
+msgstr ""
+
+msgctxt "#30230"
+msgid "Keyboard /"
+msgstr ""
+
+msgctxt "#30231"
+msgid "Keyboard 0"
+msgstr ""
+
+msgctxt "#30232"
+msgid "Keyboard 1"
+msgstr ""
+
+msgctxt "#30233"
+msgid "Keyboard 2"
+msgstr ""
+
+msgctxt "#30234"
+msgid "Keyboard 3"
+msgstr ""
+
+msgctxt "#30235"
+msgid "Keyboard 4"
+msgstr ""
+
+msgctxt "#30236"
+msgid "Keyboard 5"
+msgstr ""
+
+msgctxt "#30237"
+msgid "Keyboard 6"
+msgstr ""
+
+msgctxt "#30238"
+msgid "Keyboard 7"
+msgstr ""
+
+msgctxt "#30239"
+msgid "Keyboard 8"
+msgstr ""
+
+msgctxt "#30240"
+msgid "Keyboard 9"
+msgstr ""
+
+msgctxt "#30241"
+msgid "Keyboard ;"
+msgstr ""
+
+msgctxt "#30242"
+msgid "Keyboard ="
+msgstr ""
+
+msgctxt "#30243"
+msgid "Keyboard ["
+msgstr ""
+
+msgctxt "#30244"
+msgid "Keyboard \\"
+msgstr ""
+
+msgctxt "#30245"
+msgid "Keyboard ]"
+msgstr ""
+
+msgctxt "#30246"
+msgid "Keyboard `"
+msgstr ""
+
+msgctxt "#30247"
+msgid "Keyboard A"
+msgstr ""
+
+msgctxt "#30248"
+msgid "Keyboard B"
+msgstr ""
+
+msgctxt "#30249"
+msgid "Keyboard C"
+msgstr ""
+
+msgctxt "#30250"
+msgid "Keyboard D"
+msgstr ""
+
+msgctxt "#30251"
+msgid "Keyboard E"
+msgstr ""
+
+msgctxt "#30252"
+msgid "Keyboard F"
+msgstr ""
+
+msgctxt "#30253"
+msgid "Keyboard G"
+msgstr ""
+
+msgctxt "#30254"
+msgid "Keyboard H"
+msgstr ""
+
+msgctxt "#30255"
+msgid "Keyboard I"
+msgstr ""
+
+msgctxt "#30256"
+msgid "Keyboard J"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Keyboard K"
+msgstr ""
+
+msgctxt "#30258"
+msgid "Keyboard L"
+msgstr ""
+
+msgctxt "#30259"
+msgid "Keyboard M"
+msgstr ""
+
+msgctxt "#30260"
+msgid "Keyboard N"
+msgstr ""
+
+msgctxt "#30261"
+msgid "Keyboard O"
+msgstr ""
+
+msgctxt "#30262"
+msgid "Keyboard P"
+msgstr ""
+
+msgctxt "#30263"
+msgid "Keyboard Q"
+msgstr ""
+
+msgctxt "#30264"
+msgid "Keyboard R"
+msgstr ""
+
+msgctxt "#30265"
+msgid "Keyboard S"
+msgstr ""
+
+msgctxt "#30266"
+msgid "Keyboard T"
+msgstr ""
+
+msgctxt "#30267"
+msgid "Keyboard U"
+msgstr ""
+
+msgctxt "#30268"
+msgid "Keyboard V"
+msgstr ""
+
+msgctxt "#30269"
+msgid "Keyboard W"
+msgstr ""
+
+msgctxt "#30270"
+msgid "Keyboard X"
+msgstr ""
+
+msgctxt "#30271"
+msgid "Keyboard Y"
+msgstr ""
+
+msgctxt "#30272"
+msgid "Keyboard Z"
+msgstr ""
+
+msgctxt "#30273"
+msgid "Keyboard Numpad 0"
+msgstr ""
+
+msgctxt "#30274"
+msgid "Keyboard Numpad 1"
+msgstr ""
+
+msgctxt "#30275"
+msgid "Keyboard Numpad 2"
+msgstr ""
+
+msgctxt "#30276"
+msgid "Keyboard Numpad 3"
+msgstr ""
+
+msgctxt "#30277"
+msgid "Keyboard Numpad 4"
+msgstr ""
+
+msgctxt "#30278"
+msgid "Keyboard Numpad 5"
+msgstr ""
+
+msgctxt "#30279"
+msgid "Keyboard Numpad 6"
+msgstr ""
+
+msgctxt "#30280"
+msgid "Keyboard Numpad 7"
+msgstr ""
+
+msgctxt "#30281"
+msgid "Keyboard Numpad 8"
+msgstr ""
+
+msgctxt "#30282"
+msgid "Keyboard Numpad 9"
+msgstr ""
+
+msgctxt "#30283"
+msgid "Keyboard Numpad ."
+msgstr ""
+
+msgctxt "#30284"
+msgid "Keyboard Numpad /"
+msgstr ""
+
+msgctxt "#30285"
+msgid "Keyboard Numpad *"
+msgstr ""
+
+msgctxt "#30286"
+msgid "Keyboard Numpad -"
+msgstr ""
+
+msgctxt "#30287"
+msgid "Keyboard Numpad +"
+msgstr ""
+
+msgctxt "#30288"
+msgid "Keyboard Numpad Enter"
+msgstr ""
+
+msgctxt "#30289"
+msgid "Keyboard Numpad ="
+msgstr ""
+
+msgctxt "#30290"
+msgid "Keyboard Up"
+msgstr ""
+
+msgctxt "#30291"
+msgid "Keyboard Down"
+msgstr ""
+
+msgctxt "#30292"
+msgid "Keyboard Left"
+msgstr ""
+
+msgctxt "#30293"
+msgid "Keyboard Right"
+msgstr ""
+
+msgctxt "#30294"
+msgid "Keyboard Insert"
+msgstr ""
+
+msgctxt "#30295"
+msgid "Keyboard Delete"
+msgstr ""
+
+msgctxt "#30296"
+msgid "Keyboard Home"
+msgstr ""
+
+msgctxt "#30297"
+msgid "Keyboard End"
+msgstr ""
+
+msgctxt "#30298"
+msgid "Keyboard Page Up"
+msgstr ""
+
+msgctxt "#30299"
+msgid "Keyboard Page Down"
+msgstr ""
+
+msgctxt "#30300"
+msgid "Keyboard F1"
+msgstr ""
+
+msgctxt "#30301"
+msgid "Keyboard F2"
+msgstr ""
+
+msgctxt "#30302"
+msgid "Keyboard F3"
+msgstr ""
+
+msgctxt "#30303"
+msgid "Keyboard F4"
+msgstr ""
+
+msgctxt "#30304"
+msgid "Keyboard F5"
+msgstr ""
+
+msgctxt "#30305"
+msgid "Keyboard F6"
+msgstr ""
+
+msgctxt "#30306"
+msgid "Keyboard F7"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Keyboard F8"
+msgstr ""
+
+msgctxt "#30308"
+msgid "Keyboard F9"
+msgstr ""
+
+msgctxt "#30309"
+msgid "Keyboard F10"
+msgstr ""
+
+msgctxt "#30310"
+msgid "Keyboard F11"
+msgstr ""
+
+msgctxt "#30311"
+msgid "Keyboard F12"
+msgstr ""
+
+msgctxt "#30312"
+msgid "Keyboard F13"
+msgstr ""
+
+msgctxt "#30313"
+msgid "Keyboard F14"
+msgstr ""
+
+msgctxt "#30314"
+msgid "Keyboard F15"
+msgstr ""
+
+msgctxt "#30315"
+msgid "Keyboard Caps Lock"
+msgstr ""
+
+msgctxt "#30316"
+msgid "Keyboard Left Shift"
+msgstr ""
+
+msgctxt "#30317"
+msgid "Keyboard Right Shift"
+msgstr ""
+
+msgctxt "#30318"
+msgid "Keyboard Left Control"
+msgstr ""
+
+msgctxt "#30319"
+msgid "Keyboard Right Control"
+msgstr ""
+
+msgctxt "#30320"
+msgid "Keyboard Left Alt"
+msgstr ""
+
+msgctxt "#30321"
+msgid "Keyboard Right Alt"
+msgstr ""
+
+msgctxt "#30322"
+msgid "Keyboard Left Super"
+msgstr ""
+
+msgctxt "#30323"
+msgid "Keyboard Right Super"
+msgstr ""
+
+msgctxt "#30324"
+msgid "Press the mapped key to toggle the statusbar."
+msgstr ""
+
+msgctxt "#30325"
+msgid "Press the mapped key to toggle turbo fire."
+msgstr ""
+
+msgctxt "#30326"
+msgid "Press the mapped key to create/insert/eject a save disk."
+msgstr ""
+
+msgctxt "#30327"
+msgid "Press the mapped key to toggle crop."
+msgstr ""
+
+msgctxt "#30328"
+msgid "Press the mapped key to toggle Datasette hotkeys."
+msgstr ""
+
+msgctxt "#30329"
+msgid "Press play on tape."
+msgstr ""
+
+msgctxt "#30330"
+msgid "Press stop on tape."
+msgstr ""
+
+msgctxt "#30331"
+msgid "Press rewind on tape."
+msgstr ""
+
+msgctxt "#30332"
+msgid "Press fast forward on tape."
+msgstr ""
+
+msgctxt "#30333"
+msgid "Reset tape to beginning."
+msgstr ""
+
+msgctxt "#30334"
+msgid "Press the mapped key to trigger the selected 'Reset Type'."
+msgstr ""
+
+msgctxt "#30335"
+msgid "Hold the mapped key for warp mode."
+msgstr ""
+
+msgctxt "#30336"
+msgid "RetroPad Mapping"
+msgstr ""
+
+msgctxt "#30337"
+msgid "Configure RetroPad mapping options."
+msgstr ""
+
+msgctxt "#30338"
+msgid "Unmapped defaults to joystick up."
+msgstr ""
+
+msgctxt "#30339"
+msgid "Toggle Virtual Keyboard"
+msgstr ""
+
+msgctxt "#30340"
+msgid "Toggle Statusbar"
+msgstr ""
+
+msgctxt "#30341"
+msgid "Switch Joyport"
+msgstr ""
+
+msgctxt "#30342"
+msgid "Joystick Up"
+msgstr ""
+
+msgctxt "#30343"
+msgid "Joystick Down"
+msgstr ""
+
+msgctxt "#30344"
+msgid "Joystick Left"
+msgstr ""
+
+msgctxt "#30345"
+msgid "Joystick Right"
+msgstr ""
+
+msgctxt "#30346"
+msgid "Joystick Fire"
+msgstr ""
+
+msgctxt "#30347"
+msgid "Joystick Fire 2"
+msgstr ""
+
+msgctxt "#30348"
+msgid "Joystick Fire 3"
+msgstr ""
+
+msgctxt "#30349"
+msgid "Other Joyport Up"
+msgstr ""
+
+msgctxt "#30350"
+msgid "Other Joyport Down"
+msgstr ""
+
+msgctxt "#30351"
+msgid "Other Joyport Left"
+msgstr ""
+
+msgctxt "#30352"
+msgid "Other Joyport Right"
+msgstr ""
+
+msgctxt "#30353"
+msgid "Other Joyport Fire"
+msgstr ""
+
+msgctxt "#30354"
+msgid "Mouse Slower"
+msgstr ""
+
+msgctxt "#30355"
+msgid "Mouse Faster"
+msgstr ""
+
+msgctxt "#30356"
+msgid "Keyboard Backspace"
+msgstr ""
+
+msgctxt "#30357"
+msgid "Unmapped defaults to joystick down."
+msgstr ""
+
+msgctxt "#30358"
+msgid "Unmapped defaults to joystick left."
+msgstr ""
+
+msgctxt "#30359"
+msgid "Unmapped defaults to joystick right."
+msgstr ""
+
+msgctxt "#30360"
+msgid ""
+"Unmapped defaults to fire button.\n"
+"VKBD: Press selected key."
+msgstr ""
+
+msgctxt "#30361"
+msgid ""
+"Unmapped defaults to 2nd fire button.\n"
+"VKBD: Toggle transparency. Remapping to non-keyboard keys overrides VKBD function!"
+msgstr ""
+
+msgctxt "#30362"
+msgid "VKBD: Toggle 'ShiftLock'. Remapping to non-keyboard keys overrides VKBD function!"
+msgstr ""
+
+msgctxt "#30363"
+msgid "VKBD: Press 'Space'. Remapping to non-keyboard keys overrides VKBD function!"
+msgstr ""
+
+msgctxt "#30364"
+msgid "VKBD comes up with RetroPad Select by default."
+msgstr ""
+
+msgctxt "#30365"
+msgid "VKBD: Press 'Return'. Remapping to non-keyboard keys overrides VKBD function!"
+msgstr ""
+
+msgctxt "#30366"
+msgid "On-Screen Display"
+msgstr ""
+
+msgctxt "#30367"
+msgid "Configure OSD options."
+msgstr ""
+
+msgctxt "#30368"
+msgid "The keyboard comes up with RetroPad Select by default."
+msgstr ""
+
+msgctxt "#30369"
+msgid "Automatic (shadow)"
+msgstr ""
+
+msgctxt "#30370"
+msgid "Automatic (outline)"
+msgstr ""
+
+msgctxt "#30371"
+msgid "Brown (shadow)"
+msgstr ""
+
+msgctxt "#30372"
+msgid "Brown (outline)"
+msgstr ""
+
+msgctxt "#30373"
+msgid "Beige (shadow)"
+msgstr ""
+
+msgctxt "#30374"
+msgid "Beige (outline)"
+msgstr ""
+
+msgctxt "#30375"
+msgid "Dark (shadow)"
+msgstr ""
+
+msgctxt "#30376"
+msgid "Dark (outline)"
+msgstr ""
+
+msgctxt "#30377"
+msgid "Light (shadow)"
+msgstr ""
+
+msgctxt "#30378"
+msgid "Light (outline)"
+msgstr ""
+
+msgctxt "#30379"
+msgid "Keyboard transparency can be toggled with RetroPad A."
+msgstr ""
+
+msgctxt "#30380"
+msgid "Dimming level of the surrounding area."
+msgstr ""
+
+msgctxt "#30381"
+msgid ""
+"- 'Full': Joyports + Messages + LEDs\n"
+"- 'Basic': Messages + LEDs\n"
+"- 'Minimal': LED colors only"
+msgstr ""
+
+msgctxt "#30382"
+msgid "Bottom Full"
+msgstr ""
+
+msgctxt "#30383"
+msgid "Bottom Full Minimal"
+msgstr ""
+
+msgctxt "#30384"
+msgid "Bottom Basic"
+msgstr ""
+
+msgctxt "#30385"
+msgid "Bottom Basic Minimal"
+msgstr ""
+
+msgctxt "#30386"
+msgid "Top Full"
+msgstr ""
+
+msgctxt "#30387"
+msgid "Top Full Minimal"
+msgstr ""
+
+msgctxt "#30388"
+msgid "Top Basic"
+msgstr ""
+
+msgctxt "#30389"
+msgid "Top Basic Minimal"
+msgstr ""
+
+msgctxt "#30390"
+msgid "Show statusbar on startup."
+msgstr ""
+
+msgctxt "#30391"
+msgid "Show messages when statusbar is hidden."
+msgstr ""
+
+msgctxt "#30392"
+msgid "Crosshair color for light pens and guns."
+msgstr ""
+
+msgctxt "#30393"
+msgid "Black"
+msgstr ""
+
+msgctxt "#30394"
+msgid "Red"
+msgstr ""
+
+msgctxt "#30395"
+msgid "Blue"
+msgstr ""
+
+msgctxt "#30396"
+msgid "Yellow"
+msgstr ""
+
+msgctxt "#30397"
+msgid "Purple"
+msgstr ""
+
+msgctxt "#30398"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30399"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30400"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30401"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30402"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30403"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30404"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30405"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30406"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30407"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30408"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30409"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30410"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30411"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30412"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30413"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30414"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30415"
+msgid "6581"
+msgstr ""
+
+msgctxt "#30416"
+msgid "8580"
+msgstr ""
+
+msgctxt "#30417"
+msgid "Remove borders according to 'Crop Mode'. 'Auto-Disable' stays disabled until content reset."
+msgstr ""
+
+msgctxt "#30418"
+msgid "Model"
+msgstr ""
+
+msgctxt "#30419"
+msgid "Printer"
+msgstr ""
+
+msgctxt "#30420"
+msgid "Read 'vicerc'"
+msgstr ""
+
+msgctxt "#30421"
+msgid "Reset Type"
+msgstr ""
+
+msgctxt "#30422"
+msgid "Drive Sound Emulation"
+msgstr ""
+
+msgctxt "#30423"
+msgid "Datasette Sound"
+msgstr ""
+
+msgctxt "#30424"
+msgid "CRTC Audio Leak Emulation"
+msgstr ""
+
+msgctxt "#30425"
+msgid "SID Engine"
+msgstr ""
+
+msgctxt "#30426"
+msgid "SID Model"
+msgstr ""
+
+msgctxt "#30427"
+msgid "SID Extra"
+msgstr ""
+
+msgctxt "#30428"
+msgid "ReSID Sampling"
+msgstr ""
+
+msgctxt "#30429"
+msgid "ReSID Filter Passband"
+msgstr ""
+
+msgctxt "#30430"
+msgid "ReSID Filter Gain"
+msgstr ""
+
+msgctxt "#30431"
+msgid "ReSID Filter 6581 Bias"
+msgstr ""
+
+msgctxt "#30432"
+msgid "ReSID Filter 8580 Bias"
+msgstr ""
+
+msgctxt "#30433"
+msgid "Sample Rate"
+msgstr ""
+
+msgctxt "#30434"
+msgid "Crop"
+msgstr ""
+
+msgctxt "#30435"
+msgid "Automatic Crop Delay"
+msgstr ""
+
+msgctxt "#30436"
+msgid "Crop Mode"
+msgstr ""
+
+msgctxt "#30437"
+msgid "Manual Crop Top"
+msgstr ""
+
+msgctxt "#30438"
+msgid "Manual Crop Bottom"
+msgstr ""
+
+msgctxt "#30439"
+msgid "Manual Crop Left"
+msgstr ""
+
+msgctxt "#30440"
+msgid "Manual Crop Right"
+msgstr ""
+
+msgctxt "#30441"
+msgid "CRTC Filter"
+msgstr ""
+
+msgctxt "#30442"
+msgid "CRTC Color Palette"
+msgstr ""
+
+msgctxt "#30443"
+msgid "Color Depth"
+msgstr ""
+
+msgctxt "#30444"
+msgid "Automatic Load Warp"
+msgstr ""
+
+msgctxt "#30445"
+msgid "Warp Boost"
+msgstr ""
+
+msgctxt "#30446"
+msgid "True Drive Emulation"
+msgstr ""
+
+msgctxt "#30447"
+msgid "Virtual Device Traps"
+msgstr ""
+
+msgctxt "#30448"
+msgid "Floppy MultiDrive"
+msgstr ""
+
+msgctxt "#30449"
+msgid "Floppy Write Protection"
+msgstr ""
+
+msgctxt "#30450"
+msgid "Global Work Disk"
+msgstr ""
+
+msgctxt "#30451"
+msgid "Cartridge"
+msgstr ""
+
+msgctxt "#30452"
+msgid "Keyboard Pass-through"
+msgstr ""
+
+msgctxt "#30453"
+msgid "Datasette Hotkeys"
+msgstr ""
+
+msgctxt "#30454"
+msgid "Userport Joystick Adapter"
+msgstr ""
+
+msgctxt "#30455"
+msgid "Toggle Turbo Fire"
+msgstr ""
+
+msgctxt "#30456"
+msgid "Toggle Save Disk"
+msgstr ""
+
+msgctxt "#30457"
+msgid "Toggle Crop"
+msgstr ""
+
+msgctxt "#30458"
+msgid "Toggle Datasette Hotkeys"
+msgstr ""
+
+msgctxt "#30459"
+msgid "Datasette PLAY"
+msgstr ""
+
+msgctxt "#30460"
+msgid "Datasette STOP"
+msgstr ""
+
+msgctxt "#30461"
+msgid "Datasette REWIND"
+msgstr ""
+
+msgctxt "#30462"
+msgid "Datasette F.FWD"
+msgstr ""
+
+msgctxt "#30463"
+msgid "Datasette RESET"
+msgstr ""
+
+msgctxt "#30464"
+msgid "Reset"
+msgstr ""
+
+msgctxt "#30465"
+msgid "Hold Warp Mode"
+msgstr ""
+
+msgctxt "#30466"
+msgid "Up"
+msgstr ""
+
+msgctxt "#30467"
+msgid "Down"
+msgstr ""
+
+msgctxt "#30468"
+msgid "Left"
+msgstr ""
+
+msgctxt "#30469"
+msgid "Right"
+msgstr ""
+
+msgctxt "#30470"
+msgid "B"
+msgstr ""
+
+msgctxt "#30471"
+msgid "A"
+msgstr ""
+
+msgctxt "#30472"
+msgid "Y"
+msgstr ""
+
+msgctxt "#30473"
+msgid "X"
+msgstr ""
+
+msgctxt "#30474"
+msgid "Select"
+msgstr ""
+
+msgctxt "#30475"
+msgid "Start"
+msgstr ""
+
+msgctxt "#30476"
+msgid "L"
+msgstr ""
+
+msgctxt "#30477"
+msgid "R"
+msgstr ""
+
+msgctxt "#30478"
+msgid "L2"
+msgstr ""
+
+msgctxt "#30479"
+msgid "R2"
+msgstr ""
+
+msgctxt "#30480"
+msgid "L3"
+msgstr ""
+
+msgctxt "#30481"
+msgid "R3"
+msgstr ""
+
+msgctxt "#30482"
+msgid "Left Analog > Up"
+msgstr ""
+
+msgctxt "#30483"
+msgid "Left Analog > Down"
+msgstr ""
+
+msgctxt "#30484"
+msgid "Left Analog > Left"
+msgstr ""
+
+msgctxt "#30485"
+msgid "Left Analog > Right"
+msgstr ""
+
+msgctxt "#30486"
+msgid "Right Analog > Up"
+msgstr ""
+
+msgctxt "#30487"
+msgid "Right Analog > Down"
+msgstr ""
+
+msgctxt "#30488"
+msgid "Right Analog > Left"
+msgstr ""
+
+msgctxt "#30489"
+msgid "Right Analog > Right"
+msgstr ""
+
+msgctxt "#30490"
+msgid "Virtual KBD Theme"
+msgstr ""
+
+msgctxt "#30491"
+msgid "Virtual KBD Transparency"
+msgstr ""
+
+msgctxt "#30492"
+msgid "Virtual KBD Dimming"
+msgstr ""
+
+msgctxt "#30493"
+msgid "Statusbar Mode"
+msgstr ""
+
+msgctxt "#30494"
+msgid "Statusbar Startup"
+msgstr ""
+
+msgctxt "#30495"
+msgid "Statusbar Messages"
+msgstr ""
+
+msgctxt "#30496"
+msgid "Light Pen/Gun Pointer Color"
+msgstr ""
+
+#~ msgctxt "#30147"
+#~ msgid "Remove borders according to 'Crop Mode'."
+#~ msgstr ""

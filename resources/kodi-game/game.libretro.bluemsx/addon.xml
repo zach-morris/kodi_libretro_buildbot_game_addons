@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.bluemsx"
+		name="MSX/SVI/ColecoVision/SG-1000 (blueMSX)"
+		version="0.0.1.58"
+		provider-name="Daniel Vik">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.msx.keyboard" version="1.0.0"/>
+		<import addon="game.controller.msx.joystick" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>MSX/SVI/ColecoVision/SG-1000</platforms>
+		<extensions>rom|ri|mx1|mx2|dsk|col|sg|sc|sf|cas|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>bluemsx_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bluemsx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="da_DK">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="en_GB">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="es_ES">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="ga">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="it_IT">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="ru_RU">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="sv_SE">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<summary lang="zh_CN">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</summary>
+		<description lang="cs_CZ">blueMSX je bohatě vybavený emulátor MSX. Podporuje většinu běžných strojů a širokou škálu rozšiřujícího hardwaru.</description>
+		<description lang="da_DK">BlueMSX er en rig MSX-emulator. Den understøtter de fleste almindelige maskiner og en lang række udvidelseshardware.</description>
+		<description lang="de_DE">BlueMSX ist ein vielseitiger MSX-Emulator. Er unterstützt die meisten gängigen Systeme und eine große Auswahl an Erweiterungshardware.</description>
+		<description lang="en_GB">BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.</description>
+		<description lang="es_ES">BlueMSX es un rico emulador de MSX. Es compatible con las máquinas más comunes y una amplia variedad de hardware de ampliación.</description>
+		<description lang="ga">Is aithriseoir saibhir MSX é BlueMSX. Tacaíonn sé leis an gcuid is mó de na meaisíní coitianta agus le réimse leathan crua-earraí síneadh.</description>
+		<description lang="it_IT">BlueMSX è un ricco emulatore MSX. Supporta le macchine più comuni e un&apos;ampia varietà di estensioni hardware.</description>
+		<description lang="ru_RU">BlueMSX — это многофункциональный эмулятор MSX. Он поддерживает большинство распространённых компьютеров и широкий спектр расширенного оборудования.</description>
+		<description lang="sl_SI">BlueMSX je bogat MSX emulator. Podpira večino običajnih strojev in široko paleto razširitvene strojne opreme.</description>
+		<description lang="sv_SE">BlueMSX är en funktionsrik MSX-emulator. Den stöder de flesta vanliga maskiner och ett brett utbud av tilläggshårdvara.</description>
+		<description lang="zh_CN">BlueMSX 是一个富 MSX 模拟器。它支持最常见的机型和各种扩展硬件。</description>
+		<disclaimer lang="cs_CZ">Autoři: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt a Ray Zero</disclaimer>
+		<disclaimer lang="da_DK">Udviklere: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt og Ray Zero</disclaimer>
+		<disclaimer lang="de_DE">Autoren: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt und Ray Zero</disclaimer>
+		<disclaimer lang="en_GB">Authors: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt and Ray Zero</disclaimer>
+		<disclaimer lang="es_ES">Autores: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt y Ray Zero</disclaimer>
+		<disclaimer lang="ga">Údair: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt agus Ray Zero</disclaimer>
+		<disclaimer lang="it_IT">Autori: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt e Ray Zero</disclaimer>
+		<disclaimer lang="ru_RU">Авторы: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt и Ray Zero</disclaimer>
+		<disclaimer lang="sl_SI">Avtorji: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt in Ray Zero</disclaimer>
+		<disclaimer lang="sv_SE">Upphovspersoner: Daniel Vik, Benoit Delvaux, Tomas Karlsson, Johan van Leur, Ricardo Bittencourt och Ray Zero</disclaimer>
+		<disclaimer lang="zh_CN">作者：Daniel Vik、Benoit Delvaux、Tomas Karlsson、Johan van Leur、Ricardo Bittencourt 和 Ray Zero</disclaimer>
+	</extension>
+</addon>

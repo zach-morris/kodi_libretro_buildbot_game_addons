@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.pcsx-rearmed">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="pcsx_rearmed_show_gpu_peops_settings" type="string" label="30085" help="30086">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_show_gpu_unai_settings" type="string" label="30087" help="30088">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_show_input_settings" type="string" label="30089" help="30090">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="system" label="30091" help="30092">
+			<group id="1">
+				<setting id="pcsx_rearmed_region" type="string" label="30001" help="30093">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="30223">NTSC</option>
+							<option label="30224">PAL</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_bios" type="string" label="30002" help="30095">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="30225">HLE</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_show_bios_bootlogo" type="string" label="30080" help="30096">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30097">enabled_no_pcsx</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_memcard1" type="string" label="30082" help="30098">
+					<level>0</level>
+					<default>libretro</default>
+					<constraints>
+						<options>
+							<option label="30099">libretro</option>
+							<option label="30100">serial</option>
+							<option label="30101">shared</option>
+							<option label="30102">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_memcard2" type="string" label="30083" help="30103">
+					<level>0</level>
+					<default>shared</default>
+					<constraints>
+						<options>
+							<option label="30100">serial</option>
+							<option label="30101">shared</option>
+							<option label="30102">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_cd_readahead" type="string" label="30070" help="30104">
+					<level>0</level>
+					<default>12</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>32</option>
+							<option>64</option>
+							<option>128</option>
+							<option>256</option>
+							<option>512</option>
+							<option>1024</option>
+							<option>333000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_drc" type="string" label="30005" help="30105">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_drc_thread" type="string" label="30071" help="30106">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_psxclock" type="string" label="30065" help="30107">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="30226">30</option>
+							<option label="30227">31</option>
+							<option label="30228">32</option>
+							<option label="30229">33</option>
+							<option label="30230">34</option>
+							<option label="30231">35</option>
+							<option label="30232">36</option>
+							<option label="30233">37</option>
+							<option label="30234">38</option>
+							<option label="30235">39</option>
+							<option label="30236">40</option>
+							<option label="30237">41</option>
+							<option label="30238">42</option>
+							<option label="30239">43</option>
+							<option label="30240">44</option>
+							<option label="30241">45</option>
+							<option label="30242">46</option>
+							<option label="30243">47</option>
+							<option label="30244">48</option>
+							<option label="30245">49</option>
+							<option label="30246">50</option>
+							<option label="30247">51</option>
+							<option label="30248">52</option>
+							<option label="30249">53</option>
+							<option label="30250">54</option>
+							<option label="30251">55</option>
+							<option label="30252">56</option>
+							<option label="30253">57</option>
+							<option label="30254">58</option>
+							<option label="30255">59</option>
+							<option label="30256">60</option>
+							<option label="30257">61</option>
+							<option label="30258">62</option>
+							<option label="30259">63</option>
+							<option label="30260">64</option>
+							<option label="30261">65</option>
+							<option label="30262">66</option>
+							<option label="30263">67</option>
+							<option label="30264">68</option>
+							<option label="30265">69</option>
+							<option label="30266">70</option>
+							<option label="30267">71</option>
+							<option label="30268">72</option>
+							<option label="30269">73</option>
+							<option label="30270">74</option>
+							<option label="30271">75</option>
+							<option label="30272">76</option>
+							<option label="30273">77</option>
+							<option label="30274">78</option>
+							<option label="30275">79</option>
+							<option label="30276">80</option>
+							<option label="30277">81</option>
+							<option label="30278">82</option>
+							<option label="30279">83</option>
+							<option label="30280">84</option>
+							<option label="30281">85</option>
+							<option label="30282">86</option>
+							<option label="30283">87</option>
+							<option label="30284">88</option>
+							<option label="30285">89</option>
+							<option label="30286">90</option>
+							<option label="30287">91</option>
+							<option label="30288">92</option>
+							<option label="30289">93</option>
+							<option label="30290">94</option>
+							<option label="30291">95</option>
+							<option label="30292">96</option>
+							<option label="30293">97</option>
+							<option label="30294">98</option>
+							<option label="30295">99</option>
+							<option label="30296">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30108" help="30109">
+			<group id="1">
+				<setting id="pcsx_rearmed_dithering" type="string" label="30007" help="30110">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30111">force</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_thread_rendering" type="string" label="30009" help="30112">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_frameskip_type" type="string" label="30010" help="30113">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30094">auto</option>
+							<option label="30114">auto_threshold</option>
+							<option label="30115">fixed_interval</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_frameskip_threshold" type="string" label="30011" help="30116">
+					<level>0</level>
+					<default>33</default>
+					<constraints>
+						<options>
+							<option>15</option>
+							<option>18</option>
+							<option>21</option>
+							<option>24</option>
+							<option>27</option>
+							<option>30</option>
+							<option>33</option>
+							<option>36</option>
+							<option>39</option>
+							<option>42</option>
+							<option>45</option>
+							<option>48</option>
+							<option>51</option>
+							<option>54</option>
+							<option>57</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_frameskip_interval" type="string" label="30012" help="30117">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_display_fps_v2" type="string" label="30013" help="30118">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30297">extra</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_display_info" type="string" label="30084" help="30119">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_fractional_framerate" type="string" label="30066" help="30120">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_alt_flip" type="string" label="30081" help="30121">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="30122">early</option>
+							<option label="30123">late</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_rgb32_output" type="string" label="30076" help="30124">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_scale_hires" type="string" label="30079" help="30125">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_slow_llists" type="string" label="30014" help="30126">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_show_overscan" type="string" label="30072" help="30127">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30094">auto</option>
+							<option label="30128">hack</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_screen_centering" type="string" label="30050" help="30129">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30094">auto</option>
+							<option label="30130">game</option>
+							<option label="30131">borderless</option>
+							<option label="30132">manual</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_screen_centering_x" type="string" label="30073" help="30133">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-16</option>
+							<option>-14</option>
+							<option>-12</option>
+							<option>-10</option>
+							<option>-8</option>
+							<option>-6</option>
+							<option>-4</option>
+							<option>-2</option>
+							<option>0</option>
+							<option>2</option>
+							<option>4</option>
+							<option>6</option>
+							<option>8</option>
+							<option>10</option>
+							<option>12</option>
+							<option>14</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_screen_centering_y" type="string" label="30074" help="30134">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_screen_centering_h_adj" type="string" label="30077" help="30135">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-64</option>
+							<option>-48</option>
+							<option>-40</option>
+							<option>-32</option>
+							<option>-24</option>
+							<option>-16</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="gpu_neon" label="30136" help="30137">
+			<group id="1">
+				<setting id="pcsx_rearmed_neon_interlace_enable_v2" type="string" label="30304" help="30138">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="16316">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_neon_enhancement_enable" type="string" label="30305" help="30139">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_neon_enhancement_no_main" type="string" label="30306" help="30140">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_neon_enhancement_tex_adj_v2" type="string" label="30307" help="30141">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="gpu_peops" label="30142" help="30143">
+			<group id="1">
+				<setting id="pcsx_rearmed_gpu_peops_odd_even_bit" type="string" label="30308" help="30144">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_peops_expand_screen_width" type="string" label="30309" help="30145">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_peops_ignore_brightness" type="string" label="30310" help="30146">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_peops_disable_coord_check" type="string" label="30311" help="30147">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_peops_lazy_screen_update" type="string" label="30312" help="30148">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_peops_repeated_triangles" type="string" label="30313" help="30149">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_peops_quads_with_triangles" type="string" label="30314" help="30150">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_peops_fake_busy_state" type="string" label="30315" help="30151">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="gpu_unai" label="30142" help="30152">
+			<group id="1">
+				<setting id="pcsx_rearmed_gpu_unai_old_renderer" type="string" label="30316" help="30153">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_unai_blending" type="string" label="30317" help="30154">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_unai_skipline" type="string" label="30318" help="30155">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_unai_lighting" type="string" label="30319" help="30156">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gpu_unai_fast_lighting" type="string" label="30320" help="30157">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30158" help="30159">
+			<group id="1">
+				<setting id="pcsx_rearmed_spu_reverb" type="string" label="30321" help="30160">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_spu_interpolation" type="string" label="30031" help="30161">
+					<level>0</level>
+					<default>simple</default>
+					<constraints>
+						<options>
+							<option label="30162">simple</option>
+							<option label="30163">gaussian</option>
+							<option label="30164">cubic</option>
+							<option label="30165">off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_nocdaudio" type="string" label="30032" help="30166">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_noxadecoding" type="string" label="30033" help="30167">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_spu_thread" type="string" label="30054" help="30168">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30169" help="30170">
+			<group id="1">
+				<setting id="pcsx_rearmed_analog_axis_modifier" type="string" label="30034" help="30171">
+					<level>0</level>
+					<default>square</default>
+					<constraints>
+						<options>
+							<option label="30172">circle</option>
+							<option label="30173">square</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_vibration" type="string" label="30035" help="30174">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_analog_combo" type="string" label="30055" help="30175">
+					<level>0</level>
+					<default>l1+r1+select</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30176">l1+r1+select</option>
+							<option label="30177">l1+r1+start</option>
+							<option label="30178">l1+r1+l3</option>
+							<option label="30179">l1+r1+r3</option>
+							<option label="30180">l3+r3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_multitap" type="string" label="30056" help="30181">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30182">port 1</option>
+							<option label="30183">port 2</option>
+							<option label="30184">ports 1 and 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_negcon_deadzone" type="string" label="30037" help="30185">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30186">0</option>
+							<option label="30187">3</option>
+							<option label="30188">5</option>
+							<option label="30189">7</option>
+							<option label="30190">10</option>
+							<option label="30191">13</option>
+							<option label="30192">15</option>
+							<option label="30193">17</option>
+							<option label="30194">20</option>
+							<option label="30195">23</option>
+							<option label="30196">25</option>
+							<option label="30197">27</option>
+							<option label="30198">30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_negcon_response" type="string" label="30038" help="30199">
+					<level>0</level>
+					<default>linear</default>
+					<constraints>
+						<options>
+							<option label="30200">linear</option>
+							<option label="30201">quadratic</option>
+							<option label="30164">cubic</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_input_sensitivity" type="string" label="30039" help="30202">
+					<level>0</level>
+					<default>1.00</default>
+					<constraints>
+						<options>
+							<option>0.05</option>
+							<option>0.10</option>
+							<option>0.15</option>
+							<option>0.20</option>
+							<option>0.25</option>
+							<option>0.30</option>
+							<option>0.35</option>
+							<option>0.40</option>
+							<option>0.45</option>
+							<option>0.50</option>
+							<option>0.55</option>
+							<option>0.60</option>
+							<option>0.65</option>
+							<option>0.70</option>
+							<option>0.75</option>
+							<option>0.80</option>
+							<option>0.85</option>
+							<option>0.90</option>
+							<option>0.95</option>
+							<option>1.00</option>
+							<option>1.05</option>
+							<option>1.10</option>
+							<option>1.15</option>
+							<option>1.20</option>
+							<option>1.25</option>
+							<option>1.30</option>
+							<option>1.35</option>
+							<option>1.40</option>
+							<option>1.45</option>
+							<option>1.50</option>
+							<option>1.55</option>
+							<option>1.60</option>
+							<option>1.65</option>
+							<option>1.70</option>
+							<option>1.75</option>
+							<option>1.80</option>
+							<option>1.85</option>
+							<option>1.90</option>
+							<option>1.95</option>
+							<option>2.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_crosshair1" type="string" label="30057" help="30203">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30298">blue</option>
+							<option label="30299">green</option>
+							<option label="30300">red</option>
+							<option label="30301">white</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_crosshair2" type="string" label="30058" help="30204">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30298">blue</option>
+							<option label="30299">green</option>
+							<option label="30300">red</option>
+							<option label="30301">white</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_konamigunadjustx" type="string" label="30059" help="30205">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-40</option>
+							<option>-39</option>
+							<option>-38</option>
+							<option>-37</option>
+							<option>-36</option>
+							<option>-35</option>
+							<option>-34</option>
+							<option>-33</option>
+							<option>-32</option>
+							<option>-31</option>
+							<option>-30</option>
+							<option>-29</option>
+							<option>-28</option>
+							<option>-27</option>
+							<option>-26</option>
+							<option>-25</option>
+							<option>-24</option>
+							<option>-23</option>
+							<option>-22</option>
+							<option>-21</option>
+							<option>-20</option>
+							<option>-19</option>
+							<option>-18</option>
+							<option>-17</option>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_konamigunadjusty" type="string" label="30060" help="30206">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-40</option>
+							<option>-39</option>
+							<option>-38</option>
+							<option>-37</option>
+							<option>-36</option>
+							<option>-35</option>
+							<option>-34</option>
+							<option>-33</option>
+							<option>-32</option>
+							<option>-31</option>
+							<option>-30</option>
+							<option>-29</option>
+							<option>-28</option>
+							<option>-27</option>
+							<option>-26</option>
+							<option>-25</option>
+							<option>-24</option>
+							<option>-23</option>
+							<option>-22</option>
+							<option>-21</option>
+							<option>-20</option>
+							<option>-19</option>
+							<option>-18</option>
+							<option>-17</option>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gunconadjustx" type="string" label="30040" help="30207">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-40</option>
+							<option>-39</option>
+							<option>-38</option>
+							<option>-37</option>
+							<option>-36</option>
+							<option>-35</option>
+							<option>-34</option>
+							<option>-33</option>
+							<option>-32</option>
+							<option>-31</option>
+							<option>-30</option>
+							<option>-29</option>
+							<option>-28</option>
+							<option>-27</option>
+							<option>-26</option>
+							<option>-25</option>
+							<option>-24</option>
+							<option>-23</option>
+							<option>-22</option>
+							<option>-21</option>
+							<option>-20</option>
+							<option>-19</option>
+							<option>-18</option>
+							<option>-17</option>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gunconadjusty" type="string" label="30041" help="30208">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>-40</option>
+							<option>-39</option>
+							<option>-38</option>
+							<option>-37</option>
+							<option>-36</option>
+							<option>-35</option>
+							<option>-34</option>
+							<option>-33</option>
+							<option>-32</option>
+							<option>-31</option>
+							<option>-30</option>
+							<option>-29</option>
+							<option>-28</option>
+							<option>-27</option>
+							<option>-26</option>
+							<option>-25</option>
+							<option>-24</option>
+							<option>-23</option>
+							<option>-22</option>
+							<option>-21</option>
+							<option>-20</option>
+							<option>-19</option>
+							<option>-18</option>
+							<option>-17</option>
+							<option>-16</option>
+							<option>-15</option>
+							<option>-14</option>
+							<option>-13</option>
+							<option>-12</option>
+							<option>-11</option>
+							<option>-10</option>
+							<option>-9</option>
+							<option>-8</option>
+							<option>-7</option>
+							<option>-6</option>
+							<option>-5</option>
+							<option>-4</option>
+							<option>-3</option>
+							<option>-2</option>
+							<option>-1</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gunconadjustratiox" type="string" label="30042" help="30209">
+					<level>0</level>
+					<default>1.00</default>
+					<constraints>
+						<options>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gunconadjustratioy" type="string" label="30043" help="30210">
+					<level>0</level>
+					<default>1.00</default>
+					<constraints>
+						<options>
+							<option>0.75</option>
+							<option>0.76</option>
+							<option>0.77</option>
+							<option>0.78</option>
+							<option>0.79</option>
+							<option>0.80</option>
+							<option>0.81</option>
+							<option>0.82</option>
+							<option>0.83</option>
+							<option>0.84</option>
+							<option>0.85</option>
+							<option>0.86</option>
+							<option>0.87</option>
+							<option>0.88</option>
+							<option>0.89</option>
+							<option>0.90</option>
+							<option>0.91</option>
+							<option>0.92</option>
+							<option>0.93</option>
+							<option>0.94</option>
+							<option>0.95</option>
+							<option>0.96</option>
+							<option>0.97</option>
+							<option>0.98</option>
+							<option>0.99</option>
+							<option>1.00</option>
+							<option>1.01</option>
+							<option>1.02</option>
+							<option>1.03</option>
+							<option>1.04</option>
+							<option>1.05</option>
+							<option>1.06</option>
+							<option>1.07</option>
+							<option>1.08</option>
+							<option>1.09</option>
+							<option>1.10</option>
+							<option>1.11</option>
+							<option>1.12</option>
+							<option>1.13</option>
+							<option>1.14</option>
+							<option>1.15</option>
+							<option>1.16</option>
+							<option>1.17</option>
+							<option>1.18</option>
+							<option>1.19</option>
+							<option>1.20</option>
+							<option>1.21</option>
+							<option>1.22</option>
+							<option>1.23</option>
+							<option>1.24</option>
+							<option>1.25</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="compat_hack" label="30211" help="30212">
+			<group id="1">
+				<setting id="pcsx_rearmed_icache_emulation" type="string" label="30044" help="30213">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_exception_emulation" type="string" label="30061" help="30214">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_nocompathacks" type="string" label="30045" help="30215">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_nolddelay" type="string" label="30322" help="30303">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="speed_hack" label="30216" help="30217">
+			<group id="1">
+				<setting id="pcsx_rearmed_cd_turbo" type="string" label="30068" help="30218">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_nosmccheck" type="string" label="30323" help="30219">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_gteregsunneeded" type="string" label="30324" help="30220">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_nogteflags" type="string" label="30325" help="30221">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pcsx_rearmed_nostalls" type="string" label="30062" help="30222">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

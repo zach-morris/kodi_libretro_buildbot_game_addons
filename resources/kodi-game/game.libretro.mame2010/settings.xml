@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.mame2010">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="mame_current_xy_type" type="string" label="30001">
+					<level>0</level>
+					<default>mouse</default>
+					<constraints>
+						<options>
+							<option label="30018">mouse</option>
+							<option label="30019">lightgun</option>
+							<option label="231">none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_videoapproach1_enable" type="string" label="30002">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_skip_nagscreen" type="string" label="30003">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_skip_gameinfo" type="string" label="30004">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_skip_warnings" type="string" label="30005">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_aspect_ratio" type="string" label="30006">
+					<level>0</level>
+					<default>DAR</default>
+					<constraints>
+						<options>
+							<option>DAR</option>
+							<option>PAR</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_turbo_button" type="string" label="30007">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30020">button 1</option>
+							<option label="30021">button 2</option>
+							<option label="30022">R2 to button 1 mapping</option>
+							<option label="30023">R2 to button 2 mapping</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_turbo_delay" type="string" label="30008">
+					<level>0</level>
+					<default>medium</default>
+					<constraints>
+						<options>
+							<option>medium</option>
+							<option>slow</option>
+							<option>fast</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_frame_skip" type="string" label="30009">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_sample_rate" type="string" label="30017">
+					<level>0</level>
+					<default>48000Hz</default>
+					<constraints>
+						<options>
+							<option label="30024">48000Hz</option>
+							<option label="30025">44100Hz</option>
+							<option label="30026">32000Hz</option>
+							<option label="30027">22050Hz</option>
+							<option label="30028">11025Hz</option>
+							<option label="30029">8000Hz</option>
+							<option label="30030">96000Hz</option>
+							<option label="16316">Auto</option>
+							<option label="30031">Manual</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_multithreading" type="string" label="30015">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_adj_brightness" type="string" label="30011">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="571">default</option>
+							<option label="30032">+1%</option>
+							<option label="30033">+2%</option>
+							<option label="30034">+3%</option>
+							<option label="30035">+4%</option>
+							<option label="30036">+5%</option>
+							<option label="30037">+6%</option>
+							<option label="30038">+7%</option>
+							<option label="30039">+8%</option>
+							<option label="30040">+9%</option>
+							<option label="30041">+10%</option>
+							<option label="30042">+11%</option>
+							<option label="30043">+12%</option>
+							<option label="30044">+13%</option>
+							<option label="30045">+14%</option>
+							<option label="30046">+15%</option>
+							<option label="30047">+16%</option>
+							<option label="30048">+17%</option>
+							<option label="30049">+18%</option>
+							<option label="30050">+19%</option>
+							<option label="30051">+20%</option>
+							<option label="30052">-20%</option>
+							<option label="30053">-19%</option>
+							<option label="30054">-18%</option>
+							<option label="30055">-17%</option>
+							<option label="30056">-16%</option>
+							<option label="30057">-15%</option>
+							<option label="30058">-14%</option>
+							<option label="30059">-13%</option>
+							<option label="30060">-12%</option>
+							<option label="30061">-11%</option>
+							<option label="30062">-10%</option>
+							<option label="30063">-9%</option>
+							<option label="30064">-8%</option>
+							<option label="30065">-7%</option>
+							<option label="30066">-6%</option>
+							<option label="30067">-5%</option>
+							<option label="30068">-4%</option>
+							<option label="30069">-3%</option>
+							<option label="30070">-2%</option>
+							<option label="30071">-1%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_adj_contrast" type="string" label="30012">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="571">default</option>
+							<option label="30032">+1%</option>
+							<option label="30033">+2%</option>
+							<option label="30034">+3%</option>
+							<option label="30035">+4%</option>
+							<option label="30036">+5%</option>
+							<option label="30037">+6%</option>
+							<option label="30038">+7%</option>
+							<option label="30039">+8%</option>
+							<option label="30040">+9%</option>
+							<option label="30041">+10%</option>
+							<option label="30042">+11%</option>
+							<option label="30043">+12%</option>
+							<option label="30044">+13%</option>
+							<option label="30045">+14%</option>
+							<option label="30046">+15%</option>
+							<option label="30047">+16%</option>
+							<option label="30048">+17%</option>
+							<option label="30049">+18%</option>
+							<option label="30050">+19%</option>
+							<option label="30051">+20%</option>
+							<option label="30052">-20%</option>
+							<option label="30053">-19%</option>
+							<option label="30054">-18%</option>
+							<option label="30055">-17%</option>
+							<option label="30056">-16%</option>
+							<option label="30057">-15%</option>
+							<option label="30058">-14%</option>
+							<option label="30059">-13%</option>
+							<option label="30060">-12%</option>
+							<option label="30061">-11%</option>
+							<option label="30062">-10%</option>
+							<option label="30063">-9%</option>
+							<option label="30064">-8%</option>
+							<option label="30065">-7%</option>
+							<option label="30066">-6%</option>
+							<option label="30067">-5%</option>
+							<option label="30068">-4%</option>
+							<option label="30069">-3%</option>
+							<option label="30070">-2%</option>
+							<option label="30071">-1%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame_current_adj_gamma" type="string" label="30013">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="571">default</option>
+							<option label="30032">+1%</option>
+							<option label="30033">+2%</option>
+							<option label="30034">+3%</option>
+							<option label="30035">+4%</option>
+							<option label="30036">+5%</option>
+							<option label="30037">+6%</option>
+							<option label="30038">+7%</option>
+							<option label="30039">+8%</option>
+							<option label="30040">+9%</option>
+							<option label="30041">+10%</option>
+							<option label="30042">+11%</option>
+							<option label="30043">+12%</option>
+							<option label="30044">+13%</option>
+							<option label="30045">+14%</option>
+							<option label="30046">+15%</option>
+							<option label="30047">+16%</option>
+							<option label="30048">+17%</option>
+							<option label="30049">+18%</option>
+							<option label="30050">+19%</option>
+							<option label="30051">+20%</option>
+							<option label="30052">-20%</option>
+							<option label="30053">-19%</option>
+							<option label="30054">-18%</option>
+							<option label="30055">-17%</option>
+							<option label="30056">-16%</option>
+							<option label="30057">-15%</option>
+							<option label="30058">-14%</option>
+							<option label="30059">-13%</option>
+							<option label="30060">-12%</option>
+							<option label="30061">-11%</option>
+							<option label="30062">-10%</option>
+							<option label="30063">-9%</option>
+							<option label="30064">-8%</option>
+							<option label="30065">-7%</option>
+							<option label="30066">-6%</option>
+							<option label="30067">-5%</option>
+							<option label="30068">-4%</option>
+							<option label="30069">-3%</option>
+							<option label="30070">-2%</option>
+							<option label="30071">-1%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame-external_hiscore" type="string" label="30014">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mame2010-qsound_hle" type="string" label="30016">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

@@ -1,0 +1,226 @@
+# game.libretro.ep128emu language file
+# Addon Name: game.libretro.ep128emu
+# Addon id: game.libretro.ep128emu
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.ep128emu\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-01-19 01:45i\n"
+"PO-Revision-Date: 2024-12-27 21:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-ep128emu/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Enterprise - 64/128 (ep128emu)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "ep128emu is a portable emulator of the Enterprise 64/128, ZX Spectrum 48/128, and Amstrad CPC 464/664/6128 computers."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Main thread wait (ms)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "High sound quality"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Use accelerated SW framebuffer"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Enable resolution changes (requires restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Border lines to keep when zooming in"
+msgstr ""
+
+msgctxt "#30006"
+msgid "System ROM version (Enterprise only)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Player 1 Zoom button"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Player 1 Info button"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Player 1 Autofire for button"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Player 1 Autofire repeat delay"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Player 1 button for intelligent zoom function."
+msgstr ""
+
+msgctxt "#30012"
+msgid "R3"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Start"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Select"
+msgstr ""
+
+msgctxt "#30015"
+msgid "X"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Y"
+msgstr ""
+
+msgctxt "#30017"
+msgid "A"
+msgstr ""
+
+msgctxt "#30018"
+msgid "B"
+msgstr ""
+
+msgctxt "#30019"
+msgid "L"
+msgstr ""
+
+msgctxt "#30020"
+msgid "R"
+msgstr ""
+
+msgctxt "#30021"
+msgid "L2"
+msgstr ""
+
+msgctxt "#30022"
+msgid "R2"
+msgstr ""
+
+msgctxt "#30023"
+msgid "L3"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Player 1 button for quick layout information."
+msgstr ""
+
+msgctxt "#30025"
+msgid "Autofire for this button (hold button to simulate quick presses and releases)."
+msgstr ""
+
+msgctxt "#30026"
+msgid "None"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Autofire speed (frames)."
+msgstr ""
+
+msgctxt "#30028"
+msgid "1"
+msgstr ""
+
+msgctxt "#30029"
+msgid "2"
+msgstr ""
+
+msgctxt "#30030"
+msgid "4"
+msgstr ""
+
+msgctxt "#30031"
+msgid "8"
+msgstr ""
+
+msgctxt "#30032"
+msgid "16"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Latency"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Configure options related to emulation performance."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Forced sleep in main emulation loop, 0 means no sleep."
+msgstr ""
+
+msgctxt "#30036"
+msgid "0"
+msgstr ""
+
+msgctxt "#30037"
+msgid "5"
+msgstr ""
+
+msgctxt "#30038"
+msgid "10"
+msgstr ""
+
+msgctxt "#30039"
+msgid "High quality conversion for sound output."
+msgstr ""
+
+msgctxt "#30040"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30041"
+msgid "On"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Use accelerated software framebuffer for rendering. Slightly higher performance, may crash in interlaced mode."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Options affecting emulation accuracy and enhancements."
+msgstr ""
+
+msgctxt "#30045"
+msgid "Enable intelligent zoom function."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Number of border rows/columns that will remain visible after zooming."
+msgstr ""
+
+msgctxt "#30047"
+msgid "20"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Original or enhanced ROM for Enterprise. Enhanced version has faster memory test."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Original"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Enhanced"
+msgstr ""

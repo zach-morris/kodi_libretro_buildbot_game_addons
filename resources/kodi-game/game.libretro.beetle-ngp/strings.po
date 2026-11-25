@@ -1,0 +1,40 @@
+# game.libretro.beetle-ngp language file
+# Addon Name: game.libretro.beetle-ngp
+# Addon id: game.libretro.beetle-ngp
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-ngp\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:47+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-ngp/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "SNK - Neo Geo Pocket / Color (Beetle NeoPop)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Based on NeoPop, this emulator is sufficient to play most commercially released games fairly well, but not very accurate in terms of low-level details."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Language (*)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "System"
+msgstr ""
+
+msgctxt "#30003"
+msgid ""
+"Language games should display text in.\n"
+"(*) Core restart required."
+msgstr ""

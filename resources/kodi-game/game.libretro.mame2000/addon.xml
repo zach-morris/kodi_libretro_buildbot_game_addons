@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mame2000"
+		name="Arcade (MAME 2000)"
+		version="0.37.0.49"
+		provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>zip|ZIP</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2000_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2000</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2000)</summary>
+		<summary lang="da_DK">Arcade (MAME 2000)</summary>
+		<summary lang="en_GB">Arcade (MAME 2000)</summary>
+		<summary lang="es_ES">Arcade (MAME 2000)</summary>
+		<summary lang="ga">Arcade (MAME 2000)</summary>
+		<summary lang="it_IT">Arcade (MAME 2000)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2000)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2000)</summary>
+		<summary lang="zh_CN">街机（MAME 2000）</summary>
+		<description lang="cs_CZ">Verze MAME z roku 2000 (0.37b5) pro Libretro. Kompatibilní se sadami iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="da_DK">2000 version af MAME (0.37b5) til libretro. Kompatibel med iMAME4All/MAME4Droid/MAME 0.37b5 sæt.</description>
+		<description lang="de_DE">2000er Version von MAME (0.37b5) für libretro. Kompatibel mit Sets von iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="en_GB">2000 version of MAME (0.37b5) for libretro. Compatible with iMAME4All/MAME4Droid/MAME 0.37b5 sets.</description>
+		<description lang="es_ES">Versión 2000 de MAME (0.37b5) para libretro. Compatible con los juegos de iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="ga">Leagan 2000 de MAME (0.37b5) do libretro. Comhoiriúnach le tacair iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="it_IT">Versione 2000 di MAME (0.37b5) per libretro. Compatibile con i set iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="ru_RU">Версия MAME 2000 года (0.37b5) для libretro. Совместима с наборами iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="sl_SI">2000 različica MAME (0.37b5) za libretro. Združljivo s kompleti iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="sv_SE">2000 års version av MAME (0.37b5) för libretro. Kompatibel med iMAME4All/MAME4Droid/MAME 0.37b5-uppsättningar.</description>
+		<description lang="zh_CN">用于 libretro 的 2000 版本的 MAME（0.37b5）。与 iMAME4All/MAME4Droid/MAME 0.37b5 集兼容。</description>
+	</extension>
+</addon>

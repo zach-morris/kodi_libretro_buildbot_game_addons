@@ -1,0 +1,1438 @@
+# game.libretro.px68k language file
+# Addon Name: game.libretro.px68k
+# Addon id: game.libretro.px68k
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.px68k\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 13:05i\n"
+"PO-Revision-Date: 2024-12-27 22:03+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-px68k/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sharp - X68000 (PX68k)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PX68k is a portable SHARP X68000 Emulator for PSP, Android and other platforms."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Menu Font Size"
+msgstr ""
+
+msgctxt "#30002"
+msgid "CPU Speed"
+msgstr ""
+
+msgctxt "#30003"
+msgid "RAM Size (Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "ADPCM Volume"
+msgstr ""
+
+msgctxt "#30009"
+msgid "OPM Volume"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Swap Disks on Drive"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Save FDD Paths"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Save HDD Paths"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Rumble on FDD Reads"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Frames Skip"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Adjust Frame Rates"
+msgstr ""
+
+msgctxt "#30021"
+msgid "MIDI Output (Restart)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "MIDI Output Type"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Text Off"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Grp Off"
+msgstr ""
+
+msgctxt "#30026"
+msgid "SP/BG Off"
+msgstr ""
+
+msgctxt "#30027"
+msgid "System"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Change emulated hardware settings."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Sets the built-in menu font size"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Configure the CPU speed. Can be used to slow down games that run too fast or to speed up floppy loading times."
+msgstr ""
+
+msgctxt "#30031"
+msgid "Sets the amount of RAM to be used by the system."
+msgstr ""
+
+msgctxt "#30032"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Change sound volumes and midi output type."
+msgstr ""
+
+msgctxt "#30034"
+msgid "Enable software MIDI."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Sets MIDI output type."
+msgstr ""
+
+msgctxt "#30036"
+msgid "Sets the volume of the ADPCM sound channel."
+msgstr ""
+
+msgctxt "#30037"
+msgid "Sets the volume of the OPM sound channel."
+msgstr ""
+
+msgctxt "#30038"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Change controller types and button mapping."
+msgstr ""
+
+msgctxt "#30045"
+msgid "Media"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Change floppy disk media swapping options."
+msgstr ""
+
+msgctxt "#30047"
+msgid "By default using the native Disk Swap interface within RetroArch's menu will swap the disk in drive FDD1. Change this option to swap disks in drive FDD0."
+msgstr ""
+
+msgctxt "#30048"
+msgid "When enabled, last loaded fdd path will be saved for each drive and then auto-loaded on startup. When disabled, FDDx starts empty."
+msgstr ""
+
+msgctxt "#30049"
+msgid "When enabled, last loaded hdd path will be saved for each drive and then auto-loaded on startup. When disabled, HDDx starts empty."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Produces rumble effect on supported devices when reading from floppy disks."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Change system-related advanced options for performance or aesthetics."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Choose how many frames will be skipped to improve performance at the expense of visual smoothness."
+msgstr ""
+
+msgctxt "#30059"
+msgid "XF1"
+msgstr ""
+
+msgctxt "#30060"
+msgid "XF2"
+msgstr ""
+
+msgctxt "#30061"
+msgid "XF3"
+msgstr ""
+
+msgctxt "#30062"
+msgid "XF4"
+msgstr ""
+
+msgctxt "#30063"
+msgid "XF5"
+msgstr ""
+
+msgctxt "#30066"
+msgid "F1"
+msgstr ""
+
+msgctxt "#30067"
+msgid "F2"
+msgstr ""
+
+msgctxt "#30068"
+msgid "CPU Emulation"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Select the 68000 CPU emulator. Restart the core after changing this option."
+msgstr ""
+
+msgctxt "#30070"
+msgid "BG/Sprite RAM Wait States"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Emulate the slow CPU access to the sprite RAM without changing the CPU speed. Sprite table changes made in the middle of the screen (raster sprite multiplexing) are shown a few lines later, as one block, like on real hardware. Fixes sprites that are cut off in Puyo Puyo."
+msgstr ""
+
+msgctxt "#30072"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Change video output and aspect ratio settings."
+msgstr ""
+
+msgctxt "#30074"
+msgid "Aspect Ratio"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Aspect ratio of the displayed picture. '4:3' stretches every picture to fill a 4:3 screen. 'X68000' reproduces what a real X68000 and its 4:3 monitor show: the size of the picture is computed from the CRTC and dot clock timing, so modes that use only part of the scan line or of the screen height (e.g. Cotton 512*256 Hi uses 75% of the width) get black borders. '1:1' shows square pixels at the core's raw resolution."
+msgstr ""
+
+msgctxt "#30076"
+msgid "4:3 (fill screen)"
+msgstr ""
+
+msgctxt "#30077"
+msgid "X68000 (CRT timing)"
+msgstr ""
+
+msgctxt "#30078"
+msgid "1:1 (square pixels)"
+msgstr ""
+
+msgctxt "#30079"
+msgid "For compatibility with modern displays, changes the 15KHz mode from 61.46 to 60Hz. Disable to get the real machine timing."
+msgstr ""
+
+msgctxt "#30080"
+msgid "Joy2Mouse"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Adds P1 D-pad and left analog stick mouse movement. Assign Mouse Btn1 and Mouse Btn2 to P1 Joy2Key inputs to use them as mouse clicks."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Joy2Mouse Analog speed"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Maximum mouse movement speed for the left analog stick, in mouse units per frame."
+msgstr ""
+
+msgctxt "#30084"
+msgid "Joy2Mouse Analog deadzone"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Analog stick deadzone percentage. Increase this if the mouse pointer drifts when the stick is released."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Joy2Mouse Digital speed"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Mouse movement speed for the D-pad, in mouse units per frame."
+msgstr ""
+
+msgctxt "#30088"
+msgid "OSD Keyboard Theme"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Style and color theme for the OSD keyboard."
+msgstr ""
+
+msgctxt "#30090"
+msgid "Flat Light"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Flat Dark"
+msgstr ""
+
+msgctxt "#30092"
+msgid "3D Light"
+msgstr ""
+
+msgctxt "#30093"
+msgid "3D Dark"
+msgstr ""
+
+msgctxt "#30094"
+msgid "OSD Keyboard Special Key Labels"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Latin: the keys are labelled KAN, ROM, COD, KIG, TOR, HIR and ZEN. Japanese: they show the captions printed on a real X68000 keyboard."
+msgstr ""
+
+msgctxt "#30096"
+msgid "Latin"
+msgstr ""
+
+msgctxt "#30097"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30098"
+msgid "OSD Keyboard Layout"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Choose how the game is displayed while the OSD keyboard is open."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Game above keyboard"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Fullscreen behind keyboard"
+msgstr ""
+
+msgctxt "#30102"
+msgid "OSD Keyboard Opacity"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Opacity of the on-screen keyboard, from 0% to 100% in 5% steps (right raises it, left lowers it). Lower values let the game show through when the layout is 'Fullscreen behind keyboard'; with 'Game above keyboard' the keyboard fades towards black. At 0% the keyboard is invisible but still works."
+msgstr ""
+
+msgctxt "#30104"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30105"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30106"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30107"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30108"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30109"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30110"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30111"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30112"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30113"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30114"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30115"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30116"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30117"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30118"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30119"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30120"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30121"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30122"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30123"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30124"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30125"
+msgid "OSD Keyboard Active Key Tint"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Face colour of the currently selected key."
+msgstr ""
+
+msgctxt "#30127"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30128"
+msgid "White"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Grey"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Black"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Red (pale)"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Red (vivid)"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Red (deep)"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Orange (pale)"
+msgstr ""
+
+msgctxt "#30135"
+msgid "Orange (vivid)"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Orange (deep)"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Yellow (pale)"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Yellow (vivid)"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Yellow (deep)"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Green (pale)"
+msgstr ""
+
+msgctxt "#30141"
+msgid "Green (vivid)"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Green (deep)"
+msgstr ""
+
+msgctxt "#30143"
+msgid "Cyan (pale)"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Cyan (vivid)"
+msgstr ""
+
+msgctxt "#30145"
+msgid "Cyan (deep)"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Blue (pale)"
+msgstr ""
+
+msgctxt "#30147"
+msgid "Blue (vivid)"
+msgstr ""
+
+msgctxt "#30148"
+msgid "Blue (deep)"
+msgstr ""
+
+msgctxt "#30149"
+msgid "Purple (pale)"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Purple (vivid)"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Purple (deep)"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Magenta (pale)"
+msgstr ""
+
+msgctxt "#30153"
+msgid "Magenta (vivid)"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Magenta (deep)"
+msgstr ""
+
+msgctxt "#30155"
+msgid "OSD Keyboard Selection Frame"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Colour of the square drawn around the selected key."
+msgstr ""
+
+msgctxt "#30157"
+msgid "OSD Keyboard Mouse Hover"
+msgstr ""
+
+msgctxt "#30158"
+msgid "When enabled, the selected key follows the mouse cursor as it moves over the on-screen keyboard. The selection only changes when the mouse actually moves, so it never fights gamepad navigation."
+msgstr ""
+
+msgctxt "#30159"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30161"
+msgid "OSD Keyboard Press Feedback"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Visual reaction when a key is touched, clicked or pressed from the pad. Flash: the key lights up and fades out after release, so even a quick tap is visible. Flash + key press: the key also sinks while pressed."
+msgstr ""
+
+msgctxt "#30163"
+msgid "Flash"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Flash + key press"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Key Repeat Delay"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Time a key must be held before it starts repeating. 'Machine' follows whatever the X68000 software programs into the keyboard (500 ms by default)."
+msgstr ""
+
+msgctxt "#30167"
+msgid "Machine (X68000 setting)"
+msgstr ""
+
+msgctxt "#30168"
+msgid "Off (no key repeat)"
+msgstr ""
+
+msgctxt "#30169"
+msgid "200 ms"
+msgstr ""
+
+msgctxt "#30170"
+msgid "300 ms"
+msgstr ""
+
+msgctxt "#30171"
+msgid "400 ms"
+msgstr ""
+
+msgctxt "#30172"
+msgid "500 ms"
+msgstr ""
+
+msgctxt "#30173"
+msgid "700 ms"
+msgstr ""
+
+msgctxt "#30174"
+msgid "1000 ms"
+msgstr ""
+
+msgctxt "#30175"
+msgid "Key Repeat Interval"
+msgstr ""
+
+msgctxt "#30176"
+msgid "Time between repeats once a held key is repeating. 'Machine' follows the X68000 setting (110 ms by default)."
+msgstr ""
+
+msgctxt "#30177"
+msgid "30 ms"
+msgstr ""
+
+msgctxt "#30178"
+msgid "50 ms"
+msgstr ""
+
+msgctxt "#30179"
+msgid "75 ms"
+msgstr ""
+
+msgctxt "#30180"
+msgid "100 ms"
+msgstr ""
+
+msgctxt "#30181"
+msgid "150 ms"
+msgstr ""
+
+msgctxt "#30182"
+msgid "P1 Joy2Key"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Map Player 1 RetroPad inputs to X68000 keyboard keys."
+msgstr ""
+
+msgctxt "#30184"
+msgid "P1 Joy2Key UP"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Select a keyboard Key to assign to this logical Joy2Key action, it can then be mapped in Controls (exit and reopen the menu to refresh J2K key labels there)."
+msgstr ""
+
+msgctxt "#30186"
+msgid "None"
+msgstr ""
+
+msgctxt "#30187"
+msgid "PX68K Menu"
+msgstr ""
+
+msgctxt "#30188"
+msgid "OSD Keyboard"
+msgstr ""
+
+msgctxt "#30189"
+msgid "Mouse Btn1"
+msgstr ""
+
+msgctxt "#30190"
+msgid "Mouse Btn2"
+msgstr ""
+
+msgctxt "#30191"
+msgid "Escape"
+msgstr ""
+
+msgctxt "#30192"
+msgid "1"
+msgstr ""
+
+msgctxt "#30193"
+msgid "2"
+msgstr ""
+
+msgctxt "#30194"
+msgid "3"
+msgstr ""
+
+msgctxt "#30195"
+msgid "4"
+msgstr ""
+
+msgctxt "#30196"
+msgid "5"
+msgstr ""
+
+msgctxt "#30197"
+msgid "6"
+msgstr ""
+
+msgctxt "#30198"
+msgid "7"
+msgstr ""
+
+msgctxt "#30199"
+msgid "8"
+msgstr ""
+
+msgctxt "#30200"
+msgid "9"
+msgstr ""
+
+msgctxt "#30201"
+msgid "0"
+msgstr ""
+
+msgctxt "#30202"
+msgid "-"
+msgstr ""
+
+msgctxt "#30203"
+msgid "^"
+msgstr ""
+
+msgctxt "#30204"
+msgid "Yen"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Backspace"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Tab"
+msgstr ""
+
+msgctxt "#30207"
+msgid "Q"
+msgstr ""
+
+msgctxt "#30208"
+msgid "W"
+msgstr ""
+
+msgctxt "#30209"
+msgid "E"
+msgstr ""
+
+msgctxt "#30210"
+msgid "R"
+msgstr ""
+
+msgctxt "#30211"
+msgid "T"
+msgstr ""
+
+msgctxt "#30212"
+msgid "Y"
+msgstr ""
+
+msgctxt "#30213"
+msgid "U"
+msgstr ""
+
+msgctxt "#30214"
+msgid "I"
+msgstr ""
+
+msgctxt "#30215"
+msgid "O"
+msgstr ""
+
+msgctxt "#30216"
+msgid "P"
+msgstr ""
+
+msgctxt "#30217"
+msgid "@"
+msgstr ""
+
+msgctxt "#30218"
+msgid "["
+msgstr ""
+
+msgctxt "#30219"
+msgid "Return"
+msgstr ""
+
+msgctxt "#30220"
+msgid "A"
+msgstr ""
+
+msgctxt "#30221"
+msgid "S"
+msgstr ""
+
+msgctxt "#30222"
+msgid "D"
+msgstr ""
+
+msgctxt "#30223"
+msgid "F"
+msgstr ""
+
+msgctxt "#30224"
+msgid "G"
+msgstr ""
+
+msgctxt "#30225"
+msgid "H"
+msgstr ""
+
+msgctxt "#30226"
+msgid "J"
+msgstr ""
+
+msgctxt "#30227"
+msgid "K"
+msgstr ""
+
+msgctxt "#30228"
+msgid "L"
+msgstr ""
+
+msgctxt "#30229"
+msgid ";"
+msgstr ""
+
+msgctxt "#30230"
+msgid ":"
+msgstr ""
+
+msgctxt "#30231"
+msgid "]"
+msgstr ""
+
+msgctxt "#30232"
+msgid "Z"
+msgstr ""
+
+msgctxt "#30233"
+msgid "X"
+msgstr ""
+
+msgctxt "#30234"
+msgid "C"
+msgstr ""
+
+msgctxt "#30235"
+msgid "V"
+msgstr ""
+
+msgctxt "#30236"
+msgid "B"
+msgstr ""
+
+msgctxt "#30237"
+msgid "N"
+msgstr ""
+
+msgctxt "#30238"
+msgid "M"
+msgstr ""
+
+msgctxt "#30239"
+msgid ","
+msgstr ""
+
+msgctxt "#30240"
+msgid "."
+msgstr ""
+
+msgctxt "#30241"
+msgid "/"
+msgstr ""
+
+msgctxt "#30242"
+msgid "Underscore"
+msgstr ""
+
+msgctxt "#30243"
+msgid "Space"
+msgstr ""
+
+msgctxt "#30244"
+msgid "Home"
+msgstr ""
+
+msgctxt "#30245"
+msgid "Delete"
+msgstr ""
+
+msgctxt "#30246"
+msgid "Roll Up"
+msgstr ""
+
+msgctxt "#30247"
+msgid "Roll Down"
+msgstr ""
+
+msgctxt "#30248"
+msgid "Undo"
+msgstr ""
+
+msgctxt "#30249"
+msgid "Cursor Left"
+msgstr ""
+
+msgctxt "#30250"
+msgid "Cursor Up"
+msgstr ""
+
+msgctxt "#30251"
+msgid "Cursor Right"
+msgstr ""
+
+msgctxt "#30252"
+msgid "Cursor Down"
+msgstr ""
+
+msgctxt "#30253"
+msgid "Clear"
+msgstr ""
+
+msgctxt "#30254"
+msgid "Keypad /"
+msgstr ""
+
+msgctxt "#30255"
+msgid "Keypad *"
+msgstr ""
+
+msgctxt "#30256"
+msgid "Keypad -"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Keypad 7"
+msgstr ""
+
+msgctxt "#30258"
+msgid "Keypad 8"
+msgstr ""
+
+msgctxt "#30259"
+msgid "Keypad 9"
+msgstr ""
+
+msgctxt "#30260"
+msgid "Keypad +"
+msgstr ""
+
+msgctxt "#30261"
+msgid "Keypad 4"
+msgstr ""
+
+msgctxt "#30262"
+msgid "Keypad 5"
+msgstr ""
+
+msgctxt "#30263"
+msgid "Keypad 6"
+msgstr ""
+
+msgctxt "#30264"
+msgid "Keypad ="
+msgstr ""
+
+msgctxt "#30265"
+msgid "Keypad 1"
+msgstr ""
+
+msgctxt "#30266"
+msgid "Keypad 2"
+msgstr ""
+
+msgctxt "#30267"
+msgid "Keypad 3"
+msgstr ""
+
+msgctxt "#30268"
+msgid "Keypad Enter"
+msgstr ""
+
+msgctxt "#30269"
+msgid "Keypad 0"
+msgstr ""
+
+msgctxt "#30270"
+msgid "Keypad ,"
+msgstr ""
+
+msgctxt "#30271"
+msgid "Keypad ."
+msgstr ""
+
+msgctxt "#30272"
+msgid "Symbol"
+msgstr ""
+
+msgctxt "#30273"
+msgid "Touroku"
+msgstr ""
+
+msgctxt "#30274"
+msgid "Help"
+msgstr ""
+
+msgctxt "#30275"
+msgid "Kana"
+msgstr ""
+
+msgctxt "#30276"
+msgid "Roman"
+msgstr ""
+
+msgctxt "#30277"
+msgid "Enter Code"
+msgstr ""
+
+msgctxt "#30278"
+msgid "Caps Lock"
+msgstr ""
+
+msgctxt "#30279"
+msgid "Insert"
+msgstr ""
+
+msgctxt "#30280"
+msgid "Hiragana"
+msgstr ""
+
+msgctxt "#30281"
+msgid "Full-width"
+msgstr ""
+
+msgctxt "#30282"
+msgid "Break"
+msgstr ""
+
+msgctxt "#30283"
+msgid "Copy"
+msgstr ""
+
+msgctxt "#30284"
+msgid "F3"
+msgstr ""
+
+msgctxt "#30285"
+msgid "F4"
+msgstr ""
+
+msgctxt "#30286"
+msgid "F5"
+msgstr ""
+
+msgctxt "#30287"
+msgid "F6"
+msgstr ""
+
+msgctxt "#30288"
+msgid "F7"
+msgstr ""
+
+msgctxt "#30289"
+msgid "F8"
+msgstr ""
+
+msgctxt "#30290"
+msgid "F9"
+msgstr ""
+
+msgctxt "#30291"
+msgid "F10"
+msgstr ""
+
+msgctxt "#30292"
+msgid "Shift"
+msgstr ""
+
+msgctxt "#30293"
+msgid "Ctrl"
+msgstr ""
+
+msgctxt "#30294"
+msgid "OPT.1"
+msgstr ""
+
+msgctxt "#30295"
+msgid "OPT.2"
+msgstr ""
+
+msgctxt "#30296"
+msgid "P1 Joy2Key Down"
+msgstr ""
+
+msgctxt "#30297"
+msgid "P1 Joy2Key Left"
+msgstr ""
+
+msgctxt "#30298"
+msgid "P1 Joy2Key Right"
+msgstr ""
+
+msgctxt "#30299"
+msgid "P1 Joy2Key Select"
+msgstr ""
+
+msgctxt "#30300"
+msgid "P1 Joy2Key Start"
+msgstr ""
+
+msgctxt "#30301"
+msgid "P1 Joy2Key A"
+msgstr ""
+
+msgctxt "#30302"
+msgid "P1 Joy2Key B"
+msgstr ""
+
+msgctxt "#30303"
+msgid "P1 Joy2Key X"
+msgstr ""
+
+msgctxt "#30304"
+msgid "P1 Joy2Key Y"
+msgstr ""
+
+msgctxt "#30305"
+msgid "P1 Joy2Key L"
+msgstr ""
+
+msgctxt "#30306"
+msgid "P1 Joy2Key R"
+msgstr ""
+
+msgctxt "#30307"
+msgid "P1 Joy2Key L2"
+msgstr ""
+
+msgctxt "#30308"
+msgid "P1 Joy2Key R2"
+msgstr ""
+
+msgctxt "#30309"
+msgid "P1 Joy2Key L3"
+msgstr ""
+
+msgctxt "#30310"
+msgid "P1 Joy2Key R3"
+msgstr ""
+
+msgctxt "#30311"
+msgid "P2 Joy2Key"
+msgstr ""
+
+msgctxt "#30312"
+msgid "Map Player 2 RetroPad inputs to X68000 keyboard keys."
+msgstr ""
+
+msgctxt "#30313"
+msgid "P2 Joy2Key UP"
+msgstr ""
+
+msgctxt "#30314"
+msgid "P2 Joy2Key Down"
+msgstr ""
+
+msgctxt "#30315"
+msgid "P2 Joy2Key Left"
+msgstr ""
+
+msgctxt "#30316"
+msgid "P2 Joy2Key Right"
+msgstr ""
+
+msgctxt "#30317"
+msgid "P2 Joy2Key Select"
+msgstr ""
+
+msgctxt "#30318"
+msgid "P2 Joy2Key Start"
+msgstr ""
+
+msgctxt "#30319"
+msgid "P2 Joy2Key A"
+msgstr ""
+
+msgctxt "#30320"
+msgid "P2 Joy2Key B"
+msgstr ""
+
+msgctxt "#30321"
+msgid "P2 Joy2Key X"
+msgstr ""
+
+msgctxt "#30322"
+msgid "P2 Joy2Key Y"
+msgstr ""
+
+msgctxt "#30323"
+msgid "P2 Joy2Key L"
+msgstr ""
+
+msgctxt "#30324"
+msgid "P2 Joy2Key R"
+msgstr ""
+
+msgctxt "#30325"
+msgid "P2 Joy2Key L2"
+msgstr ""
+
+msgctxt "#30326"
+msgid "P2 Joy2Key R2"
+msgstr ""
+
+msgctxt "#30327"
+msgid "P2 Joy2Key L3"
+msgstr ""
+
+msgctxt "#30328"
+msgid "P2 Joy2Key R3"
+msgstr ""
+
+msgctxt "#30329"
+msgid "Internal MIDI Synthesizer"
+msgstr ""
+
+msgctxt "#30330"
+msgid "Select the internal MIDI synthesizer instead of RetroArch MIDI output. SC-55 uses Nuked-SC55 ROMs; MT-32 and CM-32L use compatible Munt ROMs in the System Directory or recognized subfolders."
+msgstr ""
+
+msgctxt "#30331"
+msgid "Roland SC-55"
+msgstr ""
+
+msgctxt "#30332"
+msgid "Roland MT-32"
+msgstr ""
+
+msgctxt "#30333"
+msgid "Roland CM-32L"
+msgstr ""
+
+msgctxt "#30334"
+msgid "MIDI Emulation Volume"
+msgstr ""
+
+msgctxt "#30335"
+msgid "Adjust the volume of the active internal MIDI synthesizer relative to PX68K audio. 100% is the default level."
+msgstr ""
+
+msgctxt "#30336"
+msgid "105%"
+msgstr ""
+
+msgctxt "#30337"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30338"
+msgid "115%"
+msgstr ""
+
+msgctxt "#30339"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30340"
+msgid "125%"
+msgstr ""
+
+msgctxt "#30341"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30342"
+msgid "135%"
+msgstr ""
+
+msgctxt "#30343"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30344"
+msgid "145%"
+msgstr ""
+
+msgctxt "#30345"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30346"
+msgid "155%"
+msgstr ""
+
+msgctxt "#30347"
+msgid "160%"
+msgstr ""
+
+msgctxt "#30348"
+msgid "165%"
+msgstr ""
+
+msgctxt "#30349"
+msgid "170%"
+msgstr ""
+
+msgctxt "#30350"
+msgid "175%"
+msgstr ""
+
+msgctxt "#30351"
+msgid "180%"
+msgstr ""
+
+msgctxt "#30352"
+msgid "185%"
+msgstr ""
+
+msgctxt "#30353"
+msgid "190%"
+msgstr ""
+
+msgctxt "#30354"
+msgid "195%"
+msgstr ""
+
+msgctxt "#30355"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30356"
+msgid "MIDI Restore On State Load"
+msgstr ""
+
+msgctxt "#30357"
+msgid "When a state is loaded, the MIDI synthesizer still holds whatever it was last sent. Choose what to restore so the music sounds as it did when the state was saved. 'Synth Setup' re-sends the sound standard (LA/GM/GS/XG), SysEx parameters and each channel's bank, program, volume, pan, effects and pitch bend. 'Setup And Output' also switches back to the selected internal synthesizer or external MIDI output that was in use at the time, when available. Has no effect on Run-Ahead."
+msgstr ""
+
+msgctxt "#30358"
+msgid "Synth Setup"
+msgstr ""
+
+msgctxt "#30359"
+msgid "Setup And Output"
+msgstr ""
+
+msgctxt "#30360"
+msgid "ADPCM Low-Pass Filter"
+msgstr ""
+
+msgctxt "#30361"
+msgid "Enable the original ADPCM low-pass filter."
+msgstr ""
+
+msgctxt "#30362"
+msgid "Auto Insert Floppies from Archive"
+msgstr ""
+
+msgctxt "#30363"
+msgid "Controls whether another floppy from a ZIP archive is inserted automatically at boot or during disk changes."
+msgstr ""
+
+msgctxt "#30364"
+msgid "Boot Only"
+msgstr ""
+
+msgctxt "#30365"
+msgid "At Disk Change"
+msgstr ""
+
+msgctxt "#30366"
+msgid "Menu"
+msgstr ""
+
+msgctxt "#30367"
+msgid "Configure the built-in menu and navigation."
+msgstr ""
+
+msgctxt "#30368"
+msgid "MAME Software List Names"
+msgstr ""
+
+msgctxt "#30369"
+msgid "Show English descriptions or Japanese alt_title labels from MAME x68k_flop.xml for matching ZIP filenames in the internal explorer. Requires MAME/hash/x68k_flop.xml in the system directory."
+msgstr ""
+
+msgctxt "#30370"
+msgid "English"
+msgstr ""
+
+msgctxt "#30371"
+msgid "Lines Jump (with left-right)"
+msgstr ""
+
+msgctxt "#30372"
+msgid "Number of entries to jump when pressing Left or Right in the built-in menu."
+msgstr ""
+
+msgctxt "#30373"
+msgid "Disables the text layer, used for characters, text overlays, and some interface elements."
+msgstr ""
+
+msgctxt "#30374"
+msgid "Disables the graphics layer, typically used for bitmap graphics and backgrounds."
+msgstr ""
+
+msgctxt "#30375"
+msgid "Disables the sprite and tile-based background layers, commonly used for game characters, objects, and scrolling backgrounds."
+msgstr ""

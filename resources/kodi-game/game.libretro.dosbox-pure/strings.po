@@ -1,0 +1,1947 @@
+# game.libretro.dosbox-pure language file
+# Addon Name: game.libretro.dosbox-pure
+# Addon id: game.libretro.dosbox-pure
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.dosbox-pure\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 21:35i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-dosbox-pure/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "DOS (DOSBox-Pure)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "DOSBox Pure is a new fork of DOSBox built for RetroArch/Libretro aiming for simplicity and ease of use."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "General"
+msgstr ""
+
+msgctxt "#30002"
+msgid "General settings (save states, start menu, fixed FPS)."
+msgstr ""
+
+msgctxt "#30003"
+msgid "Force Output FPS"
+msgstr ""
+
+msgctxt "#30004"
+msgid ""
+"Enable this to force output at a fixed rate. Try 60 FPS if you encounter screen tearing or vsync issues.\n"
+"Output will have frames skipped at lower rates and frames duplicated at higher rates."
+msgstr ""
+
+msgctxt "#30005"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30006"
+msgid "On (10 FPS)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "On (15 FPS)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "On (20 FPS)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "On (30 FPS)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "On (35 FPS)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "On (50 FPS)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "On (60 FPS)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "On (70 FPS)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "On (90 FPS)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "On (120 FPS)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "On (144 FPS)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "On (240 FPS)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "On (360 FPS)"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Save States Support"
+msgstr ""
+
+msgctxt "#30020"
+msgid ""
+"Make sure to test it in each game before using it. Complex late era DOS games might have problems.\n"
+"Be aware that states saved with different video, CPU or memory settings are not loadable.\n"
+"Rewind support comes at a high performance cost and needs at least 40MB of rewind buffer.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Enable save states"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Enable save states with rewind"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Advanced > Use Strict Mode"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Disable the command line, running installed operating systems and using .BAT/.COM/.EXE/DOS.YML files from the save game."
+msgstr ""
+
+msgctxt "#30026"
+msgid "On"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Advanced > Loading of dosbox.conf"
+msgstr ""
+
+msgctxt "#30028"
+msgid "DOSBox Pure is meant to be configured via core options but optionally supports loading of legacy .conf files."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Disabled conf support (default)"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Try 'dosbox.conf' in the loaded content (ZIP or folder)"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Try '.conf' with same name as loaded content (next to ZIP or folder)"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Advanced > Start Menu"
+msgstr ""
+
+msgctxt "#30033"
+msgid ""
+"Set the behavior of the start menu before and after launching a game.\n"
+"You can also force it to open by holding shift or L2/R2 when selecting 'Restart'."
+msgstr ""
+
+msgctxt "#30034"
+msgid "Show at start, show again after game ends (default)"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Show at start, exit emulator 5 seconds after auto started game ends"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Show at start, exit emulator 3 seconds after auto started game ends"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Show at start, exit emulator immediately after auto started game ends"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Ignore auto start setting, always show menu on startup and after game ends"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Advanced > Menu Transparency"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Set the transparency level of the Menu and the On-Screen Keyboard."
+msgstr ""
+
+msgctxt "#30041"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30042"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30043"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30044"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30045"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30046"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30047"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30048"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30049"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30050"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Keyboard, mouse and joystick settings."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Use L3 Button to Show Menu"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Always bind the L3 controller button to show the menu to swap CDs/Disks and use the On-Screen Keyboard."
+msgstr ""
+
+msgctxt "#30055"
+msgid "On (Default to Menu)"
+msgstr ""
+
+msgctxt "#30056"
+msgid "On (Default to On-Screen Keyboard)"
+msgstr ""
+
+msgctxt "#30057"
+msgid "On (Only On-Screen Keyboard While in Game)"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Mouse Input Mode"
+msgstr ""
+
+msgctxt "#30059"
+msgid ""
+"You can disable input handling from a mouse or a touchscreen (emulated mouse through joypad will still work).\n"
+"In touchpad mode use drag to move, tap to click, two finger tap to right-click and press-and-hold to drag"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Auto (default)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Virtual mouse movement"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Direct controlled mouse (not supported by all games)"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Touchpad mode (see description, best for touch screens)"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Off (ignore mouse inputs)"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Bind Mouse Wheel To Key"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Bind mouse wheel up and down to two keyboard keys to be able to use it in DOS games."
+msgstr ""
+
+msgctxt "#30067"
+msgid "Left-Bracket/Right-Bracket"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Comma/Period"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Page-Up/Page-Down"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Home/End"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Delete/Page-Down"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Minus/Equals"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Semicolon/Quote"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Numpad Minus/Plus"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Numpad Divide/Multiply"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Up/Down"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Left/Right"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Q/E"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Disable"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30081"
+msgid ""
+"Sets the overall mouse cursor movement speed.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30082"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30083"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30084"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30085"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30086"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30087"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30088"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30089"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30090"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30091"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30092"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30093"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30094"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30095"
+msgid "160%"
+msgstr ""
+
+msgctxt "#30096"
+msgid "170%"
+msgstr ""
+
+msgctxt "#30097"
+msgid "180%"
+msgstr ""
+
+msgctxt "#30098"
+msgid "190%"
+msgstr ""
+
+msgctxt "#30099"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30100"
+msgid "220%"
+msgstr ""
+
+msgctxt "#30101"
+msgid "240%"
+msgstr ""
+
+msgctxt "#30102"
+msgid "260%"
+msgstr ""
+
+msgctxt "#30103"
+msgid "280%"
+msgstr ""
+
+msgctxt "#30104"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30105"
+msgid "320%"
+msgstr ""
+
+msgctxt "#30106"
+msgid "340%"
+msgstr ""
+
+msgctxt "#30107"
+msgid "360%"
+msgstr ""
+
+msgctxt "#30108"
+msgid "380%"
+msgstr ""
+
+msgctxt "#30109"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30110"
+msgid "420%"
+msgstr ""
+
+msgctxt "#30111"
+msgid "440%"
+msgstr ""
+
+msgctxt "#30112"
+msgid "460%"
+msgstr ""
+
+msgctxt "#30113"
+msgid "480%"
+msgstr ""
+
+msgctxt "#30114"
+msgid "500%"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Advanced > Horizontal Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Experiment with this value if the mouse is too fast/slow when moving left/right."
+msgstr ""
+
+msgctxt "#30117"
+msgid "Advanced > Action Wheel Inputs"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Sets which inputs control the action wheel."
+msgstr ""
+
+msgctxt "#30119"
+msgid "Right Stick, D-Pad, Mouse (Default)"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Right Stick, D-Pad"
+msgstr ""
+
+msgctxt "#30121"
+msgid "Right Stick, Mouse"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Right Stick"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Both Sticks, D-Pad, Mouse"
+msgstr ""
+
+msgctxt "#30124"
+msgid "Both Sticks, D-Pad"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Both Sticks, Mouse"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Both Sticks"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Left Stick, D-Pad, Mouse"
+msgstr ""
+
+msgctxt "#30128"
+msgid "Left Stick, D-Pad"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Left Stick, Mouse"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Left Stick"
+msgstr ""
+
+msgctxt "#30131"
+msgid "D-Pad, Mouse"
+msgstr ""
+
+msgctxt "#30132"
+msgid "D-Pad"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Mouse"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Advanced > Automatic Game Pad Mappings"
+msgstr ""
+
+msgctxt "#30135"
+msgid ""
+"DOSBox Pure can automatically apply a gamepad control mapping scheme when it detects a game.\n"
+"These button mappings are provided by the Keyb2Joypad Project (by Jemy Murphy and bigjim)."
+msgstr ""
+
+msgctxt "#30136"
+msgid "On (default)"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Enable with notification on game detection"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Advanced > Keyboard Layout"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Select the keyboard layout (will not change the On-Screen Keyboard)."
+msgstr ""
+
+msgctxt "#30140"
+msgid "US (default)"
+msgstr ""
+
+msgctxt "#30141"
+msgid "UK"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Belgium"
+msgstr ""
+
+msgctxt "#30143"
+msgid "Brazil"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Croatia"
+msgstr ""
+
+msgctxt "#30145"
+msgid "Czech Republic"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Denmark"
+msgstr ""
+
+msgctxt "#30147"
+msgid "Finland"
+msgstr ""
+
+msgctxt "#30148"
+msgid "France"
+msgstr ""
+
+msgctxt "#30149"
+msgid "Germany"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Greece"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Hungary"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Iceland"
+msgstr ""
+
+msgctxt "#30153"
+msgid "Italy"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Netherlands"
+msgstr ""
+
+msgctxt "#30155"
+msgid "Norway"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Poland"
+msgstr ""
+
+msgctxt "#30157"
+msgid "Portugal"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Russia"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Slovakia"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Slovenia"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Spain"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Sweden"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Switzerland (German)"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Switzerland (French)"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Turkey"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Advanced > Joystick Analog Deadzone"
+msgstr ""
+
+msgctxt "#30167"
+msgid "Set the deadzone of the joystick analog sticks. May be used to eliminate drift caused by poorly calibrated joystick hardware."
+msgstr ""
+
+msgctxt "#30168"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30169"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30170"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30171"
+msgid "Advanced > Enable Joystick Timed Intervals"
+msgstr ""
+
+msgctxt "#30172"
+msgid ""
+"Enable timed intervals for joystick axes. Experiment with this option if your joystick drifts.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30173"
+msgid "Performance"
+msgstr ""
+
+msgctxt "#30174"
+msgid "Adjust the performance of the emulated CPU."
+msgstr ""
+
+msgctxt "#30175"
+msgid "Emulated Performance"
+msgstr ""
+
+msgctxt "#30176"
+msgid ""
+"The raw performance that DOSBox will try to emulate.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30177"
+msgid "AUTO - DOSBox will try to detect performance needs (default)"
+msgstr ""
+
+msgctxt "#30178"
+msgid "MAX - Emulate as many instructions as possible"
+msgstr ""
+
+msgctxt "#30179"
+msgid "8086/8088, 4.77 MHz from 1980 (315 cps)"
+msgstr ""
+
+msgctxt "#30180"
+msgid "286, 6 MHz from 1982 (1320 cps)"
+msgstr ""
+
+msgctxt "#30181"
+msgid "286, 12.5 MHz from 1985 (2750 cps)"
+msgstr ""
+
+msgctxt "#30182"
+msgid "386, 20 MHz from 1987 (4720 cps)"
+msgstr ""
+
+msgctxt "#30183"
+msgid "386DX, 33 MHz from 1989 (7800 cps)"
+msgstr ""
+
+msgctxt "#30184"
+msgid "486DX, 33 MHz from 1990 (13400 cps)"
+msgstr ""
+
+msgctxt "#30185"
+msgid "486DX2, 66 MHz from 1992 (26800 cps)"
+msgstr ""
+
+msgctxt "#30186"
+msgid "Pentium, 100 MHz from 1995 (77000 cps)"
+msgstr ""
+
+msgctxt "#30187"
+msgid "Pentium II, 300 MHz from 1997 (200000 cps)"
+msgstr ""
+
+msgctxt "#30188"
+msgid "Pentium III, 600 MHz from 1999 (500000 cps)"
+msgstr ""
+
+msgctxt "#30189"
+msgid "AMD Athlon, 1.2 GHz from 2000 (1000000 cps)"
+msgstr ""
+
+msgctxt "#30190"
+msgid "Detailed > Maximum Emulated Performance"
+msgstr ""
+
+msgctxt "#30191"
+msgid "With dynamic CPU speed (AUTO or MAX above), the maximum emulated performance level."
+msgstr ""
+
+msgctxt "#30192"
+msgid "Unlimited"
+msgstr ""
+
+msgctxt "#30193"
+msgid "Detailed > Performance Scale"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Fine tune the emulated performance for specific needs."
+msgstr ""
+
+msgctxt "#30195"
+msgid "105%"
+msgstr ""
+
+msgctxt "#30196"
+msgid "115%"
+msgstr ""
+
+msgctxt "#30197"
+msgid "125%"
+msgstr ""
+
+msgctxt "#30198"
+msgid "135%"
+msgstr ""
+
+msgctxt "#30199"
+msgid "145%"
+msgstr ""
+
+msgctxt "#30200"
+msgid "155%"
+msgstr ""
+
+msgctxt "#30201"
+msgid "165%"
+msgstr ""
+
+msgctxt "#30202"
+msgid "175%"
+msgstr ""
+
+msgctxt "#30203"
+msgid "185%"
+msgstr ""
+
+msgctxt "#30204"
+msgid "195%"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Detailed > Limit CPU Usage"
+msgstr ""
+
+msgctxt "#30206"
+msgid ""
+"When emulating DOS as fast as possible, how much time per frame should be used by the emulation.\n"
+"Lower this if your device becomes hot while using this core.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30207"
+msgid "51%"
+msgstr ""
+
+msgctxt "#30208"
+msgid "52%"
+msgstr ""
+
+msgctxt "#30209"
+msgid "53%"
+msgstr ""
+
+msgctxt "#30210"
+msgid "54%"
+msgstr ""
+
+msgctxt "#30211"
+msgid "56%"
+msgstr ""
+
+msgctxt "#30212"
+msgid "57%"
+msgstr ""
+
+msgctxt "#30213"
+msgid "58%"
+msgstr ""
+
+msgctxt "#30214"
+msgid "59%"
+msgstr ""
+
+msgctxt "#30215"
+msgid "61%"
+msgstr ""
+
+msgctxt "#30216"
+msgid "62%"
+msgstr ""
+
+msgctxt "#30217"
+msgid "63%"
+msgstr ""
+
+msgctxt "#30218"
+msgid "64%"
+msgstr ""
+
+msgctxt "#30219"
+msgid "66%"
+msgstr ""
+
+msgctxt "#30220"
+msgid "67%"
+msgstr ""
+
+msgctxt "#30221"
+msgid "68%"
+msgstr ""
+
+msgctxt "#30222"
+msgid "69%"
+msgstr ""
+
+msgctxt "#30223"
+msgid "71%"
+msgstr ""
+
+msgctxt "#30224"
+msgid "72%"
+msgstr ""
+
+msgctxt "#30225"
+msgid "73%"
+msgstr ""
+
+msgctxt "#30226"
+msgid "74%"
+msgstr ""
+
+msgctxt "#30227"
+msgid "76%"
+msgstr ""
+
+msgctxt "#30228"
+msgid "77%"
+msgstr ""
+
+msgctxt "#30229"
+msgid "78%"
+msgstr ""
+
+msgctxt "#30230"
+msgid "79%"
+msgstr ""
+
+msgctxt "#30231"
+msgid "81%"
+msgstr ""
+
+msgctxt "#30232"
+msgid "82%"
+msgstr ""
+
+msgctxt "#30233"
+msgid "83%"
+msgstr ""
+
+msgctxt "#30234"
+msgid "84%"
+msgstr ""
+
+msgctxt "#30235"
+msgid "86%"
+msgstr ""
+
+msgctxt "#30236"
+msgid "87%"
+msgstr ""
+
+msgctxt "#30237"
+msgid "88%"
+msgstr ""
+
+msgctxt "#30238"
+msgid "89%"
+msgstr ""
+
+msgctxt "#30239"
+msgid "91%"
+msgstr ""
+
+msgctxt "#30240"
+msgid "92%"
+msgstr ""
+
+msgctxt "#30241"
+msgid "93%"
+msgstr ""
+
+msgctxt "#30242"
+msgid "94%"
+msgstr ""
+
+msgctxt "#30243"
+msgid "96%"
+msgstr ""
+
+msgctxt "#30244"
+msgid "97%"
+msgstr ""
+
+msgctxt "#30245"
+msgid "98%"
+msgstr ""
+
+msgctxt "#30246"
+msgid "99%"
+msgstr ""
+
+msgctxt "#30247"
+msgid "Advanced > Show Performance Statistics"
+msgstr ""
+
+msgctxt "#30248"
+msgid "Enable this to show statistics about performance and framerate and check if emulation runs at full speed."
+msgstr ""
+
+msgctxt "#30249"
+msgid "Simple"
+msgstr ""
+
+msgctxt "#30250"
+msgid "Detailed information"
+msgstr ""
+
+msgctxt "#30251"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30252"
+msgid "Settings for the emulated graphics card and aspect ratio."
+msgstr ""
+
+msgctxt "#30253"
+msgid "Emulated Graphics Chip (restart required)"
+msgstr ""
+
+msgctxt "#30254"
+msgid "The type of graphics chip that DOSBox will emulate."
+msgstr ""
+
+msgctxt "#30255"
+msgid "SVGA (Super Video Graphics Array) (default)"
+msgstr ""
+
+msgctxt "#30256"
+msgid "VGA (Video Graphics Array)"
+msgstr ""
+
+msgctxt "#30257"
+msgid "EGA (Enhanced Graphics Adapter)"
+msgstr ""
+
+msgctxt "#30258"
+msgid "CGA (Color Graphics Adapter)"
+msgstr ""
+
+msgctxt "#30259"
+msgid "Tandy (Tandy Graphics Adapter)"
+msgstr ""
+
+msgctxt "#30260"
+msgid "Hercules (Hercules Graphics Card)"
+msgstr ""
+
+msgctxt "#30261"
+msgid "PCjr"
+msgstr ""
+
+msgctxt "#30262"
+msgid "CGA Mode"
+msgstr ""
+
+msgctxt "#30263"
+msgid "The CGA variation that is being emulated."
+msgstr ""
+
+msgctxt "#30264"
+msgid "Early model, composite mode auto (default)"
+msgstr ""
+
+msgctxt "#30265"
+msgid "Early model, composite mode on"
+msgstr ""
+
+msgctxt "#30266"
+msgid "Early model, composite mode off"
+msgstr ""
+
+msgctxt "#30267"
+msgid "Late model, composite mode auto"
+msgstr ""
+
+msgctxt "#30268"
+msgid "Late model, composite mode on"
+msgstr ""
+
+msgctxt "#30269"
+msgid "Late model, composite mode off"
+msgstr ""
+
+msgctxt "#30270"
+msgid "Hercules Color Mode"
+msgstr ""
+
+msgctxt "#30271"
+msgid "The color scheme for Hercules emulation."
+msgstr ""
+
+msgctxt "#30272"
+msgid "Black & white (default)"
+msgstr ""
+
+msgctxt "#30273"
+msgid "Black & amber"
+msgstr ""
+
+msgctxt "#30274"
+msgid "Black & green"
+msgstr ""
+
+msgctxt "#30275"
+msgid "SVGA Mode (restart required)"
+msgstr ""
+
+msgctxt "#30276"
+msgid "The SVGA variation that is being emulated. Try changing this if you encounter graphical glitches."
+msgstr ""
+
+msgctxt "#30277"
+msgid "S3 Trio64 (default)"
+msgstr ""
+
+msgctxt "#30278"
+msgid "S3 Trio64 no-line buffer hack (reduces flickering in some games)"
+msgstr ""
+
+msgctxt "#30279"
+msgid "S3 Trio64 VESA 1.3"
+msgstr ""
+
+msgctxt "#30280"
+msgid "Tseng Labs ET3000"
+msgstr ""
+
+msgctxt "#30281"
+msgid "Tseng Labs ET4000"
+msgstr ""
+
+msgctxt "#30282"
+msgid "Paradise PVGA1A"
+msgstr ""
+
+msgctxt "#30283"
+msgid "SVGA Memory (restart required)"
+msgstr ""
+
+msgctxt "#30284"
+msgid "The amount of memory available to the emulated SVGA card."
+msgstr ""
+
+msgctxt "#30285"
+msgid "512KB"
+msgstr ""
+
+msgctxt "#30286"
+msgid "1MB"
+msgstr ""
+
+msgctxt "#30287"
+msgid "2MB (default)"
+msgstr ""
+
+msgctxt "#30288"
+msgid "3MB"
+msgstr ""
+
+msgctxt "#30289"
+msgid "4MB"
+msgstr ""
+
+msgctxt "#30290"
+msgid "8MB (not always recognized)"
+msgstr ""
+
+msgctxt "#30291"
+msgid "3dfx Voodoo Emulation"
+msgstr ""
+
+msgctxt "#30292"
+msgid ""
+"Enables certain games with support for the Voodoo 3D accelerator.\n"
+"3dfx Voodoo Graphics SST-1/2 emulator by Aaron Giles and the MAME team (license: BSD-3-Clause)"
+msgstr ""
+
+msgctxt "#30293"
+msgid "Enabled - 8MB memory (default)"
+msgstr ""
+
+msgctxt "#30294"
+msgid "Enabled - 12MB memory, Dual Texture"
+msgstr ""
+
+msgctxt "#30295"
+msgid "Enabled - 4MB memory, Low Resolution Only"
+msgstr ""
+
+msgctxt "#30296"
+msgid "3dfx Voodoo Performance"
+msgstr ""
+
+msgctxt "#30297"
+msgid ""
+"Options to tweak the behavior of the 3dfx Voodoo emulation.\n"
+"Switching to OpenGL requires a restart.\n"
+"If OpenGL is available, host-side 3D acceleration is used which can make 3D rendering much faster.\n"
+"Auto will use OpenGL if it is the active video driver in the frontend."
+msgstr ""
+
+msgctxt "#30298"
+msgid "Hardware OpenGL"
+msgstr ""
+
+msgctxt "#30299"
+msgid "Software Multi Threaded"
+msgstr ""
+
+msgctxt "#30300"
+msgid "Software Multi Threaded, low quality"
+msgstr ""
+
+msgctxt "#30301"
+msgid "Software Single Threaded, low quality"
+msgstr ""
+
+msgctxt "#30302"
+msgid "Software Single Threaded"
+msgstr ""
+
+msgctxt "#30303"
+msgid "3dfx Voodoo OpenGL Scaling"
+msgstr ""
+
+msgctxt "#30304"
+msgid "Increase the native resolution of the rendered image."
+msgstr ""
+
+msgctxt "#30305"
+msgid "1x"
+msgstr ""
+
+msgctxt "#30306"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30307"
+msgid "3x"
+msgstr ""
+
+msgctxt "#30308"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30309"
+msgid "5x"
+msgstr ""
+
+msgctxt "#30310"
+msgid "6x"
+msgstr ""
+
+msgctxt "#30311"
+msgid "7x"
+msgstr ""
+
+msgctxt "#30312"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30313"
+msgid "3dfx Voodoo Gamma Correction"
+msgstr ""
+
+msgctxt "#30314"
+msgid "Change brightness of rendered 3dfx output."
+msgstr ""
+
+msgctxt "#30315"
+msgid "-10"
+msgstr ""
+
+msgctxt "#30316"
+msgid "-9"
+msgstr ""
+
+msgctxt "#30317"
+msgid "-8"
+msgstr ""
+
+msgctxt "#30318"
+msgid "-7"
+msgstr ""
+
+msgctxt "#30319"
+msgid "-6"
+msgstr ""
+
+msgctxt "#30320"
+msgid "-5"
+msgstr ""
+
+msgctxt "#30321"
+msgid "-4"
+msgstr ""
+
+msgctxt "#30322"
+msgid "-3"
+msgstr ""
+
+msgctxt "#30323"
+msgid "-2"
+msgstr ""
+
+msgctxt "#30324"
+msgid "-1"
+msgstr ""
+
+msgctxt "#30325"
+msgid "None"
+msgstr ""
+
+msgctxt "#30326"
+msgid "+1"
+msgstr ""
+
+msgctxt "#30327"
+msgid "+2"
+msgstr ""
+
+msgctxt "#30328"
+msgid "+3"
+msgstr ""
+
+msgctxt "#30329"
+msgid "+4"
+msgstr ""
+
+msgctxt "#30330"
+msgid "+5"
+msgstr ""
+
+msgctxt "#30331"
+msgid "+6"
+msgstr ""
+
+msgctxt "#30332"
+msgid "+7"
+msgstr ""
+
+msgctxt "#30333"
+msgid "+8"
+msgstr ""
+
+msgctxt "#30334"
+msgid "+9"
+msgstr ""
+
+msgctxt "#30335"
+msgid "+10"
+msgstr ""
+
+msgctxt "#30336"
+msgid "Disable Gamma Correction"
+msgstr ""
+
+msgctxt "#30337"
+msgid "Aspect Ratio Correction"
+msgstr ""
+
+msgctxt "#30338"
+msgid "Adjust the aspect ratio to approximate what a CRT monitor would display (works best on high resolution displays and without integer scaling)."
+msgstr ""
+
+msgctxt "#30339"
+msgid "Off (default)"
+msgstr ""
+
+msgctxt "#30340"
+msgid "On (single-scan)"
+msgstr ""
+
+msgctxt "#30341"
+msgid "On (double-scan when applicable)"
+msgstr ""
+
+msgctxt "#30342"
+msgid "Padded to 4:3 (single-scan)"
+msgstr ""
+
+msgctxt "#30343"
+msgid "Padded to 4:3 (double-scan when applicable)"
+msgstr ""
+
+msgctxt "#30344"
+msgid "Overscan Border Size"
+msgstr ""
+
+msgctxt "#30345"
+msgid ""
+"When enabled, show a border around the display. Some games use the color of the border to convey information.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30346"
+msgid "Small"
+msgstr ""
+
+msgctxt "#30347"
+msgid "Medium"
+msgstr ""
+
+msgctxt "#30348"
+msgid "Large"
+msgstr ""
+
+msgctxt "#30349"
+msgid "System"
+msgstr ""
+
+msgctxt "#30350"
+msgid "Other hardware emulation settings for RAM, CPU and OS."
+msgstr ""
+
+msgctxt "#30351"
+msgid "Memory Size (restart required)"
+msgstr ""
+
+msgctxt "#30352"
+msgid ""
+"The amount of (high) memory that the emulated machine has. You can also disable extended memory (EMS/XMS).\n"
+"Using more than the default is not recommended, due to incompatibility with certain games and applications."
+msgstr ""
+
+msgctxt "#30353"
+msgid "Disable extended memory (no EMS/XMS)"
+msgstr ""
+
+msgctxt "#30354"
+msgid "4 MB"
+msgstr ""
+
+msgctxt "#30355"
+msgid "8 MB"
+msgstr ""
+
+msgctxt "#30356"
+msgid "16 MB (default)"
+msgstr ""
+
+msgctxt "#30357"
+msgid "24 MB"
+msgstr ""
+
+msgctxt "#30358"
+msgid "32 MB"
+msgstr ""
+
+msgctxt "#30359"
+msgid "48 MB"
+msgstr ""
+
+msgctxt "#30360"
+msgid "64 MB"
+msgstr ""
+
+msgctxt "#30361"
+msgid "96 MB"
+msgstr ""
+
+msgctxt "#30362"
+msgid "128 MB"
+msgstr ""
+
+msgctxt "#30363"
+msgid "224 MB"
+msgstr ""
+
+msgctxt "#30364"
+msgid "256 MB"
+msgstr ""
+
+msgctxt "#30365"
+msgid "512 MB"
+msgstr ""
+
+msgctxt "#30366"
+msgid "1024 MB"
+msgstr ""
+
+msgctxt "#30367"
+msgid "Modem Type"
+msgstr ""
+
+msgctxt "#30368"
+msgid "Type of emulated modem on COM1 for netplay. With the dial-up modem, one side needs to dial any number to connect."
+msgstr ""
+
+msgctxt "#30369"
+msgid "Null Modem (Direct Serial)"
+msgstr ""
+
+msgctxt "#30370"
+msgid "Dial-Up Modem (Hayes Standard)"
+msgstr ""
+
+msgctxt "#30371"
+msgid "CPU Type (restart required)"
+msgstr ""
+
+msgctxt "#30372"
+msgid ""
+"Emulated CPU type. Auto is the fastest choice.\n"
+"Games that require specific CPU type selection:\n"
+"386 (prefetch): X-Men: Madness in The Murderworld, Terminator 1, Contra, Fifa International Soccer 1994\n"
+"486 (slow): Betrayal in Antara\n"
+"Pentium (slow): Fifa International Soccer 1994, Windows 95/Windows 3.x games\n"
+"\n"
+msgstr ""
+
+msgctxt "#30373"
+msgid "Auto - Mixed feature set with maximum performance and compatibility"
+msgstr ""
+
+msgctxt "#30374"
+msgid "386 - 386 instruction with fast memory access"
+msgstr ""
+
+msgctxt "#30375"
+msgid "386 (slow) - 386 instruction set with memory privilege checks"
+msgstr ""
+
+msgctxt "#30376"
+msgid "386 (prefetch) - With prefetch queue emulation (only on 'auto' and 'normal' core)"
+msgstr ""
+
+msgctxt "#30377"
+msgid "486 (slow) - 486 instruction set with memory privilege checks"
+msgstr ""
+
+msgctxt "#30378"
+msgid "Pentium (slow) - 586 instruction set with memory privilege checks"
+msgstr ""
+
+msgctxt "#30379"
+msgid "Advanced > CPU Core"
+msgstr ""
+
+msgctxt "#30380"
+msgid "Emulation method (DOSBox CPU core) used."
+msgstr ""
+
+msgctxt "#30381"
+msgid "Auto - Real-mode games use normal, protected-mode games use dynamic"
+msgstr ""
+
+msgctxt "#30382"
+msgid "Dynamic - Dynamic recompilation (fast, using dynamic_x86 implementation)"
+msgstr ""
+
+msgctxt "#30383"
+msgid "Normal (interpreter)"
+msgstr ""
+
+msgctxt "#30384"
+msgid "Simple (interpreter optimized for old real-mode games)"
+msgstr ""
+
+msgctxt "#30385"
+msgid "Advanced > OS Disk Modifications (restart required)"
+msgstr ""
+
+msgctxt "#30386"
+msgid ""
+"When running an installed operating system, modifications to the C: drive will be made on the disk image by default.\n"
+"Setting it to 'Discard' allows the content to be closed any time without worry of file system or registry corruption.\n"
+"When using 'Save Difference Per Content' the disk image must never be modified again, otherwise existing differences become unusable."
+msgstr ""
+
+msgctxt "#30387"
+msgid "Keep (default)"
+msgstr ""
+
+msgctxt "#30388"
+msgid "Discard"
+msgstr ""
+
+msgctxt "#30389"
+msgid "Save Difference Per Content"
+msgstr ""
+
+msgctxt "#30390"
+msgid "Advanced > Free Space on D: in OS (restart required)"
+msgstr ""
+
+msgctxt "#30391"
+msgid ""
+"Controls the amount of free space available on the D: drive when running an installed operating system.\n"
+"If the total size of the D: drive (data + free space) exceeds 2 GB, it can't be used in earlier versions of Windows 95.\n"
+"WARNING: Created save files are tied to this setting, so changing this will hide all existing D: drive changes."
+msgstr ""
+
+msgctxt "#30392"
+msgid "1GB (default)"
+msgstr ""
+
+msgctxt "#30393"
+msgid "2GB"
+msgstr ""
+
+msgctxt "#30394"
+msgid "4GB"
+msgstr ""
+
+msgctxt "#30395"
+msgid "8GB"
+msgstr ""
+
+msgctxt "#30396"
+msgid "Discard Changes to D:"
+msgstr ""
+
+msgctxt "#30397"
+msgid "Disable D: Hard Disk (use only CD-ROM)"
+msgstr ""
+
+msgctxt "#30398"
+msgid "Advanced > Force Normal Core in OS"
+msgstr ""
+
+msgctxt "#30399"
+msgid ""
+"The normal core can be more stable when running an installed operating system.\n"
+"This can be toggled on and off to navigate around crashes.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30400"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30401"
+msgid "MIDI, SoundBlaster and other audio settings."
+msgstr ""
+
+msgctxt "#30402"
+msgid "Audio Sample Rate (restart required)"
+msgstr ""
+
+msgctxt "#30403"
+msgid "This should match the frontend audio output rate (Hz) setting."
+msgstr ""
+
+msgctxt "#30404"
+msgid "SoundBlaster Settings"
+msgstr ""
+
+msgctxt "#30405"
+msgid "Set the address, interrupt, low 8-bit and high 16-bit DMA."
+msgstr ""
+
+msgctxt "#30406"
+msgid "Port 0x220, IRQ 7, 8-Bit DMA 1, 16-bit DMA 5"
+msgstr ""
+
+msgctxt "#30407"
+msgid "Port 0x220, IRQ 5, 8-Bit DMA 1, 16-bit DMA 5"
+msgstr ""
+
+msgctxt "#30408"
+msgid "Port 0x240, IRQ 7, 8-Bit DMA 1, 16-bit DMA 5"
+msgstr ""
+
+msgctxt "#30409"
+msgid "Port 0x240, IRQ 7, 8-Bit DMA 3, 16-bit DMA 7"
+msgstr ""
+
+msgctxt "#30410"
+msgid "Port 0x240, IRQ 2, 8-Bit DMA 3, 16-bit DMA 7"
+msgstr ""
+
+msgctxt "#30411"
+msgid "Port 0x240, IRQ 5, 8-Bit DMA 3, 16-bit DMA 5"
+msgstr ""
+
+msgctxt "#30412"
+msgid "Port 0x240, IRQ 5, 8-Bit DMA 1, 16-bit DMA 5"
+msgstr ""
+
+msgctxt "#30413"
+msgid "Port 0x240, IRQ 10, 8-Bit DMA 3, 16-bit DMA 7"
+msgstr ""
+
+msgctxt "#30414"
+msgid "Port 0x280, IRQ 10, 8-Bit DMA 0, 16-bit DMA 6"
+msgstr ""
+
+msgctxt "#30415"
+msgid "Port 0x280, IRQ 5, 8-Bit DMA 1, 16-bit DMA 5"
+msgstr ""
+
+msgctxt "#30416"
+msgid "MIDI Output"
+msgstr ""
+
+msgctxt "#30417"
+msgid ""
+"Select the .SF2 SoundFont file, .ROM file or interface used for MIDI output.\n"
+"To add SoundFonts or ROM files, copy them into the 'system' directory of the frontend.\n"
+"To use the frontend MIDI driver, make sure it's set up correctly.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30418"
+msgid "Frontend MIDI driver"
+msgstr ""
+
+msgctxt "#30419"
+msgid "Volume > Sound Blaster"
+msgstr ""
+
+msgctxt "#30420"
+msgid "Sets the volume of Sound Blaster output (including Creative Music System / GameBlaster)."
+msgstr ""
+
+msgctxt "#30421"
+msgid "225%"
+msgstr ""
+
+msgctxt "#30422"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30423"
+msgid "275%"
+msgstr ""
+
+msgctxt "#30424"
+msgid "325%"
+msgstr ""
+
+msgctxt "#30425"
+msgid "350%"
+msgstr ""
+
+msgctxt "#30426"
+msgid "375%"
+msgstr ""
+
+msgctxt "#30427"
+msgid "425%"
+msgstr ""
+
+msgctxt "#30428"
+msgid "450%"
+msgstr ""
+
+msgctxt "#30429"
+msgid "475%"
+msgstr ""
+
+msgctxt "#30430"
+msgid "Volume > MIDI Synthesizer"
+msgstr ""
+
+msgctxt "#30431"
+msgid "Sets the volume of MIDI output (SoundFont or MT-32)."
+msgstr ""
+
+msgctxt "#30432"
+msgid "Volume > Adlib"
+msgstr ""
+
+msgctxt "#30433"
+msgid "Sets the volume of Adlib music (FM/OPL)."
+msgstr ""
+
+msgctxt "#30434"
+msgid "Volume > PC-Speaker"
+msgstr ""
+
+msgctxt "#30435"
+msgid "Sets the volume of the PC-Speaker."
+msgstr ""
+
+msgctxt "#30436"
+msgid "Volume > CD-ROM Audio"
+msgstr ""
+
+msgctxt "#30437"
+msgid "Sets the volume of CD-ROM Audio output."
+msgstr ""
+
+msgctxt "#30438"
+msgid "Volume > Other Devices"
+msgstr ""
+
+msgctxt "#30439"
+msgid ""
+"Sets the volume of Tandy Sound System, Gravis Ultra Sound output and Disney Sound Source.\n"
+"\n"
+msgstr ""
+
+msgctxt "#30440"
+msgid "Advanced > SoundBlaster Type"
+msgstr ""
+
+msgctxt "#30441"
+msgid "Type of emulated SoundBlaster card."
+msgstr ""
+
+msgctxt "#30442"
+msgid "SoundBlaster 16 (default)"
+msgstr ""
+
+msgctxt "#30443"
+msgid "SoundBlaster Pro 2"
+msgstr ""
+
+msgctxt "#30444"
+msgid "SoundBlaster Pro"
+msgstr ""
+
+msgctxt "#30445"
+msgid "SoundBlaster 2.0"
+msgstr ""
+
+msgctxt "#30446"
+msgid "SoundBlaster 1.0"
+msgstr ""
+
+msgctxt "#30447"
+msgid "GameBlaster"
+msgstr ""
+
+msgctxt "#30448"
+msgid "none"
+msgstr ""
+
+msgctxt "#30449"
+msgid "Advanced > SoundBlaster Adlib/FM Mode"
+msgstr ""
+
+msgctxt "#30450"
+msgid "The SoundBlaster emulated FM synth mode. All modes are Adlib compatible except CMS."
+msgstr ""
+
+msgctxt "#30451"
+msgid "Auto (select based on the SoundBlaster type) (default)"
+msgstr ""
+
+msgctxt "#30452"
+msgid "CMS (Creative Music System / GameBlaster)"
+msgstr ""
+
+msgctxt "#30453"
+msgid "OPL-2 (AdLib / OPL-2 / Yamaha 3812)"
+msgstr ""
+
+msgctxt "#30454"
+msgid "Dual OPL-2 (Dual OPL-2 used by SoundBlaster Pro 1.0 for stereo sound)"
+msgstr ""
+
+msgctxt "#30455"
+msgid "OPL-3 (AdLib / OPL-3 / Yamaha YMF262)"
+msgstr ""
+
+msgctxt "#30456"
+msgid "OPL-3 Gold (AdLib Gold / OPL-3 / Yamaha YMF262)"
+msgstr ""
+
+msgctxt "#30457"
+msgid "Advanced > SoundBlaster Adlib Provider"
+msgstr ""
+
+msgctxt "#30458"
+msgid "Provider for the Adlib emulation. Default has good quality and low performance requirements."
+msgstr ""
+
+msgctxt "#30459"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30460"
+msgid "High quality Nuked OPL3"
+msgstr ""
+
+msgctxt "#30461"
+msgid "Advanced > Enable Gravis Ultrasound (restart required)"
+msgstr ""
+
+msgctxt "#30462"
+msgid ""
+"Enable Gravis Ultrasound emulation. Settings are fixed at port 0x240, IRQ 5, DMA 3.\n"
+"If the ULTRADIR variable needs to be different than the default 'C:\\ULTRASND' you need to issue 'SET ULTRADIR=...' in the command line or in a batch file."
+msgstr ""
+
+msgctxt "#30463"
+msgid "Advanced > Enable Tandy Sound Device (restart required)"
+msgstr ""
+
+msgctxt "#30464"
+msgid "Enable Tandy Sound Device emulation even when running without Tandy Graphics Adapter emulation."
+msgstr ""
+
+msgctxt "#30465"
+msgid "Advanced > Swap Stereo Channels"
+msgstr ""
+
+msgctxt "#30466"
+msgid ""
+"Swap the left and the right audio channel.\n"
+"\n"
+msgstr ""

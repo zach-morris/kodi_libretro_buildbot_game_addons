@@ -1,0 +1,1416 @@
+# game.libretro.virtualjaguar language file
+# Addon Name: game.libretro.virtualjaguar
+# Addon id: game.libretro.virtualjaguar
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.virtualjaguar\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 22:13+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-virtualjaguar/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Atari - Jaguar (Virtual Jaguar)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Virtual Jaguar is an emulator for the Atari Jaguar video game console.[CR][CR]Based on code released by David Raingeard (Cal2) of what used to be Potato Emulation."
+msgstr ""
+
+msgctxt "#30004"
+msgid "PAL (Restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Enable Core Options Remapping"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Crash Detect"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Blitter"
+msgstr ""
+
+msgctxt "#30058"
+msgid "DRAM Timing (Experimental)"
+msgstr ""
+
+msgctxt "#30059"
+msgid "M68K Clock Scale (Overclock)"
+msgstr ""
+
+msgctxt "#30060"
+msgid "RISC (GPU/DSP) Clock Scale (Overclock)"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Network Link Host (TCP Client)"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Network Link Port"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Network Link Latency Hiding"
+msgstr ""
+
+msgctxt "#30065"
+msgid "CD Trace (Diagnostic)"
+msgstr ""
+
+msgctxt "#30066"
+msgid "BIOS (Cartridges)"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Jaguar GameDrive (Restart)"
+msgstr ""
+
+msgctxt "#30068"
+msgid "CD BIOS Type (Restart)"
+msgstr ""
+
+msgctxt "#30069"
+msgid "CD Boot Mode (Restart)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "CD Read Speed (HLE Boot Mode Only)"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Memory Track (Restart)"
+msgstr ""
+
+msgctxt "#30072"
+msgid "True Color (Gouraud Precision)"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Internal Resolution (Restart Required)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Per-Title Enhancement Defaults"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Blit Memoization (Per-Title)"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Blitter Bus Timing (Experimental)"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Blitter implementation and console video standard."
+msgstr ""
+
+msgctxt "#30080"
+msgid "Choose which blitter implementation to use. 'Accurate' is SIMD-accelerated (SSE2 on x86, NEON on ARM) and is the most compatible. 'Fast' is the older blitter; it trades accuracy for extra speed on low-end hardware and breaks some games."
+msgstr ""
+
+msgctxt "#30081"
+msgid "Accurate"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Fast"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Render gouraud-shaded pixels at full precision (chroma x 24-bit intensity) to reduce banding in 3D games. The game-visible 16-bit framebuffer is unchanged. Applies to CRY 16bpp video modes only."
+msgstr ""
+
+msgctxt "#30085"
+msgid "1x (native)"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Per-Title Enhancement Hooks"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Verify (debug, no speedup)"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Texture Replacement"
+msgstr ""
+
+msgctxt "#30096"
+msgid "BIOS & Boot"
+msgstr ""
+
+msgctxt "#30097"
+msgid "How cartridges boot: emulated (HLE) BIOS services or the real Jaguar boot ROM."
+msgstr ""
+
+msgctxt "#30099"
+msgid "HLE"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Real"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Cart BIOS Type (Restart)"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Series K"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Model M"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Custom (external file)"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Auto (images over 6 MB)"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Enabled (force, for GD-locked images)"
+msgstr ""
+
+msgctxt "#30109"
+msgid "CD-ROM"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Jaguar CD boot path, CD BIOS selection and drive read speed. Only applies to CD content."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Retail"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Developer"
+msgstr ""
+
+msgctxt "#30115"
+msgid "HLE (Recommended)"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Auto (Real BIOS)"
+msgstr ""
+
+msgctxt "#30119"
+msgid "1x (150 KB/s)"
+msgstr ""
+
+msgctxt "#30120"
+msgid "2x (Accurate)"
+msgstr ""
+
+msgctxt "#30121"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30122"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Instant"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Network Link"
+msgstr ""
+
+msgctxt "#30126"
+msgid "JagLink / CatBox serial link emulation for networked games."
+msgstr ""
+
+msgctxt "#30128"
+msgid "Automatic (use netplay when available)"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Loopback (echo to self)"
+msgstr ""
+
+msgctxt "#30131"
+msgid "TCP Host (listen)"
+msgstr ""
+
+msgctxt "#30132"
+msgid "TCP Client (connect)"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Network Link Device"
+msgstr ""
+
+msgctxt "#30135"
+msgid "JagLink / CatBox (raw cable)"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Voice Modem (Ultra Vortek)"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Which host to connect to. Hosts running on your LAN appear here automatically within a couple of seconds. 'From file' reads <system>/vj_netlink.txt: one line, the address only, no port -- for example '192.168.1.42' or 'myhost.local'. The port comes from 'Network Link Port'. The VJ_NETLINK_HOST environment variable overrides this option."
+msgstr ""
+
+msgctxt "#30138"
+msgid "127.0.0.1 (localhost)"
+msgstr ""
+
+msgctxt "#30139"
+msgid "jaghub.local (host machine named 'jaghub' on the LAN)"
+msgstr ""
+
+msgctxt "#30140"
+msgid "From file (vj_netlink.txt in system dir)"
+msgstr ""
+
+msgctxt "#30141"
+msgid "TCP port for the network link (both sides must match). Overridable with the VJ_NETLINK_PORT environment variable."
+msgstr ""
+
+msgctxt "#30142"
+msgid "Briefly holds each frame until the link partner's reply arrives, so network latency doesn't round every link exchange up to whole video frames. The wait adapts automatically to the measured connection (a few ms on localhost, more on Wi-Fi) and is capped so audio/video pacing survives. Disable only for troubleshooting or benchmarking."
+msgstr ""
+
+msgctxt "#30143"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Controller handling shared by both ports."
+msgstr ""
+
+msgctxt "#30145"
+msgid ""
+"Enabling this option will let you rebind controllers from the core options, removing the 'Controls' menu limitation that makes Numpad 7, 8, 9, * and # impossible to remap.\n"
+"NOTE: the 'Controls' menu can still conflict with the core options remapping, if you're using a remap file it is recommended to delete/reset it."
+msgstr ""
+
+msgctxt "#30146"
+msgid "Rotary Sensitivity"
+msgstr ""
+
+msgctxt "#30147"
+msgid "Scales spinner movement before it is converted to quadrature pulses. The emulated encoder can only emit one pulse per controller poll of its row, so raising this past what the game's poll rate can carry adds lag rather than speed."
+msgstr ""
+
+msgctxt "#30148"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30149"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30150"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30151"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30152"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30153"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30154"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30155"
+msgid "400%"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Rotary Reports Controller Type"
+msgstr ""
+
+msgctxt "#30157"
+msgid "Whether an emulated rotary identifies itself to software as a rotary (diode D23 fitted). Most rotary controllers ever built shipped without the diode and identify as a standard joypad, which is the default here. Tempest 2000 does not read this -- it uses its own CONTROLLER TYPE menu instead."
+msgstr ""
+
+msgctxt "#30158"
+msgid "Standard Joypad (no diode -- as most real units)"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Tempest Rotary (diode fitted)"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Rotary Dead Zone"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Discards spinner movement at or below this many host units per poll. A noise gate for a jittery source; movement above the threshold passes at full size."
+msgstr ""
+
+msgctxt "#30162"
+msgid "1 unit"
+msgstr ""
+
+msgctxt "#30163"
+msgid "2 units"
+msgstr ""
+
+msgctxt "#30164"
+msgid "3 units"
+msgstr ""
+
+msgctxt "#30165"
+msgid "4 units"
+msgstr ""
+
+msgctxt "#30166"
+msgid "6 units"
+msgstr ""
+
+msgctxt "#30167"
+msgid "8 units"
+msgstr ""
+
+msgctxt "#30168"
+msgid "Rotary Offset"
+msgstr ""
+
+msgctxt "#30169"
+msgid "Subtracts a constant from every spinner sample. Cancels a source that reports a small non-zero movement while at rest, which would otherwise spin the knob forever with the controls untouched. Applied in host orientation, before the wheel's direction convention."
+msgstr ""
+
+msgctxt "#30170"
+msgid "-4"
+msgstr ""
+
+msgctxt "#30171"
+msgid "-3"
+msgstr ""
+
+msgctxt "#30172"
+msgid "-2"
+msgstr ""
+
+msgctxt "#30173"
+msgid "-1"
+msgstr ""
+
+msgctxt "#30174"
+msgid "+1"
+msgstr ""
+
+msgctxt "#30175"
+msgid "+2"
+msgstr ""
+
+msgctxt "#30176"
+msgid "+3"
+msgstr ""
+
+msgctxt "#30177"
+msgid "+4"
+msgstr ""
+
+msgctxt "#30178"
+msgid "Rotary Response Curve"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Response exponent for the spinner, giving finer control at low speed. The curve is anchored at 64 units per poll: below that an exponent above 1.00 attenuates, at and above it movement passes through unchanged. A higher exponent therefore makes the spinner SLOWER overall -- raise Rotary Sensitivity to get the top speed back."
+msgstr ""
+
+msgctxt "#30180"
+msgid "Linear (1.00)"
+msgstr ""
+
+msgctxt "#30181"
+msgid "1.25"
+msgstr ""
+
+msgctxt "#30182"
+msgid "1.50"
+msgstr ""
+
+msgctxt "#30183"
+msgid "1.75"
+msgstr ""
+
+msgctxt "#30184"
+msgid "2.00"
+msgstr ""
+
+msgctxt "#30185"
+msgid "2.50"
+msgstr ""
+
+msgctxt "#30186"
+msgid "3.00"
+msgstr ""
+
+msgctxt "#30188"
+msgid "Stick positions within this many ADC counts of centre (127 = full deflection) read as exactly centred. The rest of the travel is rescaled so the response is smooth at the edge and full deflection still reads full scale."
+msgstr ""
+
+msgctxt "#30189"
+msgid "4 counts (~3%)"
+msgstr ""
+
+msgctxt "#30190"
+msgid "8 counts (~6%)"
+msgstr ""
+
+msgctxt "#30191"
+msgid "12 counts (~9%)"
+msgstr ""
+
+msgctxt "#30192"
+msgid "16 counts (~13%)"
+msgstr ""
+
+msgctxt "#30193"
+msgid "24 counts (~19%)"
+msgstr ""
+
+msgctxt "#30194"
+msgid "32 counts (~25%)"
+msgstr ""
+
+msgctxt "#30196"
+msgid "As Analog Controller Dead Zone (X), for the Y axis (pitch, or accelerator/brake on the driving controller)."
+msgstr ""
+
+msgctxt "#30198"
+msgid "Subtracts a constant (in ADC counts) from every X sample, in host orientation before any device convention. Cancels a stick that rests off-centre; a centred stick is moved by it, which is the point."
+msgstr ""
+
+msgctxt "#30199"
+msgid "-16"
+msgstr ""
+
+msgctxt "#30200"
+msgid "-8"
+msgstr ""
+
+msgctxt "#30201"
+msgid "+8"
+msgstr ""
+
+msgctxt "#30202"
+msgid "+16"
+msgstr ""
+
+msgctxt "#30204"
+msgid "As Analog Controller Offset (X), for the Y axis."
+msgstr ""
+
+msgctxt "#30206"
+msgid "Response exponent for the X axis, anchored at full deflection: an exponent above 1.00 gives finer control near centre while full deflection still reads full scale. Unlike the mouse/rotary curves this costs no top speed, so there is no paired sensitivity control."
+msgstr ""
+
+msgctxt "#30208"
+msgid "As Analog Controller Response Curve (X), for the Y axis."
+msgstr ""
+
+msgctxt "#30209"
+msgid "Input Port 1"
+msgstr ""
+
+msgctxt "#30210"
+msgid "Change input mappings for port 1."
+msgstr ""
+
+msgctxt "#30213"
+msgid "Auto (per-title default)"
+msgstr ""
+
+msgctxt "#30214"
+msgid "Standard Joypad"
+msgstr ""
+
+msgctxt "#30215"
+msgid "Rotary (Tempest)"
+msgstr ""
+
+msgctxt "#30216"
+msgid "Light Gun"
+msgstr ""
+
+msgctxt "#30217"
+msgid "Analog Joystick (bank-switching)"
+msgstr ""
+
+msgctxt "#30218"
+msgid "Driving Controller (bank-switching)"
+msgstr ""
+
+msgctxt "#30219"
+msgid "Map Jaguar numpad 0-9, * and # to keyboard keys. 'Number Row Keys' will use 1234567890-= keys, 'Keypad Keys' will use 0123456789/* keypad keys."
+msgstr ""
+
+msgctxt "#30220"
+msgid "Number Row Keys"
+msgstr ""
+
+msgctxt "#30221"
+msgid "Keypad Keys"
+msgstr ""
+
+msgctxt "#30222"
+msgid "Up"
+msgstr ""
+
+msgctxt "#30223"
+msgid "Down"
+msgstr ""
+
+msgctxt "#30224"
+msgid "Left"
+msgstr ""
+
+msgctxt "#30225"
+msgid "Right"
+msgstr ""
+
+msgctxt "#30226"
+msgid "A"
+msgstr ""
+
+msgctxt "#30227"
+msgid "B"
+msgstr ""
+
+msgctxt "#30228"
+msgid "C"
+msgstr ""
+
+msgctxt "#30229"
+msgid "Pause"
+msgstr ""
+
+msgctxt "#30230"
+msgid "Option"
+msgstr ""
+
+msgctxt "#30231"
+msgid "Numpad 0"
+msgstr ""
+
+msgctxt "#30232"
+msgid "Numpad 1"
+msgstr ""
+
+msgctxt "#30233"
+msgid "Numpad 2"
+msgstr ""
+
+msgctxt "#30234"
+msgid "Numpad 3"
+msgstr ""
+
+msgctxt "#30235"
+msgid "Numpad 4"
+msgstr ""
+
+msgctxt "#30236"
+msgid "Numpad 5"
+msgstr ""
+
+msgctxt "#30237"
+msgid "Numpad 6"
+msgstr ""
+
+msgctxt "#30238"
+msgid "Numpad 7"
+msgstr ""
+
+msgctxt "#30239"
+msgid "Numpad 8"
+msgstr ""
+
+msgctxt "#30240"
+msgid "Numpad 9"
+msgstr ""
+
+msgctxt "#30241"
+msgid "Numpad *"
+msgstr ""
+
+msgctxt "#30242"
+msgid "Numpad #"
+msgstr ""
+
+msgctxt "#30243"
+msgid "Input Port 2"
+msgstr ""
+
+msgctxt "#30244"
+msgid "Change input mappings for port 2."
+msgstr ""
+
+msgctxt "#30247"
+msgid "Atari ST / PS2 Mouse"
+msgstr ""
+
+msgctxt "#30248"
+msgid "Amiga Mouse (ST adapter)"
+msgstr ""
+
+msgctxt "#30249"
+msgid "Amiga Mouse (Amiga adapter)"
+msgstr ""
+
+msgctxt "#30251"
+msgid "Scales mouse movement before it is converted to quadrature pulses. The emulated device can only emit one pulse per controller poll, so raising this past what the game's poll rate can carry adds lag rather than speed."
+msgstr ""
+
+msgctxt "#30253"
+msgid "Discards horizontal mouse movement at or below this many host units per poll. A noise gate for a jittery source (or an analog stick mapped to the mouse); a real mouse reports nothing at rest and needs none. Movement above the threshold passes at full size -- the dead zone drops samples, it does not shrink them."
+msgstr ""
+
+msgctxt "#30255"
+msgid "As Mouse Dead Zone (X), for vertical movement."
+msgstr ""
+
+msgctxt "#30257"
+msgid "Subtracts a constant from every horizontal sample. Cancels a source that reports a small non-zero movement while at rest -- typically an analog stick mapped to the mouse, which otherwise drifts forever. A real mouse reports exactly zero at rest and is unaffected."
+msgstr ""
+
+msgctxt "#30259"
+msgid "As Mouse Offset (X), for vertical movement."
+msgstr ""
+
+msgctxt "#30261"
+msgid "Response exponent for horizontal movement, giving finer control at low speed. The curve is anchored at 64 units per poll: below that an exponent above 1.00 attenuates, at and above it movement passes through unchanged. Because ordinary movement is well below 64 units, a higher exponent makes the mouse SLOWER overall -- raise Mouse Sensitivity to get the top speed back. These are two different controls."
+msgstr ""
+
+msgctxt "#30263"
+msgid "As Mouse Response Curve (X), for vertical movement."
+msgstr ""
+
+msgctxt "#30264"
+msgid "Diagnostics"
+msgstr ""
+
+msgctxt "#30265"
+msgid "Logging and watchdog aids for troubleshooting and bug reports."
+msgstr ""
+
+msgctxt "#30266"
+msgid "Lightweight runtime watchdog that logs GPU/DSP PC escape, GPU/DSP wedge, and video stall events to the RetroArch log. Helpful when filing bug reports about games that hang or go to a black screen mid-play. Verbose mode also dumps a state heartbeat every 10 seconds."
+msgstr ""
+
+msgctxt "#30267"
+msgid "Enabled (verbose / heartbeat)"
+msgstr ""
+
+msgctxt "#30269"
+msgid "Texture Dump Mode"
+msgstr ""
+
+msgctxt "#30271"
+msgid "Texture Dump: 16bpp Preview"
+msgstr ""
+
+msgctxt "#30272"
+msgid "How 16-bit source tiles are rendered in their preview PNGs. The blitter cannot know whether 16-bit values are CRY or RGB16 -- that is display-time interpretation -- so this only changes the preview image, never the tile's hash. 'Both' writes a -cry and a -rgb PNG per tile."
+msgstr ""
+
+msgctxt "#30273"
+msgid "CRY"
+msgstr ""
+
+msgctxt "#30274"
+msgid "RGB16"
+msgstr ""
+
+msgctxt "#30275"
+msgid "Both"
+msgstr ""
+
+msgctxt "#30279"
+msgid "1x (stock)"
+msgstr ""
+
+msgctxt "#30284"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30285"
+msgid "---"
+msgstr ""
+
+msgctxt "#30286"
+msgid "0.5x"
+msgstr ""
+
+msgctxt "#30287"
+msgid "1.5x"
+msgstr ""
+
+msgctxt "#30288"
+msgid "3x"
+msgstr ""
+
+msgctxt "#30290"
+msgid "Widescreen (Stretch to 16:9)"
+msgstr ""
+
+msgctxt "#30291"
+msgid "Report a 16:9 aspect ratio to the frontend instead of the Jaguar's native 4:3, for a cosmetic horizontal stretch -- the console has no wider display mode. Presentation only: the emulated framebuffer is identical either way. Off by default."
+msgstr ""
+
+msgctxt "#30292"
+msgid "Apply known-safe enhancement presets automatically for recognized games (e.g. internal resolution or true color where a title is verified to benefit). A preset only applies to options you left at their default value; anything you set yourself always wins. Disable for stock behaviour on every title."
+msgstr ""
+
+msgctxt "#30294"
+msgid "Present community texture-pack art in place of the title's own blitter tiles. Packs live in <system dir>/vj_texpacks/<cart CRC32>/, named by the same hashes Texture Dump Mode writes. Presentation only: the emulated machine, save states and netplay are bit-identical with or without a pack. Shown only when a pack directory exists for the loaded title."
+msgstr ""
+
+msgctxt "#30300"
+msgid "Real BIOS (Included)"
+msgstr ""
+
+msgctxt "#30301"
+msgid "Data-transfer rate for Jaguar CD reads in HLE boot mode. '2x' matches the real drive (300 KB/s) and is hardware-accurate. Higher speeds shorten load times but may break titles that pace code overlays, music cues or load handshakes off the drive rate; 'Instant' completes each read in one tick and is the most likely to hang. Real-BIOS boot always uses the accurate rate. Applied per read: a transfer already in flight keeps the speed it started with."
+msgstr ""
+
+msgctxt "#30302"
+msgid "How this console's serial port reaches another player. 'Automatic' uses your frontend's netplay session when one is running -- nothing to configure -- and otherwise stays idle. 'TCP Host'/'TCP Client' link two emulators directly without netplay; the client picks a host below, and LAN hosts are found automatically. 'Loopback' echoes back to this console, for testing link-detect menus with no partner."
+msgstr ""
+
+msgctxt "#30303"
+msgid "What is plugged into the serial port. 'JagLink / CatBox' is the raw cable used by BattleSphere, AirCars and Doom. 'Voice Modem' emulates the Jaguar Voice Modem for Ultra Vortek's phone-line versus mode: type 911 on the numpad at the title screen, then one player dials any number and the other answers -- the call rides the Network Link transport selected above."
+msgstr ""
+
+msgctxt "#30304"
+msgid "Network Link Wire Speed (Enhancement)"
+msgstr ""
+
+msgctxt "#30305"
+msgid "Clocks the emulated serial port faster than real hardware, so a link game's lockstep exchange finishes inside one video frame instead of spilling into the next -- at authentic speed (Ultra Vortek's Voice Modem mode settles at 19200 baud, about 5.8 ms of wire time each way per frame) you do not see your own move until the round trip completes. A real Voice Modem or JagLink cable is exactly that slow, which is why this stays an opt-out enhancement rather than a fix. 'Auto' (the default) has the two consoles agree the speed-up between themselves at link-up: nothing to match by hand, and if the peer runs an older core, is not in Auto, or never answers, this side quietly stays at authentic timing instead of running ahead alone. Only takes effect over a direct Network Link (TCP host/client): frontend netplay has no channel for the two cores to negotiate over and always runs authentic timing. If a game starts dropping link data, turn this off."
+msgstr ""
+
+msgctxt "#30306"
+msgid "Off (authentic hardware timing)"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Auto (negotiated with peer)"
+msgstr ""
+
+msgctxt "#30308"
+msgid "Voice Chat (Host-Side)"
+msgstr ""
+
+msgctxt "#30309"
+msgid "Opt-in voice channel over the Network Link -- the Jaguar Voice Modem's real selling point of simultaneous voice and data. NOT emulation: voice never entered the Jaguar, which only issued audio-path control words. Capture uses the frontend microphone API where available. Off by default so mic capture never starts unasked. Works over TCP Host/Client and over RetroArch netplay when both sides enable the option (auto-negotiated; falls back to data-only if the peer never confirms)."
+msgstr ""
+
+msgctxt "#30310"
+msgid "Voice Chat Transmit Gate"
+msgstr ""
+
+msgctxt "#30311"
+msgid "'Open mic' transmits whenever the mic energy exceeds the VAD threshold (works on every frontend including mobile). 'Push to talk' transmits only while the configured keyboard key is held (desktop-oriented -- no RetroPad button is free)."
+msgstr ""
+
+msgctxt "#30312"
+msgid "Open mic (VAD)"
+msgstr ""
+
+msgctxt "#30313"
+msgid "Push to talk (keyboard)"
+msgstr ""
+
+msgctxt "#30314"
+msgid "Voice Chat Push-to-Talk Key"
+msgstr ""
+
+msgctxt "#30315"
+msgid "Keyboard key that opens the mic in Push-to-talk mode. Keys already claimed by the Jaguar keypad mapping are omitted."
+msgstr ""
+
+msgctxt "#30316"
+msgid "V"
+msgstr ""
+
+msgctxt "#30317"
+msgid "Space"
+msgstr ""
+
+msgctxt "#30318"
+msgid "Tab"
+msgstr ""
+
+msgctxt "#30319"
+msgid "Left Ctrl"
+msgstr ""
+
+msgctxt "#30320"
+msgid "Backquote (`)"
+msgstr ""
+
+msgctxt "#30321"
+msgid "Voice Chat Volume"
+msgstr ""
+
+msgctxt "#30322"
+msgid "Far-end (and optional local monitor) mix level into the game audio. Kept conservative by default so voice does not clip the DAC mix."
+msgstr ""
+
+msgctxt "#30323"
+msgid "Voice Chat VAD Threshold"
+msgstr ""
+
+msgctxt "#30324"
+msgid "Absolute-average energy gate for Open-mic mode. Raise if background noise keys the mic; lower if soft speech is cut off."
+msgstr ""
+
+msgctxt "#30325"
+msgid "Low (200)"
+msgstr ""
+
+msgctxt "#30326"
+msgid "Medium (400)"
+msgstr ""
+
+msgctxt "#30327"
+msgid "High (800)"
+msgstr ""
+
+msgctxt "#30328"
+msgid "Very high (1600)"
+msgstr ""
+
+msgctxt "#30329"
+msgid "Voice Chat Local Monitor"
+msgstr ""
+
+msgctxt "#30330"
+msgid "Mix your own mic into the local audio output for a mic check. Does not change what is sent to the peer."
+msgstr ""
+
+msgctxt "#30331"
+msgid "Which peripheral is plugged into controller port 1. '6D Controller' is Atari's unreleased six-degrees-of-freedom controller from the Technical Reference V10 -- three translations and three rotations, seven buttons and a Rezero control, over three banks. NO SOFTWARE ANYWHERE READS IT: the device was never shipped and this is a best attempt from the manual alone, unvalidated against any real program. Left stick translates left/right and up/down, right stick yaws and pitches, the L2/R2 triggers are fore/aft thrust and the L/R shoulders roll; A/B/C/D are the usual four face buttons, E/F are the stick clicks, and G/Rezero are Start/Select. Like the other bank-switching types the port stays a RetroPad until an axis actually moves. Note the real controller has NO Pause and NO Option button -- on hardware those come from a joypad plugged into the controller's own passthrough, which has no emulated equivalent, so both are unreachable while it is engaged. If you try this, please report what you find on the issue tracker. 'Pro Controller' is the retail six-button pad: its X/Y/Z fire buttons and Left/Right shoulder buttons alias onto keypad 9/8/7/4/6 (Atari's own SDK header and developer newsletter, docs/teamtap-procontroller-spike.md section 9 -- the TR10 manual never mentions the device, because there is nothing new for it to document). Selecting this only changes which five RetroPad buttons update those five keypad slots; the port is still an ordinary RetroPad otherwise. Because the aliasing is real hardware behaviour, a title that reads its own keypad -- weapon select, level codes, menu shortcuts -- sees genuine keypad presses from X/Y/Z/L1/R1 while this is selected, so leave it on 'Standard Joypad' unless a game specifically wants the Pro Controller. No detection method was ever published, so no title can be confirmed to require it; see docs/input-devices-user-guide.md. 'Team Tap (4-player adaptor)' is Atari's four-socket adapter: the pad you already use on this port stays as socket 0, and three more pads appear on RetroArch ports 3, 4 and 5 -- so with one Team Tap on port 1 your four players are on RetroArch ports 1, 3, 4 and 5. Everything behind the adapter is an ordinary Jaguar joypad -- the adapter rewrites the row codes so the pads never know it is there -- and titles detect it by reading socket 3, which is the one bit this adds. Known retail support is two titles: White Men Can't Jump, which needs it for 3 and 4 player games, and NBA Jam T.E., where it is optional; homebrew support is unestablished. It is inert for every other title, so leave it off unless you are playing one. Per-port button remapping and 'Numpad to Keyboard' apply to socket 0 only, so remap the extra pads from RetroArch's own Controls menu. 'Rotary (Tempest)' is the Tempest spinner: it removes Up and Down and reports wheel rotation on Left/Right instead, and is driven by relative mouse X. Its buttons (A, B, C, Option, Pause and the keypad) stay on the RetroPad, which is what a real rotary has. 'Light Gun' is the port-1 light gun: the Jaguar wires its LP pin to port 1 only, so it is not offered on port 2. Aim with whatever your frontend maps to the light gun (mouse or Wiimote); the trigger reports as the Jaguar's B button, which is what Balloons reads, and Aux A / Aux B / Start / Select reach A / C / Option / Pause. Aiming off-screen stops the aim updating, exactly as a real gun stops seeing the beam. 'Analog Joystick' and 'Driving Controller' are Atari's bank-switching analog device (one protocol, two skins) -- NO RELEASED TITLE reads it, so these exist for homebrew. Driven by the left analog stick (the driving skin also takes the L2/R2 triggers as brake/accelerator); the port stays a RetroPad until the stick actually moves, so a game that probes controller types at boot only sees the analog device if the stick is deflected first. 'Analog Stick (paddle ADC)' is a DIFFERENT device: the 8-bit converter fitted to early Jaguar motherboards, which production consoles do not have. It is the one analog interface a released game reads, though the known consumer (BattleSphere) uses port 2 for it. Driven by the left analog stick, and unlike the bank-switching types it leaves the RetroPad fully connected, because the stick's potentiometers are separate pins from the buttons. Leave it off unless a game asks for it: with no paddle selected the emulated console reports no converter fitted, exactly as real hardware does. There is no per-title default for any of these and there never will be -- selecting a rotary removes Up and Down and a gun repurposes B, so either would break the controls of anyone using a pad. Tempest 2000 hides its rotary support behind an unlock -- from SELECT GAME TYPE TO PLAY press Option on controller 1, then press Pause on BOTH controllers at once to reveal CONTROLLER TYPE. The unlock is saved to the game's EEPROM, so it is only needed once."
+msgstr ""
+
+msgctxt "#30332"
+msgid "Team Tap (4-player adaptor)"
+msgstr ""
+
+msgctxt "#30333"
+msgid "Pro Controller (6-button)"
+msgstr ""
+
+msgctxt "#30334"
+msgid "Analog Stick (paddle ADC)"
+msgstr ""
+
+msgctxt "#30335"
+msgid "6D Controller (bank-switching)"
+msgstr ""
+
+msgctxt "#30336"
+msgid "Which peripheral is plugged into controller port 2. '6D Controller' is Atari's unreleased six-degrees-of-freedom controller from the Technical Reference V10 -- three translations and three rotations, seven buttons and a Rezero control, over three banks. NO SOFTWARE ANYWHERE READS IT: the device was never shipped and this is a best attempt from the manual alone, unvalidated against any real program. Left stick translates left/right and up/down, right stick yaws and pitches, the L2/R2 triggers are fore/aft thrust and the L/R shoulders roll; A/B/C/D are the usual four face buttons, E/F are the stick clicks, and G/Rezero are Start/Select. Like the other bank-switching types the port stays a RetroPad until an axis actually moves. Note the real controller has NO Pause and NO Option button -- on hardware those come from a joypad plugged into the controller's own passthrough, which has no emulated equivalent, so both are unreachable while it is engaged. If you try this, please report what you find on the issue tracker. 'Pro Controller' is the retail six-button pad: its X/Y/Z fire buttons and Left/Right shoulder buttons alias onto keypad 9/8/7/4/6 (Atari's own SDK header and developer newsletter, docs/teamtap-procontroller-spike.md section 9 -- the TR10 manual never mentions the device, because there is nothing new for it to document). Selecting this only changes which five RetroPad buttons update those five keypad slots; the port is still an ordinary RetroPad otherwise. Because the aliasing is real hardware behaviour, a title that reads its own keypad -- weapon select, level codes, menu shortcuts -- sees genuine keypad presses from X/Y/Z/L1/R1 while this is selected, so leave it on 'Standard Joypad' unless a game specifically wants the Pro Controller. No detection method was ever published, so no title can be confirmed to require it; see docs/input-devices-user-guide.md. 'Team Tap (4-player adaptor)' is Atari's four-socket adapter: the pad you already use on this port stays as socket 0, and three more pads appear on RetroArch ports 6, 7 and 8. Everything behind the adapter is an ordinary Jaguar joypad -- the adapter rewrites the row codes so the pads never know it is there -- and titles detect it by reading socket 3, which is the one bit this adds. Known retail support is two titles: White Men Can't Jump, which needs it for 3 and 4 player games, and NBA Jam T.E., where it is optional; homebrew support is unestablished. It is inert for every other title, so leave it off unless you are playing one. Per-port button remapping and 'Numpad to Keyboard' apply to socket 0 only, so remap the extra pads from RetroArch's own Controls menu. 'Atari ST / PS2 Mouse' is the wiring used by the AtariAge and Brewing Academy ST adapters and by PS/2 mouse adapters. 'Amiga Mouse (ST adapter)' is an Amiga mouse plugged into an ST-wired adapter -- this is what an in-game 'Atari / Amiga' selector normally chooses between. 'Amiga Mouse (Amiga adapter)' is the rarer dedicated adapter. A mouse asserts its state in every row scan, exactly as the real row-blind adapter does, so the port-2 RetroPad is disconnected while one is selected. 'Rotary (Tempest)' is the Tempest spinner: it removes Up and Down and reports wheel rotation on Left/Right instead, and is driven by relative mouse X. Its buttons stay on the RetroPad. Tempest 2000 hides its rotary support behind an unlock -- from SELECT GAME TYPE TO PLAY press Option on controller 1, then press Pause on BOTH controllers at once to reveal CONTROLLER TYPE. The unlock is saved to the game's EEPROM, so it is only needed once. 'Analog Joystick' and 'Driving Controller' are Atari's bank-switching analog device (one protocol, two skins) -- NO RELEASED TITLE reads it, so these exist for homebrew. Driven by the left analog stick (the driving skin also takes the L2/R2 triggers as brake/accelerator); the port stays a RetroPad until the stick actually moves, so a game that probes controller types at boot only sees the analog device if the stick is deflected first. 'Analog Stick (paddle ADC)' is a DIFFERENT device: the 8-bit converter fitted to early Jaguar motherboards, which production consoles do not have. It is the one analog interface a released game reads -- BattleSphere and BattleSphere Gold, which also need their own Gameplay Options > 2nd Controller set to Analog Stick. Driven by the left analog stick, and unlike the bank-switching types it leaves the RetroPad fully connected, because the stick's potentiometers are separate pins from the buttons. Leave it off unless a game asks for it: with no paddle selected the emulated console reports no converter fitted, exactly as real hardware does."
+msgstr ""
+
+msgctxt "#30337"
+msgid "Record CD command/response traffic and seek/FIFO transitions to a bounded ring buffer, dumped to the RetroArch log when the cd_seek_wedge watchdog fires. For troubleshooting Jaguar CD boot and data-transfer bugs, not for normal play. Can also be forced on headlessly with the VJ_CD_TRACE=1 environment variable."
+msgstr ""
+
+msgctxt "#30338"
+msgid "Write every unique blitter source tile the title uses to <system dir>/vj_texdump/<cart CRC32>/ as a PNG preview plus a manifest row, for HD texture pack authoring. Tiles are identified by a hash of their raw source bytes; the palette is advisory metadata, never identity. Takes effect immediately, no restart needed. Developer-facing: leave disabled for normal play."
+msgstr ""
+
+msgctxt "#30339"
+msgid "GDB Debug Stub (Restart)"
+msgstr ""
+
+msgctxt "#30341"
+msgid "GDB Stub: Network Binding (Debug)"
+msgstr ""
+
+msgctxt "#30343"
+msgid "Loopback (this machine only)"
+msgstr ""
+
+msgctxt "#30344"
+msgid "LAN (local network -- see warning)"
+msgstr ""
+
+msgctxt "#30345"
+msgid "GDB Stub Port (Restart)"
+msgstr ""
+
+msgctxt "#30347"
+msgid "GDB Stub: Halt At Boot (Restart)"
+msgstr ""
+
+msgctxt "#30349"
+msgid "GDB Stub: Halt Timeout"
+msgstr ""
+
+msgctxt "#30351"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "#30352"
+msgid "60 seconds"
+msgstr ""
+
+msgctxt "#30353"
+msgid "5 minutes"
+msgstr ""
+
+msgctxt "#30354"
+msgid "Speed"
+msgstr ""
+
+msgctxt "#30355"
+msgid "Make the emulator faster. Two kinds, and the difference matters: the fast-forward options cost nothing (identical picture and sound, just less work), while the overclocks change what the game itself computes and can break it."
+msgstr ""
+
+msgctxt "#30356"
+msgid "RISC Idle-Loop Fast-Forward (GPU + DSP)"
+msgstr ""
+
+msgctxt "#30359"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30360"
+msgid "Skip presenting frames to avoid audio buffer under-run (crackling) on hardware too slow to render every frame. 'Auto' skips a frame when the frontend advises an under-run is likely; 'Auto (Threshold)' skips whenever the audio buffer occupancy falls below the chosen percentage (higher = skips earlier and more often). Presentation only: the emulated machine runs every frame in full either way, so save states, run-ahead and netplay are unaffected. Requires frontend support for audio buffer status reporting; without it, all values behave as Disabled."
+msgstr ""
+
+msgctxt "#30361"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30362"
+msgid "Auto (Threshold 15%)"
+msgstr ""
+
+msgctxt "#30363"
+msgid "Auto (Threshold 30%)"
+msgstr ""
+
+msgctxt "#30364"
+msgid "Auto (Threshold 45%)"
+msgstr ""
+
+msgctxt "#30365"
+msgid "Frameskip Maximum"
+msgstr ""
+
+msgctxt "#30366"
+msgid "Cap on how many frames in a row Frameskip may skip before one is always presented, so the screen keeps moving even while the audio buffer stays low. Has no effect while Frameskip is disabled."
+msgstr ""
+
+msgctxt "#30367"
+msgid "Enhancement Profile (Per-Title Defaults)"
+msgstr ""
+
+msgctxt "#30368"
+msgid "Decide whether the per-title enhancement database may switch on expensive visual enhancements (Internal Resolution 2x, True Color) by default for recognized games. 'Quality' always applies them. 'Performance' never does. 'Auto' applies them on capable hardware, but suppresses them on 32-bit ARM devices and drops them early in a session if the audio buffer reports the machine cannot keep up (the same signal Frameskip uses). Only database-supplied DEFAULTS are affected: any option you set yourself always wins, whatever the profile says."
+msgstr ""
+
+msgctxt "#30369"
+msgid "Quality"
+msgstr ""
+
+msgctxt "#30370"
+msgid "Performance"
+msgstr ""
+
+msgctxt "#30373"
+msgid "Hardware Timing (Experimental)"
+msgstr ""
+
+msgctxt "#30374"
+msgid "Make the emulator slower and more like real silicon. The opposite of Speed above: these exist because parts of the machine are modelled as free, which lets some games run too fast. Still being calibrated."
+msgstr ""
+
+msgctxt "#30375"
+msgid "Charge the GPU and 68000 realistic DRAM access time once they leave their local buses, pacing hardware-timed games (Doom-class) closer to real hardware. Each processor pays only its own costs, so relative CPU/GPU timing is preserved. Still being calibrated. Switches off DSP Idle-Loop Fast-Forward while enabled."
+msgstr ""
+
+msgctxt "#30377"
+msgid "Restart required: applied when content is loaded. Render internally at a multiple of the Jaguar's native resolution. Presentation only: the game-visible framebuffer and all emulation timing are unchanged. Combines with True Color."
+msgstr ""
+
+msgctxt "#30378"
+msgid "Restart required: applied when content is loaded. Apply per-game byte patches from the enhancement database to the loaded cartridge image (game-side fixes that no core option can express). Off by default. Each patch verifies the bytes it expects and writes nothing if they differ, so it cannot corrupt a dump it was not written for. Cartridge content only."
+msgstr ""
+
+msgctxt "#30379"
+msgid "Restart required: applied when content is loaded. Emulate a PAL Jaguar instead of NTSC."
+msgstr ""
+
+msgctxt "#30380"
+msgid "Restart required: applied when content is loaded. Which BIOS a CARTRIDGE boots with. 'HLE' has the core emulate the BIOS setup and services itself: most commercial titles boot faster and the boot animation is skipped. 'Real' runs the actual Jaguar boot ROM, which some titles require. Both boot ROM images are built into the core, so neither setting needs a file. GPU-only/jagcrypt carts (BootIntro demos) turn the real boot ROM on even when this is set to HLE -- they contain no 68K program for HLE to start. Ignored for CD content: 'CD Boot Mode' decides there."
+msgstr ""
+
+msgctxt "#30381"
+msgid "Restart required: applied when content is loaded. Which console boot ROM a CARTRIDGE uses when 'BIOS (Cartridges)' is Real, or when a GPU-only/jagcrypt cart turns the boot ROM on. 'Series K' is the original Jaguar; 'Model M' is the later revision (patch address $4804) most size-coded BootIntros are built for. Both are built into the core. 'Custom' loads a 128 KB image from the system directory (jagboot.rom, boot.rom, boot0.rom, or a named '[BIOS] Atari Jaguar...' file), identified by checksum and logged, falling back to Series K if none is found. A jagboot_m.rom in the system directory replaces the built-in Model M image. Ignored for CD content."
+msgstr ""
+
+msgctxt "#30382"
+msgid "Restart required: applied when content is loaded. Emulate the Jaguar GameDrive (JagGD) flash cartridge: its detection/install interface and 1 MB bank switching over up to 16 MB of cart SDRAM. 'Auto' turns it on only for ROM images larger than the 6 MB cartridge window. 'Enabled' forces it on for smaller images too, for GD-locked homebrew that refuses to boot without the cart (BigPEmu calls this Force JGD). Without it, GD-locked titles hang at boot exactly as on a stock console."
+msgstr ""
+
+msgctxt "#30383"
+msgid "Jaguar GameDrive SD Card"
+msgstr ""
+
+msgctxt "#30384"
+msgid "The GameDrive's SD card, as a folder on this device: 'jaggd-sd' inside the frontend's save directory (system directory if there is none). Homebrew that reads or writes its own files through the GameDrive file API (JagOS, streamed assets, screenshots) uses it. Paths are confined to that folder. 'Read-only' lets software read files but never create or change one. Only active when the GameDrive itself is."
+msgstr ""
+
+msgctxt "#30385"
+msgid "Read/write"
+msgstr ""
+
+msgctxt "#30386"
+msgid "Read-only"
+msgstr ""
+
+msgctxt "#30387"
+msgid "Restart required: applied when content is loaded. Which CD BIOS the real-BIOS boot path uses. 'Retail' is the standard consumer BIOS; 'Developer' is the dev-kit BIOS, which applies less strict disc checks and can boot images the retail BIOS refuses. Both are built into the core, so no files are required; a CD BIOS ROM file in the system directory is preferred over the built-in image, and this setting picks which file wins when both types are present. Only has an effect when 'CD Boot Mode' is 'Real BIOS' or 'Auto' -- the HLE boot path never runs a CD BIOS."
+msgstr ""
+
+msgctxt "#30388"
+msgid "Restart required: applied when content is loaded. How Jaguar CD discs boot. OVERRIDES the 'BIOS (Cartridges)' setting for CD content. 'HLE' emulates the CD BIOS services directly with the console boot ROM off -- fastest and the most broadly compatible. 'Real BIOS' runs an actual CD BIOS with the boot ROM on: more faithful, and verified clean across all 5 tested FMV titles (Dragon's Lair, Space Ace, BrainDead 13, Blue Lightning, Highlander) in 15,000-frame probes. It prefers a CD BIOS ROM file from the system directory (several common names and the usual Jaguar / Jaguar CD sub-folders are searched) and otherwise uses the built-in image chosen by 'CD BIOS Type', so no files are required. 'Auto' is currently identical to 'Real BIOS'. If no CD BIOS can be staged at all, the core falls back to HLE rather than failing. Audio-only (Red Book) CDs always use the real BIOS regardless of this setting, since HLE has no game code to boot from."
+msgstr ""
+
+msgctxt "#30389"
+msgid "Restart required: applied when content is loaded. Emulate the Memory Track save cartridge alongside the CD unit, as on real hardware. CD games detect it and save settings, progress and high scores to its 128 KB NVRAM (stored in the save file). Disable to emulate a console without the cartridge -- games will warn that game information cannot be saved."
+msgstr ""
+
+msgctxt "#30390"
+msgid "Restart required: applied when content is loaded. Open a GDB remote debugging server on localhost so a debugger can inspect the emulated machine. Developer-facing; leave disabled for normal play. By default the server listens only on 127.0.0.1 and is not reachable from another machine; 'GDB Stub: Network Binding' can widen that to your local network, with the security consequences described there."
+msgstr ""
+
+msgctxt "#30391"
+msgid "Restart required: applied when content is loaded. Which addresses the GDB stub will accept debugger connections from. 'Loopback' (default) accepts only connections from this same machine -- on a phone, tablet or TV that means nothing outside the device can ever reach it. 'LAN' additionally accepts connections from your local network, so you can debug a game running on another device from your computer. SECURITY: the GDB protocol has NO authentication of any kind. While the stub is open, anyone who can reach the port can read and write the emulated machine's memory and control its execution. Only use 'LAN' on a network you trust, only while you are actually debugging, and turn it back off afterwards. Connections from public (non-private) addresses are refused and logged even in 'LAN' mode. Has no effect unless GDB Stub is enabled."
+msgstr ""
+
+msgctxt "#30392"
+msgid "Restart required: applied when content is loaded. TCP port for the GDB debug stub. Change this only if another program already uses the default."
+msgstr ""
+
+msgctxt "#30393"
+msgid "Restart required: applied when content is loaded. Halt the 68000 before its very first instruction and wait for a GDB client to attach, so a boot-time fault can be debugged instead of running to completion before you connect. Only takes effect while the GDB Debug Stub option above is enabled."
+msgstr ""
+
+msgctxt "#30394"
+msgid "Restart required: applied when content is loaded. If the machine is halted at a breakpoint with no client activity for this long, resume automatically and log it loudly, so a forgotten debug session does not look like a hang forever. 'Off' means a halt waits indefinitely -- the default, because silently resuming a debugged machine is worse than a freeze for the developers this option is for."
+msgstr ""
+
+msgctxt "#30395"
+msgid "Fast-forward the GPU and DSP through provably redundant iterations of a wait loop -- the largest single speed-up the core offers (66-87% less DSP interpretation and 60%+ less GPU interpretation on the titles measured). Bit-exact by construction: registers, flags, cycles and instruction count land exactly where interpreting would have left them, so save states, run-ahead and netplay are unaffected. On by default: the corpus sweep behind #708 ran 148 cart images plus 6 CD spot-checks off-vs-on and every single one was byte-identical (framebuffer, audio and savestate hash streams). If a title looks or sounds wrong with it on, turn it off and please report it. IMPORTANT: DRAM Timing, GPU/DSP Pipeline Timing or Blit Memoization switches this off entirely, so turning one of those on costs you this speed-up on top of its own cost. The RISC and M68K clock scales and Blitter Bus Timing do not affect it: it stays exact when overclocked."
+msgstr ""
+
+msgctxt "#30396"
+msgid "Run the 68000 at a multiple of its stock ~13.3 MHz. An enhancement, not an accuracy fix, and it helps less often than you would think: AvP and Checkered Flag were both measured and neither gained anything (AvP is locked to one frame per 5 fields; Checkered Flag caps itself in software), because most Jaguar games are paced by a field lock or their own frame cap rather than by CPU speed. It may also break titles that depend on stock CPU timing. Timers and bus costs stay at stock speed. If an overclocked game misbehaves, try the Hardware Timing options in their own category. Report bugs only at 1x."
+msgstr ""
+
+msgctxt "#30397"
+msgid "Run the GPU and DSP at a multiple of their stock ~26.6 MHz. An enhancement, not an accuracy fix: extra cycles can lift GPU-bound framerates. Audio pacing and timers stay at stock speed, so nothing pitch-shifts. May break titles that depend on stock RISC timing; if an overclocked game misbehaves, try the Hardware Timing options in their own category. Report bugs only at 1x. RISC Idle-Loop Fast-Forward keeps working at any scale, so an overclock costs only the extra real work, not extra spinning in wait loops."
+msgstr ""
+
+msgctxt "#30398"
+msgid "GPU/DSP Pipeline Timing (Experimental)"
+msgstr ""
+
+msgctxt "#30399"
+msgid "Model the GPU's and DSP's real instruction costs: the single external-memory gateway (the DSP's behind its 16-bit bus), the register score-board and ALU interlocks. The emulated RISCs otherwise finish work 2-4x faster than silicon, which makes loops paced on render completion (Doom's menus and demo, Hover Strike) run too fast. Still being calibrated. Switches off DSP Idle-Loop Fast-Forward while enabled."
+msgstr ""
+
+msgctxt "#30400"
+msgid "Charge the 68000 the bus time each blit really takes -- on hardware the blitter is the top-priority bus master and freezes the cacheless 68000 while it runs. Zero-time blits let games paced on blit completion (Doom's menus, Hover Strike) run too fast. 'Enabled' also makes the GPU wait out its own blits; '68000 only' charges just the 68000 and leaves GPU blit chains at full speed. Still being calibrated."
+msgstr ""
+
+msgctxt "#30401"
+msgid "68000 only"
+msgstr ""
+
+msgctxt "#30402"
+msgid "Analog Dead Zone (X)"
+msgstr ""
+
+msgctxt "#30403"
+msgid "Analog Dead Zone (Y)"
+msgstr ""
+
+msgctxt "#30404"
+msgid "Analog Offset (X)"
+msgstr ""
+
+msgctxt "#30405"
+msgid "Analog Offset (Y)"
+msgstr ""
+
+msgctxt "#30406"
+msgid "Analog Response Curve (X)"
+msgstr ""
+
+msgctxt "#30407"
+msgid "Analog Response Curve (Y)"
+msgstr ""
+
+msgctxt "#30408"
+msgid "Controller Type"
+msgstr ""
+
+msgctxt "#30409"
+msgid "Numpad Buttons to Keyboard Keys"
+msgstr ""
+
+msgctxt "#30410"
+msgid "RetroPad Up"
+msgstr ""
+
+msgctxt "#30411"
+msgid "RetroPad Down"
+msgstr ""
+
+msgctxt "#30412"
+msgid "RetroPad Left"
+msgstr ""
+
+msgctxt "#30413"
+msgid "RetroPad Right"
+msgstr ""
+
+msgctxt "#30414"
+msgid "RetroPad A"
+msgstr ""
+
+msgctxt "#30415"
+msgid "RetroPad B"
+msgstr ""
+
+msgctxt "#30416"
+msgid "RetroPad X"
+msgstr ""
+
+msgctxt "#30417"
+msgid "RetroPad Y"
+msgstr ""
+
+msgctxt "#30418"
+msgid "RetroPad Select"
+msgstr ""
+
+msgctxt "#30419"
+msgid "RetroPad Start"
+msgstr ""
+
+msgctxt "#30420"
+msgid "RetroPad L1"
+msgstr ""
+
+msgctxt "#30421"
+msgid "RetroPad R1"
+msgstr ""
+
+msgctxt "#30422"
+msgid "RetroPad L2"
+msgstr ""
+
+msgctxt "#30423"
+msgid "RetroPad R2"
+msgstr ""
+
+msgctxt "#30424"
+msgid "RetroPad L3"
+msgstr ""
+
+msgctxt "#30425"
+msgid "RetroPad R3"
+msgstr ""
+
+msgctxt "#30426"
+msgid "RetroPad Left Analog Up"
+msgstr ""
+
+msgctxt "#30427"
+msgid "RetroPad Left Analog Down"
+msgstr ""
+
+msgctxt "#30428"
+msgid "RetroPad Left Analog Left"
+msgstr ""
+
+msgctxt "#30429"
+msgid "RetroPad Left Analog Right"
+msgstr ""
+
+msgctxt "#30430"
+msgid "RetroPad Right Analog Up"
+msgstr ""
+
+msgctxt "#30431"
+msgid "RetroPad Right Analog Down"
+msgstr ""
+
+msgctxt "#30432"
+msgid "RetroPad Right Analog Left"
+msgstr ""
+
+msgctxt "#30433"
+msgid "RetroPad Right Analog Right"
+msgstr ""
+
+msgctxt "#30434"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30435"
+msgid "Mouse Dead Zone (X)"
+msgstr ""
+
+msgctxt "#30436"
+msgid "Mouse Dead Zone (Y)"
+msgstr ""
+
+msgctxt "#30437"
+msgid "Mouse Offset (X)"
+msgstr ""
+
+msgctxt "#30438"
+msgid "Mouse Offset (Y)"
+msgstr ""
+
+msgctxt "#30439"
+msgid "Mouse Response Curve (X)"
+msgstr ""
+
+msgctxt "#30440"
+msgid "Mouse Response Curve (Y)"
+msgstr ""
+
+msgctxt "#30441"
+msgid "Skip blits whose inputs are provably unchanged since an identical earlier blit (some titles re-render the same scene every engine cycle while the player is idle). Output is bit-identical by construction. Enabled per title via the enhancement database; not available for CD content. 'Verify' never skips -- it runs every would-be skip and logs any divergence, for validating new titles."
+msgstr ""
+
+#~ msgctxt "#30076"
+#~ msgid "GPU Pipeline Timing (Experimental)"
+#~ msgstr ""
+
+#~ msgctxt "#30095"
+#~ msgid "Emulate a PAL Jaguar instead of NTSC."
+#~ msgstr ""
+
+#~ msgctxt "#30124"
+#~ msgid "Emulate the Memory Track save cartridge alongside the CD unit, as on real hardware. CD games detect it and save settings, progress and high scores to its 128 KB NVRAM (stored in the save file). Disable to emulate a console without the cartridge -- games will warn that game information cannot be saved."
+#~ msgstr ""
+
+#~ msgctxt "#30283"
+#~ msgid "Charge the 68000 the bus time each blit really takes -- on hardware the blitter is the top-priority bus master and freezes the cacheless 68000 while it runs. Zero-time blits let games paced on blit completion (Doom's menus, Hover Strike) run too fast. Still being calibrated."
+#~ msgstr ""
+
+#~ msgctxt "#30289"
+#~ msgid "Render internally at a multiple of the Jaguar's native resolution. Applied when content is loaded; changing it mid-game takes effect on restart. Presentation only: the game-visible framebuffer and all emulation timing are unchanged. Combines with True Color."
+#~ msgstr ""
+
+#~ msgctxt "#30293"
+#~ msgid "Apply per-game byte patches from the enhancement database to the loaded cartridge image (game-side fixes that no core option can express). Off by default. Each patch verifies the bytes it expects and writes nothing if they differ, so it cannot corrupt a dump it was not written for. Cartridge content only; takes effect on restart."
+#~ msgstr ""
+
+#~ msgctxt "#30295"
+#~ msgid "Which BIOS a CARTRIDGE boots with. 'HLE' has the core emulate the BIOS setup and services itself: most commercial titles boot faster and the boot animation is skipped. 'Real' runs the actual Jaguar boot ROM, which some titles require. Both boot ROM images are built into the core, so neither setting needs a file. GPU-only/jagcrypt carts (BootIntro demos) turn the real boot ROM on even when this is set to HLE -- they contain no 68K program for HLE to start. Ignored for CD content: 'CD Boot Mode' decides there."
+#~ msgstr ""
+
+#~ msgctxt "#30296"
+#~ msgid "Which console boot ROM a CARTRIDGE uses when 'BIOS (Cartridges)' is Real, or when a GPU-only/jagcrypt cart turns the boot ROM on. 'Series K' is the original Jaguar; 'Model M' is the later revision (patch address $4804) most size-coded BootIntros are built for. Both are built into the core. 'Custom' loads a 128 KB image from the system directory (jagboot.rom, boot.rom, boot0.rom, or a named '[BIOS] Atari Jaguar...' file), identified by checksum and logged, falling back to Series K if none is found. A jagboot_m.rom in the system directory replaces the built-in Model M image. Ignored for CD content."
+#~ msgstr ""
+
+#~ msgctxt "#30297"
+#~ msgid "Emulate the Jaguar GameDrive (JagGD) flash cartridge: its detection/install interface and 1 MB bank switching over up to 16 MB of cart SDRAM. 'Auto' turns it on only for ROM images larger than the 6 MB cartridge window. 'Enabled' forces it on for smaller images too, for GD-locked homebrew that refuses to boot without the cart (BigPEmu calls this Force JGD). Without it, GD-locked titles hang at boot exactly as on a stock console."
+#~ msgstr ""
+
+#~ msgctxt "#30298"
+#~ msgid "Which CD BIOS the real-BIOS boot path uses. 'Retail' is the standard consumer BIOS; 'Developer' is the dev-kit BIOS, which applies less strict disc checks and can boot images the retail BIOS refuses. Both are built into the core, so no files are required; a CD BIOS ROM file in the system directory is preferred over the built-in image, and this setting picks which file wins when both types are present. Only has an effect when 'CD Boot Mode' is 'Real BIOS' or 'Auto' -- the HLE boot path never runs a CD BIOS."
+#~ msgstr ""
+
+#~ msgctxt "#30299"
+#~ msgid "How Jaguar CD discs boot. OVERRIDES the 'BIOS (Cartridges)' setting for CD content. 'HLE' emulates the CD BIOS services directly with the console boot ROM off -- fastest and the most broadly compatible. 'Real BIOS' runs an actual CD BIOS with the boot ROM on: more faithful, and verified clean across all 5 tested FMV titles (Dragon's Lair, Space Ace, BrainDead 13, Blue Lightning, Highlander) in 15,000-frame probes. It prefers a CD BIOS ROM file from the system directory (several common names and the usual Jaguar / Jaguar CD sub-folders are searched) and otherwise uses the built-in image chosen by 'CD BIOS Type', so no files are required. 'Auto' is currently identical to 'Real BIOS'. If no CD BIOS can be staged at all, the core falls back to HLE rather than failing. Audio-only (Red Book) CDs always use the real BIOS regardless of this setting, since HLE has no game code to boot from."
+#~ msgstr ""
+
+#~ msgctxt "#30340"
+#~ msgid "Open a GDB remote debugging server on localhost so a debugger can inspect the emulated machine. Developer-facing; leave disabled for normal play. By default the server listens only on 127.0.0.1 and is not reachable from another machine; 'GDB Stub: Network Binding' can widen that to your local network, with the security consequences described there. Requires a restart."
+#~ msgstr ""
+
+#~ msgctxt "#30342"
+#~ msgid "Which addresses the GDB stub will accept debugger connections from. 'Loopback' (default) accepts only connections from this same machine -- on a phone, tablet or TV that means nothing outside the device can ever reach it. 'LAN' additionally accepts connections from your local network, so you can debug a game running on another device from your computer. SECURITY: the GDB protocol has NO authentication of any kind. While the stub is open, anyone who can reach the port can read and write the emulated machine's memory and control its execution. Only use 'LAN' on a network you trust, only while you are actually debugging, and turn it back off afterwards. Connections from public (non-private) addresses are refused and logged even in 'LAN' mode. Has no effect unless GDB Stub is enabled. Takes effect on content load."
+#~ msgstr ""
+
+#~ msgctxt "#30346"
+#~ msgid "TCP port for the GDB debug stub. Change this only if another program already uses the default. Requires a restart."
+#~ msgstr ""
+
+#~ msgctxt "#30348"
+#~ msgid "Halt the 68000 before its very first instruction and wait for a GDB client to attach, so a boot-time fault can be debugged instead of running to completion before you connect. Only takes effect while the GDB Debug Stub option above is enabled. Requires a restart."
+#~ msgstr ""
+
+#~ msgctxt "#30350"
+#~ msgid "If the machine is halted at a breakpoint with no client activity for this long, resume automatically and log it loudly, so a forgotten debug session does not look like a hang forever. 'Off' means a halt waits indefinitely -- the default, because silently resuming a debugged machine is worse than a freeze for the developers this option is for."
+#~ msgstr ""
+
+#~ msgctxt "#30357"
+#~ msgid "Fast-forward the GPU and DSP through provably redundant iterations of a wait loop -- the largest single speed-up the core offers (66-87% less DSP interpretation and 60%+ less GPU interpretation on the titles measured). Bit-exact by construction: registers, flags, cycles and instruction count land exactly where interpreting would have left them, so save states, run-ahead and netplay are unaffected. On by default: the corpus sweep behind #708 ran 148 cart images plus 6 CD spot-checks off-vs-on and every single one was byte-identical (framebuffer, audio and savestate hash streams). If a title looks or sounds wrong with it on, turn it off and please report it. IMPORTANT: a non-stock RISC Clock Scale, DRAM Timing, GPU Pipeline Timing or Blit Memoization switches this off entirely, so turning one of those on costs you this speed-up on top of its own cost. The M68K clock scale and Blitter Bus Timing do not affect it."
+#~ msgstr ""
+
+#~ msgctxt "#30371"
+#~ msgid "Run the 68000 at a multiple of its stock ~13.3 MHz. An enhancement, not an accuracy fix, and it helps less often than you would think: AvP and Checkered Flag were both measured and neither gained anything (AvP is locked to one frame per 5 fields; Checkered Flag caps itself in software), because most Jaguar games are paced by a field lock or their own frame cap rather than by CPU speed. It may also break titles that depend on stock CPU timing. Timers and bus costs stay at stock speed. Overclocking the 68000 is the safer of the two scales: it does NOT cost you DSP Idle-Loop Fast-Forward. If an overclocked game misbehaves, try the Hardware Timing options in their own category. Report bugs only at 1x."
+#~ msgstr ""
+
+#~ msgctxt "#30372"
+#~ msgid "Run the GPU and DSP at a multiple of their stock ~26.6 MHz. An enhancement, not an accuracy fix: extra cycles can lift GPU-bound framerates. Audio pacing and timers stay at stock speed, so nothing pitch-shifts. May break titles that depend on stock RISC timing; if an overclocked game misbehaves, try the Hardware Timing options in their own category. Report bugs only at 1x. READ THIS FIRST: anything other than 1x switches OFF DSP Idle-Loop Fast-Forward, which is the larger speed-up on most titles -- so on a DSP-bound game this option makes you SLOWER overall, not faster. Try idle-skip on its own before reaching for this. The M68K scale does not have that side effect."
+#~ msgstr ""
+
+#~ msgctxt "#30376"
+#~ msgid "Model the GPU's real instruction costs: the single external-memory gateway, the register score-board and ALU interlocks. The emulated GPU otherwise finishes renders 2-4x faster than silicon, which makes loops paced on render completion (Doom's menus and demo, Hover Strike) run too fast. Still being calibrated. Switches off DSP Idle-Loop Fast-Forward while enabled."
+#~ msgstr ""

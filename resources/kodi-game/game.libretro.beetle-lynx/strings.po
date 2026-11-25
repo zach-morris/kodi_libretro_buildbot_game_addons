@@ -1,0 +1,79 @@
+# game.libretro.beetle-lynx language file
+# Addon Name: game.libretro.beetle-lynx
+# Addon id: game.libretro.beetle-lynx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-lynx\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 19:08i\n"
+"PO-Revision-Date: 2024-12-27 21:47+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-lynx/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Atari - Lynx (Beetle Lynx)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Beetle Lynx is the Atari Lynx module of Beetle, a fork of Mednafen. The Mednafen module is a fork of Handy."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "Auto-rotate Screen"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Virtually rotate screen orientation and button mappings automatically for known games. When set to 'Manual', screen rotation is adjusted by pressing the SELECT button, otherwise a fixed rotation can be set to either 0, 90, 180 or 270 degrees counter-clockwise."
+msgstr ""
+
+msgctxt "#30003"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Color Format (Restart Required)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "16-Bit (RGB565)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "32-Bit (RGB8888)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Force 60Hz"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Force 60Hz instead of original 75Hz refresh rate, for perfectly smooth movement on 60Hz displays"
+msgstr ""
+
+msgctxt "#30010"
+msgid "0"
+msgstr ""
+
+msgctxt "#30011"
+msgid "90"
+msgstr ""
+
+msgctxt "#30012"
+msgid "180"
+msgstr ""
+
+msgctxt "#30013"
+msgid "270"
+msgstr ""

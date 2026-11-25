@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.vbam"
+		name="Nintendo - Game Boy Advance (VBA-M)"
+		version="2.2.3.78"
+		provider-name="Forgotten, VBA-M Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.gba" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - Game Boy Advance</platforms>
+		<extensions>dmg|gb|gbc|cgb|sgb|gba</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>vbam_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.vbam</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - Game Boy Advance (VBA-M)</summary>
+		<summary lang="da_DK">Nintendo - Game Boy Advance (VBA-M)</summary>
+		<summary lang="en_GB">Nintendo - Game Boy Advance (VBA-M)</summary>
+		<summary lang="es_ES">Nintendo - Game Boy Advance (VBA-M)</summary>
+		<summary lang="ga">Nintendo - Game Boy Advance (VBA-M)</summary>
+		<summary lang="it_IT">Nintendo - Game Boy Advance (VBA-M)</summary>
+		<summary lang="ru_RU">Nintendo — Game Boy Advance (VBA-M)</summary>
+		<summary lang="sv_SE">Nintendo - Game Boy Advance (VBA-M)</summary>
+		<summary lang="zh_CN">任天堂 - Game Boy Advance (VBA-M)</summary>
+		<description lang="cs_CZ">VBA-M je emulátor Nintendo Game Boy a Game Boy Advance vycházející z oficiálního emulátoru VisualBoyAdvance od Forgottena a vývojového týmu VBA.</description>
+		<description lang="da_DK">VBA-M er en Nintendo Game Boy og Game Boy Advance-emulator baseret på den officielle VisualBoyAdvance af Forgotten og VBA-udviklingsteamet.</description>
+		<description lang="de_DE">VBA-M ist ein Emulator für Nintendo Game Boy und Game Boy Advance, der auf dem offiziellen VisualBoyAdvance von Forgotten und dem VBA-Entwicklerteam basiert.</description>
+		<description lang="en_GB">VBA-M is a Nintendo Game Boy and Game Boy Advance emulator based on the official VisualBoyAdvance by Forgotten and the VBA development team.</description>
+		<description lang="es_ES">VBA-M es un emulador de Nintendo Game Boy y Game Boy Advance basado en el VisualBoyAdvance oficial de Forgotten y el equipo de desarrollo de VBA.</description>
+		<description lang="ga">Is aithriseoir Nintendo Game Boy agus Game Boy Advance é VBA-M atá bunaithe ar an VisualBoyAdvance oifigiúil ó Forgotten agus foireann forbartha VBA.</description>
+		<description lang="it_IT">VBA-M è un emulatore per Nintendo Game Boy e Game Boy Advance basato sul VisualBoyAdvance ufficiale di Forgotten e il team di sviluppo VBA.</description>
+		<description lang="ru_RU">VBA-M — это эмулятор Nintendo Game Boy и Game Boy Advance, основанный на официальном VisualBoyAdvance от Forgotten и команды разработчиков VBA.</description>
+		<description lang="sv_SE">VBA-M är en Nintendo Game Boy- och Game Boy Advance-emulator baserad på den officiella VisualBoyAdvance av Forgotten och VBA:s utvecklingsteam.</description>
+		<description lang="zh_CN">VBA-M 是任天堂 Game Boy 和 Game Boy Advance 仿真器，基于官方的 VisualBoyAdvance 和 VBA 开发团队。</description>
+	</extension>
+</addon>

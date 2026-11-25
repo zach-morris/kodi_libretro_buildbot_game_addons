@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.pocketcdg"
+		name="PocketCDG"
+		version="0.0.1.40"
+		provider-name="RedBug">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>cdg</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>pocketcdg_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.pocketcdg</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">PocketCDG</summary>
+		<summary lang="da_DK">PocketCDG</summary>
+		<summary lang="en_GB">PocketCDG</summary>
+		<summary lang="es_ES">PocketCDG</summary>
+		<summary lang="ga">PocketCDG</summary>
+		<summary lang="it_IT">PocketCDG</summary>
+		<summary lang="ko_KR">포켓CDG</summary>
+		<summary lang="ru_RU">PocketCDG</summary>
+		<summary lang="sv_SE">PocketCDG</summary>
+		<summary lang="zh_CN">PocketCDG</summary>
+		<description lang="cs_CZ">PocketCDG je hudební přehrávač MP3 karaoke.</description>
+		<description lang="da_DK">PocketCDG er en MP3 karaoke musikafspiller.</description>
+		<description lang="de_DE">PocketCDG ist ein MP3-Karaoke-Musikplayer.</description>
+		<description lang="en_GB">PocketCDG is an MP3 karaoke music player.</description>
+		<description lang="es_ES">PocketCDG es un reproductor de música karaoke en MP3.</description>
+		<description lang="ga">Is seinnteoir ceoil karaoke MP3 é PocketCDG.</description>
+		<description lang="it_IT">PocketCDG è un lettore musicale karaoke MP3.</description>
+		<description lang="ko_KR">PocketCDG는 MP3 노래방 음악 플레이어입니다.</description>
+		<description lang="ru_RU">PocketCDG — это MP3-караоке-плеер.</description>
+		<description lang="sv_SE">PocketCDG är en MP3-musikspelare för karaoke.</description>
+		<description lang="zh_CN">PocketCDG 是一款 MP3 卡拉 OK 音乐播放器。</description>
+	</extension>
+</addon>

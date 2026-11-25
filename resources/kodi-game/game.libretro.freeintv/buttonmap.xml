@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+    <controller id="game.controller.intellivision" type="RETRO_DEVICE_JOYPAD">
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <!-- The two upper side buttons are wired together on the hand
+             controller and share one signal; the lower two are separate. -->
+        <feature name="left1" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+        <feature name="right1" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+        <feature name="left2" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="right2" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+        <!-- FreeIntv exposes only these four keypad buttons directly. The rest
+             of the keypad is reached through its on-screen overlay. -->
+        <feature name="num0" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+        <feature name="num5" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+        <feature name="clear" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+        <feature name="enter" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+    </controller>
+</buttonmap>

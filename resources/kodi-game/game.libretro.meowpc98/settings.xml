@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.meowpc98">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="np2_model" type="string" label="30001">
+					<level>0</level>
+					<default>VX</default>
+					<constraints>
+						<options>
+							<option>VX</option>
+							<option>EPSON</option>
+							<option>VM</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_clk_base" type="string" label="30002">
+					<level>0</level>
+					<default>2.4576 MHz</default>
+					<constraints>
+						<options>
+							<option>2.4576 MHz</option>
+							<option>1.9968 MHz</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_clk_mult" type="string" label="30003">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_ExMemory" type="string" label="30004">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>24</option>
+							<option>32</option>
+							<option>48</option>
+							<option>64</option>
+							<option>1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_skipline" type="string" label="30005">
+					<level>0</level>
+					<default>Full 255 lines</default>
+					<constraints>
+						<options>
+							<option label="30018">Full 255 lines</option>
+							<option label="16041">ON</option>
+							<option label="351">OFF</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_SNDboard" type="string" label="30006">
+					<level>0</level>
+					<default>PC9801-86</default>
+					<constraints>
+						<options>
+							<option label="30019">PC9801-86</option>
+							<option label="30020">PC9801-26K + 86</option>
+							<option label="30021">PC9801-86 + Chibi-Oto</option>
+							<option label="30022">PC9801-118</option>
+							<option label="30023">Speak Board</option>
+							<option label="30024">Spark Board</option>
+							<option label="30025">Sound Orchestra</option>
+							<option label="30026">Sound Orchestra-V</option>
+							<option label="30027">AMD-98</option>
+							<option label="231">None</option>
+							<option label="30028">PC9801-14</option>
+							<option label="30029">PC9801-26K</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_jast_snd" type="string" label="30007">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_volume_F" type="string" label="30008">
+					<level>0</level>
+					<default>64</default>
+					<constraints>
+						<options>
+							<option>64</option>
+							<option>68</option>
+							<option>72</option>
+							<option>76</option>
+							<option>80</option>
+							<option>84</option>
+							<option>88</option>
+							<option>92</option>
+							<option>96</option>
+							<option>100</option>
+							<option>104</option>
+							<option>108</option>
+							<option>112</option>
+							<option>116</option>
+							<option>120</option>
+							<option>124</option>
+							<option>128</option>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+							<option>28</option>
+							<option>32</option>
+							<option>36</option>
+							<option>40</option>
+							<option>44</option>
+							<option>48</option>
+							<option>52</option>
+							<option>56</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_volume_S" type="string" label="30009">
+					<level>0</level>
+					<default>64</default>
+					<constraints>
+						<options>
+							<option>64</option>
+							<option>68</option>
+							<option>72</option>
+							<option>76</option>
+							<option>80</option>
+							<option>84</option>
+							<option>88</option>
+							<option>92</option>
+							<option>96</option>
+							<option>100</option>
+							<option>104</option>
+							<option>108</option>
+							<option>112</option>
+							<option>116</option>
+							<option>120</option>
+							<option>124</option>
+							<option>128</option>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+							<option>28</option>
+							<option>32</option>
+							<option>36</option>
+							<option>40</option>
+							<option>44</option>
+							<option>48</option>
+							<option>52</option>
+							<option>56</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_volume_A" type="string" label="30010">
+					<level>0</level>
+					<default>64</default>
+					<constraints>
+						<options>
+							<option>64</option>
+							<option>68</option>
+							<option>72</option>
+							<option>76</option>
+							<option>80</option>
+							<option>84</option>
+							<option>88</option>
+							<option>92</option>
+							<option>96</option>
+							<option>100</option>
+							<option>104</option>
+							<option>108</option>
+							<option>112</option>
+							<option>116</option>
+							<option>120</option>
+							<option>124</option>
+							<option>128</option>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+							<option>28</option>
+							<option>32</option>
+							<option>36</option>
+							<option>40</option>
+							<option>44</option>
+							<option>48</option>
+							<option>52</option>
+							<option>56</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_volume_P" type="string" label="30011">
+					<level>0</level>
+					<default>64</default>
+					<constraints>
+						<options>
+							<option>64</option>
+							<option>68</option>
+							<option>72</option>
+							<option>76</option>
+							<option>80</option>
+							<option>84</option>
+							<option>88</option>
+							<option>92</option>
+							<option>96</option>
+							<option>100</option>
+							<option>104</option>
+							<option>108</option>
+							<option>112</option>
+							<option>116</option>
+							<option>120</option>
+							<option>124</option>
+							<option>128</option>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+							<option>28</option>
+							<option>32</option>
+							<option>36</option>
+							<option>40</option>
+							<option>44</option>
+							<option>48</option>
+							<option>52</option>
+							<option>56</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_volume_R" type="string" label="30012">
+					<level>0</level>
+					<default>64</default>
+					<constraints>
+						<options>
+							<option>64</option>
+							<option>68</option>
+							<option>72</option>
+							<option>76</option>
+							<option>80</option>
+							<option>84</option>
+							<option>88</option>
+							<option>92</option>
+							<option>96</option>
+							<option>100</option>
+							<option>104</option>
+							<option>108</option>
+							<option>112</option>
+							<option>116</option>
+							<option>120</option>
+							<option>124</option>
+							<option>128</option>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+							<option>28</option>
+							<option>32</option>
+							<option>36</option>
+							<option>40</option>
+							<option>44</option>
+							<option>48</option>
+							<option>52</option>
+							<option>56</option>
+							<option>60</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_Seek_Snd" type="string" label="30013">
+					<level>0</level>
+					<default>OFF</default>
+					<constraints>
+						<options>
+							<option label="351">OFF</option>
+							<option label="16041">ON</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_Seek_Vol" type="string" label="30014">
+					<level>0</level>
+					<default>80</default>
+					<constraints>
+						<options>
+							<option>80</option>
+							<option>84</option>
+							<option>88</option>
+							<option>92</option>
+							<option>96</option>
+							<option>100</option>
+							<option>104</option>
+							<option>108</option>
+							<option>112</option>
+							<option>116</option>
+							<option>120</option>
+							<option>124</option>
+							<option>128</option>
+							<option>0</option>
+							<option>4</option>
+							<option>8</option>
+							<option>12</option>
+							<option>16</option>
+							<option>20</option>
+							<option>24</option>
+							<option>28</option>
+							<option>32</option>
+							<option>36</option>
+							<option>40</option>
+							<option>44</option>
+							<option>48</option>
+							<option>52</option>
+							<option>56</option>
+							<option>60</option>
+							<option>64</option>
+							<option>68</option>
+							<option>72</option>
+							<option>76</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_BEEP_vol" type="string" label="30015">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>3</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_GUI_controller" type="string" label="30016">
+					<level>0</level>
+					<default>MOUSE</default>
+					<constraints>
+						<options>
+							<option>MOUSE</option>
+							<option>JOY0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="np2_GUIJOY_PAS" type="string" label="30017">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>1</option>
+							<option>2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

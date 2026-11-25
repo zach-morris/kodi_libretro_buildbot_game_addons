@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.mupen64plus-nx">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="mupen64plus-rdp-plugin" type="string" label="30001" help="30086">
+					<level>0</level>
+					<default>gliden64</default>
+					<constraints>
+						<options>
+							<option label="30087">angrylion</option>
+							<option label="30088">parallel</option>
+							<option label="30089">gliden64</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-cpucore" type="string" label="30047" help="30090">
+					<level>0</level>
+					<default>dynamic_recompiler</default>
+					<constraints>
+						<options>
+							<option label="30091">pure_interpreter</option>
+							<option label="30092">cached_interpreter</option>
+							<option label="30093">dynamic_recompiler</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-rsp-plugin" type="string" label="30048" help="30094">
+					<level>0</level>
+					<default>hle</default>
+					<constraints>
+						<options>
+							<option label="30096">cxd4</option>
+							<option label="30095">parallel</option>
+							<option label="30097">hle</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-FrameDuping" type="string" label="30049" help="30098">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-Framerate" type="string" label="30050" help="30099">
+					<level>0</level>
+					<default>Original</default>
+					<constraints>
+						<options>
+							<option>Original</option>
+							<option>Fullspeed</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-virefresh" type="string" label="30051" help="30100">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30228">1500</option>
+							<option label="30229">2200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-ForceDisableExtraMem" type="string" label="30052" help="30101">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-IgnoreTLBExceptions" type="string" label="30053" help="30102">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30103">False</option>
+							<option label="30104">OnlyNotEnabled</option>
+							<option label="30105">AlwaysIgnoreTLB</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-CountPerOp" type="string" label="30054" help="30106">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-CountPerOpDenomPot" type="string" label="30055" help="30107">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30108" help="30109">
+			<group id="1">
+				<setting id="mupen64plus-astick-deadzone" type="string" label="30056" help="30110">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-astick-sensitivity" type="string" label="30057" help="30111">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>50</option>
+							<option>55</option>
+							<option>60</option>
+							<option>65</option>
+							<option>70</option>
+							<option>75</option>
+							<option>80</option>
+							<option>85</option>
+							<option>90</option>
+							<option>95</option>
+							<option>100</option>
+							<option>105</option>
+							<option>110</option>
+							<option>115</option>
+							<option>120</option>
+							<option>125</option>
+							<option>130</option>
+							<option>135</option>
+							<option>140</option>
+							<option>145</option>
+							<option>150</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-r-cbutton" type="string" label="30058" help="30112">
+					<level>0</level>
+					<default>C1</default>
+					<constraints>
+						<options>
+							<option>C1</option>
+							<option>C2</option>
+							<option>C3</option>
+							<option>C4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-l-cbutton" type="string" label="30059" help="30113">
+					<level>0</level>
+					<default>C2</default>
+					<constraints>
+						<options>
+							<option>C1</option>
+							<option>C2</option>
+							<option>C3</option>
+							<option>C4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-d-cbutton" type="string" label="30060" help="30114">
+					<level>0</level>
+					<default>C3</default>
+					<constraints>
+						<options>
+							<option>C1</option>
+							<option>C2</option>
+							<option>C3</option>
+							<option>C4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-u-cbutton" type="string" label="30061" help="30115">
+					<level>0</level>
+					<default>C4</default>
+					<constraints>
+						<options>
+							<option>C1</option>
+							<option>C2</option>
+							<option>C3</option>
+							<option>C4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-alt-map" type="string" label="30062" help="30116">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-pak1" type="string" label="30063" help="30117">
+					<level>0</level>
+					<default>memory</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30230">memory</option>
+							<option label="30231">rumble</option>
+							<option label="30232">transfer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-pak2" type="string" label="30064" help="30118">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30230">memory</option>
+							<option label="30231">rumble</option>
+							<option label="30232">transfer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-pak3" type="string" label="30065" help="30119">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30230">memory</option>
+							<option label="30231">rumble</option>
+							<option label="30232">transfer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-pak4" type="string" label="30066" help="30120">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30230">memory</option>
+							<option label="30231">rumble</option>
+							<option label="30232">transfer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="gliden64" label="30089" help="30121">
+			<group id="1">
+				<setting id="mupen64plus-43screensize" type="string" label="30002" help="30122">
+					<level>0</level>
+					<default>640x480</default>
+					<constraints>
+						<options>
+							<option>320x240</option>
+							<option>640x480</option>
+							<option>960x720</option>
+							<option>1280x960</option>
+							<option>1440x1080</option>
+							<option>1600x1200</option>
+							<option>1920x1440</option>
+							<option>2240x1680</option>
+							<option>2560x1920</option>
+							<option>2880x2160</option>
+							<option>3200x2400</option>
+							<option>3520x2640</option>
+							<option>3840x2880</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-169screensize" type="string" label="30003" help="30123">
+					<level>0</level>
+					<default>960x540</default>
+					<constraints>
+						<options>
+							<option label="30124">640x360</option>
+							<option label="30125">960x540</option>
+							<option label="30126">1280x720</option>
+							<option label="30127">1706x720</option>
+							<option label="30128">1366x768</option>
+							<option label="30129">1920x810</option>
+							<option label="30130">1920x1080</option>
+							<option label="30131">2560x1080</option>
+							<option label="30132">2560x1440</option>
+							<option label="30133">3414x1440</option>
+							<option label="30134">3840x2160</option>
+							<option label="30135">4096x2160</option>
+							<option label="30136">5120x1440</option>
+							<option label="30137">5120x2160</option>
+							<option label="30138">7680x3240</option>
+							<option label="30139">7680x4320</option>
+							<option label="30140">7680x2160</option>
+							<option label="30141">10240x4320</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-aspect" type="string" label="30004" help="30142">
+					<level>0</level>
+					<default>4:3</default>
+					<constraints>
+						<options>
+							<option label="30143">4:3</option>
+							<option label="30144">16:9</option>
+							<option label="30145">16:9 adjusted</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableNativeResFactor" type="string" label="30005" help="30146">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30147">0</option>
+							<option label="30148">1</option>
+							<option label="30149">2</option>
+							<option label="30150">3</option>
+							<option label="30151">4</option>
+							<option label="30152">5</option>
+							<option label="30153">6</option>
+							<option label="30154">7</option>
+							<option label="30155">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-ThreadedRenderer" type="string" label="30006" help="30156">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-BilinearMode" type="string" label="30007" help="30158">
+					<level>0</level>
+					<default>standard</default>
+					<constraints>
+						<options>
+							<option>3point</option>
+							<option>standard</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-HybridFilter" type="string" label="30008" help="30159">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-DitheringPattern" type="string" label="30009" help="30160">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-DitheringQuantization" type="string" label="30010" help="30161">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-RDRAMImageDitheringMode" type="string" label="30011" help="30162">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30147">False</option>
+							<option label="30233">Bayer</option>
+							<option label="30163">MagicSquare</option>
+							<option label="30164">BlueNoise</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-MultiSampling" type="string" label="30012" help="30165">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>2</option>
+							<option>4</option>
+							<option>8</option>
+							<option>16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-FXAA" type="string" label="30013" help="30166">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableLODEmulation" type="string" label="30014" help="30167">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableFBEmulation" type="string" label="30015" help="30168">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableCopyAuxToRDRAM" type="string" label="30016" help="30169">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableCopyColorToRDRAM" type="string" label="30017" help="30170">
+					<level>0</level>
+					<default>Async</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30234">Sync</option>
+							<option label="30171">Async</option>
+							<option label="30172">TripleBuffer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableCopyColorFromRDRAM" type="string" label="30067" help="30173">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableCopyDepthToRDRAM" type="string" label="30018" help="30174">
+					<level>0</level>
+					<default>Software</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="30235">Software</option>
+							<option label="30236">FromMem</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-BackgroundMode" type="string" label="30019" help="30175">
+					<level>0</level>
+					<default>OnePiece</default>
+					<constraints>
+						<options>
+							<option>Stripped</option>
+							<option>OnePiece</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableHWLighting" type="string" label="30020" help="30176">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-CorrectTexrectCoords" type="string" label="30021" help="30177">
+					<level>0</level>
+					<default>Off</default>
+					<constraints>
+						<options>
+							<option label="351">Off</option>
+							<option label="16316">Auto</option>
+							<option label="30237">Force</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableInaccurateTextureCoordinates" type="string" label="30022" help="30178">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableTexCoordBounds" type="string" label="30023" help="30179">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableNativeResTexrects" type="string" label="30024" help="30180">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="30238">Unoptimized</option>
+							<option label="30239">Optimized</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableLegacyBlending" type="string" label="30025" help="30181">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableFragmentDepthWrite" type="string" label="30026" help="30182">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableN64DepthCompare" type="string" label="30027" help="30183">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30184">False</option>
+							<option label="30185">True</option>
+							<option label="30240">Compatible</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableShadersStorage" type="string" label="30028" help="30186">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableTextureCache" type="string" label="30029" help="30187">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableOverscan" type="string" label="30030" help="30188">
+					<level>0</level>
+					<default>Enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="305">Enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-OverscanTop" type="string" label="30031" help="30189">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-OverscanLeft" type="string" label="30032" help="30190">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-OverscanRight" type="string" label="30033" help="30191">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-OverscanBottom" type="string" label="30034" help="30192">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-MaxHiResTxVramLimit" type="string" label="30035" help="30193">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>500</option>
+							<option>1000</option>
+							<option>1500</option>
+							<option>2000</option>
+							<option>2500</option>
+							<option>3000</option>
+							<option>3500</option>
+							<option>4000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-MaxTxCacheSize" type="string" label="30036" help="30194">
+					<level>0</level>
+					<default>8000</default>
+					<constraints>
+						<options>
+							<option>1500</option>
+							<option>4000</option>
+							<option>8000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-txFilterMode" type="string" label="30037" help="30195">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30241">Smooth filtering 1</option>
+							<option label="30242">Smooth filtering 2</option>
+							<option label="30243">Smooth filtering 3</option>
+							<option label="30244">Smooth filtering 4</option>
+							<option label="30245">Sharp filtering 1</option>
+							<option label="30246">Sharp filtering 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-txEnhancementMode" type="string" label="30038" help="30196">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="231">None</option>
+							<option label="30247">As Is</option>
+							<option label="30248">X2</option>
+							<option label="30249">X2SAI</option>
+							<option label="30250">HQ2X</option>
+							<option label="30251">HQ2XS</option>
+							<option label="30252">LQ2X</option>
+							<option label="30253">LQ2XS</option>
+							<option label="30254">HQ4X</option>
+							<option label="30255">2xBRZ</option>
+							<option label="30256">3xBRZ</option>
+							<option label="30257">4xBRZ</option>
+							<option label="30258">5xBRZ</option>
+							<option label="30259">6xBRZ</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-txFilterIgnoreBG" type="string" label="30039" help="30197">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-txHiresEnable" type="string" label="30040" help="30198">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-txCacheCompression" type="string" label="30041" help="30199">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-txHiresFullAlphaChannel" type="string" label="30042" help="30200">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableEnhancedTextureStorage" type="string" label="30043" help="30201">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableHiResAltCRC" type="string" label="30044" help="30202">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-EnableEnhancedHighResStorage" type="string" label="30045" help="30203">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="20424">False</option>
+							<option label="20122">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-GLideN64IniBehaviour" type="string" label="30046" help="30204">
+					<level>0</level>
+					<default>late</default>
+					<constraints>
+						<options>
+							<option label="30205">late</option>
+							<option label="30206">early</option>
+							<option label="30207">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="parallel_rdp" label="30088" help="30208">
+			<group id="1">
+				<setting id="mupen64plus-parallel-rdp-synchronous" type="string" label="30260" help="30209">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-overscan" type="string" label="30261" help="30210">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>2</option>
+							<option>4</option>
+							<option>6</option>
+							<option>8</option>
+							<option>10</option>
+							<option>12</option>
+							<option>14</option>
+							<option>16</option>
+							<option>18</option>
+							<option>20</option>
+							<option>22</option>
+							<option>24</option>
+							<option>26</option>
+							<option>28</option>
+							<option>30</option>
+							<option>32</option>
+							<option>34</option>
+							<option>36</option>
+							<option>38</option>
+							<option>40</option>
+							<option>42</option>
+							<option>44</option>
+							<option>46</option>
+							<option>48</option>
+							<option>50</option>
+							<option>52</option>
+							<option>54</option>
+							<option>56</option>
+							<option>58</option>
+							<option>60</option>
+							<option>62</option>
+							<option>64</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-divot-filter" type="string" label="30262" help="30211">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-gamma-dither" type="string" label="30263" help="30212">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-vi-aa" type="string" label="30264" help="30213">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-vi-bilinear" type="string" label="30265" help="30214">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-dither-filter" type="string" label="30266" help="30215">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-upscaling" type="string" label="30267" help="30216">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option>1x</option>
+							<option>2x</option>
+							<option>4x</option>
+							<option>8x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-super-sampled-read-back" type="string" label="30268" help="30217">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30147">False</option>
+							<option label="30157">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-super-sampled-read-back-dither" type="string" label="30269" help="30218">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-downscaling" type="string" label="30270" help="30219">
+					<level>0</level>
+					<default>disable</default>
+					<constraints>
+						<options>
+							<option>disable</option>
+							<option>1/2</option>
+							<option>1/4</option>
+							<option>1/8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-native-texture-lod" type="string" label="30271" help="30220">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30147">False</option>
+							<option label="30157">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-native-tex-rect" type="string" label="30272" help="30221">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30157">True</option>
+							<option label="30147">False</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-parallel-rdp-deinterlace-method" type="string" label="30273" help="30222">
+					<level>0</level>
+					<default>Bob</default>
+					<constraints>
+						<options>
+							<option>Bob</option>
+							<option>Weave</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="angrylion" label="30087" help="30223">
+			<group id="1">
+				<setting id="mupen64plus-angrylion-vioverlay" type="string" label="30082" help="30224">
+					<level>0</level>
+					<default>Filtered</default>
+					<constraints>
+						<options>
+							<option>Filtered</option>
+							<option>AA+Blur</option>
+							<option>AA+Dedither</option>
+							<option>AA only</option>
+							<option>Unfiltered</option>
+							<option>Depth</option>
+							<option>Coverage</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-angrylion-sync" type="string" label="30083" help="30225">
+					<level>0</level>
+					<default>Low</default>
+					<constraints>
+						<options>
+							<option>Low</option>
+							<option>Medium</option>
+							<option>High</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-angrylion-multithread" type="string" label="30084" help="30226">
+					<level>0</level>
+					<default>all threads</default>
+					<constraints>
+						<options>
+							<option>all threads</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+							<option>51</option>
+							<option>52</option>
+							<option>53</option>
+							<option>54</option>
+							<option>55</option>
+							<option>56</option>
+							<option>57</option>
+							<option>58</option>
+							<option>59</option>
+							<option>60</option>
+							<option>61</option>
+							<option>62</option>
+							<option>63</option>
+							<option>75</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="mupen64plus-angrylion-overscan" type="string" label="30085" help="30227">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

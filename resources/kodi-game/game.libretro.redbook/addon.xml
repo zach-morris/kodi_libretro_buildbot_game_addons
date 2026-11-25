@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.redbook"
+		name="Redbook Audio Player"
+		version="1.0.0.16"
+		provider-name="Brad Parker">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>cue|bin</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>redbook_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Apache 2.0</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.redbook</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.png</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Přehrávač zvuku Red Book</summary>
+		<summary lang="da_DK">Redbook Lydafspiller</summary>
+		<summary lang="en_GB">Redbook Audio Player</summary>
+		<summary lang="es_ES">Reproductor de Audio Redbook</summary>
+		<summary lang="ga">Seinnteoir Fuaime Redbook</summary>
+		<summary lang="it_IT">Lettore audio Redbook</summary>
+		<summary lang="ru_RU">Redbook Audio Player</summary>
+		<summary lang="sv_SE">Redbook-ljudspelare</summary>
+		<summary lang="zh_CN">Redbook 音频播放器</summary>
+		<description lang="cs_CZ">Jádro Libretro pro přehrávání zvuku Red Book.</description>
+		<description lang="da_DK">Libretro-kerne til Red Book lydafspilning.</description>
+		<description lang="de_DE">Libretro-Core für die Wiedergabe von Red Book Audio.</description>
+		<description lang="en_GB">Provides playback for Redbook-formatted audio, such as commercial audio CDs.</description>
+		<description lang="es_ES">Núcleo Libretro para la reproducción de audio Red Book.</description>
+		<description lang="fr_FR">Noyau Libretro pour la lecture audio Red Book.</description>
+		<description lang="ga">Croílár Libretro le haghaidh athsheinm fuaime an Leabhar Dheirg.</description>
+		<description lang="it_IT">Libretro core per la riproduzione audio Red Book.</description>
+		<description lang="ru_RU">Ядро Libretro для воспроизведения аудиофайлов Red Book.</description>
+		<description lang="sv_SE">Libretro-kärna för uppspelning av ljud från Red Book.</description>
+		<description lang="zh_CN">用于 Red Book 音频播放的 Libretro 核心。</description>
+	</extension>
+</addon>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.daphne"
+		name="Arcade (Daphne)"
+		version="0.0.1.29"
+		provider-name="Matt Ownby">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>daphne_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2+</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.daphne</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Arcade (Daphne)</summary>
+		<description lang="cs_CZ">DAPHNE je emulátor několika arkádových automatů s LaserDiscem, který umožňuje hrát původní verze pro LaserDisc na PC.</description>
+		<description lang="da_DK">DAPHNE er en multi-arcade LaserDisc-emulator, der muliggør afspilning af den originale LaserDisc-version på en pc.</description>
+		<description lang="de_DE">DAPHNE ist ein Multi-Arcade-LaserDisc-Emulator, mit dem man die Original-LaserDisc-Version auf dem PC spielen kann.</description>
+		<description lang="en_GB">DAPHNE is a multi-arcade LaserDisc emulator that lets one play the original LaserDisc version on a PC.</description>
+		<description lang="es_ES">DAPHNE es un emulador de LaserDisc multi-arcade que permite reproducir la versión original de LaserDisc en un PC.</description>
+		<description lang="ga">Is aithriseoir il-stuara LaserDisc é DAPHNE a ligeann duit an leagan bunaidh de LaserDisc a imirt ar ríomhaire.</description>
+		<description lang="it_IT">DAPHNE è un emulatore LaserDisc multi-arcade che consente di riprodurre la versione originale di LaserDisc su un PC.</description>
+		<description lang="ru_RU">DAPHNE — это многоплатформный эмулятор LaserDisc, позволяющий играть в оригинальную версию LaserDisc на ПК.</description>
+		<description lang="sl_SI">DAPHNE je multi-arkadni emulator LaserDisc, ki omogoča predvajanje izvirne različice LaserDisc na osebnem računalniku.</description>
+		<description lang="sv_SE">DAPHNE är en LaserDisc-emulator som låter dig spela den ursprungliga LaserDisc-versionen på en PC.</description>
+		<description lang="zh_CN">DAPHNE 是一个多街机 LaserDisc 模拟器，可以在 PC 上播放原始 LaserDisc 版本。</description>
+	</extension>
+</addon>

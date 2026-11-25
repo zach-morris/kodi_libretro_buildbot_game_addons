@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.atari800">
+		<category id="system" label="30052" help="30053">
+			<group id="1">
+				<setting id="atari800_system" type="string" label="30001" help="30054">
+					<level>0</level>
+					<default>800XL (64K)</default>
+					<constraints>
+						<options>
+							<option label="30055">400/800 (OS B)</option>
+							<option label="30056">800XL (64K)</option>
+							<option label="30057">130XE (128K)</option>
+							<option label="30058">Modern XL/XE(320K CS)</option>
+							<option label="30059">Modern XL/XE(576K)</option>
+							<option label="30060">Modern XL/XE(1088K)</option>
+							<option label="30061">XEGS</option>
+							<option label="30062">5200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_internalbasic" type="string" label="30019" help="30063">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_os_800" type="string" label="30034" help="30064">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30065">auto</option>
+							<option label="30162">Rev. A NTSC</option>
+							<option label="30163">Rev. A PAL</option>
+							<option label="30164">Rev. B NTSC</option>
+							<option label="30066">AltirraOS</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_os_xl" type="string" label="30035" help="30067">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30065">auto</option>
+							<option label="30165">AA00 Rev. 10</option>
+							<option label="30166">AA01 Rev. 11</option>
+							<option label="30167">BB00 Rev. 1</option>
+							<option label="30168">BB01 Rev. 2</option>
+							<option label="30169">BB02 Rev. 3</option>
+							<option label="30170">BB02 Rev. 3 Ver. 4</option>
+							<option label="30171">CC01 Rev. 4</option>
+							<option label="30172">BB01 Rev. 3</option>
+							<option label="30173">BB01 Rev. 4</option>
+							<option label="30174">BB01 Rev. 59</option>
+							<option label="30175">BB01 Rev. 59 alt.</option>
+							<option label="30066">AltirraOS</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_os_5200" type="string" label="30036" help="30068">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30065">auto</option>
+							<option label="30176">Original</option>
+							<option label="30177">Rev. A</option>
+							<option label="30066">AltirraOS</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_basic_version" type="string" label="30037" help="30069">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30065">auto</option>
+							<option label="30177">Rev. A</option>
+							<option label="30178">Rev. B</option>
+							<option label="30179">Rev. C</option>
+							<option label="30070">Altirra BASIC</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_mosaic" type="string" label="30038" help="30071">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30072">16 KB</option>
+							<option label="30073">80 KB</option>
+							<option label="30074">144 KB</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_axlon" type="string" label="30039" help="30075">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30180">128 KB</option>
+							<option label="30181">256 KB</option>
+							<option label="30182">512 KB</option>
+							<option label="30183">1 MB</option>
+							<option label="30184">2 MB</option>
+							<option label="30185">4 MB</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_axlon_shadow" type="string" label="30040" help="30076">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_mapram" type="string" label="30041" help="30077">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_xep80" type="string" label="30047" help="30078">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30079">port 1</option>
+							<option label="30080">port 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_rtime" type="string" label="30048" help="30081">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_pokey_stereo" type="string" label="30030" help="30082">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_cfg" type="string" label="30029" help="30083">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30084" help="30085">
+			<group id="1">
+				<setting id="atari800_ntscpal" type="string" label="30002" help="30086">
+					<level>0</level>
+					<default>NTSC</default>
+					<constraints>
+						<options>
+							<option>NTSC</option>
+							<option>PAL</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_artifacting_mode" type="string" label="30011" help="30087">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30088">none</option>
+							<option label="30186">blue/brown 1</option>
+							<option label="30187">blue/brown 2</option>
+							<option label="30188">GTIA</option>
+							<option label="30189">CTIA</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_resolution" type="string" label="30009" help="30089">
+					<level>0</level>
+					<default>336x240</default>
+					<constraints>
+						<options>
+							<option>336x240</option>
+							<option>320x240</option>
+							<option>384x240</option>
+							<option>384x272</option>
+							<option>384x288</option>
+							<option>400x300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="color_hue" type="string" label="30022" help="30090">
+					<level>0</level>
+					<default>0.00</default>
+					<constraints>
+						<options>
+							<option label="30190">-1.00</option>
+							<option label="30191">-0.98</option>
+							<option label="30192">-0.96</option>
+							<option label="30193">-0.94</option>
+							<option label="30194">-0.92</option>
+							<option label="30195">-0.90</option>
+							<option label="30196">-0.88</option>
+							<option label="30197">-0.86</option>
+							<option label="30198">-0.84</option>
+							<option label="30199">-0.82</option>
+							<option label="30200">-0.80</option>
+							<option label="30201">-0.78</option>
+							<option label="30202">-0.76</option>
+							<option label="30203">-0.74</option>
+							<option label="30204">-0.72</option>
+							<option label="30205">-0.70</option>
+							<option label="30206">-0.68</option>
+							<option label="30207">-0.66</option>
+							<option label="30208">-0.64</option>
+							<option label="30209">-0.62</option>
+							<option label="30210">-0.60</option>
+							<option label="30211">-0.58</option>
+							<option label="30212">-0.56</option>
+							<option label="30213">-0.54</option>
+							<option label="30214">-0.52</option>
+							<option label="30215">-0.50</option>
+							<option label="30216">-0.48</option>
+							<option label="30217">-0.46</option>
+							<option label="30218">-0.44</option>
+							<option label="30219">-0.42</option>
+							<option label="30220">-0.40</option>
+							<option label="30221">-0.38</option>
+							<option label="30222">-0.36</option>
+							<option label="30223">-0.34</option>
+							<option label="30224">-0.32</option>
+							<option label="30225">-0.30</option>
+							<option label="30226">-0.28</option>
+							<option label="30227">-0.26</option>
+							<option label="30228">-0.24</option>
+							<option label="30229">-0.22</option>
+							<option label="30230">-0.20</option>
+							<option label="30231">-0.18</option>
+							<option label="30232">-0.16</option>
+							<option label="30233">-0.14</option>
+							<option label="30234">-0.12</option>
+							<option label="30235">-0.10</option>
+							<option label="30236">-0.08</option>
+							<option label="30237">-0.06</option>
+							<option label="30238">-0.04</option>
+							<option label="30239">-0.02</option>
+							<option label="30091">0.00</option>
+							<option label="30240">0.02</option>
+							<option label="30241">0.04</option>
+							<option label="30242">0.06</option>
+							<option label="30243">0.08</option>
+							<option label="30244">0.10</option>
+							<option label="30245">0.12</option>
+							<option label="30246">0.14</option>
+							<option label="30247">0.16</option>
+							<option label="30248">0.18</option>
+							<option label="30249">0.20</option>
+							<option label="30250">0.22</option>
+							<option label="30251">0.24</option>
+							<option label="30252">0.26</option>
+							<option label="30253">0.28</option>
+							<option label="30254">0.30</option>
+							<option label="30255">0.32</option>
+							<option label="30256">0.34</option>
+							<option label="30257">0.36</option>
+							<option label="30258">0.38</option>
+							<option label="30259">0.40</option>
+							<option label="30260">0.42</option>
+							<option label="30261">0.44</option>
+							<option label="30262">0.46</option>
+							<option label="30263">0.48</option>
+							<option label="30264">0.50</option>
+							<option label="30265">0.52</option>
+							<option label="30266">0.54</option>
+							<option label="30267">0.56</option>
+							<option label="30268">0.58</option>
+							<option label="30269">0.60</option>
+							<option label="30270">0.62</option>
+							<option label="30271">0.64</option>
+							<option label="30272">0.66</option>
+							<option label="30273">0.68</option>
+							<option label="30274">0.70</option>
+							<option label="30275">0.72</option>
+							<option label="30276">0.74</option>
+							<option label="30277">0.76</option>
+							<option label="30278">0.78</option>
+							<option label="30279">0.80</option>
+							<option label="30280">0.82</option>
+							<option label="30281">0.84</option>
+							<option label="30282">0.86</option>
+							<option label="30283">0.88</option>
+							<option label="30284">0.90</option>
+							<option label="30285">0.92</option>
+							<option label="30286">0.94</option>
+							<option label="30287">0.96</option>
+							<option label="30288">0.98</option>
+							<option label="30289">1.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="color_saturation" type="string" label="30023" help="30092">
+					<level>0</level>
+					<default>0.00</default>
+					<constraints>
+						<options>
+							<option label="30190">-1.00</option>
+							<option label="30191">-0.98</option>
+							<option label="30192">-0.96</option>
+							<option label="30193">-0.94</option>
+							<option label="30194">-0.92</option>
+							<option label="30195">-0.90</option>
+							<option label="30196">-0.88</option>
+							<option label="30197">-0.86</option>
+							<option label="30198">-0.84</option>
+							<option label="30199">-0.82</option>
+							<option label="30200">-0.80</option>
+							<option label="30201">-0.78</option>
+							<option label="30202">-0.76</option>
+							<option label="30203">-0.74</option>
+							<option label="30204">-0.72</option>
+							<option label="30205">-0.70</option>
+							<option label="30206">-0.68</option>
+							<option label="30207">-0.66</option>
+							<option label="30208">-0.64</option>
+							<option label="30209">-0.62</option>
+							<option label="30210">-0.60</option>
+							<option label="30211">-0.58</option>
+							<option label="30212">-0.56</option>
+							<option label="30213">-0.54</option>
+							<option label="30214">-0.52</option>
+							<option label="30215">-0.50</option>
+							<option label="30216">-0.48</option>
+							<option label="30217">-0.46</option>
+							<option label="30218">-0.44</option>
+							<option label="30219">-0.42</option>
+							<option label="30220">-0.40</option>
+							<option label="30221">-0.38</option>
+							<option label="30222">-0.36</option>
+							<option label="30223">-0.34</option>
+							<option label="30224">-0.32</option>
+							<option label="30225">-0.30</option>
+							<option label="30226">-0.28</option>
+							<option label="30227">-0.26</option>
+							<option label="30228">-0.24</option>
+							<option label="30229">-0.22</option>
+							<option label="30230">-0.20</option>
+							<option label="30231">-0.18</option>
+							<option label="30232">-0.16</option>
+							<option label="30233">-0.14</option>
+							<option label="30234">-0.12</option>
+							<option label="30235">-0.10</option>
+							<option label="30236">-0.08</option>
+							<option label="30237">-0.06</option>
+							<option label="30238">-0.04</option>
+							<option label="30239">-0.02</option>
+							<option label="30091">0.00</option>
+							<option label="30240">0.02</option>
+							<option label="30241">0.04</option>
+							<option label="30242">0.06</option>
+							<option label="30243">0.08</option>
+							<option label="30244">0.10</option>
+							<option label="30245">0.12</option>
+							<option label="30246">0.14</option>
+							<option label="30247">0.16</option>
+							<option label="30248">0.18</option>
+							<option label="30249">0.20</option>
+							<option label="30250">0.22</option>
+							<option label="30251">0.24</option>
+							<option label="30252">0.26</option>
+							<option label="30253">0.28</option>
+							<option label="30254">0.30</option>
+							<option label="30255">0.32</option>
+							<option label="30256">0.34</option>
+							<option label="30257">0.36</option>
+							<option label="30258">0.38</option>
+							<option label="30259">0.40</option>
+							<option label="30260">0.42</option>
+							<option label="30261">0.44</option>
+							<option label="30262">0.46</option>
+							<option label="30263">0.48</option>
+							<option label="30264">0.50</option>
+							<option label="30265">0.52</option>
+							<option label="30266">0.54</option>
+							<option label="30267">0.56</option>
+							<option label="30268">0.58</option>
+							<option label="30269">0.60</option>
+							<option label="30270">0.62</option>
+							<option label="30271">0.64</option>
+							<option label="30272">0.66</option>
+							<option label="30273">0.68</option>
+							<option label="30274">0.70</option>
+							<option label="30275">0.72</option>
+							<option label="30276">0.74</option>
+							<option label="30277">0.76</option>
+							<option label="30278">0.78</option>
+							<option label="30279">0.80</option>
+							<option label="30280">0.82</option>
+							<option label="30281">0.84</option>
+							<option label="30282">0.86</option>
+							<option label="30283">0.88</option>
+							<option label="30284">0.90</option>
+							<option label="30285">0.92</option>
+							<option label="30286">0.94</option>
+							<option label="30287">0.96</option>
+							<option label="30288">0.98</option>
+							<option label="30289">1.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="color_contrast" type="string" label="30024" help="30093">
+					<level>0</level>
+					<default>0.00</default>
+					<constraints>
+						<options>
+							<option label="30290">-2.00</option>
+							<option label="30291">-1.96</option>
+							<option label="30292">-1.92</option>
+							<option label="30293">-1.88</option>
+							<option label="30294">-1.84</option>
+							<option label="30295">-1.80</option>
+							<option label="30296">-1.76</option>
+							<option label="30297">-1.72</option>
+							<option label="30298">-1.68</option>
+							<option label="30299">-1.64</option>
+							<option label="30300">-1.60</option>
+							<option label="30301">-1.56</option>
+							<option label="30302">-1.52</option>
+							<option label="30303">-1.48</option>
+							<option label="30304">-1.44</option>
+							<option label="30305">-1.40</option>
+							<option label="30306">-1.36</option>
+							<option label="30307">-1.32</option>
+							<option label="30308">-1.28</option>
+							<option label="30309">-1.24</option>
+							<option label="30310">-1.20</option>
+							<option label="30311">-1.16</option>
+							<option label="30312">-1.12</option>
+							<option label="30313">-1.08</option>
+							<option label="30314">-1.04</option>
+							<option label="30190">-1.00</option>
+							<option label="30192">-0.96</option>
+							<option label="30194">-0.92</option>
+							<option label="30196">-0.88</option>
+							<option label="30198">-0.84</option>
+							<option label="30200">-0.80</option>
+							<option label="30202">-0.76</option>
+							<option label="30204">-0.72</option>
+							<option label="30206">-0.68</option>
+							<option label="30208">-0.64</option>
+							<option label="30210">-0.60</option>
+							<option label="30212">-0.56</option>
+							<option label="30214">-0.52</option>
+							<option label="30216">-0.48</option>
+							<option label="30218">-0.44</option>
+							<option label="30220">-0.40</option>
+							<option label="30222">-0.36</option>
+							<option label="30224">-0.32</option>
+							<option label="30226">-0.28</option>
+							<option label="30228">-0.24</option>
+							<option label="30230">-0.20</option>
+							<option label="30232">-0.16</option>
+							<option label="30234">-0.12</option>
+							<option label="30236">-0.08</option>
+							<option label="30238">-0.04</option>
+							<option label="30091">0.00</option>
+							<option label="30241">0.04</option>
+							<option label="30243">0.08</option>
+							<option label="30245">0.12</option>
+							<option label="30247">0.16</option>
+							<option label="30249">0.20</option>
+							<option label="30251">0.24</option>
+							<option label="30253">0.28</option>
+							<option label="30255">0.32</option>
+							<option label="30257">0.36</option>
+							<option label="30259">0.40</option>
+							<option label="30261">0.44</option>
+							<option label="30263">0.48</option>
+							<option label="30265">0.52</option>
+							<option label="30267">0.56</option>
+							<option label="30269">0.60</option>
+							<option label="30271">0.64</option>
+							<option label="30273">0.68</option>
+							<option label="30275">0.72</option>
+							<option label="30277">0.76</option>
+							<option label="30279">0.80</option>
+							<option label="30281">0.84</option>
+							<option label="30283">0.88</option>
+							<option label="30285">0.92</option>
+							<option label="30287">0.96</option>
+							<option label="30289">1.00</option>
+							<option label="30315">1.04</option>
+							<option label="30316">1.08</option>
+							<option label="30317">1.12</option>
+							<option label="30318">1.16</option>
+							<option label="30319">1.20</option>
+							<option label="30320">1.24</option>
+							<option label="30321">1.28</option>
+							<option label="30322">1.32</option>
+							<option label="30323">1.36</option>
+							<option label="30324">1.40</option>
+							<option label="30325">1.44</option>
+							<option label="30326">1.48</option>
+							<option label="30327">1.52</option>
+							<option label="30328">1.56</option>
+							<option label="30329">1.60</option>
+							<option label="30330">1.64</option>
+							<option label="30331">1.68</option>
+							<option label="30332">1.72</option>
+							<option label="30333">1.76</option>
+							<option label="30334">1.80</option>
+							<option label="30335">1.84</option>
+							<option label="30336">1.88</option>
+							<option label="30337">1.92</option>
+							<option label="30338">1.96</option>
+							<option label="30339">2.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="color_brightness" type="string" label="30025" help="30094">
+					<level>0</level>
+					<default>0.00</default>
+					<constraints>
+						<options>
+							<option label="30290">-2.00</option>
+							<option label="30291">-1.96</option>
+							<option label="30292">-1.92</option>
+							<option label="30293">-1.88</option>
+							<option label="30294">-1.84</option>
+							<option label="30295">-1.80</option>
+							<option label="30296">-1.76</option>
+							<option label="30297">-1.72</option>
+							<option label="30298">-1.68</option>
+							<option label="30299">-1.64</option>
+							<option label="30300">-1.60</option>
+							<option label="30301">-1.56</option>
+							<option label="30302">-1.52</option>
+							<option label="30303">-1.48</option>
+							<option label="30304">-1.44</option>
+							<option label="30305">-1.40</option>
+							<option label="30306">-1.36</option>
+							<option label="30307">-1.32</option>
+							<option label="30308">-1.28</option>
+							<option label="30309">-1.24</option>
+							<option label="30310">-1.20</option>
+							<option label="30311">-1.16</option>
+							<option label="30312">-1.12</option>
+							<option label="30313">-1.08</option>
+							<option label="30314">-1.04</option>
+							<option label="30190">-1.00</option>
+							<option label="30192">-0.96</option>
+							<option label="30194">-0.92</option>
+							<option label="30196">-0.88</option>
+							<option label="30198">-0.84</option>
+							<option label="30200">-0.80</option>
+							<option label="30202">-0.76</option>
+							<option label="30204">-0.72</option>
+							<option label="30206">-0.68</option>
+							<option label="30208">-0.64</option>
+							<option label="30210">-0.60</option>
+							<option label="30212">-0.56</option>
+							<option label="30214">-0.52</option>
+							<option label="30216">-0.48</option>
+							<option label="30218">-0.44</option>
+							<option label="30220">-0.40</option>
+							<option label="30222">-0.36</option>
+							<option label="30224">-0.32</option>
+							<option label="30226">-0.28</option>
+							<option label="30228">-0.24</option>
+							<option label="30230">-0.20</option>
+							<option label="30232">-0.16</option>
+							<option label="30234">-0.12</option>
+							<option label="30236">-0.08</option>
+							<option label="30238">-0.04</option>
+							<option label="30091">0.00</option>
+							<option label="30241">0.04</option>
+							<option label="30243">0.08</option>
+							<option label="30245">0.12</option>
+							<option label="30247">0.16</option>
+							<option label="30249">0.20</option>
+							<option label="30251">0.24</option>
+							<option label="30253">0.28</option>
+							<option label="30255">0.32</option>
+							<option label="30257">0.36</option>
+							<option label="30259">0.40</option>
+							<option label="30261">0.44</option>
+							<option label="30263">0.48</option>
+							<option label="30265">0.52</option>
+							<option label="30267">0.56</option>
+							<option label="30269">0.60</option>
+							<option label="30271">0.64</option>
+							<option label="30273">0.68</option>
+							<option label="30275">0.72</option>
+							<option label="30277">0.76</option>
+							<option label="30279">0.80</option>
+							<option label="30281">0.84</option>
+							<option label="30283">0.88</option>
+							<option label="30285">0.92</option>
+							<option label="30287">0.96</option>
+							<option label="30289">1.00</option>
+							<option label="30315">1.04</option>
+							<option label="30316">1.08</option>
+							<option label="30317">1.12</option>
+							<option label="30318">1.16</option>
+							<option label="30319">1.20</option>
+							<option label="30320">1.24</option>
+							<option label="30321">1.28</option>
+							<option label="30322">1.32</option>
+							<option label="30323">1.36</option>
+							<option label="30324">1.40</option>
+							<option label="30325">1.44</option>
+							<option label="30326">1.48</option>
+							<option label="30327">1.52</option>
+							<option label="30328">1.56</option>
+							<option label="30329">1.60</option>
+							<option label="30330">1.64</option>
+							<option label="30331">1.68</option>
+							<option label="30332">1.72</option>
+							<option label="30333">1.76</option>
+							<option label="30334">1.80</option>
+							<option label="30335">1.84</option>
+							<option label="30336">1.88</option>
+							<option label="30337">1.92</option>
+							<option label="30338">1.96</option>
+							<option label="30339">2.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="color_gamma" type="string" label="30026" help="30095">
+					<level>0</level>
+					<default>2.35</default>
+					<constraints>
+						<options>
+							<option label="30289">1.00</option>
+							<option label="30340">1.02</option>
+							<option label="30315">1.04</option>
+							<option label="30341">1.06</option>
+							<option label="30316">1.08</option>
+							<option label="30342">1.10</option>
+							<option label="30317">1.12</option>
+							<option label="30343">1.14</option>
+							<option label="30318">1.16</option>
+							<option label="30344">1.18</option>
+							<option label="30319">1.20</option>
+							<option label="30345">1.22</option>
+							<option label="30320">1.24</option>
+							<option label="30346">1.26</option>
+							<option label="30321">1.28</option>
+							<option label="30347">1.30</option>
+							<option label="30322">1.32</option>
+							<option label="30348">1.34</option>
+							<option label="30323">1.36</option>
+							<option label="30349">1.38</option>
+							<option label="30324">1.40</option>
+							<option label="30350">1.42</option>
+							<option label="30325">1.44</option>
+							<option label="30351">1.46</option>
+							<option label="30326">1.48</option>
+							<option label="30352">1.50</option>
+							<option label="30327">1.52</option>
+							<option label="30353">1.54</option>
+							<option label="30328">1.56</option>
+							<option label="30354">1.58</option>
+							<option label="30329">1.60</option>
+							<option label="30355">1.62</option>
+							<option label="30330">1.64</option>
+							<option label="30356">1.66</option>
+							<option label="30331">1.68</option>
+							<option label="30357">1.70</option>
+							<option label="30332">1.72</option>
+							<option label="30358">1.74</option>
+							<option label="30333">1.76</option>
+							<option label="30359">1.78</option>
+							<option label="30334">1.80</option>
+							<option label="30360">1.82</option>
+							<option label="30335">1.84</option>
+							<option label="30361">1.86</option>
+							<option label="30336">1.88</option>
+							<option label="30362">1.90</option>
+							<option label="30337">1.92</option>
+							<option label="30363">1.94</option>
+							<option label="30338">1.96</option>
+							<option label="30364">1.98</option>
+							<option label="30339">2.00</option>
+							<option label="30365">2.02</option>
+							<option label="30366">2.04</option>
+							<option label="30367">2.06</option>
+							<option label="30368">2.08</option>
+							<option label="30369">2.10</option>
+							<option label="30370">2.12</option>
+							<option label="30371">2.14</option>
+							<option label="30372">2.16</option>
+							<option label="30373">2.18</option>
+							<option label="30374">2.20</option>
+							<option label="30375">2.22</option>
+							<option label="30376">2.24</option>
+							<option label="30377">2.26</option>
+							<option label="30378">2.28</option>
+							<option label="30379">2.30</option>
+							<option label="30380">2.32</option>
+							<option label="30381">2.34</option>
+							<option label="30096">2.35</option>
+							<option label="30382">2.36</option>
+							<option label="30383">2.38</option>
+							<option label="30384">2.40</option>
+							<option label="30385">2.42</option>
+							<option label="30386">2.44</option>
+							<option label="30387">2.46</option>
+							<option label="30388">2.48</option>
+							<option label="30389">2.50</option>
+							<option label="30390">2.52</option>
+							<option label="30391">2.54</option>
+							<option label="30392">2.56</option>
+							<option label="30393">2.58</option>
+							<option label="30394">2.60</option>
+							<option label="30395">2.62</option>
+							<option label="30396">2.64</option>
+							<option label="30397">2.66</option>
+							<option label="30398">2.68</option>
+							<option label="30399">2.70</option>
+							<option label="30400">2.72</option>
+							<option label="30401">2.74</option>
+							<option label="30402">2.76</option>
+							<option label="30403">2.78</option>
+							<option label="30404">2.80</option>
+							<option label="30405">2.82</option>
+							<option label="30406">2.84</option>
+							<option label="30407">2.86</option>
+							<option label="30408">2.88</option>
+							<option label="30409">2.90</option>
+							<option label="30410">2.92</option>
+							<option label="30411">2.94</option>
+							<option label="30412">2.96</option>
+							<option label="30413">2.98</option>
+							<option label="30414">3.00</option>
+							<option label="30415">3.02</option>
+							<option label="30416">3.04</option>
+							<option label="30417">3.06</option>
+							<option label="30418">3.08</option>
+							<option label="30419">3.10</option>
+							<option label="30420">3.12</option>
+							<option label="30421">3.14</option>
+							<option label="30422">3.16</option>
+							<option label="30423">3.18</option>
+							<option label="30424">3.20</option>
+							<option label="30425">3.22</option>
+							<option label="30426">3.24</option>
+							<option label="30427">3.26</option>
+							<option label="30428">3.28</option>
+							<option label="30429">3.30</option>
+							<option label="30430">3.32</option>
+							<option label="30431">3.34</option>
+							<option label="30432">3.36</option>
+							<option label="30433">3.38</option>
+							<option label="30434">3.40</option>
+							<option label="30435">3.42</option>
+							<option label="30436">3.44</option>
+							<option label="30437">3.46</option>
+							<option label="30438">3.48</option>
+							<option label="30439">3.50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="color_delay" type="string" label="30031" help="30097">
+					<level>0</level>
+					<default>default</default>
+					<constraints>
+						<options>
+							<option label="30098">default</option>
+							<option label="30440">10.00</option>
+							<option label="30441">10.50</option>
+							<option label="30442">11.00</option>
+							<option label="30443">11.50</option>
+							<option label="30444">12.00</option>
+							<option label="30445">12.50</option>
+							<option label="30446">13.00</option>
+							<option label="30447">13.50</option>
+							<option label="30448">14.00</option>
+							<option label="30449">14.50</option>
+							<option label="30450">15.00</option>
+							<option label="30451">15.50</option>
+							<option label="30452">16.00</option>
+							<option label="30453">16.50</option>
+							<option label="30454">17.00</option>
+							<option label="30455">17.50</option>
+							<option label="30456">18.00</option>
+							<option label="30457">18.50</option>
+							<option label="30458">19.00</option>
+							<option label="30459">19.50</option>
+							<option label="30460">20.00</option>
+							<option label="30461">20.50</option>
+							<option label="30462">21.00</option>
+							<option label="30463">21.50</option>
+							<option label="30464">22.00</option>
+							<option label="30465">22.50</option>
+							<option label="30466">23.00</option>
+							<option label="30467">23.50</option>
+							<option label="30468">24.00</option>
+							<option label="30469">24.50</option>
+							<option label="30470">25.00</option>
+							<option label="30471">25.50</option>
+							<option label="30472">26.00</option>
+							<option label="30473">26.50</option>
+							<option label="30474">27.00</option>
+							<option label="30475">27.50</option>
+							<option label="30476">28.00</option>
+							<option label="30477">28.50</option>
+							<option label="30478">29.00</option>
+							<option label="30479">29.50</option>
+							<option label="30480">30.00</option>
+							<option label="30481">30.50</option>
+							<option label="30482">31.00</option>
+							<option label="30483">31.50</option>
+							<option label="30484">32.00</option>
+							<option label="30485">32.50</option>
+							<option label="30486">33.00</option>
+							<option label="30487">33.50</option>
+							<option label="30488">34.00</option>
+							<option label="30489">34.50</option>
+							<option label="30490">35.00</option>
+							<option label="30491">35.50</option>
+							<option label="30492">36.00</option>
+							<option label="30493">36.50</option>
+							<option label="30494">37.00</option>
+							<option label="30495">37.50</option>
+							<option label="30496">38.00</option>
+							<option label="30497">38.50</option>
+							<option label="30498">39.00</option>
+							<option label="30499">39.50</option>
+							<option label="30500">40.00</option>
+							<option label="30501">40.50</option>
+							<option label="30502">41.00</option>
+							<option label="30503">41.50</option>
+							<option label="30504">42.00</option>
+							<option label="30505">42.50</option>
+							<option label="30506">43.00</option>
+							<option label="30507">43.50</option>
+							<option label="30508">44.00</option>
+							<option label="30509">44.50</option>
+							<option label="30510">45.00</option>
+							<option label="30511">45.50</option>
+							<option label="30512">46.00</option>
+							<option label="30513">46.50</option>
+							<option label="30514">47.00</option>
+							<option label="30515">47.50</option>
+							<option label="30516">48.00</option>
+							<option label="30517">48.50</option>
+							<option label="30518">49.00</option>
+							<option label="30519">49.50</option>
+							<option label="30520">50.00</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="external_palette" type="string" label="30032" help="30099">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30098">default</option>
+							<option label="30100">gray</option>
+							<option label="30101">jakub</option>
+							<option label="30102">real</option>
+							<option label="30103">xformer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30104" help="30105">
+			<group id="1">
+				<setting id="atari800_opt2" type="string" label="30012" help="30106">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="231">none</option>
+							<option label="30107">enabled</option>
+							<option label="30108">Swap Ports</option>
+							<option label="30109">Joy 2B+</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="paddle_active" type="string" label="30013" help="30110">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="paddle_movement_speed" type="string" label="30014" help="30111">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pot_digital_sensitivity" type="string" label="30015" help="30112">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30113">5</option>
+							<option label="30114">10</option>
+							<option label="30115">15</option>
+							<option label="30116">20</option>
+							<option label="30117">25</option>
+							<option label="30118">30</option>
+							<option label="30119">35</option>
+							<option label="30120">40</option>
+							<option label="30121">45</option>
+							<option label="30122">50</option>
+							<option label="30123">55</option>
+							<option label="30124">60</option>
+							<option label="30125">65</option>
+							<option label="30126">70</option>
+							<option label="30127">75</option>
+							<option label="30128">80</option>
+							<option label="30129">85</option>
+							<option label="30130">90</option>
+							<option label="30131">95</option>
+							<option label="30132">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pot_analog_sensitivity" type="string" label="30016" help="30133">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30113">5</option>
+							<option label="30114">10</option>
+							<option label="30115">15</option>
+							<option label="30116">20</option>
+							<option label="30117">25</option>
+							<option label="30118">30</option>
+							<option label="30119">35</option>
+							<option label="30120">40</option>
+							<option label="30121">45</option>
+							<option label="30122">50</option>
+							<option label="30123">55</option>
+							<option label="30124">60</option>
+							<option label="30125">65</option>
+							<option label="30126">70</option>
+							<option label="30127">75</option>
+							<option label="30128">80</option>
+							<option label="30129">85</option>
+							<option label="30130">90</option>
+							<option label="30131">95</option>
+							<option label="30132">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="pot_analog_deadzone" type="string" label="30017" help="30134">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option label="30135">0</option>
+							<option label="30136">3</option>
+							<option label="30113">5</option>
+							<option label="30137">7</option>
+							<option label="30114">10</option>
+							<option label="30138">13</option>
+							<option label="30115">15</option>
+							<option label="30139">17</option>
+							<option label="30116">20</option>
+							<option label="30140">23</option>
+							<option label="30117">25</option>
+							<option label="30141">27</option>
+							<option label="30118">30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_keyboard" type="string" label="30010" help="30142">
+					<level>0</level>
+					<default>poll</default>
+					<constraints>
+						<options>
+							<option>poll</option>
+							<option>callback</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atarixegs_keyboard_detached" type="string" label="30027" help="30143">
+					<level>0</level>
+					<default>attached</default>
+					<constraints>
+						<options>
+							<option>attached</option>
+							<option>detached</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_vkbd_enabled" type="string" label="30033" help="30144">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="keyboard_defines" type="string" label="30018" help="30145">
+					<level>0</level>
+					<default>informational</default>
+					<constraints>
+						<options>
+							<option>informational</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_autofire" type="string" label="30042" help="30146">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30147">fire</option>
+							<option label="30148">always</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="media" label="30149" help="30150">
+			<group id="1">
+				<setting id="atari800_pdevice" type="string" label="30049" help="30151">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_rdevice" type="string" label="30050" help="30152">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_slowxex" type="string" label="30051" help="30153">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_sioaccel" type="string" label="30004" help="30154">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_cassboot" type="string" label="30020" help="30155">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="osd" label="30156" help="30157">
+			<group id="1">
+				<setting id="atari800_show_speed" type="string" label="30043" help="30158">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_show_diskled" type="string" label="30044" help="30159">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_show_sector" type="string" label="30045" help="30160">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="atari800_show_1200leds" type="string" label="30046" help="30161">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

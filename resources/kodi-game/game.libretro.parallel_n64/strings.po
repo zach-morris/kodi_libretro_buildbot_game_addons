@@ -1,0 +1,162 @@
+# game.libretro.parallel_n64 language file
+# Addon Name: game.libretro.parallel_n64
+# Addon id: game.libretro.parallel_n64
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.parallel_n64\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-01-30 20:21i\n"
+"PO-Revision-Date: 2024-12-27 22:04+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-parallel_n64/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Nintendo 64 (ParaLLEl N64)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro."
+msgstr ""
+
+msgctxt "Addon Lifecyclestate"
+msgid "Use Mupen64Plus-Next for software rendereing."
+msgstr ""
+
+msgctxt "#30001"
+msgid "CPU Core"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Analog Deadzone (percent)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Analog Sensitivity (percent)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Player 1 Pak"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Player 2 Pak"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Player 3 Pak"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Player 4 Pak"
+msgstr ""
+
+msgctxt "#30020"
+msgid "(Angrylion) VI Overlay"
+msgstr ""
+
+msgctxt "#30021"
+msgid "(Angrylion) Thread sync level"
+msgstr ""
+
+msgctxt "#30022"
+msgid "(Angrylion) Multi-threading"
+msgstr ""
+
+msgctxt "#30023"
+msgid "(Angrylion) Hide overscan"
+msgstr ""
+
+msgctxt "#30024"
+msgid "VI Refresh (Overclock)"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Audio Buffer Size (restart)"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Enable Expansion Pak RAM"
+msgstr ""
+
+msgctxt "#30073"
+msgid "GFX Accuracy (restart)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Send audio lists to HLE RSP"
+msgstr ""
+
+msgctxt "#30075"
+msgid "GFX Plugin"
+msgstr ""
+
+msgctxt "#30076"
+msgid "RSP Plugin"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Resolution (restart)"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Aspect ratio hint (reinit)"
+msgstr ""
+
+msgctxt "#30079"
+msgid "(Glide64) Texture Filtering"
+msgstr ""
+
+msgctxt "#30080"
+msgid "(Angrylion) Dithering"
+msgstr ""
+
+msgctxt "#30081"
+msgid "(Glide64) Polygon Offset Factor"
+msgstr ""
+
+msgctxt "#30082"
+msgid "(Glide64) Polygon Offset Units"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Buffer Swap"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Framerate (restart)"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Independent C-button Controls"
+msgstr ""
+
+msgctxt "#30086"
+msgid "(Glide64) Vertex cache VBO (restart)"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Boot Device"
+msgstr ""
+
+msgctxt "#30088"
+msgid "64DD Hardware"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Snap Controller Angle"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Maximum Snap Angle (value of 5 would mean 85 to 95 degrees are snapped to 90)"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
+msgstr ""

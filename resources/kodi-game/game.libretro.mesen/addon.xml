@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mesen"
+		name="Nintendo - NES / Famicom (Mesen)"
+		version="0.9.9.47"
+		provider-name="M. Bibaud (aka Sour)">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - NES / Famicom</platforms>
+		<extensions>nes|fds|unf|unif</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mesen_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mesen</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - NES / Famicom (Mesen)</summary>
+		<summary lang="da_DK">Nintendo - NES / Famicom (Mesen)</summary>
+		<summary lang="en_GB">Nintendo - NES / Famicom (Mesen)</summary>
+		<summary lang="es_ES">Nintendo - NES / Famicom (Mesen)</summary>
+		<summary lang="ga">Nintendo - NES / Famicom (Mesen)</summary>
+		<summary lang="it_IT">Nintendo - NES / Famicom (Mesen)</summary>
+		<summary lang="ru_RU">Nintendo — NES / Famicom (Mesen)</summary>
+		<summary lang="sv_SE">Nintendo - NES / Famicom (Mesen)</summary>
+		<summary lang="zh_CN">任天堂 - NES / Famicom (Mesen)</summary>
+		<description lang="ca_ES">Mesen és un emulador de NES d&apos;alta precisió per a Windows i Linux.[CR][CR]Mesen ofereix nombroses funcions, com ara desar estats, filtres de vídeo, netplay, rebobinat, overclocking, codis de trampes i paquets HD.</description>
+		<description lang="cs_CZ">Mesen je vysoce přesný emulátor NES pro Windows a Linux.[CR][CR]Mesen nabízí řadu funkcí, například uložené stavy, video filtry, netplay, převíjení, přetaktování, cheat kódy a HD balíčky.</description>
+		<description lang="da_DK">Mesen er en NES-emulator med høj nøjagtighed til Windows og Linux.[CR][CR]Mesen tilbyder adskillige funktioner, såsom gemmetilstande, videofiltre, netplay, tilbagespoling, overclocking, snydekoder og HD-pakker.</description>
+		<description lang="de_DE">Mesen ist ein hochpräziser NES-Emulator für Windows und Linux.[CR][CR]Mesen bietet zahlreiche Funktionen wie Speicherstände, Videofilter, Netplay, Rückspulen, Übertaktung, Cheatcodes und HD-Packs.</description>
+		<description lang="en_GB">Mesen is a high-accuracy NES emulator for Windows and Linux.[CR][CR]Mesen offers numerous features, such as save states, video filters, netplay, rewinding, overclocking, cheat codes and HD packs.</description>
+		<description lang="es_ES">Mesen es un emulador de NES de alta precisión para Windows y Linux.[CR][CR]Mesen ofrece numerosas funciones, como estados de guardado, filtros de vídeo, netplay, rebobinado, overclocking, códigos de trucos y paquetes HD.</description>
+		<description lang="ga">Is aithriseoir NES ardchruinnis é Mesen do Windows agus Linux.[CR][CR]Cuireann Mesen go leor gnéithe ar fáil, amhail stáit sábhála, scagairí físe, seinm líonra, athchasadh, róchlogáil, cóid cheat agus pacáistí HD.</description>
+		<description lang="it_IT">Mesen è un emulatore NES ad alta precisione per Windows e Linux.[CR][CR]Mesen offre numerose funzionalità, come stati di salvataggio, filtri video, netplay, riavvolgimento, overclocking, codici cheat e pacchetti HD.</description>
+		<description lang="ru_RU">Mesen — это высокоточный эмулятор NES для Windows и Linux.[CR][CR]Mesen предлагает множество функций, таких как сохранённые состояния, видеофильтры, сетевая игра, перемотка, разгон, читы и HD-паки.</description>
+		<description lang="sv_SE">Mesen är en NES-emulator med hög precision för Windows och Linux.[CR][CR]Mesen erbjuder många funktioner, t.ex. spara tillstånd, videofilter, netplay, spolning, överklockning, fuskkoder och HD-paket.</description>
+		<description lang="zh_CN">Mesen 是一款适用于 Windows 和 Linux 的高精度 NES 模拟器。[CR][CR]Mesen 提供了许多功能，例如保存状态、视频过滤器、网络播放、回放、超频、作弊代码和高清包。</description>
+	</extension>
+</addon>

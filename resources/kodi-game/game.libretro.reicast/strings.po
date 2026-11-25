@@ -1,0 +1,290 @@
+# game.libretro.reicast language file
+# Addon Name: game.libretro.reicast
+# Addon id: game.libretro.reicast
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.reicast\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-08-24 22:21i\n"
+"PO-Revision-Date: 2024-12-27 21:25+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-reicast/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sega - Dreamcast/Naomi (Flycast)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Reicast is a multi-platform Sega Dreamcast emulator.[CR][CR]This add-on is now marked as broken. Please use Flycast."
+msgstr ""
+
+msgctxt "Addon Lifecyclestate"
+msgid "This add-on has been renamed from Reicast to Flycast."
+msgstr ""
+
+msgctxt "#30003"
+msgid "HLE BIOS"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Screen Orientation"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Alpha Sorting"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Mipmapping"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Volume Modifier"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Cable Type"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Framerate"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Region"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Language"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Force Windows CE Mode"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Analog Stick Deadzone"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Trigger Deadzone"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Digital Triggers"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Enable DSP"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Texture Upscaling (xBRZ)"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Texture Upscaling Max. Filtered Size"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Enable RTT (Render To Texture) Buffer"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Render To Texture Upscaling"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Synchronous Rendering"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Delay Frame Swapping"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Frame Skipping"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Purupuru Pack/Vibration Pack"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Allow NAOMI Service Buttons"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Load Custom Textures"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Dump Textures"
+msgstr ""
+
+msgctxt "#30042"
+msgid "VMU Screen 1 Display"
+msgstr ""
+
+msgctxt "#30043"
+msgid "VMU Screen 1 Position"
+msgstr ""
+
+msgctxt "#30044"
+msgid "VMU Screen 1 Size"
+msgstr ""
+
+msgctxt "#30045"
+msgid "VMU Screen 1 Pixel On Color"
+msgstr ""
+
+msgctxt "#30046"
+msgid "VMU Screen 1 Pixel Off Color"
+msgstr ""
+
+msgctxt "#30047"
+msgid "VMU Screen 1 Opacity"
+msgstr ""
+
+msgctxt "#30048"
+msgid "VMU Screen 2 Display"
+msgstr ""
+
+msgctxt "#30049"
+msgid "VMU Screen 2 Position"
+msgstr ""
+
+msgctxt "#30050"
+msgid "VMU Screen 2 Size"
+msgstr ""
+
+msgctxt "#30051"
+msgid "VMU Screen 2 Pixel On Color"
+msgstr ""
+
+msgctxt "#30052"
+msgid "VMU Screen 2 Pixel Off Color"
+msgstr ""
+
+msgctxt "#30053"
+msgid "VMU Screen 2 Opacity"
+msgstr ""
+
+msgctxt "#30054"
+msgid "VMU Screen 3 Display"
+msgstr ""
+
+msgctxt "#30055"
+msgid "VMU Screen 3 Position"
+msgstr ""
+
+msgctxt "#30056"
+msgid "VMU Screen 3 Size"
+msgstr ""
+
+msgctxt "#30057"
+msgid "VMU Screen 3 Pixel On Color"
+msgstr ""
+
+msgctxt "#30058"
+msgid "VMU Screen 3 Pixel Off Color"
+msgstr ""
+
+msgctxt "#30059"
+msgid "VMU Screen 3 Opacity"
+msgstr ""
+
+msgctxt "#30060"
+msgid "VMU Screen 4 Display"
+msgstr ""
+
+msgctxt "#30061"
+msgid "VMU Screen 4 Position"
+msgstr ""
+
+msgctxt "#30062"
+msgid "VMU Screen 4 Size"
+msgstr ""
+
+msgctxt "#30063"
+msgid "VMU Screen 4 Pixel On Color"
+msgstr ""
+
+msgctxt "#30064"
+msgid "VMU Screen 4 Pixel Off Color"
+msgstr ""
+
+msgctxt "#30065"
+msgid "VMU Screen 4 Opacity"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Gun Crosshair 1 Display"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Gun Crosshair 2 Display"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Gun Crosshair 3 Display"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Gun Crosshair 4 Display"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Boot to BIOS (Restart)"
+msgstr ""
+
+msgctxt "#30072"
+msgid "System Type (Restart)"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Internal Resolution (Restart)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "GDROM Fast Loading (inaccurate)"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Widescreen Hack (Restart)"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Widescreen Cheats (Restart)"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Broadcast"
+msgstr ""
+
+msgctxt "#30078"
+msgid "DIV Matching (performance, less accurate)"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Enable RTT (Render To Texture)"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Threaded Rendering (Restart)"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Enable NAOMI 15KHz Dipswitch"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Per-Game VMUs"
+msgstr ""

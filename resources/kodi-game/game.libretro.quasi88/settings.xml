@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.quasi88">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="q88_basic_mode" type="string" label="30001" help="30010">
+					<level>0</level>
+					<default>N88 V2</default>
+					<constraints>
+						<options>
+							<option label="30011">N88 V2</option>
+							<option label="30012">N88 V1H</option>
+							<option label="30013">N88 V1S</option>
+							<option label="30014">N</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="q88_sub_cpu_mode" type="string" label="30002" help="30015">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30016">0</option>
+							<option label="30017">1</option>
+							<option label="30018">2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="q88_cpu_clock" type="string" label="30003" help="30019">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option label="30020">4</option>
+							<option label="30039">2.53</option>
+							<option label="30021">8</option>
+							<option label="30022">16</option>
+							<option label="30023">32</option>
+							<option label="30024">64</option>
+							<option label="30025">1</option>
+							<option label="30026">2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="q88_sound_board" type="string" label="30004" help="30027">
+					<level>0</level>
+					<default>OPNA</default>
+					<constraints>
+						<options>
+							<option label="30028">OPN</option>
+							<option label="30029">OPNA</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="q88_use_fdc_wait" type="string" label="30005" help="30030">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30031">enabled</option>
+							<option label="30032">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="q88_pcg-8100" type="string" label="30006" help="30033">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30031">enabled</option>
+							<option label="30032">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="q88_save_to_disk_image" type="string" label="30007" help="30034">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30031">enabled</option>
+							<option label="30032">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="q88_rumble" type="string" label="30008" help="30035">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30031">enabled</option>
+							<option label="30032">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="q88_screen_size" type="string" label="30009" help="30036">
+					<level>0</level>
+					<default>full</default>
+					<constraints>
+						<options>
+							<option label="30037">full</option>
+							<option label="30038">half</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

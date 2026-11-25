@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.cemu">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="cemu_emulate_skylander_portal" type="string" label="30001">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_emulate_infinity_base" type="string" label="30002">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_emulate_dimensions_toypad" type="string" label="30003">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="system" label="30004" help="30005">
+			<group id="1">
+				<setting id="cemu_cpu_mode" type="string" label="30006" help="30007">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30008">auto</option>
+							<option label="30009">singlecore_interpreter</option>
+							<option label="30010">singlecore_recompiler</option>
+							<option label="30011">multicore_recompiler</option>
+							<option label="30012">multicore_interpreter</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_thread_quantum" type="string" label="30013">
+					<level>0</level>
+					<default>45000</default>
+					<constraints>
+						<options>
+							<option>20000</option>
+							<option>45000</option>
+							<option>60000</option>
+							<option>80000</option>
+							<option>100000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_console_language" type="string" label="30014">
+					<level>0</level>
+					<default>English</default>
+					<constraints>
+						<options>
+							<option>English</option>
+							<option>Japanese</option>
+							<option>French</option>
+							<option>German</option>
+							<option>Italian</option>
+							<option>Spanish</option>
+							<option>Chinese</option>
+							<option>Korean</option>
+							<option>Dutch</option>
+							<option>Portuguese</option>
+							<option>Russian</option>
+							<option>Taiwanese</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_audio_channels" type="string" label="30015" help="30016">
+					<level>0</level>
+					<default>stereo</default>
+					<constraints>
+						<options>
+							<option label="30017">mono</option>
+							<option label="30018">stereo</option>
+							<option label="30019">surround</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="graphics" label="30020" help="30021">
+			<group id="1">
+				<setting id="cemu_gpu_api" type="string" label="30022" help="30023">
+					<level>0</level>
+					<default>Vulkan</default>
+					<constraints>
+						<options>
+							<option>OpenGL</option>
+							<option>Vulkan</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_precompiled_shaders" type="string" label="30024" help="30025">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30008">auto</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_async_shader_compile" type="string" label="30026">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_accurate_shader_mul" type="string" label="30027" help="30028">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30008">auto</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_gx2drawdone_sync" type="string" label="30029" help="30030">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_vk_accurate_barriers" type="string" label="30031" help="30032">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="controller" label="30033" help="30034">
+			<group id="1">
+				<setting id="cemu_rumble_strength" type="string" label="30035" help="30036">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30037">0</option>
+							<option label="30038">10</option>
+							<option label="30039">20</option>
+							<option label="30040">30</option>
+							<option label="30041">40</option>
+							<option label="30042">50</option>
+							<option label="30043">60</option>
+							<option label="30044">70</option>
+							<option label="30045">80</option>
+							<option label="30046">90</option>
+							<option label="30047">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_stick_deadzone_p1" type="string" label="30048" help="30049">
+					<level>0</level>
+					<default>25</default>
+					<constraints>
+						<options>
+							<option label="30037">0</option>
+							<option label="30050">5</option>
+							<option label="30038">10</option>
+							<option label="30051">15</option>
+							<option label="30039">20</option>
+							<option label="30052">25</option>
+							<option label="30040">30</option>
+							<option label="30053">35</option>
+							<option label="30041">40</option>
+							<option label="30054">45</option>
+							<option label="30042">50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_stick_deadzone_p2" type="string" label="30055" help="30056">
+					<level>0</level>
+					<default>25</default>
+					<constraints>
+						<options>
+							<option label="30037">0</option>
+							<option label="30050">5</option>
+							<option label="30038">10</option>
+							<option label="30051">15</option>
+							<option label="30039">20</option>
+							<option label="30052">25</option>
+							<option label="30040">30</option>
+							<option label="30053">35</option>
+							<option label="30041">40</option>
+							<option label="30054">45</option>
+							<option label="30042">50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_gamepad_motion" type="string" label="30057" help="30058">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30059">disabled</option>
+							<option label="30060">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_number_of_screen_layouts" type="string" label="30061">
+					<level>0</level>
+					<default>2</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_screen_layout1" type="string" label="30062">
+					<level>0</level>
+					<default>Default Screen</default>
+					<constraints>
+						<options>
+							<option>Default Screen</option>
+							<option>GamePad Screen</option>
+							<option>Side by Side</option>
+							<option>Top Bottom</option>
+							<option>Picture in Picture</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_screen_layout2" type="string" label="30063">
+					<level>0</level>
+					<default>GamePad Screen</default>
+					<constraints>
+						<options>
+							<option>Default Screen</option>
+							<option>GamePad Screen</option>
+							<option>Side by Side</option>
+							<option>Top Bottom</option>
+							<option>Picture in Picture</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_screen_layout3" type="string" label="30064">
+					<level>0</level>
+					<default>Side by Side</default>
+					<constraints>
+						<options>
+							<option>Default Screen</option>
+							<option>GamePad Screen</option>
+							<option>Side by Side</option>
+							<option>Top Bottom</option>
+							<option>Picture in Picture</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_screen_layout4" type="string" label="30065">
+					<level>0</level>
+					<default>Top Bottom</default>
+					<constraints>
+						<options>
+							<option>Default Screen</option>
+							<option>GamePad Screen</option>
+							<option>Side by Side</option>
+							<option>Top Bottom</option>
+							<option>Picture in Picture</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_screen_layout5" type="string" label="30066">
+					<level>0</level>
+					<default>Picture in Picture</default>
+					<constraints>
+						<options>
+							<option>Default Screen</option>
+							<option>GamePad Screen</option>
+							<option>Side by Side</option>
+							<option>Top Bottom</option>
+							<option>Picture in Picture</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_next_screen_layout_button" type="string" label="30067">
+					<level>0</level>
+					<default>L + R + L2 + R2 + L3 + R3</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="30068">L + R + L2 + R2 + L3 + R3</option>
+							<option label="30069">Select + L3</option>
+							<option label="30070">Select + R3</option>
+							<option label="30071">Tab</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_drc_position" type="string" label="30072">
+					<level>0</level>
+					<default>normal</default>
+					<constraints>
+						<options>
+							<option label="30073">normal</option>
+							<option label="30074">swapped</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="title_manager" label="30075" help="30076">
+			<group id="1">
+				<setting id="cemu_install_game" type="string" label="30077" help="30078">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_uninstall_game" type="string" label="30079" help="30080">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_install_titles" type="string" label="30081" help="30082">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_uninstall_titles" type="string" label="30083" help="30084">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_install_remove_source" type="string" label="30085" help="30086">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="core" label="30087" help="30088">
+			<group id="1">
+				<setting id="cemu_internal_resolution" type="string" label="30089" help="30090">
+					<level>0</level>
+					<default>native</default>
+					<constraints>
+						<options>
+							<option label="30091">0.25x</option>
+							<option label="30092">0.5x</option>
+							<option label="30093">0.75x</option>
+							<option label="30094">native</option>
+							<option label="30095">1.5x</option>
+							<option label="30096">2x</option>
+							<option label="30097">3x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_render_ahead" type="string" label="30098" help="30099">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_audio_thread" type="string" label="30100" help="30101">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_bc1_16bit" type="string" label="30102" help="30103">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_show_game_fps" type="string" label="30104" help="30105">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="logging" label="30106" help="30107">
+			<group id="1">
+				<setting id="cemu_log_to_file" type="string" label="30108">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_log_filesystem" type="string" label="30109">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_log_thread_sync" type="string" label="30110">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_log_system_api" type="string" label="30111">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_log_texture_memory" type="string" label="30112" help="30113">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_log_input_api" type="string" label="30114" help="30115">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_log_audio" type="string" label="30116" help="30117">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_log_thread_time" type="string" label="30118" help="30119">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="cemu_dump_shaders" type="string" label="30120" help="30121">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

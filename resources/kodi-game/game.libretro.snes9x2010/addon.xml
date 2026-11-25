@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.snes9x2010"
+		name="Nintendo - SNES / SFC (Snes9x 2010)"
+		version="1.52.4.59"
+		provider-name="Snes9x Team, Squarepusher">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+		<import addon="game.controller.snes.mouse" version="1.0.0"/>
+		<import addon="game.controller.snes.multitap" version="1.0.0"/>
+		<import addon="game.controller.snes.super.scope" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>snes9x2010_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.snes9x2010</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC (Snes9x 2010)</summary>
+		<description lang="cs_CZ">Port Snes9x 1.52+ pro Libretro. Byl přepsán do C a obsahuje několik optimalizací a speedhacků.</description>
+		<description lang="da_DK">En port af Snes9x 1.52+ til Libretro. Omskrevet i C med flere optimeringer og speedhacks.</description>
+		<description lang="de_DE">Eine Portierung von Snes9x 1.52+ auf Libretro. Umgeschrieben in C mit mehreren Optimierungen und Schwingigkeitshacks.</description>
+		<description lang="en_GB">A port of Snes9x 1.52+ to Libretro. Rewritten in C with several optimizations and speedhacks.</description>
+		<description lang="es_ES">Una adaptación de Snes9x 1.52+ a Libretro. Reescrito en C con varias optimizaciones y speedhacks.</description>
+		<description lang="fi_FI">Snes9x 1.52+ -käännös Libretrolle. Koodattu uudelleen C-kielellä sisältäen useita optimointeja ja pikahakkerointeja.</description>
+		<description lang="ga">Port de Snes9x 1.52+ go Libretro. Athscríofa i C le roinnt optamaithe agus luasghéaruithe.</description>
+		<description lang="it_IT">Un port di Snes9x 1.52+ per Libretro. Riscritto in C con diverse ottimizzazioni e speedhack.</description>
+		<description lang="ru_RU">Порт Snes9x 1.52+ на Libretro. Переписан на C с несколькими оптимизациями и хаками скорости.</description>
+		<description lang="sv_SE">En portning av Snes9x 1.52+ till Libretro. Omskriven i C med flera optimeringar och speedhacks.</description>
+		<description lang="zh_CN">一个针对 Libretro 的 Snes9x 1.52+ 移植。用 C 重写，进行了多次优化和 Speed Hack。</description>
+		<disclaimer lang="cs_CZ">Autor ikony: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Symbolnachweis: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="fi_FI">Kuvakkeen lähde: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="ga">Creidmheas deilbhín: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Icona per gentile concessione di: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Автор иконки: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="sv_SE">Ikonreferens: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">图标来源：HarryBana（harrybana.deviantart.com）</disclaimer>
+	</extension>
+</addon>

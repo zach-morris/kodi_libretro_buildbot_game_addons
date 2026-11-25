@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+    <controller id="game.controller.atari.5200" type="RETRO_DEVICE_JOYPAD">
+        <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+        <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+        <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+        <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+        <feature name="fire1" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+        <feature name="fire2" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+        <feature name="pound" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+        <feature name="star" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+        <feature name="num0" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+        <feature name="num1" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+        <feature name="num5" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+        <feature name="togglevkbd" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+        <feature name="num3" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+        <feature name="num7" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+        <feature name="pause" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+        <feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    </controller>
+</buttonmap>

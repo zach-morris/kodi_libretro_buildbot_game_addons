@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.mame2014"
+		name="Arcade (MAME 2014)"
+		version="0.160.0.2"
+		provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>chd|cmd|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2014</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<lifecycle type="broken" lang="en_GB">This add-on has been replaced by MAME 2015.</lifecycle>
+		<summary lang="da_DK">Arcade (MAME 2014)</summary>
+		<summary lang="en_GB">Arcade (MAME 2014)</summary>
+		<summary lang="es_ES">Arcade (MAME 2014)</summary>
+		<summary lang="zh_CN">街机（MAME 2014）</summary>
+		<description lang="da_DK">Sen 2014/tidlig 2015 version af MAME (0.160-ish) til libretro. Kompatibel med MAME 0.160 sæt.</description>
+		<description lang="en_GB">Late 2014/Early 2015 version of MAME (0.160-ish) for libretro. Compatible with MAME 0.160 sets.</description>
+		<description lang="es_ES">Versión de finales de 2014/principios de 2015 de MAME (0.160-ish) para libretro. Compatible con los juegos de MAME 0.160.</description>
+		<description lang="zh_CN">2014年末/2015年初 libretro 版的 MAME（0.160-ish）。兼容MAME 0.160。</description>
+		<lifecyclestate type="broken" lang="en_GB">This add-on has been replaced by MAME 2015.</lifecyclestate>
+	</extension>
+</addon>

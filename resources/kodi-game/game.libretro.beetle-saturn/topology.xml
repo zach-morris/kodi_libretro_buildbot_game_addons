@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+	<port type="controller" id="1">
+		<accepts controller="game.controller.saturn"/>
+		<accepts controller="game.controller.saturn.3d.western"/>
+		<accepts controller="game.controller.saturn.3d.japan"/>
+		<accepts controller="game.controller.saturn.arcade.racer"/>
+		<accepts controller="game.controller.saturn.mission.stick"/>
+		<accepts controller="game.controller.saturn.mission.sticks"/>
+		<accepts controller="game.controller.saturn.twin.stick"/>
+		<accepts controller="game.controller.saturn.mouse"/>
+	</port>
+	<port type="controller" id="2">
+		<accepts controller="game.controller.saturn"/>
+		<accepts controller="game.controller.saturn.3d.western"/>
+		<accepts controller="game.controller.saturn.3d.japan"/>
+		<accepts controller="game.controller.saturn.arcade.racer"/>
+		<accepts controller="game.controller.saturn.mission.stick"/>
+		<accepts controller="game.controller.saturn.mission.sticks"/>
+		<accepts controller="game.controller.saturn.twin.stick"/>
+		<accepts controller="game.controller.saturn.mouse"/>
+	</port>
+</logicaltopology>

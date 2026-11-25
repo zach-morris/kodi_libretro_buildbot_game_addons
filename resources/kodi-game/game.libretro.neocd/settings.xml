@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.neocd">
+		<category id="system" label="30001">
+			<group id="1">
+				<setting id="neocd_region" type="string" label="30025">
+					<level>0</level>
+					<default>Japan</default>
+					<constraints>
+						<options>
+							<option label="30003">Japan</option>
+							<option label="30004">USA</option>
+							<option label="30005">Europe</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="neocd_per_content_saves" type="string" label="30006">
+					<level>0</level>
+					<default>Off</default>
+					<constraints>
+						<options>
+							<option label="30008">On</option>
+							<option label="30007">Off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30009">
+			<group id="1">
+				<setting id="neocd_overscan_h" type="string" label="30010">
+					<level>0</level>
+					<default>8</default>
+					<constraints>
+						<options>
+							<option label="30011">8</option>
+							<option label="30012">4</option>
+							<option label="30013">0</option>
+							<option label="30014">12</option>
+							<option label="30015">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="neocd_aspect_ratio" type="string" label="30026">
+					<level>0</level>
+					<default>1:1 PAR</default>
+					<constraints>
+						<options>
+							<option label="30027">1:1 PAR</option>
+							<option label="30028">45:44 PAR</option>
+							<option label="30029">4:3 DAR</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="advanced" label="30016">
+			<group id="1">
+				<setting id="neocd_cdspeedhack" type="string" label="30017">
+					<level>0</level>
+					<default>Off</default>
+					<constraints>
+						<options>
+							<option label="30008">On</option>
+							<option label="30007">Off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="neocd_loadskip" type="string" label="30018">
+					<level>0</level>
+					<default>On</default>
+					<constraints>
+						<options>
+							<option label="30008">On</option>
+							<option label="30007">Off</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="neocd_cpu_overclock" type="string" label="30019">
+					<level>0</level>
+					<default>100%</default>
+					<constraints>
+						<options>
+							<option label="30020">100%</option>
+							<option label="30021">110%</option>
+							<option label="30022">125%</option>
+							<option label="30023">150%</option>
+							<option label="30024">200%</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

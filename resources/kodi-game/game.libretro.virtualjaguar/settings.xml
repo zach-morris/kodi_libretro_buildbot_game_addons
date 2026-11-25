@@ -1,0 +1,2460 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+	<section id="game.libretro.virtualjaguar">
+		<category id="video" label="30078" help="30079">
+			<group id="1">
+				<setting id="virtualjaguar_usefastblitter" type="string" label="30057" help="30080">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30081">disabled</option>
+							<option label="30082">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_true_color" type="string" label="30072" help="30083">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_internal_resolution" type="string" label="30073" help="30377">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option label="30085">1x</option>
+							<option label="30284">2x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_widescreen" type="string" label="30290" help="30291">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_pertitle_defaults" type="string" label="30074" help="30292">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_enhancement_hooks" type="string" label="30087" help="30378">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_texture_replace" type="string" label="30093" help="30294">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_pal" type="string" label="30004" help="30379">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="bios_boot" label="30096" help="30097">
+			<group id="1">
+				<setting id="virtualjaguar_bios" type="string" label="30066" help="30380">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30099">disabled</option>
+							<option label="30100">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_bios_type" type="string" label="30101" help="30381">
+					<level>0</level>
+					<default>k</default>
+					<constraints>
+						<options>
+							<option label="30103">k</option>
+							<option label="30104">m</option>
+							<option label="30105">custom</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_jgd" type="string" label="30067" help="30382">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30107">auto</option>
+							<option label="13106">disabled</option>
+							<option label="30108">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_jgd_sd" type="string" label="30383" help="30384">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30385">enabled</option>
+							<option label="30386">readonly</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="cdrom" label="30109" help="30110">
+			<group id="1">
+				<setting id="virtualjaguar_cd_bios_type" type="string" label="30068" help="30387">
+					<level>0</level>
+					<default>retail</default>
+					<constraints>
+						<options>
+							<option label="30112">retail</option>
+							<option label="30113">dev</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_cd_boot_mode" type="string" label="30069" help="30388">
+					<level>0</level>
+					<default>hle</default>
+					<constraints>
+						<options>
+							<option label="30115">hle</option>
+							<option label="30116">auto</option>
+							<option label="30300">bios</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_cd_read_speed" type="string" label="30070" help="30301">
+					<level>0</level>
+					<default>2x</default>
+					<constraints>
+						<options>
+							<option label="30119">1x</option>
+							<option label="30120">2x</option>
+							<option label="30121">4x</option>
+							<option label="30122">8x</option>
+							<option label="30123">instant</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_memory_track" type="string" label="30071" help="30389">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="network" label="30125" help="30126">
+			<group id="1">
+				<setting id="virtualjaguar_netlink" type="string" label="30125" help="30302">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30128">auto</option>
+							<option label="30129">disabled</option>
+							<option label="30130">loopback</option>
+							<option label="30131">tcp_server</option>
+							<option label="30132">tcp_client</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_uart_device" type="string" label="30133" help="30303">
+					<level>0</level>
+					<default>jaglink</default>
+					<constraints>
+						<options>
+							<option label="30135">jaglink</option>
+							<option label="30136">voicemodem</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_netlink_host" type="string" label="30062" help="30137">
+					<level>0</level>
+					<default>127.0.0.1</default>
+					<constraints>
+						<options>
+							<option label="30138">127.0.0.1</option>
+							<option label="30139">jaghub.local</option>
+							<option label="30140">vj_netlink.txt</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_netlink_port" type="string" label="30063" help="30141">
+					<level>0</level>
+					<default>42171</default>
+					<constraints>
+						<options>
+							<option>42171</option>
+							<option>42172</option>
+							<option>42173</option>
+							<option>42174</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_netlink_wait" type="string" label="30064" help="30142">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_netlink_speed" type="string" label="30304" help="30305">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30306">disabled</option>
+							<option label="30307">auto</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_voice_chat" type="string" label="30308" help="30309">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_voice_chat_gate" type="string" label="30310" help="30311">
+					<level>0</level>
+					<default>open_mic</default>
+					<constraints>
+						<options>
+							<option label="30312">open_mic</option>
+							<option label="30313">push_to_talk</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_voice_chat_ptt_key" type="string" label="30314" help="30315">
+					<level>0</level>
+					<default>v</default>
+					<constraints>
+						<options>
+							<option label="30316">v</option>
+							<option label="30228">c</option>
+							<option label="30317">space</option>
+							<option label="30318">tab</option>
+							<option label="30319">lctrl</option>
+							<option label="30320">grave</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_voice_chat_volume" type="string" label="30321" help="30322">
+					<level>0</level>
+					<default>50</default>
+					<constraints>
+						<options>
+							<option label="30148">25</option>
+							<option label="30149">50</option>
+							<option label="30150">75</option>
+							<option label="30151">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_voice_chat_vad" type="string" label="30323" help="30324">
+					<level>0</level>
+					<default>400</default>
+					<constraints>
+						<options>
+							<option label="30325">200</option>
+							<option label="30326">400</option>
+							<option label="30327">800</option>
+							<option label="30328">1600</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_voice_chat_monitor" type="string" label="30329" help="30330">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30143" help="30144">
+			<group id="1">
+				<setting id="virtualjaguar_alt_inputs" type="string" label="30005" help="30145">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_rotary_sensitivity" type="string" label="30146" help="30147">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30148">25</option>
+							<option label="30149">50</option>
+							<option label="30150">75</option>
+							<option label="30151">100</option>
+							<option label="30152">150</option>
+							<option label="30153">200</option>
+							<option label="30154">300</option>
+							<option label="30155">400</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_rotary_id" type="string" label="30156" help="30157">
+					<level>0</level>
+					<default>joypad</default>
+					<constraints>
+						<options>
+							<option label="30158">joypad</option>
+							<option label="30159">rotary</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_rotary_deadzone" type="string" label="30160" help="30161">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30129">0</option>
+							<option label="30162">1</option>
+							<option label="30163">2</option>
+							<option label="30164">3</option>
+							<option label="30165">4</option>
+							<option label="30166">6</option>
+							<option label="30167">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_rotary_offset" type="string" label="30168" help="30169">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30170">-4</option>
+							<option label="30171">-3</option>
+							<option label="30172">-2</option>
+							<option label="30173">-1</option>
+							<option label="30129">0</option>
+							<option label="30174">1</option>
+							<option label="30175">2</option>
+							<option label="30176">3</option>
+							<option label="30177">4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_rotary_exponent" type="string" label="30178" help="30179">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30180">100</option>
+							<option label="30181">125</option>
+							<option label="30182">150</option>
+							<option label="30183">175</option>
+							<option label="30184">200</option>
+							<option label="30185">250</option>
+							<option label="30186">300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_analog_deadzone_x" type="string" label="30402" help="30188">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30129">0</option>
+							<option label="30189">4</option>
+							<option label="30190">8</option>
+							<option label="30191">12</option>
+							<option label="30192">16</option>
+							<option label="30193">24</option>
+							<option label="30194">32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_analog_deadzone_y" type="string" label="30403" help="30196">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30129">0</option>
+							<option label="30189">4</option>
+							<option label="30190">8</option>
+							<option label="30191">12</option>
+							<option label="30192">16</option>
+							<option label="30193">24</option>
+							<option label="30194">32</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_analog_offset_x" type="string" label="30404" help="30198">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30199">-16</option>
+							<option label="30200">-8</option>
+							<option label="30170">-4</option>
+							<option label="30172">-2</option>
+							<option label="30129">0</option>
+							<option label="30175">2</option>
+							<option label="30177">4</option>
+							<option label="30201">8</option>
+							<option label="30202">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_analog_offset_y" type="string" label="30405" help="30204">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30199">-16</option>
+							<option label="30200">-8</option>
+							<option label="30170">-4</option>
+							<option label="30172">-2</option>
+							<option label="30129">0</option>
+							<option label="30175">2</option>
+							<option label="30177">4</option>
+							<option label="30201">8</option>
+							<option label="30202">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_analog_exponent_x" type="string" label="30406" help="30206">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30180">100</option>
+							<option label="30181">125</option>
+							<option label="30182">150</option>
+							<option label="30183">175</option>
+							<option label="30184">200</option>
+							<option label="30185">250</option>
+							<option label="30186">300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_analog_exponent_y" type="string" label="30407" help="30208">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30180">100</option>
+							<option label="30181">125</option>
+							<option label="30182">150</option>
+							<option label="30183">175</option>
+							<option label="30184">200</option>
+							<option label="30185">250</option>
+							<option label="30186">300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input_p1" label="30209" help="30210">
+			<group id="1">
+				<setting id="virtualjaguar_p1_device" type="string" label="30408" help="30331">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30213">auto</option>
+							<option label="30214">pad</option>
+							<option label="30332">teamtap</option>
+							<option label="30333">pad_pro</option>
+							<option label="30215">rotary</option>
+							<option label="30216">lightgun</option>
+							<option label="30217">analog</option>
+							<option label="30218">driving</option>
+							<option label="30334">paddle</option>
+							<option label="30335">6d</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_numpad_to_kb" type="string" label="30409" help="30219">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30220">numbers</option>
+							<option label="30221">keypad</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_up" type="string" label="30410">
+					<level>0</level>
+					<default>up</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_down" type="string" label="30411">
+					<level>0</level>
+					<default>down</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_left" type="string" label="30412">
+					<level>0</level>
+					<default>left</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_right" type="string" label="30413">
+					<level>0</level>
+					<default>right</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_a" type="string" label="30414">
+					<level>0</level>
+					<default>btn_a</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_b" type="string" label="30415">
+					<level>0</level>
+					<default>btn_b</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_x" type="string" label="30416">
+					<level>0</level>
+					<default>num_0</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_y" type="string" label="30417">
+					<level>0</level>
+					<default>btn_c</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_select" type="string" label="30418">
+					<level>0</level>
+					<default>pause</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_start" type="string" label="30419">
+					<level>0</level>
+					<default>option</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_l1" type="string" label="30420">
+					<level>0</level>
+					<default>num_1</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_r1" type="string" label="30421">
+					<level>0</level>
+					<default>num_2</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_l2" type="string" label="30422">
+					<level>0</level>
+					<default>num_3</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_r2" type="string" label="30423">
+					<level>0</level>
+					<default>num_4</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_l3" type="string" label="30424">
+					<level>0</level>
+					<default>num_5</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_r3" type="string" label="30425">
+					<level>0</level>
+					<default>num_6</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_analog_lu" type="string" label="30426">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_analog_ld" type="string" label="30427">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_analog_ll" type="string" label="30428">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_analog_lr" type="string" label="30429">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_analog_ru" type="string" label="30430">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_analog_rd" type="string" label="30431">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_analog_rl" type="string" label="30432">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p1_retropad_analog_rr" type="string" label="30433">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input_p2" label="30243" help="30244">
+			<group id="1">
+				<setting id="virtualjaguar_p2_device" type="string" label="30408" help="30336">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30213">auto</option>
+							<option label="30214">pad</option>
+							<option label="30332">teamtap</option>
+							<option label="30333">pad_pro</option>
+							<option label="30247">mouse_st</option>
+							<option label="30248">mouse_amiga</option>
+							<option label="30249">mouse_amiga_adapter</option>
+							<option label="30215">rotary</option>
+							<option label="30217">analog</option>
+							<option label="30218">driving</option>
+							<option label="30334">paddle</option>
+							<option label="30335">6d</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_mouse_sensitivity" type="string" label="30434" help="30251">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30148">25</option>
+							<option label="30149">50</option>
+							<option label="30150">75</option>
+							<option label="30151">100</option>
+							<option label="30152">150</option>
+							<option label="30153">200</option>
+							<option label="30154">300</option>
+							<option label="30155">400</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_mouse_deadzone_x" type="string" label="30435" help="30253">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30129">0</option>
+							<option label="30162">1</option>
+							<option label="30163">2</option>
+							<option label="30164">3</option>
+							<option label="30165">4</option>
+							<option label="30166">6</option>
+							<option label="30167">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_mouse_deadzone_y" type="string" label="30436" help="30255">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30129">0</option>
+							<option label="30162">1</option>
+							<option label="30163">2</option>
+							<option label="30164">3</option>
+							<option label="30165">4</option>
+							<option label="30166">6</option>
+							<option label="30167">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_mouse_offset_x" type="string" label="30437" help="30257">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30170">-4</option>
+							<option label="30171">-3</option>
+							<option label="30172">-2</option>
+							<option label="30173">-1</option>
+							<option label="30129">0</option>
+							<option label="30174">1</option>
+							<option label="30175">2</option>
+							<option label="30176">3</option>
+							<option label="30177">4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_mouse_offset_y" type="string" label="30438" help="30259">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30170">-4</option>
+							<option label="30171">-3</option>
+							<option label="30172">-2</option>
+							<option label="30173">-1</option>
+							<option label="30129">0</option>
+							<option label="30174">1</option>
+							<option label="30175">2</option>
+							<option label="30176">3</option>
+							<option label="30177">4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_mouse_exponent_x" type="string" label="30439" help="30261">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30180">100</option>
+							<option label="30181">125</option>
+							<option label="30182">150</option>
+							<option label="30183">175</option>
+							<option label="30184">200</option>
+							<option label="30185">250</option>
+							<option label="30186">300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_mouse_exponent_y" type="string" label="30440" help="30263">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30180">100</option>
+							<option label="30181">125</option>
+							<option label="30182">150</option>
+							<option label="30183">175</option>
+							<option label="30184">200</option>
+							<option label="30185">250</option>
+							<option label="30186">300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_numpad_to_kb" type="string" label="30409" help="30219">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="30220">numbers</option>
+							<option label="30221">keypad</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_up" type="string" label="30410">
+					<level>0</level>
+					<default>up</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_down" type="string" label="30411">
+					<level>0</level>
+					<default>down</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_left" type="string" label="30412">
+					<level>0</level>
+					<default>left</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_right" type="string" label="30413">
+					<level>0</level>
+					<default>right</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_a" type="string" label="30414">
+					<level>0</level>
+					<default>btn_a</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_b" type="string" label="30415">
+					<level>0</level>
+					<default>btn_b</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_x" type="string" label="30416">
+					<level>0</level>
+					<default>num_0</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_y" type="string" label="30417">
+					<level>0</level>
+					<default>btn_c</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_select" type="string" label="30418">
+					<level>0</level>
+					<default>pause</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_start" type="string" label="30419">
+					<level>0</level>
+					<default>option</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_l1" type="string" label="30420">
+					<level>0</level>
+					<default>num_1</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_r1" type="string" label="30421">
+					<level>0</level>
+					<default>num_2</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_l2" type="string" label="30422">
+					<level>0</level>
+					<default>num_3</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_r2" type="string" label="30423">
+					<level>0</level>
+					<default>num_4</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_l3" type="string" label="30424">
+					<level>0</level>
+					<default>num_5</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_r3" type="string" label="30425">
+					<level>0</level>
+					<default>num_6</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_analog_lu" type="string" label="30426">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_analog_ld" type="string" label="30427">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_analog_ll" type="string" label="30428">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_analog_lr" type="string" label="30429">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_analog_ru" type="string" label="30430">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_analog_rd" type="string" label="30431">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_analog_rl" type="string" label="30432">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_p2_retropad_analog_rr" type="string" label="30433">
+					<level>0</level>
+					<default>---</default>
+					<constraints>
+						<options>
+							<option label="30222">up</option>
+							<option label="30223">down</option>
+							<option label="30224">left</option>
+							<option label="30225">right</option>
+							<option label="30226">btn_a</option>
+							<option label="30227">btn_b</option>
+							<option label="30228">btn_c</option>
+							<option label="30229">pause</option>
+							<option label="30230">option</option>
+							<option label="30231">num_0</option>
+							<option label="30232">num_1</option>
+							<option label="30233">num_2</option>
+							<option label="30234">num_3</option>
+							<option label="30235">num_4</option>
+							<option label="30236">num_5</option>
+							<option label="30237">num_6</option>
+							<option label="30238">num_7</option>
+							<option label="30239">num_8</option>
+							<option label="30240">num_9</option>
+							<option label="30241">star</option>
+							<option label="30242">hash</option>
+							<option label="30285">---</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="diagnostics" label="30264" help="30265">
+			<group id="1">
+				<setting id="virtualjaguar_crash_detect" type="string" label="30056" help="30266">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="30091">enabled</option>
+							<option label="30090">disabled</option>
+							<option label="30267">verbose</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_cd_trace" type="string" label="30065" help="30337">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_texture_dump" type="string" label="30269" help="30338">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_gdb_stub" type="string" label="30339" help="30390">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_gdb_bind" type="string" label="30341" help="30391">
+					<level>0</level>
+					<default>loopback</default>
+					<constraints>
+						<options>
+							<option label="30343">loopback</option>
+							<option label="30344">lan</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_gdb_port" type="string" label="30345" help="30392">
+					<level>0</level>
+					<default>2345</default>
+					<constraints>
+						<options>
+							<option>2345</option>
+							<option>2346</option>
+							<option>2347</option>
+							<option>3333</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_gdb_wait" type="string" label="30347" help="30393">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_gdb_halt_timeout" type="string" label="30349" help="30394">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="351">off</option>
+							<option label="30351">30</option>
+							<option label="30352">60</option>
+							<option label="30353">300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_texdump_16bpp" type="string" label="30271" help="30272">
+					<level>0</level>
+					<default>cry</default>
+					<constraints>
+						<options>
+							<option label="30273">cry</option>
+							<option label="30274">rgb</option>
+							<option label="30275">both</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="speed" label="30354" help="30355">
+			<group id="1">
+				<setting id="virtualjaguar_risc_idle_skip" type="string" label="30356" help="30395">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_blit_memo" type="string" label="30075" help="30441">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30090">disabled</option>
+							<option label="30091">enabled</option>
+							<option label="30092">verify</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_frameskip" type="string" label="30359" help="30360">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30090">disabled</option>
+							<option label="30361">auto</option>
+							<option label="30362">auto_threshold_15</option>
+							<option label="30363">auto_threshold_30</option>
+							<option label="30364">auto_threshold_45</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_frameskip_max" type="string" label="30365" help="30366">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_enhancement_profile" type="string" label="30367" help="30368">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30361">auto</option>
+							<option label="30369">quality</option>
+							<option label="30370">performance</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_m68k_clock_scale" type="string" label="30059" help="30396">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option label="30286">0.5x</option>
+							<option label="30279">1x</option>
+							<option label="30287">1.5x</option>
+							<option label="30284">2x</option>
+							<option label="30288">3x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_risc_clock_scale" type="string" label="30060" help="30397">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option label="30286">0.5x</option>
+							<option label="30279">1x</option>
+							<option label="30287">1.5x</option>
+							<option label="30284">2x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="accuracy" label="30373" help="30374">
+			<group id="1">
+				<setting id="virtualjaguar_dram_timing" type="string" label="30058" help="30375">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_gpu_pipeline_timing" type="string" label="30398" help="30399">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="virtualjaguar_blitter_timing" type="string" label="30077" help="30400">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30401">m68k</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

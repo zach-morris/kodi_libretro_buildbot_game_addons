@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.uzem"
+		name="Uzebox (Uzem)"
+		version="2.0.0.41"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Uzebox</platforms>
+		<extensions>uze</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>uzem_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.uzem</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Uzebox (Uzem)</summary>
+		<summary lang="da_DK">Uzebox (Uzem)</summary>
+		<summary lang="en_GB">Uzebox (Uzem)</summary>
+		<summary lang="es_ES">Uzebox (Uzem)</summary>
+		<summary lang="ga">Uzebox (Uzem)</summary>
+		<summary lang="it_IT">Uzebox (Uzem)</summary>
+		<summary lang="ko_KR">Uzebox (우젬)</summary>
+		<summary lang="ru_RU">Uzebox (Uzem)</summary>
+		<summary lang="sv_SE">Uzebox (Uzem)</summary>
+		<summary lang="zh_CN">Uzebox (Uzem)</summary>
+		<description lang="cs_CZ">Uzem je oficiální emulátor konzole Uzebox (retro-minimalistická 8bitová open-source herní konzole).</description>
+		<description lang="da_DK">Uzem er den officielle emulator til Uzebox (en retro-minimalistisk 8-bit open source-spilkonsol).</description>
+		<description lang="de_DE">Uzem ist der offizielle Emulator für die Uzebox (eine retro-minimalistische 8-Bit-Open-Source-Spielekonsole).</description>
+		<description lang="en_GB">Uzem is the official emulator for the Uzebox (a retro-minimalist 8-bit open source game console).</description>
+		<description lang="es_ES">Uzem es el emulador oficial de Uzebox (una videoconsola retro-minimalista de 8 bits de código abierto).</description>
+		<description lang="fr_FR">Uzem est l&apos;émulateur officiel de l&apos;Uzebox (une console de jeu open source 8 bits rétro-minimaliste).</description>
+		<description lang="ga">Is é Uzem an aithriseoir oifigiúil don Uzebox (consól cluiche foinse oscailte 8-giotán retro-íostach).</description>
+		<description lang="it_IT">Uzem è l&apos;emulatore ufficiale di Uzebox (una console di gioco open source a 8 bit retro-minimalista).</description>
+		<description lang="ko_KR">Uzem은 Uzebox(레트로 미니멀리스트 8비트 오픈 소스 게임 콘솔)의 공식 에뮬레이터입니다.</description>
+		<description lang="ru_RU">Uzem — официальный эмулятор Uzebox (ретро-минималистичной 8-битной игровой консоли с открытым исходным кодом).</description>
+		<description lang="sv_SE">Uzem är den officiella emulatorn för Uzebox (en retro-minimalistisk 8-bitars spelkonsol med öppen källkod).</description>
+		<description lang="zh_CN">Uzem 是 Uzebox（一款复古简约的8位开源游戏机）的官方模拟器。</description>
+	</extension>
+</addon>

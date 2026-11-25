@@ -1,0 +1,178 @@
+# game.libretro.snes9x2002 language file
+# Addon Name: game.libretro.snes9x2002
+# Addon id: game.libretro.snes9x2002
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.snes9x2002\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-25 20:16i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-snes9x2002/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Snes9x 2002)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A port of SNES9x 1.39 for libretro. Previously called PocketSNES, this emulator is heavily optimized for ARM."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Frameskip Interval"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Transparency Effects"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Audio Filter"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Audio Filter Level"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Reduce Slowdown (Hack, Unsafe, Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Auto (Threshold)' utilises the 'Frameskip Threshold (%)' setting. 'Fixed Interval' utilises the 'Frameskip Interval' setting."
+msgstr ""
+
+msgctxt "#30009"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Auto (Threshold)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Fixed Interval"
+msgstr ""
+
+msgctxt "#30012"
+msgid "When 'Frameskip' is set to 'Auto (Threshold)', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""
+
+msgctxt "#30013"
+msgid "When 'Frameskip' is set to 'Fixed Interval', the value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc."
+msgstr ""
+
+msgctxt "#30014"
+msgid "Disable to improve frame rate at the expense of rendering accuracy."
+msgstr ""
+
+msgctxt "#30015"
+msgid "Enable a low pass audio filter to soften treble artifacts and mimic the 'bassy' sound of original SNES hardware."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Specify the cut-off frequency of the low pass audio filter. A higher value increases the perceived 'strength' of the filter, since a wider range of the high frequency spectrum is attenuated."
+msgstr ""
+
+msgctxt "#30017"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30018"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30019"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30020"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30021"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30022"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30023"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30024"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30025"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30026"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30027"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30028"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30029"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30030"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30031"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30032"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30033"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30034"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30035"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Many games for the SNES suffered from slowdown due to the weak main CPU. This option helps alleviate that at the cost of possible bugs. Compatible: Reduce slowdown but keep as much game compatibility as much as possible. Max: Reduce slowdown as much as possible but will break more games."
+msgstr ""
+
+msgctxt "#30037"
+msgid "Compatible"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Max"
+msgstr ""

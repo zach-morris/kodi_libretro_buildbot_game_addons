@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.fbneo"
+		name="Arcade (FinalBurn Neo)"
+		version="1.0.0.108"
+		provider-name="Team FBNeo">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>Arcade</platforms>
+		<extensions>zip|7z|cue|ccd|chd|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbneo_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbneo</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (FinalBurn Neo)</summary>
+		<summary lang="da_DK">Arcade (FinalBurn Neo)</summary>
+		<summary lang="en_GB">Arcade (FinalBurn Neo)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Neo)</summary>
+		<summary lang="ga">Arcade (FinalBurn Neo)</summary>
+		<summary lang="it_IT">Arcade (FinalBurn Neo)</summary>
+		<summary lang="ko_KR">아케이드 (FinalBurn Neo)</summary>
+		<summary lang="ru_RU">Arcade (FinalBurn Neo)</summary>
+		<summary lang="sv_SE">Arcade (FinalBurn Neo)</summary>
+		<summary lang="zh_CN">街机（FinalBurn Neo）</summary>
+		<description lang="cs_CZ">FinalBurn Neo je odvozená verze FinalBurn Alpha, emulátoru arkádových her.[CR][CR]Emulace ve FB Neo zahrnuje Capcom CPS-1 a CPS-2, SNK Neo-Geo, Toaplan, Cave a Sega System 16.</description>
+		<description lang="da_DK">FinalBurn Neo er en fork af FinalBurn Alpha, en emulator af arkadespil.[CR][CR]FB Neo-emulering inkluderer Capcom CPS-1 og CPS-2, SNK Neo-Geo, Toaplan, Cave og Sega System 16.</description>
+		<description lang="de_DE">FinalBurn Neo ist ein Fork von FinalBurn Alpha, einem Emulator für Arcade-Spiele.[CR][CR]Die Emulation von FB Neo umfasst Capcom CPS-1 und CPS-2, SNK Neo-Geo, Toaplan, Cave und Sega System 16.</description>
+		<description lang="en_GB">FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.[CR][CR]FB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.</description>
+		<description lang="es_ES">FinalBurn Neo es una bifurcación de FinalBurn Alpha, un emulador de juegos arcade[CR][CR]La emulación de FB Neo incluye Capcom CPS-1 y CPS-2, SNK Neo-Geo, Toaplan, Cave y Sega System 16.</description>
+		<description lang="ga">Is forc de FinalBurn Alpha é FinalBurn Neo, aithriseoir cluichí stuara.[CR][CR]Áirítear le haithris FB Neo Capcom CPS-1 agus CPS-2, SNK Neo-Geo, Toaplan, Cave agus Sega System 16.</description>
+		<description lang="it_IT">FinalBurn Neo è un fork di FinalBurn Alpha, un emulatore di giochi arcade.[CR][CR]L&apos;emulazione di FB Neo include Capcom CPS-1 e CPS-2, SNK Neo-Geo, Toaplan, Cave e Sega System 16.</description>
+		<description lang="ko_KR">FinalBurn Neo는 아케이드 게임의 에뮬레이터인 FinalBurn Alpha의 포크입니다.[CR][CR]FB Neo 에뮬레이션에는 Capcom CPS-1 및 CPS-2, SNK Neo-Geo, Toaplan, Cave 및 Sega System 16이 포함됩니다.</description>
+		<description lang="ru_RU">FinalBurn Neo — это форк FinalBurn Alpha, эмулятора аркадных игр.[CR][CR]Эмуляция FB Neo включает в себя Capcom CPS-1 и CPS-2, SNK Neo-Geo, Toaplan, Cave и Sega System 16.</description>
+		<description lang="sv_SE">FinalBurn Neo är en förgrening av FinalBurn Alpha, en emulator för arkadspel.[CR][CR]FB Neo emulerar bland annat Capcom CPS-1 och CPS-2, SNK Neo-Geo, Toaplan, Cave och Sega System 16.</description>
+		<description lang="zh_CN">FinalBurn Neo 是 FinalBurn Alpha 的一个分支，它是街机游戏的模拟器。[CR][CR]FB Neo 仿真包括 Capcom CPS-1 和 CPS-2、SNK Neo Geo、Toaplan、Cave 和 Sega System 16。</description>
+		<disclaimer lang="cs_CZ">Autor ikony: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="da_DK">Billedekredit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Symbolverweis: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ga">Creidmheas deilbhín: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Credito icona: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">아이콘 크레딧: TRIPLEKILLZ(triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Автор значка: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="sv_SE">Ikonreferens: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">图标来源：TRIPLEKILLZ（triplekillz.deviantart.com）</disclaimer>
+	</extension>
+</addon>

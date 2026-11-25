@@ -1,0 +1,782 @@
+# game.libretro.beetle-pce-fast language file
+# Addon Name: game.libretro.beetle-pce-fast
+# Addon id: game.libretro.beetle-pce-fast
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-pce-fast\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 21:47+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-pce-fast/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "NEC - PC Engine / CD (Beetle PCE FAST)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Beetle PC Engine Fast is a fork of Mednafen's PC Engine Fast driver.[CR][CR]Compared to Beetle PC Engine, the fast version trades away typically unnecessary accuracy in favor of speed."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Color Palette"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Horizontal Overscan (352 Width Mode Only)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Initial Scanline"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Last Scanline"
+msgstr ""
+
+msgctxt "#30007"
+msgid "PSG Sound Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30008"
+msgid "PSG Sound Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30009"
+msgid "PSG Sound Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30010"
+msgid "PSG Sound Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30011"
+msgid "PSG Sound Channel 4 Volume %"
+msgstr ""
+
+msgctxt "#30012"
+msgid "PSG Sound Channel 5 Volume %"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Disable Soft Reset (RUN+SELECT)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "P1 Default Joypad Type"
+msgstr ""
+
+msgctxt "#30016"
+msgid "P2 Default Joypad Type"
+msgstr ""
+
+msgctxt "#30017"
+msgid "P3 Default Joypad Type"
+msgstr ""
+
+msgctxt "#30018"
+msgid "P4 Default Joypad Type"
+msgstr ""
+
+msgctxt "#30019"
+msgid "P5 Default Joypad Type"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Turbo Toggle"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Alternate Turbo Hotkey"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Turbo Delay"
+msgstr ""
+
+msgctxt "#30023"
+msgid "CD Image Cache (Restart Required)"
+msgstr ""
+
+msgctxt "#30024"
+msgid "CD BIOS (Restart Required)"
+msgstr ""
+
+msgctxt "#30025"
+msgid "(CD) CD Speed"
+msgstr ""
+
+msgctxt "#30026"
+msgid "(CD) ADPCM Volume %"
+msgstr ""
+
+msgctxt "#30027"
+msgid "(CD) CDDA Volume %"
+msgstr ""
+
+msgctxt "#30028"
+msgid "(CD) PSG Volume %"
+msgstr ""
+
+msgctxt "#30029"
+msgid "No Sprite Limit"
+msgstr ""
+
+msgctxt "#30030"
+msgid "CPU Overclock Multiplier (Restart Required)"
+msgstr ""
+
+msgctxt "#30031"
+msgid "CD Ignore EDC/L-EC Errors"
+msgstr ""
+
+msgctxt "#30032"
+msgid "(CD) ADPCM Low-pass Filter"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Configure display cropping, frame skipping and other image output parameters."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Composite tries to recreate the original console output and can show more details in some games."
+msgstr ""
+
+msgctxt "#30036"
+msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Manual' utilizes the 'Frameskip Threshold (%)' setting."
+msgstr ""
+
+msgctxt "#30037"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Manual"
+msgstr ""
+
+msgctxt "#30039"
+msgid "When 'Frameskip' is set to 'Manual', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr ""
+
+msgctxt "#30040"
+msgid "33 (Default)"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Choose the maximum image width to be displayed. Lower values will crop the right side of the image (for 352 px width games)."
+msgstr ""
+
+msgctxt "#30042"
+msgid "352 (Default)"
+msgstr ""
+
+msgctxt "#30043"
+msgid "First rendered scanline. Higher values will crop the top of the image."
+msgstr ""
+
+msgctxt "#30044"
+msgid "3 (Default)"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Last rendered scanline. Lower values will crop the bottom of the image."
+msgstr ""
+
+msgctxt "#30046"
+msgid "242 (Default)"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Configure light gun, mouse and NegCon input."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Higher values will make the mouse cursor move faster."
+msgstr ""
+
+msgctxt "#30050"
+msgid "When RUN and SELECT are pressed simultaneously, disable both buttons temporarily instead of resetting."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Choose if port 1 joypad should be 2 or 6 buttons by default. This option is only applied when the core starts, if you want to switch while content is running, use the 'Mode Switch' button. NOTE: 6 buttons joypad can have weird behaviors in non compatible games."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Choose if port 2 joypad should be 2 or 6 buttons by default. This option is only applied when the core starts, if you want to switch while content is running, use the 'Mode Switch' button. NOTE: 6 buttons joypad can have weird behaviors in non compatible games."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Choose if port 3 joypad should be 2 or 6 buttons by default. This option is only applied when the core starts, if you want to switch while content is running, use the 'Mode Switch' button. NOTE: 6 buttons joypad can have weird behaviors in non compatible games."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Choose if port 4 joypad should be 2 or 6 buttons by default. This option is only applied when the core starts, if you want to switch while content is running, use the 'Mode Switch' button. NOTE: 6 buttons joypad can have weird behaviors in non compatible games."
+msgstr ""
+
+msgctxt "#30055"
+msgid "Choose if port 5 joypad should be 2 or 6 buttons by default. This option is only applied when the core starts, if you want to switch while content is running, use the 'Mode Switch' button. NOTE: 6 buttons joypad can have weird behaviors in non compatible games."
+msgstr ""
+
+msgctxt "#30056"
+msgid "Enable the turbo toggle hotkeys (buttons III and IV)."
+msgstr ""
+
+msgctxt "#30057"
+msgid "Assign RetroPad's L3/R3 buttons as turbo toggle hotkeys instead of buttons III and IV. Works only as long as nothing is assigned to the L3/R3 buttons. You can avoid remapping buttons III and IV when switching to 6-button controller mode with this."
+msgstr ""
+
+msgctxt "#30058"
+msgid "Adjust the time between turbo fire (in frames)."
+msgstr ""
+
+msgctxt "#30059"
+msgid "Emulation Hacks"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Configure processor overclocking and emulation accuracy parameters affecting low-level performance and compatibility."
+msgstr ""
+
+msgctxt "#30061"
+msgid "Remove 16-sprites-per-scanline hardware limit. WARNING: May cause graphics glitching on some games."
+msgstr ""
+
+msgctxt "#30062"
+msgid "Higher values can reduce slowdowns in games. WARNING: Can cause glitches and crashes."
+msgstr ""
+
+msgctxt "#30063"
+msgid "Advanced Channel Volume Settings"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Configure the volume of individual hardware audio channels."
+msgstr ""
+
+msgctxt "#30065"
+msgid "Modify the volume of PSG Sound Channel 0."
+msgstr ""
+
+msgctxt "#30066"
+msgid "Modify the volume of PSG Sound Channel 1."
+msgstr ""
+
+msgctxt "#30067"
+msgid "Modify the volume of PSG Sound Channel 2."
+msgstr ""
+
+msgctxt "#30068"
+msgid "Modify the volume of PSG Sound Channel 3."
+msgstr ""
+
+msgctxt "#30069"
+msgid "Modify the volume of PSG Sound Channel 4."
+msgstr ""
+
+msgctxt "#30070"
+msgid "Modify the volume of PSG Sound Channel 5."
+msgstr ""
+
+msgctxt "#30071"
+msgid "PC Engine CD"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Configure settings related to the PC Engine CD emulation."
+msgstr ""
+
+msgctxt "#30073"
+msgid "Load the complete image into memory at startup. Can potentially decrease loading times at the cost of an increased startup time."
+msgstr ""
+
+msgctxt "#30074"
+msgid "Most games can run on 'System Card 3'. 'Games Express' is needed for several unlicensed games."
+msgstr ""
+
+msgctxt "#30075"
+msgid "Higher values enable faster loading times but can cause issues with a couple of games."
+msgstr ""
+
+msgctxt "#30076"
+msgid "1x"
+msgstr ""
+
+msgctxt "#30077"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30078"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30079"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30080"
+msgid "CD game only. Setting this volume control too high may cause sample clipping."
+msgstr ""
+
+msgctxt "#30081"
+msgid "CD game only. Applies a low-pass filter to CD ADPCM sample playback, reducing high-frequency aliasing/harshness. The cutoff scales with the ADPCM sample rate."
+msgstr ""
+
+msgctxt "#30082"
+msgid "Ignore EDC/L-EC errors. Needed for compatibility with some hacks."
+msgstr ""
+
+msgctxt "#30083"
+msgid "15"
+msgstr ""
+
+msgctxt "#30084"
+msgid "18"
+msgstr ""
+
+msgctxt "#30085"
+msgid "21"
+msgstr ""
+
+msgctxt "#30086"
+msgid "24"
+msgstr ""
+
+msgctxt "#30087"
+msgid "27"
+msgstr ""
+
+msgctxt "#30088"
+msgid "30"
+msgstr ""
+
+msgctxt "#30089"
+msgid "36"
+msgstr ""
+
+msgctxt "#30090"
+msgid "39"
+msgstr ""
+
+msgctxt "#30091"
+msgid "42"
+msgstr ""
+
+msgctxt "#30092"
+msgid "45"
+msgstr ""
+
+msgctxt "#30093"
+msgid "48"
+msgstr ""
+
+msgctxt "#30094"
+msgid "51"
+msgstr ""
+
+msgctxt "#30095"
+msgid "54"
+msgstr ""
+
+msgctxt "#30096"
+msgid "57"
+msgstr ""
+
+msgctxt "#30097"
+msgid "60"
+msgstr ""
+
+msgctxt "#30098"
+msgid "300"
+msgstr ""
+
+msgctxt "#30099"
+msgid "302"
+msgstr ""
+
+msgctxt "#30100"
+msgid "304"
+msgstr ""
+
+msgctxt "#30101"
+msgid "306"
+msgstr ""
+
+msgctxt "#30102"
+msgid "308"
+msgstr ""
+
+msgctxt "#30103"
+msgid "310"
+msgstr ""
+
+msgctxt "#30104"
+msgid "312"
+msgstr ""
+
+msgctxt "#30105"
+msgid "314"
+msgstr ""
+
+msgctxt "#30106"
+msgid "316"
+msgstr ""
+
+msgctxt "#30107"
+msgid "318"
+msgstr ""
+
+msgctxt "#30108"
+msgid "320"
+msgstr ""
+
+msgctxt "#30109"
+msgid "322"
+msgstr ""
+
+msgctxt "#30110"
+msgid "324"
+msgstr ""
+
+msgctxt "#30111"
+msgid "326"
+msgstr ""
+
+msgctxt "#30112"
+msgid "328"
+msgstr ""
+
+msgctxt "#30113"
+msgid "330"
+msgstr ""
+
+msgctxt "#30114"
+msgid "332"
+msgstr ""
+
+msgctxt "#30115"
+msgid "334"
+msgstr ""
+
+msgctxt "#30116"
+msgid "336"
+msgstr ""
+
+msgctxt "#30117"
+msgid "338"
+msgstr ""
+
+msgctxt "#30118"
+msgid "340"
+msgstr ""
+
+msgctxt "#30119"
+msgid "342"
+msgstr ""
+
+msgctxt "#30120"
+msgid "344"
+msgstr ""
+
+msgctxt "#30121"
+msgid "346"
+msgstr ""
+
+msgctxt "#30122"
+msgid "348"
+msgstr ""
+
+msgctxt "#30123"
+msgid "350"
+msgstr ""
+
+msgctxt "#30124"
+msgid "0"
+msgstr ""
+
+msgctxt "#30125"
+msgid "1"
+msgstr ""
+
+msgctxt "#30126"
+msgid "2"
+msgstr ""
+
+msgctxt "#30127"
+msgid "4"
+msgstr ""
+
+msgctxt "#30128"
+msgid "5"
+msgstr ""
+
+msgctxt "#30129"
+msgid "6"
+msgstr ""
+
+msgctxt "#30130"
+msgid "7"
+msgstr ""
+
+msgctxt "#30131"
+msgid "8"
+msgstr ""
+
+msgctxt "#30132"
+msgid "9"
+msgstr ""
+
+msgctxt "#30133"
+msgid "10"
+msgstr ""
+
+msgctxt "#30134"
+msgid "11"
+msgstr ""
+
+msgctxt "#30135"
+msgid "12"
+msgstr ""
+
+msgctxt "#30136"
+msgid "13"
+msgstr ""
+
+msgctxt "#30137"
+msgid "14"
+msgstr ""
+
+msgctxt "#30138"
+msgid "16"
+msgstr ""
+
+msgctxt "#30139"
+msgid "17"
+msgstr ""
+
+msgctxt "#30140"
+msgid "19"
+msgstr ""
+
+msgctxt "#30141"
+msgid "20"
+msgstr ""
+
+msgctxt "#30142"
+msgid "22"
+msgstr ""
+
+msgctxt "#30143"
+msgid "23"
+msgstr ""
+
+msgctxt "#30144"
+msgid "25"
+msgstr ""
+
+msgctxt "#30145"
+msgid "26"
+msgstr ""
+
+msgctxt "#30146"
+msgid "28"
+msgstr ""
+
+msgctxt "#30147"
+msgid "29"
+msgstr ""
+
+msgctxt "#30148"
+msgid "31"
+msgstr ""
+
+msgctxt "#30149"
+msgid "32"
+msgstr ""
+
+msgctxt "#30150"
+msgid "33"
+msgstr ""
+
+msgctxt "#30151"
+msgid "34"
+msgstr ""
+
+msgctxt "#30152"
+msgid "35"
+msgstr ""
+
+msgctxt "#30153"
+msgid "37"
+msgstr ""
+
+msgctxt "#30154"
+msgid "38"
+msgstr ""
+
+msgctxt "#30155"
+msgid "40"
+msgstr ""
+
+msgctxt "#30156"
+msgid "208"
+msgstr ""
+
+msgctxt "#30157"
+msgid "209"
+msgstr ""
+
+msgctxt "#30158"
+msgid "210"
+msgstr ""
+
+msgctxt "#30159"
+msgid "211"
+msgstr ""
+
+msgctxt "#30160"
+msgid "212"
+msgstr ""
+
+msgctxt "#30161"
+msgid "213"
+msgstr ""
+
+msgctxt "#30162"
+msgid "214"
+msgstr ""
+
+msgctxt "#30163"
+msgid "215"
+msgstr ""
+
+msgctxt "#30164"
+msgid "216"
+msgstr ""
+
+msgctxt "#30165"
+msgid "217"
+msgstr ""
+
+msgctxt "#30166"
+msgid "218"
+msgstr ""
+
+msgctxt "#30167"
+msgid "219"
+msgstr ""
+
+msgctxt "#30168"
+msgid "220"
+msgstr ""
+
+msgctxt "#30169"
+msgid "221"
+msgstr ""
+
+msgctxt "#30170"
+msgid "222"
+msgstr ""
+
+msgctxt "#30171"
+msgid "223"
+msgstr ""
+
+msgctxt "#30172"
+msgid "224"
+msgstr ""
+
+msgctxt "#30173"
+msgid "225"
+msgstr ""
+
+msgctxt "#30174"
+msgid "226"
+msgstr ""
+
+msgctxt "#30175"
+msgid "227"
+msgstr ""
+
+msgctxt "#30176"
+msgid "228"
+msgstr ""
+
+msgctxt "#30177"
+msgid "229"
+msgstr ""
+
+msgctxt "#30178"
+msgid "230"
+msgstr ""
+
+msgctxt "#30179"
+msgid "231"
+msgstr ""
+
+msgctxt "#30180"
+msgid "232"
+msgstr ""
+
+msgctxt "#30181"
+msgid "233"
+msgstr ""
+
+msgctxt "#30182"
+msgid "234"
+msgstr ""
+
+msgctxt "#30183"
+msgid "235"
+msgstr ""
+
+msgctxt "#30184"
+msgid "236"
+msgstr ""
+
+msgctxt "#30185"
+msgid "237"
+msgstr ""
+
+msgctxt "#30186"
+msgid "238"
+msgstr ""
+
+msgctxt "#30187"
+msgid "239"
+msgstr ""
+
+msgctxt "#30188"
+msgid "240"
+msgstr ""
+
+msgctxt "#30189"
+msgid "241"
+msgstr ""

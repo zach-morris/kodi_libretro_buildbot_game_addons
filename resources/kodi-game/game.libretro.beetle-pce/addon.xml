@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-pce"
+		name="NEC - PC Engine / SuperGrafx / CD (Beetle PCE)"
+		version="1.29.0.39"
+		provider-name="Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.pce" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>NEC - PC Engine / SuperGrafx / CD</platforms>
+		<extensions>pce|sgx|cue|ccd|chd|toc|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mednafen_pce_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-pce</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="bs_BA">NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="cs_CZ">NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="da_DK">NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="en_GB">NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="es_ES">NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="ga">NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="it_IT">NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="ru_RU">NEC — PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="sv_SE">NEC - PC Engine / SuperGrafx / CD (Beetle PCE)</summary>
+		<summary lang="zh_CN">NEC - PC 引擎 / SuperGrafx / CD (Beetle PCE)</summary>
+		<description lang="bs_BA">Beetle PC Engine je fork Mednafenovog PC Engine drajvera.[CR][CR]Ovaj PC Engine modul je precizniji od Beetle PC Engine Fast modula, ali na štetu brzine.</description>
+		<description lang="cs_CZ">Beetle PC Engine je odvozen od jádra PC Engine z Mednafenu.[CR][CR]Tento modul PC Engine je přesnější než modul Beetle PC Engine Fast, a to za cenu nižší rychlosti.</description>
+		<description lang="da_DK">Beetle PC Engine er en fork af Mednafens PC Engine-driver.[CR][CR]Dette PC Engine-modul er mere præcist end Beetle PC Engine Fast-modulet på bekostning af hastighed.</description>
+		<description lang="de_DE">Beetle PC Engine ist ein Ableger des PC-Engine-Treibers von Mednafen[CR][CR]Dieses PC-Engine-Modul ist genauer als das Beetle PC-Engine-Fast-Modul, allerdings auf Kosten der Geschwindigkeit.</description>
+		<description lang="en_GB">Beetle PC Engine is a fork of Mednafen&apos;s PC Engine driver.[CR][CR]This PC Engine module is more accurate than the Beetle PC Engine Fast module, at the expense of speed.</description>
+		<description lang="es_ES">Beetle PC Engine es una bifurcación del controlador PC Engine de Mednafen[CR][CR]Este módulo PC Engine es más preciso que el módulo Beetle PC Engine Fast, a expensas de la velocidad.</description>
+		<description lang="ga">Is forc de thiománaí PC Engine Mednafen é Beetle PC Engine.[CR][CR]Tá an modúl PC Engine seo níos cruinne ná an modúl Beetle PC Engine Fast, ar chostas luas.</description>
+		<description lang="it_IT">Beetle PC Engine è un fork del driver PC Engine di Mednafen.[CR][CR]Questo modulo PC Engine è più preciso del modulo Beetle PC Engine Fast, a scapito della velocità.</description>
+		<description lang="ru_RU">Beetle PC Engine — это форк драйвера PC Engine от Mednafen.[CR][CR]Этот модуль PC Engine более точен, чем модуль Beetle PC Engine Fast, но за счёт скорости.</description>
+		<description lang="sv_SE">Beetle PC Engine är en avknoppning av Mednafens PC Engine-drivrutin[CR][CR]Denna PC Engine-modul är mer exakt än Beetle PC Engine Fast-modulen, på bekostnad av hastigheten.</description>
+		<description lang="zh_CN">Beetle PC 引擎是 Mednafen 的 PC 引擎驱动程序的一个分支。[CR][CR]此 PC 引擎模块以速度为代价，取得比 Beetle PC 引擎快速模块更精确的效果。</description>
+	</extension>
+</addon>

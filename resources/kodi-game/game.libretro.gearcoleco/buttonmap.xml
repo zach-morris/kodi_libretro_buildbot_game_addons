@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap version="2">
+  <controller id="game.controller.colecovision" type="RETRO_DEVICE_JOYPAD">
+    <!-- Yellow (Left) -->
+    <feature name="button1" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+    <!-- Red (Right) -->
+    <feature name="button2" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+    <feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+    <feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+    <feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+    <feature name="keypad1" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+    <feature name="keypad2" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+    <feature name="keypad3" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+    <feature name="keypad4" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+    <feature name="keypad5" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+    <feature name="keypad6" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+    <feature name="keypad7" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
+    <feature name="keypad8" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+    <feature name="star" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+    <feature name="pound" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+    <feature name="keypad9" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT" axis="RETRO_DEVICE_ID_ANALOG_Y"/>
+    <feature name="keypad0" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT" axis="RETRO_DEVICE_ID_ANALOG_X"/>
+    <!-- TODO -->
+    <!--
+    <feature name="purple" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT" axis="RETRO_DEVICE_ID_ANALOG_Y"/>
+    <feature name="blue" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT" axis="RETRO_DEVICE_ID_ANALOG_X"/>
+    -->
+  </controller>
+  <controller id="game.controller.mouse" type="RETRO_DEVICE_MOUSE">
+    <feature name="left" mapto="RETRO_DEVICE_ID_MOUSE_LEFT"/>
+    <feature name="right" mapto="RETRO_DEVICE_ID_MOUSE_RIGHT"/>
+    <feature name="pointer" mapto="RETRO_DEVICE_MOUSE"/>
+  </controller>
+</buttonmap>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.remotejoy"
+		name="PSP RemotePlay (RemoteJoy)"
+		version="1.0.0.33"
+		provider-name="Themaister">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>PSP RemotePlay</platforms>
+		<extensions>exe</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>remotejoy_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.remotejoy</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">PSP RemotePlay (RemoteJoy)</summary>
+		<summary lang="da_DK">PSP RemotePlay (RemoteJoy)</summary>
+		<summary lang="en_GB">PSP RemotePlay (RemoteJoy)</summary>
+		<summary lang="es_ES">PSP RemotePlay (RemoteJoy)</summary>
+		<summary lang="ga">PSP RemotePlay (RemoteJoy)</summary>
+		<summary lang="it_IT">Riproduzione remota PSP (RemoteJoy)</summary>
+		<summary lang="ko_KR">PSP 리모트플레이(리모트조이)</summary>
+		<summary lang="ru_RU">PSP RemotePlay (RemoteJoy)</summary>
+		<summary lang="sv_SE">PSP RemotePlay (RemoteJoy)</summary>
+		<summary lang="zh_CN">PSP 远程播放（RemoteJoy）</summary>
+		<description lang="cs_CZ">Remote Joy umožňuje streamovat obrazovku PSP do počítače.</description>
+		<description lang="da_DK">Remote Joy giver brugeren mulighed for at streame PSP-skærmen til deres computer.</description>
+		<description lang="de_DE">Remote Joy ermöglicht es dem Anwender, den PSP-Bildschirm auf seinen Computer zu übertragen.</description>
+		<description lang="en_GB">Remote Joy allows the user to stream the PSP screen to their computer.</description>
+		<description lang="es_ES">Remote Joy permite al usuario transmitir la pantalla de la PSP a su ordenador.</description>
+		<description lang="ga">Ligeann Remote Joy don úsáideoir scáileán an PSP a shruthú chuig a ríomhaire.</description>
+		<description lang="it_IT">Remote Joy consente all&apos;utente di trasmettere in streaming lo schermo della PSP sul proprio computer.</description>
+		<description lang="ko_KR">Remote Joy를 사용하면 PSP 화면을 컴퓨터로 스트리밍할 수 있습니다.</description>
+		<description lang="ru_RU">Remote Joy позволяет пользователю транслировать экран PSP на свой компьютер.</description>
+		<description lang="sv_SE">Remote Joy gör det möjligt för användaren att strömma PSP-skärmen till sin dator.</description>
+		<description lang="zh_CN">Remote Joy 允许用户将 PSP 屏幕传输到他们的计算机。</description>
+	</extension>
+</addon>

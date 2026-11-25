@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-cygne"
+		name="Bandai - WonderSwan/Color (Beetle Cygne)"
+		version="0.9.35.5"
+		provider-name="Dox, Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ws" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>WSW</platforms>
+		<extensions>ws|wsc|pc2</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-cygne</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<lifecycle type="broken" lang="en_GB">This add-on has been renamed from Cygne to Beetle Wonderswan.</lifecycle>
+		<summary lang="da_DK">Bandai - WonderSwan/Color (Beetle Cygne)</summary>
+		<summary lang="en_GB">Bandai - WonderSwan/Color (Beetle Cygne)</summary>
+		<summary lang="es_ES">Bandai - WonderSwan/Color (Beetle Cygne)</summary>
+		<summary lang="it_IT">Bandai - WonderSwan/Colore (Beetle Cygne)</summary>
+		<summary lang="zh_CN">Bandai - WonderSwan/Color (Beetle Cygne)</summary>
+		<description lang="da_DK">Fritstående port af Mednafen WonderSwan til libretro, i sig selv en fork af Cygne.</description>
+		<description lang="de_DE">Eigenständige Portierung von Mednafen WonderSwan nach libretro, selbst ein Ableger von Cygne.</description>
+		<description lang="en_GB">Standalone port of Mednafen WonderSwan to libretro, itself a fork of Cygne.</description>
+		<description lang="es_ES">Adaptación independiente de Mednafen WonderSwan a libretro, que a su vez es una bifurcación de Cygne.</description>
+		<description lang="it_IT">Port autonomo di Mednafen WonderSwan su libretro, a sua volta un fork di Cygne.</description>
+		<description lang="sl_SI">Samostojno pristanišče Mednafen WonderSwan v libretro, ki je sam razcep Cygne.</description>
+		<description lang="zh_CN">从 Mednafen WonderSwan 到 Librector 的独立移植，它本身就是 Cygne 的一个分支。</description>
+		<lifecyclestate type="broken" lang="en_GB">This add-on has been renamed from Cygne to Beetle Wonderswan.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">Este add-on ha sido renombrado de Cygne a Beetle Wonderswan.</lifecyclestate>
+	</extension>
+</addon>

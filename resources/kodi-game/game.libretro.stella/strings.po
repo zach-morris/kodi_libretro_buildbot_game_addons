@@ -1,0 +1,191 @@
+# game.libretro.stella language file
+# Addon Name: game.libretro.stella
+# Addon id: game.libretro.stella
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.stella\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-05-02 00:45i\n"
+"PO-Revision-Date: 2024-12-27 22:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-stella/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Atari - 2600 (Stella)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Stella is a multi-platform Atari 2600 VCS emulator.[CR][CR]The Atari 2600 Video Computer System (VCS), introduced in 1977, was the most popular home video game system of the early 1980s."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Stella was originally developed for Linux by Bradford W. Mott, and is currently maintained by Stephen Anthony."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "Console display"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Palette colors"
+msgstr ""
+
+msgctxt "#30003"
+msgid "TV effects"
+msgstr ""
+
+msgctxt "#30004"
+msgid "NTSC aspect %"
+msgstr ""
+
+msgctxt "#30005"
+msgid "PAL aspect %"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Crop horizontal overscan"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Stereo sound"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Phosphor mode"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Phosphor blend %"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Paddle joypad sensitivity"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Paddle analog sensitivity"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Enable reload/next game"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Crop vertical overscan"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Paddle mouse sensitivity"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Paddle analog deadzone"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Paddle analog absolute"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Lightgun crosshair"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Auto-detect PAL-60"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Auto-detect NTSC-50"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Palette contrast"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Palette brightness"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Palette hue"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Palette saturation"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Palette gamma"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Pitfall II music pitch"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Info messages"
+msgstr ""
+
+msgctxt "#30027"
+msgid "System"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30031"
+msgid "ntsc"
+msgstr ""
+
+msgctxt "#30032"
+msgid "pal"
+msgstr ""
+
+msgctxt "#30033"
+msgid "secam"
+msgstr ""
+
+msgctxt "#30034"
+msgid "ntsc50"
+msgstr ""
+
+msgctxt "#30035"
+msgid "pal60"
+msgstr ""
+
+msgctxt "#30036"
+msgid "secam60"
+msgstr ""
+
+msgctxt "#30037"
+msgid "composite"
+msgstr ""
+
+msgctxt "#30038"
+msgid "s-video"
+msgstr ""
+
+msgctxt "#30039"
+msgid "rgb"
+msgstr ""
+
+msgctxt "#30040"
+msgid "badly adjusted"
+msgstr ""

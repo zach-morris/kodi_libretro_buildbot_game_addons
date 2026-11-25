@@ -1,0 +1,42 @@
+# game.libretro.daphne language file
+# Addon Name: game.libretro.daphne
+# Addon id: game.libretro.daphne
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.daphne\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 03:40i\n"
+"PO-Revision-Date: 2024-12-27 21:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-daphne/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Arcade (Daphne)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "DAPHNE is a multi-arcade LaserDisc emulator that lets one play the original LaserDisc version on a PC."
+msgstr ""
+
+msgctxt "#30001"
+msgid "Invert controls (if supported)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Overlay scoreboard (if supported)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Emulate LaserDisc seeks"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Supported Cheats"
+msgstr ""

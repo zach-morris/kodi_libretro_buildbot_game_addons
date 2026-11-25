@@ -1,0 +1,1422 @@
+# game.libretro.flycast language file
+# Addon Name: game.libretro.flycast
+# Addon id: game.libretro.flycast
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.flycast\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-08-24 22:21i\n"
+"PO-Revision-Date: 2024-12-27 21:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-flycast/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "Sega - Dreamcast/Naomi (Flycast)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Flycast is a fork of Reicast, a multi-platform Sega Dreamcast emulator."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "Boot to BIOS (Restart Required)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "System Type (Restart Required)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "HLE BIOS"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Accumulation Pixel Buffer Size (Restart Required)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Internal Resolution (Restart Required)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Screen Orientation"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Alpha Sorting"
+msgstr ""
+
+msgctxt "#30008"
+msgid "GD-ROM Fast Loading (inaccurate)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Mipmapping"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Fog Effects"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Volume Modifier"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Widescreen Hack (Restart Required)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Widescreen Cheats (Restart Required)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Cable Type"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Broadcast Standard"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Framerate"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Region"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Language"
+msgstr ""
+
+msgctxt "#30019"
+msgid "DIV Matching"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Force Windows CE Mode"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Analog Stick Deadzone"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Trigger Deadzone"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Digital Triggers"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Enable DSP"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Anisotropic Filtering"
+msgstr ""
+
+msgctxt "#30026"
+msgid "PowerVR2 Post-processing Filter"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Texture Upscaling (xBRZ)"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Texture Upscaling Max. Filtered Size"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Enable RTT (Render To Texture) Buffer"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Render To Texture Upscaling"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Threaded Rendering (Restart Required)"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Synchronous Rendering"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Delay Frame Swapping"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Frame Skipping"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Purupuru Pack/Vibration Pack"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Allow NAOMI Service Buttons"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Enable NAOMI 15KHz DIP switch"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Load Custom Textures"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Dump Textures"
+msgstr ""
+
+msgctxt "#30042"
+msgid "VMU Screen 1 Display"
+msgstr ""
+
+msgctxt "#30043"
+msgid "VMU Screen 1 Position"
+msgstr ""
+
+msgctxt "#30044"
+msgid "VMU Screen 1 Size"
+msgstr ""
+
+msgctxt "#30045"
+msgid "VMU Screen 1 Pixel On Color"
+msgstr ""
+
+msgctxt "#30046"
+msgid "VMU Screen 1 Pixel Off Color"
+msgstr ""
+
+msgctxt "#30047"
+msgid "VMU Screen 1 Opacity"
+msgstr ""
+
+msgctxt "#30048"
+msgid "VMU Screen 2 Display"
+msgstr ""
+
+msgctxt "#30049"
+msgid "VMU Screen 2 Position"
+msgstr ""
+
+msgctxt "#30050"
+msgid "VMU Screen 2 Size"
+msgstr ""
+
+msgctxt "#30051"
+msgid "VMU Screen 2 Pixel On Color"
+msgstr ""
+
+msgctxt "#30052"
+msgid "VMU Screen 2 Pixel Off Color"
+msgstr ""
+
+msgctxt "#30053"
+msgid "VMU Screen 2 Opacity"
+msgstr ""
+
+msgctxt "#30054"
+msgid "VMU Screen 3 Display"
+msgstr ""
+
+msgctxt "#30055"
+msgid "VMU Screen 3 Position"
+msgstr ""
+
+msgctxt "#30056"
+msgid "VMU Screen 3 Size"
+msgstr ""
+
+msgctxt "#30057"
+msgid "VMU Screen 3 Pixel On Color"
+msgstr ""
+
+msgctxt "#30058"
+msgid "VMU Screen 3 Pixel Off Color"
+msgstr ""
+
+msgctxt "#30059"
+msgid "VMU Screen 3 Opacity"
+msgstr ""
+
+msgctxt "#30060"
+msgid "VMU Screen 4 Display"
+msgstr ""
+
+msgctxt "#30061"
+msgid "VMU Screen 4 Position"
+msgstr ""
+
+msgctxt "#30062"
+msgid "VMU Screen 4 Size"
+msgstr ""
+
+msgctxt "#30063"
+msgid "VMU Screen 4 Pixel On Color"
+msgstr ""
+
+msgctxt "#30064"
+msgid "VMU Screen 4 Pixel Off Color"
+msgstr ""
+
+msgctxt "#30065"
+msgid "VMU Screen 4 Opacity"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Show Light Gun Settings"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Gun Crosshair 1 Display"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Gun Crosshair 2 Display"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Gun Crosshair 3 Display"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Gun Crosshair 4 Display"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Boot directly into the Dreamcast BIOS menu."
+msgstr ""
+
+msgctxt "#30072"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Dreamcast"
+msgstr ""
+
+msgctxt "#30074"
+msgid "NAOMI"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Atomiswave"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Force use of high-level emulation BIOS."
+msgstr ""
+
+msgctxt "#30077"
+msgid "Per-Strip (fast, least accurate)"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Per-Triangle (normal)"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Per-Pixel (accurate, but slowest)"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Speeds up GD-ROM loading."
+msgstr ""
+
+msgctxt "#30081"
+msgid "Optimize integer division"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Enable full MMU (Memory Management Unit) emulation and other settings for Windows CE games."
+msgstr ""
+
+msgctxt "#30083"
+msgid "Enable emulation of the Dreamcast's audio DSP (digital signal processor). Improves the accuracy of generated sound, but increases performance requirements."
+msgstr ""
+
+msgctxt "#30084"
+msgid "Runs the GPU and CPU on different threads. Highly recommended."
+msgstr ""
+
+msgctxt "#30085"
+msgid "Waits for the GPU to finish rendering the previous frame instead of dropping the current one. Note: This setting only applies when 'Threaded Rendering' is enabled."
+msgstr ""
+
+msgctxt "#30086"
+msgid "Enables SERVICE button for NAOMI, to enter cabinet settings."
+msgstr ""
+
+msgctxt "#30087"
+msgid "This can force display in 240p, 480i or have no effect at all depending on the game."
+msgstr ""
+
+msgctxt "#30088"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Configure visual buffers & effects, display parameters, framerate/-skip and rendering/texture parameters."
+msgstr ""
+
+msgctxt "#30090"
+msgid "Higher values might be required for higher resolutions to output correctly."
+msgstr ""
+
+msgctxt "#30091"
+msgid "Modify rendering resolution."
+msgstr ""
+
+msgctxt "#30092"
+msgid "Horizontal"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Vertical"
+msgstr ""
+
+msgctxt "#30094"
+msgid "A Dreamcast GPU feature that is typically used by games to draw object shadows. This should normally be enabled - the performance impact is usually minimal to negligible."
+msgstr ""
+
+msgctxt "#30095"
+msgid "The output signal type. 'TV (Composite)' is the most widely supported."
+msgstr ""
+
+msgctxt "#30096"
+msgid "PAL-M (Brazil)"
+msgstr ""
+
+msgctxt "#30097"
+msgid "PAL-N (Argentina, Paraguay, Uruguay)"
+msgstr ""
+
+msgctxt "#30098"
+msgid "PAL (World)"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Affects how emulator interacts with frontend. 'Full Speed' - emulator returns control to RetroArch each time a frame has been rendered. 'Normal' - emulator returns control to RetroArch each time a V-blank interrupt is generated. 'Full Speed' should be used in most cases. 'Normal' may improve frame pacing on some systems, but can cause unresponsive input when the screen is static (e.g. loading/pause screens). Note: This setting only applies when 'Threaded Rendering' is disabled."
+msgstr ""
+
+msgctxt "#30100"
+msgid "Full Speed"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Enhance the quality of textures on surfaces that are at oblique viewing angles with respect to the camera."
+msgstr ""
+
+msgctxt "#30103"
+msgid "Post-process the rendered image to simulate effects specific to the PowerVR2 GPU and analog video signals."
+msgstr ""
+
+msgctxt "#30104"
+msgid "Enhance hand-drawn 2D pixel art graphics. Should only be used with 2D pixelated games."
+msgstr ""
+
+msgctxt "#30105"
+msgid "Useful to avoid flashing screens or glitchy videos. Not recommended on slow platforms. Note: This setting only applies when 'Threaded Rendering' is enabled."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Sets the number of frames to skip between each displayed frame."
+msgstr ""
+
+msgctxt "#30107"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Configure controller & light gun settings."
+msgstr ""
+
+msgctxt "#30109"
+msgid "Enables controller force feedback."
+msgstr ""
+
+msgctxt "#30110"
+msgid "Enable configuration of light gun crosshair display options. NOTE: Quick Menu must be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30111"
+msgid "Visual Memory"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Configure settings related to the Visual Memory Units/Systems (VMU)."
+msgstr ""
+
+msgctxt "#30113"
+msgid "When disabled, all games share 4 VMU save files (A1, B1, C1, D1) located in RetroArch's system directory. The 'VMU A1' setting creates a unique VMU 'A1' file in RetroArch's save directory for each game that is launched. The 'All VMUs' setting creates 4 unique VMU files (A1, B1, C1, D1) for each game that is launched."
+msgstr ""
+
+msgctxt "#30114"
+msgid "Enable configuration of emulated VMU LCD screen visibility, size, position and color. NOTE: Quick Menu must be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30115"
+msgid "Default ON"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Default OFF"
+msgstr ""
+
+msgctxt "#30117"
+msgid "Black"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Blue"
+msgstr ""
+
+msgctxt "#30119"
+msgid "Light Blue"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Green"
+msgstr ""
+
+msgctxt "#30121"
+msgid "Cyan"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Cyan Blue"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Light Green"
+msgstr ""
+
+msgctxt "#30124"
+msgid "Cyan Green"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Light Cyan"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Red"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Purple"
+msgstr ""
+
+msgctxt "#30128"
+msgid "Light Purple"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Yellow"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Gray"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Light Purple (2)"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Light Green (2)"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Light Green (3)"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Light Cyan (2)"
+msgstr ""
+
+msgctxt "#30135"
+msgid "Light Red (2)"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Magenta"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Light Purple (3)"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Light Orange"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Orange"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Light Purple (4)"
+msgstr ""
+
+msgctxt "#30141"
+msgid "Light Yellow"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Light Yellow (2)"
+msgstr ""
+
+msgctxt "#30143"
+msgid "White"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Emulation Hacks"
+msgstr ""
+
+msgctxt "#30145"
+msgid "Configure different emulation hacks."
+msgstr ""
+
+msgctxt "#30146"
+msgid "Activates cheats that allow certain games to display in widescreen format."
+msgstr ""
+
+msgctxt "#30147"
+msgid "System"
+msgstr ""
+
+msgctxt "#30148"
+msgid "Configure region, language, BIOS and base hardware settings."
+msgstr ""
+
+msgctxt "#30149"
+msgid "Changes the language used by the BIOS and by any games that contain multiple languages."
+msgstr ""
+
+msgctxt "#30150"
+msgid "HLE BIOS (Restart Required)"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Allow Arcade Service Buttons"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Enables SERVICE button for arcade games, to enter cabinet settings."
+msgstr ""
+
+msgctxt "#30153"
+msgid "Set NAOMI Games to Free Play"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Modify to coin settings of the game to free play."
+msgstr ""
+
+msgctxt "#30155"
+msgid "Coin Limit"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Disable coin insertion after defined limit."
+msgstr ""
+
+msgctxt "#30157"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Broadband Adapter Emulation"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Emulate the Ethernet broadband adapter instead of the modem. (Restart Required)"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Enable UPnP"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Use UPnP to automatically configure your Internet router for online games."
+msgstr ""
+
+msgctxt "#30162"
+msgid "Use DCNet"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Use the DCNet cloud service for Dreamcast Internet access."
+msgstr ""
+
+msgctxt "#30164"
+msgid "Configure resolution, order-independent transparency and visual effect settings."
+msgstr ""
+
+msgctxt "#30165"
+msgid "Internal Resolution"
+msgstr ""
+
+msgctxt "#30166"
+msgid "320x240 (Half)"
+msgstr ""
+
+msgctxt "#30167"
+msgid "640x480 (Native)"
+msgstr ""
+
+msgctxt "#30168"
+msgid "800x600 (x1.25)"
+msgstr ""
+
+msgctxt "#30169"
+msgid "960x720 (x1.5)"
+msgstr ""
+
+msgctxt "#30170"
+msgid "1024x768 (x1.6)"
+msgstr ""
+
+msgctxt "#30171"
+msgid "1280x960 (x2)"
+msgstr ""
+
+msgctxt "#30172"
+msgid "1440x1080 (x2.25)"
+msgstr ""
+
+msgctxt "#30173"
+msgid "1600x1200 (x2.5)"
+msgstr ""
+
+msgctxt "#30174"
+msgid "1920x1440 (x3)"
+msgstr ""
+
+msgctxt "#30175"
+msgid "2560x1920 (x4)"
+msgstr ""
+
+msgctxt "#30176"
+msgid "2880x2160 (x4.5)"
+msgstr ""
+
+msgctxt "#30177"
+msgid "3200x2400 (x5)"
+msgstr ""
+
+msgctxt "#30178"
+msgid "3840x2880 (x6)"
+msgstr ""
+
+msgctxt "#30179"
+msgid "4480x3360 (x7)"
+msgstr ""
+
+msgctxt "#30180"
+msgid "5120x3840 (x8)"
+msgstr ""
+
+msgctxt "#30181"
+msgid "5760x4320 (x9)"
+msgstr ""
+
+msgctxt "#30182"
+msgid "6400x4800 (x10)"
+msgstr ""
+
+msgctxt "#30183"
+msgid "7040x5280 (x11)"
+msgstr ""
+
+msgctxt "#30184"
+msgid "7680x5760 (x12)"
+msgstr ""
+
+msgctxt "#30185"
+msgid "8320x6240 (x13)"
+msgstr ""
+
+msgctxt "#30186"
+msgid "8960x6720 (x14)"
+msgstr ""
+
+msgctxt "#30187"
+msgid "9600x7200 (x15)"
+msgstr ""
+
+msgctxt "#30188"
+msgid "10240x7680 (x16)"
+msgstr ""
+
+msgctxt "#30189"
+msgid "10880x8160 (x17)"
+msgstr ""
+
+msgctxt "#30190"
+msgid "11520x8640 (x18)"
+msgstr ""
+
+msgctxt "#30191"
+msgid "12160x9120 (x19)"
+msgstr ""
+
+msgctxt "#30192"
+msgid "12800x9600 (x20)"
+msgstr ""
+
+msgctxt "#30193"
+msgid "Select how the transparent polygons are sorted."
+msgstr ""
+
+msgctxt "#30194"
+msgid "Accumulation Pixel Buffer Size"
+msgstr ""
+
+msgctxt "#30195"
+msgid "Maximum Transparent Layers"
+msgstr ""
+
+msgctxt "#30196"
+msgid "Higher values might be required for complex scenes."
+msgstr ""
+
+msgctxt "#30197"
+msgid "Full framebuffer emulation"
+msgstr ""
+
+msgctxt "#30198"
+msgid "Enable full framebuffer emulation in VRAM. This is useful for games that directly read or write the framebuffer in VRAM. When enabled, Internal Resolution is forced to 640x480 and performance may be severely impacted."
+msgstr ""
+
+msgctxt "#30199"
+msgid "Copy rendered textures back from the GPU to VRAM. This option is normally enabled for games that require it. When enabled, texture rendering upscaling is disabled and performance may be impacted."
+msgstr ""
+
+msgctxt "#30200"
+msgid "When enabled textures will use smaller version of themselves when they appear farther away, it can increase performances and reduce shimmering."
+msgstr ""
+
+msgctxt "#30201"
+msgid "Enhance the quality of textures on surfaces that are at oblique viewing angles with respect to the camera. Higher values are more demanding on the GPU. Changes to this setting only apply after restarting."
+msgstr ""
+
+msgctxt "#30202"
+msgid "Texture Filtering"
+msgstr ""
+
+msgctxt "#30203"
+msgid "The texture filtering mode to use. This can be used to force a certain texture filtering mode on all textures to get a crisper (or smoother) appearance than Default. Values other than Default may cause various rendering issues. Changes to this setting only apply after restarting."
+msgstr ""
+
+msgctxt "#30204"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30205"
+msgid "Force Nearest-Neighbor"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Force Linear"
+msgstr ""
+
+msgctxt "#30207"
+msgid "Useful to avoid flashing screens or glitchy videos. Not recommended on slow platforms."
+msgstr ""
+
+msgctxt "#30208"
+msgid "Detect Frame Rate Changes"
+msgstr ""
+
+msgctxt "#30209"
+msgid "Notify frontend when internal frame rate changes (e.g. from 60 fps to 30 fps). Improves frame pacing in games that run at a locked 30 fps or 20 fps, but should be disabled for games with unlocked (unstable) frame rates (e.g. Ecco the Dolphin, Unreal Tournament). Note: Unavailable when 'Auto Skip Frame' is enabled."
+msgstr ""
+
+msgctxt "#30210"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30211"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30212"
+msgid "6x"
+msgstr ""
+
+msgctxt "#30213"
+msgid "Select a maximum size value for a texture to be upscaled, if the texture size is higher than the selected value then it will not be upscaled."
+msgstr ""
+
+msgctxt "#30214"
+msgid "Native Depth Interpolation"
+msgstr ""
+
+msgctxt "#30215"
+msgid "Helps with texture corruption and depth issues on AMD GPUs. Can also help Intel GPUs in some cases."
+msgstr ""
+
+msgctxt "#30216"
+msgid "Fix Upscale Bleeding Edge"
+msgstr ""
+
+msgctxt "#30217"
+msgid "Helps with texture bleeding case when upscaling. Disabling it can help if pixels are warping when upscaling in 2D games (MVC2, CVS, KOF, etc.)"
+msgstr ""
+
+msgctxt "#30218"
+msgid "Performance"
+msgstr ""
+
+msgctxt "#30219"
+msgid "Configure threaded rendering and frame skip settings."
+msgstr ""
+
+msgctxt "#30220"
+msgid "Threaded Rendering"
+msgstr ""
+
+msgctxt "#30221"
+msgid "Auto Skip Frame"
+msgstr ""
+
+msgctxt "#30222"
+msgid "Automatically skip frames when the emulator is running slow. Note: This setting only applies when 'Threaded Rendering' is enabled."
+msgstr ""
+
+msgctxt "#30223"
+msgid "Maximum"
+msgstr ""
+
+msgctxt "#30224"
+msgid "Configure widescreen overrides, GD-ROM loading speed and texture replacement settings."
+msgstr ""
+
+msgctxt "#30225"
+msgid "Widescreen Hack"
+msgstr ""
+
+msgctxt "#30226"
+msgid "Draw geometry outside of the normal 4:3 aspect ratio. May produce graphical glitches in the revealed areas."
+msgstr ""
+
+msgctxt "#30227"
+msgid "Dreamcast 32MB RAM Mod"
+msgstr ""
+
+msgctxt "#30228"
+msgid "Enables 32MB RAM Mod for Dreamcast. May affect compatibility"
+msgstr ""
+
+msgctxt "#30229"
+msgid "SH4 CPU under/overclock"
+msgstr ""
+
+msgctxt "#30230"
+msgid "Change the SH4 main CPU clock from the default 200 MHz. Underclocking may help slow platforms. Overclocking may increase the frame rate for some games. Use with caution."
+msgstr ""
+
+msgctxt "#30231"
+msgid "100 MHz"
+msgstr ""
+
+msgctxt "#30232"
+msgid "110 MHz"
+msgstr ""
+
+msgctxt "#30233"
+msgid "120 MHz"
+msgstr ""
+
+msgctxt "#30234"
+msgid "130 MHz"
+msgstr ""
+
+msgctxt "#30235"
+msgid "140 MHz"
+msgstr ""
+
+msgctxt "#30236"
+msgid "150 MHz"
+msgstr ""
+
+msgctxt "#30237"
+msgid "160 MHz"
+msgstr ""
+
+msgctxt "#30238"
+msgid "170 MHz"
+msgstr ""
+
+msgctxt "#30239"
+msgid "180 MHz"
+msgstr ""
+
+msgctxt "#30240"
+msgid "190 MHz"
+msgstr ""
+
+msgctxt "#30241"
+msgid "200 MHz"
+msgstr ""
+
+msgctxt "#30242"
+msgid "210 MHz"
+msgstr ""
+
+msgctxt "#30243"
+msgid "220 MHz"
+msgstr ""
+
+msgctxt "#30244"
+msgid "230 MHz"
+msgstr ""
+
+msgctxt "#30245"
+msgid "240 MHz"
+msgstr ""
+
+msgctxt "#30246"
+msgid "250 MHz"
+msgstr ""
+
+msgctxt "#30247"
+msgid "260 MHz"
+msgstr ""
+
+msgctxt "#30248"
+msgid "270 MHz"
+msgstr ""
+
+msgctxt "#30249"
+msgid "280 MHz"
+msgstr ""
+
+msgctxt "#30250"
+msgid "290 MHz"
+msgstr ""
+
+msgctxt "#30251"
+msgid "300 MHz"
+msgstr ""
+
+msgctxt "#30252"
+msgid "310 MHz"
+msgstr ""
+
+msgctxt "#30253"
+msgid "320 MHz"
+msgstr ""
+
+msgctxt "#30254"
+msgid "330 MHz"
+msgstr ""
+
+msgctxt "#30255"
+msgid "340 MHz"
+msgstr ""
+
+msgctxt "#30256"
+msgid "350 MHz"
+msgstr ""
+
+msgctxt "#30257"
+msgid "360 MHz"
+msgstr ""
+
+msgctxt "#30258"
+msgid "370 MHz"
+msgstr ""
+
+msgctxt "#30259"
+msgid "380 MHz"
+msgstr ""
+
+msgctxt "#30260"
+msgid "390 MHz"
+msgstr ""
+
+msgctxt "#30261"
+msgid "400 MHz"
+msgstr ""
+
+msgctxt "#30262"
+msgid "410 MHz"
+msgstr ""
+
+msgctxt "#30263"
+msgid "420 MHz"
+msgstr ""
+
+msgctxt "#30264"
+msgid "430 MHz"
+msgstr ""
+
+msgctxt "#30265"
+msgid "440 MHz"
+msgstr ""
+
+msgctxt "#30266"
+msgid "450 MHz"
+msgstr ""
+
+msgctxt "#30267"
+msgid "460 MHz"
+msgstr ""
+
+msgctxt "#30268"
+msgid "470 MHz"
+msgstr ""
+
+msgctxt "#30269"
+msgid "480 MHz"
+msgstr ""
+
+msgctxt "#30270"
+msgid "490 MHz"
+msgstr ""
+
+msgctxt "#30271"
+msgid "500 MHz"
+msgstr ""
+
+msgctxt "#30272"
+msgid "Load custom textures located in the 'system/dc/textures/<game-id>/' folder."
+msgstr ""
+
+msgctxt "#30273"
+msgid "Preload Custom Textures"
+msgstr ""
+
+msgctxt "#30274"
+msgid "Preload custom textures at game start. May improve performance but increases memory usage."
+msgstr ""
+
+msgctxt "#30275"
+msgid "Every time a new texture is used by the game, it will be saved as a .png file in the 'system/dc/texdump/<game-id>/' folder."
+msgstr ""
+
+msgctxt "#30276"
+msgid "Dump Replaced Textures"
+msgstr ""
+
+msgctxt "#30277"
+msgid "Always dump textures that are already replaced by custom textures."
+msgstr ""
+
+msgctxt "#30278"
+msgid "Configure gamepad and light gun settings."
+msgstr ""
+
+msgctxt "#30279"
+msgid "Select how far you have to push the analog stick before it starts being processed."
+msgstr ""
+
+msgctxt "#30280"
+msgid "Select how much you have to press the trigger before it starts being processed."
+msgstr ""
+
+msgctxt "#30281"
+msgid "When enabled the triggers will act as regular buttons, meaning they will be processed as either fully pressed or not pressed at all, with no in-between."
+msgstr ""
+
+msgctxt "#30282"
+msgid "Broadcast Digital Outputs"
+msgstr ""
+
+msgctxt "#30283"
+msgid "Broadcast digital outputs and force-feedback state on TCP port 8000. Compatible with the \"-output network\" MAME option."
+msgstr ""
+
+msgctxt "#30284"
+msgid "Enable configuration of light gun crosshair display options. NOTE: Quick Menu may need to be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30285"
+msgid "Gun Crosshair Size Scaling"
+msgstr ""
+
+msgctxt "#30286"
+msgid "Controller Expansion Slots"
+msgstr ""
+
+msgctxt "#30287"
+msgid "Select the device (VMU, rumble device) plugged in each controller expansion slot."
+msgstr ""
+
+msgctxt "#30288"
+msgid "Device in Expansion Slot A1"
+msgstr ""
+
+msgctxt "#30289"
+msgid "Select the device plugged in the expansion slot A1 (port A slot 1)."
+msgstr ""
+
+msgctxt "#30290"
+msgid "Vibration Pack"
+msgstr ""
+
+msgctxt "#30291"
+msgid "Device in Expansion Slot A2"
+msgstr ""
+
+msgctxt "#30292"
+msgid "Select the device plugged in the expansion slot A2 (port A slot 2)."
+msgstr ""
+
+msgctxt "#30293"
+msgid "Device in Expansion Slot B1"
+msgstr ""
+
+msgctxt "#30294"
+msgid "Select the device plugged in the expansion slot B1 (port B slot 1)."
+msgstr ""
+
+msgctxt "#30295"
+msgid "Device in Expansion Slot B2"
+msgstr ""
+
+msgctxt "#30296"
+msgid "Select the device plugged in the expansion slot B2 (port B slot 2)."
+msgstr ""
+
+msgctxt "#30297"
+msgid "Device in Expansion Slot C1"
+msgstr ""
+
+msgctxt "#30298"
+msgid "Select the device plugged in the expansion slot C1 (port C slot 1)."
+msgstr ""
+
+msgctxt "#30299"
+msgid "Device in Expansion Slot C2"
+msgstr ""
+
+msgctxt "#30300"
+msgid "Select the device plugged in the expansion slot C2 (port C slot 2)."
+msgstr ""
+
+msgctxt "#30301"
+msgid "Device in Expansion Slot D1"
+msgstr ""
+
+msgctxt "#30302"
+msgid "Select the device plugged in the expansion slot D1 (port D slot 1)."
+msgstr ""
+
+msgctxt "#30303"
+msgid "Device in Expansion Slot D2"
+msgstr ""
+
+msgctxt "#30304"
+msgid "Select the device plugged in the expansion slot D2 (port D slot 2)."
+msgstr ""
+
+msgctxt "#30305"
+msgid "Visual Memory Unit"
+msgstr ""
+
+msgctxt "#30306"
+msgid "Configure per-game VMU save files and on-screen VMU visibility settings."
+msgstr ""
+
+msgctxt "#30307"
+msgid ""
+"When disabled, all games share up to 8 VMU save files (A1/A2/B1/B2/C1/C2/D1/D2) located in RetroArch's system folder.\n"
+"The 'VMU A1' setting creates a unique VMU 'A1' file in RetroArch's save folder for each game that is launched.\n"
+"The 'All VMUs' setting creates up to 8 unique VMU files (A1/A2/B1/B2/C1/C2/D1/D2) for each game that is launched."
+msgstr ""
+
+msgctxt "#30309"
+msgid "When enabled, VMU beeps are played."
+msgstr ""
+
+msgctxt "#30310"
+msgid "DreamPotato VMU storage"
+msgstr ""
+
+msgctxt "#30311"
+msgid "Enable storage of VMU data on the connected DreamPotato emulator. When enabled, the local VMU save file is not used."
+msgstr ""
+
+msgctxt "#30312"
+msgid "Enable configuration of emulated VMU LCD screen visibility, size, position and color. NOTE: Quick Menu may need to be toggled for this setting to take effect."
+msgstr ""
+
+msgctxt "#30313"
+msgid "Japan"
+msgstr ""
+
+msgctxt "#30314"
+msgid "USA"
+msgstr ""
+
+msgctxt "#30315"
+msgid "Europe"
+msgstr ""
+
+msgctxt "#30316"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30317"
+msgid "English"
+msgstr ""
+
+msgctxt "#30318"
+msgid "German"
+msgstr ""
+
+msgctxt "#30319"
+msgid "French"
+msgstr ""
+
+msgctxt "#30320"
+msgid "Spanish"
+msgstr ""
+
+msgctxt "#30321"
+msgid "Italian"
+msgstr ""
+
+msgctxt "#30322"
+msgid "1"
+msgstr ""
+
+msgctxt "#30323"
+msgid "2"
+msgstr ""
+
+msgctxt "#30324"
+msgid "3"
+msgstr ""
+
+msgctxt "#30325"
+msgid "4"
+msgstr ""
+
+msgctxt "#30326"
+msgid "5"
+msgstr ""
+
+msgctxt "#30327"
+msgid "6"
+msgstr ""
+
+msgctxt "#30328"
+msgid "7"
+msgstr ""
+
+msgctxt "#30329"
+msgid "8"
+msgstr ""
+
+msgctxt "#30330"
+msgid "9"
+msgstr ""
+
+msgctxt "#30331"
+msgid "10"
+msgstr ""
+
+msgctxt "#30332"
+msgid "11"
+msgstr ""
+
+msgctxt "#30333"
+msgid "12"
+msgstr ""
+
+msgctxt "#30334"
+msgid "13"
+msgstr ""
+
+msgctxt "#30335"
+msgid "14"
+msgstr ""
+
+msgctxt "#30336"
+msgid "15"
+msgstr ""
+
+msgctxt "#30337"
+msgid "16"
+msgstr ""
+
+msgctxt "#30338"
+msgid "17"
+msgstr ""
+
+msgctxt "#30339"
+msgid "18"
+msgstr ""
+
+msgctxt "#30340"
+msgid "19"
+msgstr ""
+
+msgctxt "#30341"
+msgid "20"
+msgstr ""
+
+msgctxt "#30342"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30343"
+msgid "VMU"
+msgstr ""
+
+msgctxt "#30344"
+msgid "DreamPotato"
+msgstr ""
+
+msgctxt "#30345"
+msgid "VMU A1"
+msgstr ""
+
+msgctxt "#30346"
+msgid "All VMUs"
+msgstr ""
+
+msgctxt "#30347"
+msgid "Discard Video and Animated Textures"
+msgstr ""
+
+msgctxt "#30348"
+msgid "Skip dumping video (YUV) and already updated textures."
+msgstr ""
+
+msgctxt "#30349"
+msgid "Per-Game VMUs"
+msgstr ""
+
+msgctxt "#30350"
+msgid "VMU Sounds"
+msgstr ""
+
+msgctxt "#30351"
+msgid "Show VMU Display Settings"
+msgstr ""

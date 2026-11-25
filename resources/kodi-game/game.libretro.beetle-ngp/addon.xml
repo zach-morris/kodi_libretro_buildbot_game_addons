@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-ngp"
+		name="SNK - Neo Geo Pocket / Color (Beetle NeoPop)"
+		version="1.29.0.49"
+		provider-name="neopop_uk, Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ngp" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms>SNK - Neo Geo Pocket / Color</platforms>
+		<extensions>ngp|ngc|ngpc|npc</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mednafen_ngp_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-ngp</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">SNK - Neo Geo Pocket / Color (Beetle NeoPop)</summary>
+		<summary lang="da_DK">SNK - Neo Geo Pocket / Color (Beetle NeoPop)</summary>
+		<summary lang="en_GB">SNK - Neo Geo Pocket / Color (Beetle NeoPop)</summary>
+		<summary lang="es_ES">SNK - Neo Geo Pocket / Color (Beetle NeoPop)</summary>
+		<summary lang="ga">SNK - Neo Geo Pocket / Color (Ciaróg NeoPop)</summary>
+		<summary lang="it_IT">SNK - Neo Geo Pocket / Colore (Beetle NeoPop)</summary>
+		<summary lang="ko_KR">SNK - 네오지오포켓 / 컬러 (비틀네오팝)</summary>
+		<summary lang="ru_RU">SNK - Neo Geo Pocket / Color (Beetle NeoPop)</summary>
+		<summary lang="sv_SE">SNK - Neo Geo Pocket / Color (Beetle NeoPop)</summary>
+		<summary lang="zh_CN">SNK - Neo Geo Pocket / Color (Beetle NeoPop)</summary>
+		<description lang="cs_CZ">Tento emulátor založený na NeoPopu dokáže poměrně dobře spustit většinu komerčně vydaných her, ale z hlediska nízkoúrovňových detailů není příliš přesný.</description>
+		<description lang="da_DK">Baseret på NeoPop er denne emulator tilstrækkelig til at spille de fleste kommercielt udgivne spil temmelig godt, men ikke særlig præcist med hensyn til detaljer på lavt niveau.</description>
+		<description lang="de_DE">Dieser auf NeoPop basierende Emulator reicht aus, um die meisten im Handel erhältlichen Spiele recht gut abzuspielen, ist aber nicht sehr genau, was die Details auf niedriger Ebene betrifft.</description>
+		<description lang="en_GB">Based on NeoPop, this emulator is sufficient to play most commercially released games fairly well, but not very accurate in terms of low-level details.</description>
+		<description lang="es_ES">Basado en NeoPop, este emulador es suficiente para ejecutar muy bien la mayoria de los juegos comerciales, pero no es muy preciso en cuanto a los detalles a bajo nivel.</description>
+		<description lang="ga">Bunaithe ar NeoPop, is leor an t-aithriseoir seo chun formhór na gcluichí tráchtála a imirt go maith, ach níl sé an-chruinn i dtéarmaí sonraí íseal-leibhéil.</description>
+		<description lang="it_IT">Basato su NeoPop, questo emulatore è sufficiente per riprodurre abbastanza bene la maggior parte dei giochi rilasciati in commercio, ma non molto preciso in termini di dettagli di basso livello.</description>
+		<description lang="ko_KR">NeoPop을 기반으로 하는 이 에뮬레이터는 대부분의 상업적으로 출시된 게임을 플레이하기에는 충분하지만, 세부 사항 측면에서는 그다지 정확하지 않습니다.</description>
+		<description lang="ru_RU">Эмулятор, созданный на основе NeoPop, позволяет достаточно хорошо воспроизводить большинство коммерческих игр, однако он не отличается высокой точностью в плане низкоуровневой детализации.</description>
+		<description lang="sl_SI">Ta emulator, ki temelji na NeoPopu, zadostuje za dokaj dobro igranje večine komercialno izdanih iger, vendar ni zelo natančen v smislu nizkih podrobnosti.</description>
+		<description lang="sv_SE">Den här emulatorn är baserad på NeoPop och räcker för att spela de flesta kommersiellt lanserade spel ganska bra, men inte särskilt exakt när det gäller detaljer på låg nivå.</description>
+		<description lang="zh_CN">基于 NeoPop，该模拟器足以很好地玩大多数商业发行的游戏，但在低阶细节方面并不十分准确。</description>
+	</extension>
+</addon>

@@ -1,0 +1,406 @@
+# game.libretro.pcem language file
+# Addon Name: game.libretro.pcem
+# Addon id: game.libretro.pcem
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.pcem\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2024-12-27 22:04+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: English (United States) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pcem/en_us/>\n"
+"Language: en_us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+msgctxt "Addon Summary"
+msgid "PC (PCem)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PCem (short for PC Emulator) is a hypervisor and IBM PC emulator that specializes in running old operating systems and software.[CR][CR]Originally developed as an IBM PC XT emulator, it later emulates other IBM PC compatible computers as well."
+msgstr ""
+
+msgctxt "#30001"
+msgid "CPU Core"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Model (restart)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Graphics card (restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Sound card (restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Video timing speed"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Enable overscan"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Enable flash"
+msgstr ""
+
+msgctxt "#30008"
+msgid "CPU Floating Point Unit support (restart)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Gravis UltraSound audiocard (restart)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "SSI 2001 add-on audiocard (restart)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "GameBlaster audiocard (restart)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "3Dfx Voodoo add-on card (restart)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "IBM PC"
+msgstr ""
+
+msgctxt "#30014"
+msgid "IBM XT"
+msgstr ""
+
+msgctxt "#30015"
+msgid "IBM PCjr"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Generic XT clone"
+msgstr ""
+
+msgctxt "#30017"
+msgid "AMI XT clone"
+msgstr ""
+
+msgctxt "#30018"
+msgid "DTK XT clone"
+msgstr ""
+
+msgctxt "#30019"
+msgid "VTech Laser Turbo XT"
+msgstr ""
+
+msgctxt "#30020"
+msgid "VTech Laser XT3"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Phoenix XT clone"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Juko XT clone"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Tandy 1000"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Tandy 1000 HX"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Tandy 1000 SL/2"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Amstrad PC1512"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Sinclair PC200"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Euro PC"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Olivetti M24"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Amstrad PC1640"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Amstrad PC2086"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Amstrad PC3086"
+msgstr ""
+
+msgctxt "#30033"
+msgid "IBM AT"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Commodore PC 30 III"
+msgstr ""
+
+msgctxt "#30035"
+msgid "AMI 286 clone"
+msgstr ""
+
+msgctxt "#30036"
+msgid "DELL System 200"
+msgstr ""
+
+msgctxt "#30037"
+msgid "IBM PS/1 model 2011"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Compaq Deskpro 386"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Acer 386SX25/N"
+msgstr ""
+
+msgctxt "#30040"
+msgid "DTK 386SX clone"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Phoenix 386 clone"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Amstrad MegaPC"
+msgstr ""
+
+msgctxt "#30043"
+msgid "AMI 386 clone"
+msgstr ""
+
+msgctxt "#30044"
+msgid "AMI 486 clone"
+msgstr ""
+
+msgctxt "#30045"
+msgid "AMI WinBIOS 486"
+msgstr ""
+
+msgctxt "#30046"
+msgid "DTK PKM-0038S E-2"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Award SiS 496/497"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Rise Computer R418"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Intel Premiere/PCI"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Intel Premiere/PCI II"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Intel Advanced/EV"
+msgstr ""
+
+msgctxt "#30052"
+msgid "PC Partner MB500N"
+msgstr ""
+
+msgctxt "#30053"
+msgid "ASUS P/I-P53TP4XE"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Acer M3a"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Acer V35N"
+msgstr ""
+
+msgctxt "#30056"
+msgid "ASUS P/I-P55T2P4"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Award 430VX PCI"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Epox P55-VA"
+msgstr ""
+
+msgctxt "#30059"
+msgid "CGA"
+msgstr ""
+
+msgctxt "#30060"
+msgid "New CGA"
+msgstr ""
+
+msgctxt "#30061"
+msgid "MDA"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Hercules"
+msgstr ""
+
+msgctxt "#30063"
+msgid "EGA"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Compaq EGA"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Super EGA"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Trident TVGA8900D"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Tseng ET4000"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Tseng ET4000/W32p (Diamond Stealth 32)"
+msgstr ""
+
+msgctxt "#30069"
+msgid "S3 Vision864 (Paradise Bahamas 64)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "S3 764/Trio64 (Number Nine 9FX)"
+msgstr ""
+
+msgctxt "#30071"
+msgid "S3 Virge"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Trident TGUI9440"
+msgstr ""
+
+msgctxt "#30073"
+msgid "IBM VGA"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Compaq/Paradise VGA"
+msgstr ""
+
+msgctxt "#30075"
+msgid "ATI VGA Edge-16"
+msgstr ""
+
+msgctxt "#30076"
+msgid "ATI VGA Charger"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Oak OTI-067"
+msgstr ""
+
+msgctxt "#30078"
+msgid "ATI Graphics Pro Turbo (Mach64)"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Cirrus Logic CL-GD5429"
+msgstr ""
+
+msgctxt "#30080"
+msgid "S3 Virge/DX"
+msgstr ""
+
+msgctxt "#30081"
+msgid "S3 732/Trio32 (Phoenix)"
+msgstr ""
+
+msgctxt "#30082"
+msgid "S3 764/Trio64 (Phoenix)"
+msgstr ""
+
+msgctxt "#30083"
+msgid "nVidia Riva TNT"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Incolor"
+msgstr ""
+
+msgctxt "#30085"
+msgid "nVidia Riva 128"
+msgstr ""
+
+msgctxt "#30086"
+msgid "AdLib (No DSP)"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Soundblaster 1 (DSP v1.05)"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Soundblaster 1.5 (DSP v2.00)"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Soundblaster 2 (DSP v2.01)"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Soundblaster Pro (DSP v3.00)"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Soundblaster Pro 2 (DSP v3.02 + OPL3)"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Soundblaster 16 (DSP v4.05 + OPL3)"
+msgstr ""
+
+msgctxt "#30093"
+msgid "AdLib Gold"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Windows Sound System"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Pro Audio Spectrum 16"
+msgstr ""
